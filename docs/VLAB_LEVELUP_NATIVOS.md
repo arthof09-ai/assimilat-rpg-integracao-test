@@ -59,6 +59,12 @@ A nova etapa da bancada exige que **as cinco alterações sejam rejeitadas pelo 
 - **VLAB Stage12:** testes adicionais de integração foram sondados somente em cópia local. Casos exigiram `runtime/reconstruction/STAGE10_SOURCE_RECONCILIATION_MASTER_ONLY.json` e `STAGE12_FUNCTIONAL_FUSION_MATRIX_MASTER_ONLY.json`, ausentes do ZIP R237. Não incluir essa bateria em CI nem considerá-la aprovada sem comprovação de proveniência e autorização do responsável VLAB.
 - **Custo/continuidade:** workflow gratuito condicionado à franquia do GitHub, duração cerca de um minuto para ambas as baterias e sem novas ações do Mestre pelo Android. Replit suspenso. Nada alterado em Notion das outras operações, Party, O Primeiro ou cânone.
 
+## Como consultar pelo Android — três etapas visíveis
+
+Abra [GitHub Actions — Native Engines](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/workflows/native-engines.yml) e escolha a execução mais recente da branch principal. Dentro de **Original source only — combat & progression**, verifique três etapas com status próprio: **verificar ZIP e hashes**, **VLAB (combates, 215 testes e cinco adulterações)** e **LEVEL-UP (184 dirigidos e 2.026 históricos)**. Verde significa apenas que aquela bateria executou sem erro; vermelho sinaliza a etapa a investigar. O LEVEL-UP pode continuar após falha do VLAB quando as fontes de ambos estiverem verificadas.
+
+Para economizar a franquia: o workflow é disparado por PR de mudança de código/teste/entrada e por atualização da `main` depois do merge, **não por cada push em uma branch sem PR**. Não há cobrança extra contratada, mas os minutos e armazenamento de GitHub Actions estão sujeitos às cotas vigentes. Atualizações feitas apenas em Notion **não são sincronizadas automaticamente** ao GitHub; cada nova versão de motor precisa de transferência identificada e hashes revisados por operador autorizado.
+
 ## Integração contínua futura
 
 A versão original já está salva. O Comestre poderá propor **alterações de código em branches** e comparar a execução contra o baseline original. O GitHub preserva histórico de alterações, regressões, seeds, resultados e erros. Não constitui COMESTRE-ID ou atribuição de writer. O responsável da operação continua dono de seu laboratório.
@@ -70,4 +76,4 @@ A versão original já está salva. O Comestre poderá propor **alterações de 
 - [Diário da integração](https://app.notion.com/p/400c2b324ede8102ad79e3c9d54a34ef) e [Diretriz GH-RP-01](https://app.notion.com/p/400c2b324ede8147bc9af2160e0b1a8e) controlam continuidade e limites.
 - **Replit suspenso**, sem novos gastos, por decisão do Mestre.
 
-**Estado:** GitHub CI original VLAB R237 **PASS (8 combates, 8/8 bancos semanticamente idênticos)**; LEVEL-UP R216-P12 **PASS 184/184 casos direcionados**; 2.026 testes históricos **não reproduzidos neste CI**. TEST / produção, Party, O Primeiro e cânone **HOLD/NO-WRITE**. Replit suspenso.
+**Estado vigente:** [PR #7](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/7) e [PR #8](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/8) confirmaram no GitHub CI **VLAB 8 combates + 215 testes nativos + 5 falsificações rejeitadas**, bem como **LEVEL-UP 184 dirigidos e 2.026 históricos em 8 shards / 55 módulos**. [PR #9](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/9) separou as etapas VLAB e LEVEL-UP para leitura no Android; [PR #10](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/10) reduz jobs duplicados de push e PR. TEST / produção, Party, O Primeiro e cânone **HOLD/NO-WRITE**. Replit suspenso.
