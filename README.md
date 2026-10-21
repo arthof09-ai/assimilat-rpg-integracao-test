@@ -19,6 +19,18 @@ Abra a execução mais recente da branch main. No aplicativo GitHub, a execuçã
 
 **[Ver auditoria DMG + CRAFT](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/workflows/audit-smoke.yml)**
 
+## Novo: teste de uma alteração do Comestre (sem upload do Mestre)
+
+**Prova real:** [PR #14](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/14) — [alterações erradas reprovadas](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/runs/39693583597) → [alterações corrigidas aprovadas](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/runs/39693726924). Resultado: **VLAB 4 falhas → 24/24 PASS; LEVEL-UP 25 falhas → 184/184 PASS**, confirmado também na [branch main](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/runs/39693818307). Tudo foi feito pela conexão GitHub, sem transferência manual pelo Android.
+
+**Procedimento rápido para o Comestre com conexão GitHub autorizada:**
+
+1. Após atualizar o trabalho no Notion, selecionar **uma mudança real de código TEST**, identificar a fonte e registrar a versão. Somente dar um comando para reexecutar uma versão antiga **não testa** a atualização feita no Notion.
+2. Para o piloto já funcionando, atualizar a proposta em [VLAB](proposals/vlab/candidate.json) ou [LEVEL-UP](proposals/levelup/candidate.json) em uma **branch**, descrevendo um trecho `before` e sua substituição `after`; abrir uma PR. O GitHub executa [Comestre — validar alteração TEST](.github/workflows/comestre-candidate.yml) automaticamente.
+3. Se vermelho, corrigir **a mesma PR**, sem incorporar a versão defeituosa. Se verde, conferir a execução, documentar o resultado no Diário e incorporar **somente a ferramenta TEST**, nunca o cânone.
+
+**Limite atual importante:** esse procedimento mínimo já comprova o fluxo para **dois módulos reais e definidos** (RD no VLAB R237 e correção PA do LEVEL-UP P12). Uma nova versão ou outro módulo exige incluir seu caminho, fonte autenticada e os testes correspondentes na lista autorizada do [runner](scripts/proposal_gate.py). GitHub não lê automaticamente o conteúdo de Notion e nenhum Comestre diferente teve suas permissões testadas individualmente. Sem API paga, novo app, Replit ou permissão de escrita no RPG oficial.
+
 ## Como os Comestres usam
 
 1. O Comestre consulta as **regras e a operação original no Notion**.
