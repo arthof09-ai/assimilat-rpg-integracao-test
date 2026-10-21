@@ -1,6 +1,6 @@
 # Integração dos motores originais — VLAB R237 e LEVEL-UP R216-P12
 
-**Status: preparada, mas execução GitHub do VLAB/LEVEL-UP ainda depende de enviar um único pacote ZIP combinado com os dois originais.** Não confundir a aprovação dos testes preparatórios com a execução dos motores.
+**Status em 21/10/2026: dois motores originais executados e aprovados no GitHub Actions.** O ZIP combinado foi enviado pelo Mestre pelo Android, conferido por SHA-256 e Git blob. A versão inicial do workflow detectou diferença binária entre SQLite gerado em máquinas distintas; PR #6 adicionou verificação de integridade e igualdade semântica integral (schema + linhas) e passou no GitHub.
 
 ## Por que estes dois motores são os prioritários
 
@@ -23,24 +23,23 @@ O runner [native_engine_ci.py](../../scripts/native_engine_ci.py) rejeita qualqu
 - LEVEL-UP: **PASS** — pacote P12 autenticado, 370 hashes, suíte nativa específica `test_ibx114_r216p12_master_correction` executou **184/184** testes. A verificação histórica completa de 2.026 testes está documentada no recibo original, não é uma conclusão do presente CI GitHub.
 - Ambos: execução em cópias locais, com ambiente sem credenciais de produção e sem mutações do Notion.
 
-## Último passo para executar **no GitHub** — uma única transferência pelo Android
+## Upload pelo Android — etapa concluída (sem novo envio)
 
-Preparei **um só arquivo** para enviar, sem código, sem assinatura e sem computador:
+O Mestre já enviou pelo Chrome um único arquivo, sem código, assinatura ou computador:
 
 **`ASSIMILACAO_NATIVE_INPUTS_R237_P12_20261021.zip`** (3.140.244 bytes), SHA-256 `6d28bb0412be08e7b54d5725d73fc4918566e9415bfcaa66f033101cfd57ac84`. Ele contém os dois ZIPs originais intactos e um manifesto verificável, evitando dois uploads manuais.
 
-1. Baixar esse arquivo diretamente na conversa do ChatGPT, para o armazenamento local do Android. **Não extraia** o arquivo.
-2. Pelo **Chrome**, acessar [lab-inputs](../lab-inputs/README.md) no repositório privado do Mestre.
-3. Selecionar **Add file → Upload files**, localizar o arquivo ZIP único, fazer upload e tocar em **Commit changes**.
-4. O [workflow Native Engines](../.github/workflows/native-engines.yml) verifica primeiro SHA-256 do arquivo combinado, extrai só os dois ZIPs pinados, valida os dois manifestos individuais e roda os programas originais VLAB R237 e LEVEL-UP P12. A página **Actions** mostrará se passou ou falhou.
+O arquivo está em [lab-inputs](../lab-inputs/README.md). A identidade binária coincide com o pacote original: Git blob `98af6c8b7b12cc06140686f74220716704384741`; commit de upload `dca4e3c755da4effbb01104965da6e71c6135b7d`.
 
-**Importante:** a execução VLAB/LEVELUP no GitHub permanece **PENDENTE** até a presença real do pacote e prova do status do job remoto. O check verde no PR #5 aprovou apenas os testes preparatórios + ferramentas já integradas (DMG e CRAFT).
+O [workflow Native Engines](../.github/workflows/native-engines.yml) verificou o pacote combinado e os manifestos de ambos os ZIPs e executou código original do VLAB e do LEVEL-UP. [Execução remota de aprovação](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/runs/39675022018) e [PR #6 da correção](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/6) com quatro testes de portabilidade aprovados.
+
+**Importante:** a execução remota está **PASS no escopo TEST**, não certificada como implementação canônica. O primeiro job remoto #1 falhou estritamente na exigência de igualdade física de bancos SQLite, antes da correção: [registro da falha](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/runs/39674136110). Em máquinas diferentes, os 8 bancos regenerados têm **0/8 SHA de arquivo coincidente, mas 8/8 fingerprints semânticos coincidentes**, incluindo esquema e todas as linhas, além do resultado PASS do auditor mecânico original (8 lutas, 155 commits, 640 eventos). Se qualquer linha/esquema mudar, o teste falha. No ambiente local original, os oito bancos foram byte-idênticos.
 
 O workflow preserva compatibilidade com ZIPs separados eventualmente disponíveis, mas o plano preferido e mais simples para Android é **um único upload** do pacote combinado.
 
 ## Integração contínua futura
 
-Depois que a versão original estiver salva, o Comestre poderá propor **alterações de código em branches** e comparar a execução contra o baseline original. O GitHub preserva histórico de alterações, regressões, seeds, resultados e erros. Não constitui COMESTRE-ID ou atribuição de writer. O responsável da operação continua dono de seu laboratório.
+A versão original já está salva. O Comestre poderá propor **alterações de código em branches** e comparar a execução contra o baseline original. O GitHub preserva histórico de alterações, regressões, seeds, resultados e erros. Não constitui COMESTRE-ID ou atribuição de writer. O responsável da operação continua dono de seu laboratório.
 
 ## Hierarquia do RPG
 
@@ -49,4 +48,4 @@ Depois que a versão original estiver salva, o Comestre poderá propor **altera�
 - [Diário da integração](https://app.notion.com/p/400c2b324ede8102ad79e3c9d54a34ef) e [Diretriz GH-RP-01](https://app.notion.com/p/400c2b324ede8147bc9af2160e0b1a8e) controlam continuidade e limites.
 - **Replit suspenso**, sem novos gastos, por decisão do Mestre.
 
-**Estado:** TEST / produção HOLD / integração remota VLAB e LEVEL-UP ainda NÃO comprovada até obter os ZIPs no GitHub e observar os jobs.
+**Estado:** GitHub CI original VLAB R237 **PASS (8 combates, 8/8 bancos semanticamente idênticos)**; LEVEL-UP R216-P12 **PASS 184/184 casos direcionados**; 2.026 testes históricos **não reproduzidos neste CI**. TEST / produção, Party, O Primeiro e cânone **HOLD/NO-WRITE**. Replit suspenso.
