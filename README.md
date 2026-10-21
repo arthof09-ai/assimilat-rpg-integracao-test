@@ -11,7 +11,7 @@ Abra a execução mais recente da branch main. No aplicativo GitHub, a execuçã
 | Operação | O que já foi executado remotamente | O que ainda não significa |
 |---|---|---|
 | **VLAB R237** | 8 combates, 155 commits, 640 eventos; 8 bancos equivalentes em esquema e linhas; **215 testes nativos** e **5 falsificações rejeitadas** | Os 17 contratos terminais continuam sem certificação; casos Stage12 com fontes originais ausentes seguem HOLD |
-| **LEVEL-UP R216-P12** | **184 testes dirigidos** e **2.026 testes históricos** em 55 módulos / 8 grupos | Os 184 não devem ser somados aos 2.026 como casos independentes; não faz atualização de fichas oficiais |
+| **LEVEL-UP R216-P12** | **184 testes dirigidos**, **2.026 testes históricos** em 55 módulos / 8 grupos e aviso de **25 campos de ataque/dano P12 com apresentação incorreta** | Verde significa que o motor P12 passou e que os 25 problemas foram reconhecidos; **não significa que a apresentação P13 foi testada ou que as fichas foram corrigidas**. Os 184 se sobrepõem à bateria histórica |
 | **DMG C29** | 38 verificações matemáticas + 5 de consistência, 10 saídas históricas equivalentes e 5 testes de adulteração | Não é validação geral de todas as técnicas, fontes ou regras de dano |
 | **CRAFT F5/B30** | 10 testes do mecanismo original que nega autorizações indevidas | Não executa a fábrica inteira nem homologa os 46 casos completos |
 
