@@ -21,7 +21,8 @@
 ## Estado comprovado, 21/10/2026
 - Repositório privado conectado ao ChatGPT com leitura e escrita.
 - Workflow `Test Integrity Auditor #1`: tela do GitHub Android apresentada pelo Mestre mostra **verde/sucesso, 10 segundos, branch main**. Confirma o workflow remoto; os oito testes foram antes verificados localmente e o workflow usa fixtures sintéticas, **não** os ZIPs reais dos motores.
-- **Integração nativa DMG C29:** [PR #1](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/1) validada no CI (#10), dois scripts originais com SHA, 43 verificações e 10 saídas; [PR #2](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/2) validada no CI (#13), cinco regressões fail-closed. Ambas incorporadas em main. Isso não altera a OP DMG ou o cânone.
+- **DMG C29 nativo:** PR #1 (#10 CI), PR #2 (#13 CI), PR #3 (#24 CI), todas incorporadas em main. Dois scripts originais preservados por SHA, 43 verificações TOTAIS (38 numéricas + 5 de consistência), 10 saídas byte-idênticas, cinco regressões fail-closed. Nenhuma homologação de produção.
+- **CRAFT F5/B30 nativo:** [PR #4](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/4), CI #31 SUCCESS e merge em main: cópia verificada de função ORIGINAL de admissão de evidências com **10 testes**. Não reproduz a suíte completa de 46 testes do CRAFT, não dá GREEN, não cria REC-ID nem aciona o escritor Notion.
 - Replit TEST permanece SUSPENSO por decisão do Mestre: não usá-lo como dependência de continuidade nem contratar plano.
 - Qualquer novo marco deve iniciar com readback e terminar com um alternante numerado GH-RP-DNNN no Diário do Notion.
 
