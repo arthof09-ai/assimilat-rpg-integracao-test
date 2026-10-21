@@ -5,7 +5,7 @@ Apoio ao [laboratório independente](https://app.notion.com/p/400c2b324ede816e8b
 ## O que já está funcionando
 
 1. **Auditor ZIP:** [scripts/audit_zip.py](../scripts/audit_zip.py) valida manifestos, CRC e caminhos em arquivos fornecidos localmente. Oito testes sintéticos estão em [tests/test_archive_audit.py](../tests/test_archive_audit.py).
-2. **Replay real e nativo do DMG C29:** [experiments/dmg_c29/README.md](../experiments/dmg_c29/README.md) documenta os **dois scripts originais** do C29, preservados sem alteração de bytes em cópia compacta. O runner [tests/run_dmg_c29_native.py](../tests/run_dmg_c29_native.py) confere SHA-256, reproduz **43 verificações numéricas** e valida que **10 arquivos derivados são byte-idênticos aos históricos**. `F0=4/8 HOLD`, `A5=0/7 HOLD`, sem alteração canônica.
+2. **Replay real e nativo do DMG C29:** [experiments/dmg_c29/README.md](../experiments/dmg_c29/README.md) documenta os **dois scripts originais** do C29, preservados sem alteração de bytes em cópia compacta. O runner [tests/run_dmg_c29_native.py](../tests/run_dmg_c29_native.py) confere SHA-256, reproduz **43 verificações (38 matemáticas e 5 de consistência documental)** e valida que **10 arquivos derivados são byte-idênticos aos históricos**. `F0=4/8 HOLD`, `A5=0/7 HOLD`, sem alteração canônica.
 3. **Cinco regressões de integridade:** [tests/test_dmg_c29_guards.py](../tests/test_dmg_c29_guards.py) executa o caso válido e demonstra rejeição de bundle adulterado, script com hash incorreto, saída indevidamente alterada e ausência do arquivo. Nenhum teste autoriza alteração de produção.
 
 ## Evidência e reprodução

@@ -37,7 +37,9 @@ class TestC29ColdFailClosed(unittest.TestCase):
     def test_original_replica_reproducible(self):
         out = self.run_native()
         self.assertEqual(out.returncode, 0, out.stderr)
-        self.assertIn('"numeric_checks": 43', out.stdout)
+        self.assertIn('"total_checks": 43', out.stdout)
+        self.assertIn('"formula_checks": 38', out.stdout)
+        self.assertIn('"consistency_checks": 5', out.stdout)
         self.assertIn('"regenerated_identical": 10', out.stdout)
 
     def test_bundle_tampering_fails_closed(self):

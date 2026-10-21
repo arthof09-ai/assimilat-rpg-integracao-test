@@ -57,16 +57,21 @@ def main():
         mismatch = sorted(k for k in expected if k in actual and actual[k] != expected[k])
         assert not (missing or extra or mismatch), {"missing": missing, "extra": extra, "hash_mismatches": mismatch}
         independent = json.loads((pub / "C29_SECOND_NUMERICAL_ALGORITHM.json").read_text())
-        assert independent["n"] == spec["expected_numeric_checks"]
+        assert independent["n"] == spec["expected_total_checks"]
         assert independent["passed"] == independent["n"]
         assert all(c["passed"] for c in independent["items"])
+        formula = [c for c in independent["items"] if c["name"].startswith(("dist_", "prob_mass_", "all_positive_", "mode_", "anti_"))]
+        consistency = [c for c in independent["items"] if c not in formula]
+        assert len(formula) == spec["expected_formula_checks"]
+        assert len(consistency) == spec["expected_consistency_checks"]
         summary = json.loads((pub / "C29_SUMMARY_METRICS.json").read_text())
         assert summary["CANONICAL_DMG_CHANGE"] == 0
         assert summary["F0_FORMAL"] == "4/8 HOLD"
         assert summary["F0_A5_BYTES"] == "0/7 HOLD"
         assert len(actual) == spec["expected_regenerated_files"]
         print(json.dumps({"status":"PASS_C29_NATIVE_COLD_TEST_ONLY", "original_scripts":2,
-                          "numeric_checks":independent["passed"],"regenerated_identical":len(actual),
+                          "total_checks":independent["passed"], "formula_checks":len(formula),
+                          "consistency_checks":len(consistency), "regenerated_identical":len(actual),
                           "production_writes":0,"canonicity":"HOLD"}, sort_keys=True))
 
 

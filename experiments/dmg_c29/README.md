@@ -8,7 +8,7 @@ O código original foi preservado em `original_scripts.xz.b64` apenas para trans
 
 `python -I -B tests/run_dmg_c29_native.py`
 
-Resultado esperado: `PASS_C29_NATIVE_COLD_TEST_ONLY`, **43 validações numéricas**, **10 saídas regeneradas e byte-idênticas**, `CANONICAL_DMG_CHANGE=0`, F0 4/8 HOLD e fontes A5 0/7 HOLD. O workflow do GitHub executa também os 8 testes sintéticos anteriores.
+Resultado esperado: `PASS_C29_NATIVE_COLD_TEST_ONLY`, **43 verificações totais (38 matemáticas e 5 controles documentais/de consistência)**, **10 saídas regeneradas e byte-idênticas**, `CANONICAL_DMG_CHANGE=0`, F0 4/8 HOLD e fontes A5 0/7 HOLD. O workflow do GitHub executa também os 8 testes sintéticos anteriores.
 
 ## Integridade
 
