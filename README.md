@@ -31,6 +31,20 @@ Abra a execução mais recente da branch main. No aplicativo GitHub, a execuçã
 
 **Limite atual importante:** esse procedimento mínimo já comprova o fluxo para **dois módulos reais e definidos** (RD no VLAB R237 e correção PA do LEVEL-UP P12). Uma nova versão ou outro módulo exige incluir seu caminho, fonte autenticada e os testes correspondentes na lista autorizada do [runner](scripts/proposal_gate.py). GitHub não lê automaticamente o conteúdo de Notion e nenhum Comestre diferente teve suas permissões testadas individualmente. Sem API paga, novo app, Replit ou permissão de escrita no RPG oficial.
 
+## Na mesma conversa: enviar → receber → corrigir
+
+O Comestre **não precisa esperar o Mestre olhar o GitHub**. Após registrar sua versão no Notion, usa sua conexão GitHub (se disponível), envia a alteração TEST por PR e **consulta a execução do GitHub Actions ainda na mesma interação**. O GitHub não escreve espontaneamente no chat: o Comestre consulta status e logs.
+
+| Retorno do GitHub | O Comestre faz |
+|---|---|
+| ✅ **PASS** | Confere PR, hash/commit, testes necessários e autoridade; incorpora apenas a alteração TEST autorizada e registra no Diário |
+| ❌ **FAIL** | Lê o erro, corrige **na mesma PR**, espera a nova execução e confere novamente; não incorpora versão defeituosa |
+| ⏳ **PENDING** | Consulta novamente enquanto a sessão permitir; se continuar pendente, fornece link e estado real — nunca inventa conclusão |
+
+**[Abrir o workflow de propostas do Comestre](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/workflows/comestre-candidate.yml)** · [Prova RED → GREEN da PR #14](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/14).
+
+**Regra operacional:** não alterar `main` diretamente, não mesclar falhas, não promover regra canônica. A proteção técnica de branch do repositório privado não foi confirmada na configuração gratuita: estes controles exigem atuação responsável do Comestre e conferência do estado real. Não contratar plano para instalar controles adicionais. O piloto aceita dois módulos; ampliar somente quando houver uma mudança concreta. [Instruções completas para agentes](AGENTS.md).
+
 ## Como os Comestres usam
 
 1. O Comestre consulta as **regras e a operação original no Notion**.
