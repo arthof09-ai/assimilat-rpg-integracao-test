@@ -52,6 +52,14 @@ O VLAB já inclui o script original `code/r237_adversarial_rehash.py`. Em um dir
 
 A nova etapa da bancada exige que **as cinco alterações sejam rejeitadas pelo auditor independente**, que os cinco recibos confirmem a recomposição de hash e que o banco original permaneça intacto (comparação SHA-256 antes/depois). O conteúdo do motor original não foi modificado. Esse é um **gate adversarial documental e mecânico TEST**, sem conceder writer, sem transação canônica e sem afirmar certificação terminal.
 
+## LEVEL-UP — fonte P12 e apresentação posterior P13/P14 não são a mesma entrega
+
+A base pinada desta CI é o **motor e as fichas experimentais R216-P12**. Uma auditoria **P13** posterior do próprio LEVEL-UP detectou **25 campos de apresentação** na P12 em que a expressão de dano físico da arma incluía de forma indevida parcelas de FOR e Luta, ainda que o campo interno FOR_damage_bonus_applied fosse zero. A apresentação P13 propôs separar a expressão de teste de ataque do dano físico; isso não muda os cálculos de evolução ou torna a apresentação uma regra nova. A inspeção em cópia TEST do pacote original P13 (SHA-256 76ca794ffe4845ab967dd38b5936bfdd30e0300d22c1ceca7b0b1386e184dfe7) encontrou nove arquivos autenticados por SHA, relatório independente de 705 verificações documentais após segregar as anomalias esperadas, e **sete testes de visualização P13 PASS localmente**. Isso **não comprova** transação nativa Notion ou VLAB combate.
+
+Registro **P14** posterior da Biblioteca declara 290/290 checks de auditoria de conteúdo baseados ainda no P12 e relata 25 fichas / 20 transformações no Notion; não é pacote substituto do motor P12, e **não foi executado neste GitHub CI**.
+
+Para impedir falsos entendimentos, o [scanner P12](../scripts/levelup_display_gap_guard.py) autentica o ZIP e o JSON de fonte e emite um **aviso explícito de 25 lacunas legadas**: cinco fichas em cada patamar Bronze, Prata, Ouro, Ouro Negro e Lendário. A execução desse scanner **não corrige as fichas nem valida o view-model P13**; sua classificação é KNOWN_P12_PRESENTATION_GAP_NOT_ENGINE_PASS. Se a fonte mudar, uma nova base/hash e a auditoria do Comestre dono deverão ser aprovadas, sem alteração automática de Party, Mestre ou cânone.
+
 ## Fronteiras científicas da ampliação
 
 - **Cobertura adicional:** 215 testes do diretório `runtime/native` são testes programados originais de recursos nativos, mas não homologam todas as regras de combate nem os 17 contratos terminais. A prova R237 de 8 combates/155 commits/640 eventos continua separada.
