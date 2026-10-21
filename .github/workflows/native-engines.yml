@@ -37,6 +37,39 @@ jobs:
           python -m py_compile scripts/native_engine_ci.py
           vlab='lab-inputs/VLAB_R237_LIVE_FRACO_TRANSITION_NATIVE_COLD_AUDITED_MESTRE_ONLY.zip'
           levelup='lab-inputs/IBX114_SUCESSOR_R216P12_MESTRE_CORRIGIDO_20261021_MESTRE_ONLY.zip'
+          # One Android upload for both original archives; never trust name alone.
+          bundle='lab-inputs/ASSIMILACAO_NATIVE_INPUTS_R237_P12_20261021.zip'
+          if [[ -f "$bundle" ]]; then
+            python - <<'PY'
+          import hashlib
+          import json
+          from pathlib import Path
+          import zipfile
+
+          source = Path("lab-inputs/ASSIMILACAO_NATIVE_INPUTS_R237_P12_20261021.zip")
+          pinned_sha = "6d28bb0412be08e7b54d5725d73fc4918566e9415bfcaa66f033101cfd57ac84"
+          assert hashlib.sha256(source.read_bytes()).hexdigest() == pinned_sha, "BUNDLE_SHA_MISMATCH"
+          expected = {
+              "VLAB_R237_LIVE_FRACO_TRANSITION_NATIVE_COLD_AUDITED_MESTRE_ONLY.zip":
+                "49c2db6ebf8fdae8e378355c3f017e95afe879c7e29ba72086044afdd190d4de",
+              "IBX114_SUCESSOR_R216P12_MESTRE_CORRIGIDO_20261021_MESTRE_ONLY.zip":
+                "619fe210a2e8469df59f7db001220c97309cae79054b7574284a5047c633e4de",
+          }
+          with zipfile.ZipFile(source) as archive:
+              names = archive.namelist()
+              assert len(names) == 3 and set(names) == set(expected) | {"MANIFEST_INTEGRACAO_TEST.json"}, "BUNDLE_CONTENTS_MISMATCH"
+              assert archive.testzip() is None, "BUNDLE_CRC_MISMATCH"
+              for name, pinned in expected.items():
+                  payload = archive.read(name)
+                  assert hashlib.sha256(payload).hexdigest() == pinned, "INNER_ARCHIVE_SHA_MISMATCH:" + name
+                  (Path("lab-inputs") / name).write_bytes(payload)
+              manifest = json.loads(archive.read("MANIFEST_INTEGRACAO_TEST.json"))
+              assert set(manifest["archives"]) == set(expected), "INNER_MANIFEST_MISMATCH"
+              for name, pinned in expected.items():
+                  assert manifest["archives"][name]["sha256"] == pinned, "BUNDLE_MANIFEST_SHA_MISMATCH"
+          print("ONE_BUNDLE_TWO_ORIGINAL_ENGINES: HASH_PASS")
+          PY
+          fi
           executed=0
           if [[ "$ENGINE_SELECTION" == "vlab" || "$ENGINE_SELECTION" == "available" ]]; then
             if [[ -f "$vlab" ]]; then
