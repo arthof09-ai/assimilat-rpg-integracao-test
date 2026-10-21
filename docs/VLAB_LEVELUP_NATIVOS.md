@@ -6,7 +6,7 @@
 
 **VLAB:** o pacote R237 possui 241 programas Python e oito bancos de confrontos. Reexecutar os mesmos scripts e sementes produz oito bancos SQLite idênticos, com 155 commits, 640 eventos e oito passagens da condição normal para Fraco. Não é outro motor de combate: são os programas originais, sem modificações.
 
-**LEVEL-UP:** o pacote atual é **R216-P12** (substitui P11). Possui 116 programas Python e a correção do Mestre para **dois Anéis da Alma = +100 PA livres, zero gasto diário**. Nosso gate rápido executa **184 testes nativos dirigidos do P12**; a bateria histórica completa de **2.026 testes** é outro gate, não executado remotamente aqui.
+**LEVEL-UP:** o pacote atual é **R216-P12** (substitui P11). Possui 116 programas Python e a correção do Mestre para **dois Anéis da Alma = +100 PA livres, zero gasto diário**. O gate rápido executa **184 testes nativos dirigidos do P12** e a expansão [PR #7](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/7) executa **2.026 testes históricos originais por 55 módulos em oito shards**. Ambos concluídos com sucesso no GitHub.
 
 ## Fontes pinadas
 
@@ -20,7 +20,7 @@ O runner [native_engine_ci.py](../../scripts/native_engine_ci.py) rejeita qualqu
 ## Testes locais já realizados
 
 - VLAB: **PASS** — motor R237 original reexecutou oito combates, o auditor original reproduziu 155 commits / 640 eventos e os oito SQLite gerados tiveram o mesmo SHA-256 dos originais. Também passou a auditoria fria dos 299 arquivos.
-- LEVEL-UP: **PASS** — pacote P12 autenticado, 370 hashes, suíte nativa específica `test_ibx114_r216p12_master_correction` executou **184/184** testes. A verificação histórica completa de 2.026 testes está documentada no recibo original, não é uma conclusão do presente CI GitHub.
+- LEVEL-UP: **PASS** — pacote P12 autenticado, 370 hashes, suíte nativa específica `test_ibx114_r216p12_master_correction` executou **184/184** testes; em etapa adicional, o executor ORIGINAL `orc25_sharded_test_runner.py` rodou todos os **55 módulos e 2.026 testes em oito shards** no GitHub, com recibo conferido. Não afirmar que foi uma execução monolítica.
 - Ambos: execução em cópias locais, com ambiente sem credenciais de produção e sem mutações do Notion.
 
 ## Upload pelo Android — etapa concluída (sem novo envio)
@@ -39,12 +39,19 @@ O workflow preserva compatibilidade com ZIPs separados eventualmente disponívei
 
 ## Ampliação de regressões originais — proposta de GitHub Actions
 
-O runner adicional [scripts/native_full_regression.py](../scripts/native_full_regression.py) usa o **mesmo código original** dos ZIPs já pinados e nunca importa variantes substitutivas de regras. Após o gate existente de 8 combates VLAB e 184 testes P12, executa:
+O runner adicional [scripts/native_full_regression.py](../scripts/native_full_regression.py) usa o **mesmo código original** dos ZIPs já pinados e nunca importa variantes substitutivas de regras. Após o gate existente de 8 combates VLAB e 184 testes P12, executou efetivamente:
 
 - **VLAB R237:** todos os testes do diretório original `runtime/native/test_*.py`, exigindo **215 testes bem-sucedidos**, sem falhas ou erros. Esta bateria cobre módulos de dano/RD, efeitos, táticas e contratos condicionais conforme o conjunto de testes original; **não** certifica os 17 contratos terminais nem todas as funções do VLAB.
 - **LEVEL-UP R216-P12:** o executor original `orc25_sharded_test_runner.py`, com 55 módulos de testes completos, 8 shards, **2.026 testes**, zero módulos duplicados e zero falhas, verificando o recibo nativo gerado pelo próprio sistema. **Classificação expressa: PARALLEL_MODULE_SHARDS_NOT_MONOLITHIC**; não afirmar teste monolítico.
 
-Ambas as baterias passaram em cópias TEST locais após verificar os manifests SHA-256. A prova remota GitHub Actions deve ser avaliada separadamente; até conclusão do job não declarar CI estendido PASS. Nenhuma execução usa Notion, Party, O Primeiro, Replit, a Inbox ou os laboratórios de origem.
+Ambas as baterias passaram em cópias TEST locais **e** na infraestrutura remota: [PR #7](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/7), [GitHub Actions PR #7](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/runs/39681580512) e [GitHub Actions na main #8](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/runs/39681888006) estão **SUCCESS**, com outputs de 215/215 VLAB e 2.026/2.026 LEVEL-UP nos logs. Executar o pipeline automaticamente para mudanças do workflow ou do runner, ou manualmente para o mesmo snapshot de fontes; mudanças feitas apenas no Notion NÃO disparam GitHub Actions. Nenhuma execução usa Notion, Party, O Primeiro, Replit, a Inbox ou os laboratórios de origem.
+
+## Fronteiras científicas da ampliação
+
+- **Cobertura adicional:** 215 testes do diretório `runtime/native` são testes programados originais de recursos nativos, mas não homologam todas as regras de combate nem os 17 contratos terminais. A prova R237 de 8 combates/155 commits/640 eventos continua separada.
+- **LEVEL-UP P12:** `2.026` é total dos oito shards sobre 55 módulos originais, não execução monolítica, e não autoriza mudar fichas. Os `184` dirigidos são uma suíte específica que também participa do inventário mais amplo; **não somar 184 + 2.026 como se fossem disjuntos**.
+- **VLAB Stage12:** testes adicionais de integração foram sondados somente em cópia local. Casos exigiram `runtime/reconstruction/STAGE10_SOURCE_RECONCILIATION_MASTER_ONLY.json` e `STAGE12_FUNCTIONAL_FUSION_MATRIX_MASTER_ONLY.json`, ausentes do ZIP R237. Não incluir essa bateria em CI nem considerá-la aprovada sem comprovação de proveniência e autorização do responsável VLAB.
+- **Custo/continuidade:** workflow gratuito condicionado à franquia do GitHub, duração cerca de um minuto para ambas as baterias e sem novas ações do Mestre pelo Android. Replit suspenso. Nada alterado em Notion das outras operações, Party, O Primeiro ou cânone.
 
 ## Integração contínua futura
 
