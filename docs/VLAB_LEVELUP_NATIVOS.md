@@ -1,6 +1,6 @@
 # Integração dos motores originais — VLAB R237 e LEVEL-UP R216-P12
 
-**Status: preparada, mas execução GitHub do VLAB/LEVEL-UP ainda depende de transferir os dois ZIPs originais.** Não confundir a aprovação dos testes preparatórios com a execução dos motores.
+**Status: preparada, mas execução GitHub do VLAB/LEVEL-UP ainda depende de enviar um único pacote ZIP combinado com os dois originais.** Não confundir a aprovação dos testes preparatórios com a execução dos motores.
 
 ## Por que estes dois motores são os prioritários
 
