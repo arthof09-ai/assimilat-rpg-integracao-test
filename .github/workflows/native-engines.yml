@@ -7,6 +7,8 @@ on:
       - 'scripts/native_engine_ci.py'
       - 'scripts/native_full_regression.py'
       - 'scripts/levelup_display_gap_guard.py'
+      - 'scripts/verify_p13_original_view.py'
+      - 'experiments/levelup_p13/**'
       - '.github/workflows/native-engines.yml'
   pull_request:
     paths:
@@ -14,6 +16,8 @@ on:
       - 'scripts/native_engine_ci.py'
       - 'scripts/native_full_regression.py'
       - 'scripts/levelup_display_gap_guard.py'
+      - 'scripts/verify_p13_original_view.py'
+      - 'experiments/levelup_p13/**'
       - '.github/workflows/native-engines.yml'
   workflow_dispatch:
     inputs:
@@ -102,3 +106,12 @@ jobs:
           python -I -B scripts/native_full_regression.py --engine levelup --archive "$levelup"
           python -I -B scripts/levelup_display_gap_guard.py --archive "$levelup"
           echo 'LEVEL-UP: PASS — 184 dirigidos e 2.026 historicos; AVISO P12 LEGADO: 25 campos de exibicao ataque/dano diferentes, corrigidos apenas em view P13 externa ao CI' >> "$GITHUB_STEP_SUMMARY"
+      - name: LEVEL-UP P13 — conferir 25 correções de apresentação (TEST)
+        if: ${{ !cancelled() && steps.bundle.outcome == 'success' && inputs.engine != 'vlab' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          levelup='lab-inputs/IBX114_SUCESSOR_R216P12_MESTRE_CORRIGIDO_20261021_MESTRE_ONLY.zip'
+          test -f "$levelup" || { echo 'P12 SOURCE missing: P13 comparison HOLD'; exit 2; }
+          python -I -B scripts/verify_p13_original_view.py --p12-archive "$levelup"
+          echo 'LEVEL-UP P13: PASS (view original 7 testes, 25 correcoes de campo, 20 transformacoes, P12 original preservado). Nao valida paginas Notion nem canon.' >> "$GITHUB_STEP_SUMMARY"
