@@ -3,6 +3,13 @@ on:
   push:
     paths:
       - 'lab-inputs/*.zip'
+      - 'scripts/native_engine_ci.py'
+      - '.github/workflows/native-engines.yml'
+  pull_request:
+    paths:
+      - 'lab-inputs/*.zip'
+      - 'scripts/native_engine_ci.py'
+      - '.github/workflows/native-engines.yml'
   workflow_dispatch:
     inputs:
       engine:
