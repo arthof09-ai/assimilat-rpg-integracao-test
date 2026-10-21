@@ -18,8 +18,10 @@
     "C29_SUMMARY_METRICS.json": "6928ac0da4ffd4cea68e3516e2c77adaada3481a7c3b4ca0c2a768939c154ccc",
     "C29_VZ_8_RE_FIP_EXPLICITOS.csv": "850d145aa006f9944f055f85e018f1ea709a4a9422dd84f5fe03b1b8a36eb065"
   },
-  "expected_numeric_checks": 43,
   "expected_regenerated_files": 10,
   "baseline_scope": "DMG_C29_HISTORICAL_TEST_ONLY",
-  "claim": "cold numerical replay only, no production writer and no canonical promotion"
+  "claim": "cold numerical replay only, no production writer and no canonical promotion",
+  "expected_total_checks": 43,
+  "expected_formula_checks": 38,
+  "expected_consistency_checks": 5
 }
