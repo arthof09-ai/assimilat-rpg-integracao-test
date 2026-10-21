@@ -6,12 +6,14 @@ on:
       - 'lab-inputs/*.zip'
       - 'scripts/native_engine_ci.py'
       - 'scripts/native_full_regression.py'
+      - 'scripts/levelup_display_gap_guard.py'
       - '.github/workflows/native-engines.yml'
   pull_request:
     paths:
       - 'lab-inputs/*.zip'
       - 'scripts/native_engine_ci.py'
       - 'scripts/native_full_regression.py'
+      - 'scripts/levelup_display_gap_guard.py'
       - '.github/workflows/native-engines.yml'
   workflow_dispatch:
     inputs:
@@ -98,4 +100,5 @@ jobs:
           test -f "$levelup" || { echo 'LEVEL-UP source archive missing — FAIL'; exit 2; }
           python -I -B scripts/native_engine_ci.py --engine levelup --archive "$levelup"
           python -I -B scripts/native_full_regression.py --engine levelup --archive "$levelup"
-          echo 'LEVEL-UP: PASS — 184 testes dirigidos, 2.026 testes em 8 shards' >> "$GITHUB_STEP_SUMMARY"
+          python -I -B scripts/levelup_display_gap_guard.py --archive "$levelup"
+          echo 'LEVEL-UP: PASS — 184 dirigidos e 2.026 historicos; AVISO P12 LEGADO: 25 campos de exibicao ataque/dano diferentes, corrigidos apenas em view P13 externa ao CI' >> "$GITHUB_STEP_SUMMARY"
