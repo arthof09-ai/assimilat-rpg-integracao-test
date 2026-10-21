@@ -7,6 +7,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import sqlite3
 import os
 from pathlib import Path, PurePosixPath
 import stat
@@ -60,6 +61,46 @@ def verify(zippath, meta):
    raise ValueError("UNCOMPRESSED_BYTES_OVER_LIMIT")
  return meta["files"]
 
+def sqlite_content_fingerprint(path):
+ """Canonical semantic fingerprint of SQLite tables, schema and rows.
+ Physical SQLite pages and file headers can vary between runner versions.
+ No SQL writes and no source database changes are made.
+ """
+ uri=path.resolve().as_uri()+"?mode=ro&immutable=1"
+ con=sqlite3.connect(uri,uri=True)
+ try:
+  if con.execute("PRAGMA integrity_check").fetchone()[0]!="ok":
+   raise AssertionError("SQLITE_INTEGRITY_FAILURE:"+path.name)
+  schema=con.execute(
+    "SELECT type,name,tbl_name,sql FROM sqlite_master ORDER BY type,name,tbl_name"
+  ).fetchall()
+  h=hashlib.sha256()
+  def feed(record):
+   h.update(json.dumps(record,sort_keys=True,ensure_ascii=False,
+                       separators=(",",":"),default=str).encode("utf-8"))
+   h.update(b"\n")
+  feed(["schema",schema])
+  feed(["user_version",con.execute("PRAGMA user_version").fetchone()[0]])
+  feed(["application_id",con.execute("PRAGMA application_id").fetchone()[0]])
+  for kind,name,_,_ in schema:
+   if kind!="table":
+    continue
+   safe_name=name.replace('"','""')
+   # Compare all rows, ignoring only their incidental physical page order.
+   encoded=[]
+   for row in con.execute('SELECT * FROM "'+safe_name+'"'):
+    values=[{"blob_hex":v.hex()} if isinstance(v,bytes)
+            else {"float_hex":v.hex()} if isinstance(v,float)
+            else v for v in row]
+    encoded.append(json.dumps(values,ensure_ascii=False,separators=(",",":")))
+   feed(["table",name,"rows",len(encoded)])
+   for item in sorted(encoded):
+    h.update(item.encode("utf-8")+b"\n")
+  return h.hexdigest()
+ finally:
+  con.close()
+
+
 def run_original(root, relative, timeout=90):
  env={"PATH":os.environ.get("PATH",""),"HOME":str(root),"PYTHONNOUSERSITE":"1",
       "PYTHONDONTWRITEBYTECODE":"1","LC_ALL":"C.UTF-8"}
@@ -94,10 +135,21 @@ def replay_vlab(root,z):
   raise AssertionError("R237_METRICS_NOT_IDENTICAL")
  generated={f.relative_to(root).as_posix():digest(f.read_bytes())
             for f in (root/"evidence/db").glob("*.sqlite")}
- if original!=generated:
-  raise AssertionError("R237_SQLITE_NOT_BYTE_IDENTICAL")
+ if set(original)!=set(generated):
+  raise AssertionError("R237_SQLITE_SET_MISMATCH")
+ byte_identical=sum(original[n]==generated[n] for n in original)
+ semantically_different=[]
+ for n in sorted(original):
+  reference=root/"_ci_reference"/Path(n).name
+  reference.parent.mkdir(exist_ok=True)
+  reference.write_bytes(z.read(n))
+  if sqlite_content_fingerprint(reference)!=sqlite_content_fingerprint(root/n):
+   semantically_different.append(n)
+ if semantically_different:
+  raise AssertionError("R237_SQLITE_CONTENT_MISMATCH:"+",".join(semantically_different))
  return {"suite":"VLAB_R237","native_battles":8,"events":640,"commits":155,
-         "weak_transitions":8,"sqlite_byte_identical":8}
+         "weak_transitions":8,"sqlite_byte_identical":byte_identical,
+         "sqlite_semantically_identical":8}
 
 def replay_levelup(root):
  env={"PATH":os.environ.get("PATH",""),"HOME":str(root),
