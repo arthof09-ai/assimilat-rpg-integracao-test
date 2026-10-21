@@ -6,12 +6,14 @@ Este GitHub privado não é um novo RPG nem um Comestre. Ele **guarda versões e
 
 **[Abrir VLAB + LEVEL-UP no GitHub Actions](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/workflows/native-engines.yml)**
 
-Abra a execução mais recente da branch main. No aplicativo GitHub, a execução mostra **três etapas com resultado próprio**: (1) verificação do ZIP e das hashes de origem, (2) **VLAB — combate**, (3) **LEVEL-UP — evolução**. Verde indica que **aquela bateria TEST** passou; vermelho indica falha a investigar. O GitHub não certifica o cânone.
+Abra a execução mais recente da branch main. No aplicativo GitHub, a execução atual mostra **cinco etapas com resultado próprio**: (1) origem e hashes, (2) **VLAB R237 — combate**, (3) **LEVEL-UP P12 — evolução**, (4) **LEVEL-UP P13 — apresentação**, (5) **VLAB Stage10/12 — proveniência e contratos em HOLD**. Verde indica que **aquela bateria TEST** passou; vermelho indica falha a investigar. O GitHub não certifica o cânone.
 
 | Operação | O que já foi executado remotamente | O que ainda não significa |
 |---|---|---|
-| **VLAB R237** | 8 combates, 155 commits, 640 eventos; 8 bancos equivalentes em esquema e linhas; **215 testes nativos** e **5 falsificações rejeitadas** | Os 17 contratos terminais continuam sem certificação; casos Stage12 com fontes originais ausentes seguem HOLD |
-| **LEVEL-UP R216-P12** | **184 testes dirigidos**, **2.026 testes históricos** em 55 módulos / 8 grupos e aviso de **25 campos de ataque/dano P12 com apresentação incorreta** | Verde significa que o motor P12 passou e que os 25 problemas foram reconhecidos; **não significa que a apresentação P13 foi testada ou que as fichas foram corrigidas**. Os 184 se sobrepõem à bateria histórica |
+| **VLAB R237** | 8 combates, 155 commits, 640 eventos; 8 bancos equivalentes em esquema e linhas; **215 testes nativos** e **5 falsificações rejeitadas** | Esses testes não certificam os 17 contratos funcionais nem o motor de fusão |
+| **LEVEL-UP R216-P12** | **184 testes dirigidos** e **2.026 históricos**, com aviso de 25 expressões de apresentação legadas incorretas | Os 184 e os 2.026 não são conjuntos necessariamente disjuntos; P12 não foi retroativamente alterado |
+| **LEVEL-UP P13 (TEST)** | **7 testes originais** e **25/25 correções de expressão** verificadas contra o P12 imutável, usando a view P13 integral com hash | Não valida as páginas Notion P13/P14 nem promove fichas oficiais |
+| **VLAB Stage10/Stage12** | ZIPs históricos recuperados com **688/718 hashes locais**; no GitHub, duas fontes originais autenticadas e **17 contratos / 0 terminais certificados** | Os ZIPs completos não foram transferidos ao CI; não foi reexecutada a fusão histórica |
 | **DMG C29** | 38 verificações matemáticas + 5 de consistência, 10 saídas históricas equivalentes e 5 testes de adulteração | Não é validação geral de todas as técnicas, fontes ou regras de dano |
 | **CRAFT F5/B30** | 10 testes do mecanismo original que nega autorizações indevidas | Não executa a fábrica inteira nem homologa os 46 casos completos |
 
