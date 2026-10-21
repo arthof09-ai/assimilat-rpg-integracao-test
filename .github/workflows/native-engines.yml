@@ -1,6 +1,7 @@
 name: VLAB & LEVEL-UP — Native Engines (TEST)
 on:
   push:
+    branches: [main]
     paths:
       - 'lab-inputs/*.zip'
       - 'scripts/native_engine_ci.py'
