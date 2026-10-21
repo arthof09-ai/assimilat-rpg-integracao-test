@@ -4,11 +4,13 @@ on:
     paths:
       - 'lab-inputs/*.zip'
       - 'scripts/native_engine_ci.py'
+      - 'scripts/native_full_regression.py'
       - '.github/workflows/native-engines.yml'
   pull_request:
     paths:
       - 'lab-inputs/*.zip'
       - 'scripts/native_engine_ci.py'
+      - 'scripts/native_full_regression.py'
       - '.github/workflows/native-engines.yml'
   workflow_dispatch:
     inputs:
@@ -41,7 +43,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python -m py_compile scripts/native_engine_ci.py
+          python -m py_compile scripts/native_engine_ci.py scripts/native_full_regression.py
           vlab='lab-inputs/VLAB_R237_LIVE_FRACO_TRANSITION_NATIVE_COLD_AUDITED_MESTRE_ONLY.zip'
           levelup='lab-inputs/IBX114_SUCESSOR_R216P12_MESTRE_CORRIGIDO_20261021_MESTRE_ONLY.zip'
           # One Android upload for both original archives; never trust name alone.
@@ -81,8 +83,9 @@ jobs:
           if [[ "$ENGINE_SELECTION" == "vlab" || "$ENGINE_SELECTION" == "available" ]]; then
             if [[ -f "$vlab" ]]; then
               python -I -B scripts/native_engine_ci.py --engine vlab --archive "$vlab"
+              python -I -B scripts/native_full_regression.py --engine vlab --archive "$vlab"
               executed=$((executed+1))
-              echo 'VLAB_R237: PASS native code' >> "$GITHUB_STEP_SUMMARY"
+              echo 'VLAB_R237: PASS native 8 battles + 215 original unit tests' >> "$GITHUB_STEP_SUMMARY"
             elif [[ "$ENGINE_SELECTION" == "vlab" ]]; then
               echo 'VLAB_R237 archive missing; not a PASS' >&2
               exit 2
@@ -93,8 +96,9 @@ jobs:
           if [[ "$ENGINE_SELECTION" == "levelup" || "$ENGINE_SELECTION" == "available" ]]; then
             if [[ -f "$levelup" ]]; then
               python -I -B scripts/native_engine_ci.py --engine levelup --archive "$levelup"
+              python -I -B scripts/native_full_regression.py --engine levelup --archive "$levelup"
               executed=$((executed+1))
-              echo 'LEVELUP_R216P12: PASS 184 original tests' >> "$GITHUB_STEP_SUMMARY"
+              echo 'LEVELUP_R216P12: PASS 184 targeted + 2026 historical module-sharded tests' >> "$GITHUB_STEP_SUMMARY"
             elif [[ "$ENGINE_SELECTION" == "levelup" ]]; then
               echo 'LEVELUP_R216P12 archive missing; not a PASS' >&2
               exit 2
