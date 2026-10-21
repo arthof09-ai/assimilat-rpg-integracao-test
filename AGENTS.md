@@ -15,7 +15,7 @@
 5. Planeje o teste, rode em TEST, preserve artefato/sha/seed, faça readback do status e regist­re limites. PASS de GitHub Actions não certifica regras do jogo.
 6. Modificações por agentes: prefira branch/PR, revisão do diff e testes; evite force push e escrituras concorrentes. Diante de ação ambígua, confira o estado no servidor antes de repetir.
 7. REG-ROUTE-03: mantenha código aqui e o registro ANTES/DEPOIS no Diário do laboratório. Nunca misture logs operacionais a fichas, cenas, itens ou regras de jogo.
-8. O Replit Starter mostrou **cota gratuita esgotada até 20/11/2026** na interface do Mestre. Não faça upgrade, não compre créditos, não crie outro app para contornar a cota. Continue tarefas GitHub e offline independentes.
+8. **Decisão vigente do Mestre (21/10/2026): Replit SUSPENSO SEM PRAZO operacional.** A cota gratuita mensal inviabiliza a praticidade desejada. Não espere pelo reset de 20/11/2026 como requisito, não faça upgrade, não compre créditos, não chame o Agent nem crie outro app. A prioridade é ChatGPT + Notion + GitHub gratuito, com execução de testes locais quando mais simples; reabrir o tema Replit somente mediante nova decisão expressa do Mestre.
 9. Regras globais do Comestre/NAC prevalecem sobre qualquer comentário deste repositório. Só o Mestre/fluxo apropriado pode autorizar publicação ao cânone.
 
 ## Estado comprovado, 21/10/2026
