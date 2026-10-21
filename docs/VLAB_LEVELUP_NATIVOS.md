@@ -37,6 +37,15 @@ O [workflow Native Engines](../.github/workflows/native-engines.yml) verificou o
 
 O workflow preserva compatibilidade com ZIPs separados eventualmente disponíveis, mas o plano preferido e mais simples para Android é **um único upload** do pacote combinado.
 
+## Ampliação de regressões originais — proposta de GitHub Actions
+
+O runner adicional [scripts/native_full_regression.py](../scripts/native_full_regression.py) usa o **mesmo código original** dos ZIPs já pinados e nunca importa variantes substitutivas de regras. Após o gate existente de 8 combates VLAB e 184 testes P12, executa:
+
+- **VLAB R237:** todos os testes do diretório original `runtime/native/test_*.py`, exigindo **215 testes bem-sucedidos**, sem falhas ou erros. Esta bateria cobre módulos de dano/RD, efeitos, táticas e contratos condicionais conforme o conjunto de testes original; **não** certifica os 17 contratos terminais nem todas as funções do VLAB.
+- **LEVEL-UP R216-P12:** o executor original `orc25_sharded_test_runner.py`, com 55 módulos de testes completos, 8 shards, **2.026 testes**, zero módulos duplicados e zero falhas, verificando o recibo nativo gerado pelo próprio sistema. **Classificação expressa: PARALLEL_MODULE_SHARDS_NOT_MONOLITHIC**; não afirmar teste monolítico.
+
+Ambas as baterias passaram em cópias TEST locais após verificar os manifests SHA-256. A prova remota GitHub Actions deve ser avaliada separadamente; até conclusão do job não declarar CI estendido PASS. Nenhuma execução usa Notion, Party, O Primeiro, Replit, a Inbox ou os laboratórios de origem.
+
 ## Integração contínua futura
 
 A versão original já está salva. O Comestre poderá propor **alterações de código em branches** e comparar a execução contra o baseline original. O GitHub preserva histórico de alterações, regressões, seeds, resultados e erros. Não constitui COMESTRE-ID ou atribuição de writer. O responsável da operação continua dono de seu laboratório.
