@@ -37,9 +37,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Verify pinned source and run native engine
-        env:
-          ENGINE_SELECTION: ${{ inputs.engine || 'available' }}
+      - name: Verificar bundle, manifestos e hashes dos dois motores
+        id: bundle
         shell: bash
         run: |
           set -euo pipefail
@@ -79,34 +78,23 @@ jobs:
           print("ONE_BUNDLE_TWO_ORIGINAL_ENGINES: HASH_PASS")
           PY
           fi
-          executed=0
-          if [[ "$ENGINE_SELECTION" == "vlab" || "$ENGINE_SELECTION" == "available" ]]; then
-            if [[ -f "$vlab" ]]; then
-              python -I -B scripts/native_engine_ci.py --engine vlab --archive "$vlab"
-              python -I -B scripts/native_full_regression.py --engine vlab --archive "$vlab"
-              executed=$((executed+1))
-              echo 'VLAB_R237: PASS 8 battles + 215 original unit tests + 5 adversarial R18 rehash rejections' >> "$GITHUB_STEP_SUMMARY"
-            elif [[ "$ENGINE_SELECTION" == "vlab" ]]; then
-              echo 'VLAB_R237 archive missing; not a PASS' >&2
-              exit 2
-            else
-              echo 'VLAB_R237: NOT PROVIDED / NOT TESTED' >> "$GITHUB_STEP_SUMMARY"
-            fi
-          fi
-          if [[ "$ENGINE_SELECTION" == "levelup" || "$ENGINE_SELECTION" == "available" ]]; then
-            if [[ -f "$levelup" ]]; then
-              python -I -B scripts/native_engine_ci.py --engine levelup --archive "$levelup"
-              python -I -B scripts/native_full_regression.py --engine levelup --archive "$levelup"
-              executed=$((executed+1))
-              echo 'LEVELUP_R216P12: PASS 184 targeted + 2026 historical module-sharded tests' >> "$GITHUB_STEP_SUMMARY"
-            elif [[ "$ENGINE_SELECTION" == "levelup" ]]; then
-              echo 'LEVELUP_R216P12 archive missing; not a PASS' >&2
-              exit 2
-            else
-              echo 'LEVELUP_R216P12: NOT PROVIDED / NOT TESTED' >> "$GITHUB_STEP_SUMMARY"
-            fi
-          fi
-          if [[ "$executed" == "0" ]]; then
-            echo 'No archive provided. Neither engine was tested.' >&2
-            exit 3
-          fi
+      - name: VLAB — combates e 5 provas contra adulteração
+        if: ${{ steps.bundle.outcome == 'success' && inputs.engine != 'levelup' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          vlab='lab-inputs/VLAB_R237_LIVE_FRACO_TRANSITION_NATIVE_COLD_AUDITED_MESTRE_ONLY.zip'
+          test -f "$vlab" || { echo 'VLAB source archive missing — FAIL'; exit 2; }
+          python -I -B scripts/native_engine_ci.py --engine vlab --archive "$vlab"
+          python -I -B scripts/native_full_regression.py --engine vlab --archive "$vlab"
+          echo 'VLAB: PASS — 8 combates, 215 testes nativos, 5 falsificacoes rejeitadas' >> "$GITHUB_STEP_SUMMARY"
+      - name: LEVEL-UP — evoluções e 2.026 regressões
+        if: ${{ !cancelled() && steps.bundle.outcome == 'success' && inputs.engine != 'vlab' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          levelup='lab-inputs/IBX114_SUCESSOR_R216P12_MESTRE_CORRIGIDO_20261021_MESTRE_ONLY.zip'
+          test -f "$levelup" || { echo 'LEVEL-UP source archive missing — FAIL'; exit 2; }
+          python -I -B scripts/native_engine_ci.py --engine levelup --archive "$levelup"
+          python -I -B scripts/native_full_regression.py --engine levelup --archive "$levelup"
+          echo 'LEVEL-UP: PASS — 184 testes dirigidos, 2.026 testes em 8 shards' >> "$GITHUB_STEP_SUMMARY"
