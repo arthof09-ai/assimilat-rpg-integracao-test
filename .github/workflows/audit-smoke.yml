@@ -15,3 +15,6 @@ jobs:
           python-version: '3.11'
       - name: Run strictly synthetic tests
         run: python -m unittest discover -s tests -q
+
+      - name: Reproduce native DMG C29 numerics (TEST, no writers)
+        run: python -I -B tests/run_dmg_c29_native.py
