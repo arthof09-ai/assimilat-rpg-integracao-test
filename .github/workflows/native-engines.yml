@@ -9,6 +9,8 @@ on:
       - 'scripts/levelup_display_gap_guard.py'
       - 'scripts/verify_p13_original_view.py'
       - 'experiments/levelup_p13/**'
+      - 'scripts/verify_vlab_stage10_stage12_provenance.py'
+      - 'experiments/vlab_historical_provenance/**'
       - '.github/workflows/native-engines.yml'
   pull_request:
     paths:
@@ -18,6 +20,8 @@ on:
       - 'scripts/levelup_display_gap_guard.py'
       - 'scripts/verify_p13_original_view.py'
       - 'experiments/levelup_p13/**'
+      - 'scripts/verify_vlab_stage10_stage12_provenance.py'
+      - 'experiments/vlab_historical_provenance/**'
       - '.github/workflows/native-engines.yml'
   workflow_dispatch:
     inputs:
@@ -115,3 +119,10 @@ jobs:
           test -f "$levelup" || { echo 'P12 SOURCE missing: P13 comparison HOLD'; exit 2; }
           python -I -B scripts/verify_p13_original_view.py --p12-archive "$levelup"
           echo 'LEVEL-UP P13: PASS (view original 7 testes, 25 correcoes de campo, 20 transformacoes, P12 original preservado). Nao valida paginas Notion nem canon.' >> "$GITHUB_STEP_SUMMARY"
+      - name: VLAB Stage10/12 — fontes originais e contratos em HOLD
+        if: ${{ !cancelled() && inputs.engine != 'levelup' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -I -B scripts/verify_vlab_stage10_stage12_provenance.py
+          echo 'Stage10/Stage12: fontes historicas comprovadas por SHA, 17 contratos / 0 certificados, NAC-PASS HOLD. Integridade dos ZIPs 688/718 foi auditada localmente, nao neste runner.' >> "$GITHUB_STEP_SUMMARY"
