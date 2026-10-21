@@ -1,0 +1,6 @@
+{
+  "origin": "ibx114_r216p12_master_correction.py",
+  "before": "'daily_PA_charge_total':0,'PA_already_free_not_reduced_again':True",
+  "after": "'daily_PA_charge_total':5,'PA_already_free_not_reduced_again':True",
+  "note": "DEMO RED controlada: anel cobrando 5 PA/dia indevidamente (corrigir antes de merge)."
+}
