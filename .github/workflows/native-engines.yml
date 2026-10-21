@@ -1,0 +1,68 @@
+name: VLAB & LEVEL-UP — Native Engines (TEST)
+on:
+  push:
+    paths:
+      - 'lab-inputs/*.zip'
+  workflow_dispatch:
+    inputs:
+      engine:
+        description: 'Original engine to reproduce'
+        required: true
+        type: choice
+        options:
+          - available
+          - vlab
+          - levelup
+        default: available
+permissions:
+  contents: read
+jobs:
+  native:
+    name: Original source only — combat & progression
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify pinned source and run native engine
+        env:
+          ENGINE_SELECTION: ${{ inputs.engine || 'available' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/native_engine_ci.py
+          vlab='lab-inputs/VLAB_R237_LIVE_FRACO_TRANSITION_NATIVE_COLD_AUDITED_MESTRE_ONLY.zip'
+          levelup='lab-inputs/IBX114_SUCESSOR_R216P12_MESTRE_CORRIGIDO_20261021_MESTRE_ONLY.zip'
+          executed=0
+          if [[ "$ENGINE_SELECTION" == "vlab" || "$ENGINE_SELECTION" == "available" ]]; then
+            if [[ -f "$vlab" ]]; then
+              python -I -B scripts/native_engine_ci.py --engine vlab --archive "$vlab"
+              executed=$((executed+1))
+              echo 'VLAB_R237: PASS native code' >> "$GITHUB_STEP_SUMMARY"
+            elif [[ "$ENGINE_SELECTION" == "vlab" ]]; then
+              echo 'VLAB_R237 archive missing; not a PASS' >&2
+              exit 2
+            else
+              echo 'VLAB_R237: NOT PROVIDED / NOT TESTED' >> "$GITHUB_STEP_SUMMARY"
+            fi
+          fi
+          if [[ "$ENGINE_SELECTION" == "levelup" || "$ENGINE_SELECTION" == "available" ]]; then
+            if [[ -f "$levelup" ]]; then
+              python -I -B scripts/native_engine_ci.py --engine levelup --archive "$levelup"
+              executed=$((executed+1))
+              echo 'LEVELUP_R216P12: PASS 184 original tests' >> "$GITHUB_STEP_SUMMARY"
+            elif [[ "$ENGINE_SELECTION" == "levelup" ]]; then
+              echo 'LEVELUP_R216P12 archive missing; not a PASS' >&2
+              exit 2
+            else
+              echo 'LEVELUP_R216P12: NOT PROVIDED / NOT TESTED' >> "$GITHUB_STEP_SUMMARY"
+            fi
+          fi
+          if [[ "$executed" == "0" ]]; then
+            echo 'No archive provided. Neither engine was tested.' >&2
+            exit 3
+          fi
