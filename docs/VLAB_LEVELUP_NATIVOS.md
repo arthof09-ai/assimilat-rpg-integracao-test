@@ -46,6 +46,12 @@ O runner adicional [scripts/native_full_regression.py](../scripts/native_full_re
 
 Ambas as baterias passaram em cópias TEST locais **e** na infraestrutura remota: [PR #7](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/7), [GitHub Actions PR #7](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/runs/39681580512) e [GitHub Actions na main #8](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/runs/39681888006) estão **SUCCESS**, com outputs de 215/215 VLAB e 2.026/2.026 LEVEL-UP nos logs. Executar o pipeline automaticamente para mudanças do workflow ou do runner, ou manualmente para o mesmo snapshot de fontes; mudanças feitas apenas no Notion NÃO disparam GitHub Actions. Nenhuma execução usa Notion, Party, O Primeiro, Replit, a Inbox ou os laboratórios de origem.
 
+## Reexecução adversarial do VLAB R237 — programa original
+
+O VLAB já inclui o script original `code/r237_adversarial_rehash.py`. Em um diretório TEST descartável, essa rotina cria cópias de um combate, recompõe as hashes da cadeia R18 e tenta induzir **cinco falsificações**: reviver HP0 indevidamente, continuar combate após HP0, alterar velocidade de Fraco, falsificar overkill e promover uma condição TEST a cânone.
+
+A nova etapa da bancada exige que **as cinco alterações sejam rejeitadas pelo auditor independente**, que os cinco recibos confirmem a recomposição de hash e que o banco original permaneça intacto (comparação SHA-256 antes/depois). O conteúdo do motor original não foi modificado. Esse é um **gate adversarial documental e mecânico TEST**, sem conceder writer, sem transação canônica e sem afirmar certificação terminal.
+
 ## Fronteiras científicas da ampliação
 
 - **Cobertura adicional:** 215 testes do diretório `runtime/native` são testes programados originais de recursos nativos, mas não homologam todas as regras de combate nem os 17 contratos terminais. A prova R237 de 8 combates/155 commits/640 eventos continua separada.
