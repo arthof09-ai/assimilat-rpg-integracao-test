@@ -1,30 +1,25 @@
-# Bancada de integridade do RPG Assimilação — TEST
+# Bancada técnica do RPG Assimilação — TEST / GitHub gratuito
 
-Este repositório é o **apoio técnico** ao laboratório independente GitHub + Replit do Mestre no Notion: https://app.notion.com/p/400c2b324ede816e8bccef35bd18f3da
+Apoio ao [laboratório independente](https://app.notion.com/p/400c2b324ede816e8bccef35bd18f3da) do Mestre. **Notion continua como fonte de verdade**; este GitHub armazena cópias TEST e executa testes sem direito de escrever nos sistemas oficiais.
 
-## Objetivo
-Rodar testes reproduzíveis de integridade de pacotes em GitHub Actions, sem criar nem substituir motores VLAB, DMG, CRAFT ou LEVEL-UP.
+## O que já está funcionando
 
-## Restrições
-- O auditor só lê os ZIPs locais fornecidos deliberadamente; não executa o código contido neles, não extrai arquivos, não consulta APIs e não grava no Notion.
-- Os testes automáticos deste repositório são **inteiramente sintéticos**. Os ZIPs originais não são publicados aqui.
-- O resultado PASS comprova integridade estrutural; não certifica a qualidade mecânica, nem promove um resultado ao cânone.
-- GitHub Actions usa permissão **somente de leitura** para conteúdo do repositório.
-- Operações de outros Comestres e Party permanecem **fora do perímetro de escrita**.
+1. **Auditor ZIP:** [scripts/audit_zip.py](../scripts/audit_zip.py) valida manifestos, CRC e caminhos em arquivos fornecidos localmente. Oito testes sintéticos estão em [tests/test_archive_audit.py](../tests/test_archive_audit.py).
+2. **Replay real e nativo do DMG C29:** [experiments/dmg_c29/README.md](../experiments/dmg_c29/README.md) documenta os **dois scripts originais** do C29, preservados sem alteração de bytes em cópia compacta. O runner [tests/run_dmg_c29_native.py](../tests/run_dmg_c29_native.py) confere SHA-256, reproduz **43 verificações numéricas** e valida que **10 arquivos derivados são byte-idênticos aos históricos**. `F0=4/8 HOLD`, `A5=0/7 HOLD`, sem alteração canônica.
+3. **Cinco regressões de integridade:** [tests/test_dmg_c29_guards.py](../tests/test_dmg_c29_guards.py) executa o caso válido e demonstra rejeição de bundle adulterado, script com hash incorreto, saída indevidamente alterada e ausência do arquivo. Nenhum teste autoriza alteração de produção.
 
-## Teste local reproduzido em 21/10/2026
-- **8/8 testes sintéticos PASS** usando Python standard library.
-- Auditor ZIP executado em **quatro cópias locais** de artefatos do Mestre, hashes internos **299/299 VLAB R237; 331/331 LEVEL-UP R216P11; 18/18 DMG C29; 9/9 CRAFT F5/B30**.
-- Os artefatos originais e os recibos de seus Comestres continuam na Biblioteca/Notion do Mestre; a gravação do código aqui é a **primeira integração remota**, não o transporte desses motores.
-- A execução **GitHub Actions** exige verificação independente do status no painel Actions; não declarar PASS remoto antes de observar logs/status.
+## Evidência e reprodução
 
-## Reprodução
-Execute `python -m unittest discover -s tests -v`; opcionalmente rode o script `scripts/audit_zip.py` sobre uma cópia local de ZIP com manifesto.
+- GitHub Actions em [Test Integrity Auditor](../.github/workflows/audit-smoke.yml) faz as verificações em runner temporário com acesso **somente leitura** ao repositório e sem credenciais Notion.
+- [PR #1](../../pull/1): CI remoto sucesso na execução **#10**, incorporado à `main`. A etapa DMG nativa passou.
+- [PR #2](../../pull/2): CI remoto sucesso na execução **#13**, incorporado à `main`. Os cinco testes de regressão passaram junto com as etapas anteriores.
+- No computador/runner com Python, use `python -I -B -m unittest discover -s tests -v` e `python -I -B tests/run_dmg_c29_native.py`. Pelo celular Android, basta acompanhar o painel **Actions**; não é necessário executar Python manualmente.
 
-## Fronteiras de progresso
-1. GitHub privado com arquivos e workflow testados.
-2. Verificar execução remota de Actions.
-3. Replit com demonstração sintética de checkpoint/retomada, sem acesso de escrita externo.
-4. Registrar evidências no laboratório independente, sem tocar laboratórios vizinhos.
+## Escopo e limitações
 
-**Estado:** TEST; sem direito de alterar produção/Party/O Primeiro.
+- O GitHub não executa as operações completas VLAB/CRAFT/LEVEL-UP e não substitui uma instância de Comestre nem garante trabalho autônomo de 30–60 minutos.
+- Replit está **SUSPENSO SEM PRAZO** por decisão do Mestre: não esperar cota mensal, não pagar assinatura e não torná-lo obrigatório.
+- Nunca mover/alterar a origem, Party, O Primeiro, outros laboratórios ou cânone. O status PASS só qualifica os testes concretamente executados e observados.
+- Alterações devem seguir [diretriz GH-RP-01](https://app.notion.com/p/400c2b324ede8147bc9af2160e0b1a8e), [Diário em alternantes](https://app.notion.com/p/400c2b324ede8102ad79e3c9d54a34ef) e [AGENTS.md](../AGENTS.md), sempre com readback e próximo passo recuperável.
+
+**Sem custo adicional contratado. Execução sujeita aos limites gratuitos do GitHub Actions.**
