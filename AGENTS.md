@@ -21,7 +21,8 @@
 ## Estado comprovado, 21/10/2026
 - Repositório privado conectado ao ChatGPT com leitura e escrita.
 - Workflow `Test Integrity Auditor #1`: tela do GitHub Android apresentada pelo Mestre mostra **verde/sucesso, 10 segundos, branch main**. Confirma o workflow remoto; os oito testes foram antes verificados localmente e o workflow usa fixtures sintéticas, **não** os ZIPs reais dos motores.
-- Replit TEST tem projeto existente, mas sua execução funcional e persistência não foram comprovadas; cota do Agent esgotada na interface.
+- **Integração nativa DMG C29:** [PR #1](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/1) validada no CI (#10), dois scripts originais com SHA, 43 verificações e 10 saídas; [PR #2](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/2) validada no CI (#13), cinco regressões fail-closed. Ambas incorporadas em main. Isso não altera a OP DMG ou o cânone.
+- Replit TEST permanece SUSPENSO por decisão do Mestre: não usá-lo como dependência de continuidade nem contratar plano.
 - Qualquer novo marco deve iniciar com readback e terminar com um alternante numerado GH-RP-DNNN no Diário do Notion.
 
 **Sem escrita nos sistemas oficiais e sem promoção automática de resultados.**
