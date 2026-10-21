@@ -23,13 +23,20 @@ O runner [native_engine_ci.py](../../scripts/native_engine_ci.py) rejeita qualqu
 - LEVEL-UP: **PASS** — pacote P12 autenticado, 370 hashes, suíte nativa específica `test_ibx114_r216p12_master_correction` executou **184/184** testes. A verificação histórica completa de 2.026 testes está documentada no recibo original, não é uma conclusão do presente CI GitHub.
 - Ambos: execução em cópias locais, com ambiente sem credenciais de produção e sem mutações do Notion.
 
-## Último passo para executar **no GitHub**
+## Último passo para executar **no GitHub** — uma única transferência pelo Android
 
-A ferramenta conectada ao ChatGPT atualmente publica **arquivos de texto**, mas não transferiu os ZIPs binários diretamente para este repositório.
+Preparei **um só arquivo** para enviar, sem código, sem assinatura e sem computador:
 
-O Mestre pode adicionar **uma única vez** os ZIPs originais ao diretório `lab-inputs/` do repositório privado, preservando os nomes exatos. No Android, abrir GitHub pelo Chrome, repositório privado → **Add file → Upload files**, selecionar os ZIPs baixados da conversa e confirmar o commit. Não é necessário programar.
+**`ASSIMILACAO_NATIVE_INPUTS_R237_P12_20261021.zip`** (3.140.244 bytes), SHA-256 `6d28bb0412be08e7b54d5725d73fc4918566e9415bfcaa66f033101cfd57ac84`. Ele contém os dois ZIPs originais intactos e um manifesto verificável, evitando dois uploads manuais.
 
-O workflow [Native Engines](../../.github/workflows/native-engines.yml) então testa automaticamente os arquivos adicionados; também pode ser iniciado pelo menu **Actions → VLAB & LEVEL-UP — Native Engines (TEST) → Run workflow** quando houver entradas. Se só existir um arquivo, testa apenas aquele e identifica o outro como **NOT PROVIDED / NOT TESTED**. Não concede PASS sem executar código.
+1. Baixar esse arquivo diretamente na conversa do ChatGPT, para o armazenamento local do Android. **Não extraia** o arquivo.
+2. Pelo **Chrome**, acessar [lab-inputs](../lab-inputs/README.md) no repositório privado do Mestre.
+3. Selecionar **Add file → Upload files**, localizar o arquivo ZIP único, fazer upload e tocar em **Commit changes**.
+4. O [workflow Native Engines](../.github/workflows/native-engines.yml) verifica primeiro SHA-256 do arquivo combinado, extrai só os dois ZIPs pinados, valida os dois manifestos individuais e roda os programas originais VLAB R237 e LEVEL-UP P12. A página **Actions** mostrará se passou ou falhou.
+
+**Importante:** a execução VLAB/LEVELUP no GitHub permanece **PENDENTE** até a presença real do pacote e prova do status do job remoto. O check verde no PR #5 aprovou apenas os testes preparatórios + ferramentas já integradas (DMG e CRAFT).
+
+O workflow preserva compatibilidade com ZIPs separados eventualmente disponíveis, mas o plano preferido e mais simples para Android é **um único upload** do pacote combinado.
 
 ## Integração contínua futura
 
