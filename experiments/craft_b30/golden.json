@@ -1,0 +1,11 @@
+{
+  "source_artifact": "CRAFT_F5_B30_DUAL_REPLAY_GATE_20261021.zip",
+  "source_artifact_sha256": "706d38ac23c09044a2567d55d099eedc2ae631fe68f4288b31c68efac28ad825",
+  "original_module": "code/dual_replay.py",
+  "original_module_sha256": "86b70799e3599e601dd0f775e067f7b54db06dbab2a368901a68b92c439ff294",
+  "compressed_xz_sha256": "e3ad4cfaf4b7a9393f696cb02abd4a3866e337fd05a07fa42fa5cf239dfc6a15",
+  "test_scope": "CRAFT B30-06/13 evidence_row only",
+  "full_46_tests_executed_in_GitHub": false,
+  "external_writes": 0,
+  "canonicity": "HOLD"
+}
