@@ -53,14 +53,28 @@ jobs:
           print("ORIGINALS_PINNED_AND_VERIFIED; NO_NOTION_WRITE")
           PY
       - name: VLAB — conferir mudança real na RD (24 testes)
+        id: vlab
         if: ${{ !cancelled() && steps.source.outcome == 'success' }}
         shell: bash
         run: |
-          python -I -B scripts/proposal_gate.py --engine vlab --archive lab-inputs/VLAB_R237_LIVE_FRACO_TRANSITION_NATIVE_COLD_AUDITED_MESTRE_ONLY.zip
-          echo "VLAB candidato: 24 testes ORIGINAIS PASS (cópia TEST)" >> "$GITHUB_STEP_SUMMARY"
+          set -uo pipefail
+          if python -I -B scripts/proposal_gate.py --engine vlab --archive lab-inputs/VLAB_R237_LIVE_FRACO_TRANSITION_NATIVE_COLD_AUDITED_MESTRE_ONLY.zip; then
+            echo '✅ VLAB R237 TEST: APROVADO — 24/24 testes originais da proposta' >> "$GITHUB_STEP_SUMMARY"
+          else
+            result=$?
+            echo '❌ VLAB R237 TEST: REPROVADO — leia este passo, corrija a mesma PR e reexecute; original intocado' >> "$GITHUB_STEP_SUMMARY"
+            exit "$result"
+          fi
       - name: LEVEL-UP — conferir mudança real no custo PA (184 testes)
+        id: levelup
         if: ${{ !cancelled() && steps.source.outcome == 'success' }}
         shell: bash
         run: |
-          python -I -B scripts/proposal_gate.py --engine levelup --archive lab-inputs/IBX114_SUCESSOR_R216P12_MESTRE_CORRIGIDO_20261021_MESTRE_ONLY.zip
-          echo "LEVEL-UP candidato: 184 testes ORIGINAIS PASS (cópia TEST)" >> "$GITHUB_STEP_SUMMARY"
+          set -uo pipefail
+          if python -I -B scripts/proposal_gate.py --engine levelup --archive lab-inputs/IBX114_SUCESSOR_R216P12_MESTRE_CORRIGIDO_20261021_MESTRE_ONLY.zip; then
+            echo '✅ LEVEL-UP P12 TEST: APROVADO — 184/184 testes originais da proposta' >> "$GITHUB_STEP_SUMMARY"
+          else
+            result=$?
+            echo '❌ LEVEL-UP P12 TEST: REPROVADO — leia este passo, corrija a mesma PR e reexecute; fichas intactas' >> "$GITHUB_STEP_SUMMARY"
+            exit "$result"
+          fi
