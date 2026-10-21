@@ -6,6 +6,7 @@
 """
 from __future__ import annotations
 import argparse
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -55,10 +56,37 @@ def run_vlab(root: Path) -> dict:
     receipt = f"VLAB_NATIVE_TESTS={EXPECTED_VLAB_TESTS};ERRORS=0;FAILURES=0"
     if receipt not in out:
         raise AssertionError("VLAB_NATIVE_TEST_COVERAGE_MISMATCH\n" + out[-1500:] + err[-1500:])
+    # Existing ORIGINAL R237 script attempts five adversarial modifications on
+    # copies, rehashing the forged R18 chain. It must reject all five.
+    original = root / "evidence/db/R237_TEAM_GR_C_TRANSITION_S23777002.sqlite"
+    digest_before = hashlib.sha256(original.read_bytes()).hexdigest()
+    adversarial_source = (
+        'import os,sys,runpy;'
+        'sys.path.insert(0,os.path.abspath("code"));'
+        'runpy.run_path("code/r237_adversarial_rehash.py",run_name="__main__")'
+    )
+    execute(root, ["-c", adversarial_source], timeout=90)
+    proof_path = root / "evidence/reports/R237_ADVERSARIAL_REHASH.json"
+    proof = json.loads(proof_path.read_text(encoding="utf-8"))
+    expected = {"HP0_FALSE_REVIVAL", "CONTINUE_AFTER_HP0", "UNJUST_WEAK_SPEED",
+                "FALSIFY_OVERKILL", "PROMOTE_PRECREATE_TO_P4"}
+    observed = proof.get("cases", [])
+    if (proof.get("status") != "PASS_R237_ADVERSARIAL_REHASH_5_OF_5"
+            or len(observed) != 5
+            or {case.get("case") for case in observed} != expected
+            or not all(case.get("rejected") is True
+                       and case.get("final_R18_chain_rehashed") is True
+                       and case.get("original_db_untouched") is True
+                       and case.get("reason") != "FALSE_ACCEPT"
+                       for case in observed)
+            or hashlib.sha256(original.read_bytes()).hexdigest() != digest_before):
+        raise AssertionError("VLAB_R237_ADVERSARIAL_GATE_FAILED")
     return {
         "suite": "VLAB_R237_ORIGINAL_NATIVE_UNIT_REGRESSION",
         "test_count": EXPECTED_VLAB_TESTS,
         "native_unittest_status": "PASS",
+        "adversarial_rehash_original_cases": len(observed),
+        "adversarial_rehash_rejected": len(observed),
         "canonical_promotion": "HOLD",
     }
 
