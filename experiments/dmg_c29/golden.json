@@ -1,0 +1,25 @@
+{
+  "source_artifact": "DMG_C29_VZ_RE_FIP_F0_PLANO_SUPREMO_20261021_MESTRE_ONLY.zip",
+  "source_artifact_sha256": "c5e261aacaa5227ed6ebeb8958baeda944613d43b7fe2a1272be930a964e1882",
+  "source_modules_sha256": {
+    "src/build_c29.py": "4c0d44d13e78b0caa33fed26a8002721ea9d86ba1725238bb9f8d775efe84039",
+    "src/verify_c29_independent.py": "e41ff7c85265a7d8e16b0dbb6b0260fcc6aa0b65c15d44590c4c6590a29469e1"
+  },
+  "bundle_xz_sha256": "bfbc80433aacc4293b93c546a98afbeefdecf93160f8892b40ec8a311d3807d7",
+  "outputs_sha256": {
+    "C29_5_EFEITOS_HERDADOS_SEM_RE.csv": "3579395098219f8dbb8ab4293013e4e58381090426e6cf32fd5866fab18194a2",
+    "C29_6_PROVAS_ANTI_STACK.csv": "bf948ea79819f14b9b70108f0680bc68afc432bccda23c1a3c86739175e9d0f5",
+    "C29_A5_REFERENCIAS_SETE_SEM_BYTES.csv": "2fe6012bbd78d999ef924f60bcef7c6eec19e753bb70a4cd60fe64d083c3c472",
+    "C29_F0_OITO_REQUISITOS_OPERACIONAIS.csv": "b32f640ab495135beeae6d664cb35a89043385d2c1d29319711a840d3d074ae3",
+    "C29_MODOS_DEPENDENTES_8.csv": "03ca7d2beed0d5ae1a743a7273dc0d995f760d2b5a951e9ad53ea5196e9726f9",
+    "C29_PLANO_SUPREMO_19_FASES.csv": "fb7c60496c3b03986f19a8a06176e96d025379c9dc678976024a3bf2f5533ded",
+    "C29_PROVA_NEGATIVA_ADMISSAO_V11.csv": "0d6a3d0ddb9d91bb8043f73ab5c175306feb32cc10d13690e59981a7600e148a",
+    "C29_SECOND_NUMERICAL_ALGORITHM.json": "0c14d0135a476c98cc798a602d4c0a5c56ba9e64474ab178f929da7630bf9b2a",
+    "C29_SUMMARY_METRICS.json": "6928ac0da4ffd4cea68e3516e2c77adaada3481a7c3b4ca0c2a768939c154ccc",
+    "C29_VZ_8_RE_FIP_EXPLICITOS.csv": "850d145aa006f9944f055f85e018f1ea709a4a9422dd84f5fe03b1b8a36eb065"
+  },
+  "expected_numeric_checks": 43,
+  "expected_regenerated_files": 10,
+  "baseline_scope": "DMG_C29_HISTORICAL_TEST_ONLY",
+  "claim": "cold numerical replay only, no production writer and no canonical promotion"
+}
