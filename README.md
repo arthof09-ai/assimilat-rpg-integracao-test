@@ -2,6 +2,17 @@
 
 Este GitHub privado não é um novo RPG nem um Comestre. Ele **guarda versões e executa automaticamente testes dos programas que já existem no RPG**, enquanto o **Notion permanece como fonte de verdade**. A proposta é poupar trabalho repetitivo dos Comestres pelo celular Android, sem outro plano pago.
 
+## Disponível a todo o RPG — autorização transversal TEST
+
+**Decisão expressa do Mestre (21/10/2026):** este repositório privado é infraestrutura compartilhada de programação, versionamento, simulação, testes e auditoria **TEST** para **todas as operações autorizadas** do RPG Assimilação: VLAB, LEVEL-UP, DMG, CRAFT, inventário, consumo de PA e outras que se beneficiem de código. A autorização **não obriga** ninguém a integrar módulos desnecessários e **não dá acesso técnico automático a outras instâncias**. O Comestre continua titular da sua operação; GitHub não é Comestre e não altera o RPG Central.
+
+**Rotina mais curta:** concluir no Notion da operação → enviar **a alteração real de código TEST**, com versão e origem, pela conexão GitHub autorizada → branch + PR → GitHub executa os testes pertinentes → Comestre consulta PASS/FAIL/PENDING **na mesma conversa** → se FAIL, corrige na mesma PR; se PASS, confere o commit, o diff e os testes antes de qualquer integração TEST → registra somente resultado material. **Notion não precisa se sincronizar automaticamente.** O GitHub não manda resposta espontânea ao chat; a consulta é feita pelo Comestre.
+
+**Fronteiras:** apenas o repositório e o laboratório TEST recebem escritas desta integração. Fichas oficiais, Party, O Primeiro, cânone e outros laboratórios são **NO-WRITE**. Não incorporar código experimental direto na `main`, nem PR com testes obrigatórios vermelhos, pendentes ou incorretos; não afirmar que há proteção técnica automática de branch, ainda não comprovada na conta atual. Nenhum custo extra, Replit suspenso e nenhuma estrutura administrativa nova.
+
+**Cobertura existente versus autorização:** os scripts de propostas já testam alterações reais em **dois módulos** (VLAB redução de dano e LEVEL-UP anéis PA); existem ainda baterias de VLAB, LEVEL-UP, DMG e CRAFT. Isso **não significa** que todos os demais módulos já tenham runner: só cadastrar a fonte e os testes originais de um novo módulo quando houver necessidade concreta. [Diretriz GH-RP-01](https://app.notion.com/p/400c2b324ede8147bc9af2160e0b1a8e) · [Instruções do Comestre](AGENTS.md).
+
+
 ## Veja os testes funcionando
 
 **[Abrir VLAB + LEVEL-UP no GitHub Actions](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/workflows/native-engines.yml)**
