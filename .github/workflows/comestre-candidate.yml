@@ -14,6 +14,10 @@ on:
       - 'scripts/proposal_gate.py'
       - '.github/workflows/comestre-candidate.yml'
   workflow_dispatch:
+concurrency:
+  # GitHub Free: a newer version of this PR supersedes its still-running predecessor.
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 permissions:
   contents: read
 jobs:
