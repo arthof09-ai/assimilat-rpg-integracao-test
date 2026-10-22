@@ -1,0 +1,37 @@
+{
+  "evidence": "C29_ADENDO_RECONCILIACAO_FF_CHASSI_MESTRE_ONLY.md",
+  "evidence_date": "2026-10-21",
+  "provenance": "OP-DMG-CORPUS-EMP-01 / C29-FF adendo after original C29",
+  "scope": "historical TEST reconciliation only",
+  "baseline": "DMG-RANK-01 v1.1 (unaltered)",
+  "canonical_change": false,
+  "f0_state": "4/8 HOLD",
+  "units": "conditional raw average before RDF/RD, without hit probability",
+  "cases": [
+    {
+      "key": "darek_normal",
+      "state": "normal",
+      "formula": "10d10+1d8+3",
+      "expected_mean": "62.5",
+      "pre_errata_formula": "10d10+1d8",
+      "transformed_mean_if_activated": "64.5"
+    },
+    {
+      "key": "rhovan_corte_normal",
+      "state": "normal",
+      "formula": "10d10+1d6+4",
+      "expected_mean": "62.5",
+      "pre_errata_formula": "10d10+1d6",
+      "transformed_mean_if_activated": "77.5"
+    },
+    {
+      "key": "rhovan_tempestade_normal",
+      "state": "normal",
+      "formula": "18d12+1d6+4",
+      "expected_mean": "124.5",
+      "pre_errata_formula": "18d12+1d6",
+      "transformed_mean_if_activated": "139.5"
+    }
+  ],
+  "policy": "Never add the fixed chassis bonus or FF a second time. Never overwrite original C29 or promote sandbox VZ into canon."
+}
