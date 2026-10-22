@@ -12,6 +12,19 @@ Este GitHub privado não é um novo RPG nem um Comestre. Ele **guarda versões e
 
 **Economia de minutos:** a auditoria integral não precisa disparar por mudanças apenas em README/AGENTS/docs; evitar reexecuções obsoletas, usar testes do módulo alterado primeiro e bateria completa nos marcos reais. A leitura do consumo/faturas é feita no painel da conta proprietária: não existe uma medição de quota validada por esta conexão. Para evitar custo extra, conferir [orçamentos e alertas GitHub](https://docs.github.com/en/billing/how-tos/set-up-budgets) sem autorizar cobrança.
 
+## Economia automática: testes proporcionais à alteração
+
+**GitHub é opcional por padrão.** Se um teste nativo no ChatGPT já resolve a necessidade, use-o; GitHub Actions é indicado quando houver ganho de reprodutibilidade, regressão ou evidência independente. Quando uma PR TEST for enviada, a validação de código exigida deve PASSAR ou ficar CI-HOLD — nunca confundir SKIPPED com PASS.
+
+- Mudança só em `proposals/vlab/**`: roda **24 testes da proposta VLAB**; LEVEL-UP aparece como `SKIPPED_NOT_AFFECTED`.
+- Mudança só em `proposals/levelup/**`: roda **184 testes dirigidos LEVEL-UP**; VLAB aparece como `SKIPPED_NOT_AFFECTED`.
+- Mudança no mecanismo comum, em ambos os módulos ou com origem desconhecida: rodam **ambas** as baterias (fail-closed).
+- Auditoria geral DMG não dispara mais por **apenas propostas isoladas**. Continua ativa em scripts, testes, artefatos-fonte e mudanças no próprio workflow.
+- Mudanças editoriais isoladas não provocam CI pesada; baterias completas continuam disponíveis para mudanças de impacto, gates legítimos e `workflow_dispatch`.
+
+O seletor examina **o diff verdadeiro de commits**, nunca título/descrição da PR. `PASS` é teste realizado; `SKIPPED_NOT_AFFECTED` é teste não requerido; `FAIL` bloqueia incorporação da proposta e `PENDING` exige aguardar evidência. [Seletor e testes locais](scripts/ci_scope.py). O consumo mensal real de minutos não foi medido por esta mudança: não alegar economia numérica antes de verificar billing. Na ausência de GitHub, preservar `GITHUB-HOLD / OPERATION-CONTINUES-NATIVE`.
+
+
 ## Disponível a todo o RPG — autorização transversal TEST
 
 **Decisão expressa do Mestre (21/10/2026):** este repositório privado é infraestrutura compartilhada de programação, versionamento, simulação, testes e auditoria **TEST** para **todas as operações autorizadas** do RPG Assimilação: VLAB, LEVEL-UP, DMG, CRAFT, inventário, consumo de PA e outras que se beneficiem de código. A autorização **não obriga** ninguém a integrar módulos desnecessários e **não dá acesso técnico automático a outras instâncias**. O Comestre continua titular da sua operação; GitHub não é Comestre e não altera o RPG Central.
