@@ -34,6 +34,10 @@ on:
           - vlab
           - levelup
         default: available
+concurrency:
+  # GitHub Free: a newer version of this PR supersedes its still-running predecessor.
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 permissions:
   contents: read
 jobs:
