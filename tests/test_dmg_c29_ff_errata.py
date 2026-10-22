@@ -10,7 +10,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 EVIDENCE = ROOT / "experiments" / "dmg_c29" / "errata_ff_c29.json"
-TERM = re.compile(r"[+]?\\d+d\\d+|[+-]\\d+")
+TERM = re.compile(r"[+]?[0-9]+d[0-9]+|[+-][0-9]+")
 
 
 def conditional_raw_mean(expression):
