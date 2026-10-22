@@ -2,6 +2,16 @@
 
 Este GitHub privado não é um novo RPG nem um Comestre. Ele **guarda versões e executa automaticamente testes dos programas que já existem no RPG**, enquanto o **Notion permanece como fonte de verdade**. A proposta é poupar trabalho repetitivo dos Comestres pelo celular Android, sem outro plano pago.
 
+## Se o GitHub gratuito esgotar: Comestre continua no ChatGPT
+
+**Regra oficial GH-RP-01 — continuidade nativa sem gasto:** GitHub Free oferece **2.000 minutos mensais de Actions para repositórios privados** (franquia da conta proprietária, compartilhada entre repositórios; conferir [documentação oficial](https://docs.github.com/en/billing/concepts/product-billing/github-actions)). É uma ferramenta **opcional**: não permita que falta de minutos, acesso, fila ou Actions fora do ar bloqueie VLAB, LEVEL-UP, DMG, CRAFT ou qualquer operação.
+
+**Decisão rápida:** GitHub útil e com quota → testes pela PR; quota esgotada/indisponível ou minutos reservados para tarefas críticas → **executar os motores e testes ORIGINAIS nativamente no ChatGPT**, em cópias TEST isoladas, como antes da integração. Os testes locais devem registrar motor e versão, hashes quando disponíveis, testes efetivamente executados, falhas, correção, logs e limitação. A ausência de GitHub é `GH-NOT-RUN`, **não reprovação do código**, e sucesso local é `LOCAL-TEST-PASS`, **não `GITHUB-CI-PASS`**. Se o runtime ou ZIP não estiver disponível ao Comestre, continuar com outras tarefas seguras e registrar precisamente apenas os testes não executados.
+
+**PR já aberta e sem minutos?** Continuar a evolução e os testes nativos; manter a aprovação CI dessa PR em `CI-HOLD` sem mesclar como validada remotamente. Ao voltar a ter quota, rodar os testes remotos somente se realmente necessários. Não criar novo executor paralelo, não pagar, não publicar repositório privado, não estender cronogramas por causa do GitHub.
+
+**Economia de minutos:** a auditoria integral não precisa disparar por mudanças apenas em README/AGENTS/docs; evitar reexecuções obsoletas, usar testes do módulo alterado primeiro e bateria completa nos marcos reais. A leitura do consumo/faturas é feita no painel da conta proprietária: não existe uma medição de quota validada por esta conexão. Para evitar custo extra, conferir [orçamentos e alertas GitHub](https://docs.github.com/en/billing/how-tos/set-up-budgets) sem autorizar cobrança.
+
 ## Disponível a todo o RPG — autorização transversal TEST
 
 **Decisão expressa do Mestre (21/10/2026):** este repositório privado é infraestrutura compartilhada de programação, versionamento, simulação, testes e auditoria **TEST** para **todas as operações autorizadas** do RPG Assimilação: VLAB, LEVEL-UP, DMG, CRAFT, inventário, consumo de PA e outras que se beneficiem de código. A autorização **não obriga** ninguém a integrar módulos desnecessários e **não dá acesso técnico automático a outras instâncias**. O Comestre continua titular da sua operação; GitHub não é Comestre e não altera o RPG Central.
