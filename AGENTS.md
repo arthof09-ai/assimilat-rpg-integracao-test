@@ -7,6 +7,23 @@
 - [Diário Operacional em alternantes](https://app.notion.com/p/400c2b324ede8102ad79e3c9d54a34ef) — consultar o último marco e registrar novos resultados verificáveis.
 - [Laboratório GitHub + Replit](https://app.notion.com/p/400c2b324ede816e8bccef35bd18f3da) — fonte de escopo TEST.
 
+## Regra de contingência — GitHub Free nunca paralisa a operação (ordem do Mestre)
+
+**PRIORIDADE OPERACIONAL:** a cota do GitHub Free para repositórios privados é **2.000 minutos de Actions por ciclo**, compartilhada na conta do proprietário. O GitHub é OPCIONAL e TRANSVERSAL; Comestres podem trabalhar nativamente no ChatGPT quando GitHub estiver indisponível, caro em minutos, inacessível ou sem franquia. A conta real e seu saldo não foram auditados; não inventar minutos restantes. Sem upgrades pagos, nem tornar código privado público.
+
+**Antes de depender da CI:** avaliar se GitHub ajuda realmente a mudança; escolher suíte mínima adequada. Verificar, quando o acesso ao painel permitir, saldo GitHub Actions. Falta de resultado pode ser quota, billing, fila, erro do runner, autorização ou de código: identificar a causa antes de tratar como regressão.
+
+**Protocolo de fallback executável na mesma conversa (sem nova operação):**
+
+1. Marcar `GH-QUOTA` / `GH-BILLING` / `GH-ACCESS` / `GH-RUNNER` / `GH-OUTAGE` / `GH-QUEUE` / `GH-SKIPPED-TO-SAVE-QUOTA` quando for problema externo, distinto de `CODE-FAIL`.
+2. **Seguir trabalhando na operação legítima**, executando nativamente no ChatGPT a **fonte original de código e testes** (arquivo e versão/hash conferidos, cópia TEST isolada, execução por Python/container ou ferramentas computacionais realmente disponíveis), analisando falhas e corrigindo o código TEST. Não criar motor alternativo ou simular logs.
+3. Emitir recibo objetivo `LOCAL-TEST-PASS|FAIL|NOT-RUN`, nome do motor, fonte/hash, data, scripts, seed quando pertinente, número de testes executados, falhas, limitações, link ao artefato quando houver e status `GH-NOT-RUN`. A ferramenta não deve afirmar execução/certificação no GitHub nem prometer retorno futuro.
+4. Se faltar origem, ZIP ou runtime no ChatGPT, registrar `TEST-BLOCKED-MISSING-SOURCE/RUNTIME` e avançar em tarefas independentes. Falta de testes locais não pode virar PASS; nenhuma nova obrigação de instalar ferramentas, pagamento ou PC.
+5. Se GitHub PR estiver em FAIL ou PENDING **por ausência de CI**, manter `CI-HOLD` para merge no GitHub até cumprir os gates daquela PR; o Comestre continua depurando e produzindo evidências locais. O bloqueio de merge TEST remoto não é STOP universal do VLAB/CRAFT/LEVEL-UP/DMG e muito menos promoção canônica.
+6. Recuperado o GitHub, usar novamente só quando houver benefício real ou gate de CI obrigatório. Não repetir o corpus antigo inutilmente. Manter Party, O Primeiro, fichas oficiais, cânone e laboratórios alheios sem escrita.
+
+**Estado global exigido:** `GITHUB-HOLD / OPERATION-CONTINUES-NATIVE` em contingência. **Nenhuma operação depende exclusivamente de GitHub**. A cota pode ser economizada na CI com filtros de caminhos e cancelamento de runs obsoletos, desde que os testes exigidos de código ainda rodem.
+
 ## Autorização transversal do Mestre — todas as operações TEST
 
 **A autorização de USO agora é geral:** qualquer Comestre com identidade/assignment e **conexão GitHub tecnicamente verificados** pode aproveitar ESTE repositório para suporte TEST à própria operação: VLAB, LEVEL-UP, DMG, CRAFT, progressão, inventário, consumo de PA e outras com código pertinente. É suporte auxiliar opcional, não migração dos laboratórios. **O destino de escrita continua só este repositório e o laboratório TEST existente.** Não usar autorização transversal para escrever em código/repositório/Notion de outro Comestre, RPG Central, fichas, Party ou O Primeiro, nem para assumir writer/lease/epoch/GREEN, criar identidades ou canonizar regras. Sem Replit ou assinatura adicional.
