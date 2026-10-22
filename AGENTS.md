@@ -24,6 +24,21 @@
 
 **Estado global exigido:** `GITHUB-HOLD / OPERATION-CONTINUES-NATIVE` em contingência. **Nenhuma operação depende exclusivamente de GitHub**. A cota pode ser economizada na CI com filtros de caminhos e cancelamento de runs obsoletos, desde que os testes exigidos de código ainda rodem.
 
+## Diretriz do Mestre — seleção proporcional de testes e economia da franquia
+
+**A escolha de GitHub permanece livre e proporcional:** o Comestre responde mentalmente: (1) o que pretendo verificar? (2) a execução GitHub agrega prova real versus teste nativo ChatGPT? (3) qual a menor bateria segura? Não criar novo formulário, sistema de aprovação, cota por Comestre ou registro rotineiro. **Desperdício é repetir teste sem mudança, hipótese ou finalidade verificável; execução completa é permitida quando relevante ou exigida pelo gate próprio da operação.**
+
+A Action `comestre-candidate.yml` consulta o diff verdadeiro entre commits usando `scripts/ci_scope.py`, e somente direciona propostas:
+- `proposals/vlab/**` → VLAB;
+- `proposals/levelup/**` → LEVEL-UP;
+- ambos ou alteração em `scripts/proposal_gate.py`, `scripts/ci_scope.py` ou no workflow compartilhado → os dois;
+- caminho desconhecido, erro na obtenção do diff ou chamada manual → ambos **por segurança**.
+
+`SKIPPED_NOT_AFFECTED` nunca equivale a `PASS`; status `PENDING` ou `FAIL` não é aprovação. Alterar apenas uma proposta **não** aciona o auditor geral DMG; mudanças no código de auditoria/testes/scripts continuam acionando as verificações existentes. Suítes completas continuam habilitadas para alterações com risco transversal e quando gate exigir. A ausência de CI por quota mantém `GITHUB-HOLD / OPERATION-CONTINUES-NATIVE`; ChatGPT testa nativamente com fontes originais e recibos `LOCAL-TEST-*`, sem falsificar CI do GitHub.
+
+**Proteção de tempo e segurança:** os minutos não devem ser gastos com simulações ornamentais. Não evitar testes críticos para economizar recursos, nem promover regras canônicas, nem tocar na Party, O Primeiro ou laboratórios de outras operações. Nenhuma mudança em direitos/identidades writer/epoch/lease; revisar GH-RP-01 vigente antes de executar.
+
+
 ## Autorização transversal do Mestre — todas as operações TEST
 
 **A autorização de USO agora é geral:** qualquer Comestre com identidade/assignment e **conexão GitHub tecnicamente verificados** pode aproveitar ESTE repositório para suporte TEST à própria operação: VLAB, LEVEL-UP, DMG, CRAFT, progressão, inventário, consumo de PA e outras com código pertinente. É suporte auxiliar opcional, não migração dos laboratórios. **O destino de escrita continua só este repositório e o laboratório TEST existente.** Não usar autorização transversal para escrever em código/repositório/Notion de outro Comestre, RPG Central, fichas, Party ou O Primeiro, nem para assumir writer/lease/epoch/GREEN, criar identidades ou canonizar regras. Sem Replit ou assinatura adicional.
