@@ -1,6 +1,0 @@
-{
-  "origin": "runtime/native/vlab_rd_v08.py",
-  "before": "max(0,c.amount-amount)",
-  "after": "max(0, c.amount - amount)",
-  "note": "FIX GREEN: clamp de dano preservado; equivalencia matematica do codigo VLAB testada com modulo original."
-}
