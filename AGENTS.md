@@ -7,6 +7,15 @@
 - [Diário Operacional em alternantes](https://app.notion.com/p/400c2b324ede8102ad79e3c9d54a34ef) — consultar o último marco e registrar novos resultados verificáveis.
 - [Laboratório GitHub + Replit](https://app.notion.com/p/400c2b324ede816e8bccef35bd18f3da) — fonte de escopo TEST.
 
+## Autorização transversal do Mestre — todas as operações TEST
+
+**A autorização de USO agora é geral:** qualquer Comestre com identidade/assignment e **conexão GitHub tecnicamente verificados** pode aproveitar ESTE repositório para suporte TEST à própria operação: VLAB, LEVEL-UP, DMG, CRAFT, progressão, inventário, consumo de PA e outras com código pertinente. É suporte auxiliar opcional, não migração dos laboratórios. **O destino de escrita continua só este repositório e o laboratório TEST existente.** Não usar autorização transversal para escrever em código/repositório/Notion de outro Comestre, RPG Central, fichas, Party ou O Primeiro, nem para assumir writer/lease/epoch/GREEN, criar identidades ou canonizar regras. Sem Replit ou assinatura adicional.
+
+**Uso em 6 ações (aproveitar fluxos existentes):** ① Comestre autorizado conclui sua atividade e registro pertinente no Notion; ② identifica fonte original e versão/sha e envia **mudança real de código TEST**, nunca só comando de reexecutar snapshot anterior; ③ cria branch e PR neste repositório; ④ consulta ações, jobs e logs GitHub na própria conversa, distinguindo PASS/FAIL/PENDING; ⑤ se falhou, corrige **na mesma PR** e testa novamente; se passou para o SHA correto, confere diff, testes obrigatórios e autoridade antes de incorporar **apenas TEST**; ⑥ faz readback e registra fato material na operação e, somente quando relevante à infraestrutura, no Diário GH-RP. A integração Notion→GitHub automática é **opcional** e não há callback espontâneo do GitHub à conversa.
+
+**Gates:** não publicar experimento diretamente na `main`, não mesclar PR RED/PENDING e não declarar que a regra está tecnicamente imposta — a API de rulesets pediu upgrade/repositório público e branch protection retornou 403 por permissão. É regra operacional mandatória, não enforcement verificado. Preservar histórico e rollback. O piloto de propostas contempla dois módulos específicos, mas a permissão de **utilizar a infraestrutura** vale para toda operação: ao receber um módulo novo, adicionar apenas caminho/fonte autenticada/testes correspondentes e manter o restante inalterado. Limitação de conexão em outro chat/instância = HOLD específico, nunca acesso presumido. Nenhuma nova operação, Inbox, Diário ou sistema de coordenação.
+
+
 ## Antes de trabalhar
 1. Verifique a branch, o último commit, os arquivos existentes e o estado do CI. Não reimplemente VLAB, DMG, CRAFT ou LEVEL-UP só porque seus programas existem em outras fontes.
 2. GitHub/Replit são ferramentas, **não** COMESTRES registrados. Não invente COMESTRE-ID, INSTANCE-ID, TRACE-ID, OP-ID, writer, lease, epoch ou aprovação do Mestre.
