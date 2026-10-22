@@ -6,7 +6,6 @@ on:
     paths:
       - 'tests/**'
       - 'scripts/**'
-      - 'proposals/**'
       - 'experiments/**'
       - 'lab-inputs/**'
       - '.github/workflows/**'
@@ -14,7 +13,6 @@ on:
     paths:
       - 'tests/**'
       - 'scripts/**'
-      - 'proposals/**'
       - 'experiments/**'
       - 'lab-inputs/**'
       - '.github/workflows/**'

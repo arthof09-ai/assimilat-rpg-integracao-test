@@ -5,6 +5,7 @@ on:
       - 'proposals/vlab/**'
       - 'proposals/levelup/**'
       - 'scripts/proposal_gate.py'
+      - 'scripts/ci_scope.py'
       - '.github/workflows/comestre-candidate.yml'
   push:
     branches: [main]
@@ -12,6 +13,7 @@ on:
       - 'proposals/vlab/**'
       - 'proposals/levelup/**'
       - 'scripts/proposal_gate.py'
+      - 'scripts/ci_scope.py'
       - '.github/workflows/comestre-candidate.yml'
   workflow_dispatch:
 concurrency:
@@ -29,11 +31,23 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Identificar motor afetado pelo diff real, sem falso PASS
+        id: scope
+        env:
+          GH_SCOPE_EVENT: ${{ github.event_name }}
+          GH_SCOPE_PR_BASE: ${{ github.event.pull_request.base.sha }}
+          GH_SCOPE_PR_HEAD: ${{ github.event.pull_request.head.sha }}
+          GH_SCOPE_BEFORE: ${{ github.event.before }}
+          GH_SCOPE_HEAD: ${{ github.sha }}
+        shell: bash
+        run: python -I -B scripts/ci_scope.py
       - name: Validar pacote original e preparar arquivos isolados
         id: source
+        if: ${{ steps.scope.outcome == 'success' && (steps.scope.outputs.vlab == 'true' || steps.scope.outputs.levelup == 'true') }}
         shell: bash
         run: |
           set -euo pipefail
@@ -58,7 +72,7 @@ jobs:
           PY
       - name: VLAB — conferir mudança real na RD (24 testes)
         id: vlab
-        if: ${{ !cancelled() && steps.source.outcome == 'success' }}
+        if: ${{ !cancelled() && steps.source.outcome == 'success' && steps.scope.outputs.vlab == 'true' }}
         shell: bash
         run: |
           set -uo pipefail
@@ -71,7 +85,7 @@ jobs:
           fi
       - name: LEVEL-UP — conferir mudança real no custo PA (184 testes)
         id: levelup
-        if: ${{ !cancelled() && steps.source.outcome == 'success' }}
+        if: ${{ !cancelled() && steps.source.outcome == 'success' && steps.scope.outputs.levelup == 'true' }}
         shell: bash
         run: |
           set -uo pipefail
