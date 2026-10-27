@@ -1,6 +1,6 @@
 # RPG Assimilação — bancada GitHub dos Comestres (TEST)
 
-Este GitHub privado não é um novo RPG nem um Comestre. Ele **guarda versões e executa automaticamente testes dos programas que já existem no RPG**, enquanto o **Notion permanece como fonte de verdade**. A proposta é poupar trabalho repetitivo dos Comestres pelo celular Android, sem outro plano pago.
+Este repositório GitHub é público por decisão expressa do Mestre. Ele não é um novo RPG nem um Comestre. Ele **guarda versões e executa automaticamente testes dos programas que já existem no RPG**, enquanto o **Notion permanece como fonte de verdade**. A proposta é poupar trabalho repetitivo dos Comestres pelo celular Android, sem outro plano pago.
 
 ## Se o GitHub gratuito esgotar: Comestre continua no ChatGPT
 
