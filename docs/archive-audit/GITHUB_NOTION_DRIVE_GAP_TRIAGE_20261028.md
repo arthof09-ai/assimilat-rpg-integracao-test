@@ -99,3 +99,13 @@
 **Risco de duplicatas:** nomes repetidos (alguns XLSX) e tamanhos iguais não demonstram SHA idêntico; preservar origem e caminho antes de deduplicar.
 
 **GATE:** PASS documental de publicação/readback dos 4 checksums + manifesto em branch; HOLD de PR/merge, ZIP bytes, testes executáveis, integralidade Drive e NAC-PASS terminal. **FIRST-PENDING:** recuperar primeiro ZIP de bytes efetivamente acessíveis, comparar SHA256 e CRC, identificar duplicatas, versionar em branch e testar, sem tocar Party/produção. **NO-REPEAT:** não republicar os R326 já presentes, não reconstruir ZIPs sem bytes e não chamar sidecars de código executável.
+
+## Auditoria abrangente de branches e registros ZIP — 28/10/2026
+
+**VERIFICADO:** depois da abertura da branch de recuperação, a listagem GitHub passou a **24 branches** (23 pré-existentes + a branch criada nesta operação). Foram consultadas individualmente suas **24 árvores recursivas por commit SHA**, todas com `truncated=false`. Cada árvore possui entre 4 e 99 arquivos. O único ZIP com extensão `.zip` encontrado nas árvores é `lab-inputs/ASSIMILACAO_NATIVE_INPUTS_R237_P12_20261021.zip`, repetido por ancestralidade em múltiplas branches. Outras fontes podem existir como blobs fracionados, código extraído ou em commits históricos não alcançados; isto **não** comprova ausência de conteúdo equivalente.
+
+**VERIFICADO nos inventários Library PART01 + PART02:** **1.205 entradas ZIP**, distribuídas em VLAB 370, LEVEL-UP 205, CRAFT 187, DMG 171, PA 120, Tabletop 64, Other 63, Visual-dev 25. Os 1.205 registros representam **996 nomes de arquivos distintos**; há **209 grupos de mesmo nome e mesmo tamanho** com duas entradas no índice. Nome+tamanho iguais **não** provam byte/SHA idêntico. Estes números são inventário de metadados, não porcentagem real de mirroring.
+
+**Priorização de recuperação sem duplicatas:** o `VLAB_CODIGO_MAE_R326_COMPLETO.zip` (15.951.561 B) aparece duas vezes na Biblioteca, porém já possui backup binário em partes Git sob `archive/vlab-source/R326/`: não importar uma terceira cópia sem confronto de SHA. `LEVELUP_ORC_R049_GATES_E_PATCHES_PRONTOS_MESTRE_ONLY_TEST_20261024.zip` (42.008 B) e pacotes CRAFT R49/DMG C29 continuam prioritários **BYTES_PENDING**: presença nominal no Library, não payload recuperado. O GitHub tem HTML R049 e CRAFT R49, mas isso **não substitui ZIP íntegro**.
+
+**Próximo gate:** recuperar bytes originais dos ZIPs em superfície acessível, verificar SHA256/CRC, inspecionar segredos/licenças e comparar conteúdo com o GitHub; então publicar somente faltantes aprovados com manifesto e readback, sem promover a execução a produção. Branch do PR #21 preservada para revisão; nenhuma perda por exclusão na comparação com `main`.
