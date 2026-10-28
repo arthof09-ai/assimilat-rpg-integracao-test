@@ -1,0 +1,36 @@
+{
+  "100_arithmetic": "PASS",
+  "C27_replay": "11/11 EXACT",
+  "archive_internal_payload_sha256_pass": 18,
+  "cycle": "C27",
+  "files": [
+    {
+      "filename": "DMG_C27_G1_411_CONCLUSAO_EVIDENCIAS_20261021_MESTRE_ONLY.zip",
+      "library_readback_sha256": "1444055475fc810326e76eef4d714a071f9d00e3c3bf6dc651dbb17f9d70f283",
+      "original_local_sha256": "1444055475fc810326e76eef4d714a071f9d00e3c3bf6dc651dbb17f9d70f283",
+      "size_bytes": 360539,
+      "status": "BYTE_IDENTICAL_PASS"
+    },
+    {
+      "filename": "PSV_DMG_C27_MESTRE_ONLY.md",
+      "library_readback_sha256": "cc44ce358386826b1f2de4bd307a0fc5d3f307fe5429bdedf37392e169dd229b",
+      "original_local_sha256": "cc44ce358386826b1f2de4bd307a0fc5d3f307fe5429bdedf37392e169dd229b",
+      "size_bytes": 19055,
+      "status": "BYTE_IDENTICAL_PASS"
+    },
+    {
+      "filename": "C27_PARECER_DECISORIO_MESTRE_ONLY.md",
+      "library_readback_sha256": "00395921164b306e94e4f21cf8cdb3ef8c0f1103acec00596763edaa7fb83f54",
+      "original_local_sha256": "00395921164b306e94e4f21cf8cdb3ef8c0f1103acec00596763edaa7fb83f54",
+      "size_bytes": 2012,
+      "status": "BYTE_IDENTICAL_PASS"
+    }
+  ],
+  "library_directory": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "no_conclusion": "NOT independent documentary coding / NOT original Notion bytes / NOT RE/FIP / NOT NAC-PASS",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "readback_3_of_3": "PASS",
+  "scope": "MESTRE_SIDE_ONLY",
+  "zip_crc": "PASS",
+  "zip_entries": 19
+}

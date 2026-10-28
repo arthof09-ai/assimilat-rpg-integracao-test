@@ -1,0 +1,31 @@
+{
+  "R19_source_SHA256": "927e7fbee7fa25bac2bd4f84254552c9a7b2bf697c700cad10cab3170fdecfe9",
+  "bytewise_identical": true,
+  "clean_extract_test": {
+    "R18": 8,
+    "R19": 8,
+    "R20": 8,
+    "passed": 24,
+    "total": 24
+  },
+  "clean_http_examples": 2,
+  "crc": "PASS",
+  "gateway": "HOLD",
+  "historical_R19_file_bytes_unchanged": true,
+  "human_UAT": "PENDING",
+  "independent_approval": "NOT_RECEIVED",
+  "library_id": "libfile_d4ef4593d2548191a07011e5d53ff26a",
+  "manifest_hashes_checked": 2242,
+  "master_side": true,
+  "members_total": 2243,
+  "native_v081_preserved": true,
+  "new_capacity": "FICTITIOUS_2_ACTOR_CUSTOM_STATS_FULL_NATIVE_COMBAT",
+  "official_notional_effects": 0,
+  "package_name": "VLAB_STAGE12_A1A2A3_WEB_R20_SANDBOX.zip",
+  "parent_R19_preserved": 2223,
+  "recovered_sha256": "c6e1697fee0a27122fe36c14769ceb836d9c5e3bd2590c77027c093f808eaedd",
+  "schema": "VLAB-R20-POST-UPLOAD-READBACK-CERT-v1",
+  "sha256": "c6e1697fee0a27122fe36c14769ceb836d9c5e3bd2590c77027c093f808eaedd",
+  "size_bytes": 14966275,
+  "terminal_contracts": "0/17"
+}

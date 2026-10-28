@@ -22,3 +22,6 @@ Esta prova documental respeita a ordem expressa do Mestre de publicar códigos M
 Revalidação estendida: R325 tem 98 hashes internos conferidos e 19 ZIPs internos CRC PASS. R326 preserva o SHA-256 original `420fa4c9f084df449e68075e30fec50ad392bfe041070433b9a4feaf4daf17d5` e CRC dos 20 ZIPs internos, mas seu manifesto interno histórico possui 3 divergências (`README_MESTRE_ONLY.md`, `index.html`, `manifest.json`): 95 PASS de 98 entradas. Nenhum byte original foi corrigido.
 
 Correção de ferramenta de reconstrução R323/R324: em caso de destino já existente, a falha de abertura exclusiva agora preserva esse arquivo; antes o tratamento genérico de erro podia removê-lo. Verificação de regressão com arquivo sentinela existente PASS nas duas versões.
+
+
+**SECURITY-HOLD atual:** integridade dos originais comprovada, mas há membros com dados derivados de fichas Party no pacote histórico incorporado. Publicação/merge integrais não estão aprovados. Ver `RECOVERY_EXECUTION_20261028.md` para cadeia e hash da evidência; arquivos oficiais no Drive preservados.

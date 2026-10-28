@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "archive_file": "DMG_C08_CONSULTOR_GENERALIZAVEL_20261017_MESTRE_ONLY.zip",
+  "archive_sha256": "4653b03dd640326a449588fb902a076e85cd802324b97827cdb3be2d58c259ef",
+  "source_archive_bytes": 95978,
+  "crc": "PASS",
+  "sha_manifest_files": 24,
+  "fresh_extract_outside_development_and_mnt_data": true,
+  "executed_commands": 8,
+  "commands": [
+    {
+      "argv": [
+        "src/c08_generalized.py",
+        "Quanto dano causa o Arranhão Putrificador?"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "eed5e8fd23405a8a4566dacf65c86fe77955b3d9bb504e025bae198ee5300ba9"
+    },
+    {
+      "argv": [
+        "src/c08_generalized.py",
+        "Calcule 2d6+25 com RD física 10 e Vida 40 como TEST"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "2f94bdf76041c21a95faaedb84826bee0bd98f35212dc27fdffcc532898bf98b"
+    },
+    {
+      "argv": [
+        "src/c08_generalized.py",
+        "Explique o evento R157 BASIC, sequência 48"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "08a3b035a21983c425b3d78203ccb7a17cb255687518da8c422a68cfc76a3634"
+    },
+    {
+      "argv": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_c08_generalized.py",
+        "-q"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_c07_consult.py",
+        "-q"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "argv": [
+        "tests/c08_independent_oracle.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "88083b70c82e12a7a8366aa82bca2315415b4c3b2128738dc333a6b90b4c2c54"
+    },
+    {
+      "argv": [
+        "tests/c07_math_independent.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "7ee8f26829cb95f97a357eab30abf1babd5df47a7448776e1c9495826a1b2bf0"
+    },
+    {
+      "argv": [
+        "src/build_c08_demos.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "91a15201f33350ae836e867af2d45113451ff1193ad5d85ad8b4ebb1b239dd99"
+    }
+  ],
+  "run_wrote_not_original_only_disposable_copy": true
+}

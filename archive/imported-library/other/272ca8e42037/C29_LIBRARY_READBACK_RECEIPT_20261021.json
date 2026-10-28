@@ -1,0 +1,41 @@
+{
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "batch": "C29-20261021",
+  "checks": [
+    {
+      "label": "ZIP",
+      "filename": "DMG_C29_VZ_RE_FIP_F0_PLANO_SUPREMO_20261021_MESTRE_ONLY.zip",
+      "bytes": 482134,
+      "sha256": "c5e261aacaa5227ed6ebeb8958baeda944613d43b7fe2a1272be930a964e1882",
+      "library_file_bytes": 482134,
+      "library_sha256": "c5e261aacaa5227ed6ebeb8958baeda944613d43b7fe2a1272be930a964e1882",
+      "byte_identical": true
+    },
+    {
+      "label": "PSV",
+      "filename": "PSV_DMG_C29_MESTRE_ONLY.md",
+      "bytes": 12791,
+      "sha256": "acb5077b83b3c79cb2dec82a5075ee96e537ecd800dc966787581c3f26a659cc",
+      "library_file_bytes": 12791,
+      "library_sha256": "acb5077b83b3c79cb2dec82a5075ee96e537ecd800dc966787581c3f26a659cc",
+      "byte_identical": true
+    },
+    {
+      "label": "PARECER",
+      "filename": "C29_PARECER_DECISORIO_MESTRE_ONLY.md",
+      "bytes": 2683,
+      "sha256": "bcd51ae67dea6b66184d12b6e3f07bace737f201d3735ce778e3ad705fcdb758",
+      "library_file_bytes": 2683,
+      "library_sha256": "bcd51ae67dea6b66184d12b6e3f07bace737f201d3735ce778e3ad705fcdb758",
+      "byte_identical": true
+    }
+  ],
+  "checksum_manifest": 18,
+  "zip_crc_pass": true,
+  "initial_readback_3_of_3_pass": true,
+  "A5_original_bytes": "0/7",
+  "F0_formal": "4/8 HOLD",
+  "no_party_write": true,
+  "no_normative_write": true,
+  "note": "Receipt upload/readback must be completed to claim 4/4"
+}

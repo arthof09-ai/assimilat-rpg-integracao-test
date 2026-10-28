@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "independent_no_engine_import": true,
+  "results": [
+    {
+      "db": "R124_TECH_SCALE_10X10_S938311.sqlite",
+      "status": "PASS_COLD_NO_ENGINE_IMPORT",
+      "events": 118,
+      "pending": 0,
+      "counts": {
+        "event": 118,
+        "initiative": 1,
+        "normal_attacks": 39,
+        "counter_response": 2,
+        "counter_no_response": 0,
+        "esquivar": 6,
+        "defender": 6,
+        "counter_declarations": 2,
+        "criticals": 0,
+        "ko": 10,
+        "target_changes": 0,
+        "reaction_refresh": 3,
+        "no_reaction_chain": 2,
+        "same_window_blocks": 0
+      },
+      "winner": "ONE",
+      "last_head": "805769604a2207098db191a8c56bd0fa0165323c9a3a74b8809f5fb3fa2ff121",
+      "round": 3
+    },
+    {
+      "db": "R124_TECH_SCALE_20X20_S938411.sqlite",
+      "status": "PASS_COLD_NO_ENGINE_IMPORT",
+      "events": 232,
+      "pending": 0,
+      "counts": {
+        "event": 232,
+        "initiative": 1,
+        "normal_attacks": 77,
+        "counter_response": 2,
+        "counter_no_response": 0,
+        "esquivar": 11,
+        "defender": 10,
+        "counter_declarations": 2,
+        "criticals": 1,
+        "ko": 20,
+        "target_changes": 0,
+        "reaction_refresh": 3,
+        "no_reaction_chain": 2,
+        "same_window_blocks": 0
+      },
+      "winner": "ONE",
+      "last_head": "1124f8dcb0209b8bcb7c7519bcf8cd334f83e64dd5b596f5f243914a9b2131eb",
+      "round": 3
+    },
+    {
+      "db": "R124_TECH_SCALE_5X5_S938211.sqlite",
+      "status": "PASS_COLD_NO_ENGINE_IMPORT",
+      "events": 38,
+      "pending": 0,
+      "counts": {
+        "event": 38,
+        "initiative": 1,
+        "normal_attacks": 12,
+        "counter_response": 1,
+        "counter_no_response": 0,
+        "esquivar": 2,
+        "defender": 2,
+        "counter_declarations": 1,
+        "criticals": 0,
+        "ko": 2,
+        "target_changes": 0,
+        "reaction_refresh": 2,
+        "no_reaction_chain": 1,
+        "same_window_blocks": 0
+      },
+      "winner": null,
+      "last_head": "9035b714ddb07b99e37fd7a3c6d7ff3ef8a62e92dea488da96677f5b1f416663",
+      "round": 2
+    }
+  ],
+  "counts_total": {
+    "event": 388,
+    "initiative": 3,
+    "normal_attacks": 128,
+    "counter_response": 5,
+    "counter_no_response": 0,
+    "esquivar": 19,
+    "defender": 18,
+    "counter_declarations": 5,
+    "criticals": 1,
+    "ko": 32,
+    "target_changes": 0,
+    "reaction_refresh": 8,
+    "no_reaction_chain": 5,
+    "same_window_blocks": 0
+  }
+}

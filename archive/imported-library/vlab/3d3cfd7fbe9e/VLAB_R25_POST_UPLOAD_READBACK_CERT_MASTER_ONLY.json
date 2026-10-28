@@ -1,0 +1,22 @@
+{
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "release": "R25",
+  "library_package_id": "libfile_b60c25247b80819180b4558288c8c338",
+  "library_package_file_id": "file_000000006640820e8549bf487672ab3d",
+  "original_path_in_library": "/Comestre/OP-VLAB-FUSION-SANDBOX-01/VLAB_STAGE12_A1A2A3_RULE_DERIVED_R25_SANDBOX.zip",
+  "sha256": "9fce23ebf06e232fe0d2c40bceaecbc61f348642153ef78e23d9be3f119288c3",
+  "size_bytes": 17113750,
+  "readback": "BYTE_EXACT",
+  "archive_entries": 2556,
+  "verified_member_hashes": 2555,
+  "historical_r24_members_unchanged": 2516,
+  "zip_crc": "PASS",
+  "qa_directed_checks": "430/430 PASS",
+  "qa_regressions": "R24 14/14, R23 9/9",
+  "rule_derived_conditional_combat": "5/8 completed, 3/8 censored",
+  "real_source_full_legal_action": 0,
+  "canonical_grid": "0/1875",
+  "no_writes_to_notion_party_o_primeiro": true,
+  "uats_vigias_frozen": "rev1, library libfile_ce5587e0cafc819182a0c8955aaca966",
+  "warning": "This certifies archive integrity and test evidence, not mechanical source admission or canon certification."
+}

@@ -1,0 +1,13 @@
+{
+  "filename": "VLAB_R138_R145_MULTIRROUND_TEMPORAL_RECOVERY_VERIFIED_MESTRE_ONLY.zip",
+  "bytes": 13778050,
+  "sha256": "3407c17ab74fb9c2931814a880196237eda70c790cae987f7fe35aee24ffa383",
+  "zip_entries": 334,
+  "crc": "PASS",
+  "manifest_hashes_verified": 333,
+  "R137_original_nested_sha256": "cb616e562970e9fb6e8e08465cdf1fbbf4070d85f99c0000ea8f0756f7b8371e",
+  "R137_unchanged": true,
+  "terminal_contracts": 0,
+  "scientific_status": "CENSORED_FOUR_ROUNDS",
+  "ready_for_cold_recovery": true
+}

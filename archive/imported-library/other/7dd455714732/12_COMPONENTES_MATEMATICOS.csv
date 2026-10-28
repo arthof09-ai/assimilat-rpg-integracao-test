@@ -1,0 +1,69 @@
+effect_group_id,mechanical_record_id,part_id,source_key,component_role,expression,intrinsic,dme,damage_type,conditional,independent_observation
+CABRA_INVESTIDA,CABRA_INVESTIDA,CABRA_INVESTIDA_POOL_1,cabra,INTRINSIC_DICE_GROUP,1d6,True,3.5,IMPACT,alvo deslocado a distância desconhecida; hit/custo/alcançe ausentes,False
+CABRA_INVESTIDA,CABRA_INVESTIDA,CABRA_INVESTIDA_ATTR,cabra,EXTERNAL_ATTRIBUTE_NOT_INTRINSIC,FOR,False,13,IMPACT,alvo deslocado a distância desconhecida; hit/custo/alcançe ausentes,False
+GAL_PATADA,GAL_PATADA,GAL_PATADA_POOL_1,galidemus,INTRINSIC_DICE_GROUP,1d4,True,2.5,SLASHING,ação/alcance/acerto/defesas incompletos,False
+GAL_PATADA,GAL_PATADA,GAL_PATADA_ATTR,galidemus,EXTERNAL_ATTRIBUTE_NOT_INTRINSIC,DES,False,13,SLASHING,ação/alcance/acerto/defesas incompletos,False
+RAPOSA_BOLA_FOGO,RAPOSA_BOLA_FOGO,RAPOSA_BOLA_FOGO_POOL_1,raposa,INTRINSIC_DICE_GROUP,1d4,True,2.5,FIRE_UNCONFIRMED_SKILL_TAG,"nome sugere fogo, mas tipagem explícita não fornecida no ataque; economia desconhecida",False
+RAPOSA_BOLA_FOGO,RAPOSA_BOLA_FOGO,RAPOSA_BOLA_FOGO_FIXED,raposa,INTRINSIC_FIXED,5,True,5,FIRE_UNCONFIRMED_SKILL_TAG,"nome sugere fogo, mas tipagem explícita não fornecida no ataque; economia desconhecida",False
+ZIHA_ATAQUE_ATALHO,ZIHA_ATAQUE_ATALHO,ZIHA_ATAQUE_ATALHO_POOL_1,ziha,INTRINSIC_DICE_GROUP,6d6,True,21.0,MIXED_UNKNOWN,+32 impresso sem decomposição provada; rank apenas título P2,False
+ZIHA_ATAQUE_ATALHO,ZIHA_ATAQUE_ATALHO,ZIHA_ATAQUE_ATALHO_POOL_2,ziha,INTRINSIC_DICE_GROUP,2d8,True,9.0,MIXED_UNKNOWN,+32 impresso sem decomposição provada; rank apenas título P2,False
+ZIHA_ATAQUE_ATALHO,ZIHA_ATAQUE_ATALHO,ZIHA_ATAQUE_ATALHO_ATTR,ziha,EXTERNAL_ATTRIBUTE_NOT_INTRINSIC,?,False,,MIXED_UNKNOWN,+32 impresso sem decomposição provada; rank apenas título P2,False
+ZIHA_LAMINAS_ATTACK,ZIHA_LAMINAS,ZIHA_LAMINAS_POOL_1,ziha,INTRINSIC_DICE_GROUP,4d6,True,14.0,PHYSICAL_MIXED_UNCLEAR,alcance 4.5m; atributo DES explícito; equipamento/PA contemporâneo desconhecido,False
+ZIHA_LAMINAS_ATTACK,ZIHA_LAMINAS,ZIHA_LAMINAS_POOL_2,ziha,INTRINSIC_DICE_GROUP,2d8,True,9.0,PHYSICAL_MIXED_UNCLEAR,alcance 4.5m; atributo DES explícito; equipamento/PA contemporâneo desconhecido,False
+ZIHA_LAMINAS_ATTACK,ZIHA_LAMINAS,ZIHA_LAMINAS_FIXED,ziha,INTRINSIC_FIXED,4,True,4,PHYSICAL_MIXED_UNCLEAR,alcance 4.5m; atributo DES explícito; equipamento/PA contemporâneo desconhecido,False
+ZIHA_LAMINAS_ATTACK,ZIHA_LAMINAS,ZIHA_LAMINAS_ATTR,ziha,EXTERNAL_ATTRIBUTE_NOT_INTRINSIC,DES,False,18,PHYSICAL_MIXED_UNCLEAR,alcance 4.5m; atributo DES explícito; equipamento/PA contemporâneo desconhecido,False
+ZIHA_LAMINAS_ATTACK,ZIHA_INFUSAO,ZIHA_INFUSAO_POOL_1,ziha,INTRINSIC_DICE_GROUP,1d8,True,4.5,RADIANT,parcela independente apenas se infusão ativada,False
+ESPADA_LEND,ESPADA_LEND,ESPADA_LEND_POOL_1,espada_lendaria,INTRINSIC_DICE_GROUP,14d20,True,147.0,UNKNOWN_COMPOSITE,+60 FOR e +75 teste externos; deterioração/few uses; FIP ápice é análise da ficha,False
+ESPADA_LEND,ESPADA_LEND,ESPADA_LEND_POOL_2,espada_lendaria,INTRINSIC_DICE_GROUP,14d12,True,91.0,UNKNOWN_COMPOSITE,+60 FOR e +75 teste externos; deterioração/few uses; FIP ápice é análise da ficha,False
+ESPADA_LEND,ESPADA_LEND,ESPADA_LEND_POOL_3,espada_lendaria,INTRINSIC_DICE_GROUP,14d8,True,63.0,UNKNOWN_COMPOSITE,+60 FOR e +75 teste externos; deterioração/few uses; FIP ápice é análise da ficha,False
+ESPADA_LEND,ESPADA_LEND,ESPADA_LEND_POOL_4,espada_lendaria,INTRINSIC_DICE_GROUP,14d10,True,77.0,UNKNOWN_COMPOSITE,+60 FOR e +75 teste externos; deterioração/few uses; FIP ápice é análise da ficha,False
+ESPADA_LEND,ESPADA_LEND,ESPADA_LEND_FIXED,espada_lendaria,INTRINSIC_FIXED,390,True,390,UNKNOWN_COMPOSITE,+60 FOR e +75 teste externos; deterioração/few uses; FIP ápice é análise da ficha,False
+ESPADA_LEND,ESPADA_LEND,ESPADA_LEND_ATTR,espada_lendaria,EXTERNAL_ATTRIBUTE_NOT_INTRINSIC,FOR,False,,UNKNOWN_COMPOSITE,+60 FOR e +75 teste externos; deterioração/few uses; FIP ápice é análise da ficha,False
+ESPADA_CHAMAS,ESPADA_CHAMAS,ESPADA_CHAMAS_POOL_1,espada_chamas,INTRINSIC_DICE_GROUP,5d10,True,27.5,MIXED_UNSPLIT,não separar automaticamente quais dados são fogo ou corte,False
+ESPADA_CHAMAS,ESPADA_CHAMAS,ESPADA_CHAMAS_POOL_2,espada_chamas,INTRINSIC_DICE_GROUP,5d8,True,22.5,MIXED_UNSPLIT,não separar automaticamente quais dados são fogo ou corte,False
+ESPADA_CHAMAS,ESPADA_CHAMAS,ESPADA_CHAMAS_FIXED,espada_chamas,INTRINSIC_FIXED,15,True,15,MIXED_UNSPLIT,não separar automaticamente quais dados são fogo ou corte,False
+ADAGA_MORTAL_ATTACK,ADAGA_INTR,ADAGA_INTR_POOL_1,adaga_veneno,INTRINSIC_DICE_GROUP,4d6,True,14.0,PHYSICAL_UNSPECIFIED,fonte Party espelho; não transformar em fonte independente canônica,False
+ADAGA_MORTAL_ATTACK,ADAGA_VENENO,ADAGA_VENENO_POOL_1,adaga_veneno,INTRINSIC_DICE_GROUP,3d10,True,16.5,POISON,somente falha de salvaguarda após ativação/hit; envenenamento 1 min sem tick numérico adicional,False
+CAJADO_RIDER,CAJADO_RIDER,CAJADO_RIDER_POOL_1,cajado_ziha,INTRINSIC_DICE_GROUP,7d8,True,31.5,NECROTIC,"por hit autorizado e equipado, não ataque independente",False
+CAJADO_LUA,CAJADO_LUA,CAJADO_LUA_POOL_1,cajado_ziha,INTRINSIC_DICE_GROUP,20d8,True,90.0,NECROTIC,"ativação 2x/dia, área 6m, 3 rodadas, desconhecida ação/custo",False
+CAJADO_TOQUE,CAJADO_TOQUE,CAJADO_TOQUE_POOL_1,cajado_ziha,INTRINSIC_DICE_GROUP,20d8,True,90.0,NECROTIC,"3x/dia, alcance corpo a corpo, cura derivada não automaticamente aplicada",False
+CAJADO_RITUAL,CAJADO_RITUAL,CAJADO_RITUAL_POOL_1,cajado_ziha,INTRINSIC_DICE_GROUP,28d10,True,154.0,NECROTIC,"condicionado meia-noite, maximização de magia; não é golpe autônomo",False
+FELPUDO_ESPINHOS,FELPUDO_ESPINHOS,FELPUDO_ESPINHOS_POOL_1,felpudo,INTRINSIC_DICE_GROUP,1d4,True,2.5,PIERCING,,False
+FELPUDO_ESPINHOS,FELPUDO_ESPINHOS,FELPUDO_ESPINHOS_ATTR,felpudo,EXTERNAL_ATTRIBUTE_NOT_INTRINSIC,DES,False,8,PIERCING,,False
+RATO_RAIO,RATO_RAIO,RATO_RAIO_POOL_1,rato,INTRINSIC_DICE_GROUP,2d6,True,7.0,DARK_UNCONFIRMED_ATTACK_TAG,habilidade concedida sob Peste Negra,False
+RATO_RAIO,RATO_RAIO,RATO_RAIO_ATTR,rato,EXTERNAL_ATTRIBUTE_NOT_INTRINSIC,INT,False,21,DARK_UNCONFIRMED_ATTACK_TAG,habilidade concedida sob Peste Negra,False
+RATO_DARK_RIDER,RATO_DARK_RIDER,RATO_DARK_RIDER_POOL_1,rato,INTRINSIC_DICE_GROUP,1d4,True,2.5,DARK,só quando tipo Dark comprovado para ação específica,False
+BEHEMOTH_ESTILHACO,BEHEMOTH_ESTILHACO,BEHEMOTH_ESTILHACO_POOL_1,behemoth,INTRINSIC_DICE_GROUP,2d6,True,7.0,ICE_UNCONFIRMED_ATTACK_TAG,,False
+BEHEMOTH_ESTILHACO,BEHEMOTH_ESTILHACO,BEHEMOTH_ESTILHACO_ATTR,behemoth,EXTERNAL_ATTRIBUTE_NOT_INTRINSIC,DES,False,52,ICE_UNCONFIRMED_ATTACK_TAG,,False
+BEHEMOTH_MORDIDA,BEHEMOTH_MORDIDA,BEHEMOTH_MORDIDA_POOL_1,behemoth,INTRINSIC_DICE_GROUP,3d6,True,10.5,PIERCING_UNCONFIRMED,,False
+BEHEMOTH_MORDIDA,BEHEMOTH_MORDIDA,BEHEMOTH_MORDIDA_ATTR,behemoth,EXTERNAL_ATTRIBUTE_NOT_INTRINSIC,FOR,False,18,PIERCING_UNCONFIRMED,,False
+ANEL_ARIETE,ANEL_ARIETE,ANEL_ARIETE_POOL_1,anel_ariete,INTRINSIC_DICE_GROUP,3d12,True,19.5,NECROTIC,1 a 3 cargas e alvo visível a até 18m; sem gatilho combate/hit; por carga literal,False
+ANEL_ARIETE,ANEL_ARIETE,ANEL_ARIETE_FIXED,anel_ariete,INTRINSIC_FIXED,18,True,18,NECROTIC,1 a 3 cargas e alvo visível a até 18m; sem gatilho combate/hit; por carga literal,False
+FOICE_VENTO,FOICE_VENTO,FOICE_VENTO_POOL_1,foice_vento_1,INTRINSIC_DICE_GROUP,2d6,True,7.0,WIND_CONTEXT,"alcance 9m, PA13; INT do ator não recuperada",False
+FOICE_VENTO,FOICE_VENTO,FOICE_VENTO_ATTR,foice_vento_1,EXTERNAL_ATTRIBUTE_NOT_INTRINSIC,INT,False,,WIND_CONTEXT,"alcance 9m, PA13; INT do ator não recuperada",False
+FRIO_V1_ATTACK,FRIO_V1_ONHIT,FRIO_V1_ONHIT_POOL_1,frio_1,INTRINSIC_DICE_GROUP,2d4,True,5.0,ICE,4PA espada/10PA besta; chance congelamento 15%,False
+FRIO_V1_ATTACK,FRIO_V1_TICK,FRIO_V1_TICK_POOL_1,frio_1,INTRINSIC_DICE_GROUP,2d6,True,7.0,ICE,somente depois de congelamento e falha CON; duração não definida,False
+FRIO_V2_ATTACK,FRIO_V2_ONHIT,FRIO_V2_ONHIT_POOL_1,frio_v2,INTRINSIC_DICE_GROUP,2d8,True,9.0,ICE,PA9/15; 20% congelar,False
+FRIO_V2_ATTACK,FRIO_V2_ONHIT,FRIO_V2_ONHIT_FIXED,frio_v2,INTRINSIC_FIXED,2,True,2,ICE,PA9/15; 20% congelar,False
+FRIO_V2_ATTACK,FRIO_V2_FAIL,FRIO_V2_FAIL_POOL_1,frio_v2,INTRINSIC_DICE_GROUP,2d6,True,7.0,ICE,gatilho/temporalidade completa não definidos,False
+COLUNA_V3_DOT,COLUNA_V3_DOT,COLUNA_V3_DOT_POOL_1,coluna_v3,INTRINSIC_DICE_GROUP,6d6,True,21.0,ICE,"falha FOR/DES, imobilizado e sem resistência a gelo",False
+LIU_AXE_ATTACK,LIU_AXE,LIU_AXE_POOL_1,liu,INTRINSIC_DICE_GROUP,5d12,True,32.5,PHYSICAL_UNCLASSIFIED,"não somar +2, infusão nem crítico sem eventos",False
+LIU_AXE_ATTACK,LIU_AXE_ELETRIC,LIU_AXE_ELETRIC_POOL_1,liu,INTRINSIC_DICE_GROUP,3d8,True,13.5,ELECTRIC,parcela separada; não adicionar automaticamente,False
+LIU_AXE_ATTACK,LIU_AXE_ELETRIC,LIU_AXE_ELETRIC_FIXED,liu,INTRINSIC_FIXED,6,True,6,ELECTRIC,parcela separada; não adicionar automaticamente,False
+LIU_EXT,LIU_EXT,LIU_EXT_POOL_1,liu,INTRINSIC_DICE_GROUP,3d6,True,10.5,STRENGTH_EXTENSION,"ativa e forma normal, não confundir transformação",False
+LIU_EXT_TRANS,LIU_EXT_TRANS,LIU_EXT_TRANS_POOL_1,liu,INTRINSIC_DICE_GROUP,3d9,True,15.0,STRENGTH_EXTENSION,é expressão documental; d9 não é dado-padrão homologado no motor; sem uso automático,False
+MAC_PATADA,MAC_PATADA,MAC_PATADA_POOL_1,macaco,INTRINSIC_DICE_GROUP,2d6,True,7.0,IMPACT,passiva +2 FOR sem double-count,False
+MAC_PATADA,MAC_PATADA,MAC_PATADA_ATTR,macaco,EXTERNAL_ATTRIBUTE_NOT_INTRINSIC,FOR,False,54,IMPACT,passiva +2 FOR sem double-count,False
+MAC_MORDIDA,MAC_MORDIDA,MAC_MORDIDA_POOL_1,macaco,INTRINSIC_DICE_GROUP,1d6,True,3.5,PIERCING,,False
+MAC_MORDIDA,MAC_MORDIDA,MAC_MORDIDA_ATTR,macaco,EXTERNAL_ATTRIBUTE_NOT_INTRINSIC,FOR,False,54,PIERCING,,False
+MAC_ELEMENTAL,MAC_ELEMENTAL,MAC_ELEMENTAL_POOL_1,macaco,INTRINSIC_DICE_GROUP,1d10,True,5.5,ELEMENT_UNSPECIFIED,"elemento, tipo e custo ação desconhecidos",False
+MAC_ELEMENTAL,MAC_ELEMENTAL,MAC_ELEMENTAL_ATTR,macaco,EXTERNAL_ATTRIBUTE_NOT_INTRINSIC,INT,False,30,ELEMENT_UNSPECIFIED,"elemento, tipo e custo ação desconhecidos",False
+JAKU_LANCA,JAKU_LANCA,JAKU_LANCA_POOL_1,jaku,INTRINSIC_DICE_GROUP,2d8,True,9.0,PIERCING_WEAPON,nenhum +FOR22 sem permissão,False
+JAKU_LANCA,JAKU_LANCA,JAKU_LANCA_FIXED,jaku,INTRINSIC_FIXED,2,True,2,PIERCING_WEAPON,nenhum +FOR22 sem permissão,False
+JAKU_INFUSION,JAKU_INFUSION,JAKU_INFUSION_POOL_1,jaku,INTRINSIC_DICE_GROUP,2d8,True,9.0,SPIRITUAL_FLAME_TAG_UNDECIDED,DEC-INFUSION-JAKU-01 em HOLD,False
+JAKU_INFUSION,JAKU_INFUSION,JAKU_INFUSION_FIXED,jaku,INTRINSIC_FIXED,2,True,2,SPIRITUAL_FLAME_TAG_UNDECIDED,DEC-INFUSION-JAKU-01 em HOLD,False
+JAKU_ESTOCADA_TICK,JAKU_ESTOCADA_TICK,JAKU_ESTOCADA_TICK_POOL_1,jaku,INTRINSIC_DICE_GROUP,1d6,True,3.5,BLEED,após hit perfurante e CON CD17 falha; estabilidade no sucesso,False
+DRAGON_A_SMASH,DRAGON_A_SMASH,DRAGON_A_SMASH_POOL_1,dragon_a,INTRINSIC_DICE_GROUP,4d6,True,14.0,IMPACT_UNCONFIRMED,,False
+DRAGON_A_SMASH,DRAGON_A_SMASH,DRAGON_A_SMASH_ATTR,dragon_a,EXTERNAL_ATTRIBUTE_NOT_INTRINSIC,FOR,False,36,IMPACT_UNCONFIRMED,,False
+DRAGON_B_SMASH,DRAGON_B_SMASH,DRAGON_B_SMASH_POOL_1,dragon_b,INTRINSIC_DICE_GROUP,4d6,True,14.0,IMPACT_UNCONFIRMED,titulo Ouro1 / corpo Ouro3; não cruzar com variante A,False
+DRAGON_B_SMASH,DRAGON_B_SMASH,DRAGON_B_SMASH_ATTR,dragon_b,EXTERNAL_ATTRIBUTE_NOT_INTRINSIC,FOR,False,60,IMPACT_UNCONFIRMED,titulo Ouro1 / corpo Ouro3; não cruzar com variante A,False

@@ -1,0 +1,37 @@
+{
+  "after": {
+    "a1_events": 343,
+    "attacks": 115,
+    "attempted": 8,
+    "censor": {
+      "83": "NEGATIVE_CRITICAL_EFFECT_UNRESOLVED"
+    },
+    "censored": 1,
+    "completed": 7,
+    "positive_crits": 1,
+    "reference_configs_same_R25": true,
+    "sum_rounds_completed": 58
+  },
+  "before": {
+    "attempted": 8,
+    "censored": 3,
+    "censored_seeds": {
+      "41": "TIE",
+      "71": "POSITIVE_CRITICAL",
+      "83": "NEGATIVE_CRITICAL"
+    },
+    "completed": 5
+  },
+  "canonical_cells_credit": 0,
+  "canonical_fights": 0,
+  "historical_R25_immutable": "reconstruction/r25_delivery/R25_RULE_DERIVED_BATCH.json",
+  "mode": "LAB_RULE_DERIVED_CONDITIONAL",
+  "note": "Identical pre-registered seeds, original R25 historical artifacts preserved. R26 ruling-local amendment and positive critical via native v0.8.1; damage type remains transport placeholder and rules-derived participants remain non-canonical.",
+  "official_status": "NOT_CERTIFIED",
+  "ruling_decisions": [
+    "MESTRE-INIT-20261014-DES-THEN-REROLL-ONLY-TIED",
+    "MESTRE-REACTION-20261014-REFRESH-START-OWN-TURN"
+  ],
+  "schema": "R26_RULE_DERIVED_BASELINE_COMPARISON",
+  "source_entities_real": 0
+}

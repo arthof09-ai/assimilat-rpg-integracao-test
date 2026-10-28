@@ -1,0 +1,18 @@
+ORIGINAL_R42_SHA256 6fbaaf8b54e79d5b7e506f580b32495ee3448e5f8c13c75be224e9c9fdbe7800
+EXIT 0
+{
+  "status": "PASS_R42_COLD_TEST",
+  "original_sources_verified": 284,
+  "pa_r39_tests": 510,
+  "r48_original_tests": 40,
+  "r42_new_tests": 13,
+  "total_distinct_tests": 563,
+  "textual_inscription_benchmark": 12,
+  "gold_26_techniques_with_image_only": 26,
+  "technique_predictions_blind": 0,
+  "f5_official": "HOLD",
+  "official_qmc05_tee": "NOT_EXECUTED",
+  "material_magic_verified": false,
+  "no_official_writes": true
+}
+

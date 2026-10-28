@@ -1,0 +1,23 @@
+{
+  "video_id": "496086",
+  "schema": "ASSIMILACAO_VIDEO_ACCEPTANCE_V1",
+  "canonical": false,
+  "created": "2026-10-24",
+  "privacy": "MESTRE_ONLY",
+  "real_program": false,
+  "title": "TOKEN-ATLAS-VISUAL-TEST",
+  "owner": "Desenvolvedor sob writer vigente",
+  "baseline": "RUN013/TEST36 ou mais recente conforme Notion",
+  "objective": "Apresentar unidade com atlas próprio/CC0; manter separação sprite/token/posição",
+  "tests": [
+    "4 orientações configuradas",
+    "2 quadros/direção válidos",
+    "pivot/foot correto em 4 casas",
+    "oclusão legível e grade recuperável",
+    "0 alteração a Vida/Alma/PA/dano",
+    "Android físico para PASS mobile"
+  ],
+  "authority": "Servidor projeta estado; VLAB segue mecânico",
+  "output": "PNG original/licenciado, manifesto SHA, vídeo/screenshot e teste de frames",
+  "status": "PROPOSED_NOT_EXECUTED"
+}

@@ -1,0 +1,388 @@
+{
+  "as_of": "2026-10-16",
+  "baseline": "R01-R137 preserved",
+  "denominator_original": 17,
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "power_grid_official": 0,
+  "power_grid_total": 1875,
+  "reference_matrix_SHA": "6e191ea0aa8c5d6e82a756332d8fe6721f348e387989e08e64d46b2531536b66",
+  "rows": [
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Outras habilidades, efeitos de área, salvaguarda/reflexão completa, alcance não-condicional.",
+        "new_executed_evidence": "R126: Capa de Poeira 35PA como Reação e Marca dos Passos Perdidos 25PA como Padrão; R132: Reconstituição de Seiva 75PA como Cura, integrada no módulo v0.8.1.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "Faltam catálogo integral, efeitos mágicos, alcance pleno, ativos de área e cobertura de todas as ações.",
+        "new_executed_or_audited_evidence": "R138 Passo da Fuligem (25 PA Movimento, +12m só neste turno) e Pulso de Estabilização (45 PA Reação) agora integrados com R132 cura/Capa/Marca em QUATRO rodadas.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "ACTION_CATALOG_AIN01",
+      "original_requirement_verbatim": "REAL_SOURCE_LOADOUT_AND_FULL_EFFECT_COVERAGE + independent review + applicable NAC-PASS-02",
+      "position": 1,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Admissão oficial/materialidade das fichas, snapshot de cena canônica, recursos e itens reais.",
+        "new_executed_evidence": "R126: Auren e duas instâncias técnicas de Feryn; R132: Auren/Feryn/Eristan, três perfis fonte distintos, mas 2 NPCs são precreation Mestre-side.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "Materialização canônica, integridade das propostas de item, identidades vivas e snapshot do encontro real.",
+        "new_executed_or_audited_evidence": "R138 três perfis distintos efetivamente ligados a fontes Mestre-side, com genêses, vida/PA/posição e readback de quatro rodadas; NÃO são perfis canônicos vivos.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "ACTOR_SNAPSHOT_SCENARIO",
+      "original_requirement_verbatim": "CURRENT_CANON_ACTOR_SNAPSHOTS_AND_SNAPSHOT_FREEZE + independent review + applicable NAC-PASS-02",
+      "position": 2,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Resolver precedência concorrente, dano misto, falha crítica, critérios de alcance e transformações sem conjectura.",
+        "new_executed_evidence": "Regra 3 de oportunidade e afastamento seguro consultada diretamente; Regra 5 cancelamento Vantagem/Desvantagem em motor, falha crítica e stacking preservados HOLD.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "R42 bridge negativo no resolutor corrigido ainda precisa implementação; Marca 3 turnos sem fronteira normativa; conflitos de custos de transformação.",
+        "new_executed_or_audited_evidence": "R138 source-freeze documentado, uso explícito de exceção R42 LAB-ONLY para falha crítica negativa DESCOBERTA, mas NÃO integrada ainda no R138; Passo ESTE TURNO explícito.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "AUTHORITATIVE_RULES_AND_ADAPTERS",
+      "original_requirement_verbatim": "AUTHORITATIVE_SOURCE_FREEZE_AND_CONFLICT_RESOLUTION + independent review + applicable NAC-PASS-02",
+      "position": 3,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Combates completos com all mechanics/rank, equipes não clonadas, 2×1 equivalente e 20×20 fonte completa.",
+        "new_executed_evidence": "Três cenas com três atores e uma rodada de ataques/habilidades/PA/reação/posição/recuperação; R125 10×10 e 20×20 preservados.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "Primeiros duelos fonte-completos com resultado final, composição equilibrada 2 ED, 20×20 paridade real.",
+        "new_executed_or_audited_evidence": "R138: cena 1×2 de 4 rodadas 40 commits, habilidades reais, reação, cura e AoO coexistindo; fim CENSORED_HORIZON sem vencedor. Escala técnica R125 preservada.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "BATTLE_1X1_2X1_20X20",
+      "original_requirement_verbatim": "COMPLETE_SOURCE_LEGAL_FIGHT_1X1_TO_20X20 + independent review + applicable NAC-PASS-02",
+      "position": 4,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Sangramento admitido por fonte de portador, restrição de cura de ferida real, ticks/resistências, gatilhos pós-morte e independência de fontes.",
+        "new_executed_evidence": "R132 Eristan: cura nativa 8d10+25+luvas20, cap Vida máxima, 75 PA, 10 transações; R130 com perda de speed foi bloqueado pelo auditor e preservado.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "Sangramento equipado real/portador elegível, duração e retirada sob regras específicas, comportamento KO, cicatrização prolongada e recuperação pós-status.",
+        "new_executed_or_audited_evidence": "R138 quatro curas em cena após dano + Pulso reativo pós-AoO: 411 PV efetivos; R141 cura faltando 14 PV: bruto96/efetivo14/overheal82, 6 gates fail-closed.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "BLEED_AND_HEAL_RESTRICTIONS",
+      "original_requirement_verbatim": "BLEED_HEAL_SOURCE_AND_EFFECT_ADAPTER_INTEGRATION + independent review + applicable NAC-PASS-02",
+      "position": 5,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Besta com iniciativa/documentação plena, efeitos, balanced ED, run completo e científica confiança.",
+        "new_executed_evidence": "Nenhuma nova execução ED×Besta foi iniciada: R126 usa dois NPCs ON5; R132 adiciona healer NPC.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "Combate ED×Besta completo com proficiência individual de Iniciativa da Besta, habilidades completas e RD.",
+        "new_executed_or_audited_evidence": "R138 prova técnica de Espiritualista L3 contra propostas de NPC ON5, NÃO ED×Besta; preservado dado R107 de Grifo.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "ED_VS_BE_DAMAGE",
+      "original_requirement_verbatim": "REAL_ED_BE_EFFECTS_RANK_AND_SOURCE_FIXTURES + independent review + applicable NAC-PASS-02",
+      "position": 6,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Ataque real Dark contra alvo com resistência, convenção stacking e distribuição de dano misto com auditor independente.",
+        "new_executed_evidence": "R135: Dark RD60 de Auren testada isoladamente no resolvedor; físico geral35 isolado; empilhamento e duas tags explicitamente REJECT.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "Ataque Dark literal e perfil completo para Auren, mistura de componentes e adjudicação de RD gerais/específicas sem acumulação inventada.",
+        "new_executed_or_audited_evidence": "R138 3 ataques físicos com RD22 source Feryn, 672 PV de dano efetivo; RD Dark 60 de Auren conhecida mas NÃO acionada nesta cena.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "GENERAL_SPECIFIC_RD",
+      "original_requirement_verbatim": "RD_MULTI_TAG_STACKING_BYPASS_NORMATIVE_RULING + independent review + applicable NAC-PASS-02",
+      "position": 7,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Cargas e contratos de itens existentes, remoção/equipamento, custo comprometido e rollback sob ataque.",
+        "new_executed_evidence": "R132: Luvas do Vaso da Vida equipadas de Eristan adicionaram +20 à cura direta, uma vez na conjuração; source item explicit.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "Equipamento retirado, suprimido, transferência legítima, efeitos de item não-heal e compromisso ao longo de descanso/cenas.",
+        "new_executed_or_audited_evidence": "R138 Eristan luvas +20 por cura de fonte, cinco aplicações auditadas (4 Padrão +1 Pulso); R141 cap sem segunda cobrança de PA vinculado.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "ITEM_EQUIPMENT_AND_ENHANCEMENTS",
+      "original_requirement_verbatim": "CURRENT_EQUIPMENT_CHARGE_SNAPSHOTS + independent review + applicable NAC-PASS-02",
+      "position": 8,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Auditoria competente externa, gates B1/B2/B3/NAC-PASS; lacunas das outras funcionalidades.",
+        "new_executed_evidence": "Auditor frio sem engine 11+11+10 eventos; R135 9 negativas; R134 2 falhas de processo; R132 retest após detectar drift em R130.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "Revisão independente competente, NAC-PASS-02 original, homologação normativa e escrita autorizada.",
+        "new_executed_or_audited_evidence": "R139 auditor independente 40/40, R140 prefix checkpoint reconstruído com R18 load; R142 dois redteams semânticos; R143/144 crash fault 2/2.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "OFFICIAL_QA_NAC_LEDGERS",
+      "original_requirement_verbatim": "B1_B2_B3_NAC_PASS_AND_OFFICIAL_LEDGER_GATE + independent review + applicable NAC-PASS-02",
+      "position": 9,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Manutenção temporal real, equipamentos ativos com reserva PA, habilidades adicionais, batida simultânea de ações/PA em full fight.",
+        "new_executed_evidence": "R126 dois gatilhos Capa 35PA; uma Marca 25PA; R132 uma Cura 75PA. 170 PA pagos em 3 cenas distintas, sem doppio commit; crash pago R134.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "Manutenção temporal distinta, pré-buffs completos, recarga oficial e classificação custos variáveis.",
+        "new_executed_or_audited_evidence": "R138 consome 430 PA ao longo de 4 rodadas (F85/E345); turno/ação Padrão+Movimento+Reação; Passo25 expira no END; R143 fault sem débito duplo.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "PA_AND_PREBUFF_COSTS",
+      "original_requirement_verbatim": "CURRENT_PA_PREBUFF_COSTS_AND_TIMING_AUTHORITY + independent review + applicable NAC-PASS-02",
+      "position": 10,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Concorrência multi-inimigos, reações contra magias válidas, gatilho forçado sob decisão competente, encerramento integral.",
+        "new_executed_evidence": "R126 Capa pago antes do hit e debitado uma vez; AoO consumiu Reação e não ação padrão; afastar seguro negou AoO. R135 cancelamento Fraco/AoO.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "Concorrência real de múltiplas oportunidades simultâneas, stack de reações incluindo defesa+evento temporal.",
+        "new_executed_or_audited_evidence": "R138 Capa35 em R1 e Pulso45 após dano de AoO em R3, slots próprios sem duplicação; R143 crash de Passo preserva slots; R125 R50/R51 mantidos.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "REACTION_TRIGGER_AND_SINGLE_USE",
+      "original_requirement_verbatim": "MULTI_TRIGGER_INTERRUPTS_AND_NORMATIVE_PRECEDENCE + independent review + applicable NAC-PASS-02",
+      "position": 11,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Holdout verdadeiramente cego, famílias independentes, referências oficiais, estatística com censura.",
+        "new_executed_evidence": "R128 e R133 auditores stdlib independentes confrontaram RNG/estado/cadeia; R130 drift detectado e nova seed963212 corrigida.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "Holdout realmente independente e pré-registrado, amostragem estatística de lutas integrais e RNG oficial.",
+        "new_executed_or_audited_evidence": "R139 reexecuta offline todos os dados e 40 snapshots sem motor; R142 dois payloads adulterados com hash refabricado recusados. Seed991402 de fallback desenvolvimento, NÃO blind holdout.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "RNG_REPLAY_STATISTICS",
+      "original_requirement_verbatim": "CANONICAL_DICE_SOURCE_AND_STATISTICAL_HOLDOUT + independent review + applicable NAC-PASS-02",
+      "position": 12,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Perfis 25 A/B e 27 D homologados, autorização material, não confundir NPC proposta com official.",
+        "new_executed_evidence": "Perfil Eristan ON5 com papel de curandeiro agora fonte reaberta e snapshot mecânico para teste (sem ED).",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "Snapshots canônicos, 27 patamares Besta materializados, rankings e nível homólogos.",
+        "new_executed_or_audited_evidence": "Fonte Auren L3 e ON5 Feryn/Eristan + sistemas reabertos; R42 Mestre LAB-only localizado; fonte Grifo L2 derivada preservada.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "SOURCE_FREEZE_AND_RANK",
+      "original_requirement_verbatim": "REAL_BESTIARY_RANK_SNAPSHOTS_14_ACTOR_GATES + independent review + applicable NAC-PASS-02",
+      "position": 13,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "IA real/holdout independente, justiça por posição/papéis/condições.",
+        "new_executed_evidence": "Políticas one-round fixas source-bounded separadas desenvolvimento/reserva; zero A/B causal de vitória.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "Políticas táticas A/B comparáveis, fair match, cegamento e vitória final inferível.",
+        "new_executed_or_audited_evidence": "R138 política de testes propositalmente inclui A abdicando Padrão em R2/R3; isso testa duração NÃO IA competitiva.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "TACTICAL_AI_AB_FAIRNESS",
+      "original_requirement_verbatim": "OBSERVABLE_TACTICAL_POLICY_FAIRNESS_BLIND_AUDIT + independent review + applicable NAC-PASS-02",
+      "position": 14,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Conciliação NAC-NORM, snapshot transformado admissível e demais overlays.",
+        "new_executed_evidence": "Auren não transformado; conflito 100PA+15/turno vs 320PA preservado.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "NAC-NORM-01: resolver precedente e execução temporal overlay em cena completa.",
+        "new_executed_or_audited_evidence": "R138 não ativou transformação. Consulta Normas confirma custos Lendário 320PA ainda divergentes da ficha Auren100+15/turno.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "TRANSFORMATION_OVERLAY_AI08",
+      "original_requirement_verbatim": "CURRENT_TRANSFORMATION_SOURCE_AND_FULL_DURATION + independent review + applicable NAC-PASS-02",
+      "position": 15,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Cena, duração e recarga/descanso reais com autoridade.",
+        "new_executed_evidence": "Sem efeito de transformação executado; todas fontes e holds históricos retidos.",
+        "status": "HOLD",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "Descanso/recarga por cena, duração e estado de Espírito fonte-vinculado.",
+        "new_executed_or_audited_evidence": "R138 Passo temporal é efeito H, NÃO transformação; preserva terminal HOLD.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "TRANSFORMATION_PER_SCENE_AI09",
+      "original_requirement_verbatim": "REAL_SCENE_REST_BOUNDARY_AND_GATE_AUTHORITY + independent review + applicable NAC-PASS-02",
+      "position": 16,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "ANTES_R135": {
+        "NAC_PASS": "BOUNDED_TECHNICAL_ONLY_TERMINAL_HOLD",
+        "independent_audit": "LOCAL COLD auditor for selected scenes; no external homologation",
+        "minimum_remaining": "Cenas multirrodadas com habilidades e reação, morte real sem ambiguidade, concorrência e range completo.",
+        "new_executed_evidence": "R126 duas cenas 3 atores de 11 transações; R132 cenário 3 fontes de 10 transações; PA, AoO e cura atravessam scheduler R18/R26.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "DEPOIS_R145": {
+        "NAC_PASS": "PASS_TECHNICAL_BOUNDED; TERMINAL_HOLD",
+        "independent_audit": "R139 cold causal only for R138; R142 independent heal cap/adversarial; not official independent cert",
+        "minimum_remaining": "Persistência de estados multirrodada completa, efeitos 3 turnos com fronteira válida, KO, participantes removidos e retomada LIVE de checkpoint intermediário.",
+        "new_executed_or_audited_evidence": "R138 4 rodadas/12 próprios turnos/40 commits com Capa, Marca, Passo e expiração, AoO, Pulso, quatro curas, readback independente; R140 prefixo 20 eventos reconstruído e reaberto.",
+        "status": "PARTIAL_LAB_ONLY",
+        "terminal_certified": false
+      },
+      "id": "TURN_SCHEDULER_EVENT_SOURCING",
+      "original_requirement_verbatim": "CANON_INITIATIVE_TIE_INTERRUPTION_AND_SOURCE_COMPLETE_EVENTS + independent review + applicable NAC-PASS-02",
+      "position": 17,
+      "source_R105_SHA256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    }
+  ],
+  "source_status": "MESTRE_SIDE_TECHNICAL_PRECREATE",
+  "terminal_after": 0,
+  "terminal_before": 0
+}

@@ -1,0 +1,4 @@
+# Archived originals must retain their exact bytes on every platform.
+archive/imported-library/** -text
+archive/vlab-source/**/part*.bin -text
+archive/vlab/bridge-zip/*.zip -text

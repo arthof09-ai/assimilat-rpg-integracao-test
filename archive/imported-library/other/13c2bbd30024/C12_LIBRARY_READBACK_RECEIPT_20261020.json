@@ -1,0 +1,33 @@
+{
+  "status": "PASS_C12_LIBRARY_COLD_READBACK_BYTE_IDENTICAL",
+  "as_of": "2026-10-20",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "library_directory": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "files": [
+    {
+      "file": "DMG_C12_CIENCIA_CHASSIS_FIP_TRIAGEM_20261020_MESTRE_ONLY.zip",
+      "bytes": 44914,
+      "sha256": "19c9b8799d161e3eaa577ec30c8a10ec0ebe7cf22533f73c393b68df3e4218a4",
+      "byte_identical": true
+    },
+    {
+      "file": "PSV_DMG_C12_CIENCIA_PROSPECTIVA_20261020_MESTRE_ONLY.md",
+      "bytes": 13036,
+      "sha256": "6a5278d74c440a32d94baf1c17b71ae9a3923988e9159c3e0f1c9ce7038d6726",
+      "byte_identical": true
+    },
+    {
+      "file": "C12_FINAL_FROZEN_ZIP_AUDIT_20261020.json",
+      "bytes": 587,
+      "sha256": "8812a0e1f2a7290a8b77ef670273ba00cff5638f115a059aed8ece1492b82e0d",
+      "byte_identical": true
+    }
+  ],
+  "production": "HOLD",
+  "F0": "4/8",
+  "notion_writes": 0,
+  "party_writes": 0,
+  "manifest_members_pass": 17,
+  "zip_entries": 18,
+  "crc": "PASS"
+}

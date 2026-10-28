@@ -1,0 +1,233 @@
+{
+  "classification": "TEST_MATH_ONLY",
+  "purpose": "Show equal-ish raw averages can conceal different distribution and defensive sensitivity",
+  "sources": {
+    "Ravin": "https://app.notion.com/p/14bc2b324ede834daba501e769feda9d",
+    "Onopio": "https://app.notion.com/p/2ebc2b324ede82cfbd1c81b7a2107bb9"
+  },
+  "no_permission_to_pair_specific_defender": true,
+  "damage_type_action_hit_probability_control_FIP_RE": "UNKNOWN_NOT_ASSUMED",
+  "scenarios": [
+    {
+      "key": "Ravin_front",
+      "source_expression_literal": "2d6+37",
+      "exact_enumeration_equals_convolution": true,
+      "conditionals": [
+        {
+          "rd_assumed": 0,
+          "total_outcomes": 36,
+          "raw_expected": "44",
+          "expected_post_rd": "44",
+          "expected_post_rd_decimal": 44.0,
+          "probability_post_rd_positive": "1",
+          "probability_post_rd_positive_decimal": 1.0,
+          "distribution_support_min": 39,
+          "distribution_support_max": 49
+        },
+        {
+          "rd_assumed": 35,
+          "total_outcomes": 36,
+          "raw_expected": "44",
+          "expected_post_rd": "9",
+          "expected_post_rd_decimal": 9.0,
+          "probability_post_rd_positive": "1",
+          "probability_post_rd_positive_decimal": 1.0,
+          "distribution_support_min": 39,
+          "distribution_support_max": 49
+        },
+        {
+          "rd_assumed": 40,
+          "total_outcomes": 36,
+          "raw_expected": "44",
+          "expected_post_rd": "145/36",
+          "expected_post_rd_decimal": 4.0277778,
+          "probability_post_rd_positive": "11/12",
+          "probability_post_rd_positive_decimal": 0.9166667,
+          "distribution_support_min": 39,
+          "distribution_support_max": 49
+        },
+        {
+          "rd_assumed": 45,
+          "total_outcomes": 36,
+          "raw_expected": "44",
+          "expected_post_rd": "5/9",
+          "expected_post_rd_decimal": 0.5555556,
+          "probability_post_rd_positive": "5/18",
+          "probability_post_rd_positive_decimal": 0.2777778,
+          "distribution_support_min": 39,
+          "distribution_support_max": 49
+        },
+        {
+          "rd_assumed": 50,
+          "total_outcomes": 36,
+          "raw_expected": "44",
+          "expected_post_rd": "0",
+          "expected_post_rd_decimal": 0.0,
+          "probability_post_rd_positive": "0",
+          "probability_post_rd_positive_decimal": 0.0,
+          "distribution_support_min": 39,
+          "distribution_support_max": 49
+        },
+        {
+          "rd_assumed": 55,
+          "total_outcomes": 36,
+          "raw_expected": "44",
+          "expected_post_rd": "0",
+          "expected_post_rd_decimal": 0.0,
+          "probability_post_rd_positive": "0",
+          "probability_post_rd_positive_decimal": 0.0,
+          "distribution_support_min": 39,
+          "distribution_support_max": 49
+        }
+      ]
+    },
+    {
+      "key": "Ravin_parenthetical",
+      "source_expression_literal": "7d6+20",
+      "exact_enumeration_equals_convolution": true,
+      "conditionals": [
+        {
+          "rd_assumed": 0,
+          "total_outcomes": 279936,
+          "raw_expected": "89/2",
+          "expected_post_rd": "89/2",
+          "expected_post_rd_decimal": 44.5,
+          "probability_post_rd_positive": "1",
+          "probability_post_rd_positive_decimal": 1.0,
+          "distribution_support_min": 27,
+          "distribution_support_max": 62
+        },
+        {
+          "rd_assumed": 35,
+          "total_outcomes": 279936,
+          "raw_expected": "89/2",
+          "expected_post_rd": "24683/2592",
+          "expected_post_rd_decimal": 9.5227623,
+          "probability_post_rd_positive": "10139/10368",
+          "probability_post_rd_positive_decimal": 0.9779128,
+          "distribution_support_min": 27,
+          "distribution_support_max": 62
+        },
+        {
+          "rd_assumed": 40,
+          "total_outcomes": 279936,
+          "raw_expected": "89/2",
+          "expected_post_rd": "227447/46656",
+          "expected_post_rd_decimal": 4.8749786,
+          "probability_post_rd_positive": "2357/2916",
+          "probability_post_rd_positive_decimal": 0.808299,
+          "distribution_support_min": 27,
+          "distribution_support_max": 62
+        },
+        {
+          "rd_assumed": 45,
+          "total_outcomes": 279936,
+          "raw_expected": "89/2",
+          "expected_post_rd": "2035/1296",
+          "expected_post_rd_decimal": 1.570216,
+          "probability_post_rd_positive": "115951/279936",
+          "probability_post_rd_positive_decimal": 0.4142054,
+          "distribution_support_min": 27,
+          "distribution_support_max": 62
+        },
+        {
+          "rd_assumed": 50,
+          "total_outcomes": 279936,
+          "raw_expected": "89/2",
+          "expected_post_rd": "7397/31104",
+          "expected_post_rd_decimal": 0.2378151,
+          "probability_post_rd_positive": "365/3888",
+          "probability_post_rd_positive_decimal": 0.0938786,
+          "distribution_support_min": 27,
+          "distribution_support_max": 62
+        },
+        {
+          "rd_assumed": 55,
+          "total_outcomes": 279936,
+          "raw_expected": "89/2",
+          "expected_post_rd": "749/69984",
+          "expected_post_rd_decimal": 0.0107024,
+          "probability_post_rd_positive": "1709/279936",
+          "probability_post_rd_positive_decimal": 0.006105,
+          "distribution_support_min": 27,
+          "distribution_support_max": 62
+        }
+      ]
+    },
+    {
+      "key": "Onopio_text",
+      "source_expression_literal": "1d8+4d6+16",
+      "exact_enumeration_equals_convolution": true,
+      "conditionals": [
+        {
+          "rd_assumed": 0,
+          "total_outcomes": 10368,
+          "raw_expected": "69/2",
+          "expected_post_rd": "69/2",
+          "expected_post_rd_decimal": 34.5,
+          "probability_post_rd_positive": "1",
+          "probability_post_rd_positive_decimal": 1.0,
+          "distribution_support_min": 21,
+          "distribution_support_max": 48
+        },
+        {
+          "rd_assumed": 35,
+          "total_outcomes": 10368,
+          "raw_expected": "69/2",
+          "expected_post_rd": "611/432",
+          "expected_post_rd_decimal": 1.4143519,
+          "probability_post_rd_positive": "1055/2592",
+          "probability_post_rd_positive_decimal": 0.4070216,
+          "distribution_support_min": 21,
+          "distribution_support_max": 48
+        },
+        {
+          "rd_assumed": 40,
+          "total_outcomes": 10368,
+          "raw_expected": "69/2",
+          "expected_post_rd": "211/1296",
+          "expected_post_rd_decimal": 0.1628086,
+          "probability_post_rd_positive": "2/27",
+          "probability_post_rd_positive_decimal": 0.0740741,
+          "distribution_support_min": 21,
+          "distribution_support_max": 48
+        },
+        {
+          "rd_assumed": 45,
+          "total_outcomes": 10368,
+          "raw_expected": "69/2",
+          "expected_post_rd": "7/2592",
+          "expected_post_rd_decimal": 0.0027006,
+          "probability_post_rd_positive": "7/3456",
+          "probability_post_rd_positive_decimal": 0.0020255,
+          "distribution_support_min": 21,
+          "distribution_support_max": 48
+        },
+        {
+          "rd_assumed": 50,
+          "total_outcomes": 10368,
+          "raw_expected": "69/2",
+          "expected_post_rd": "0",
+          "expected_post_rd_decimal": 0.0,
+          "probability_post_rd_positive": "0",
+          "probability_post_rd_positive_decimal": 0.0,
+          "distribution_support_min": 21,
+          "distribution_support_max": 48
+        },
+        {
+          "rd_assumed": 55,
+          "total_outcomes": 10368,
+          "raw_expected": "69/2",
+          "expected_post_rd": "0",
+          "expected_post_rd_decimal": 0.0,
+          "probability_post_rd_positive": "0",
+          "probability_post_rd_positive_decimal": 0.0,
+          "distribution_support_min": 21,
+          "distribution_support_max": 48
+        }
+      ]
+    }
+  ],
+  "scenarios_count": 18,
+  "source_interpretation": "Ravin text includes parenthetical alternative; only one formula per scenario. Onopio has own separate recorded attack; not combining characters. No actual target with proven RD was paired."
+}

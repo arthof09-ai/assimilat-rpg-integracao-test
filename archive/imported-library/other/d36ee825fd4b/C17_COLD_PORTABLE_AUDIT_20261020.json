@@ -1,0 +1,42 @@
+{
+  "archive": "/mnt/data/DMG_C17_PLANO_SUPREMO_FIP_R71_CIENCIA_20261020_MESTRE_ONLY.zip",
+  "archive_bytes": 32204,
+  "archive_sha256": "2a0340e77ad3ea6f2596c9639df7f04fa578f1e3adfdbe1e92bbbf323d897165",
+  "crc": "PASS",
+  "f0_formal": "4/8 HOLD",
+  "inbox_triage_reproduced": true,
+  "meaning": "not a certified second human codification or a global empirical gate",
+  "nac_pass": "LOCAL_ONLY",
+  "no_writes_to_notions_or_vlab": true,
+  "payload_manifest_verified": 16,
+  "row_counts": {
+    "C17_F0_8_REQUISITOS_GAP.csv": 8,
+    "C17_INBOX_DMG_TRIAGEM.csv": 18,
+    "C17_NOVAS_ARMAS_SEMICANON_FIP_ADMISSIBILIDADE.csv": 2,
+    "C17_PLANO_SUPREMO_F0_F18_MATRIZ.csv": 19,
+    "C17_R71_R68_PRECISAO_CA2_COMPARADORES.csv": 4
+  },
+  "science_input_hashes": {
+    "DMG_C16_DEFESAS_DINAMICAS_R205_CIENCIA_20261020_MESTRE_ONLY.zip": {
+      "bytes": 36056,
+      "sha256": "8169eb651a833dfbfbc00244b4ba259ba2f891e02b4104434e1f15191db1505e"
+    },
+    "DMG_F0_CIENCIA_P0_PLANO_SUPREMO_20261016_MESTRE_ONLY.zip": {
+      "bytes": 81017,
+      "sha256": "397cd335096270ee180b834abb2074b84de68909821ffd6192cac8653fdc6a62"
+    },
+    "DMG_INTERFACE_ATTACK_RECEIPTS_R62_R69.csv": {
+      "bytes": 368949,
+      "sha256": "f8996f7d3953d83e50b90faf612d7ac037df9ecc15d14238e59ca6ab20760f63"
+    },
+    "R77_DMGMETRICS_ATTACK_RECEIPTS_128.csv": {
+      "bytes": 72774,
+      "sha256": "cd20b48f9b9633ab26c684c98985b241e42bc88762627915fcf8ec77270a51cd"
+    }
+  },
+  "science_results_byte_reproduced": 9,
+  "source_dependencies_sha256_verified": 4,
+  "status": "PASS_C17_COLD_PORTABLE_REPLAY",
+  "total_result_files_byte_reproduced": 10,
+  "zip_entries": 17
+}

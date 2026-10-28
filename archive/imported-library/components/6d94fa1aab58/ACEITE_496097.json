@@ -1,0 +1,23 @@
+{
+  "video_id": "496097",
+  "schema": "ASSIMILACAO_VIDEO_ACCEPTANCE_V1",
+  "canonical": false,
+  "created": "2026-10-24",
+  "privacy": "MESTRE_ONLY",
+  "real_program": false,
+  "title": "ARENA-FIRST-ACTION-HUD",
+  "owner": "Desenvolvedor, frontend TEST",
+  "baseline": "TEST36/mais recente",
+  "objective": "Arena priorizada, ação/alvo e estados de recibo sem alterar recursos localmente",
+  "tests": [
+    "mapa visível primeira tela",
+    "escolha ator/alvo/ação",
+    "estados ACCEPTED/REJECTED/UNKNOWN",
+    "recibo único de origem confiável",
+    "player jamais recebe campo Mestre-only",
+    "não computar custo/dano/PA no cliente"
+  ],
+  "authority": "Somente VLAB e sala competente geram recibo real",
+  "output": "HTML/JS de frontend e testes de estado",
+  "status": "PARTIALLY_PROVEN_UI_FIXTURE_42_42"
+}

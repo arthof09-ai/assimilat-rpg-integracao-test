@@ -1,0 +1,80 @@
+{
+  "total": 8,
+  "passed": 8,
+  "status": "PASS",
+  "method": "no event commits, preflight-only re-evaluation + physical ledger readback",
+  "cases": [
+    {
+      "case": "COMBINED_DOUBLE_TRIGGER",
+      "db": "R122_COMBINED_DOUBLE_TRIGGER_939108.sqlite",
+      "status": "PASS_PREINTENT_REJECTED_NO_DB_MUTATION",
+      "reason": "R51_NESTED_COUNTER_NO_INTENT",
+      "verified_head": "d91653133eab20192d26896d3c7ad0d029b4ccf8dbaa78b79ea0e307c0f3fc64",
+      "revision": 2,
+      "sha256": "8a9b593bf19640a71d1924e45366f5971e31fcb12aebd0ef0d53f04a66086572"
+    },
+    {
+      "case": "COUNTER_WITHOUT_DECLARATION",
+      "db": "R122_COUNTER_WITHOUT_DECLARATION_939105.sqlite",
+      "status": "PASS_PREINTENT_REJECTED_NO_DB_MUTATION",
+      "reason": "COUNTER_WITHOUT_DECLARATION",
+      "verified_head": "e4bf0ffd5d8fe20d276543b22cdc9f131911311290e5efa24a04c0c372f3a7c6",
+      "revision": 2,
+      "sha256": "971547b2e9a621a524e6057242af1e02211eafaa7388736345e0a87c46466d67"
+    },
+    {
+      "case": "FAKE_SOURCE_WINDOW",
+      "db": "R122_FAKE_SOURCE_WINDOW_939103.sqlite",
+      "status": "PASS_PREINTENT_REJECTED_NO_DB_MUTATION",
+      "reason": "UNKNOWN_REACTION",
+      "verified_head": "25e7bd2cfd8f260af8bdc4f464a1cca8797a1b37d7ad5a409189fa43f30ee01d",
+      "revision": 2,
+      "sha256": "721b44edbfed4de7b010b9088a932f44243256407601463bcd8d032aa8dda7fc"
+    },
+    {
+      "case": "INVALID_REACTION",
+      "db": "R122_INVALID_REACTION_939107.sqlite",
+      "status": "PASS_PREINTENT_REJECTED_NO_DB_MUTATION",
+      "reason": "UNKNOWN_REACTION",
+      "verified_head": "9e34f76da8e845d2eb90e5dbaef76c4045ea5449dd25b7af6250345fc0e5914f",
+      "revision": 2,
+      "sha256": "d65d56e995ff6c8cecbb9a34774b7e38be3e0417b253fe3cf78e6d2b2fa19a08"
+    },
+    {
+      "case": "NO_SLOT_AFTER_FIRST_TRIGGER",
+      "db": "R122_NO_SLOT_AFTER_FIRST_TRIGGER_939201.sqlite",
+      "status": "PASS_PREINTENT_REJECTED_NO_DB_MUTATION",
+      "reason": "NO_REACTION_SLOT_PRE_INTENT",
+      "verified_head": "ae9aabe33d3f8fdceb935593b5807216580ff3acc145831f888f86d545f532e4",
+      "revision": 8,
+      "sha256": "752c36621fb68a7eedc7330c68b8b5da3d63876199b5c88b99cb2741a1063fb7"
+    },
+    {
+      "case": "R51_NESTED",
+      "db": "R122_R51_NESTED_939102.sqlite",
+      "status": "PASS_PREINTENT_REJECTED_NO_DB_MUTATION",
+      "reason": "R51_NESTED_COUNTER_NO_INTENT",
+      "verified_head": "55701e347ce239927f24f43e3393fac6bc8f26912c62a3efbdcfb9b00e3b5ef3",
+      "revision": 2,
+      "sha256": "dd55b3ff1ead25c804b3c2f2b8f5cd22eda22f4b0c3a05112e6daa843a627244"
+    },
+    {
+      "case": "TARGET_ALLY",
+      "db": "R122_TARGET_ALLY_939104.sqlite",
+      "status": "PASS_PREINTENT_REJECTED_NO_DB_MUTATION",
+      "reason": "NO_ALIVE_ENEMY_TARGET",
+      "verified_head": "ca854aaaed0a5efc49852064fb7bc9be9c9827787a10bac0be0b0b1d83beddf9",
+      "revision": 2,
+      "sha256": "24cf2c3d0c53636c8666806cd5573d1f63802ca9c1d29c618b385f16d9a692a4"
+    },
+    {
+      "case": "WRONG_ACTIVE",
+      "db": "R122_WRONG_ACTIVE_939106.sqlite",
+      "status": "PASS_PREINTENT_REJECTED_NO_DB_MUTATION",
+      "reason": "ACTIVE_ACTOR_INVALID",
+      "verified_head": "38bac47311eca2ebf25455df5b7d2139dc47861b906194bccada927edd668e49",
+      "revision": 2,
+      "sha256": "113d8faea1de474489134cc0c8fe9dc288fa84d40fd922bf4f29b5dc0a5011fa"
+    }
+  ]
+}

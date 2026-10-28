@@ -1,0 +1,167 @@
+[
+  {
+    "path": "ARENA_TEST36_CAMADAS_AMBIENTAIS_OFFLINE.html",
+    "size": 133653,
+    "sha256": "e487abdc2da7346c63b4fba88b0379acbd8e0c67a28010445a8deaaa813cd8d5"
+  },
+  {
+    "path": "COMPENDIO_PLAYLIST_7_VIDEOS_ASSIMILACAO_20261024.pdf",
+    "size": 2685061,
+    "sha256": "a871a8c30ea1389a2ba229e60e4853f003a862c18ca8e5652a6b1de1da83042b"
+  },
+  {
+    "path": "LEIA_PRIMEIRO.md",
+    "size": 2059,
+    "sha256": "aab1abce680d0d145b1b698d47e6968dd40889563b11a3fe7a26072db7b1f7aa"
+  },
+  {
+    "path": "PROVA_CENARIO_CHUVA_390x844.png",
+    "size": 130061,
+    "sha256": "13331065dd16baef28d6545ee32c948ec152ab670169cb7ca5a554f4edbfb4eb"
+  },
+  {
+    "path": "SCENE_PRESENTATION_TEST.contract.json",
+    "size": 346,
+    "sha256": "c872f63bc17e1361b23fbbf4a5ee613ea8e90face3e3baa98db7b10f29c4de4d"
+  },
+  {
+    "path": "SINTese_PLAYLIST_7_VIDEOS.md",
+    "size": 4440,
+    "sha256": "cac28f241dd9960eedd69cf612dbbcf19cea8fa267fecc54c13f04815210ac89"
+  },
+  {
+    "path": "build_scene.py",
+    "size": 5705,
+    "sha256": "d78b4198a285510f1038b60dd64013b5769ad0ccfc5d450ffd87bca4b3cf4c39"
+  },
+  {
+    "path": "contact/496150_1.jpg",
+    "size": 413081,
+    "sha256": "e05006057131a1cf04a836d1f4b366844af53f9a9c6679479eac4e6943f826e2"
+  },
+  {
+    "path": "contact/496150_2.jpg",
+    "size": 430515,
+    "sha256": "d014824c6e2fdbcf4c2eed9ecc6c3ea677050aa9e102e47c77163961f2b2a0ef"
+  },
+  {
+    "path": "contact/496165_1.jpg",
+    "size": 441521,
+    "sha256": "d4c8c7da05c5e9effac44c726f5ef479d854d657aafbbc86ce3ffd8df9e3f575"
+  },
+  {
+    "path": "contact/496165_2.jpg",
+    "size": 498178,
+    "sha256": "debebdf86086d6cba199ecf0aeead8e6f0daa158961a59dbb7fc13224a5e183b"
+  },
+  {
+    "path": "contact/496174_1.jpg",
+    "size": 356258,
+    "sha256": "2825a188bda5b5f26e50b7bd8eb5085e903cf6ef44a84e331ac9a977fd57f2f6"
+  },
+  {
+    "path": "contact/496174_2.jpg",
+    "size": 369136,
+    "sha256": "22fbb2d67bd83924df54e31bdd20fc2fdb0a729fde0f255ae3a1d5eb3ee0bc7b"
+  },
+  {
+    "path": "contact/496183_1.jpg",
+    "size": 456584,
+    "sha256": "17086cb0feb9c436222dec405bf8d3d0b269c8e77b6bfdbcbd63511007dac96d"
+  },
+  {
+    "path": "contact/496183_2.jpg",
+    "size": 332927,
+    "sha256": "ae90007e9c8a8c921d624c268fdc8575a7ce92be494ed73a7d955ec889eed5b7"
+  },
+  {
+    "path": "contact/496192_1.jpg",
+    "size": 385198,
+    "sha256": "082caf106d7ffaba0e4dab8bd598c93625f7315968a63f96b1370b606c762b24"
+  },
+  {
+    "path": "contact/496192_2.jpg",
+    "size": 420144,
+    "sha256": "4e0c5ed313e2f3a0d51aa20dacbd56570c77c67b42fb295e0aecad0e3a530cb9"
+  },
+  {
+    "path": "contact/496201_1.jpg",
+    "size": 520592,
+    "sha256": "f79e4ffbe76cdbc59d9b912999d7d2b6193abedbe27caab48625e23a3848fbcb"
+  },
+  {
+    "path": "contact/496201_2.jpg",
+    "size": 564053,
+    "sha256": "33f8dd1e084ef4e57e74e636c0f62a8d7f56156e089614d79740c40ed42d3d1c"
+  },
+  {
+    "path": "contact/496210_1.jpg",
+    "size": 275877,
+    "sha256": "616b97b81e9864c33320da4398baf172313cdb1d1aa696f49de8ae967c29b1a8"
+  },
+  {
+    "path": "contact/496210_2.jpg",
+    "size": 320965,
+    "sha256": "c274b77047970a6293bb9f3a7059cffd2b07e26cea14de7e7930c19e7ba7157d"
+  },
+  {
+    "path": "create_reports.py",
+    "size": 28892,
+    "sha256": "02860fcf98562082eb002d71fa1f8e1b0b174cb66a134f062753858b1d66103c"
+  },
+  {
+    "path": "extract.py",
+    "size": 1508,
+    "sha256": "d94eb85551c81f06e562fd82fc27729057cbfaab0f1cc31ccc1476b44044dae7"
+  },
+  {
+    "path": "media_manifest.json",
+    "size": 1457,
+    "sha256": "560119519893885f193b428f00a3f801c47412e3a15fa4f8f60c11d92408129b"
+  },
+  {
+    "path": "reports/RELATORIO_496150.md",
+    "size": 3915,
+    "sha256": "c104af90108d1384e9138ea1e2a000f39c4aceebb0929554889647874b1e61e7"
+  },
+  {
+    "path": "reports/RELATORIO_496165.md",
+    "size": 4002,
+    "sha256": "810537954e8135131dd6343ef8b5409aec53b8abaf94dde688d9419e5a477558"
+  },
+  {
+    "path": "reports/RELATORIO_496174.md",
+    "size": 3799,
+    "sha256": "ee5901823aacc9c59b267755f3d32fb7d597c03da6c78156cedb49d7f0e7bdbb"
+  },
+  {
+    "path": "reports/RELATORIO_496183.md",
+    "size": 3074,
+    "sha256": "9b51e03ce564ea700ec2ff09135117b22128f37faee98d8666a098d246e67f30"
+  },
+  {
+    "path": "reports/RELATORIO_496192.md",
+    "size": 3726,
+    "sha256": "cb939b9ef9ddd6aa96878f746b4570462723559983ea1893e719905736100185"
+  },
+  {
+    "path": "reports/RELATORIO_496201.md",
+    "size": 3600,
+    "sha256": "643179c5ded04081cb0ea22d6d5488aee8799a2a3a004321b52bc9129b84adb6"
+  },
+  {
+    "path": "reports/RELATORIO_496210.md",
+    "size": 3461,
+    "sha256": "10ddeee717816fbc5c004210ba7441e1ed23bf9f16f998ad52af6cf2911df32a"
+  },
+  {
+    "path": "test_scene.py",
+    "size": 2237,
+    "sha256": "cc3a41870783231011b8bbcb3a6172d5c265d63736015589e30e900bfa368fa1"
+  },
+  {
+    "path": "test_scene_results.json",
+    "size": 2627,
+    "sha256": "f16586d492740575935404ef4b253e0bbf1296806901600aa9f8f4ee9442ae1f"
+  }
+]

@@ -1,0 +1,1010 @@
+{
+  "cases": {
+    "DEX_FOCUS_VS_FOR_FOCUS": {
+      "allocations": {
+        "RULE_BEAST_A": {
+          "CAR": 4,
+          "CON": 10,
+          "DES": 11,
+          "FOR": 8,
+          "INT": 6,
+          "SAB": 4
+        },
+        "RULE_BEAST_B": {
+          "CAR": 4,
+          "CON": 10,
+          "DES": 4,
+          "FOR": 15,
+          "INT": 6,
+          "SAB": 4
+        }
+      },
+      "fighters": {
+        "RULE_BEAST_A": {
+          "ca": 23,
+          "con": 10,
+          "des": 11,
+          "for": 8,
+          "hp": 50,
+          "pa": 46
+        },
+        "RULE_BEAST_B": {
+          "ca": 16,
+          "con": 10,
+          "des": 4,
+          "for": 15,
+          "hp": 50,
+          "pa": 46
+        }
+      },
+      "probes": [
+        {
+          "actor": "RULE_BEAST_A",
+          "hits_out_of_6": 4,
+          "roll_receipts": [
+            {
+              "damage_rolls": [
+                6,
+                6,
+                5
+              ],
+              "die_face": 1,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 15,
+              "native_trace_sha": "d663cfda1e27495c8a5f0a598e3b0a40a88bdcbacba1eaef210ee99a05f0f930",
+              "net": 0,
+              "rd": 0,
+              "requested": 17,
+              "target_ca": 16
+            },
+            {
+              "damage_rolls": [
+                1,
+                5,
+                4
+              ],
+              "die_face": 2,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 16,
+              "native_trace_sha": "ce34e7d5ba8e61c6fe9ca44824e9927a7d8111906d1c72fb529d4135afbbe92a",
+              "net": 0,
+              "rd": 0,
+              "requested": 10,
+              "target_ca": 16
+            },
+            {
+              "damage_rolls": [
+                4,
+                1,
+                6
+              ],
+              "die_face": 3,
+              "hit": true,
+              "hp_delta": 6,
+              "native_hit_score": 17,
+              "native_trace_sha": "f5a6da39487a66be16057e3bba130370c8ef05c4ef6e738fc5e4bf2a0f80071a",
+              "net": 6,
+              "rd": 5,
+              "requested": 11,
+              "target_ca": 16
+            },
+            {
+              "damage_rolls": [
+                4,
+                2,
+                2
+              ],
+              "die_face": 4,
+              "hit": true,
+              "hp_delta": 3,
+              "native_hit_score": 18,
+              "native_trace_sha": "542ffbd712eb83a18d43b04645b34648b8ac99c8885af5699b3ab3dfb672aab1",
+              "net": 3,
+              "rd": 5,
+              "requested": 8,
+              "target_ca": 16
+            },
+            {
+              "damage_rolls": [
+                4,
+                6,
+                6
+              ],
+              "die_face": 5,
+              "hit": true,
+              "hp_delta": 11,
+              "native_hit_score": 19,
+              "native_trace_sha": "e67ffbe8b9383684adafd89bdd7ce456e81c503a798dd1612c9492bd6c8a6d1f",
+              "net": 11,
+              "rd": 5,
+              "requested": 16,
+              "target_ca": 16
+            },
+            {
+              "damage_rolls": [
+                1,
+                1,
+                6
+              ],
+              "die_face": 6,
+              "hit": true,
+              "hp_delta": 3,
+              "native_hit_score": 20,
+              "native_trace_sha": "d927fae873b288f8bf28a581e01aae8b2fc7d75e773518a013d100eaeebd5dc7",
+              "net": 3,
+              "rd": 5,
+              "requested": 8,
+              "target_ca": 16
+            }
+          ],
+          "target": "RULE_BEAST_B",
+          "total_net_on_six_distinct_face_probes": 23
+        },
+        {
+          "actor": "RULE_BEAST_B",
+          "hits_out_of_6": 4,
+          "roll_receipts": [
+            {
+              "damage_rolls": [
+                5,
+                6,
+                4
+              ],
+              "die_face": 1,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 22,
+              "native_trace_sha": "68657e630131d079a90a3075ef210c830b3286753b688489f71e3ebbf8f7b5ec",
+              "net": 0,
+              "rd": 0,
+              "requested": 15,
+              "target_ca": 23
+            },
+            {
+              "damage_rolls": [
+                3,
+                1,
+                6
+              ],
+              "die_face": 2,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 23,
+              "native_trace_sha": "de9425bf433356b9ed2a723bbab58aed3119cfe26dd62edd7a44b261082247ca",
+              "net": 0,
+              "rd": 0,
+              "requested": 10,
+              "target_ca": 23
+            },
+            {
+              "damage_rolls": [
+                1,
+                1,
+                3
+              ],
+              "die_face": 3,
+              "hit": true,
+              "hp_delta": 0,
+              "native_hit_score": 24,
+              "native_trace_sha": "6aa8e7575b8a3439c3b8f02838ad5c9f8d44cc3297c796bc0f0c63debee106c4",
+              "net": 0,
+              "rd": 5,
+              "requested": 5,
+              "target_ca": 23
+            },
+            {
+              "damage_rolls": [
+                6,
+                4,
+                1
+              ],
+              "die_face": 4,
+              "hit": true,
+              "hp_delta": 6,
+              "native_hit_score": 25,
+              "native_trace_sha": "3e2d71c30bf113b1cd0990a131c4e2cc14f90ec432164de585557704b34d5476",
+              "net": 6,
+              "rd": 5,
+              "requested": 11,
+              "target_ca": 23
+            },
+            {
+              "damage_rolls": [
+                1,
+                3,
+                1
+              ],
+              "die_face": 5,
+              "hit": true,
+              "hp_delta": 0,
+              "native_hit_score": 26,
+              "native_trace_sha": "ee6c7609e39c13d858fbf08f91fa9a1c2bbcb866789930e1b904f8e2882ee9f3",
+              "net": 0,
+              "rd": 5,
+              "requested": 5,
+              "target_ca": 23
+            },
+            {
+              "damage_rolls": [
+                4,
+                3,
+                3
+              ],
+              "die_face": 6,
+              "hit": true,
+              "hp_delta": 5,
+              "native_hit_score": 27,
+              "native_trace_sha": "3ee3e45a29dc7e0210ca5b1065f78ad06f384cc726ed1c2019074355e870bc12",
+              "net": 5,
+              "rd": 5,
+              "requested": 10,
+              "target_ca": 23
+            }
+          ],
+          "target": "RULE_BEAST_A",
+          "total_net_on_six_distinct_face_probes": 11
+        }
+      ]
+    },
+    "EXTREME_ACCURACY_ASYMMETRY": {
+      "allocations": {
+        "RULE_BEAST_A": {
+          "CAR": 4,
+          "CON": 10,
+          "DES": 15,
+          "FOR": 4,
+          "INT": 5,
+          "SAB": 5
+        },
+        "RULE_BEAST_B": {
+          "CAR": 3,
+          "CON": 10,
+          "DES": 3,
+          "FOR": 17,
+          "INT": 5,
+          "SAB": 5
+        }
+      },
+      "fighters": {
+        "RULE_BEAST_A": {
+          "ca": 27,
+          "con": 10,
+          "des": 15,
+          "for": 4,
+          "hp": 50,
+          "pa": 45
+        },
+        "RULE_BEAST_B": {
+          "ca": 15,
+          "con": 10,
+          "des": 3,
+          "for": 17,
+          "hp": 50,
+          "pa": 45
+        }
+      },
+      "probes": [
+        {
+          "actor": "RULE_BEAST_A",
+          "hits_out_of_6": 1,
+          "roll_receipts": [
+            {
+              "damage_rolls": [
+                6,
+                4,
+                4
+              ],
+              "die_face": 1,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 11,
+              "native_trace_sha": "79889e8ed53164cb884f4586def84cf46f23c37d01825f2f4fc04dce935d47e4",
+              "net": 0,
+              "rd": 0,
+              "requested": 14,
+              "target_ca": 15
+            },
+            {
+              "damage_rolls": [
+                2,
+                3,
+                3
+              ],
+              "die_face": 2,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 12,
+              "native_trace_sha": "5f32cba972151bd92b97e0d752ccdf463cfc60fd34c9b700141d4a3eb1dbc82a",
+              "net": 0,
+              "rd": 0,
+              "requested": 8,
+              "target_ca": 15
+            },
+            {
+              "damage_rolls": [
+                4,
+                2,
+                4
+              ],
+              "die_face": 3,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 13,
+              "native_trace_sha": "4a1a880663eae2911e296fd340e6b586853ebbfe9fa88f50c77b50a69caa7367",
+              "net": 0,
+              "rd": 0,
+              "requested": 10,
+              "target_ca": 15
+            },
+            {
+              "damage_rolls": [
+                6,
+                3,
+                2
+              ],
+              "die_face": 4,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 14,
+              "native_trace_sha": "49b02994c765adaa903065935428160c4e886d3fc8c4101078ae060982880af6",
+              "net": 0,
+              "rd": 0,
+              "requested": 11,
+              "target_ca": 15
+            },
+            {
+              "damage_rolls": [
+                2,
+                4,
+                3
+              ],
+              "die_face": 5,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 15,
+              "native_trace_sha": "d454a4f550e3f1f728295b0dfd6c9fe0f6f687638df10af6a085b6f0cae11c68",
+              "net": 0,
+              "rd": 0,
+              "requested": 9,
+              "target_ca": 15
+            },
+            {
+              "damage_rolls": [
+                5,
+                1,
+                4
+              ],
+              "die_face": 6,
+              "hit": true,
+              "hp_delta": 5,
+              "native_hit_score": 16,
+              "native_trace_sha": "acfe083a939788c86ebc34d5ead247f3cfdd0a87b5c55afa677d76dfcadd2ce3",
+              "net": 5,
+              "rd": 5,
+              "requested": 10,
+              "target_ca": 15
+            }
+          ],
+          "target": "RULE_BEAST_B",
+          "total_net_on_six_distinct_face_probes": 5
+        },
+        {
+          "actor": "RULE_BEAST_B",
+          "hits_out_of_6": 2,
+          "roll_receipts": [
+            {
+              "damage_rolls": [
+                5,
+                3,
+                4
+              ],
+              "die_face": 1,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 24,
+              "native_trace_sha": "64e0b227d7a75f98eaddbf842a5cc82c919705138c5bb07132a7103603686285",
+              "net": 0,
+              "rd": 0,
+              "requested": 12,
+              "target_ca": 27
+            },
+            {
+              "damage_rolls": [
+                3,
+                4,
+                2
+              ],
+              "die_face": 2,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 25,
+              "native_trace_sha": "b197b0c7057be701fff055e1edb21f1ebe7fef5574bf46e78224bd22b473cde4",
+              "net": 0,
+              "rd": 0,
+              "requested": 9,
+              "target_ca": 27
+            },
+            {
+              "damage_rolls": [
+                4,
+                6,
+                6
+              ],
+              "die_face": 3,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 26,
+              "native_trace_sha": "836d9dd9e74578d88902fcdb9b084db1e9aa939d733ffa4fb19874782477be4a",
+              "net": 0,
+              "rd": 0,
+              "requested": 16,
+              "target_ca": 27
+            },
+            {
+              "damage_rolls": [
+                1,
+                3,
+                3
+              ],
+              "die_face": 4,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 27,
+              "native_trace_sha": "0549c202070ff44990192b7e49572025260dd0b09d358b5e10358f99d8420ec0",
+              "net": 0,
+              "rd": 0,
+              "requested": 7,
+              "target_ca": 27
+            },
+            {
+              "damage_rolls": [
+                4,
+                6,
+                3
+              ],
+              "die_face": 5,
+              "hit": true,
+              "hp_delta": 8,
+              "native_hit_score": 28,
+              "native_trace_sha": "4f8b77f5caa88c6cd2fce77d8bfe1b72559f1ac2ef05ba83c1e7b74697ed2018",
+              "net": 8,
+              "rd": 5,
+              "requested": 13,
+              "target_ca": 27
+            },
+            {
+              "damage_rolls": [
+                3,
+                4,
+                1
+              ],
+              "die_face": 6,
+              "hit": true,
+              "hp_delta": 3,
+              "native_hit_score": 29,
+              "native_trace_sha": "64df489f8240b4b3fe38f8df33c0fd0a77b8dc714fbb6713a4d12f49feb14fe9",
+              "net": 3,
+              "rd": 5,
+              "requested": 8,
+              "target_ca": 27
+            }
+          ],
+          "target": "RULE_BEAST_A",
+          "total_net_on_six_distinct_face_probes": 11
+        }
+      ]
+    },
+    "LOW_HIT_POTENTIAL": {
+      "allocations": {
+        "RULE_BEAST_A": {
+          "CAR": 4,
+          "CON": 10,
+          "DES": 9,
+          "FOR": 10,
+          "INT": 5,
+          "SAB": 5
+        },
+        "RULE_BEAST_B": {
+          "CAR": 4,
+          "CON": 10,
+          "DES": 10,
+          "FOR": 10,
+          "INT": 5,
+          "SAB": 4
+        }
+      },
+      "fighters": {
+        "RULE_BEAST_A": {
+          "ca": 21,
+          "con": 10,
+          "des": 9,
+          "for": 10,
+          "hp": 50,
+          "pa": 45
+        },
+        "RULE_BEAST_B": {
+          "ca": 22,
+          "con": 10,
+          "des": 10,
+          "for": 10,
+          "hp": 50,
+          "pa": 45
+        }
+      },
+      "probes": [
+        {
+          "actor": "RULE_BEAST_A",
+          "hits_out_of_6": 0,
+          "roll_receipts": [
+            {
+              "damage_rolls": [
+                3,
+                1,
+                6
+              ],
+              "die_face": 1,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 17,
+              "native_trace_sha": "5d809921fa7fb17e5dce2d53294b41046cb24f67eb792b9f20993582f9583a15",
+              "net": 0,
+              "rd": 0,
+              "requested": 10,
+              "target_ca": 22
+            },
+            {
+              "damage_rolls": [
+                1,
+                1,
+                2
+              ],
+              "die_face": 2,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 18,
+              "native_trace_sha": "fd1b39cc82a7751c58161bf67ebc54c4f1f2c16baa1181202e00c5eb7bd6a804",
+              "net": 0,
+              "rd": 0,
+              "requested": 4,
+              "target_ca": 22
+            },
+            {
+              "damage_rolls": [
+                2,
+                4,
+                1
+              ],
+              "die_face": 3,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 19,
+              "native_trace_sha": "c9d5f0a35eff9d3c36b0eaa669698043ca545c4f356b3fdfa85abb20e0f87b82",
+              "net": 0,
+              "rd": 0,
+              "requested": 7,
+              "target_ca": 22
+            },
+            {
+              "damage_rolls": [
+                5,
+                3,
+                6
+              ],
+              "die_face": 4,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 20,
+              "native_trace_sha": "5a506fd8912109798cb1623bf17efd816852f452912a44d226b385f7e9a5b88b",
+              "net": 0,
+              "rd": 0,
+              "requested": 14,
+              "target_ca": 22
+            },
+            {
+              "damage_rolls": [
+                6,
+                3,
+                6
+              ],
+              "die_face": 5,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 21,
+              "native_trace_sha": "0cb1dbe2c73e96564e6b39a1a83c1e7ef93e692c3da2d772a33cda4d41050c20",
+              "net": 0,
+              "rd": 0,
+              "requested": 15,
+              "target_ca": 22
+            },
+            {
+              "damage_rolls": [
+                4,
+                3,
+                1
+              ],
+              "die_face": 6,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 22,
+              "native_trace_sha": "0a3c71b4c0d93d7788bdb54487c3d7c2e079f2f3b4e0531648865aee23f5c38b",
+              "net": 0,
+              "rd": 0,
+              "requested": 8,
+              "target_ca": 22
+            }
+          ],
+          "target": "RULE_BEAST_B",
+          "total_net_on_six_distinct_face_probes": 0
+        },
+        {
+          "actor": "RULE_BEAST_B",
+          "hits_out_of_6": 1,
+          "roll_receipts": [
+            {
+              "damage_rolls": [
+                1,
+                1,
+                5
+              ],
+              "die_face": 1,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 17,
+              "native_trace_sha": "040ee9d38435f3a8e4d1c5380925c3b9eec35834d574e031a029bb913278b169",
+              "net": 0,
+              "rd": 0,
+              "requested": 7,
+              "target_ca": 21
+            },
+            {
+              "damage_rolls": [
+                6,
+                6,
+                6
+              ],
+              "die_face": 2,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 18,
+              "native_trace_sha": "b1298b5a37b08ff6d21490cd5337147a0e7edbe371ca63e78941599152d3eb2a",
+              "net": 0,
+              "rd": 0,
+              "requested": 18,
+              "target_ca": 21
+            },
+            {
+              "damage_rolls": [
+                1,
+                5,
+                4
+              ],
+              "die_face": 3,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 19,
+              "native_trace_sha": "2a168f096a19ac18a88528657cf7b4bcb574e8dc38893c5ccede2fd40eba68dc",
+              "net": 0,
+              "rd": 0,
+              "requested": 10,
+              "target_ca": 21
+            },
+            {
+              "damage_rolls": [
+                2,
+                4,
+                5
+              ],
+              "die_face": 4,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 20,
+              "native_trace_sha": "33b3f079b4f85365a530f50adede49f487da4cfa48e4156177cde18c9134ab58",
+              "net": 0,
+              "rd": 0,
+              "requested": 11,
+              "target_ca": 21
+            },
+            {
+              "damage_rolls": [
+                3,
+                2,
+                5
+              ],
+              "die_face": 5,
+              "hit": false,
+              "hp_delta": 0,
+              "native_hit_score": 21,
+              "native_trace_sha": "e51de83f2f9555a441b93c72466ee6c6fa359509b93d400acf0348a16a0edf90",
+              "net": 0,
+              "rd": 0,
+              "requested": 10,
+              "target_ca": 21
+            },
+            {
+              "damage_rolls": [
+                1,
+                4,
+                3
+              ],
+              "die_face": 6,
+              "hit": true,
+              "hp_delta": 3,
+              "native_hit_score": 22,
+              "native_trace_sha": "fbc75074f41fae97a1bcc838088c034c5ffda39724b4ac1892546030ce964aec",
+              "net": 3,
+              "rd": 5,
+              "requested": 8,
+              "target_ca": 21
+            }
+          ],
+          "target": "RULE_BEAST_A",
+          "total_net_on_six_distinct_face_probes": 3
+        }
+      ]
+    },
+    "R25_BASELINE": {
+      "allocations": {
+        "RULE_BEAST_A": {
+          "CAR": 3,
+          "CON": 10,
+          "DES": 6,
+          "FOR": 17,
+          "INT": 4,
+          "SAB": 3
+        },
+        "RULE_BEAST_B": {
+          "CAR": 3,
+          "CON": 10,
+          "DES": 11,
+          "FOR": 12,
+          "INT": 4,
+          "SAB": 3
+        }
+      },
+      "fighters": {
+        "RULE_BEAST_A": {
+          "ca": 18,
+          "con": 10,
+          "des": 6,
+          "for": 17,
+          "hp": 50,
+          "pa": 44
+        },
+        "RULE_BEAST_B": {
+          "ca": 23,
+          "con": 10,
+          "des": 11,
+          "for": 12,
+          "hp": 50,
+          "pa": 44
+        }
+      },
+      "probes": [
+        {
+          "actor": "RULE_BEAST_A",
+          "hits_out_of_6": 6,
+          "roll_receipts": [
+            {
+              "damage_rolls": [
+                2,
+                6,
+                6
+              ],
+              "die_face": 1,
+              "hit": true,
+              "hp_delta": 9,
+              "native_hit_score": 24,
+              "native_trace_sha": "178a7bada74468bc43244b1e04def99d19bca6d85446684c5b7342edd8184d72",
+              "net": 9,
+              "rd": 5,
+              "requested": 14,
+              "target_ca": 23
+            },
+            {
+              "damage_rolls": [
+                1,
+                2,
+                3
+              ],
+              "die_face": 2,
+              "hit": true,
+              "hp_delta": 1,
+              "native_hit_score": 25,
+              "native_trace_sha": "1b11c7a34d78c04463f41ffe377e40c482b8fd24cecc87bd2441ef224ebe33fa",
+              "net": 1,
+              "rd": 5,
+              "requested": 6,
+              "target_ca": 23
+            },
+            {
+              "damage_rolls": [
+                6,
+                3,
+                5
+              ],
+              "die_face": 3,
+              "hit": true,
+              "hp_delta": 9,
+              "native_hit_score": 26,
+              "native_trace_sha": "eb42c012396dd1d45fded3ca3ebfe6c05ff377ea3cda233c0f78de90679b5526",
+              "net": 9,
+              "rd": 5,
+              "requested": 14,
+              "target_ca": 23
+            },
+            {
+              "damage_rolls": [
+                4,
+                4,
+                1
+              ],
+              "die_face": 4,
+              "hit": true,
+              "hp_delta": 4,
+              "native_hit_score": 27,
+              "native_trace_sha": "510cd46fc37b2d5d2a1daff3390450197c56d4ff104d4b26af5d32c78da58d62",
+              "net": 4,
+              "rd": 5,
+              "requested": 9,
+              "target_ca": 23
+            },
+            {
+              "damage_rolls": [
+                6,
+                1,
+                1
+              ],
+              "die_face": 5,
+              "hit": true,
+              "hp_delta": 3,
+              "native_hit_score": 28,
+              "native_trace_sha": "f9667b5a62d7ef65b5cc787d876e19c758d10300bd89e59089fea23915799a00",
+              "net": 3,
+              "rd": 5,
+              "requested": 8,
+              "target_ca": 23
+            },
+            {
+              "damage_rolls": [
+                1,
+                5,
+                3
+              ],
+              "die_face": 6,
+              "hit": true,
+              "hp_delta": 4,
+              "native_hit_score": 29,
+              "native_trace_sha": "98d18caf3952bdbb3892811145f1080d58c86dd3b802203b01d837db3081c2dd",
+              "net": 4,
+              "rd": 5,
+              "requested": 9,
+              "target_ca": 23
+            }
+          ],
+          "target": "RULE_BEAST_B",
+          "total_net_on_six_distinct_face_probes": 30
+        },
+        {
+          "actor": "RULE_BEAST_B",
+          "hits_out_of_6": 6,
+          "roll_receipts": [
+            {
+              "damage_rolls": [
+                1,
+                6,
+                2
+              ],
+              "die_face": 1,
+              "hit": true,
+              "hp_delta": 4,
+              "native_hit_score": 19,
+              "native_trace_sha": "70ca456ea7a67629fa0a74250072e0a7d8e5e01ad03200337cb987c404bc2f30",
+              "net": 4,
+              "rd": 5,
+              "requested": 9,
+              "target_ca": 18
+            },
+            {
+              "damage_rolls": [
+                3,
+                1,
+                4
+              ],
+              "die_face": 2,
+              "hit": true,
+              "hp_delta": 3,
+              "native_hit_score": 20,
+              "native_trace_sha": "7a778032d03d17129bb28ad191a7ab4bae5ccb19c1b01e5bbd91fb9578bbbcc5",
+              "net": 3,
+              "rd": 5,
+              "requested": 8,
+              "target_ca": 18
+            },
+            {
+              "damage_rolls": [
+                3,
+                1,
+                3
+              ],
+              "die_face": 3,
+              "hit": true,
+              "hp_delta": 2,
+              "native_hit_score": 21,
+              "native_trace_sha": "fe3590014aea600d6608c6426bbcb95b5ce43bf0eaa06113f6490e361fcd3a15",
+              "net": 2,
+              "rd": 5,
+              "requested": 7,
+              "target_ca": 18
+            },
+            {
+              "damage_rolls": [
+                5,
+                6,
+                5
+              ],
+              "die_face": 4,
+              "hit": true,
+              "hp_delta": 11,
+              "native_hit_score": 22,
+              "native_trace_sha": "b5ceaa0193b6383d71f8aeb1af21d3caac31eebaa41eaed115695466f30270dc",
+              "net": 11,
+              "rd": 5,
+              "requested": 16,
+              "target_ca": 18
+            },
+            {
+              "damage_rolls": [
+                2,
+                2,
+                4
+              ],
+              "die_face": 5,
+              "hit": true,
+              "hp_delta": 3,
+              "native_hit_score": 23,
+              "native_trace_sha": "afe9a2f069371d8258de2df3b04747b0f061b120ea7f9ff43c073e84d977ebb3",
+              "net": 3,
+              "rd": 5,
+              "requested": 8,
+              "target_ca": 18
+            },
+            {
+              "damage_rolls": [
+                6,
+                6,
+                6
+              ],
+              "die_face": 6,
+              "hit": true,
+              "hp_delta": 13,
+              "native_hit_score": 24,
+              "native_trace_sha": "41b40dee8bac60413e44dd16bade49e89135690facd39644620192cc11b05d49",
+              "net": 13,
+              "rd": 5,
+              "requested": 18,
+              "target_ca": 18
+            }
+          ],
+          "target": "RULE_BEAST_A",
+          "total_net_on_six_distinct_face_probes": 36
+        }
+      ]
+    }
+  },
+  "method": "ALL_SIX_DISCRETE_BRONZE_TEST_DIE_OUTCOMES_WITH_HISTORICAL_NATIVE_V081",
+  "native_events": 48,
+  "no_fight_or_rank_credit": true,
+  "no_forced_hits": true,
+  "no_live_canonical_entities": true,
+  "rank": "Bronze1",
+  "rules": [
+    "Besta normal 43 attributes",
+    "AC 10+DES+CON/5",
+    "RD5",
+    "Luta roll 1d6+FOR+6 conditional trained Luta",
+    "3d6 intrinsic damage"
+  ],
+  "schema": "R26_NATIVE_PROBE_SENSITIVITY"
+}

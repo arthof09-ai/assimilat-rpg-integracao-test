@@ -1,0 +1,121 @@
+{
+  "cold_audited": 15,
+  "positive": 6,
+  "held_or_negative": 9,
+  "distinct_positive_seeds": 3,
+  "paired_mirrors": 3,
+  "new_transactional_events": 6,
+  "total_cost_PA_across_synthetic_ledgers": 330,
+  "scope": "SOURCE_SPECIFIC_SINGLE_SPECIAL_ACTION_NOT_FULL_COMBAT_NOT_TERMINAL",
+  "runs": [
+    {
+      "id": "NEG_INSUFFICIENT_PA_54",
+      "event_count": 0,
+      "pass": true,
+      "reason": "PREVALIDATION_REJECTED_OR_HALF_UNDEFINED"
+    },
+    {
+      "id": "NEG_NO_STANDARD_ACTION",
+      "event_count": 0,
+      "pass": true,
+      "reason": "PREVALIDATION_REJECTED_OR_HALF_UNDEFINED"
+    },
+    {
+      "id": "NEG_OUT_OF_RANGE",
+      "event_count": 0,
+      "pass": true,
+      "reason": "PREVALIDATION_REJECTED_OR_HALF_UNDEFINED"
+    },
+    {
+      "id": "R103_602101_B_LEFT",
+      "event_count": 1,
+      "pass": true,
+      "damage": 36,
+      "pa_consumed": 55,
+      "seed": 602101,
+      "side": "B_LEFT"
+    },
+    {
+      "id": "R103_602101_E_LEFT",
+      "event_count": 1,
+      "pass": true,
+      "damage": 36,
+      "pa_consumed": 55,
+      "seed": 602101,
+      "side": "E_LEFT"
+    },
+    {
+      "id": "R103_602102_B_LEFT",
+      "event_count": 1,
+      "pass": true,
+      "damage": 31,
+      "pa_consumed": 55,
+      "seed": 602102,
+      "side": "B_LEFT"
+    },
+    {
+      "id": "R103_602102_E_LEFT",
+      "event_count": 1,
+      "pass": true,
+      "damage": 31,
+      "pa_consumed": 55,
+      "seed": 602102,
+      "side": "E_LEFT"
+    },
+    {
+      "id": "R103_602103_B_LEFT",
+      "event_count": 0,
+      "pass": true,
+      "reason": "PREVALIDATION_REJECTED_OR_HALF_UNDEFINED"
+    },
+    {
+      "id": "R103_602103_E_LEFT",
+      "event_count": 0,
+      "pass": true,
+      "reason": "PREVALIDATION_REJECTED_OR_HALF_UNDEFINED"
+    },
+    {
+      "id": "R103_602104_B_LEFT",
+      "event_count": 0,
+      "pass": true,
+      "reason": "PREVALIDATION_REJECTED_OR_HALF_UNDEFINED"
+    },
+    {
+      "id": "R103_602104_E_LEFT",
+      "event_count": 0,
+      "pass": true,
+      "reason": "PREVALIDATION_REJECTED_OR_HALF_UNDEFINED"
+    },
+    {
+      "id": "R103_602105_B_LEFT",
+      "event_count": 0,
+      "pass": true,
+      "reason": "PREVALIDATION_REJECTED_OR_HALF_UNDEFINED"
+    },
+    {
+      "id": "R103_602105_E_LEFT",
+      "event_count": 0,
+      "pass": true,
+      "reason": "PREVALIDATION_REJECTED_OR_HALF_UNDEFINED"
+    },
+    {
+      "id": "R103_602106_B_LEFT",
+      "event_count": 1,
+      "pass": true,
+      "damage": 48,
+      "pa_consumed": 55,
+      "seed": 602106,
+      "side": "B_LEFT"
+    },
+    {
+      "id": "R103_602106_E_LEFT",
+      "event_count": 1,
+      "pass": true,
+      "damage": 48,
+      "pa_consumed": 55,
+      "seed": 602106,
+      "side": "E_LEFT"
+    }
+  ],
+  "result": "PASS"
+}

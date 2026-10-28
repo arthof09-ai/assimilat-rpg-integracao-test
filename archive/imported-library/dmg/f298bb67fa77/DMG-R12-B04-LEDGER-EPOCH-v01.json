@@ -1,0 +1,92 @@
+{
+  "schema": "DMG-R12-B04-TEMPORAL-LEDGER-v01",
+  "verdict": "BLOCKED",
+  "owner": "MESTRE/current scene owner",
+  "authority_sources": [
+    "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010",
+    "https://app.notion.com/p/3f2c2b324ede81c0ae0ee4e66212edc9",
+    "https://app.notion.com/p/3ebc2b324ede81f7b343f7270ff91373"
+  ],
+  "printed_expressions": {
+    "base_alma": 170,
+    "ring_Alma_bonus": 50,
+    "boots_PA_per_day": 15,
+    "attribute_ring_PA_undetermined_clock": 30,
+    "axe_PA_per_day": 60,
+    "armor_PA_undetermined_clock": 42,
+    "perdido": 46,
+    "computed_printed_subtotal": 73
+  },
+  "event_ledger_columns": [
+    "scene_id",
+    "effective_at",
+    "actor_source_id",
+    "form",
+    "item_source_id",
+    "equipped",
+    "active",
+    "event_id",
+    "event_time",
+    "temporal_type",
+    "signed_pa_change",
+    "pa_before",
+    "pa_after",
+    "consumed_today",
+    "reserve_held",
+    "source_version",
+    "authority"
+  ],
+  "event_types": [
+    "DAILY_CHARGE_ON_DAY_BOUNDARY",
+    "ONE_TIME_ACTIVATION",
+    "CONTINUOUS_RESERVE",
+    "ALMA_TOTAL_CAPACITY_BONUS",
+    "ACTUAL_PA_LOSS",
+    "PA_RECOVERY",
+    "FORM_OVERLAY_ENTER",
+    "FORM_OVERLAY_EXIT",
+    "NO_OP"
+  ],
+  "cannot_collapse": [
+    "15/day and 60/day != 75/turn",
+    "Perdido -46 might already be reflected in 73",
+    "item status owned != active/equipped",
+    "printed 73 is not proof of PA Free",
+    "transformed +50 cannot fund prerequisite 40 unless effective before cost by valid rule",
+    "T9 full action cost 40 duration1d6+1 only if activation legal"
+  ],
+  "conditional_cases": [
+    {
+      "id": "PA73",
+      "assumption": "Printed 73 denotes PA currently spendable prior to transformation",
+      "PA_pre": 73,
+      "can_activate_T9": true,
+      "PA_after_pay_only": 33,
+      "canonical": false
+    },
+    {
+      "id": "PA27",
+      "assumption": "Printed 73 and independent -46 is uncounted spend prior to scene",
+      "PA_pre": 27,
+      "can_activate_T9": false,
+      "PA_after_rejected": 27,
+      "canonical": false
+    }
+  ],
+  "missing_decisions": [
+    "signed scene effective_at + resource owner",
+    "temporal semantics 30 and 42",
+    "spent/committed/day charges exactly once",
+    "status of perdido -46 and PA restore",
+    "pre-activation PA Free and turn action budget",
+    "whether transformed +50 added after legitimate activation and how form recalc works"
+  ],
+  "negative_controls": [
+    "do not apply daily charge each turn",
+    "do not credit transformed bonus before legal activation",
+    "do not subtract -46 twice",
+    "do not assume unprinted ability PA=0",
+    "no current PA from arithmetic alone"
+  ],
+  "scientific_result": "COMPUTATIONS VALID; TIME/OWNERSHIP NOT ADJUDICATED; NO PASS"
+}

@@ -1,0 +1,62 @@
+{
+  "checkpoint_id": "DMG-SYS-REALIGN-20261016-R01",
+  "as_of": "2026-10-16",
+  "operation": "CM-000001 / OP-DMG-CORPUS-EMP-01",
+  "source_master_side": "Notion Master",
+  "baseline": "DMG-RANK-01 v1.1 UNCHANGED",
+  "last_verified_unit": "24/24 new Notion pages read, six three-way rank initial formulas R03 re-evaluated, nine candidate B5 R02 re-evaluated, 29 R03/R04 formulas recomposed, 116/116 independent math and recovered R11 ZIP file hashes",
+  "first_pending": "Find a Bestiary page with rank title/body/ancestor reconciled, damage missing and competent Rank Efeito/FIP/type/action for a legal TEST v1.1 generation; separately authenticate R23/9 originals I0003 on new locator",
+  "denominators": {
+    "new_pages": 24,
+    "new_offense_formula_pages": 1,
+    "new_numeric_attack_abilities": 2,
+    "new_strict_rank_eligible": 0,
+    "R02_B5_actions": 9,
+    "R02_B5_pages": 7,
+    "R03_strict_actions": 6,
+    "R03_strict_pages": 6,
+    "R03_R04_initial_actions": 29,
+    "R03_R04_formula_pages": 26,
+    "R03_R04_examined_pages_historical": 53,
+    "F0_documented_passes": 4,
+    "F0_gates_total": 8,
+    "B01_B18_pass_documental": 1,
+    "B01_B18_total": 18,
+    "strict_combat_certified": 0,
+    "strict_combat_required": 2,
+    "I0003_original_CSV_certified": 0,
+    "I0003_original_CSV_total": 9,
+    "L003_membership_certified": 0,
+    "L003_reported_pages": 71,
+    "VLAB_terminal_certified": 0,
+    "VLAB_terminal_total": 17
+  },
+  "no_repeat": [
+    "R02/R03/R04 baseline formulas and sources",
+    "VLAB historical native combats and engine contracts",
+    "Galidemus and Iskiel isolated tests as new science",
+    "Do not search 47 CSV/114 ZIP absent new ID",
+    "Do not count TEST replicas as independent creatures"
+  ],
+  "conflicts": [
+    "24/24 new pages lack full title/body/ancestor exact rank agreement",
+    "R02 B5 candidate 7/9 intrinsic below nominal band are not violations",
+    "R03 strict 6/6 intrinsic below nominal band not violations",
+    "damage type and cost incomplete for many effects",
+    "I0003 and L003 provenance unresolved"
+  ],
+  "unknown_effect": "NO UNKNOWN REMOTE WRITE: only local files generated; any library upload/readback to record separately",
+  "authority_writer": "Master grants unlimited isolated TEST replication by DIR-MESTRE-LABS-REPLICAS-20261016-001; no inheritance of INSTANCE writer lease epoch or production permission",
+  "next_5": [
+    "find complete authority RE/FIP for missing numeric effect",
+    "test CAND-01 applicability in isolated TEST only",
+    "build pairwise equal context same family rank/star",
+    "seal a genuinely unseen family holdout before comparisons",
+    "rerun independent audit, review CAND-05 only if gaps addressed"
+  ],
+  "target_remainder": "F0–F18 unknown denominator overall; corpus global no 100%; B01–B18 only B02 PASS; no VLAB native duties inherited",
+  "nac_pass": "PASS_LOCAL_MATH + source_read; HOLD for canonical acceptance / Notion OP- or Diary-write / natively executed combat",
+  "handoff": "results/HANDOFF_VLAB_RESEARCH_ONLY.json NOT_SENT",
+  "publication": "LOCAL_ONLY_UNTIL_LIBRARY_UPLOAD_VERIFIED",
+  "source_preregister": "PREREG_SOURCE_SAMPLE.json"
+}

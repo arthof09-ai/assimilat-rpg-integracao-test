@@ -1,0 +1,116 @@
+{
+  "as_of": "2026-10-17",
+  "result": "PASS_R172_COLD_PORTABLE_RECOVERY",
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "R172_zip_sha256": "aecadd7a93186ce170fb3a84dfab21855be3121033372e0aa3a7c359f023dc17",
+  "entries": 318,
+  "manifest_entries_verified": 317,
+  "R170_prior_integrity_receipt": "PASS_REOPENED",
+  "R171_7_tests_receipt": "PASS_REOPENED",
+  "R172_reported_tests": "19/19 PASS",
+  "physical_independent_cold_replay_banks": 12,
+  "R172_new_valid_sqlite_commits": 16,
+  "new_counter_transactions": 14,
+  "scheduler_control_commits": 2,
+  "counter_chain_native_events": 42,
+  "aborted_pure_memory_intents": 6,
+  "tampered_hash_valid_clones_rejected": 2,
+  "R170_native_source_sha_verified": true,
+  "R18_source_sha_verified": true,
+  "R171_source_sha_verified": true,
+  "original_R170_R171_engines_modified": false,
+  "original_historical_battles_rerun": false,
+  "R172_experimental_tests_rerun_on_readback": false,
+  "formal_external_human_audit": false,
+  "terminal_contracts": 0,
+  "official_benchmark_cells": 0,
+  "canon_writes": 0,
+  "party_writes": 0,
+  "writer": "UNVERIFIED_PRODUCTION_HOLD",
+  "legitimate_ledgers": [
+    {
+      "db": "R172_ADVERSARIAL_BASE_HP_S1722502.sqlite",
+      "revision": 1,
+      "native_events": 3,
+      "head": "daa623b0681467bcb7a58005378d20a8dc85cbe02b6b3f0b80b075effcbdb623"
+    },
+    {
+      "db": "R172_ADVERSARIAL_BASE_LINK_S1722501.sqlite",
+      "revision": 1,
+      "native_events": 3,
+      "head": "3b672cb4ecb7137bf04023c0acd0c45d655f33925446a6caca9a3763874fb20f"
+    },
+    {
+      "db": "R172_AFTER_CHECKPOINT_S1722402.sqlite",
+      "revision": 1,
+      "native_events": 3,
+      "head": "1287fbdd2a847b69439b357f5a7e2af587fa083df27fb95bee873cfe5e0e78f7"
+    },
+    {
+      "db": "R172_CONCURRENT_COPY_S1722701.sqlite",
+      "revision": 1,
+      "native_events": 3,
+      "head": "dc9abbde52ba1a316bd931e122c6ce3891649a04e3e14d6ffb74a85e02da6d62"
+    },
+    {
+      "db": "R172_FAULT_AFTER_COMMIT_S1722401.sqlite",
+      "revision": 1,
+      "native_events": 3,
+      "head": "1dea9e49922813e0571ac800e78f5abe0ad5b4a55a1efe5e96eb18629192b33b"
+    },
+    {
+      "db": "R172_HAPPY_DOUBLE_NEW_S1722101.sqlite",
+      "revision": 2,
+      "native_events": 6,
+      "head": "28e63f52defdcab93a521373db3bd2a330452c3f70d5c7ceb8d6a39fa9fe9bfe"
+    },
+    {
+      "db": "R172_HIT_TEST_S1722102.sqlite",
+      "revision": 1,
+      "native_events": 3,
+      "head": "32021228efa756cdfa42f7403b3a3ad70f36b422cfdf038e3a8111f4f3ac00f0"
+    },
+    {
+      "db": "R172_HIT_TEST_S1722103.sqlite",
+      "revision": 1,
+      "native_events": 3,
+      "head": "88aa4da3ec1b97d81deba51a98b3a14dc7abc03143486e0937da476bd87f87f9"
+    },
+    {
+      "db": "R172_HIT_TEST_S1722104.sqlite",
+      "revision": 1,
+      "native_events": 3,
+      "head": "15cdbd24417bf1ce04b10e5d16ebfa490aba34f4bc1c555925690ca9b27ef8b6"
+    },
+    {
+      "db": "R172_HIT_TEST_S1722105.sqlite",
+      "revision": 1,
+      "native_events": 3,
+      "head": "ecbaddcc70bb03f4bd32ebffec359e3242f66b57d9c26486e28dde6b44f99785"
+    },
+    {
+      "db": "R172_OVERKILL_NEW_S1722106.sqlite",
+      "revision": 1,
+      "native_events": 3,
+      "head": "05c1eebc4a01d01b3a3e8e9684d6db8abeefb69ac10895f7b3d22653b3429864"
+    },
+    {
+      "db": "R172_THREE_ACTORS_SYNTH_S1722201.sqlite",
+      "revision": 4,
+      "native_events": 6,
+      "head": "0bdda95bb510d1aaa05f55cef14fabbddcf10f63efa88d63705dcca6c9d310e6"
+    }
+  ],
+  "tampered_clones": [
+    {
+      "db": "R172_ADVERSARIAL_CLONE_HP_S1722502.sqlite",
+      "rejected": "PASS",
+      "reason": "CAUSAL_REPLAY_MISMATCH:row_1_DETAIL"
+    },
+    {
+      "db": "R172_ADVERSARIAL_CLONE_LINK_S1722501.sqlite",
+      "rejected": "PASS",
+      "reason": "CAUSAL_REPLAY_MISMATCH:row_1_DETAIL"
+    }
+  ]
+}

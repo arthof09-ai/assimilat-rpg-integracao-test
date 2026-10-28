@@ -1,0 +1,15 @@
+{
+  "schema_version": "assim.tabletop.scene.presentation.test.v1",
+  "mode": [
+    "day",
+    "rain",
+    "night"
+  ],
+  "contract": "VIEW_LAYER_ONLY",
+  "source": "SYNTHETIC",
+  "mechanical_effect": "NONE",
+  "server_action": "NONE",
+  "permissions": "PRESENTATION_ONLY",
+  "requires_official_VLAB_for_mechanics": true,
+  "preserve_grid": true
+}

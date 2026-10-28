@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-10-20",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "status": "PASS_4_OF_4_LIBRARY_READBACK_BYTES",
+  "files": [
+    {
+      "name": "DMG_C14_CIENCIA_COMPARADORES_R204_20261020_MESTRE_ONLY.zip",
+      "sha256": "c4ddfac3c465d3464aab6afa004ba464d96f200fe1b750b5a94e35a98c7ffbf1",
+      "bytes": 34630,
+      "library_readback_byte_identical": true
+    },
+    {
+      "name": "PSV_DMG_C14_MESTRE_ONLY.md",
+      "sha256": "ce1f91117adc0302c3a8258657237b9f9fe81baee140ca9220086f5213b3a58d",
+      "bytes": 4956,
+      "library_readback_byte_identical": true
+    },
+    {
+      "name": "C14_SCIENTIFIC_PARECER_MESTRE_ONLY.md",
+      "sha256": "e7801beb004af87029bbfa6468d4a7d18865116996356a9a879de79359d5a790",
+      "bytes": 19395,
+      "library_readback_byte_identical": true
+    },
+    {
+      "name": "C14_COLD_PORTABLE_REPLAY_RECEIPT.json",
+      "sha256": "4da2cce196634f2678c2fa0b6c8f5967891c381de3fef66d32f9df3b39d530c1",
+      "bytes": 563,
+      "library_readback_byte_identical": true
+    }
+  ],
+  "canonical_writes": 0,
+  "party_writes": 0,
+  "o_primeiro_writes": 0,
+  "v_lab_sqlite_modified": false,
+  "formally_homologated": false,
+  "f0": "4/8"
+}

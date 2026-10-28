@@ -1,0 +1,38 @@
+{
+  "zip": "VLAB_R52_R61_DEZ_ETAPAS_INTEGRACAO_MESTRE_ONLY.zip",
+  "zip_bytes": 328169,
+  "zip_sha256": "04fd493f4e75c04093ad24278f84b2ae8e9b4880d27b40ba89ceb0914d5eda62",
+  "zip_members": 80,
+  "manifest_files": 79,
+  "manifest_sha256": "e00ca09474ff19f7f675d738707e1ff5974e62b1dfed700c3513dee229c30ff3",
+  "report_file": "delivery/R61_PSV_R52_R61_MESTRE_ONLY.md",
+  "report_sha256": "0437995a47338bfd1c61d777baa2b06cb954e9ff64cae2eaa43b348cb81d4f8b",
+  "clean_extraction_cold_audit": {
+    "scenes": 17,
+    "events": 264,
+    "attacks": 336,
+    "counters": 87,
+    "aoos": 6,
+    "complete": 8,
+    "censored": 0
+  },
+  "fault_fixture": {
+    "seed": 130011,
+    "process_exit": 78,
+    "pending": 1,
+    "pending_command": "LAB-CMD-R59-FAULT-FIRST-ONE",
+    "published_events": 0,
+    "revision": "0",
+    "head_unchanged": true,
+    "state_unchanged": true,
+    "blocked_unknown": true,
+    "sqlite_integrity": "ok",
+    "checkpoint": "R59_FAULT_ONLY_130011.sqlite",
+    "not_retried": true
+  },
+  "archive_crc": "PASS",
+  "history_unchanged": true,
+  "notion_status": "BLOCKED_TOOL_SECURITY_WRITE_NOT_VERIFIED",
+  "terminal_certificates": 0,
+  "canonical_cells": 0
+}

@@ -1,0 +1,76 @@
+{
+  "sources": {
+    "numeric_fullspec": "https://app.notion.com/p/3f3c2b324ede813987deda0b382e83c7",
+    "creation": "https://app.notion.com/p/3ebc2b324ede81f4992ac88a3588cacd",
+    "grifo_individual": "https://app.notion.com/p/3f2c2b324ede81f9add8c37889e5a772"
+  },
+  "status": "SOURCE_DERIVED_L2_EXPERIMENTAL_CANDIDATE_NOT_REAL_MATERIALIZED_BESTA",
+  "predecessor_L2": {
+    "rank": "Lendário 2★",
+    "regular_power_slot": 22,
+    "level": 22,
+    "stats": {
+      "FOR": 110,
+      "DES": 112,
+      "CON": 80,
+      "INT": 70,
+      "SAB": 90,
+      "CAR": 35
+    },
+    "HP_Titan": 4020,
+    "Soul_Titan": 3800,
+    "CA_Titan": 148,
+    "RD_Titan": 75,
+    "prof_Titan": 22,
+    "base_damage_Titan": "20d10",
+    "attack_talon_using_DES": "6d6+134",
+    "speed_m_from_source_formula": 62.0
+  },
+  "existing_fullspec_L3": {
+    "rank": "Lendário 3★",
+    "regular_power_slot": 23,
+    "level": 23,
+    "stats": {
+      "FOR": 115,
+      "DES": 116,
+      "CON": 85,
+      "INT": 72,
+      "SAB": 94,
+      "CAR": 36
+    },
+    "HP_Titan": 4315,
+    "Soul_Titan": 4016,
+    "CA_Titan": 153,
+    "RD_Titan": 75,
+    "prof_Titan": 22,
+    "base_damage_Titan": "20d10",
+    "attack_talon_using_DES": "6d6+138",
+    "speed_m_from_source_formula": 63.0
+  },
+  "L2_explicit_delta_from_source": {
+    "FOR": 5,
+    "DES": 4,
+    "CON": 5,
+    "INT": 2,
+    "SAB": 4,
+    "CAR": 1
+  },
+  "L2_L3_same_species_not_2_species": true,
+  "unresolved": [
+    "earlier historical Matriarch state not physically attested as character",
+    "provenance of grant/equipment and current official materialization",
+    "scenario special attacks at L2 cannot be inherited without source"
+  ],
+  "special_power_slots": {
+    "26": {
+      "tier": "ADM",
+      "equivalent_regular_rank_star_required": false,
+      "lineage_variant": "PENDING"
+    },
+    "27": {
+      "tier": "Divina",
+      "equivalent_regular_rank_star_required": false,
+      "lineage_variant": "PENDING"
+    }
+  }
+}

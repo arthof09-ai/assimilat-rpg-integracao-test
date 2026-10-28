@@ -1,0 +1,361 @@
+{
+  "schema": "DMG-R08-B01-B18-AUDIT-v01",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "denominator": 18,
+  "target": 9,
+  "certified": 0,
+  "status_counts": {
+    "PARTIAL": 10,
+    "BLOCKED": 6,
+    "NOT-TESTED": 2
+  },
+  "moral": "EVIDENCE_IS_NOT_CERTIFICATION",
+  "original_ids_unmodified": true,
+  "readback_R07_library": {
+    "path": "/Comestre/OP-DMG-CORPUS-EMP-01/DMG-F1-R07-HANDOFF-ENGENHARIA-v01.zip",
+    "file_id": "file_00000000dcb8820e87c6a53a599bab8c",
+    "library_file_id": "libfile_43ddcf16c8b88191947e1c0e2cff154c",
+    "sha256": "6c181a46e4e4f98b8e235c9194f2b4a96f1c40216b1e3727a3fbe858573e8486",
+    "bytes": 74540,
+    "crc": "PASS",
+    "file_count": 19,
+    "byte_readback": true,
+    "notion_uploaded": false,
+    "lab_ack": null
+  },
+  "notion_R06_R07_attached": false,
+  "lab_engineering_receipt": false,
+  "NAC_PASS": "PENDING",
+  "fullfight": "0/2",
+  "records": [
+    {
+      "original_id": "B01",
+      "original_name": "source version/encounter state",
+      "original_requirement": "Current validity of actor stats/conditions; snapshot page unverified, no actual encounter state",
+      "r07_previous_status": "PARTIAL",
+      "r08_status": "PARTIAL",
+      "fully_certified": false,
+      "r08_new_evidence": "Eight prior source-content hashes are physically stable under R07; copied into library package R07 readback; current-scene actor freeze still absent.",
+      "missing_for_terminal": "Current actual actor snapshot, scene id/time, selected armor and authoritative source acceptance.",
+      "next_action_owner": "Science prepares source digest; Master authorizes start state; Lab imports FrozenRuleEvidence.",
+      "source_urls": [
+        "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B02",
+      "original_name": "Símio vs Macaco identity/Titan naming",
+      "original_requirement": "Resolve Símio parent vs body Macaco Rei and Titan flag; rule applies based on physical ID not alias",
+      "r07_previous_status": "PARTIAL",
+      "r08_status": "PARTIAL",
+      "fully_certified": false,
+      "r08_new_evidence": "Verified body macaco rei under Símio Demoníaco❄ parent and title Prata 5(titã); 67 exactly Titan CA, not normal 57. Narrative calls Guardião das Florestas Encantadas, no second entity created.",
+      "missing_for_terminal": "Confirm same physical entity/titan in encounter and whether +2 FOR included in 54; clarify narrative alias if it matters.",
+      "next_action_owner": "Mestre adjudicates and coordinates source canonicalization without editing sheet by inference.",
+      "source_urls": [
+        "https://app.notion.com/p/f42c2b324ede82f1a62c81d6274d7d37"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B03",
+      "original_name": "historical vs current natural Life/Alma discrepancy",
+      "original_requirement": "Beast natural base missing from historical page numbers; choose in fixture exact authority and snapshot values",
+      "r07_previous_status": "BLOCKED",
+      "r08_status": "BLOCKED",
+      "fully_certified": false,
+      "r08_new_evidence": "Both branches maintained. Literal historical 750/700; current-rule hypothetical 810/760, baseline +60 each.",
+      "missing_for_terminal": "Mestre choice or explicit lab scenario A/B under qualified authority; no retroactive rewrite.",
+      "next_action_owner": "Mestre + NAC-NORM decide retroactivity; science keeps alternatives.",
+      "source_urls": [],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B04",
+      "original_name": "PA Livre and item commitments/costs",
+      "original_requirement": "Alma vs PA Livre; equipment commitments, cooldown, costs, regen, initial state",
+      "r07_previous_status": "BLOCKED",
+      "r08_status": "BLOCKED",
+      "fully_certified": false,
+      "r08_new_evidence": "Liu numeric 170+50-15-30-60-42=73; armor entry has PA42, coinciding with -42 term but no attribution proof; Perdido -46 separate; Macaco elemental attack PA10 explicit.",
+      "missing_for_terminal": "Actual PA Livre and commitments, equipment activation, meaning/timing Perdido and Patada implicit resource policy.",
+      "next_action_owner": "Mestre/character keeper freezes state; science audits; Lab gates.",
+      "source_urls": [
+        "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010",
+        "https://app.notion.com/p/3ebc2b324ede81f7b343f7270ff91373"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B05",
+      "original_name": "complete legal actor action inventory",
+      "original_requirement": "Complete legal action loadouts and owned abilities for all actors not adjudicated",
+      "r07_previous_status": "PARTIAL",
+      "r08_status": "PARTIAL",
+      "fully_certified": false,
+      "r08_new_evidence": "Physical Macaco action taxonomy Patada physical-impact, Mordida piercing, elemental power 1d10+INT PA10 with element unspecified, Manipulação Mágica underspecified, Telepatia utility, Força Titânica passive.",
+      "missing_for_terminal": "Legal menu with type, range, PA, conditions, selected actor state and adapters.",
+      "next_action_owner": "Science maps; Lab ActionCatalog compiles strict after authority proof.",
+      "source_urls": [
+        "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B06",
+      "original_name": "time/action/cost/reaction triggers",
+      "original_requirement": "Attack/magic default known, but abilities, equipment toggles and reactions timing incomplete",
+      "r07_previous_status": "PARTIAL",
+      "r08_status": "PARTIAL",
+      "fully_certified": false,
+      "r08_new_evidence": "Official normal attack consumes one Standard Action; before-attack defensive reaction is declared; Stage12 unified gateway only simulates single atomic LAB event, not turn scheduler.",
+      "missing_for_terminal": "Effective budgets, sequence, compulsory passive triggers, accepted strict scheduler.",
+      "next_action_owner": "Lab implements and demonstrates chronology; Mestre resolves ambiguous rules.",
+      "source_urls": [
+        "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0",
+        "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B07",
+      "original_name": "individual initiative proficiency and ties",
+      "original_requirement": "Official initiative formula known, individual modifiers and tied-roll policy unresolved",
+      "r07_previous_status": "BLOCKED",
+      "r08_status": "BLOCKED",
+      "fully_certified": false,
+      "r08_new_evidence": "Rank Prata dice2d6; Liu DES16 and Instinto+4; Macaco DES40; Titan P5 generic proficiency+11 rule, but actor-specific selection not proof.",
+      "missing_for_terminal": "Individual Initiativa modifiers and tie rule/normal initiative event.",
+      "next_action_owner": "Science sources; Mestre reconciles tie; Lab proves event.",
+      "source_urls": [
+        "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0",
+        "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B08",
+      "original_name": "roll semantics and Luta proficiencies",
+      "original_requirement": "Liu 2d6+37 versus damage parentheses ambiguous; beast Luta applicability and skills undefined",
+      "r07_previous_status": "PARTIAL",
+      "r08_status": "PARTIAL",
+      "fully_certified": false,
+      "r08_new_evidence": "DMG-RANK v1.1 explicit action precedence confirms Patada 2d6+FOR over Titan template8d10; FOR 54/56 remains split and Luta unknown.",
+      "missing_for_terminal": "Actual FOR effective, individual Luta, legal attack, engine HIT roll and adapter.",
+      "next_action_owner": "Mestre confirms passive status; Lab accepts and replays.",
+      "source_urls": [
+        "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0",
+        "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B09",
+      "original_name": "defense reactions and Fortitude/Reflexo modifiers",
+      "original_requirement": "CA rules known; Fortitude/Reflexo actual skill bonuses and reaction scheduling not frozen",
+      "r07_previous_status": "PARTIAL",
+      "r08_status": "PARTIAL",
+      "fully_certified": false,
+      "r08_new_evidence": "Normal Liu CA46 reconstructed (6+16+15+4+3+2); Esquiva display49 contains CA (delta3), Defender37+f; actual reaction not frozen.",
+      "missing_for_terminal": "Actual Reflexo/Fortitude skill grant, reaction ready and window, legal expense/atomic log.",
+      "next_action_owner": "Mestre/character keeper confirms skills; Lab consumes correct modifier, not display total.",
+      "source_urls": [
+        "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0",
+        "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B10",
+      "original_name": "RD/RDF/type-specific interactions and stacking",
+      "original_requirement": "Beast RD tables and Liu RDF10 known; general+specific stacking, per-component applicability and order unresolved",
+      "r07_previous_status": "BLOCKED",
+      "r08_status": "BLOCKED",
+      "fully_certified": false,
+      "r08_new_evidence": "Physical impact is taxonomic; RDF10 explicitly attached to Liu armor, other creature RDF10 described as physical resistance; Titan general RD30 derived for Macaco but absent from its sheet.",
+      "missing_for_terminal": "Armor equipped, full RDF impact applicability and general-vs-specific stacking, per-component reducer, no fallback RD15.",
+      "next_action_owner": "Mestre/NAC-NORM resolves; Lab source-gated reducer.",
+      "source_urls": [
+        "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B11",
+      "original_name": "legacy critical Brutal/rerolls vs current combat rules",
+      "original_requirement": "Official sequential critical known; Liu critical modifier/re-roll and beast action applicability unresolved",
+      "r07_previous_status": "PARTIAL",
+      "r08_status": "PARTIAL",
+      "fully_certified": false,
+      "r08_new_evidence": "General 3d6 sequential critical rule source exists; Liu heavy-weapon effects are not passives defending incoming Patada; no special crit margin in Macaco source.",
+      "missing_for_terminal": "Actual critical check and damage path, actor effects and status; no automatic critical on normal roll.",
+      "next_action_owner": "Science prepares edge cases; Lab runs engine replay and NAC review.",
+      "source_urls": [
+        "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0",
+        "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B12",
+      "original_name": "effects duration/DoT/controls and tick",
+      "original_requirement": "Freeze/Tempestade; Furia and Extensão; duration/tick/stacking not fully sourced",
+      "r07_previous_status": "PARTIAL",
+      "r08_status": "PARTIAL",
+      "fully_certified": false,
+      "r08_new_evidence": "Current Beast Rule9 special last effort requires Ouro+; Macaco rank Prata5 therefore this mechanic does not activate for Macaco. Other effects/status remain unknown.",
+      "missing_for_terminal": "Current scene statuses and compulsory passives/ticks, Liu Fury/Extensão effects if active.",
+      "next_action_owner": "Science isolates negative control; Lab runs state-time update.",
+      "source_urls": [
+        "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B13",
+      "original_name": "target range/positions/LoS/environment",
+      "original_requirement": "No complete legal distances, battle map, LoS, area, target geometry and positions",
+      "r07_previous_status": "BLOCKED",
+      "r08_status": "BLOCKED",
+      "fully_certified": false,
+      "r08_new_evidence": "Current Titan Prata speed formula gives 20+40/4=30m for Macaco; sheet has no position, reach or LoS; Liu shows movement 3+8 but condition unknown.",
+      "missing_for_terminal": "Actual grid/tile sizes, starting coordinates, reach of Patada, sight/path, terrain.",
+      "next_action_owner": "Mestre supplies scene; Lab checks geometry.",
+      "source_urls": [
+        "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B14",
+      "original_name": "Behemoth reflector before/after mitigation/timing/rounding",
+      "original_requirement": "Behemoth reflection trigger before/after RD, no reflection-of-reflection, rounding; generic state time",
+      "r07_previous_status": "NOT-TESTED",
+      "r08_status": "NOT-TESTED",
+      "fully_certified": false,
+      "r08_new_evidence": "Behemoth reflection belongs to secondary stress scenario; not a Macaco ability. Not-applicable is not pass.",
+      "missing_for_terminal": "Confirm contract scope and reflection rule/timing for relevant stress, then replay.",
+      "next_action_owner": "Mestre/Lab decide scope and test.",
+      "source_urls": [
+        "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B15",
+      "original_name": "elemental weaknesses and mixed components",
+      "original_requirement": "Elemental vulnerabilities and obscure damage tags lack verified quantitative interpretation for pair",
+      "r07_previous_status": "PARTIAL",
+      "r08_status": "PARTIAL",
+      "fully_certified": false,
+      "r08_new_evidence": "Patada tagged impact physical; parent snowflake does not add ice to Patada; elemental power tag unspecified even though it costs10PA.",
+      "missing_for_terminal": "Complete mixed/elemental type semantics, weaknesses and actual modifiers.",
+      "next_action_owner": "Science classifies explicit only; Mestre adjudicates ambiguous fields.",
+      "source_urls": [
+        "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010",
+        "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B16",
+      "original_name": "transform Spirit/overlay legality T9-A",
+      "original_requirement": "Liu ED spirit field not complete; no valid overlay/scene ledger/initial state to activate T9-A",
+      "r07_previous_status": "PARTIAL",
+      "r08_status": "PARTIAL",
+      "fully_certified": false,
+      "r08_new_evidence": "Liu normal and transformed fields coexist, NORMAL initial state not physically certified; Stage12 test-only transformation module does not authorize real activation.",
+      "missing_for_terminal": "Actual scene normal/transform state, spirit binding, T9-A ledger, expiry and PA cost.",
+      "next_action_owner": "Mestre supplies state; Lab proves transformation if used.",
+      "source_urls": [
+        "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B17",
+      "original_name": "defeat/death/exhaustion/incoherence",
+      "original_requirement": "Lethal/nonlethal and defeat thresholds and special exhaustion application not certified for scenario",
+      "r07_previous_status": "NOT-TESTED",
+      "r08_status": "NOT-TESTED",
+      "fully_certified": false,
+      "r08_new_evidence": "Macaco Prata cannot use Beast Ouro+ last-effort rule; normal HP0 terminal condition not physically approved. Magic overdraw collapse applies only to eligible spell use.",
+      "missing_for_terminal": "Official full defeat/exhaustion end criteria and valid replay.",
+      "next_action_owner": "Mestre/NAC-NORM and Lab resolve.",
+      "source_urls": [
+        "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0",
+        "https://app.notion.com/p/3ebc2b324ede81f7b343f7270ff91373"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    },
+    {
+      "original_id": "B18",
+      "original_name": "engine scheduler/replay/seed and independent NAC-PASS",
+      "original_requirement": "Scheduler tie/action order, seed, deterministic roster, runtime capability and independent NAC-PASS not available to this scientific branch",
+      "r07_previous_status": "BLOCKED",
+      "r08_status": "BLOCKED",
+      "fully_certified": false,
+      "r08_new_evidence": "Physical Stage12 2,672,466-byte ZIP hash verified; unified_gateway requires synthetic-origin frame and raises STRICT_REQUIRES_EXTERNAL_NAC_PASS; 17 Lab contracts 0 terminal accepted.",
+      "missing_for_terminal": "Real engineer identity/ACK, code that accepts source-frozen live actors and strict, actual hit event, chain replay, independent NAC-PASS.",
+      "next_action_owner": "Coordination regularizes identity; Lab implements, audits, reports.",
+      "source_urls": [
+        "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0"
+      ],
+      "canonical_readback": "Source pages re-opened via Notion Mestre-side; source evidence is documentary/derived, not source-frozen runtime acceptance",
+      "engineering_acceptance_event": null,
+      "independent_nac_pass": null
+    }
+  ],
+  "no_repeat": "198 IDs, Fogo 44x43, R03-R07, prior 76/76, prior 73/73 and 24/24 not rerun",
+  "source_index": {
+    "liu": "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010",
+    "monkey": "https://app.notion.com/p/301c2b324ede828caccb813d3979267a",
+    "simio_parent": "https://app.notion.com/p/f42c2b324ede82f1a62c81d6274d7d37",
+    "combat": "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0",
+    "char_creation": "https://app.notion.com/p/3ebc2b324ede81449222f3c06b840613",
+    "beast_creation": "https://app.notion.com/p/3ebc2b324ede81f4992ac88a3588cacd",
+    "beast_history": "https://app.notion.com/p/e22c2b324ede836cb582819ac2ad27c5",
+    "magic": "https://app.notion.com/p/3ebc2b324ede81f7b343f7270ff91373",
+    "dmg_rank": "https://app.notion.com/p/3f2c2b324ede815498cddb7844245f7e",
+    "tax": "https://app.notion.com/p/3f3c2b324ede81609a28e18c11d3cae4",
+    "engine_stage12": "https://app.notion.com/p/3f3c2b324ede819496ddd7f93bd7e5d2",
+    "inbox34": "https://app.notion.com/p/3f3c2b324ede81fb8f6cf31d58f5e605",
+    "lab_actioncatalog": "https://app.notion.com/p/3f3c2b324ede8182a7c6da2804944d2f",
+    "lab_ai08": "https://app.notion.com/p/3f3c2b324ede81a398edd6df6bf0d8d4"
+  }
+}

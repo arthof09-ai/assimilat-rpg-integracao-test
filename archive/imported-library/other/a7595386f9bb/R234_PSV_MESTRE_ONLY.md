@@ -1,0 +1,17 @@
+# R234 — FIRST VZ FULL-STATS PRECREATE BEASTS: NATIVE 1x1 AND 2x1 · MESTRE-SIDE TEST
+
+**Source:** `BEAST-FULLSPEC-VZ-06` https://app.notion.com/p/3f3c2b324ede813987deda0b382e83c7, physically reopened 2026-10-21. Mechanical excerpt frozen with source pointer and SHA. Source status **PRECREATE MASTER-SIDE, NON-P4**. Parent rule: `Criação de Besta`, https://app.notion.com/p/3ebc2b324ede81f4992ac88a3588cacd. No source claims full-page content hashing.
+
+**BEFORE R233:** B had five generic Beast source-speed single native turns and 25-rank LEGACY Basic/RD sensitivity; D four named VZ species unilateral attacks with UNKNOWN DEFENSE placeholders; C historical 2x1 NPCs. Zero physically substantiated multi-turn Beast PRECREATE full stats TEST fights. 0/17 terminal contracts; 0/1875 official cells.
+
+**AFTER R234:** 4 preregistered seeds × 2 arms × 6 rounds = **8 R18 native scenes, 120 atomic commits, 500 native events**: Grifo-Matriarca de Sílica vs Crocodilo Ancião (`SOLO`) and Grifo+Roc vs Crocodilo (`TEAM`). All three beasts have source-observed rank L3, attributes, HP, Alma/PA, CA, RD, speed, 6d6+source bonus, 20d10 attack, no placeholders. **120 attacks, 100 hits, 20 source-speed moves, 3,614 PV actual HP loss**. All 8 **CENSORED**, 0 KO, 0 official wins, 0 canon cell. 2 engineering smoke scenarios kept isolated (not included in 8). 48 identical action-specific offensive RNG triplets for common G/C attack turns across the matched solo/team arms.
+
+**Pair comparison:** adding Roc increased Crocodile HP removed vs solo by +203,+186,+213,+210 PV in the four paired seeds, sum +812 PV; however this is an added-actor/action-economy fixture, not an official potency judgment or an uncontrolled effect from AI. The Crocodile offensive tapes and Grifo offensive tapes matched; no full magical/advanced kit. Crocodile had the same Grifo target in both arms. Effects after HP0 outside present horizon remain under official-stop HOLD.
+
+**Scientific controls:** independent read-only SQLite auditor reconstructs SHA256 R18 chain, all 120 action-order stages, native RNG 6d6 hit/3d6 critical/20d10 damage, declared source hit bonuses and defense, RD75, actual not nominal HP loss, source-derived speed and move distance, PA conservation, terminal censorship, identical streams and non-P4 status. Five independently rebuilt-hash adulterations rejected: attack score, damage/RD, melee range, dice tape, forged promotion.
+
+**Limits:** `BEAST-FULLSPEC-VZ-06` is a complete mechanical **PRECREATE dossier**, not materialized P4 individual page; source evidence is manually frozen excerpts. Characteristic bestial effects, flight geometry, terrain, spells, control, reaction, initiative rolled and full-source AI excluded. Turn order declared LAB by DES, not official initiative; basic attacks source-specified. No rule revisions, no Party, O Primeiro, DMG or LEVEL-UP writes, no writer/epoch authority. No historical seed replay.
+
+**NAC-PASS:** Local engine/auditor/cold-recovery PASS conditional; global terminal contracts still 0/17; 1,875 official cells 0; production HOLD.
+
+**NEXT:** New R235 source-scoped magical spell vs normal basic source attack same two beasts, including Reflexo CD94/save half, odd-floor Mestre confirmed for damage; no historical replay. Then candidate 2x1 source-complete Beast with magical actor abilities and read-only battery B/C/D report. Before any P4 matrix fill, complete physical source canonicalization under legitimate writer.

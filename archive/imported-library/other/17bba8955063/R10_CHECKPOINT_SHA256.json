@@ -1,0 +1,85 @@
+{
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "round": "R10",
+  "state": "SCIENTIFIC_RESEARCH_COMPLETE_WITH_NATIVE_CORE_CRITICAL_INCOMPATIBILITY_BLOCKED_FOR_VLAB",
+  "date": "2026-10-15",
+  "canonical_writes": 0,
+  "new_native_vlab_full_fights": 0,
+  "controlled_original_module_fixtures": 2,
+  "original_R40_sha256": "2be2d7b8cb39fd4aa340afc07a200c8c1c5234475256635e2dad85a2aeeb1e71",
+  "original_R39B_sha256": "3333d215042d0de9ec92a1d10d125f2417864cd5dc474e5f62b9090bf3552166",
+  "original_v081_module_sha256": "066ffe9636d07e09b192695cff94df21a1116d4e391452805bf13f37af440d29",
+  "F0": {
+    "documentary": "4/8",
+    "held": true
+  },
+  "VLAB": {
+    "total_sandbox_full_fights_historical": 18,
+    "terminals": "0/17",
+    "canonical_cells": "0/1875",
+    "R40_LAB_audited_events": 44,
+    "R40_LAB_audited_attacks": 42
+  },
+  "L003": {
+    "individually_authenticated": "0/71"
+  },
+  "main_science": {
+    "goat_crit_only_bilateral_E_rounds": 205.753786776886,
+    "first_actor_win_probability": 0.500879803536,
+    "one_attacker_E_attacks": 306,
+    "native_module_bug_reproduced": true
+  },
+  "files": {
+    "R10_PREREG.json": {
+      "sha256": "8c0d6ecf717180c844bf304ee17ea568e3b14af83b53984ff76e3aed18e0de87",
+      "bytes": 2847
+    },
+    "R10_MODEL.py": {
+      "sha256": "c2a7765c9664e90eb66d7a89f3bede69cb7638f516118347ca28a1b4554689ea",
+      "bytes": 20830
+    },
+    "R10_RESULTS.json": {
+      "sha256": "8f8f9d66bb0cb26064e32e75e2bb4e16a2a5e09b6cc71ad894ab018a0a2d76bb",
+      "bytes": 17347
+    },
+    "R10_AUDIT_SECONDARY.py": {
+      "sha256": "015a4d9f79d907755f628c9b40266fd3a50526328bb3a935ca85c156e0a6655a",
+      "bytes": 8952
+    },
+    "R10_SECONDARY_AUDIT.json": {
+      "sha256": "bfdf5b9ac59e1c63c0045a720b115b657de35d2a18cd73c4372b80b89dd16b5a",
+      "bytes": 4652
+    },
+    "R10_CROSSRANK.py": {
+      "sha256": "cda9d035dbe5a96527b3970e5ca15c3e7d9b7feca4310a34211c6015e03bc23a",
+      "bytes": 3798
+    },
+    "R10_CROSSRANK_RESULT.json": {
+      "sha256": "4c8cb460f9b9e7f79ae025e18850ea3158ce26e49c25251a314a40ef0075503d",
+      "bytes": 1854
+    },
+    "R10_NATIVE_CORE_CRITICAL_PROBE.py": {
+      "sha256": "bb066e9b7f84be2a00b4b8af1d64919c87a31b478147a0c03e3dd92d0c6b86fc",
+      "bytes": 3972
+    },
+    "R10_NATIVE_CRITICAL_GAP.json": {
+      "sha256": "7d19f49b9376ede7b126ff982c90e0d62c172eb8d57bf4a5f5577e2137954162",
+      "bytes": 2114
+    },
+    "R10_MASTER_DECISION_READONLY.md": {
+      "sha256": "c63cb662523965d89239fb839bfc54311c06e9e16dcc42bf10498ca97fb52919",
+      "bytes": 2352
+    },
+    "R10_VLAB_HANDOFF_READONLY.json": {
+      "sha256": "fe3406d8ccdc243f3730339991cfb32de12acaab043d407f54463e9baeac699d",
+      "bytes": 7491
+    },
+    "PSV_DMG_R10_20261015.md": {
+      "sha256": "d48be82967b14d992f0f01895cf7007118f6ca5c41d72f955eb82220ac033976",
+      "bytes": 16003
+    }
+  },
+  "historical_originals_readonly": "r04/R09_RESULTS_EXACT.json; source_readonly/ ZIP unchanged",
+  "next": "VLAB authorized additive crit auto-hit gate + source admitted event and replay; negative crit rule; F0 source snapshot and blind holdout",
+  "NAC_PASS_PRODUCTION": "HOLD"
+}

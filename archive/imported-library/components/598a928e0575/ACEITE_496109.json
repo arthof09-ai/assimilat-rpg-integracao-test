@@ -1,0 +1,23 @@
+{
+  "video_id": "496109",
+  "schema": "ASSIMILACAO_VIDEO_ACCEPTANCE_V1",
+  "canonical": false,
+  "created": "2026-10-24",
+  "privacy": "MESTRE_ONLY",
+  "real_program": false,
+  "title": "TASK-READY-CANONICAL-CONTEXT",
+  "owner": "Coordenador, sem writer novo",
+  "baseline": "normas e checkpoints vigentes",
+  "objective": "Briefing enxuto para execução com contexto canônico, sem novo Contexto Mestre",
+  "tests": [
+    "fonte canônica apontada",
+    "último RUN revalidado",
+    "owner e fence explícitos",
+    "ABI e privacidade declaradas",
+    "teste de aceite com ação do jogador",
+    "rejeitar ordem sem VLAB authority"
+  ],
+  "authority": "NAC-NORM-01 e Notion vigentes",
+  "output": "Validador leitura apenas + checklist",
+  "status": "PROPOSED_NOT_EXECUTED"
+}

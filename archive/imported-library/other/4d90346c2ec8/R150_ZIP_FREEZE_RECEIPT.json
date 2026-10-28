@@ -1,0 +1,15 @@
+{
+  "file": "VLAB_R146_R150_SPATIAL_CORRECTION_MULTIRROUND_MESTRE_ONLY.zip",
+  "bytes": 13828550,
+  "sha256": "911bff3503c734173b8173222faca0fc8f5a592b649f30a640e4dfe2d08e0c1e",
+  "entries_total": 26,
+  "entries_authenticated": 25,
+  "CRC": "PASS",
+  "R145_nested_original_sha256": "3407c17ab74fb9c2931814a880196237eda70c790cae987f7fe35aee24ffa383",
+  "baseline_preserved": "R01–R145 nested chain immutable",
+  "R138_SPATIAL_SOURCE_HOLD": true,
+  "R146_40_cold": "PASS",
+  "R146_3m_before_move": true,
+  "terminal_contracts": 0,
+  "official_power_cells": 0
+}

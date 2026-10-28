@@ -1,0 +1,120 @@
+{
+  "authority": "MESTRE R11 authorized documentary gate audit; source canonical Master-side bestiary and Criação de Besta; DOES_NOT_AMEND_CANON",
+  "conflict_reconciliation": [
+    {
+      "issue": "Parent listed under Ouro Negro 5 in Gelo index while variant is Prata 5",
+      "resolution": "index is FAMILY index; concrete variant has own source page ID, title, body rank; do not inherit parent maximum as individual rank"
+    },
+    {
+      "issue": "Named macaco rei and prose Guardião das Florestas Encantadas",
+      "resolution": "Nome: field is the individual name; behavior paragraph is lore, not a second page/entity ID or an explicit competing Nome field"
+    },
+    {
+      "issue": "Notion verification state unverified",
+      "resolution": "Platform verification is unasserted for BOTH source and official system pages; NOT equivalent to source invalidity or a scene snapshot; keep source version/fingerprint and no official modification"
+    },
+    {
+      "issue": "Gelo category and Poder elemental",
+      "resolution": "Category is species provenance, not automatic claim that Patada is GELO; elemental attack unresolved under B15."
+    }
+  ],
+  "gate": "B02",
+  "independent_mechanical_crosscheck": {
+    "interpretation": "Title Titã and official Titan-specific CA align. Neither CA arithmetic nor parent name alone would create this flag.",
+    "literal_ca": 67,
+    "normal_ca": 57,
+    "normal_ca_formula": "10+DES+CON/5",
+    "titan_ca": 67,
+    "titan_ca_formula": "20+DES+CON/5"
+  },
+  "literal_fields": {
+    "ca_literal": 67,
+    "con": 35,
+    "dex": 40,
+    "display_name_in_variant": "macaco rei",
+    "rank": "Prata",
+    "rank_body": "Prata 5 (2d6)",
+    "species_title": "Símio Demoníaco❄",
+    "star": 5,
+    "titan_source": "variant title Prata 5 (titã)"
+  },
+  "nac_pass02_terminal": "HOLD_FULL_FIGHT_AND_ENGINEERING",
+  "non_claims": [
+    "No scene currentness certification (B01)",
+    "No Life/Alma branch selection (B03)",
+    "No PA, FOR final, RD/mitigation or actual action adjudication",
+    "No engineer ACK, official STRlCT readiness or full fight (B18)",
+    "No Notion page canonization or alias creation"
+  ],
+  "normative_sources": [
+    "https://app.notion.com/p/3ebc2b324ede81f4992ac88a3588cacd",
+    "https://app.notion.com/p/3f2c2b324ede815498cddb7844245f7e"
+  ],
+  "notion_source_urls": [
+    "https://app.notion.com/p/85fc2b324ede82c99db101ab105f182f",
+    "https://app.notion.com/p/f42c2b324ede82f1a62c81d6274d7d37",
+    "https://app.notion.com/p/301c2b324ede828caccb813d3979267a"
+  ],
+  "original_gate": "NAME_RANK_TITAN",
+  "original_owner": "MESTRE/CANON-GOV",
+  "original_requirement": "Resolve Símio parent vs body Macaco Rei and Titan flag; rule applies based on physical ID not alias",
+  "pass_kind": "DOCUMENTARY_IDENTITY_CERTIFICATION_FOR_SCIENTIFIC_FIXTURE_ONLY",
+  "physical_source_chain": [
+    {
+      "evidence": "Gelo index contains parent Símio Demoníaco❄ under family-index Ouro Negro 5; category is species position not child variant level",
+      "last_edited_at": "2026-10-01T18:46:18.055Z",
+      "level": "category",
+      "page_id": "85fc2b324ede82c99db101ab105f182f",
+      "path": "RPG/Bestas Demoníacas",
+      "title": "Gelo"
+    },
+    {
+      "evidence": "direct child Notion <page> link to exact page 301c2b324ede828caccb813d3979267a",
+      "last_edited_at": "2026-10-01T18:00:41.676Z",
+      "level": "species",
+      "page_id": "f42c2b324ede82f1a62c81d6274d7d37",
+      "path": "RPG/Bestas Demoníacas/Gelo",
+      "title": "Símio Demoníaco❄"
+    },
+    {
+      "evidence": "Nome: macaco rei; Rank: Prata 5 (2d6); CA: 67; DES: 40; CON: 35",
+      "last_edited_at": "2026-10-01T18:00:42.589Z",
+      "level": "variant",
+      "page_id": "301c2b324ede828caccb813d3979267a",
+      "path": "RPG/Bestas Demoníacas/Gelo/Símio Demoníaco❄",
+      "title": "Prata 5 (titã)"
+    }
+  ],
+  "pin": {
+    "actor_source_key": "macaco",
+    "canonical_variant_source_page_id": "301c2b324ede828caccb813d3979267a",
+    "scientific_actor_id": "BESTIA-GELO-SIMIO-P5-301c2b32",
+    "scientific_scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+    "species_source_page_id": "f42c2b324ede82f1a62c81d6274d7d37"
+  },
+  "provenance_recheck_before_any_official_run": true,
+  "readback_method": "Notion fetch of category, parent and variant in this R11; R10 known content fingerprints and same last_edited_at; synthetic fixture physical source_id mapping from R03 nested in immutable R10 ZIP",
+  "result_details": "All B02 original NAME_RANK_TITAN terms satisfied for the EXISTING scientific actor reference without deciding unrelated scene state. Separate gates B01/B03/B04/B15/B18 remain gated.",
+  "scope": "Existing scientific reference pair PAIR-P5-LIU-vs-MACACO-01; actor identity, name, rank/star and Titan flag; NOT a live fight/scene epoch.",
+  "source_confidence": "HIGH_DOCUMENTARY_DIRECT_SOURCE_WITH_VERSION_BOUNDARY",
+  "source_versions": {
+    "parent": {
+      "last_edited_at": "2026-10-01T18:00:41.676Z",
+      "sha256_content_r10": "7984efb769402cb26a1078e62e6b5913e61577bc503c30d74aa9aa0193654a7b"
+    },
+    "variant": {
+      "last_edited_at": "2026-10-01T18:00:42.589Z",
+      "sha256_content_r10": "d2136dfaecdd78915657c399141178d7282e7cbc19d1b8129646aa75ccf11c4e"
+    }
+  },
+  "test_requirements": [
+    "The category links exact species source ID",
+    "Species directly links exact variant ID",
+    "Variant name, rank, star and Titan flag literal and consistent",
+    "Exact actor binding by immutable source ID, never alias",
+    "Titã CA formula matches literal; non-Titã formula differs",
+    "No claim of current scene/strict mechanics",
+    "Zero new creature, no canon mutation"
+  ],
+  "verdict": "PASS"
+}

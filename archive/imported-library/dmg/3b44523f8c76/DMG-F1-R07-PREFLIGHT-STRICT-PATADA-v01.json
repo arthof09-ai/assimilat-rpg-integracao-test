@@ -1,0 +1,286 @@
+{
+  "schema": "DMG-F1-R07-SCIENCE-TO-LAB-STRICT-PREFLIGHT-v0.8",
+  "scope": "MESTRE-SIDE / NOT-LAB-RUNTIME / NOT-GAME-RULE",
+  "target": "Liu Xiaua Prata 5 × Macaco Rei Prata 5 TITAN-TITLE",
+  "sources_SHA256_R07": {
+    "liu": {
+      "id": "0b4c2b324ede837cb6be818dc8e36010",
+      "sha256": "0e7114574824c12138fa90392a3286a176e953d8b1b6e15a39e7a26d69645fd3",
+      "edited_at": "2026-10-01T09:40:50.721Z",
+      "url": "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010",
+      "hash_scope": "SHA256 UTF8 exact inner <content> markdown text from Notion fetch; NOT attachment/media/full-page freeze",
+      "R07_reopened_and_digest_recomputed": true,
+      "SHA_matches_R04": true,
+      "notion_ack_from_engine": false
+    },
+    "macaco": {
+      "id": "301c2b324ede828caccb813d3979267a",
+      "sha256": "d2136dfaecdd78915657c399141178d7282e7cbc19d1b8129646aa75ccf11c4e",
+      "edited_at": "2026-10-01T18:00:42.589Z",
+      "url": "https://app.notion.com/p/301c2b324ede828caccb813d3979267a",
+      "hash_scope": "SHA256 UTF8 exact inner <content> markdown text from Notion fetch; NOT attachment/media/full-page freeze",
+      "R07_reopened_and_digest_recomputed": true,
+      "SHA_matches_R04": true,
+      "notion_ack_from_engine": false
+    },
+    "simio_parent": {
+      "id": "f42c2b324ede82f1a62c81d6274d7d37",
+      "sha256": "7984efb769402cb26a1078e62e6b5913e61577bc503c30d74aa9aa0193654a7b",
+      "edited_at": "2026-10-01T18:00:41.676Z",
+      "url": "https://app.notion.com/p/f42c2b324ede82f1a62c81d6274d7d37",
+      "hash_scope": "SHA256 UTF8 exact inner <content> markdown text from Notion fetch; NOT attachment/media/full-page freeze",
+      "R07_reopened_and_digest_recomputed": true,
+      "SHA_matches_R04": true,
+      "notion_ack_from_engine": false
+    },
+    "combat": {
+      "id": "3ebc2b324ede81f1be4be8804ac113c0",
+      "sha256": "56a0e4242919ce3364ce42d313e8d648c5289863160ea6dcf69b21f954b80b18",
+      "edited_at": "2026-10-07T23:51:04.971Z",
+      "url": "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0",
+      "hash_scope": "SHA256 UTF8 exact inner <content> markdown text from Notion fetch; NOT attachment/media/full-page freeze",
+      "R07_reopened_and_digest_recomputed": true,
+      "SHA_matches_R04": true,
+      "notion_ack_from_engine": false
+    },
+    "beast": {
+      "id": "3ebc2b324ede81f4992ac88a3588cacd",
+      "sha256": "8be7b7f6ce778cb05249855648956fb29018634d1c444a16dc548e89fef42536",
+      "edited_at": "2026-10-07T20:58:56.199Z",
+      "url": "https://app.notion.com/p/3ebc2b324ede81f4992ac88a3588cacd",
+      "hash_scope": "SHA256 UTF8 exact inner <content> markdown text from Notion fetch; NOT attachment/media/full-page freeze",
+      "R07_reopened_and_digest_recomputed": true,
+      "SHA_matches_R04": true,
+      "notion_ack_from_engine": false
+    },
+    "magic": {
+      "id": "3ebc2b324ede81f7b343f7270ff91373",
+      "sha256": "85964f6047eda0455be913aab682ed9cb7b793ca7eb727bf5cb63861811d3839",
+      "edited_at": "2026-10-07T23:51:07.044Z",
+      "url": "https://app.notion.com/p/3ebc2b324ede81f7b343f7270ff91373",
+      "hash_scope": "SHA256 UTF8 exact inner <content> markdown text from Notion fetch; NOT attachment/media/full-page freeze",
+      "R07_reopened_and_digest_recomputed": true,
+      "SHA_matches_R04": true,
+      "notion_ack_from_engine": false
+    },
+    "dmg_rank": {
+      "id": "3f2c2b324ede815498cddb7844245f7e",
+      "sha256": "290f00cb726e3270c304788ea4f257c56ed92ea2dbf8160ee5ecc8b6092092d3",
+      "edited_at": "2026-10-08T00:01:28.857Z",
+      "url": "https://app.notion.com/p/3f2c2b324ede815498cddb7844245f7e",
+      "hash_scope": "SHA256 UTF8 exact inner <content> markdown text from Notion fetch; NOT attachment/media/full-page freeze",
+      "R07_reopened_and_digest_recomputed": true,
+      "SHA_matches_R04": true,
+      "notion_ack_from_engine": false
+    },
+    "transform": {
+      "id": "3f2c2b324ede81c0ae0ee4e66212edc9",
+      "sha256": "27d43c6c8dfae2adf4783cba45774b51431ba422a2789c9d685baf1776f1e36c",
+      "edited_at": "2026-10-08T14:26:21.578Z",
+      "url": "https://app.notion.com/p/3f2c2b324ede81c0ae0ee4e66212edc9",
+      "hash_scope": "SHA256 UTF8 exact inner <content> markdown text from Notion fetch; NOT attachment/media/full-page freeze",
+      "R07_reopened_and_digest_recomputed": true,
+      "SHA_matches_R04": true,
+      "notion_ack_from_engine": false
+    }
+  },
+  "routing": {
+    "source_inbox_id": "IBX-34",
+    "source_inbox_url": "https://app.notion.com/p/3f3c2b324ede81fb8f6cf31d58f5e605",
+    "current_dest_comestre_id": "CM-000001",
+    "actual_lab_recipient_comestre_id": null,
+    "actual_lab_recipient_instance_id": null,
+    "lab_ACK": null,
+    "engineering_ACCEPT_PEND_REJECT": null,
+    "coordination_will_assign": true,
+    "cannot_mark_read_for_other_instance": true
+  },
+  "stage10_verified_read_only": {
+    "library_zip": "VLAB_FUSAO_EXPERIMENTAL_STAGE_10.zip",
+    "sha256": "77b1d2e973f4c2cddf5741c74f9263a0c652885201571d645a5b799095a26979",
+    "zip_members": 689,
+    "crc": "PASS",
+    "static_contract_assertions": "24/24",
+    "static_crosswalk": "DMG-F1-R07B-CROSSWALK-STAGE10-v01.json",
+    "source_guard_liu_macaco": false,
+    "strict_runtime_approved": false
+  },
+  "real_engineering_status": {
+    "latest_documented": "Stage10 experimental complete; Stage11 REGISTRAR ANTES / no Stage11 executed certification observed",
+    "engine_source": "https://app.notion.com/p/3f3c2b324ede819496ddd7f93bd7e5d2",
+    "Stage10_reconstructed_tests_reported": "411/411 (Lab documentation; not reexecuted by scientist)",
+    "authentic_v09_binary": false,
+    "original_v09_parity": "0/17",
+    "canonical_full_fights": 0,
+    "actual_liu_macaco_run": false
+  },
+  "scientific_source_status": {
+    "eight_reopened_text_hashes_match_R04": true,
+    "frozen_lab_rule_evidence_accepted": false,
+    "notion_meta_full_page_freeze": false,
+    "images_and_binary_hashes_not_in_R07_sha": true
+  },
+  "attack_literal": {
+    "actor_source": "301c2b324ede828caccb813d3979267a",
+    "ability_name": "Patada",
+    "effect_as_written": "2d6 + força impacto",
+    "source_rank": "Prata 5 (2d6)",
+    "attack_roll_rule": "dados da classificação + atributo de Luta + Luta efetiva",
+    "attacking_stat_choice": "FOR conditional to source",
+    "defense": "CA46; or DODGE displayed 49 if legit reaction; or DEFEND = 37 + Fortitude unknown",
+    "critical": "sequential 3d6; main vector (2,3,4) ordinary",
+    "action_type": "Standard assumed for normal attack only when rule applicable",
+    "range": null,
+    "line_of_sight": null,
+    "PA_cost": null,
+    "effective_Luta": null,
+    "reaction_state": null,
+    "source_effect_classification": "PHYSICAL/CONTUNDENTE-IMPACTO"
+  },
+  "expected_oracles": {
+    "A_literal": {
+      "FOR": 54,
+      "branch_canonical_status": "LITERAL_SOURCE_NOT_FINAL_EFF",
+      "defense_CA46": {
+        "attack_total": 61,
+        "hit_conditional": true,
+        "gross_if_hit": 62,
+        "net_if_hit": null
+      },
+      "defense_DODGE49_only_if_reaction_legal": {
+        "attack_total": 61,
+        "hit_conditional": true,
+        "gross_if_hit": 62,
+        "net_if_hit": null
+      },
+      "defense_DODGE95_REJECT": "THIS IS A DOUBLE-COUNTING DEFENSE, NEVER FEED TO ENGINE",
+      "if_RDF10_safely_adjudicated": {
+        "attack_total": 61,
+        "hit_conditional": true,
+        "gross_if_hit": 62,
+        "net_if_hit": 52
+      },
+      "if_RDF_not_applied": {
+        "attack_total": 61,
+        "hit_conditional": true,
+        "gross_if_hit": 62,
+        "net_if_hit": 62
+      },
+      "unconditional_damage_applied": null,
+      "runtime_hit_event": null
+    },
+    "B_hypothetical": {
+      "FOR": 56,
+      "branch_canonical_status": "HYPOTHETICAL_ONLY",
+      "defense_CA46": {
+        "attack_total": 63,
+        "hit_conditional": true,
+        "gross_if_hit": 64,
+        "net_if_hit": null
+      },
+      "defense_DODGE49_only_if_reaction_legal": {
+        "attack_total": 63,
+        "hit_conditional": true,
+        "gross_if_hit": 64,
+        "net_if_hit": null
+      },
+      "defense_DODGE95_REJECT": "THIS IS A DOUBLE-COUNTING DEFENSE, NEVER FEED TO ENGINE",
+      "if_RDF10_safely_adjudicated": {
+        "attack_total": 63,
+        "hit_conditional": true,
+        "gross_if_hit": 64,
+        "net_if_hit": 54
+      },
+      "if_RDF_not_applied": {
+        "attack_total": 63,
+        "hit_conditional": true,
+        "gross_if_hit": 64,
+        "net_if_hit": 64
+      },
+      "unconditional_damage_applied": null,
+      "runtime_hit_event": null
+    }
+  },
+  "STAGE10_ACTUAL_RUNTIME_INTERLOCKS": {
+    "action_catalog": "AbilitySource required_pa:int default 0 (do NOT coerce unknown PA to 0), ActorActionState, FrozenRuleEvidence",
+    "combatant_dodge": "reflex is MODIFIER; displayed Liu dodge49 -> effective delta 3 if no other state; DO NOT pass 49 into reflex",
+    "defender": "6+CON16+armor15+Fortitude unknown",
+    "defense_interlock": "execute_attack_with_defense requires DEFENDER or ESQUIVAR, trigger BEFORE-ATTACK; passive CA uses separate path",
+    "attack_payload_keys": [
+      "roll_score",
+      "damage",
+      "damage_tag",
+      "rd"
+    ],
+    "rd_shape": "Resistances(general,specific) no authorized RDF family mapping",
+    "strict_compile": "STRICT_AUDITED_SOURCES_AND_NAC_PASS_NOT_AVAILABLE",
+    "strict_execute_turn": "STRICT_SOURCE_FROZEN_BATTLE_ENGINE_NOT_APPROVED",
+    "strict_attack_reaction": "STRICT_REACTION_SOURCE_NAC_PASS_HOLD",
+    "strict_resources": "STRICT_CURRENT_ATTESTED_SOURCES_MISSING",
+    "status": "STRICT_REJECT_UNCONDITIONAL_IN_STAGE10_SOURCE_WITHOUT_CODE_CHANGE"
+  },
+  "CURRENT_STRICT_PRECHECK": {
+    "decision": "DENY",
+    "reasons": [
+      "ENGINE_FROZEN_SOURCE_NOT_ACCEPTED",
+      "LAB_INSTANCE_NOT_ACKED",
+      "LINE_OF_SIGHT_NOT_PROVEN",
+      "MISSING_OR_UNKNOWN:actor_snapshot_status",
+      "MISSING_OR_UNKNOWN:actual_FOR_master_adjudicated",
+      "MISSING_OR_UNKNOWN:attacker_position",
+      "MISSING_OR_UNKNOWN:critical_rule_version",
+      "MISSING_OR_UNKNOWN:deterministic_rng_seed",
+      "MISSING_OR_UNKNOWN:effective_Luta_bonus",
+      "MISSING_OR_UNKNOWN:end_condition_authority",
+      "MISSING_OR_UNKNOWN:engine_lineage",
+      "MISSING_OR_UNKNOWN:lab_ack_instance_id",
+      "MISSING_OR_UNKNOWN:line_of_sight",
+      "MISSING_OR_UNKNOWN:liu_PA_free",
+      "MISSING_OR_UNKNOWN:location_map",
+      "MISSING_OR_UNKNOWN:macaco_PA_free",
+      "MISSING_OR_UNKNOWN:macaco_life_alma_choice",
+      "MISSING_OR_UNKNOWN:patada_PA_cost",
+      "MISSING_OR_UNKNOWN:patada_reach",
+      "MISSING_OR_UNKNOWN:per_roll_streams",
+      "MISSING_OR_UNKNOWN:rdf_impact_coverage_authority",
+      "MISSING_OR_UNKNOWN:rdf_stacking_rule",
+      "MISSING_OR_UNKNOWN:reaction_available",
+      "MISSING_OR_UNKNOWN:reaction_choice",
+      "MISSING_OR_UNKNOWN:reaction_window",
+      "MISSING_OR_UNKNOWN:source_current_authority",
+      "MISSING_OR_UNKNOWN:standard_action_available",
+      "MISSING_OR_UNKNOWN:starting_HP_MACACO",
+      "MISSING_OR_UNKNOWN:target_position",
+      "MISSING_OR_UNKNOWN:turn_started",
+      "STANDARD_ACTION_NOT_PROVEN_READY",
+      "TURN_NOT_STARTED"
+    ],
+    "side_effects": "NONE_PURE_FUNCTION"
+  },
+  "acceptance_levels": {
+    "MATH_ONLY": "R04/R05 independently validated conditional rolls",
+    "HIT_ONLY": "Conditional only; actual actor context and Lab runtime not certified",
+    "DAMAGE_RESOLUTION": "Conditional only; RDF applicability and hit must be competent",
+    "ACTION_RUNTIME": "NOT_EXECUTED_LIU_MACACO",
+    "FULL_FIGHT": "BLOCKED_0_OF_2"
+  },
+  "lab_response_contract": [
+    "COMESTRE-ID/INSTANCE-ID/Assignment and physical Inbox ACK",
+    "ACCEPT/PENDING/REJECT with technical reasons",
+    "Stage10 experimental ZIP vs v0.9 lost binary lineage + commit/SHA; Stage11 pending",
+    "exact input fields imported from scientific fixture and missing-field validation",
+    "strict preflight per field and source digest accepted by engineering",
+    "initial actors/scene/geometry/PA/skills and authoritative branch choice",
+    "seed and per-event dice for initiative/attack/critical/damage",
+    "defense choice and reaction reservation/commit (single spend)",
+    "RDF coverage and mitigation by component, no undefined stacking",
+    "event journal (prev+next state, source refs, roll trace, hash)",
+    "replay independent output compared to expected R04/R05 values",
+    "which original B01..B18 gate fully substantiated; independent NAC-PASS when due"
+  ],
+  "explicit_reject_reasons_not_engine_enums": "UNKNOWN data is not zero; missing actor scene must not be substituted with a fictional one",
+  "no_new_rule": true,
+  "no_ledger_write": true,
+  "no_party_write": true,
+  "no_full_fight_claim": true
+}

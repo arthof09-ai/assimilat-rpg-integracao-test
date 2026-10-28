@@ -1,0 +1,31 @@
+{
+  "byte_equal": true,
+  "bytes": 15193938,
+  "checks": [
+    "R21 returned bytes = local ZIP",
+    "SHA full archive",
+    "CRC",
+    "R21 hash manifest 2266/2266",
+    "R20 parent member hashes 2243/2243"
+  ],
+  "classification": "MESTRE_ONLY/LAB_NON_CANON",
+  "clean_regression": "35/35 PASS",
+  "date_utc": "2026-10-14T17:03:38.280120+00:00",
+  "hashes_verified": 2266,
+  "human_UAT": "PENDING",
+  "id": "VLAB-R21-POST-UPLOAD-READBACK-MASTER-ONLY",
+  "launcher_http_smoke": "PASS",
+  "library_file_id": "libfile_caf496c154d48191aa87366d2c27bdce",
+  "library_file_id_original": "file_00000000f76481f59bbc24498493ebbb",
+  "library_path": "/Comestre/OP-VLAB-FUSION-SANDBOX-01/VLAB_STAGE12_A1A2A3_DYNAMIC_A1_R21_SANDBOX.zip",
+  "library_readback_sha256": "6bd70d89d42ef7a2fba898db853fcbf6e612e179be2b854fd36ae824d4bf533a",
+  "notion_changes": 0,
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "parent_r20_members_byte_identical": 2243,
+  "scope": "A1_SERIAL_ROUND_TURN_CONTROL_ONLY; v0.8.1_NATIVE_EFFECTS_SINGLE_EXECUTOR",
+  "terminal_contracts": "0/17",
+  "writer_lease_epoch_fencing_green": "HOLD",
+  "zip_crc": "PASS",
+  "zip_entries": 2267,
+  "zip_sha256": "6bd70d89d42ef7a2fba898db853fcbf6e612e179be2b854fd36ae824d4bf533a"
+}

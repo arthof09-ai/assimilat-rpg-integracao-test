@@ -1,0 +1,16 @@
+{
+  "status": "PASS_R197_COLD_PORTABLE_RECOVERY",
+  "zip_sha256": "6b63f53ea35627f390feee8b695380ee9ea1bba8654c5ca2e0e4447219029602",
+  "manifest_pass": 21,
+  "baseline_r196_sha256": "7dc3a95aafa7dfc4db6ae0d99f7c0474e630ea86f0f70dff4112abf771403786",
+  "profiles": 9,
+  "r197_new_tests": 24,
+  "legacy_validator_tests": 9,
+  "semantic_forgery_rejected": 7,
+  "new_fights": 0,
+  "official_contracts": 0,
+  "official_benchmarks": 0,
+  "writer_verified": false,
+  "human_external_audit": false,
+  "note": "Pure offline source+math audit; does not rerun historical fights."
+}

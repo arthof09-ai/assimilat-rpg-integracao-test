@@ -1,0 +1,63 @@
+{
+  "action_dispatch": "DENY",
+  "action_id": "GAL_PATADA",
+  "action_source_literal": "Patada: 1d4 + destreza cortante",
+  "actor_id": "GaliDemus physical source; runtime actor UUID missing",
+  "actor_rank": "Bronze 1",
+  "actor_snapshot": null,
+  "actor_type": "Besta Demoníaca",
+  "allowed_for_full_fight": false,
+  "allowed_for_intrinsic_math": true,
+  "damage_components": [
+    {
+      "conditional_math_only_bruto_dme": 15.5,
+      "damage_tag": "cortante",
+      "dice": "1d4",
+      "external_attribute": "DES",
+      "intrinsic_dme": 2.5,
+      "mitigated": false,
+      "printed_value": 13
+    }
+  ],
+  "five_gates": {
+    "declaration": "PENDING_SCENE",
+    "mechanical_completeness": "INCOMPLETE",
+    "native_resolver": "UNSUPPORTED_UNVERIFIED",
+    "source_authority": "DOCUMENTARY_MATH_ONLY",
+    "transactional_security": "NOT_EVALUATED_BY_DMG"
+  },
+  "form_id": "documentary-Bronze1-not-scene",
+  "ibx": "IBX-90 pre-existing; no ACK, not sent this run",
+  "known_actor_fields": {
+    "DES_display": 13,
+    "alma_display": 32,
+    "ca_display": 21,
+    "vida_display": 32
+  },
+  "missing": [
+    "scene_epoch_actor_instance",
+    "current_equipment_status",
+    "action_economy_specific",
+    "cost_or_authoritative_omission_rule",
+    "range_or_adjacent_geometry",
+    "Luta proficiency",
+    "hit_roll_and_defense_reaction",
+    "target_RD_resistance",
+    "native_vlab_specific_action_adapter",
+    "official_snapshot_digest",
+    "transactional_acceptance_receipt"
+  ],
+  "mode": "DOCUMENTARY_PROPOSAL_NO_DISPATCH",
+  "no_fake_evidence": "Not a combat; native VLAB R23 baseline attack is fictional 1d6 and cannot silently stand for 1d4+DES",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "pilot_id": "DMG-GALIDEMUS-BRONZE1-001",
+  "scene_id": null,
+  "schema": "DMG-F0-F6-LOTE002-PREFLIGHT-B1-v1",
+  "source_digest": null,
+  "source_document_last_edited_at": "2026-10-01T18:00:52.905Z",
+  "source_excerpt_hash_only": "3801429ba26791487be62598752eab4ef9c6992cf06316f087ecd48d81f63151",
+  "source_freeze_status": "SOURCE_EXCERPT_ONLY_NOT_NATIVE_SOURCE_DIGEST",
+  "source_id": "eddc2b324ede829f8a75011e8acbf429",
+  "source_url": "https://app.notion.com/p/eddc2b324ede829f8a75011e8acbf429",
+  "target_consumer": "VLAB R23 BENCHMARK_AUTO; native adapter confirmation PENDING"
+}

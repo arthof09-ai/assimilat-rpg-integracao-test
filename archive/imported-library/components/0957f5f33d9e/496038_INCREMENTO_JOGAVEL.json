@@ -1,0 +1,35 @@
+{
+  "contract_kind": "DRAFT_NOT_CANONICAL",
+  "origin_video_id": "496038",
+  "canonical_mechanics": "VLAB_ONLY_IF_AUTHORIZED",
+  "phase": "TEST_EXPERIMENTAL",
+  "required_authority": "Desenvolvedor writer e VLAB competente para efeitos reais",
+  "design": {
+    "aim": "micro-entregas jogáveis com server-authoritative receipt",
+    "phases": [
+      "select_unit",
+      "select_action",
+      "select_target",
+      "server_authorize",
+      "mechanical_vlab",
+      "durable_receipt",
+      "role_projection",
+      "render_result"
+    ],
+    "prohibits": [
+      "client_mechanics",
+      "paid_platform_lockin",
+      "duplicate_backend"
+    ],
+    "gates": [
+      "SERVER_AUTH_HOLD",
+      "VLAB_ABI_HOLD",
+      "ANDROID_HOLD"
+    ],
+    "accept": [
+      "proof_per_phase",
+      "no_phase_is_passed_by_docs_only",
+      "no_silent_replay"
+    ]
+  }
+}

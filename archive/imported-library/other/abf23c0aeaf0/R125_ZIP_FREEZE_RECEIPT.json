@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "zip": "/mnt/data/VLAB_R118_R125_REACOES_SCHEDULER_ESCALA_MESTRE_ONLY.zip",
+  "size_bytes": 11965498,
+  "sha256": "5368fb31d176e8f52bb0bac01efa5a2f657a9cebb83af7c1cf4e22a5dcbf53b1",
+  "members": 243,
+  "manifest_verified_files": 242,
+  "crc": "PASS",
+  "manifest_file": "SHA256_FILE_MANIFEST_R125.json",
+  "historical_R117_sha256": "e57461df692818db820cf96a825a36d1ee4b5c11b19afaae1c835716c06ed2a8",
+  "reader_note": "Archive fresh creation; no runner invoked or historical DB overwritten",
+  "terminal_17": 0
+}

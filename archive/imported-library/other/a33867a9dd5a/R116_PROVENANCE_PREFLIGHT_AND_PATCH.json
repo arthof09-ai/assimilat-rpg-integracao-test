@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "legacy_file_source": "/mnt/data/vlab_succession/r61_extracted/work/working/historical_v081_verified_original/comestre_vlab/vlab_effects_v08.py",
+  "original_sha256": "066ffe9636d07e09b192695cff94df21a1116d4e391452805bf13f37af440d29",
+  "corrected_sha256": "ea998d23b5de67169e3ab9b6d9f68ec7588145722cd80aee69379566d1a06904",
+  "only_modified_python_file": [
+    "vlab_effects_v08.py"
+  ],
+  "diff_sha256": "7f66706a02b06ad09b9c3a37912a4b459ea16259db16f454098bbd27940334ff",
+  "patch_script_replays_exactly": true,
+  "pre_intent_negative_cases": 9,
+  "cases": [
+    {
+      "case": "odd_half",
+      "status": "PASS_PRE_INTENT_REJECTED",
+      "error": "ODD_HALF_ROUNDING_PRE_INTENT",
+      "state_unchanged": true,
+      "db_touched": false
+    },
+    {
+      "case": "PA_insufficient",
+      "status": "PASS_PRE_INTENT_REJECTED",
+      "error": "SLOT_OR_PA_PRE_INTENT",
+      "state_unchanged": true,
+      "db_touched": false
+    },
+    {
+      "case": "slot_spent",
+      "status": "PASS_PRE_INTENT_REJECTED",
+      "error": "SLOT_OR_PA_PRE_INTENT",
+      "state_unchanged": true,
+      "db_touched": false
+    },
+    {
+      "case": "special_already_used",
+      "status": "PASS_PRE_INTENT_REJECTED",
+      "error": "PREREG_ONE_OPENING_SPECIAL_PRE_INTENT",
+      "state_unchanged": true,
+      "db_touched": false
+    },
+    {
+      "case": "wrong_target",
+      "status": "PASS_PRE_INTENT_REJECTED",
+      "error": "WRONG_SPELL_ACTOR",
+      "state_unchanged": true,
+      "db_touched": false
+    },
+    {
+      "case": "wrong_actor",
+      "status": "PASS_PRE_INTENT_REJECTED",
+      "error": "WRONG_SPELL_ACTOR",
+      "state_unchanged": true,
+      "db_touched": false
+    },
+    {
+      "case": "negative_critical_failure",
+      "status": "PASS_PRE_INTENT_REJECTED",
+      "error": "CRITICAL_FAILURE_CONSEQUENCE_UNRESOLVED_BEFORE_INTENT",
+      "state_unchanged": true,
+      "db_touched": false
+    },
+    {
+      "case": "false_final_effort",
+      "status": "PASS_PRE_INTENT_REJECTED",
+      "error": "FINAL_EFFORT_GATE_NO_INTENT",
+      "state_unchanged": true,
+      "db_touched": false
+    },
+    {
+      "case": "unknown_command",
+      "status": "PASS_PRE_INTENT_REJECTED",
+      "error": "UNRECOGNIZED_COMMAND",
+      "state_unchanged": true,
+      "db_touched": false
+    }
+  ],
+  "unknown_effect_replayed": false,
+  "canonical_writes": 0
+}

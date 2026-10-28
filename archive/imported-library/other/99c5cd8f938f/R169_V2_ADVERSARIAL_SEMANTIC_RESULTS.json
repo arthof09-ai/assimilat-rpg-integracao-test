@@ -1,0 +1,33 @@
+{
+  "status": "PASS_2_OF_2_STRUCTURALLY_VALID_TAMPERS_REJECTED",
+  "adversarial_copies": [
+    {
+      "type": "FAKE_HP_LOSS",
+      "copied_db": "R169_V2_FAKE_HP_LOSS_R166_V2_CASULO_AOO_KO_DEV_S1205088.sqlite",
+      "original_db": "R166_V2_CASULO_AOO_KO_DEV_S1205088.sqlite",
+      "original_sha256": "496fdf41b859fcdd6541e46d930f06969d662702a6b80078b377935d2ec44ff3",
+      "redteam_sha256": "5de0914c22e2a8fbbe0c2a9753f59ba77d858f62e7c0293a4735cc6b6e4ed5db",
+      "sqlite_integrity": "ok",
+      "R18_row_SHA_recalculated": true,
+      "independent_cold_auditor": "REJECTED_SEMANTIC_TAMPER",
+      "error_excerpt": ""
+    },
+    {
+      "type": "FAKE_EXPIRY",
+      "copied_db": "R169_V2_FAKE_EXPIRY_R165_FLECHA_TURN_EXPLICIT_V3_DEV_S1185114.sqlite",
+      "original_db": "R165_FLECHA_TURN_EXPLICIT_V3_DEV_S1185114.sqlite",
+      "original_sha256": "32e79d21c75e01ab6c6a0abb672f1d49fdb0a1a363bd5f926362f56e68c0444c",
+      "redteam_sha256": "461cd224375ded862432c303b02f3abb713b9ce8f3eda86e37e0f04fd1264e0c",
+      "sqlite_integrity": "ok",
+      "R18_row_SHA_recalculated": true,
+      "independent_cold_auditor": "REJECTED_SEMANTIC_TAMPER",
+      "error_excerpt": ""
+    }
+  ],
+  "originals_modified": false,
+  "contracts": [
+    "RNG_REPLAY_STATISTICS",
+    "TURN_SCHEDULER_EVENT_SOURCING",
+    "BLEED_AND_HEAL_RESTRICTIONS"
+  ]
+}

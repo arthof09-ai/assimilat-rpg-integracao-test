@@ -1,0 +1,19 @@
+{
+  "status": "PASS_LIBRARY_C19_BYTE_READBACK",
+  "zip_crc": "PASS",
+  "manifest_checks": "7/7",
+  "files": [
+    {
+      "name": "DMG_C19_CHASSIS_RANK_EMPIRICO_20261020_MESTRE_ONLY.zip",
+      "bytes": 15015,
+      "bytes_match": true,
+      "sha256": "bab796d5144c5c5140f6812b28b313ca3d354f13136faee0de737ef3e4e8b627"
+    },
+    {
+      "name": "PSV_DMG_C19_MESTRE_ONLY.md",
+      "bytes": 14327,
+      "bytes_match": true,
+      "sha256": "f8091d9c95b1247b658fe8be429c6622d4ec42004241412005cfe79989db8e86"
+    }
+  ]
+}

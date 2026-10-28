@@ -1,0 +1,11 @@
+{
+  "zip_name": "VLAB_R126_R137_PA_REACAO_AOO_CURA_MESTRE_ONLY.zip",
+  "zip_size": 12863376,
+  "sha256": "cb616e562970e9fb6e8e08465cdf1fbbf4070d85f99c0000ea8f0756f7b8371e",
+  "zip_entries": 334,
+  "manifest_verified": 333,
+  "zip_crc_pass": true,
+  "baseline_r125_byte_exact": true,
+  "research_17_original_certifications": 0,
+  "official_power_cells": 0
+}

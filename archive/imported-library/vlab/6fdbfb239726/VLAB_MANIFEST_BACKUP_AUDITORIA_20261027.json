@@ -1,0 +1,52 @@
+{
+  "kind": "VLAB_LIBRARY_BACKUP_RECON_2026_10_27",
+  "notes": [
+    "CRC PASS does not imply inner manifest PASS",
+    "Original files never altered",
+    "No Google Drive ZIP upload verified yet",
+    "The requested Claude R205 is historical; R326 contains newer source but has three inner digest mismatches"
+  ],
+  "packages": [
+    {
+      "file": "VLAB_CODIGO_MAE_R325_COMPLETO.zip",
+      "size_bytes": 15836459,
+      "sha256": "a322ff311199643e1230b7e1cd3ea31445e1c3155615235df047a928ca58f502",
+      "zip_entries": 99,
+      "zip_crc": "PASS",
+      "manifest_entries": 98,
+      "manifest_verified": 98,
+      "manifest_mismatch": []
+    },
+    {
+      "file": "VLAB_CODIGO_MAE_R326_COMPLETO.zip",
+      "size_bytes": 15951561,
+      "sha256": "420fa4c9f084df449e68075e30fec50ad392bfe041070433b9a4feaf4daf17d5",
+      "zip_entries": 109,
+      "zip_crc": "PASS",
+      "manifest_entries": 98,
+      "manifest_verified": 95,
+      "manifest_mismatch": [
+        "README_MESTRE_ONLY.md",
+        "index.html",
+        "manifest.json"
+      ]
+    },
+    {
+      "file": "VLAB_R205_DEFESA_DE_VENTO_ANEL_CLASSIFICADO_MESTRE_ONLY.zip",
+      "size_bytes": 20800905,
+      "sha256": "62a9851b3a5ae7919b9225d9379a3d32c8736448e76bfcea4729dcbfe933cead",
+      "zip_entries": 59,
+      "zip_crc": "PASS"
+    },
+    {
+      "file": "VLAB_R326_RECUPERACAO_HASH_E_FULLFIGHT_TEST_MESTRE_ONLY.zip",
+      "size_bytes": 47695,
+      "sha256": "20d9a0959835377ee2ceaccc05662cd227c2c7efe844a32c815bbf4b3921c6aa",
+      "zip_entries": 13,
+      "zip_crc": "PASS",
+      "manifest_entries": 12,
+      "manifest_verified": 12,
+      "manifest_mismatch": []
+    }
+  ]
+}

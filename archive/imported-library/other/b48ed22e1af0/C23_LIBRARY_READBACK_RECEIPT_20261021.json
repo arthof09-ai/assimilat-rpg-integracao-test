@@ -1,0 +1,32 @@
+{
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "cycle": "C23",
+  "timestamp_label": "2026-10-21",
+  "library_folder": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "files": [
+    {
+      "name": "DMG_C23_DOSSIE_FORENSE_CORPUS_140_FONTES_MESTRE_ONLY.zip",
+      "size_bytes": 103596,
+      "sha256": "73a2c83ea952cfa4d321a7dc678c41f2ff0563a11b991cecc4fde8c542ff129f",
+      "library_readback_match": true
+    },
+    {
+      "name": "PSV_DMG_C23_MESTRE_ONLY.md",
+      "size_bytes": 16888,
+      "sha256": "c4fe9d3d01e3c6f46797ab45eaefb253b21af5f9b8a5f78832cbee60ba7f2bdc",
+      "library_readback_match": true
+    },
+    {
+      "name": "C23_DECISION_REPORT_MESTRE_ONLY.md",
+      "size_bytes": 7198,
+      "sha256": "a0b6052e4f1d7826b85e02225c83e8202b5bedcf7943a0b04e635842f9a26bfb",
+      "library_readback_match": true
+    }
+  ],
+  "manifest_payload_verified": 23,
+  "zip_crc_pass": true,
+  "local_scientific_pass": "14/14 portable generated datasets; 76/76 mathematical assertions",
+  "limitation": "Documentary extraction manual same agent; not independent second coder; no canon or Inbox writes",
+  "NAC_PASS_GLOBAL": "HOLD",
+  "production": "HOLD"
+}

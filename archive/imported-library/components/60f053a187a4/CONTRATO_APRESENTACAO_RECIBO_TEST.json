@@ -1,0 +1,41 @@
+{
+  "name": "Assimilacao.Candidate.TestBattleReceiptPresentation",
+  "scope": "TEST_CLIENT_PRESENTATION_ONLY",
+  "authoritative_source_required": "AUTHORIZED_VLAB_RECEIPT",
+  "room_role_filter_required": "SERVER_SIDE_ALLOWLIST_BEFORE_TRANSMISSION",
+  "never_infer_mechanics": [
+    "Vida",
+    "Alma",
+    "PA",
+    "dano",
+    "iniciativa",
+    "condicao",
+    "magia"
+  ],
+  "statuses": [
+    "ACCEPTED",
+    "REJECTED",
+    "UNKNOWN"
+  ],
+  "unknown_protocol": "KEEP SAME commandId; query the durable receipt; never create new action automatically",
+  "fields": [
+    "schema_version",
+    "room_id",
+    "command_id",
+    "actor_id",
+    "target_id",
+    "action_type",
+    "event_revision",
+    "receipt_id",
+    "status",
+    "server_authored_projection"
+  ],
+  "trust_boundary": "ALL TEST FIXTURES IN HTML ARE NOT SERVER AUTHORED",
+  "ui_acceptance": [
+    "Accepted only from authorized receipt",
+    "Rejected shows no mechanical effect",
+    "Unknown shows reconciliation needed",
+    "Resources never computed on client",
+    "Private Mestre-only fields excluded at server"
+  ]
+}

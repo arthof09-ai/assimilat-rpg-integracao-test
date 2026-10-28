@@ -1,0 +1,22 @@
+# VLAB R23 — INSTRUÇÕES PARA O MESTRE (CHATGPT PELO CELULAR)
+
+A prioridade desta versão é BENCHMARK_AUTO. O Mestre não precisa controlar ataques, usar computador, Python ou Termux.
+
+Exemplos de pedido no chat do Projeto Comestre:
+- "Comestre, execute o benchmark automático Bronze 1 fictício, comparando ataque básico e DEFENDER em oito sementes."
+- "Compare o impacto de aumentar apenas o bônus fictício de dano em três pontos, com mesmas sementes e políticas."
+- "Reproduza o run_id e me mostre a trilha de rolagens e efeitos." 
+
+O Comestre recupera a versão R23 da Biblioteca, usa sua ferramenta de execução para rodar INICIAR_VLAB_BENCHMARK_R23.py, apresenta resultados e grava novos checkpoints no destino autorizado. Em outras conversas, recuperar o pacote antes de prosseguir; não confiar em caminho temporário.
+
+**Limitação essencial:** os testes atuais usam apenas combatentes FICTÍCIOS Bronze 1, 1×1, ataque básico e DEFENDER zero PA, com A1 apenas para turnos. Isso não é um ensaio válido da força de uma Besta oficial nem de RI/FIP de arma. O executor recusa fonte real marcada como canônica sem contrato completo. Em pedido real (por exemplo Besta Prata3), consultar o DMG e informar ausência de fonte apta, sem inventar luta.
+
+## Para o operador técnico Comestre (não para o Mestre)
+Modo automático inicial:
+`python INICIAR_VLAB_BENCHMARK_R23.py batch --root ./meus_benchmarks --spec R23_BENCHMARK_TECH_SPEC.json`
+Reproduzir uma luta:
+`python INICIAR_VLAB_BENCHMARK_R23.py replay --root ./meus_benchmarks --spec R23_BENCHMARK_TECH_SPEC.json --policy BASIC_ATTACK --seed 11`
+Sensibilidade pareada fictícia:
+`python INICIAR_VLAB_BENCHMARK_R23.py sensitivity --root ./sensibilidade --spec R23_SENSITIVITY_BASELINE_SPEC.json --variant-spec R23_SENSITIVITY_PLUS3_SPEC.json`
+
+Sempre consultar os registros `BENCHMARK_SPEC_FROZEN.json`, `BENCHMARK_AGGREGATE.json`, `FINAL_RUN_RECORD.json` e `checkpoints/*.zip`. Nenhuma repetição de efeito incerto: usar HOLD. O programa trabalha no estado SQLite isolado e não acessa Notion. Uma execução no sandbox não sincroniza automaticamente entre chats.

@@ -1,0 +1,18 @@
+{
+  "zip": "/mnt/data/levelup_recovery/IBX114_SUCESSOR_R216P12_MESTRE_CORRIGIDO_20261021_MESTRE_ONLY.zip",
+  "zip_sha256": "619fe210a2e8469df59f7db001220c97309cae79054b7574284a5047c633e4de",
+  "cold_dir": "/mnt/data/ibx114_p12_cold_ld07socd",
+  "manifest_verified_files": 370,
+  "zip_entry_count": 371,
+  "zip_crc_pass": true,
+  "full_regression_returncode": 0,
+  "full_regression_log": "----------------------------------------------------------------------\nRan 2026 tests in 44.594s\n\nOK",
+  "elapsed_s": 46.15,
+  "pdf_pages": {
+    "orc_book": 26,
+    "transformed_book": 21,
+    "equip_codex": 81
+  },
+  "pdf_level_pages_ok": 25,
+  "pdf_transform_pages_ok": 20
+}

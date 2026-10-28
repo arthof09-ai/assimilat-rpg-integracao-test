@@ -25,31 +25,34 @@ def main():
     counts = {'original_files': 0, 'original_bytes': 0, 'unique_zip_objects': 0,
               'zip_members_crc_verified': 0, 'split_archives': 0, 'existing_bridge_archives': 0}
 
-    def verify_zip(data, depth=0):
-        h = digest(data)
-        if h in seen:
-            return
-        seen.add(h)
-        if depth > 12:
-            raise ValueError('ZIP nesting limit')
-        with zipfile.ZipFile(io.BytesIO(data)) as archive:
-            members = archive.infolist()
-            names = [m.filename for m in members]
-            if len(names) != len(set(names)):
-                raise ValueError('duplicate ZIP member')
-            if sum(m.file_size for m in members) > 512 * 1024 * 1024:
-                raise ValueError('ZIP expansion limit')
-            counts['unique_zip_objects'] += 1
-            for member in members:
-                safe_name(member.filename)
-                if member.is_dir():
-                    continue
-                if member.file_size > 128 * 1024 * 1024:
-                    raise ValueError('ZIP member size limit')
-                payload = archive.read(member)  # zipfile validates CRC on complete read.
-                counts['zip_members_crc_verified'] += 1
-                if member.filename.lower().endswith('.zip'):
-                    verify_zip(payload, depth + 1)
+    def verify_zip(data):
+        pending = [data]
+        while pending:
+            payload = pending.pop()
+            h = digest(payload)
+            if h in seen:
+                continue
+            seen.add(h)
+            if len(seen) > 500000:
+                raise ValueError('unique ZIP object budget')
+            with zipfile.ZipFile(io.BytesIO(payload)) as archive:
+                members = archive.infolist()
+                names = [m.filename for m in members]
+                if len(names) != len(set(names)):
+                    raise ValueError('duplicate ZIP member')
+                if sum(m.file_size for m in members) > 512 * 1024 * 1024:
+                    raise ValueError('ZIP expansion limit')
+                counts['unique_zip_objects'] += 1
+                for member in members:
+                    safe_name(member.filename)
+                    if member.is_dir():
+                        continue
+                    if member.file_size > 128 * 1024 * 1024:
+                        raise ValueError('ZIP member size limit')
+                    member_data = archive.read(member)
+                    counts['zip_members_crc_verified'] += 1
+                    if member.filename.lower().endswith('.zip'):
+                        pending.append(member_data)
 
     manifest_path = ROOT / 'archive/imported-library/MANIFEST_20261028.json'
     manifest = json.loads(manifest_path.read_text())

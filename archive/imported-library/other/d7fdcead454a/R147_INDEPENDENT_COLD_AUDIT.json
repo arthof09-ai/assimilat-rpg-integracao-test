@@ -1,0 +1,41 @@
+{
+  "run_id": "R146_MULTI_SOURCE_FERYN_ERISTAN_DEV_S995401",
+  "seed": 995401,
+  "metrics": {
+    "commits": 40,
+    "native_events": 43,
+    "normal_attacks": 2,
+    "opportunity_attacks": 1,
+    "heals": 4,
+    "reactive_heals": 1,
+    "PA_total": 430,
+    "healing_effective": 371,
+    "damage_effective": 659,
+    "start_count": {
+      "A": 4,
+      "F1": 4,
+      "E": 4
+    },
+    "passo_expirations": 1,
+    "mark_boundary_holds": 1,
+    "reactions_paid": 2
+  },
+  "head": "0c32ace5adbab4481cddda9e603a63340eb5fe0ea01443599eab0e2e94e5577e",
+  "state_sha256": "5c0ca7ea988307870a70d1dc4f7dafadfd04f227c13bdf3b721ba3221f605000",
+  "phase": "CENSORED_HORIZON",
+  "end_hp": {
+    "A": 523,
+    "E": 630,
+    "F1": 191
+  },
+  "end_pa": {
+    "A": 719,
+    "E": 459,
+    "F1": 339
+  },
+  "independent_auditor_imports_engine": false,
+  "terminal_certificates": 0,
+  "accepted_scope": "4-ROUND_SOURCE_CONDITIONAL_CENSORED_INTEGRATION_ONLY",
+  "Marca_expiration": "HOLD_NOT_CERTIFIED",
+  "captured_prefix_state": null
+}

@@ -1,0 +1,21 @@
+{
+  "R160_package_path": "/mnt/data/VLAB_R151_R160_TACTICAL_R42_R43_CASULO_ED_BE_VERIFIED_MESTRE_ONLY.zip",
+  "package_size": 15175798,
+  "package_sha256": "7b208fe553809df6a999a1e4f9a70d7ad116033e929256bc71dbcd61843f3410",
+  "cold_extract_path": "/mnt/data/vlab_succession/r160_cold_extract/r151_r160",
+  "verified_manifest": 365,
+  "crc": "PASS",
+  "independent_cold_audits": "PASS_3_TACTICAL_4_ED_BE_OF_WHICH_2_SELECTED_PAIR_3_AOO_CASULO_1_NEGATIVE_AOO",
+  "selected_commits": 466,
+  "selected_ledgers": 9,
+  "source_offense_receipts": 154,
+  "original_R18_load_selected": "9/9_PASS",
+  "baseline_R150": "SHA256_IDENTICAL",
+  "legacy_regression": "28/28",
+  "redteam_semantic_rejected": "2/2",
+  "quarantine_R156_pending": 1,
+  "quarantine_R159_odd_half_not_replayed": true,
+  "terminal_NAC_PASS": "HOLD_0_OF_17",
+  "official_cells": "0_OF_1875",
+  "intended_Library_readback": "PENDING"
+}

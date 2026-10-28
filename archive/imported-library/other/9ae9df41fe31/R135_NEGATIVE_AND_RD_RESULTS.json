@@ -1,0 +1,81 @@
+{
+  "count_pre_intent": 9,
+  "cases": [
+    {
+      "name": "ATTACK_TAPE_FALSIFIED",
+      "status": "DENY_PRE_INTENT",
+      "type": "Hold",
+      "reason": "STRIKE_RNG_EVIDENCE_MISMATCH"
+    },
+    {
+      "name": "ACTOR_SELF_TARGET",
+      "status": "DENY_PRE_INTENT",
+      "type": "Hold",
+      "reason": "STRIKE_ACTOR_TARGET_PREFAIL"
+    },
+    {
+      "name": "UNKNOWN_REACTION",
+      "status": "DENY_PRE_INTENT",
+      "type": "Hold",
+      "reason": "REJECTION_UNSUPPORTED_REACTION"
+    },
+    {
+      "name": "BAD_MOVEMENT_ORIGIN",
+      "status": "DENY_PRE_INTENT",
+      "type": "Hold",
+      "reason": "MOVEMENT_PREFAIL"
+    },
+    {
+      "name": "NO_SOURCE_ACTION",
+      "status": "DENY_PRE_INTENT",
+      "type": "Hold",
+      "reason": "INVALID_KIND_PREINTENT"
+    },
+    {
+      "name": "CAPA_PA_34",
+      "status": "DENY_BEFORE_INTENT_IN_MEMORY",
+      "reason": "CAPA_RESOURCES_PREFAIL"
+    },
+    {
+      "name": "CAPA_REACTION_0",
+      "status": "DENY_BEFORE_INTENT_IN_MEMORY",
+      "reason": "CAPA_RESOURCES_PREFAIL"
+    },
+    {
+      "name": "FORCED_MOVEMENT_NO_AUTOMATIC_AOO",
+      "status": "DENY_PRE_INTENT_CONDITION",
+      "reason": "FORCED_MOVEMENT_NO_AOO_PATH"
+    },
+    {
+      "name": "UNVERIFIED_PATH",
+      "status": "DENY_PRE_INTENT_CONDITION",
+      "reason": "PATH_MISMATCH"
+    }
+  ],
+  "rd_unit": {
+    "physical_100_rd35_net": 65,
+    "dark_100_rd60_net": 40,
+    "source_dark_attack_executed": false,
+    "blocked": [
+      {
+        "name": "STACKING_GENERAL35_DARK60_HOLD",
+        "reason": "general + matching specific RD stacking has no current ruling"
+      },
+      {
+        "name": "MIXED_TAGGED_HIT_HOLD",
+        "reason": "mixed damage components need authoritative per-instance distribution"
+      }
+    ]
+  },
+  "advantage_weak_cancel_unit": {
+    "net_levels": 0,
+    "tapes": 1,
+    "attack_score": 217,
+    "reaction_after": 0
+  },
+  "sqlite_revision_unchanged": 2,
+  "sqlite_head_unchanged": "690af27b616b11300adf45e10ab8ec52161754c1cb8423cc91750f9845d60626",
+  "sqlite_pending": 0,
+  "caution": "RD Dark standalone unit not combat; source stacking and mixed damage still HOLD",
+  "legacy_banks_unchanged": true
+}

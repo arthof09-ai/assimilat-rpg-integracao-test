@@ -1,0 +1,95 @@
+import sys,unittest
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'code'))
+import craft_batch_qa as q
+
+class MaterialDependencyTests(unittest.TestCase):
+ def test_four_oil_recipes_documented(self):self.assertEqual(set(q.RECIPES),{'P2','SELAMENTO_P','SOMBRAS_O3','VENTO_ARTICO_B1'})
+ def test_oil_needed_each(self):self.assertTrue(all(x['bom']['Óleo de Vedação']==1 for x in q.RECIPES.values()))
+ def test_plan_oil_three(self):self.assertEqual(q.plan_shared_supplier(dict.fromkeys(q.RECIPES,1))['oil_units_required'],4)
+ def test_plan_nine(self):self.assertEqual(q.plan_shared_supplier(dict.fromkeys(q.RECIPES,3))['oil_units_required'],12)
+ def test_plan_nonuniform(self):self.assertEqual(q.plan_shared_supplier({'P2':2,'SOMBRAS_O3':4})['oil_units_required'],6)
+ def test_p2_argila_total(self):self.assertEqual(q.plan_shared_supplier({'P2':3})['sum_bom_excluding_energy']['Argila de Elemental da Terra'],9)
+ def test_selo_espiritos_total(self):self.assertEqual(q.plan_shared_supplier({'SELAMENTO_P':2})['sum_bom_excluding_energy']['Sal dos Espíritos'],6)
+ def test_shadows_orvalho_total(self):self.assertEqual(q.plan_shared_supplier({'SOMBRAS_O3':2})['sum_bom_excluding_energy']['Orvalho de Lua Nova'],10)
+ def test_common_oil_collapses_not_unique(self):self.assertEqual(q.plan_shared_supplier(dict.fromkeys(q.RECIPES,1))['oil_dependency_recipe_count'],4)
+ def test_energy_xor_pending(self):self.assertFalse(q.plan_shared_supplier({'P2':1})['p2_energy_branch_chosen'])
+ def test_energy_not_required_selo(self):self.assertFalse(q.plan_shared_supplier({'SELAMENTO_P':1})['p2_energy_exclusive_branch_required'])
+ def test_energy_required_p2(self):self.assertTrue(q.plan_shared_supplier({'P2':1})['p2_energy_exclusive_branch_required'])
+ def test_oil_supplier_ref(self):self.assertEqual(q.plan_shared_supplier({'P2':1})['oil_official_recipe_url'],q.OIL_URL)
+ def test_oil_iron_current(self):self.assertEqual(q.oil_recipe_incoherence()['iron_unplaced']['bom_units'],3)
+ def test_oil_iron_hist(self):self.assertEqual(q.oil_recipe_incoherence()['iron_unplaced']['historical_units'],2)
+ def test_oil_missing_step(self):self.assertFalse(q.oil_recipe_incoherence()['iron_unplaced']['explicit_process_incorporation'])
+ def test_oil_process_not_complete(self):self.assertFalse(q.oil_recipe_incoherence()['processable'])
+ def test_oil_drops_mismatch(self):self.assertNotEqual(*q.oil_recipe_incoherence()['mismatch_drops'].values())
+ def test_oil_essence_mismatch(self):self.assertNotEqual(*q.oil_recipe_incoherence()['mismatch_essence'].values())
+ def test_p2_vs_selo_distinct(self):self.assertNotEqual(q.RECIPES['P2']['source_effect'],q.RECIPES['SELAMENTO_P']['source_effect'])
+ def test_selo_is_not_p2_energy_authority(self):self.assertTrue(q.concrete_source_comparison()['not_sufficient_to_infer_P2_step'])
+ def test_shadows_name_ambiguity(self):self.assertIn('ALIAS NÃO ATESTADO',q.RECIPES['SOMBRAS_O3']['specific_identity_conflict'])
+ def test_selo_no_name_issue(self):self.assertIsNone(q.RECIPES['SELAMENTO_P']['specific_identity_conflict'])
+ def test_p2_bom_conflict(self):self.assertIn('Encantado',q.RECIPES['P2']['specific_identity_conflict'])
+ def test_status_p2_no_authorization(self):self.assertIn('P2_ENERGIZER_STAGING_UNDEFINED',q.plan_shared_supplier({'P2':1})['selected']['P2']['unresolved_recipe_issues'])
+ def test_no_stock_lot_auto(self):self.assertEqual(q.plan_shared_supplier({'P2':1})['qualified_finished_oil_available'],'UNVERIFIED')
+ def test_no_new_order(self):self.assertEqual(q.full_report()['r48_new_actions'],0)
+ def test_no_recipe_migration(self):self.assertFalse(q.oil_recipe_incoherence()['official_recipe_modified'])
+ def test_no_magic(self):self.assertFalse(q.plan_shared_supplier({'P2':1})['all_three_receipts_magic_observed'])
+ def test_p2_guard_stays_closed(self):self.assertFalse(q.full_report()['p2_guard']['authorization_to_apply'])
+ def test_party_zero(self):self.assertEqual(q.plan_shared_supplier({'P2':1})['party_or_prime_writes'],0)
+ def test_synthetic1_short2(self):self.assertEqual(q.plan_shared_supplier(dict.fromkeys(q.RECIPES,1),1)['synthetic_shortfall_units'],3)
+ def test_synthetic3_zero_short(self):self.assertEqual(q.plan_shared_supplier(dict.fromkeys(q.RECIPES,1),3)['synthetic_shortfall_units'],1)
+ def test_synthetic_short_zero_not_proof(self):self.assertEqual(q.plan_shared_supplier({'P2':1},9)['material_and_magic_execution'],'HOLD')
+ def test_explicit_unknown_oil_source(self):self.assertIsNone(q.plan_shared_supplier({'P2':1})['synthetic_oil_quantity'])
+ def test_two_branches(self):self.assertEqual(len(q.RECIPES['P2']['energy_options']),2)
+ def test_energy_not_double_count(self):self.assertNotIn('Pedra da Luz',q.plan_shared_supplier({'P2':1})['sum_bom_excluding_energy'])
+ def test_no_item_integration_from_citation(self):self.assertFalse(q.plan_shared_supplier({'SOMBRAS_O3':1})['selected']['SOMBRAS_O3']['auto_installed'])
+ def test_negative_unknown(self):
+  with self.assertRaises(q.AuditInputError):q.plan_shared_supplier({'UNKNOWN':1})
+ def test_negative_empty(self):
+  with self.assertRaises(q.AuditInputError):q.plan_shared_supplier({})
+ def test_negative_zero(self):
+  with self.assertRaises(q.AuditInputError):q.plan_shared_supplier({'P2':0})
+ def test_negative_negative(self):
+  with self.assertRaises(q.AuditInputError):q.plan_shared_supplier({'P2':-1})
+ def test_negative_float(self):
+  with self.assertRaises(q.AuditInputError):q.plan_shared_supplier({'P2':1.5})
+ def test_negative_bool(self):
+  with self.assertRaises(q.AuditInputError):q.plan_shared_supplier({'P2':True})
+ def test_negative_string(self):
+  with self.assertRaises(q.AuditInputError):q.plan_shared_supplier({'P2':'1'})
+ def test_negative_fake_negative_stock(self):
+  with self.assertRaises(q.AuditInputError):q.plan_shared_supplier({'P2':1},-1)
+ def test_negative_fake_float_stock(self):
+  with self.assertRaises(q.AuditInputError):q.plan_shared_supplier({'P2':1},1.0)
+ def test_negative_fake_bool_stock(self):
+  with self.assertRaises(q.AuditInputError):q.plan_shared_supplier({'P2':1},True)
+ def test_no_recipe_auto_green_all_filled(self):
+  for item in q.RECIPES:
+   with self.subTest(item):self.assertEqual(q.plan_shared_supplier({item:1},100)['material_and_magic_execution'],'HOLD')
+ def test_literal_aggregate_18_of24(self):self.assertEqual((q.literal_process_coverage()['aggregate_exact_matches'],q.literal_process_coverage()['aggregate_bom_items']),(18,24))
+ def test_p2_5_of6(self):self.assertEqual(q.literal_process_coverage()['details']['P2']['exactly_mentioned'],5)
+ def test_selo_4_of4(self):self.assertEqual(q.literal_process_coverage()['details']['SELAMENTO_P']['exactly_mentioned'],4)
+ def test_sombras_5_of6(self):self.assertEqual(q.literal_process_coverage()['details']['SOMBRAS_O3']['exactly_mentioned'],5)
+ def test_oil_1_of4(self):self.assertEqual(q.literal_process_coverage()['details']['OLEO']['exactly_mentioned'],1)
+ def test_salt_name_conflict_literal(self):self.assertIn('Sal de Geodo Santo',q.literal_process_coverage()['details']['P2']['not_exact_in_process'])
+ def test_energy_not_in_denominator(self):self.assertEqual(q.literal_process_coverage()['p2_energy_extra_branch_not_in_base_denominator'],2)
+ def test_oil_iron_absent_literal(self):self.assertIn('Pó de Ferro Celestial',q.literal_process_coverage()['details']['OLEO']['not_exact_in_process'])
+ def test_oil_drops_unmatched_literal(self):self.assertIn('Orvalho de Dragão',q.literal_process_coverage()['details']['OLEO']['process_mentions_without_literal_bom_match'])
+ def test_no_literal_autoalias(self):self.assertFalse(q.literal_process_coverage()['silent_reconciliation'])
+ def test_run_linear_arithmetic_small(self):self.assertEqual(q.test_linear_demand_properties(3)['synthetic_vectors'],27)
+ def test_arctic_oil_requirement(self):self.assertEqual(q.RECIPES['VENTO_ARTICO_B1']['bom']['Óleo de Vedação'],1)
+ def test_portfolio_four_oil_units(self):self.assertEqual(q.full_report()['portfolio_four_oil_uses']['oil_units_required'],4)
+ def test_arctic_leaf_mismatch(self):self.assertIn('Mintaur',q.RECIPES['VENTO_ARTICO_B1']['specific_identity_conflict'])
+ def test_arctic_literal_three_of_four(self):self.assertEqual(q.literal_process_coverage()['details']['VENTO_ARTICO_B1']['exactly_mentioned'],3)
+ def test_arctic_weapon_is_allowed_in_text(self):self.assertIn('arma',q.RECIPES['VENTO_ARTICO_B1']['source_application'])
+ def test_reflexo_without_oil_text(self):self.assertTrue(q.reflexo_independent_route()['independent_of_oil_in_current_text'])
+ def test_reflexo_quantities_missing(self):self.assertEqual(q.reflexo_independent_route()['quantities_documented_for_these_ingredients'],0)
+ def test_reflexo_no_general_knowledge(self):self.assertEqual(q.reflexo_independent_route()['knowledge_general'],'NAO')
+ def test_reflexo_cannot_be_run(self):self.assertFalse(q.reflexo_independent_route()['authorization_to_apply'])
+ def test_reflexo_four_ingredients(self):self.assertEqual(len(q.reflexo_independent_route()['ingredients_in_source']),4)
+ def test_reflexo_not_new_item_magic(self):self.assertFalse(q.reflexo_independent_route()['magic_powers_copied_to_new_item'])
+ def test_reflexo_stock_not_inferred(self):self.assertEqual(q.reflexo_independent_route()['actual_material_lots_verified'],0)
+ def test_no_notion_write(self):self.assertEqual(q.full_report()['notion_writes'],0)
+ def test_energy_decision_not_fabricated(self):self.assertFalse(q.concrete_source_comparison()['source_recipe_modified'])
+ def test_no_new_inscription(self):self.assertFalse(q.concrete_source_comparison()['pattern_created'])
+
+if __name__=='__main__':unittest.main(verbosity=2)

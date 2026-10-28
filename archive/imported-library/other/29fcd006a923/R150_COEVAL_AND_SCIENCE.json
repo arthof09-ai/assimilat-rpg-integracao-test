@@ -1,0 +1,27 @@
+{
+  "R138_historical_scene": "CENSORED; TECHNICAL_PASS; SPATIAL_PARITY_HOLD",
+  "R146_4_rounds": true,
+  "R146_PA": 430,
+  "R146_damage_effective": 659,
+  "R146_healing_effective": 371,
+  "accepted_selected_new_run": "R146_MULTI_SOURCE_FERYN_ERISTAN_DEV_S995401",
+  "batteries": {
+    "A": "25 individual ED; zero new admitted complete reference",
+    "B": "27 same Grifo lineage positions, L2 derived not materialized; zero combat new",
+    "C": "25 team tiers; no 2 comparably equipped ED; no new official cell",
+    "D": "27 distinct Beast tiers, ADM26/Divina27; zero new official species/cell"
+  },
+  "battle_winner": null,
+  "new_audited_selected_commits": 40,
+  "no_concat_legacy_cohorts": true,
+  "official_cells": 0,
+  "scientific_grade": "CONDITIONAL_MECHANIC_ONLY",
+  "selected_new_run_count": 1,
+  "source_spatial_after_m": 2,
+  "source_spatial_before_m": 3,
+  "source_spatial_gate": "PASS",
+  "terminal_contracts": 0,
+  "three_actors": "Auren ED L3; Feryn ON5 NPC/no spirit; Eristan ON5 NPC/no spirit",
+  "total_official_cells": 1875,
+  "unique_new_seeds_selected": 1
+}

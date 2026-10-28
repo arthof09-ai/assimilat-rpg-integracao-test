@@ -1,0 +1,50 @@
+{
+  "secondary_audit": {
+    "check_count": 16,
+    "PASS": true,
+    "checks": {
+      "Bronze3d6 conditional on crit against RD35 exactly one of 216": true,
+      "Critical+penetration joint rare 1/23328": true,
+      "Bronze3d6 crit never penetrates RD45": true,
+      "Galha mortal 1d6+FOR11 critical max 23 cannot penetrate normal Ouro RD25": true,
+      "Frigido conditional critical damage RD25 exact 5/2": true,
+      "Frigido critical positive damage P=5/648 per attack": true,
+      "Sample 18 physical Notion IDs distinct": true,
+      "Exactly one Party excluded, not a Master source": true,
+      "Exactly twelve Master beast source pages": true,
+      "Four source-derived numeric beast actions from two source documents": true,
+      "Seven major rank category mismatches among 12 beasts": true,
+      "Ten/12 exact rank+star discrepancies or missing star in body": true,
+      "Expected nonlethal pushes by independent Wald expectation": true,
+      "critical never implies net positive vs RD>=damage_max": true,
+      "negative net clamp property": true,
+      "MC round mean close to original exact R10 in independent code": true
+    }
+  },
+  "monte_carlo": {
+    "trials": 12000,
+    "seed": 20261015,
+    "horizon": 2000,
+    "mean_rounds": 206.10916666666665,
+    "median_rounds": 186,
+    "p90_rounds": 365,
+    "se_rounds": 1.0720325257960248,
+    "mean_difference_from_R10_exact_in_SE": 0.3315010330649743,
+    "censored": 0,
+    "wins_A": 6015,
+    "wins_B": 5985,
+    "first_actor_win_share": 0.50125,
+    "mean_total_attack_opportunities": 411.71708333333333,
+    "mean_positive_crit": 3.8075833333333335,
+    "mean_negative_crit": 3.80675,
+    "mean_nonlethal_moves_needed": 2.8075833333333335,
+    "no_native_engine_executed": true,
+    "sampling": "pre-registered independent local MC; NOT canonical combat or real world arena"
+  },
+  "source_original_R41_archive_SHA256": "105615717ddb62b84e51f2232bde067133e3c576a14340dac3b5427e0078306b",
+  "limits": [
+    "read-only archive physically materialized; separate R41 standalone verifier executed in previous command",
+    "MC uses model assumptions and independent pseudo-RNG, no automatic terminal claim",
+    "possible different RNG consumption from VLAB source"
+  ]
+}

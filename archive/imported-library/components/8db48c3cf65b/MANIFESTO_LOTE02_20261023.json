@@ -1,0 +1,85 @@
+{
+  "scope": "MESTRE-ONLY / TEST NO-WRITE",
+  "videos": {
+    "495967.mp4": {
+      "size_bytes": 102428489,
+      "sha256": "b7fca59746b7dfeddbfc5fc7c5b2989836e7b5f09fd692fda5132cd5399dff7a"
+    },
+    "495980.mp4": {
+      "size_bytes": 77349797,
+      "sha256": "c515556003432c8e3faa0b9e2c2a392324115708841d5091ff64beef93183f04"
+    },
+    "495988.mp4": {
+      "size_bytes": 29941179,
+      "sha256": "5bca527219b90ee1abfbe2acbb19f683b69452c3acb29f36b81b4d0d31a87c7c"
+    }
+  },
+  "files": {
+    "DOSSIE_LOTE02_INOVADOR_20261023.md": {
+      "size_bytes": 11230,
+      "sha256": "4fd3945e1f7d08e742ff150ab218eae49c0cef3b60b6ca73ac7f2ad6a38f0c5f"
+    },
+    "TEST36_PROVA_MOBILE_ARENA_VISIVEL_20261024.zip": {
+      "size_bytes": 43273,
+      "sha256": "95280005c42d1861d82a51a5f9981fb4d0ce3c0fe3d7aefdf18e633514563dd1"
+    },
+    "TABLETOP_TEST36_ARENA_PRIMEIRO_OFFLINE_TEST_20261024.html": {
+      "size_bytes": 129272,
+      "sha256": "9963299ab5f42a4a2b07792514553bdbb8b0467e2fce0ab6163874bcfcab72f4"
+    },
+    "test36_mobile_original_390x844.png": {
+      "size_bytes": 106089,
+      "sha256": "664a42550c7529092d50f38d856e1f682c8508a9fa23e2ebf1d27731909c47d1"
+    },
+    "test36_mobile_compact_390x844.png": {
+      "size_bytes": 73002,
+      "sha256": "3dbf63970711acea2921eb724950f7cec03b59ec21245028cd6e00d3c7709dda"
+    },
+    "TESTE_ANDROID_390x844_RESULTADOS.json": {
+      "size_bytes": 450,
+      "sha256": "ff7815b76c4fdb48df417c27f95a84f0bb9dbfd6c30ebc24dafa67aad44fe9fb"
+    },
+    "test_mobile_focus.py": {
+      "size_bytes": 2843,
+      "sha256": "c2305ea9fc77d176e3aa307dba1f2eaf5d8dccf749e2ec1c1455ea45ea9b8aee"
+    },
+    "build_mobile_compact.py": {
+      "size_bytes": 4598,
+      "sha256": "200888c872d1e76a2e5a0a496c46de503d814e861c442daae43918332a36ab16"
+    },
+    "build_offline_focus.py": {
+      "size_bytes": 1556,
+      "sha256": "25150ce7bd2250e1ee3df9a332b68989e30e65714334ab4e7a6d0278059578fe"
+    },
+    "contact_495967_1.jpg": {
+      "size_bytes": 272645,
+      "sha256": "f30277408f92765f3b30f29c1d3f29ef9349f38e5ba02080872c5e3bf6d4022f"
+    },
+    "contact_495967_2.jpg": {
+      "size_bytes": 353269,
+      "sha256": "c92ae1118ac7ea8c2962bc343dde71b01797023de1f655974d37b218ccf0e935"
+    },
+    "contact_495980_1.jpg": {
+      "size_bytes": 401417,
+      "sha256": "274c738e2eca61d8b59b91878ed65043c60f64000bd5d7156ea84f0afe5ae9da"
+    },
+    "contact_495980_2.jpg": {
+      "size_bytes": 439071,
+      "sha256": "3509858802dc60d44a688f335902385e4fe5b0845018ccabbcec94674e9787bb"
+    },
+    "contact_495988_1.jpg": {
+      "size_bytes": 366543,
+      "sha256": "9f64dc26defa7a4a30d1bb0c566e748873ad9a6c42429534471b179fbcb91096"
+    },
+    "contact_495988_2.jpg": {
+      "size_bytes": 100077,
+      "sha256": "a0c467f7e38b80a7bad0d7bd377adc57a097ea5399351a07c5163c31a781fadc"
+    }
+  },
+  "original_baseline": {
+    "TABLETOP_SITE_SINTETICO_TEST36_CANDIDATE.zip": {
+      "bytes": 41860,
+      "sha256": "5a7cb0bd9f7b239f7441c843d5df831a0bd16be92a46386241f0072907561bf1"
+    }
+  }
+}

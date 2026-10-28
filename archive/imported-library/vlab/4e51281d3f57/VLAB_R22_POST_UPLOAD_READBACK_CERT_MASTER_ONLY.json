@@ -1,0 +1,21 @@
+{
+  "edition": "R22",
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "library_file_id": "libfile_81c167d16b908191b92c615646bb532f",
+  "library_path": "/Comestre/OP-VLAB-FUSION-SANDBOX-01/VLAB_STAGE12_A1A2A3_CHAT_R22_SANDBOX.zip",
+  "package_sha256": "04ddf83ba2df69059a9f00f0f46e3bee24e9adbd59094400bf3671fd72942ca6",
+  "size_bytes": 15403014,
+  "readback_bytes_identical": true,
+  "zip_entries": 2286,
+  "manifest_members": 2285,
+  "manifest_hashes_valid": 2285,
+  "inherited_R21_members_byte_equal": 2267,
+  "new_files": 18,
+  "crc": "PASS",
+  "clean_extraction_qa": "47/47 PASS (35 inherited + 12 R22; three separately executed R22 groups)",
+  "human_UAT": "PENDING",
+  "terminal_certification": "0/17",
+  "notion_official_writes": 0,
+  "distributed_green": "HOLD",
+  "original_v09_binary": "UNAVAILABLE"
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark"><title>Assimilação · Arena Interativa · TEST 01</title>
+<style>
+:root{--bg:#0b1020;--panel:#131d30;--panel2:#1b2940;--line:#293a56;--text:#eef3ff;--muted:#a3b4d3;--gold:#ebca75;--mint:#7fe3c2;--red:#f69a9a;--blue:#79adf9}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#172440 0,#0b1020 60%);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;min-height:100vh}main{max-width:850px;margin:0 auto;padding:20px 14px 36px}.topline{display:flex;align-items:center;justify-content:space-between;gap:8px;color:var(--mint);font-size:12px;font-weight:700;letter-spacing:.11em;text-transform:uppercase}h1{font-size:clamp(25px,6vw,38px);letter-spacing:-.04em;margin:13px 0 5px}p{margin:0;color:var(--muted);line-height:1.5}.panel{background:rgba(19,29,48,.95);border:1px solid var(--line);border-radius:18px;padding:14px;margin-top:15px;box-shadow:0 10px 28px #0002}.header{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}.chip{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:99px;padding:7px 10px;font-size:12px}.status{font-size:13px;color:var(--gold)}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:13px}.stat{background:var(--panel2);padding:12px;border-radius:11px}.stat span{display:block;color:var(--muted);font-size:12px}.stat strong{display:block;font-size:22px;margin-top:4px;font-variant-numeric:tabular-nums}.layout{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:15px;align-items:start}.board{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px;touch-action:manipulation;max-width:560px;margin:15px auto 5px}.cell{position:relative;aspect-ratio:1;border-radius:9px;border:1px solid #33465f;background:#233550;color:var(--text);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:clamp(15px,4.6vw,29px);transition:background .12s,transform .12s;padding:0;min-width:0}.cell:nth-child(even){background:#263a58}.cell:focus-visible{outline:2px solid var(--gold);outline-offset:1px}.cell.rock{background:#293040;color:#8795ae;cursor:not-allowed}.cell.reach{box-shadow:inset 0 0 0 2px var(--mint)}.cell.threat{background:#49303d}.cell.hero{background:#1b5b59;border-color:#7fe3c2}.cell.enemy{background:#6b3d49;border-color:var(--red)}.cell .coord{position:absolute;bottom:3px;right:4px;font-size:9px;color:#afc1d7;opacity:.85}.cell .piece{line-height:1}.tools{display:grid;gap:9px}.btn{display:block;width:100%;border:1px solid #425473;color:var(--text);background:#273a58;padding:13px 12px;border-radius:12px;font-size:14px;font-weight:750;text-align:left;cursor:pointer}.btn.active{background:#244a56;border-color:var(--mint);color:#d9fff5}.btn:active{transform:scale(.98)}.btn.subtle{background:transparent;color:var(--muted)}.label{display:block;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;font-weight:750}.callout{padding:12px;border-radius:11px;background:#202e48;font-size:13px;line-height:1.55;color:#d4e5ff;margin-top:10px;min-height:60px}.log{font-size:13px;margin:9px 0 0;padding-left:20px;color:var(--muted);line-height:1.65}.log li:first-child{color:#f4f7fe}.legend{display:flex;flex-wrap:wrap;gap:9px;font-size:12px;color:var(--muted);justify-content:center;margin:10px 0}.dot{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:baseline}.foot{color:var(--muted);font-size:12px;margin-top:14px;line-height:1.55}.foot b{color:var(--gold)}@media(max-width:650px){.layout{grid-template-columns:1fr}.tools{display:grid;grid-template-columns:1fr 1fr}.board{gap:4px}.cell{border-radius:7px}.topline{font-size:11px}.stat strong{font-size:19px}.stat{padding:10px}}
+</style>
+</head>
+<body><main>
+<div class="topline"><span>✦ RPG ASSIMILAÇÃO</span><span class="chip">MESTRE-SIDE · TEST 01</span></div>
+<h1>Arena interativa</h1><p>Experimente uma interface tática com toque nas casas, retirada segura, ataque e alerta de oportunidade. Sem conexão com fichas oficiais.</p>
+<div class="panel"><div class="header"><strong>Ensaio: movimentação e adjacência</strong><span class="status" id="phase">Modo: mover</span></div>
+<div class="stats"><div class="stat"><span>Movimentos</span><strong id="moves">0</strong></div><div class="stat"><span>Ataques declarados</span><strong id="attacks">0</strong></div><div class="stat"><span>Gatilhos AoO</span><strong id="aao">0</strong></div></div>
+<div class="layout"><section><div class="board" id="board" role="group" aria-label="Tabuleiro tático de sete por sete casas"></div><div class="legend"><span><i class="dot" style="background:#1b5b59"></i>Herói</span><span><i class="dot" style="background:#6b3d49"></i>Inimigo</span><span><i class="dot" style="background:#49303d"></i>Zona adjacente</span><span><i class="dot" style="border:2px solid #7fe3c2"></i>Passo disponível</span></div></section>
+<aside class="tools" aria-label="Ações"><button class="btn active" type="button" id="moveBtn">↗ Mover</button><button class="btn" type="button" id="retreatBtn">🛡 Retirada segura</button><button class="btn" type="button" id="attackBtn">⚔ Ataque corpo a corpo</button><button class="btn subtle" type="button" id="resetBtn">↺ Reiniciar cenário</button></aside></div>
+<div class="callout" id="message" role="status" aria-live="polite">Toque em uma casa com contorno verde para mover seu personagem. Aproximar-se do inimigo torna suas casas adjacentes uma zona de atenção.</div><span class="label" style="margin-top:16px">Eventos da demonstração</span><ol class="log" id="log"></ol>
+</div><div class="foot"><b>Limites deste TEST:</b> personagens, obstáculos e cenário são sintéticos. A malha usa vizinhança ortogonal e um passo por toque somente para demonstrar a interface: não representa a mobilidade, a geometria, a iniciativa, o dano ou a economia completa de ações do VLAB. A regra de oportunidade ilustrada é a saída voluntária de um bloco adjacente; retirada segura exige Ação Padrão + Movimento. Este protótipo sinaliza o gatilho, mas não resolve ataque ou dados. Nenhuma escrita, sincronização ou persistência no Notion.</div>
+</main>
+<script>
+(()=>{'use strict';
+ const W=7,H=7,enemy={x:4,y:3},rocks=new Set(['1,1','2,1','4,5','5,5']);
+ let hero,mode,moves,attacks,aao,events;
+ const $=id=>document.getElementById(id);
+ const key=(x,y)=>x+','+y;
+ const adjacent=(a,b)=>Math.abs(a.x-b.x)+Math.abs(a.y-b.y)===1;
+ const inside=(x,y)=>x>=0&&x<W&&y>=0&&y<H;
+ function announce(message){$('message').textContent=message;events.unshift(message);events=events.slice(0,5);$('log').replaceChildren(...events.map(s=>{let li=document.createElement('li');li.textContent=s;return li;}));}
+ function choose(next){mode=next;$('moveBtn').classList.toggle('active',mode==='move');$('retreatBtn').classList.toggle('active',mode==='retreat');$('phase').textContent='Modo: '+(mode==='move'?'mover':'retirada segura');announce(mode==='move'?'Mover: selecione uma casa adjacente.':'Retirada segura: simula Ação Padrão + Movimento ao sair de adjacência.');render();}
+ function render(){let board=$('board');board.replaceChildren();for(let y=0;y<H;y++)for(let x=0;x<W;x++){
+   const p={x,y},isHero=x===hero.x&&y===hero.y,isEnemy=x===enemy.x&&y===enemy.y,isRock=rocks.has(key(x,y));
+   const near=adjacent(p,enemy),reach=adjacent(p,hero)&&!isRock&&!isEnemy;
+   const b=document.createElement('button');b.type='button';b.className='cell'+(near?' threat':'')+(isRock?' rock':'')+(reach?' reach':'')+(isHero?' hero':'')+(isEnemy?' enemy':'');
+   b.setAttribute('aria-label','Casa '+(x+1)+','+(y+1)+(isHero?' Herói':isEnemy?' Inimigo':isRock?' Obstáculo':near?' Adjacente ao inimigo':''));
+   b.innerHTML='<span class="piece">'+(isHero?'🗡️':isEnemy?'🐐':isRock?'🪨':'')+'</span><span class="coord">'+(x+1)+','+(y+1)+'</span>';
+   b.addEventListener('click',()=>tap(x,y));board.appendChild(b);
+ }
+ $('moves').textContent=moves;$('attacks').textContent=attacks;$('aao').textContent=aao;
+ }
+ function tap(x,y){const to={x,y};if(!inside(x,y))return;
+ if(rocks.has(key(x,y))){announce('Casa bloqueada: obstáculo sintético.');return;}
+ if(x===enemy.x&&y===enemy.y){strike();return;}
+ if(!adjacent(hero,to)){announce('Neste demonstrador, cada toque percorre somente uma casa ortogonal adjacente.');return;}
+ const hadAdj=adjacent(hero,enemy),willAdj=adjacent(to,enemy);
+ const exposed=hadAdj&&!willAdj&&mode!=='retreat';
+ hero=to;moves++;if(exposed)aao++;
+ if(exposed)announce('⚠ Gatilho de Ataque de Oportunidade: saída voluntária da adjacência. A reação NÃO foi resolvida.');
+ else if(hadAdj&&!willAdj&&mode==='retreat')announce('✓ Retirada segura demonstrativa: Ação Padrão + Movimento; sem gatilho de oportunidade por afastamento.');
+ else announce('Herói avançou para '+(x+1)+','+(y+1)+(willAdj?' e está adjacente ao inimigo.':'.'));
+ mode='move';$('moveBtn').classList.add('active');$('retreatBtn').classList.remove('active');$('phase').textContent='Modo: mover';render();
+ }
+ function strike(){if(!adjacent(hero,enemy)){announce('Ataque indisponível: aproxime-se de uma casa ortogonal adjacente ao inimigo.');return;}attacks++;announce('⚔ Ataque declarado em alcance corpo a corpo. Sem rolagem, dano ou alteração de Vida: o motor de combate oficial não está conectado.');render();}
+ function reset(){hero={x:2,y:3};mode='move';moves=0;attacks=0;aao=0;events=[];$('moveBtn').classList.add('active');$('retreatBtn').classList.remove('active');$('phase').textContent='Modo: mover';announce('Cenário reiniciado. Herói a duas casas do inimigo. Toque numa casa com contorno verde.');render();}
+ $('moveBtn').addEventListener('click',()=>choose('move'));$('retreatBtn').addEventListener('click',()=>choose('retreat'));$('attackBtn').addEventListener('click',strike);$('resetBtn').addEventListener('click',reset);reset();
+})();
+</script></body></html>

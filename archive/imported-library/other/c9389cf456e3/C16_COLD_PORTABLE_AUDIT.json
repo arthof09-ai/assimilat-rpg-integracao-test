@@ -1,0 +1,17 @@
+{
+  "status": "PASS_C16_COLD_PORTABLE_REPLAY",
+  "source_zip_sha256": {
+    "C15": "1f5d0c16a3a56a978acfc286c1b52886c109786515a06a160096fbf7c21201d5",
+    "R205": "62a9851b3a5ae7919b9225d9379a3d32c8736448e76bfcea4729dcbfe933cead"
+  },
+  "c16_zip_sha256": "8169eb651a833dfbfbc00244b4ba259ba2f891e02b4104434e1f15191db1505e",
+  "zip_bytes": 36056,
+  "manifest_members": 18,
+  "total_zip_entries": 19,
+  "crc": "PASS",
+  "scientific_files_regenerated_exact": 9,
+  "read_only_original_sqlite": 20,
+  "combat_runners_executed": 0,
+  "engine_or_notion_writes": 0,
+  "library_readback": "PENDING"
+}

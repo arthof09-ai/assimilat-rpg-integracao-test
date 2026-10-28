@@ -1,0 +1,121 @@
+{
+  "files": {
+    "LEIA_PRIMEIRO.md": {
+      "size_bytes": 3011,
+      "sha256": "c9e74e40bab5fe4cca99c295c4e6ee2a1ed0ac3e2634331b2666838366d8e9c3"
+    },
+    "meta.json": {
+      "size_bytes": 858,
+      "sha256": "2063312a7feee5d562321be3633e1755f72953367af9c8ca8634713fdf53a9bd"
+    },
+    "COMPENDIO_4_RELATORIOS_LOTE04_20261024.pdf": {
+      "size_bytes": 3025942,
+      "sha256": "4445382ee1c0d60509bd487d8bfdf6760f2ebc64fa945ef77c1261171c1fa762"
+    },
+    "relatorios/RELATORIO_INDIVIDUAL_496036.md": {
+      "size_bytes": 10261,
+      "sha256": "8b0743be191de0c70369f5c17d4de2162fd65e380e6cb919a141a02e9e8acd2b"
+    },
+    "relatorios/RELATORIO_INDIVIDUAL_496038.md": {
+      "size_bytes": 9389,
+      "sha256": "340add4f2a589bd8c509b155e9dd01271fd7dd1991b573054480e1051f6e1537"
+    },
+    "relatorios/RELATORIO_INDIVIDUAL_496040.md": {
+      "size_bytes": 8757,
+      "sha256": "9a6f4131e1eddf4fd0733f3de38dcdc5af161d2a2e5401b7dac3fdad750bc63f"
+    },
+    "relatorios/RELATORIO_INDIVIDUAL_496042.md": {
+      "size_bytes": 9640,
+      "sha256": "735fe02c193ff62265222918af8e29fea54f9af4dd1ebb9113e5f7988ee2cc60"
+    },
+    "contratos/496036_AREAS_VISUAIS.json": {
+      "size_bytes": 743,
+      "sha256": "ff32eb8dcc00de4145a9a9bd56bedefb4092a0753d30b73aa905c21687c67913"
+    },
+    "contratos/496038_INCREMENTO_JOGAVEL.json": {
+      "size_bytes": 861,
+      "sha256": "0957f5f33d9ed4a33b84e7cd58bc64971b407bebfdcddea69c9a476b36d10ba8"
+    },
+    "contratos/496040_FLUXO_SPRITES_E_EVENTOS.json": {
+      "size_bytes": 761,
+      "sha256": "7a5bb56a994c5d132d65d4793b7f88425ab1f9d3998c028c3af72994b88a2777"
+    },
+    "contratos/496042_HUD_FICHA_HABILIDADE.json": {
+      "size_bytes": 871,
+      "sha256": "c8f0bcb2f946c13aba48f677e553f08c97a60aa29bd98ae6921daed517d56cb2"
+    },
+    "contratos/CONTRACT_STATIC_CHECKS.json": {
+      "size_bytes": 1009,
+      "sha256": "bc88a9051ebf7e28460e5a91fc8d46e2ae6bfc2f2558491e4e6cb477bc2846eb"
+    },
+    "experimento/ARENA_TEST36_PREVIA_GEOMETRIA_VISUAL_OFFLINE.html": {
+      "size_bytes": 139486,
+      "sha256": "e47acf22456c14789a12cb21d8f805ff30cd04acb3dd2460200995e311ecb14d"
+    },
+    "experimento/build_geom.py": {
+      "size_bytes": 6149,
+      "sha256": "42675b06a586c84d1289a23f7b303c0c76d1be0a9c326a6783c9f975ccf77d7c"
+    },
+    "experimento/captura_360x740.png": {
+      "size_bytes": 233704,
+      "sha256": "a2332a3e8b3496bc93a8a9cb0e293fd18f243fb0d8b4fdd08bee8f9c4d8899e1"
+    },
+    "experimento/captura_390x844.png": {
+      "size_bytes": 229722,
+      "sha256": "81c8b661e88ff03a044a8132b33ea8d39a4c5c1df6e00707faa6376e36bb2d5e"
+    },
+    "experimento/captura_412x915.png": {
+      "size_bytes": 228312,
+      "sha256": "7801c9a56d14ded05169a2f7e24b19720fb1d9b011c3112b91f999a7a3b9d749"
+    },
+    "experimento/geometria_aceite.json": {
+      "size_bytes": 680,
+      "sha256": "800ac93a3c4bb212baf6d012cf109c61dd84b67d00abae1f6f00902fa4f14304"
+    },
+    "experimento/resultados_test_geom.json": {
+      "size_bytes": 1855,
+      "sha256": "765a6731288959337ca08355ef067fb1a7d476f34853a96d93f5916f2059f549"
+    },
+    "experimento/test_geom.py": {
+      "size_bytes": 2521,
+      "sha256": "6dda1911c56a42839d62b029b3a8f0ecc737c3b596c27f77e2ab1154127bbf0e"
+    },
+    "contatos/496036_p01.jpg": {
+      "size_bytes": 281480,
+      "sha256": "bc7a1db50cfaa606744de949125a9a4a5f977bcfadc5f6a081e851d78622da85"
+    },
+    "contatos/496036_p02.jpg": {
+      "size_bytes": 341055,
+      "sha256": "c2886a0e0491adbd6ad8614cc377d56cfcb060668702f6ddb0b04b7d5730bc03"
+    },
+    "contatos/496038_p01.jpg": {
+      "size_bytes": 293529,
+      "sha256": "393141b9306eab2992f461e5fd188ee91ed32b8a69272966f598cb0e1e498d81"
+    },
+    "contatos/496038_p02.jpg": {
+      "size_bytes": 314901,
+      "sha256": "b3862299e45914cf2db74a7ecd0b9f714eb46420e56a2c3812fda23c8b8d9f05"
+    },
+    "contatos/496040_p01.jpg": {
+      "size_bytes": 298404,
+      "sha256": "bdfdd5193e1eca4c5ce6f237ae52bd087eb4f73583bc0d40a05aff7e02fae417"
+    },
+    "contatos/496040_p02.jpg": {
+      "size_bytes": 315445,
+      "sha256": "7342140371daac13fba48e59b0fdde1a2903b2c3e155f92799b28e65ce833ff9"
+    },
+    "contatos/496042_p01.jpg": {
+      "size_bytes": 321427,
+      "sha256": "60b1198c889ac9eb0d67fe173b533c12f2284d6ec0a446eb8b6481e72308b103"
+    },
+    "contatos/496042_p02.jpg": {
+      "size_bytes": 375561,
+      "sha256": "a2d6c7a4e00e5ada9f8010ecd803f78b9b96e3294978eedadf4e6279b658ce35"
+    },
+    "contatos/496042_p03.jpg": {
+      "size_bytes": 407280,
+      "sha256": "b91f474362327b58e30b8904a5f3252bcf0369d2cee40718d58541c64f48a350"
+    }
+  },
+  "count": 29
+}

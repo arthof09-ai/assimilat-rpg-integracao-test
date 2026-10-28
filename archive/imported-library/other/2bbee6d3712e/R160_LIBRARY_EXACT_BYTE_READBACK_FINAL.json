@@ -1,0 +1,127 @@
+{
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "as_of": "2026-10-16 America/Recife",
+  "expected_uploaded": 19,
+  "readback_file_count": 19,
+  "verified_byte_identical": 19,
+  "result": "PASS_19_OF_19",
+  "files": [
+    {
+      "file": "R159_COLD_CASULO_AOO_AUDIT.json",
+      "size": 838,
+      "sha256": "d6eddfa12bf2f9a5951b42165be18a844e4e72b575e6698c509ac84e9748e9c7",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R159_COLD_ED_BE_AUDIT.json",
+      "size": 3028,
+      "sha256": "c4072381ad352e703177613101867e476d962ea6e556076bf7d9bc4bc882f569",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R159_COLD_R155_NEGATIVE_AOO.json",
+      "size": 206,
+      "sha256": "d61096a80019c63e42e6479231843b5caec2aaed9cd613115c92d5c9acf561b6",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R159_COLD_TACTICAL_AUDIT.json",
+      "size": 1531,
+      "sha256": "bba82def0070f3245467c3a5a1ad6de2f5a380cbe00e21f316b171ab59cf3de5",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R159_REDTEAM_RESULTS.json",
+      "size": 472,
+      "sha256": "349622d805277121e1ed6c223e685cd4406a352c7de3ca2ce9963502376563d9",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R160_17_CONTRACTS_BEFORE_AFTER.json",
+      "size": 52575,
+      "sha256": "8847e54780df260ec2d5705fa89b4f4214876358b6890e303874f9fb827bdca8",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R160_17_CONTRACTS_BEFORE_AFTER.md",
+      "size": 13277,
+      "sha256": "47399faa3cfce68d6efe30df724045471f1cff78c1945e7b0f74a58e7d98f599",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R160_ADDITIVE_NATIVE_V081_PATCH.diff",
+      "size": 7393,
+      "sha256": "5546b6dff50111d3ae7a12e554ca1458082c39c48203a696e2e9d36f19da6028",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R160_CANDIDATE_ELIGIBILITY_SOURCE_MATRIX.json",
+      "size": 6541,
+      "sha256": "ae259cff2b68a441698581ac013eb97b5f0bbd2587ceb3c7f9e9b82cf43109ca",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R160_CANDIDATE_ELIGIBILITY_SOURCE_MATRIX.md",
+      "size": 3649,
+      "sha256": "c007e352fc947eb874e99b7b4814c8dc695f1697018094328d35eda5c16d0c2f",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R160_COLD_VERIFIED_READBACK_RECEIPT.json",
+      "size": 893,
+      "sha256": "966229a4358ce45b0feee1e377b1805fa69817f3906dd8823c834b3072a59986",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R160_DMG_HANDOFF_READONLY.md",
+      "size": 1906,
+      "sha256": "5a21d5f26fe9432b685aaa84fc81453a079b45313409ebf2343eebfe0d2dc477",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R160_NEW_NATIVE_OFFENSE_RECEIPTS_SOURCE_SCOPED.csv",
+      "size": 83683,
+      "sha256": "c20a7f2cae18e6c55b385f8c04d9c8650ef032e2f0d19196ee8fa9d9c5d102e3",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R160_PSV_MESTRE_ONLY.md",
+      "size": 7348,
+      "sha256": "7cfdcdc1318e67cfcdc6b921333cd1dae0696c467d04355d111d043fd16eaea9",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R160_QUARANTINE_UNKNOWN_EFFECT_NO_REPEAT.json",
+      "size": 1242,
+      "sha256": "22291324850d120aeb7328d539fe1480c068e3bd8d26a6f1e2784b9ed1c6cd18",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R160_SCIENCE_A_B_C_D_AND_PAIRED_COMPARISON.json",
+      "size": 10730,
+      "sha256": "9ccff06842d9555307342ad9b774615dbfcbefd810710ce97cc812e2b50adadf",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R160_SELECTED_LEDGER_COUNTS.json",
+      "size": 4084,
+      "sha256": "7997a3c985ceb8d27b6efc76d6d84d5b4c1e06ca87e662e21fa4a88d1a37369a",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "R160_ZIP_FREEZE_RECEIPT.json",
+      "size": 496,
+      "sha256": "9dc6f8e572751a7dfba71bdb07a5b64ad861f12029b31c64273d2bae2181efeb",
+      "match_exact_bytes": true
+    },
+    {
+      "file": "VLAB_R151_R160_TACTICAL_R42_R43_CASULO_ED_BE_VERIFIED_MESTRE_ONLY.zip",
+      "size": 15175798,
+      "sha256": "7b208fe553809df6a999a1e4f9a70d7ad116033e929256bc71dbcd61843f3410",
+      "match_exact_bytes": true
+    }
+  ],
+  "additional_final_receipt": "SELF_NOT_COUNTED_IN_19_PREVIOUSLY_READBACK",
+  "writer_authority": "PAUSED_NO_WRITER",
+  "official_terminal": "0_OF_17"
+}

@@ -1,0 +1,81 @@
+{
+  "schema": "DMG-F1-R04B-BEHEMOTH-STRESS-v0.5",
+  "test_scope": "MATHEMATICAL/CONDITIONAL only; NOT in Lab runtime, NOT FULL-FIGHT",
+  "source_ids": {
+    "liu": "0b4c2b324ede837cb6be818dc8e36010",
+    "behemoth": "1fdc2b324ede82bd9d4f811abb689440",
+    "beast_rule": "3ebc2b324ede81f4992ac88a3588cacd",
+    "combat": "3ebc2b324ede81f1be4be8804ac113c0"
+  },
+  "rank": "Prata 5 vs Prata 5",
+  "normal_beast_prof_prata_8": "generic table only; application to Luta is assumption until adjudicated",
+  "attack_to_hit": {
+    "provisional": "2d6+FOR15+Luta_bonus",
+    "if_bonus8": {
+      "minimum": 25,
+      "maximum": 35,
+      "all_36_vs_CA46": "NO_HIT"
+    },
+    "threshold": "p_Luta>=20 required for at least one result > CA46 without other buffs, since max 2d6=12",
+    "scope": "UNKNOWN other buffs, actual Luta proficiency, reaction, statuses, range"
+  },
+  "liu_attack_candidate": {
+    "literal": "2d6+37",
+    "max": 49,
+    "behemoth_CA_base": 61,
+    "behemoth_CA_if_armor_activated": 64,
+    "scope": "ONLY if Liu notation is to-hit and no extra modifier"
+  },
+  "damage": {
+    "mordida": "3d6+FOR15",
+    "mordida_min": 18,
+    "mordida_max": 33,
+    "mordida_mean": 25.5,
+    "estilhacos": "2d6+DES45",
+    "estilhacos_min": 47,
+    "estilhacos_max": 57,
+    "estilhacos_mean": 52
+  },
+  "sopro": {
+    "source_cd_literal": "6+INT",
+    "INT36": 36,
+    "source_cd_math": 42,
+    "general_if_prof8_applies": 44,
+    "priority": "specific-vs-default unresolved for actual application; save type, trigger, timing, range UNKNOWN",
+    "pa_explicit": 10
+  },
+  "armor": {
+    "CA_source": 61,
+    "CA_if_activated": 64,
+    "activation_PA": 20,
+    "upkeep_PA_per_turn": 3,
+    "cost_example_3_upkeeps": 29,
+    "cost_example_not_timeline_certified": true,
+    "reflection_pct": 15,
+    "reflection_source_condition": "15% dano recebido, exceto magias e projéteis",
+    "hypothetical_eligible_damage_received80_exact_reflected12": 12,
+    "rounding_and_mitigation_order": null
+  },
+  "sensitivity_only": {
+    "A_documental": {
+      "life": 500,
+      "alma": 560
+    },
+    "B_current_rule_hypothetical": {
+      "life": 530,
+      "alma": 590
+    }
+  },
+  "validation": {
+    "tests_run": 11,
+    "failure_count": 0,
+    "error_count": 0,
+    "passed": true
+  },
+  "eligibility": {
+    "MATH_ONLY": "PASS",
+    "HIT_ONLY": "conditional predicted miss if prof8",
+    "DAMAGE_RESOLUTION": "not completed",
+    "FULL_FIGHT": "STRICT_REJECT"
+  }
+}

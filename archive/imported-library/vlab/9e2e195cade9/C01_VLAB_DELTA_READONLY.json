@@ -1,0 +1,67 @@
+{
+  "operation_dmG": "OP-DMG-CORPUS-EMP-01",
+  "checkpoint": "POST-R10-C01-20261015",
+  "handoff_kind": "READONLY_DELTA_TO_EXISTING_R10_HANDOFF_NOT_NEW_OPERATION",
+  "handoff_prior": "/mnt/data/dmg_recovery/r10/R10_VLAB_HANDOFF_READONLY.json",
+  "VLAB_operation_existing": "OP-VLAB-FUSION-SANDBOX-01",
+  "VLAB_operation_source": "https://app.notion.com/p/3f3c2b324ede819496ddd7f93bd7e5d2",
+  "VLAB_current_physical": {
+    "R41": "REGISTRO DEPOIS, positive automatic critical integrated and independently archived; 6 scenes, 475 events, 469 native attacks, 9 positive critical, 0 terminal certification; original archive sha256=105615717ddb62b84e51f2232bde067133e3c576a14340dac3b5427e0078306b",
+    "R42": "REGISTRO DEPOIS, Mestre lab-only negative-critical policy actually exercised; 3 long scenes; 931 events, 928 native attacks, 9 positive and 7 negative crits, 1 conditional HP0 result and 2 censored observations; original archive sha256=36f99ca5e77ea6aae0d4537f1cc64ba69ea6242c1c67a24b4a1bebc17e98c966",
+    "init":"same-species identical actor instances relative order invariant under unknown common bonus B; different-species individual B remains unauthenticated",
+    "terminal_VLAB_contracts":"0/17",
+    "canonical_cells":"0/1875"
+  },
+  "do_not_duplicate": [
+    "R41 critical automatic native branch injection and real R18 critical RNG integration already validated in lab",
+    "R42 negative critical lab policy executed on new R18 native events and cold audited",
+    "Any closed R34-R42 SQLite ids or historical pending UNKNOWN_EFFECT",
+    "Do not ask the Mestre to reconfirm the already recovered negative-crit lab policy"
+  ],
+  "new_corpus_oracles": [
+    {
+      "id":"C01-REAL-FRIGIDO-RD25-CRIT",
+      "source_attack":"https://app.notion.com/p/f0dc2b324ede820ab9470168d4a53315",
+      "source_defender":"https://app.notion.com/p/5dac2b324ede83f39cdb01a904ce3cfd",
+      "qualification":"MATH_ONLY, no native interspecies scene ready",
+      "preconditions":"Rabada only authorized FOR18+Luta6; target printed CA68, general RD25 competent and no other modifiers; +3 CA scenario conditional on armor active state",
+      "expected":"ordinary attack maximum30 <CA68 and CA71; positive critical auto-hit p1/108; critical net HP0..5, P(net>0 per attempt)=5/648, EHP=5/216; +3CA marginal prevention=0",
+      "falsifier":"native event with original source fields that produces ordinary hit; critical bypasses RD without separate authority; or competency source changes RD. Distinguish misses from legal critical-hit HP0",
+      "blocked_by":"complete actor state including initiative, armor state, type/RD/reflection, reaction and geometry"
+    },
+    {
+      "id":"C01-BEAST-B4-GALHA-RD25",
+      "source":"https://app.notion.com/p/8acc2b324ede827b9bc801746ae97409",
+      "qualification":"MATH_ONLY until conflicting Bronze title4/body2 and attack type resolved",
+      "expected":"Galha 1d6+FOR11 max gross17, conditional max critical23; competent RD25 causes zero net even if critical auto-hits",
+      "falsifier":"a documented extra buff, damage component, bypass, or special rule pushes actual max beyond25",
+      "blocked_by":"rank reconciliation, personal Luta, attack eligibility, applicable RD/damage subtype, full scene"
+    },
+    {
+      "id":"C01-GENERIC-BRONZE3D6-RD35",
+      "qualification":"RULE-BASED GENERIC BASE-ONLY, NOT AN ADMITTED CREATURE",
+      "expected":"critical generic3d6+18; RD35 net>0 only at damage dice6,6,6; P=1/216 conditional critical, 1/23328 per independent critical-only opportunity; max crit36",
+      "falsifier":"competent external FOR/INT/FF modifies damage, Titan transformation, bypass, or different source skill overrides generic damage base",
+      "blocked_by":"requires actor and attack source to create native scenario; do not invent generic beast"
+    },
+    {
+      "id":"C01-OURO2-REGALIS-ELTRIZANTE",
+      "source":"https://app.notion.com/p/5fac2b324ede8381a25581194ebf9bd7",
+      "qualification":"NUMERIC-DAMAGE-ONLY, NO NATIVE HIT/PA/RE ACTION",
+      "expected":"two attacks same 2d4+INT72 gross mean77; Raio eletrizante additionally triggers Fortitude check if separate 1d4=1, at most 25% after a legitimate hit before unknown save; DC not printed",
+      "falsifier":"distinct costs/durations/hit/save/immune target make rider comparison noncomparable",
+      "blocked_by":"source entity body-name blank, Luta vs spell CD, Fortitude DC, attack cost and elemental mitigation"
+    }
+  ],
+  "future_native_priorities_after_R42": [
+    "AoO two legally simultaneous triggers with effect-dependent precedence: authority missing; fail-closed",
+    "Counterattack normal attack personal Luta, not Investida bonus+6: source missing; fail-closed",
+    "Different-species individual initiative values if building source-complete Frigido vs Behemoth or Bronze4 vs Ouro2",
+    "Documentation of magical hit/crit permission and elemental RD competence before Regalis electric powers",
+    "Source-level armor positive PA/action timing and reflection mitigation before judging balance"
+  ],
+  "no_cross_executor_ack": true,
+  "no_native_executions_by_DMG": true,
+  "canonical_writes": 0,
+  "NAC_PASS_productive": "HOLD"
+}

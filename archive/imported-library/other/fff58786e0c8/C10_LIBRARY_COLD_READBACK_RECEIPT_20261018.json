@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-18",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "scope": "MESTRE_SIDE_LOCAL_LIBRARY_ONLY",
+  "status": "PASS",
+  "library_path": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "matched_files": 3,
+  "manifest_files": 32,
+  "zip_entries": 33,
+  "original_c09_members_preserved": 19,
+  "items": [
+    {
+      "name": "DMG_C10_REACOES_DEFESA_E_DANO_UTIL_20261018_MESTRE_ONLY.zip",
+      "bytes": 117787,
+      "source_sha256": "75c4ed7f19f254adc0f64c0a70c409083fe112eb088a4db1af9250ddadf954cc",
+      "library_readback_sha256": "75c4ed7f19f254adc0f64c0a70c409083fe112eb088a4db1af9250ddadf954cc",
+      "identical": true
+    },
+    {
+      "name": "PSV_DMG_C10_REACOES_CA_RECURSOS_20261018_MESTRE_ONLY.md",
+      "bytes": 9265,
+      "source_sha256": "5ee6f7dc20e8c204054f4783d1f9406433f16bda7287d764ef514c584a8047f3",
+      "library_readback_sha256": "5ee6f7dc20e8c204054f4783d1f9406433f16bda7287d764ef514c584a8047f3",
+      "identical": true
+    },
+    {
+      "name": "C10_COLD_ARCHIVE_AUDIT_20261018.json",
+      "bytes": 4977,
+      "source_sha256": "b1b4952c6f23cde595999d729a131648c9569b5a43a7210fb65eedb9e497becc",
+      "library_readback_sha256": "b1b4952c6f23cde595999d729a131648c9569b5a43a7210fb65eedb9e497becc",
+      "identical": true
+    }
+  ],
+  "authority": "NO_WRITER_LEASE_EPOCH_ACK; PRODUCTION_HOLD; F0_4_8",
+  "source_not_modifed": true
+}

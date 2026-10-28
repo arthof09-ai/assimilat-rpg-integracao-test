@@ -1,0 +1,43 @@
+{
+  "as_of": "2026-10-17",
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "hypotheses_preregistered": [
+    {
+      "H": "CROC_PHYSICAL_BASE_ACCURACY_UNDER_CA",
+      "mechanical_max": "6d6+134 has maximum170 (6*6+134), Auren CA225",
+      "predicts": "Ordinary Crocodile bite misses; critical positive can auto-hit, if applicable",
+      "observed": "0/66 Crocodile bite hits across two physical-only source-conditional trials",
+      "limits": "One fixed policy, two seeds; NOT universal victory chance."
+    },
+    {
+      "H": "AUREN_BASE_PRECISION_OVER_CROC_CA",
+      "mechanical_min": "6d6+193 minimum199 versus Crocodile CA112",
+      "predicts": "Ordinary Auren attacks hit unless lab negative critical",
+      "observed": "66/66 physical attacks hit in these two observations",
+      "limits": "No reactive defense modeled in these Crocodile scenes, no creature specials."
+    },
+    {
+      "H": "RECEIPT_PHYSICAL_HP_CAP",
+      "mechanism": "actual HP lost=min(post-RD,HP before), overkill=post-RD-actual",
+      "observed": "R166 KO 114 post-RD,60 actual,54 overkill; R168 terminal blow overkill 152/62 respectively",
+      "limits": "Algebra and selected transaction events, not distributional damage model."
+    }
+  ],
+  "new_Crocodile_bouts": 2,
+  "Crocodile_seed_families": [
+    "DEV",
+    "RESERVED_NONBLIND"
+  ],
+  "seed_blind_independent_holdout": 0,
+  "actual_analytic_sample_size": "n=2 source-conditional Crocodile bouts, no independent policy comparison; 66 actor attacks/species observed but clustered by two duels",
+  "RNG_causal_alignment": "Each source run cold audited within own command/RNG stream; cross-policy draws are not necessarily aligned. Do not pair events merely by ordinal index.",
+  "stats": "Descriptive hit counts exact; no global win probability, no confidence interval claimed from n=2 selected seeds.",
+  "progress_batteries": {
+    "A": "Auren L3 normal ED conditional; 0 official new cells",
+    "B": "Grifo L2 derived no official cell, Initiative still gap",
+    "C": "second ED complete 0 newly admitted",
+    "D": "Crocodilo L3 distinct species Croc vs Grifo source-scoped evidence, official 0/27"
+  },
+  "original_power_benchmark": "0/1875 official cells",
+  "limitations": "R168 exogenous natural Beast initiative, basic-only attack, no full behavior. R165 and R166 technical fixtures not combat efficacy."
+}

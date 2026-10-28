@@ -1,0 +1,66 @@
+{
+  "AOO_sequential": {
+    "Arveth_DES": 23,
+    "Feryn_DES": 80,
+    "R44_receipt": "Feryn and Varok normals admitted with equipped Luta, sequential damage, original lab replay; NOT repeated by DMG",
+    "Varok_DES": 27,
+    "priority_order": "Feryn > Varok > Arveth if all eligible"
+  },
+  "VLAB_physically_recovered_latest": "R47-R49 REGISTRO ANTES, no readback DEPOIS at checkpoint; R43-46 already after verified",
+  "adversarial_tests": [
+    "same DES do not sort by ID",
+    "ON5 tie dice 4d6 not 1d6",
+    "two simultaneous Reactions from different actors legal, not duplicate on same actor",
+    "no second strike on dead or movement completion (R46)",
+    "critical cannot be negated solely by CA, but counter trigger after auto-hit remains normative HOLD",
+    "no full fight initiative from Bronze unknown bonus"
+  ],
+  "counter_critical_collision": {
+    "VLAB": "R47 planned; DMG no writer, no R47 replay claimed",
+    "master_critical_rule": "valid positive critical auto-hit even when ordinary score below CA",
+    "trigger_source": "Contra-atacar announced before incoming attack; if attack score DOES NOT EXCEED CA then eligible response",
+    "unresolved": "whether counter triggers despite an auto-hit: numeric threshold and attack-hit status conflict; neither allowed nor forbidden without authority"
+  },
+  "documented_individual_initiatives": {
+    "Feryn_vs_Arveth": {
+      "certainty": "Feryn acts earlier",
+      "difference_min": 37
+    },
+    "Feryn_vs_Varok": {
+      "certainty": "Feryn acts earlier",
+      "difference_min": 33,
+      "different_rank_dice": "both ON5 4d6"
+    },
+    "Varok_vs_Arveth": {
+      "certainty": "may change by dice",
+      "difference_min": -16
+    }
+  },
+  "id": "POST-R10-C05",
+  "master_authority": "R43 same trigger highest DES before dice; if DES tie: competent dice of class then R26 reroll only tied; no universal d6",
+  "next": "Four-cycle scientific branch closed; next test: collect VLAB R47–R49 DEPOIS, if it appears, compare evidence against frozen C05 oracle; otherwise hold collision source and expand source-complete elemental/PA contracts.",
+  "same_dex_ON5_4d6": {
+    "dice_domain": "4d6 per participating ON5 instance; tie reroll R26; chosen winner not ID",
+    "expected_tiebreak_rounds_until_nontie": {
+      "approx": 1.088072388904,
+      "denominator": 85759,
+      "numerator": 93312
+    },
+    "one_round_tie_probability": {
+      "approx": 0.080943501372,
+      "denominator": 93312,
+      "numerator": 7553
+    },
+    "prob_Feryn1_first_eventually": {
+      "approx": 0.5,
+      "denominator": 2,
+      "numerator": 1
+    }
+  },
+  "sources_ongoing": [
+    "3f6c2b324ede81ce9c61db8127bf0e31",
+    "3f6c2b324ede81f49ea9efbe1a811091",
+    "3f6c2b324ede8105891fc647242e61ca",
+    "3f3c2b324ede819496ddd7f93bd7e5d2"
+  ]
+}

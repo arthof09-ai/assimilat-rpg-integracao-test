@@ -1,0 +1,53 @@
+{
+  "17_contracts": {
+    "bounded_probes_preexisting": 17,
+    "integral_lab": 0,
+    "terminal": 0
+  },
+  "correlation": "DIR-MESTRE-VLAB-R11-RECOVERY-20261009-001",
+  "cross_host_fencing": "UNPROVEN",
+  "identical_repeated_three_candidate": true,
+  "identity": "CM-000006 / WS0001; I0001 not consumed",
+  "nac_pass_terminal": "HOLD",
+  "official_writes": 0,
+  "package_r12_sha256": "6136907b109d8801c9111a2e3cdac1dfc94aa49761b561424a34e4c4b26681b8",
+  "readback_of_persisted_R12": "BYTEWISE_SHA256_PASS",
+  "scenes": [
+    {
+      "be_hp": 73,
+      "candidate_sha256": "1da692abf92ecb2566f77b1bfcd285c2b425304fffcd1f08999cbfb832f45dcd",
+      "effects": 1,
+      "events": 22,
+      "label": "three",
+      "processes": 4,
+      "receipt_sha256": "ba71b40054fe5e880b38a0b40611bc0853969ede61530d297b2d152aee2cd610",
+      "scene": "THREE"
+    },
+    {
+      "be_hp": 69,
+      "candidate_sha256": "6e732835b15a0d1699023339ebddfac42e6a22dfa106eea2e16b37a9cdb0ddd4",
+      "effects": 2,
+      "events": 34,
+      "label": "five",
+      "processes": 4,
+      "receipt_sha256": "5e95dca3e575219a3a55d791ec1ef29591e035141b1ff544ac4b649a5b33fbbd",
+      "scene": "FIVE"
+    },
+    {
+      "be_hp": 73,
+      "candidate_sha256": "1da692abf92ecb2566f77b1bfcd285c2b425304fffcd1f08999cbfb832f45dcd",
+      "effects": 1,
+      "events": 22,
+      "label": "three_repeat",
+      "processes": 4,
+      "receipt_sha256": "ba71b40054fe5e880b38a0b40611bc0853969ede61530d297b2d152aee2cd610",
+      "scene": "THREE"
+    }
+  ],
+  "scope": "isolated synthetic local only",
+  "tests_performed_this_recovery": {
+    "R11_full_suite": "TIMED_OUT_NOT_PASSED",
+    "R11_targeted_passed": 6,
+    "R12_policy_passed": 6
+  }
+}

@@ -1,0 +1,542 @@
+{
+  "data": {
+    "R48_preview_status": "ALL_SYNTHETIC_QA_PASS",
+    "attempts": [
+      {
+        "attempt": 1,
+        "consumed": [
+          {
+            "lot_id": "SBX-SLATE-GOOD-01",
+            "quantity": 1,
+            "source_page_id": "3f3c2b32-4ede-81ac-af28-c66a6b46e0b2",
+            "unit": "lamina"
+          }
+        ],
+        "processing_steps": [
+          {
+            "minutes_proposed": 5,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "inspecionar_lamina",
+            "seq": 1
+          },
+          {
+            "minutes_proposed": 10,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "marcar_cortar_clivar",
+            "seq": 2
+          },
+          {
+            "minutes_proposed": 15,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "aplainar_espessura",
+            "seq": 3
+          },
+          {
+            "minutes_proposed": 10,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "riscar_malha_ortogonal",
+            "seq": 4
+          },
+          {
+            "minutes_proposed": 10,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "arredondar_limpura",
+            "seq": 5
+          },
+          {
+            "minutes_proposed": 5,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "inspecionar_QA",
+            "seq": 6
+          }
+        ],
+        "products": [
+          {
+            "mechanical_bonus": 0,
+            "name": "Tábua Lamelar de Inscrição (somente simulação)",
+            "official_product_id": null,
+            "product_id": "SBX-CRAFT-R44-I0016-PRODUCT-SBX-R48-ORDER-UI-876645770",
+            "qa_fixture": {
+              "cracks": false,
+              "delamination": false,
+              "flatness_deviation_mm": 0.5,
+              "grid_spacing_mm": 10,
+              "groove_depth_mm": 0.3,
+              "length_mm": 120,
+              "magic_detected": false,
+              "markings_repeat_count": 3,
+              "sharp_edges": false,
+              "thickness_mm": 8,
+              "width_mm": 80
+            },
+            "recipe_key": "SBX-TLI-R44-v1",
+            "source_lots": [
+              "SBX-SLATE-GOOD-01"
+            ],
+            "status": "SYNTHETIC_OUTPUT_ONLY",
+            "unit": "tabua_sintetica",
+            "units": 1
+          }
+        ],
+        "qa_fields": {
+          "cracks": false,
+          "delamination": false,
+          "flatness_deviation_mm": 0.5,
+          "grid_spacing_mm": 10,
+          "groove_depth_mm": 0.3,
+          "length_mm": 120,
+          "magic_detected": false,
+          "markings_repeat_count": 3,
+          "sharp_edges": false,
+          "thickness_mm": 8,
+          "width_mm": 80
+        },
+        "qa_kind": "ONLY_SYNTHETIC",
+        "reason": [],
+        "recipe": "B30-01",
+        "report_id": "SBX-R47-LAUDO-876645770",
+        "signature_scope": "SIMULATED_CRYPTO_VALID_NOT_REAL",
+        "status": "EXPERIMENTAL_QA_PASS",
+        "waste": []
+      },
+      {
+        "attempt": 2,
+        "consumed": [
+          {
+            "lot_id": "SBX-SLATE-GOOD-01",
+            "quantity": 1,
+            "source_page_id": "3f3c2b32-4ede-81ac-af28-c66a6b46e0b2",
+            "unit": "lamina"
+          }
+        ],
+        "processing_steps": [
+          {
+            "minutes_proposed": 5,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "inspecionar_lamina",
+            "seq": 1
+          },
+          {
+            "minutes_proposed": 10,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "marcar_cortar_clivar",
+            "seq": 2
+          },
+          {
+            "minutes_proposed": 15,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "aplainar_espessura",
+            "seq": 3
+          },
+          {
+            "minutes_proposed": 10,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "riscar_malha_ortogonal",
+            "seq": 4
+          },
+          {
+            "minutes_proposed": 10,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "arredondar_limpura",
+            "seq": 5
+          },
+          {
+            "minutes_proposed": 5,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "inspecionar_QA",
+            "seq": 6
+          }
+        ],
+        "products": [
+          {
+            "mechanical_bonus": 0,
+            "name": "Tábua Lamelar de Inscrição (somente simulação)",
+            "official_product_id": null,
+            "product_id": "SBX-CRAFT-R44-I0016-PRODUCT-SBX-R48-ORDER-UI-876645771",
+            "qa_fixture": {
+              "cracks": false,
+              "delamination": false,
+              "flatness_deviation_mm": 0.5,
+              "grid_spacing_mm": 10,
+              "groove_depth_mm": 0.3,
+              "length_mm": 120,
+              "magic_detected": false,
+              "markings_repeat_count": 3,
+              "sharp_edges": false,
+              "thickness_mm": 8,
+              "width_mm": 80
+            },
+            "recipe_key": "SBX-TLI-R44-v1",
+            "source_lots": [
+              "SBX-SLATE-GOOD-01"
+            ],
+            "status": "SYNTHETIC_OUTPUT_ONLY",
+            "unit": "tabua_sintetica",
+            "units": 1
+          }
+        ],
+        "qa_fields": {
+          "cracks": false,
+          "delamination": false,
+          "flatness_deviation_mm": 0.5,
+          "grid_spacing_mm": 10,
+          "groove_depth_mm": 0.3,
+          "length_mm": 120,
+          "magic_detected": false,
+          "markings_repeat_count": 3,
+          "sharp_edges": false,
+          "thickness_mm": 8,
+          "width_mm": 80
+        },
+        "qa_kind": "ONLY_SYNTHETIC",
+        "reason": [],
+        "recipe": "B30-01",
+        "report_id": "SBX-R47-LAUDO-876645771",
+        "signature_scope": "SIMULATED_CRYPTO_VALID_NOT_REAL",
+        "status": "EXPERIMENTAL_QA_PASS",
+        "waste": []
+      },
+      {
+        "attempt": 3,
+        "consumed": [
+          {
+            "lot_id": "SBX-SLATE-GOOD-01",
+            "quantity": 1,
+            "source_page_id": "3f3c2b32-4ede-81ac-af28-c66a6b46e0b2",
+            "unit": "lamina"
+          }
+        ],
+        "processing_steps": [
+          {
+            "minutes_proposed": 5,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "inspecionar_lamina",
+            "seq": 1
+          },
+          {
+            "minutes_proposed": 10,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "marcar_cortar_clivar",
+            "seq": 2
+          },
+          {
+            "minutes_proposed": 15,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "aplainar_espessura",
+            "seq": 3
+          },
+          {
+            "minutes_proposed": 10,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "riscar_malha_ortogonal",
+            "seq": 4
+          },
+          {
+            "minutes_proposed": 10,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "arredondar_limpura",
+            "seq": 5
+          },
+          {
+            "minutes_proposed": 5,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "inspecionar_QA",
+            "seq": 6
+          }
+        ],
+        "products": [
+          {
+            "mechanical_bonus": 0,
+            "name": "Tábua Lamelar de Inscrição (somente simulação)",
+            "official_product_id": null,
+            "product_id": "SBX-CRAFT-R44-I0016-PRODUCT-SBX-R48-ORDER-UI-876645772",
+            "qa_fixture": {
+              "cracks": false,
+              "delamination": false,
+              "flatness_deviation_mm": 0.5,
+              "grid_spacing_mm": 10,
+              "groove_depth_mm": 0.3,
+              "length_mm": 120,
+              "magic_detected": false,
+              "markings_repeat_count": 3,
+              "sharp_edges": false,
+              "thickness_mm": 8,
+              "width_mm": 80
+            },
+            "recipe_key": "SBX-TLI-R44-v1",
+            "source_lots": [
+              "SBX-SLATE-GOOD-01"
+            ],
+            "status": "SYNTHETIC_OUTPUT_ONLY",
+            "unit": "tabua_sintetica",
+            "units": 1
+          }
+        ],
+        "qa_fields": {
+          "cracks": false,
+          "delamination": false,
+          "flatness_deviation_mm": 0.5,
+          "grid_spacing_mm": 10,
+          "groove_depth_mm": 0.3,
+          "length_mm": 120,
+          "magic_detected": false,
+          "markings_repeat_count": 3,
+          "sharp_edges": false,
+          "thickness_mm": 8,
+          "width_mm": 80
+        },
+        "qa_kind": "ONLY_SYNTHETIC",
+        "reason": [],
+        "recipe": "B30-01",
+        "report_id": "SBX-R47-LAUDO-876645772",
+        "signature_scope": "SIMULATED_CRYPTO_VALID_NOT_REAL",
+        "status": "EXPERIMENTAL_QA_PASS",
+        "waste": []
+      },
+      {
+        "attempt": 4,
+        "consumed": [
+          {
+            "lot_id": "SBX-MICA-GOOD-A",
+            "quantity": 1,
+            "source_page_id": "3f3c2b32-4ede-81e1-b179-e194e2838c84",
+            "unit": "folha"
+          },
+          {
+            "lot_id": "SBX-MICA-GOOD-B",
+            "quantity": 1,
+            "source_page_id": "3f3c2b32-4ede-81e1-b179-e194e2838c84",
+            "unit": "folha"
+          }
+        ],
+        "processing_steps": [
+          {
+            "minutes_proposed": 4,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "medir_espessura_qualidade",
+            "seq": 1
+          },
+          {
+            "minutes_proposed": 7,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "clivar_e_recortar_folhas",
+            "seq": 2
+          },
+          {
+            "minutes_proposed": 5,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "remover_arestas",
+            "seq": 3
+          },
+          {
+            "minutes_proposed": 6,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "comparar_espessuras",
+            "seq": 4
+          },
+          {
+            "minutes_proposed": 8,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "teste_montagem_seca_QA",
+            "seq": 5
+          }
+        ],
+        "products": [
+          {
+            "mechanical_bonus": 0,
+            "name": "Par de Espaçadores de Mica (somente simulação)",
+            "official_product_id": null,
+            "product_id": "SBX-CRAFT-R44-I0016-PRODUCT-SBX-R48-ORDER-UI-876645773",
+            "qa_fixture": {
+              "cracks": false,
+              "length_mm": 50,
+              "loose_lamellae": false,
+              "magic_detected": false,
+              "mount_fit": true,
+              "piece_count": 2,
+              "thickness_difference_mm": 0.05,
+              "width_mm": 20
+            },
+            "recipe_key": "SBX-MICA-R44-v1",
+            "source_lots": [
+              "SBX-MICA-GOOD-A",
+              "SBX-MICA-GOOD-B"
+            ],
+            "status": "SYNTHETIC_OUTPUT_ONLY",
+            "unit": "espacador_sintetico",
+            "units": 2
+          }
+        ],
+        "qa_fields": {
+          "cracks": false,
+          "length_mm": 50,
+          "loose_lamellae": false,
+          "magic_detected": false,
+          "mount_fit": true,
+          "piece_count": 2,
+          "thickness_difference_mm": 0.05,
+          "width_mm": 20
+        },
+        "qa_kind": "ONLY_SYNTHETIC",
+        "reason": [],
+        "recipe": "B30-03",
+        "report_id": "SBX-R47-LAUDO-876645773",
+        "signature_scope": "SIMULATED_CRYPTO_VALID_NOT_REAL",
+        "status": "EXPERIMENTAL_QA_PASS",
+        "waste": []
+      },
+      {
+        "attempt": 5,
+        "consumed": [
+          {
+            "lot_id": "SBX-MICA-GOOD-A",
+            "quantity": 1,
+            "source_page_id": "3f3c2b32-4ede-81e1-b179-e194e2838c84",
+            "unit": "folha"
+          },
+          {
+            "lot_id": "SBX-MICA-GOOD-B",
+            "quantity": 1,
+            "source_page_id": "3f3c2b32-4ede-81e1-b179-e194e2838c84",
+            "unit": "folha"
+          }
+        ],
+        "processing_steps": [
+          {
+            "minutes_proposed": 4,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "medir_espessura_qualidade",
+            "seq": 1
+          },
+          {
+            "minutes_proposed": 7,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "clivar_e_recortar_folhas",
+            "seq": 2
+          },
+          {
+            "minutes_proposed": 5,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "remover_arestas",
+            "seq": 3
+          },
+          {
+            "minutes_proposed": 6,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "comparar_espessuras",
+            "seq": 4
+          },
+          {
+            "minutes_proposed": 8,
+            "mode": "SIMULATED_RULE_TRANSITION_NOT_PHYSICAL",
+            "name": "teste_montagem_seca_QA",
+            "seq": 5
+          }
+        ],
+        "products": [
+          {
+            "mechanical_bonus": 0,
+            "name": "Par de Espaçadores de Mica (somente simulação)",
+            "official_product_id": null,
+            "product_id": "SBX-CRAFT-R44-I0016-PRODUCT-SBX-R48-ORDER-UI-876645774",
+            "qa_fixture": {
+              "cracks": false,
+              "length_mm": 50,
+              "loose_lamellae": false,
+              "magic_detected": false,
+              "mount_fit": true,
+              "piece_count": 2,
+              "thickness_difference_mm": 0.05,
+              "width_mm": 20
+            },
+            "recipe_key": "SBX-MICA-R44-v1",
+            "source_lots": [
+              "SBX-MICA-GOOD-A",
+              "SBX-MICA-GOOD-B"
+            ],
+            "status": "SYNTHETIC_OUTPUT_ONLY",
+            "unit": "espacador_sintetico",
+            "units": 2
+          }
+        ],
+        "qa_fields": {
+          "cracks": false,
+          "length_mm": 50,
+          "loose_lamellae": false,
+          "magic_detected": false,
+          "mount_fit": true,
+          "piece_count": 2,
+          "thickness_difference_mm": 0.05,
+          "width_mm": 20
+        },
+        "qa_kind": "ONLY_SYNTHETIC",
+        "reason": [],
+        "recipe": "B30-03",
+        "report_id": "SBX-R47-LAUDO-876645774",
+        "signature_scope": "SIMULATED_CRYPTO_VALID_NOT_REAL",
+        "status": "EXPERIMENTAL_QA_PASS",
+        "waste": []
+      }
+    ],
+    "availability": {
+      "SBX-MICA-GOOD-A": {
+        "before": 8,
+        "estimated_debit_by_R48": 2,
+        "lot_name": "Mica A (fictícia)",
+        "projected_after": 6,
+        "requested": 2
+      },
+      "SBX-MICA-GOOD-B": {
+        "before": 8,
+        "estimated_debit_by_R48": 2,
+        "lot_name": "Mica B (fictícia)",
+        "projected_after": 6,
+        "requested": 2
+      },
+      "SBX-SLATE-CRACKED": {
+        "before": 1,
+        "estimated_debit_by_R48": 0,
+        "lot_name": "Ardósia trincada (fictícia)",
+        "projected_after": 1,
+        "requested": 0
+      },
+      "SBX-SLATE-GOOD-01": {
+        "before": 8,
+        "estimated_debit_by_R48": 3,
+        "lot_name": "Ardósia apta (fictícia)",
+        "projected_after": 5,
+        "requested": 3
+      },
+      "SBX-SLATE-TOO-SMALL": {
+        "before": 1,
+        "estimated_debit_by_R48": 0,
+        "lot_name": "Ardósia pequena (fictícia)",
+        "projected_after": 1,
+        "requested": 0
+      }
+    },
+    "batch_id": "SBX-R48-BATCH-UI-2afb696406a6e839",
+    "can_confirm": true,
+    "cost_MED": "INDETERMINADO_SEM_FONTE_ECONOMICA",
+    "cost_formula_by_recipe": {
+      "B30-01": "CTE_lote=1*P_lamina+consumo_real_abrasivo_g*P_abrasivo_g+EPI+55/60*w_h+ferramenta_ciclo+logistica+perdas_retrabalho+custodia+capital; CTE_unit=CTE_lote/N_QA_PASS se >0",
+      "B30-03": "CTE_lote=2*P_folha+30/60*w_h+EPI+desgaste+logistica+quebra; CTE_unit=CTE_lote/N_QA_PASS (unidades individuais)"
+    },
+    "counts": {
+      "B30-01": 3,
+      "B30-03": 2
+    },
+    "expected_head": "31e7963ce846705a5c8545087dc270dbd80a5a67adae39d06d857d80ab91774a",
+    "intent_id": "CHAT-MESTRE-20261014-3T-2M-01",
+    "no_reservation_on_preview": true,
+    "official_stock_effect": 0,
+    "physical_qa": false,
+    "plan_status": "DRAFT",
+    "projected_total_units": 7,
+    "schema": "CRAFT-CHAT-v03-SANDBOX-ONLY",
+    "session_id": "sim-75192d55b85e",
+    "warnings": []
+  },
+  "ok": true
+}
+

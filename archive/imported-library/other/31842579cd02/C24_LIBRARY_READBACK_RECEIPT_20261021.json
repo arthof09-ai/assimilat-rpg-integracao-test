@@ -1,0 +1,41 @@
+{
+  "status": "PASS_LOCAL_READBACK_3of3_NO_NAC_PASS_GLOBAL",
+  "as_of": "2026-10-21",
+  "checkpoint": "C24",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "library_folder": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "files": [
+    {
+      "name": "DMG_C24_CORPUS_G1_CIENTIFICO_MESTRE_ONLY.zip",
+      "size_bytes": 168621,
+      "sha256_original": "5a20c2f3fc36f8caae5181e101f8927e61d453f84cd27af195f6114e15f7b81e",
+      "sha256_library": "5a20c2f3fc36f8caae5181e101f8927e61d453f84cd27af195f6114e15f7b81e",
+      "byte_identical": true
+    },
+    {
+      "name": "PSV_DMG_C24_MESTRE_ONLY.md",
+      "size_bytes": 19040,
+      "sha256_original": "b260dfc456ec96dcadcdc0d475e3ea19eacf10eb1e4e2c638b6c75bb0df463f0",
+      "sha256_library": "b260dfc456ec96dcadcdc0d475e3ea19eacf10eb1e4e2c638b6c75bb0df463f0",
+      "byte_identical": true
+    },
+    {
+      "name": "C24_PARECER_DECISORIO_MESTRE_ONLY.md",
+      "size_bytes": 3522,
+      "sha256_original": "3922eca22dadb217bd0586ba8d2ed65fcd101eace891ce1b351d6d982cc5e94d",
+      "sha256_library": "3922eca22dadb217bd0586ba8d2ed65fcd101eace891ce1b351d6d982cc5e94d",
+      "byte_identical": true
+    }
+  ],
+  "payload_SHA256_PASS": 31,
+  "payload_SHA256_total": 31,
+  "ZIP_entries": 32,
+  "ZIP_CRC": "PASS",
+  "portable_regeneration": "PASS deterministic C24 derived byte-for-byte 19 files (R214 input ledger source files excluded).\nIndependent documentary coder=NO, original Notion immutable bytes=NO, normative DMG gate=HOLD",
+  "VLAB_R214_external_source": "ORIGINAL_EXTERNALLY_REFERENCED_READ_ONLY_NOT_INCLUDED",
+  "F0_formal": "4/8_HOLD",
+  "F0_A5": "0/7_bytes",
+  "independent_documentary_coder": "PENDING",
+  "canonical_or_party_writes": 0,
+  "production": "HOLD"
+}

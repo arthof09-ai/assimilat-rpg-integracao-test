@@ -1,0 +1,17 @@
+﻿ID,PREDICADO_RECONSTRUIDO,FONTES,RESULTADO_CIENTISTA
+R01,Root→HO03,ROOT,PASS
+R02,Canon E3,VZ-CANON-01,PASS
+R03,Control E3,Control Plane,PASS
+R04,HO03+E3,Handoff HO03,PASS
+R05,Runtime DENY,Runtime Admission,PASS
+R06,Driver hold,Driver v0.7,PASS
+R07,Runbook HO03,VZ-EXEC-RUNBOOK-01,PASS
+R08,Matriz E3,Matriz 09,PASS
+R09,Corpus E3,VZ-CORPUS-01,PASS
+R10,"Manifesto 1649,0",Material Manifest,PASS
+R11,Qual claim reconciliado,Control+Diário,PASS
+R12,PROMO autoridade HO03,PROMO #Autoridades finais,PASS-AFTER-PATCH01
+R13,Harness E2 cercado,ONE-ORGANISM-GATE,PASS-AFTER-PATCH02
+R14,Canon Mestre 5xB,Canon+NORM-BEAST-DROP,FAIL-CONFLICT-HOLD
+R15,PRECREATE converge Canon,PRECREATE §10 +Canon,FAIL-CONFLICT-HOLD
+R16,420 fontes +200 drops rederivados,Manifesto+Matrix+Shop,HOLD-DENOMINATOR

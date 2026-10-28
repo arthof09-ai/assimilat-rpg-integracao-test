@@ -1,0 +1,135 @@
+{
+  "R49_bound": {
+    "caveat": "only in frozen two basic attack window; other skills/on-hit effects can invalidate commutativity",
+    "initiative_priority_changes_total_damage_distribution": false,
+    "max_effective_dmg_single_even_critical": 140,
+    "maximum_two_attacks": 280,
+    "min_effective_dmg_single": 20,
+    "no_elimination_possible_with_only_two_basic_attacks": true,
+    "source": "VLAB R49; two identical equipped Feryn -> Varok, individual 4d6",
+    "varok_hp": 734
+  },
+  "R49_control_conditional_six_normal_hits": {
+    "expectation_per_attack": {
+      "decimal": 48.0,
+      "fraction": "48"
+    },
+    "expectation_six": {
+      "decimal": 288.0,
+      "fraction": "288"
+    },
+    "not_hypothesis_test": "selected seeds preclude random sample CI"
+  },
+  "activations": [
+    {
+      "PA_free_after_trigger": 379,
+      "PA_free_start": 424,
+      "PA_trigger": 45,
+      "attacker": "Feryn",
+      "chance_hit_to_allow_trigger": {
+        "decimal": 0.990740740741,
+        "fraction": "107/108"
+      },
+      "defender": "Varok",
+      "every_hit_activation_limit": "once per scene, 0 additional Ação Padrão; paid only on hit",
+      "first_hit_attempts_IF_repeatable_infinite": {
+        "decimal": 1.009345794393,
+        "fraction": "108/107"
+      },
+      "kind": "Vento",
+      "legality_note": "Mixed damage elemental RD, common strike same event, per-hit declaration and scene frequency must govern; do not choose arithmetic branch without rule",
+      "one_mitigation_event_increment_E_IF_same_damage_pool": {
+        "decimal": 22.5,
+        "fraction": "45/2"
+      },
+      "raw_extra_E": {
+        "decimal": 22.5,
+        "fraction": "45/2"
+      },
+      "separate_extra_RD_increment_E_IF_separately_mitigated": {
+        "decimal": 0.006408691406,
+        "fraction": "105/16384"
+      }
+    },
+    {
+      "PA_free_after_trigger": 264,
+      "PA_free_start": 324,
+      "PA_trigger": 60,
+      "attacker": "Varok",
+      "chance_hit_to_allow_trigger": {
+        "decimal": 0.010016575217,
+        "fraction": "701/69984"
+      },
+      "defender": "Feryn",
+      "every_hit_activation_limit": "once per scene, 0 additional Ação Padrão; paid only on hit",
+      "first_hit_attempts_IF_repeatable_infinite": {
+        "decimal": 99.83452211127,
+        "fraction": "69984/701"
+      },
+      "kind": "Impacto",
+      "legality_note": "Mixed damage elemental RD, common strike same event, per-hit declaration and scene frequency must govern; do not choose arithmetic branch without rule",
+      "one_mitigation_event_increment_E_IF_same_damage_pool": {
+        "decimal": 39.0,
+        "fraction": "39"
+      },
+      "raw_extra_E": {
+        "decimal": 39.0,
+        "fraction": "39"
+      },
+      "separate_extra_RD_increment_E_IF_separately_mitigated": {
+        "decimal": 17.056873713992,
+        "fraction": "530537/31104"
+      }
+    },
+    {
+      "PA_free_after_trigger": 289,
+      "PA_free_start": 344,
+      "PA_trigger": 55,
+      "attacker": "Arveth",
+      "chance_hit_to_allow_trigger": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "defender": "Feryn",
+      "every_hit_activation_limit": "once per scene, 0 additional Ação Padrão; paid only on hit",
+      "first_hit_attempts_IF_repeatable_infinite": {
+        "decimal": 108.0,
+        "fraction": "108"
+      },
+      "kind": "Terra",
+      "legality_note": "Mixed damage elemental RD, common strike same event, per-hit declaration and scene frequency must govern; do not choose arithmetic branch without rule",
+      "one_mitigation_event_increment_E_IF_same_damage_pool": {
+        "decimal": 33.0,
+        "fraction": "33"
+      },
+      "raw_extra_E": {
+        "decimal": 33.0,
+        "fraction": "33"
+      },
+      "separate_extra_RD_increment_E_IF_separately_mitigated": {
+        "decimal": 11.165792,
+        "fraction": "348931/31250"
+      }
+    }
+  ],
+  "checkpoint": "POST-R10-C10",
+  "observed_R49_sources_selected": {
+    "damages": [
+      83,
+      104,
+      100
+    ],
+    "normal_hits": 6,
+    "scenes": 3,
+    "selected_seeds_not_random_sample": true,
+    "total": 287
+  },
+  "priority_expected_rounds_to_separate": {
+    "decimal": 1.088072388904,
+    "fraction": "93312/85759"
+  },
+  "priority_tie_probability": {
+    "decimal": 0.080943501372,
+    "fraction": "7553/93312"
+  }
+}

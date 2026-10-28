@@ -1,0 +1,23 @@
+{
+  "canonical_run_credit": 0,
+  "checkpoints_readback": 32,
+  "clean_extraction_new_tests": "9/9 PASS",
+  "crc": "PASS",
+  "edition": "R23",
+  "experimental_full_combat_runs": 32,
+  "library_file_id": "libfile_b9343973ee908191be76cfebe03c741b",
+  "library_path": "/Comestre/OP-VLAB-FUSION-SANDBOX-01/VLAB_STAGE12_A1A2A3_BENCHMARK_AUTO_R23_SANDBOX.zip",
+  "manifest_sha_members_valid": 2498,
+  "new_entries": 212,
+  "official_writes": 0,
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "package_sha256": "e017b356719334de0c26b306c74bbae52de2ea5a6ccc8361137fb98b3c952ce3",
+  "post_upload_readback_bytes_identical": true,
+  "preserved_R22_members_identical": 2286,
+  "prior_regression_tests": "47/47 PASS (35 R18–R21 +12 R22 grouped)",
+  "size_bytes": 16518521,
+  "terminal_certifications": "0/17",
+  "uat_vigias_r1_preserved_library": "libfile_ce5587e0cafc819182a0c8955aaca966",
+  "writer_gateway_lease_fencing_green": "HOLD",
+  "zip_entries": 2499
+}

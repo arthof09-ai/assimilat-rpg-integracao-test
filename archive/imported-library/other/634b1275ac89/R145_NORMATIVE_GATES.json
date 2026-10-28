@@ -1,0 +1,12 @@
+{
+  "Auren_transformation": "specialized Combat/Transformation Lendario activation320 PA contradicts historical Auren100PA +15/turn; unresolved under NAC-NORM-01; transformation NOT used",
+  "Eristan_equipment": "Mestre-only proposal, not materialized official gear; tested as frozen proposal",
+  "Falha_critica": "Mestre R42 LAB-ONLY decision physically recovered: miss auto; zero damage; standard consumed, no extra penalty. v0.8.1 R138 still pre-intent HOLD for negative; integration next; historical R124 unchanged.",
+  "Marca_3_turns": "HOLD; no established exact expiry boundary; timeline data stored not applied to attack",
+  "Passo_este_turno": "PASS technical source expiration within same own turn",
+  "RD_Dark60": "Auren has explicit specific Dark RD60; no source-eligible Dark attack among three R138 frozen actors; integrated test HOLD",
+  "RD_mix": "Source formula for true separate components + selection lacking; HOLD, no RD stacking",
+  "bleeding": "Sangramento catalogued historically but no proven equipped eligible actor in R138 team; no bleed effect simulated; SOURCE-HOLD",
+  "combat_outcome": "R138 four-round censor, zero official victory or power cells",
+  "metric_geometry": "B0-B3 topology non-metric; distances 1.5m/2m/3m separate source-scoped scenario facts not a block scale"
+}

@@ -1,0 +1,36 @@
+{
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "as_of": "2026-10-16",
+  "baseline_no_repeat": "R01-R91 fully preserved, R59 and R72 unknown-effect incidents not rerun",
+  "R92": {
+    "status": "SCIENTIFIC_HORIZON_MISMATCH_HOLD",
+    "description": "16 new technical 1x1 fights with source frozen Grifo/Croc L3 and Auren L3; cold ledger semantic reconstruction 16/16 PASS, but source prereg horizon=120 and Python run default max_turns=60 was used. Any original label of horizon120 must not be read as 120 executed turns; 8 censored were at 60 executed actor turns.",
+    "ledgers": "runs/",
+    "science_promotion": false
+  },
+  "R94": {
+    "status": "SCIENTIFIC_HORIZON_MISMATCH_AND_MIRROR_HOLD",
+    "description": "32 fixed opening scenarios had prereg horizon=120 but original adapter default max_turns=60. After a system timeout with 106 committed events, pending=0, one scene was continued from exact frontier and advanced toward 120, while other mirrors had been stopped at 60. Individual semantic replay is not enough: CROCO-INIT-E seed 494102 B_LEFT censored at 60 actor turns, E_LEFT won after 65 actor turns. Independent pair auditor correctly rejected mirror consistency. Every ledger preserved; entire R94 cohort excluded from selected evidence.",
+    "ledgers": "fixed_runs/",
+    "technical_reconstruction_of_individual_ledgers": "performed, not promoted",
+    "science_promotion": false
+  },
+  "R93_PRECOMMIT": {
+    "status": "PRECOMMIT_QUARANTINE_NO_REPEAT",
+    "seed": 493101,
+    "side": "F_LEFT",
+    "revision": 0,
+    "events": 0,
+    "pending": 0,
+    "description": "Rejected invalid R18 command prefix before first durable event. Original nonreusable genesis-only sqlite retained. New R93 seeds 493111,493112,493811,493812 used independently."
+  },
+  "R95_CORRECTIVE_METHOD": {
+    "status": "COLD_PASS",
+    "new_seeds": [495101,495801],
+    "preregistered_executed_horizon": 60,
+    "runner_gate": "max_turns equals prereg horizon prior to SQLite creation",
+    "auditor_gate": "censored requires exactly 60 accepted attacks/turns, completed bounded to <=60",
+    "side_swap": "eight of eight mirror pairs consistent",
+    "promotion_scope": "SELECTED_BASIC_SOURCE_ADMISSIBLE_WITH_FIXED_EXOGENOUS_OPENING_ONLY"
+  }
+}

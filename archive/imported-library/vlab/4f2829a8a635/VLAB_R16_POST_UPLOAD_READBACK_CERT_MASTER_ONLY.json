@@ -1,0 +1,23 @@
+{
+  "classification": "MASTER_ONLY_EXPERIMENTAL_NO_CANON",
+  "clean_extraction_remote_scene": "34/34_events_5/5_material_receipts",
+  "clean_extraction_unit_tests": "5/5",
+  "contracts_terminal": "0/17",
+  "critical_wal_snapshot_scenarios": "9/9_2_real_crashes_plus_7_gates",
+  "entries": 2158,
+  "exact_byte_identity": true,
+  "external_chain_sha": "228a889b73f9d56f2b580d854dcbed0c6f75009e10c1aa95680da1e672e4c48c",
+  "independent_audit": "NOT_PERFORMED",
+  "instance": "CM-000006-I0001_NOT_CONSUMED",
+  "library_file_id": "file_00000000f04881f48d7ab48282119e37",
+  "library_id": "libfile_523e373a444481918da2465cdb5b8a77",
+  "library_path": "/Comestre/OP-VLAB-FUSION-SANDBOX-01/VLAB_STAGE12_A1A2A3_FUNCTIONAL_R16_SANDBOX.zip",
+  "local_sha256": "3c716c0d99ddd3b703268adf8279d2343adeb75a464cfd333484e55558df44b8",
+  "manifest_sha256_entries_validated": 2157,
+  "notion_party_primeiro_dmg_rank_writes": 0,
+  "official_writer": "HOLD",
+  "r15_parent_members_unchanged": 1866,
+  "recovered_sha256": "3c716c0d99ddd3b703268adf8279d2343adeb75a464cfd333484e55558df44b8",
+  "schema": "VLAB-R16-POST-LIBRARY-UPLOAD-READBACK-01",
+  "zip_crc": "PASS"
+}

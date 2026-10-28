@@ -1,0 +1,17 @@
+{
+  "zip": "/mnt/data/DMG_C14_CIENCIA_COMPARADORES_R204_20261020_MESTRE_ONLY.zip",
+  "zip_sha256": "c4ddfac3c465d3464aab6afa004ba464d96f200fe1b750b5a94e35a98c7ffbf1",
+  "bytes": 34630,
+  "entries": 19,
+  "manifest_sha_entries_verified": 18,
+  "crc": "PASS",
+  "cold_replay_scripts": 4,
+  "recreated_numeric_files_exactly": 10,
+  "external_r204_sha_verified": true,
+  "notion_originals_edited": false,
+  "historical_vlab_sqlite_edited": false,
+  "v1_wrong_cohort_excluded": true,
+  "external_second_coder": "PENDING",
+  "f0_formal": "4/8",
+  "production": "HOLD"
+}

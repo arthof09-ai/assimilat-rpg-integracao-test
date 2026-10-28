@@ -1,0 +1,1054 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#101929"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-7ZJLDSz3dYyz0DDKkfbEecq9026olw6nvZbLYUS7bpc=' 'sha256-exzOmL/PxOhupZeEcr/lzl4kstaCeyhONCwpkugvq6Q=' 'sha256-jEgdTZsf2hzSgyrMdRZZ7iL9LhMhim8z1/cb8LfDPqw=' 'sha256-2kCUq7d1pLy4BMTBqxTsvrnvevH0ymUOJm1oj8saMm4=' 'sha256-phpE+Q3Xo5CyuVR/mwdRpclmMXVRiROYRf44tygMCjk='; style-src 'sha256-wG3F/VC+GGLjRBjDGJKAm5ivLIU28QjrV58mCGChClU=' 'sha256-pAaShUPgWqNDXCKs2plAIO+uL/V17ScHxsjQPwHIdrI=' 'sha256-FlgLHR0IsHN7V9K+gQVJLA90Tg+LzXpRz2z9RAfZ+kc='; img-src data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'"><title>Tabletop Assimilação — Laboratório TEST</title><style>:root{color-scheme:dark;--bg:#0b1322;--panel:#162239;--panel2:#1d304b;--line:#344c66;--text:#f1f5fc;--muted:#afc2d7;--gold:#f8d98a;--cell:44px;--gap:2px}*{box-sizing:border-box}html,body{margin:0}body{background:radial-gradient(circle at 15% 0%,#1d3455 0,transparent 36%),var(--bg);font:14px/1.4 system-ui,-apple-system,Arial,sans-serif;color:var(--text)}h1{font-size:clamp(21px,3vw,29px);margin:3px 0}h2{font-size:16px;margin:0 0 11px}button,input,select,textarea{font:inherit}button{cursor:pointer}.shell{max-width:1260px;margin:auto;padding:15px 12px 40px}.header{display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap;padding:7px 4px 12px}.eyebrow{letter-spacing:.11em;color:#87c6ed;font-size:11px;font-weight:800;margin:0}.sub,.note,.small{font-size:12px;color:var(--muted)}.sub{margin:2px 0}.tag{font-size:11px;font-weight:800;white-space:normal;color:#e5d4a8;background:#3c322c;border:1px solid #655b4b;padding:8px 10px;border-radius:22px}.layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(275px,.75fr);gap:12px}.workspace,.sidebar{min-width:0}.card{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:13px;margin-bottom:12px;box-shadow:0 8px 25px #080e1d22}.flex{display:flex;align-items:center;gap:7px;flex-wrap:wrap}.split{justify-content:space-between}.btn{border:1px solid #446481;color:#f0f6ff;background:#213653;border-radius:10px;min-height:42px;padding:8px 11px;touch-action:manipulation}.btn:active{background:#355c82}.btn.active,.btn.primary{background:#23587f;border-color:#6cb6e8}.btn.warn{border-color:#825b63;color:#ffcccc}.btn:disabled{opacity:.43;cursor:default}.filelabel{display:inline-flex;align-items:center}.toolbar select,select{min-height:38px;border:1px solid #58708b;border-radius:8px;background:#243b58;color:var(--text);max-width:180px}.toolbar2{display:grid;gap:7px;margin-top:11px}.toolbar2 .flex{gap:5px}.toolbar2 input[type=range]{width:95px}input[type=range]{accent-color:#80c8f7}.layers{margin:10px 0}.layers label{border:1px solid var(--line);padding:5px 7px;border-radius:7px;white-space:nowrap}.arenaWrap{display:grid;grid-template-columns:minmax(0,1fr) 158px;gap:9px}.viewport{height:min(68vh,610px);min-height:280px;overflow:auto;overscroll-behavior:contain;border:1px solid #3b526e;border-radius:11px;background:#0b182b;padding:7px;touch-action:none;scrollbar-color:#567391 transparent}.board{display:grid;grid-template-columns:repeat(var(--n),var(--cell));gap:var(--gap);width:max-content;height:max-content}.tile{display:grid;place-items:center;position:relative;width:var(--cell);height:var(--cell);background:#243951;border:1px solid #3b5673;border-radius:5px;color:var(--text);padding:0;touch-action:none}.tile.alt{background:#2a435b}.tile.ground-grass{background:#235247}.tile.ground-sand{background:#695237}.tile.ground-water{background:#264b78}.tile.danger{background:repeating-linear-gradient(135deg,#754634,#754634 7px,#8a503a 7px,#8a503a 13px)}.tile.wall{background:#737987;box-shadow:inset 0 0 0 3px #525e6a}.tile.reachable{box-shadow:inset 0 0 0 2px #51c7f7}.tile.chosen{outline:3px solid #ffe397;outline-offset:-3px}.tile .coord{position:absolute;top:1px;left:3px;font-size:9px;color:#d2e0e8}.tile .token{font-weight:900;font-size:12px;border-radius:50%;width:76%;height:76%;display:grid;place-items:center;border:2px solid #e4f2ff;background:#236aa7;box-shadow:0 2px 7px #0007}.token.enemy{background:#a7474d}.token.neutral{background:#817043}.tile:focus-visible,.btn:focus-visible{outline:3px solid #fff}.mini{border:1px solid var(--line);background:#111e32;border-radius:10px;padding:8px}.mini canvas{width:100%;height:auto;aspect-ratio:1;image-rendering:pixelated;touch-action:manipulation}.mini p{font-size:11px;color:var(--muted);margin:5px 0}.message{padding:10px;background:#233652;border-radius:9px;margin-top:10px;min-height:42px}.stats{display:flex;flex-wrap:wrap;gap:7px;font-size:12px;color:var(--muted);margin-bottom:8px}.stats span{border:1px solid var(--line);border-radius:9px;padding:5px 8px}.unitList{display:grid;gap:5px;max-height:260px;overflow:auto;margin-bottom:11px}.unitBtn{padding:8px 9px;border-radius:9px;background:#213653;border:1px solid #3e5977;display:flex;align-items:center;gap:9px;text-align:left;color:var(--text)}.unitBtn.sel{border-color:var(--gold);background:#34435a}.bubble{border-radius:50%;width:28px;height:28px;background:#236aa7;display:grid;place-items:center;font-weight:800;flex:none}.bubble.enemy{background:#ad515b}.bubble.neutral{background:#8d723e}.unitBtn small{display:block;color:var(--muted);font-size:11px}.form{border:1px solid var(--line);padding:10px;border-radius:9px;margin-top:10px}.form.hidden{display:none}.form label{display:block;font-size:12px;margin:6px 0}.form input,.form select,textarea{width:100%;background:#0d1c31;color:var(--text);border:1px solid #58708b;border-radius:7px;padding:9px;min-height:40px}.formGrid{display:grid;grid-template-columns:1fr 1fr;gap:6px}textarea{resize:vertical;min-height:80px}.log,.eventList{max-height:230px;overflow:auto;display:grid;gap:5px}.log p,.eventList button{font-size:12px;color:#d4e1ef;background:#122139;border:1px solid #263e57;border-radius:6px;padding:7px;margin:0;text-align:left}.eventList button.current{border-color:var(--gold)}.replayLayout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.85fr);gap:11px;margin-top:10px}.replayView{position:relative;overflow:auto;background:#0b182b;min-height:230px;max-height:320px;border:1px solid var(--line);border-radius:9px;padding:6px}.replayGrid{display:grid;grid-template-columns:repeat(var(--n),var(--t));gap:2px;width:max-content}.replayCell{height:var(--t);width:var(--t);background:#28435e;border:1px solid #426181;border-radius:3px}.replayCell.wall{background:#737987}.replayPieces{pointer-events:none;position:absolute;left:6px;top:6px}.replayPiece{position:absolute;width:var(--t);height:var(--t);display:grid;place-items:center;font-weight:800;transition:transform .30s ease;will-change:transform}.replayPiece span{display:grid;place-items:center;width:70%;height:70%;border-radius:50%;background:#2371af;border:2px solid #e6f1fc}.replayPiece.enemy span{background:#a7474d}.replayPiece.neutral span{background:#927c42}.info{border-left:3px solid var(--gold);background:#263650;border-radius:7px;padding:9px;margin-bottom:7px;white-space:pre-wrap;font-size:12px}.card input[type=range]{flex:1;min-width:75px}.tiny{font-size:10px;color:#c0cddc}footer{color:var(--muted);font-size:11px;text-align:center;padding:6px}#perf{margin-left:auto}@media(max-width:870px){.layout{grid-template-columns:1fr}.sidebar{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start}.sidebar .card{margin-bottom:0}.replayLayout{grid-template-columns:1fr 1fr}}@media(max-width:560px){.shell{padding:9px 7px 28px}.card{padding:10px}.arenaWrap{grid-template-columns:1fr}.mini{display:flex;align-items:center;gap:9px}.mini canvas{width:96px;flex:none}.mini p{flex:1}.sidebar{grid-template-columns:1fr}.replayLayout{grid-template-columns:1fr}.viewport{height:53vh;min-height:275px}.header{padding:4px}.btn{min-height:44px;padding:8px 9px}.toolbar2 .btn{font-size:12px}.tag{font-size:10px}.tile{border-radius:4px}.formGrid{grid-template-columns:1fr 1fr}}
+.tile .token[hidden],.tile .coord[hidden]{display:none!important}
+
+/* TEST18: o FOV afeta somente a renderização visual do Mestre; não oculta dados a clientes. */
+.tile.fov-explored{filter:brightness(.43) saturate(.55)}.tile.fov-hidden{filter:brightness(.17) saturate(.26)}.tile.fov-hidden .token{visibility:hidden}.tile.fov-explored .token{opacity:.4}
+
+/* TEST20–22: aviso bloqueante impede substituições silenciosas durante incerteza. */
+.storageOverlay,.restoreOverlay{position:fixed;inset:0;background:#030911e8;z-index:10000;display:grid;place-items:center;padding:12px;overflow:auto;}
+.storageOverlay[hidden],.restoreOverlay[hidden]{display:none!important}
+.storageModal{background:#172943;border:2px solid #d99b55;border-radius:16px;box-shadow:0 20px 70px #0009;padding:20px;max-width:520px;width:100%;color:#fff}
+.storageModal h2{font-size:19px}.storageModal p{font-size:14px;line-height:1.5}.storageModal .btn{min-height:46px;flex:1}
+@media(max-width:560px){.storageModal{padding:15px}.storageModal .flex{display:grid;grid-template-columns:1fr}}
+
+/* TEST25: régua semântica puramente visual, sem bloquear toques ou calcular combate. */
+.board{position:relative}
+.rulerOverlay{position:absolute;left:0;top:0;pointer-events:none;overflow:visible;z-index:9}
+.rulerOverlay[hidden]{display:none}
+.rulerOverlay line{stroke:#ffd66b;stroke-width:4;stroke-linecap:round;stroke-dasharray:6 5;filter:drop-shadow(0 1px 3px #000)}
+.tile.ruler-start{outline:3px solid #5ce8dd;outline-offset:-3px}
+.tile.ruler-end{outline:3px solid #ffcd64;outline-offset:-3px}
+#rulerStatus{display:inline-block;max-width:100%;white-space:normal;color:#dceca4}
+@media(max-width:560px){#rulerStatus{width:100%}}
+
+/* TEST28-29: persistent visual annotations share scene/history; SVG never intercepts gestures. */
+.markerOverlay{position:absolute;inset:0;z-index:7;pointer-events:none;overflow:visible}
+.markerOverlay .visual-mark{pointer-events:none;stroke-width:3;stroke-linejoin:round;filter:drop-shadow(0 1px 2px #06101e)}
+.visual-mark.pin{fill:#f7be5a;stroke:#283a4c}
+.visual-mark.note{fill:#77d5e7;stroke:#103a4c}
+.visual-mark.highlight{fill:#e3a2f433;stroke:#dda6fb}
+.markerCue{position:absolute;right:1px;top:1px;font-size:10px;font-weight:900;line-height:1;color:#fff0a5;pointer-events:none;text-shadow:0 1px 2px #000}
+.tile .markerCue[hidden]{display:none!important}
+.markerList{display:grid;gap:5px;max-height:185px;overflow:auto}
+.markerItem{border:1px solid #496a86;background:#1c3650;color:#eef5fb;text-align:left;padding:9px;border-radius:9px;min-height:44px;overflow-wrap:anywhere}
+.markerDialog{position:fixed;inset:0;background:#030911da;z-index:12000;display:grid;place-items:center;padding:12px}
+.markerDialog[hidden]{display:none!important}
+.markerLabel{display:block;margin:12px 0;color:#ebf0fa}
+.markerLabel input,.markerLabel select{display:block;margin-top:5px;width:100%;border:1px solid #6486a3;border-radius:8px;background:#102238;color:white;padding:11px;min-height:44px}
+.markerError{color:#ffb7a7;min-height:16px}
+.saveToast{position:fixed;z-index:8000;bottom:calc(16px + env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);max-width:min(94vw,430px);padding:14px 17px;background:#1d5d49;border:1px solid #80eac0;color:#f5fff9;border-radius:12px;box-shadow:0 10px 35px #000b;text-align:center;font-weight:750}
+.saveToast[hidden]{display:none!important}
+.saveToast[data-kind=warning]{background:#78501e;border-color:#f6cc6e}
+.saveToast[data-kind=error]{background:#742e3c;border-color:#faabb6}
+@media(max-width:560px){.markerDialog .storageModal .flex{display:grid;grid-template-columns:1fr}}
+
+/* TEST34 — contrato visual independente para FUTURA sala autoritativa, sem backend. */
+.roomCard{border-color:#47748c}.roomBadge{font-size:11px;font-weight:800;color:#e8f5ff;padding:6px 9px;border:1px solid #6687a2;border-radius:18px}.roomBadge[data-state=connected]{border-color:#75bba4;color:#befbd5}.roomBadge[data-state=error]{border-color:#d89a73;color:#ffd3bd}.roomBadge[data-state=resync]{border-color:#e2bd76;color:#ffe7ac}.roomGrid{display:grid;grid-template-columns:repeat(var(--room-n,7), minmax(0,1fr));max-width:350px;gap:3px;margin:10px 0}.roomCell{aspect-ratio:1;min-width:0;min-height:28px;border:1px solid #4c637b;border-radius:5px;background:#1e334e;color:#edf8ff;font-weight:850;font-size:12px;padding:1px;display:grid;place-items:center;touch-action:manipulation}.roomCell.wall{background:#6b7481}.roomCell.selected{outline:3px solid #f6da83;outline-offset:-3px}.roomCell.owned{box-shadow:inset 0 0 0 2px #5ac9af}.roomCell.enemy{background:#6b3544}.roomCell:disabled{opacity:.65}.roomRoster{display:flex;gap:5px;flex-wrap:wrap}.roomRoster span{background:#263d56;border:1px solid #486882;border-radius:9px;padding:4px 7px;font-size:11px}.roomEvents{max-height:125px;overflow:auto;color:#bfd6e9;font-size:12px;display:grid;gap:3px}.roomEvents p{margin:0;border-left:2px solid #78acdc;background:#17283e;padding:5px 7px}.roomCard select{min-height:44px}.roomCard .flex{gap:6px}.roomCard .btn{min-height:44px}@media(max-width:390px){.roomGrid{max-width:100%}.roomCell{min-height:30px}.roomCard .btn{flex:1}}
+
+#roomCode{min-height:44px;width:106px;max-width:106px;padding:8px;color:#bed6eb;background:#1a3048;border:1px solid #486684;border-radius:8px;cursor:default}
+
+.roomBadge[data-state=unknown]{border-color:#ffbe55;background:#442e24;color:#ffefb8}.roomBadge[data-state=offline]{opacity:.85}
+</style><style>/* PROVA TEST de ergonomia; NÃO altera regras, tokens, roteamento ou estados oficiais. */
+.arena-primeiro-botoes{display:none}
+@media(max-width:700px){
+  body.arena-primeiro .shell{padding:7px 7px 24px}
+  body.arena-primeiro .header{padding:3px 4px 5px;gap:4px}
+  body.arena-primeiro .header .eyebrow,body.arena-primeiro .header .sub{display:none}
+  body.arena-primeiro .header h1{font-size:21px;margin:0}
+  body.arena-primeiro .header .tag{font-size:9px;padding:4px 8px}
+  .arena-primeiro-botoes{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:5px 0 8px}
+  .arena-primeiro-botoes .btn{min-height:40px;padding:5px 9px}
+  .arena-primeiro-indicador{font-size:11px;color:#f8d98a}
+  body.arena-primeiro:not(.arena-tools-open) .workspace .card.toolbar,
+  body.arena-primeiro:not(.arena-tools-open) .workspace .battle-map-primary .toolbar2,
+  body.arena-primeiro:not(.arena-tools-open) .workspace .battle-map-primary .layers,
+  body.arena-primeiro:not(.arena-tools-open) .workspace .battle-map-primary .mini,
+  body.arena-primeiro:not(.arena-tools-open) .workspace .battle-map-primary > .flex.split > .flex{display:none}
+  body.arena-primeiro:not(.arena-tools-open) .battle-map-primary{padding:8px;margin-bottom:8px}
+  body.arena-primeiro:not(.arena-tools-open) .battle-map-primary > .flex.split{margin-bottom:5px}
+  body.arena-primeiro:not(.arena-tools-open) .battle-map-primary .arenaWrap{grid-template-columns:minmax(0,1fr)}
+  body.arena-primeiro:not(.arena-tools-open) .battle-map-primary .viewport{height:min(64dvh,570px);min-height:370px;max-height:none}
+  body.arena-primeiro:not(.arena-tools-open) .battle-map-primary .message{margin-top:6px}
+}
+</style><style>/* Extensão independente: apresentação ambiental TEST, sem ações mecânicas */
+#scene-test-panel{border:1px solid #4c825c;background:linear-gradient(120deg,#183a36,#14273c);border-radius:12px;padding:12px;margin:8px 0 12px;color:#f0f7ed}
+#scene-test-panel .head{display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}
+#scene-test-panel .scene-buttons{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+#scene-test-panel button{background:#244453;color:#fff;border:1px solid #5f8d80;border-radius:8px;padding:9px 12px;font-weight:650}
+#scene-test-panel button[aria-pressed="true"]{background:#c9a766;color:#142a32}
+#scene-test-panel p{margin:6px 0;color:#c9ddd5;font-size:12px}
+#viewport{position:relative;isolation:isolate}
+#viewport::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:9;opacity:0;transition:opacity .3s;background:transparent}
+#viewport.scene-rain::after{opacity:.6;background:repeating-linear-gradient(105deg,transparent 0 8px,rgba(133,211,255,.2) 8px 9px,transparent 9px 18px);animation:rainfallTest 1s linear infinite}
+#viewport.scene-night::after{opacity:1;background:linear-gradient(115deg,rgba(5,20,49,.7),rgba(16,25,65,.54));}
+#viewport.scene-night .tile{filter:brightness(.77) saturate(.92)}
+#viewport.scene-rain .tile.ground-grass{filter:saturate(1.17) brightness(.85)}
+#viewport.scene-day .tile.ground-grass{background-image:radial-gradient(circle at 16% 15%,#347e5a 0 2px,transparent 3px),radial-gradient(circle at 64% 56%,#499963 0 2px,transparent 3px)}
+#viewport.scene-day .tile.ground-water{background-image:repeating-linear-gradient(-20deg,transparent 0 8px,rgba(148,239,247,.23) 8px 11px,transparent 11px 20px)}
+@keyframes rainfallTest{from{background-position:0 0}to{background-position:-22px 38px}}
+@media (max-width:600px){#scene-test-panel{padding:9px}#scene-test-panel button{min-height:38px;padding:7px 9px}}
+@media (prefers-reduced-motion: reduce){#viewport.scene-rain::after{animation:none}}
+</style></head>
+<body><main class="shell">
+<header class="header"><div><p class="eyebrow">ASSIMILAÇÃO • LABORATÓRIO SINTÉTICO</p><h1>⚔ Tabletop Assimilação</h1><p class="sub">Mesa digital TEST • offline após carregar • dados locais, sem conexão ao RPG oficial</p></div><div class="tag">TEST 36 · SALA SINTÉTICA EM BANCADA</div></header>
+<div class="layout">
+<section class="workspace">
+<div class="arena-primeiro-botoes" role="group" aria-label="Controles compactos para Android">
+<button class="btn primary" id="arenaFocusToggle" type="button" aria-expanded="false" aria-controls="arenaTools">⚙ Ferramentas</button>
+<button class="btn" id="arenaUnitsJump" type="button">◉ Unidades</button>
+<span class="arena-primeiro-indicador">Modo Arena • TEST</span>
+</div>
+<div class="card toolbar" id="arenaTools"><div class="flex split"><div class="flex"><label class="small" for="scenes">Cena</label><select id="scenes" aria-label="Cena ativa"></select><button id="newScene" class="btn">+ Cena</button><button id="copyScene" class="btn">Duplicar</button><button id="deleteScene" class="btn warn">Excluir</button></div><div class="flex"><button id="save" class="btn primary">Salvar no aparelho</button><button id="backup" class="btn">↓ Backup</button><label class="btn filelabel" for="restore">↑ Restaurar</label><input type="file" id="restore" accept=".json,application/json" hidden></div></div><p class="note" id="storageStatus">As cenas são TEST; exporte backup para não perdê-las se limpar o navegador.</p></div>
+<div class="card"><div class="flex split"><div><strong id="sceneHeading">Mapa interativo</strong><span class="small" id="sceneMeta"></span></div><div class="flex"><label class="small" for="gridSize">Grade</label><select id="gridSize"><option>5</option><option selected>7</option><option>10</option><option>20</option></select><button class="btn" id="center">◎ Centralizar</button><button class="btn" id="focus">⌖ Unidade</button></div></div>
+<div class="toolbar2"><div class="flex"><button class="btn active" data-mode="play">Mover</button><button class="btn" data-mode="pan">✋ Mapa</button><button class="btn" data-mode="wall">🧱 Parede</button><button class="btn" data-mode="danger">🔥 Perigo</button><button class="btn" data-mode="terrain">🌿 Terreno</button><button class="btn" data-mode="erase">⌫ Apagar</button><button class="btn" data-mode="place">◉ Posicionar</button><button class="btn" data-mode="mark" title="Marcar ou anotar a casa, sem combate" aria-label="Modo de marcadores e anotações">📍 Marcar</button><button class="btn" data-mode="measure" title="Dois toques: somente medida geométrica TEST" aria-label="Ativar régua geométrica experimental">📏 Régua</button></div><div class="flex"><button class="btn" id="undo">↶</button><button class="btn" id="redo">↷</button><button class="btn" id="zoomOut" aria-label="Diminuir zoom">−</button><input id="zoom" type="range" min="28" max="84" step="4" value="44" aria-label="Zoom do mapa"><button class="btn" id="zoomIn" aria-label="Aumentar zoom">+</button><span id="zoomLabel" class="small">44 px</span></div></div>
+<div class="flex small layers"><span>Camadas:</span><label><input id="layerCoords" type="checkbox" checked> Coordenadas</label><label><input id="layerReach" type="checkbox" checked> Alcance TEST</label><label><input id="layerDanger" type="checkbox" checked> Perigos</label><label title="Somente visual, não é furtividade nem percepção oficial"><input id="layerFov" type="checkbox"> Visão TEST</label><label for="fovRadius" class="small">Raio <select id="fovRadius" aria-label="Raio de visão sintético"><option>4</option><option selected>8</option><option>12</option><option>20</option></select></label><span id="fovStatus" class="small">FOV desligado</span><span id="rulerStatus" class="small" role="status" aria-live="polite">Régua: dois toques no mapa · nenhuma regra de alcance.</span><span id="perf" class="small"></span></div>
+<div class="arenaWrap"><section id="scene-test-panel" aria-label="Apresentação ambiental TEST" role="group"><div class="head"><strong>🌿 Ambiente da Arena — TEST visual</strong><small>NÃO altera movimento, FOV, PA, dano ou regras</small></div><div class="scene-buttons"><button type="button" data-scene="day">☀️ Dia</button><button type="button" data-scene="rain">🌧️ Chuva</button><button type="button" data-scene="night">🌙 Noite</button><button type="button" id="scene-export">Ver contrato JSON</button></div><p id="scene-test-info" aria-live="polite"></p><textarea id="scene-export-output" hidden readonly rows="6" style="width:100%;font:11px monospace;background:#0b1720;color:#d3eddc"></textarea></section><div id="viewport" class="viewport" aria-label="Mapa editável com movimento e zoom"><div id="board" class="board" role="grid" aria-label="Tabuleiro de combate experimental"><svg id="rulerOverlay" class="rulerOverlay" aria-hidden="true" hidden><line id="rulerSegment" x1="0" y1="0" x2="0" y2="0" /></svg><svg id="markerOverlay" class="markerOverlay" aria-hidden="true"></svg></div></div><div class="mini"><canvas id="minimap" width="180" height="180" aria-label="Minimapa tocável"></canvas><p>Toque para enquadrar. Dois dedos: pinça. Use ✋ para arrastar com um dedo.</p></div></div>
+<div id="message" class="message" role="status" aria-live="polite">Cena TEST carregada.</div></div>
+<div class="card"><div class="flex split"><h2>🎞 Replay sintético</h2><div class="flex"><button class="btn" id="record">Capturar quadro</button><button class="btn" id="replayExport">↓ Replay</button><label for="replayImport" class="btn filelabel">↑ Importar</label><input id="replayImport" type="file" accept=".json,application/json" hidden></div></div><div class="flex"><button class="btn" id="replayFirst">⏮</button><button class="btn" id="replayPrev">◀</button><button class="btn primary" id="replayPlay">▶ Reproduzir</button><button class="btn" id="replayNext">▶|</button><input id="replaySeek" type="range" min="0" max="0" value="0" aria-label="Passo do replay"><select id="replaySpeed" aria-label="Velocidade de replay"><option value="1400">Lento</option><option selected value="700">Normal</option><option value="250">Rápido</option></select><span class="small" id="replayCounter">0/0</span></div><div class="replayLayout"><div class="replayView"><div id="replayGrid" class="replayGrid"></div><div id="replayPieces" class="replayPieces"></div></div><div><div id="replayInfo" class="info">Nenhum quadro capturado.</div><div id="eventList" class="eventList"></div></div></div></div>
+</section>
+<aside class="sidebar"><div class="card"><div class="flex split"><h2>👑 Painel do Mestre • TEST</h2><span class="tiny">Dados fictícios</span></div><div class="stats"><span id="unitCount">0 unidades</span><span id="roundCount">Rodada TEST 1</span><span id="activeSceneCount">1 cena</span></div><div id="unitList" class="unitList"></div><div class="flex"><button class="btn" id="newToken">+ Token</button><button class="btn" id="editToken">Editar selecionado</button><button class="btn warn" id="removeToken">Remover</button></div><div id="tokenForm" class="form hidden" aria-label="Editar unidade TEST"><label>Nome TEST<input id="tokName" maxlength="48" autocomplete="off"></label><label>Marca<input id="tokMark" maxlength="2" autocomplete="off"></label><label>Equipe<select id="tokTeam"><option value="ally">Aliado</option><option value="enemy">Adversário</option><option value="neutral">Neutro</option></select></label><div class="formGrid"><label>Vida TEST<input id="tokHp" inputmode="numeric" type="number" min="0" max="99999"></label><label>Alma TEST<input id="tokSoul" inputmode="numeric" type="number" min="0" max="99999"></label><label>PA TEST<input id="tokPa" inputmode="numeric" type="number" min="0" max="99999"></label><label>Alcance TEST<input id="tokRange" inputmode="numeric" type="number" min="1" max="20"></label></div><div class="flex"><button class="btn primary" id="commitToken">Aplicar TEST</button><button class="btn" id="cancelToken">Cancelar</button></div></div></div>
+<section class="card roomCard" id="roomPanel" aria-labelledby="roomHeading"><div class="flex split"><h2 id="roomHeading">🌐 Sala compartilhada — TEST 36</h2><span class="roomBadge" id="roomStatus" role="status" aria-live="polite">Desconectado</span></div><p class="note">Prévia LOCAL com snapshots sintéticos. Não conecta aparelhos, não autentica usuários, não transmite dados reais. O servidor competente ainda não está conectado.</p><div class="flex"><label class="small" for="roomCode">Sala TEST <input id="roomCode" value="arena-test" readonly aria-label="Identificador da sala de demonstração"></label><label class="small" for="roomProfile">Perfil sintético <select id="roomProfile"><option value="gm">Mestre DEMO</option><option value="p1">Player 1 DEMO</option><option value="p2">Player 2 DEMO</option></select></label><label class="small" for="roomProtocol">Protocolo TEST <select id="roomProtocol"><option value="v1">Legado v1</option><option value="v2">Candidato v2 + recibos</option></select></label><button id="roomConnect" class="btn primary">Entrar na bancada</button><button id="roomDisconnect" class="btn">Sair</button><button id="roomResync" class="btn">↻ Recarregar estado</button><button id="roomReceipt" class="btn" title="Consulta o comprovante da mesma intenção, sem criar comando">🔎 Consultar recibo</button></div><p class="small" id="roomModeNotice" role="status">DEMO local: nenhum perfil concede autenticação real.</p><p class="small" id="roomIdentity" aria-live="polite">Sem sala ativa.</p><div id="roomRoster" class="roomRoster" aria-label="Participantes sintéticos"></div><div id="roomGrid" class="roomGrid" role="grid" aria-label="Snapshot sintético remoto"></div><p class="note" id="roomHint">Selecione uma unidade da sua conta no quadro, depois toque um destino para ENVIAR uma intenção, sem mover localmente.</p><div id="roomEvents" class="roomEvents" aria-live="polite"></div></section><div class="card"><div class="flex split"><h2>🗺 Detalhes da cena</h2><button class="btn" id="renameScene">Renomear</button></div><label class="small" for="sceneNotes">Anotações locais</label><textarea id="sceneNotes" maxlength="800" rows="3" placeholder="Notas experimentais desta cena, salvas localmente."></textarea><div class="flex"><button class="btn" id="nextRound">⏭ Nova rodada TEST</button><button class="btn" id="resetScene">↻ Limpar cena</button></div></div><div class="card"><div class="flex split"><h2>📍 Marcações TEST</h2><span id="markerCount" class="small">0 / 40</span></div><p class="note">Use 📍 Marcar e toque uma casa para incluir, editar ou remover. Dados locais por cena; não são fichas ou regras oficiais.</p><div id="markerList" class="markerList" aria-label="Marcações da cena"></div></div><div class="card"><h2>📜 Histórico TEST</h2><div id="log" class="log"></div></div><div class="card"><h2>Dados e segurança</h2><p class="note">Esta demonstração usa somente atores e valores inventados. Sem login, sem envio de dados, sem integração Notion/VLAB. Arquivos que você importar ficam no seu navegador; não importe dados privados em site público.</p></div></aside></div>
+<footer>LAB-INOV / TEST • sem motor oficial de combate • nenhuma alteração em Party, O Primeiro, VLAB ou cânone</footer></main><section id="storageConflict" class="storageOverlay" role="alertdialog" aria-modal="true" aria-labelledby="storageConflictHeading" hidden><div class="storageModal"><h2 id="storageConflictHeading">⚠ Persistência indeterminada</h2><p id="storageConflictInfo"></p><p>O estado aberto pode ser diferente do que o navegador gravou. Exporte a cena em memória antes de recarregar.</p><div class="flex"><button class="btn primary" id="storageExport">↓ Exportar estado aberto</button><button class="btn" id="storageRawExport">↓ Exportar arquivo armazenado</button><button class="btn" id="storageRecheck">Conferir armazenamento</button><button class="btn" id="storageAdopt">Adotar o gravado após conferência</button></div></div></section>
+<div id="saveToast" class="saveToast" role="status" aria-live="polite" hidden></div>
+<section id="restoreReview" class="restoreOverlay" role="dialog" aria-modal="true" aria-labelledby="restoreReviewHeading" hidden><div class="storageModal"><h2 id="restoreReviewHeading">⚠ Revisar restauração antiga</h2><p id="restoreReviewSummary"></p><div class="flex"><button class="btn" id="restoreReviewCancel">Cancelar</button><button class="btn primary" id="restoreReviewExport">↓ Exportar atual</button><button class="btn warn" id="restoreReviewConfirm">Substituir cenas</button></div></div></section>
+<section id="markerDialog" class="markerDialog" role="dialog" aria-modal="true" aria-labelledby="markerHeading" hidden><div class="storageModal"><h2 id="markerHeading">Marcação TEST</h2><label class="markerLabel" for="markerKind">Tipo visual <select id="markerKind"><option value="pin">◆ Marcador</option><option value="note">✎ Anotação</option><option value="highlight">◎ Destaque</option></select></label><label class="markerLabel" for="markerText">Texto curto (até 100 caracteres)<input id="markerText" maxlength="100" autocomplete="off" placeholder="Ex.: Entrada da caverna TEST"></label><p id="markerFormError" class="markerError" role="alert"></p><div class="flex"><button id="markerCancel" class="btn">Cancelar</button><button id="markerDelete" class="btn warn">Remover</button><button id="markerSave" class="btn primary">Salvar marcação</button></div></div></section>
+<script>/* Tabletop Assimilação — TEST27–33, FRONT-END AUTORAL / SINTÉTICO.
+ * Não contém motores de combate, contas, rede, credenciais ou dados canônicos.
+ * TEST 06 original preservado separadamente; esta é evolução do modelo visual.
+ */
+(()=>{'use strict';
+const $=id=>document.getElementById(id), clone=x=>JSON.parse(JSON.stringify(x));
+const MAX_SCENES=8, MAX_UNITS=30, MAX_EVENTS=100, MAX_LOGS=80, MAX_MARKERS=40, MAX_FILE=750000;
+const KEY='assim.tabletop.synthetic.workspace.v1', WORKSCHEMA='assim.tabletop.synthetic.workspace.v1', REPLAYSCHEMA='assim.lab.vlab.readonly.v1';
+const validId=x=>typeof x==='string'&&/^[a-z0-9_-]{1,32}$/.test(x)&&!['__proto__','constructor','prototype'].includes(x);
+const textOK=(x,max=80)=>typeof x==='string'&&x.length>0&&x.length<=max&&!/[<>\u0000-\u001f]/.test(x);
+const plain=x=>x!==null&&typeof x==='object'&&!Array.isArray(x)&&Object.getPrototypeOf(x)===Object.prototype;
+const safeKeys=(x)=>plain(x)&&Object.keys(x).every(k=>!['__proto__','constructor','prototype'].includes(k));
+const allowedSize=[5,7,10,20], xy=(x,y)=>`${x},${y}`, inside=(x,y,n)=>Number.isInteger(x)&&Number.isInteger(y)&&x>=0&&y>=0&&x<n&&y<n;
+const equal=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
+// TEST30: only one textual encoding represents each map cell. No leading zero aliases.
+const parseCoord=(key,n)=>{
+ if(typeof key!=='string'||!/^\d+,\d+$/.test(key))return null;
+ const [x,y]=key.split(',').map(Number);return inside(x,y,n)?{x,y,key:xy(x,y)}:null;
+};
+const isCanonicalCoord=(key,n)=>{const p=parseCoord(key,n);return Boolean(p&&key===p.key);};
+// Pure planner for explicit legacy-backup normalization. It never edits input/storage.
+function planCoordinateMigration(raw){
+ if(!safeKeys(raw)||raw.schema!==WORKSCHEMA||raw.version!==1||!Array.isArray(raw.scenes))return {status:'INVALID_SOURCE',reason:'Schema incompatível'};
+ const w=migrateWorkspace(clone(raw));let changes=0;
+ try{for(const sc of w.scenes){
+  if(!safeKeys(sc)||!allowedSize.includes(sc.n)||!safeKeys(sc.terrain))throw Error('Cena inválida');
+  let changedWalls=false;
+  for(const prop of ['walls','danger','explored']){
+   if(!Array.isArray(sc[prop]))throw Error('Camada inválida: '+prop);
+   const mapped=[],unique=new Set();
+   for(const key of sc[prop]){
+    const canon=parseCoord(key,sc.n);if(!canon)throw Error('Coordenada inválida em '+prop);
+    if(unique.has(canon.key))return {status:'CONFLICT',reason:'Coordenadas equivalentes duplicadas em '+prop};
+    unique.add(canon.key);mapped.push(canon.key);
+    if(key!==canon.key){changes++;if(prop==='walls')changedWalls=true;}
+   }sc[prop]=mapped;
+  }
+  const terrain={},terrainIds=new Set();
+  for(const [key,val] of Object.entries(sc.terrain)){
+   const canon=parseCoord(key,sc.n);if(!canon)throw Error('Terreno em coordenada inválida');
+   if(terrainIds.has(canon.key))return {status:'CONFLICT',reason:'Terrenos equivalentes duplicados'};
+   terrainIds.add(canon.key);terrain[canon.key]=val;if(key!==canon.key)changes++;
+  }sc.terrain=terrain;
+  if(changedWalls&&(sc.frames?.length||sc.frameTopology!==null))return {status:'CONFLICT',reason:'Replay vinculado à topologia anterior; exporte e revise antes de normalizar paredes'};
+ }
+ }catch(e){return {status:'INVALID_SOURCE',reason:String(e.message||e)};}
+ if(!validateWorkspace(w))return {status:'CONFLICT',reason:'Colisão de topologia, unidade, perigo ou outro dado inválido após normalização'};
+ return {status:changes?'SAFE_NORMALIZATION':'NO_CHANGE',changes,candidate:w};
+}
+
+const stamp=()=>new Date().toISOString().slice(0,19);
+const unit=(id,name,mark,team,x,y)=>({id,name,mark,team,x,y,range:1,hp:100,soul:50,pa:60});
+function newScene(id='c1',name='Cena de exploração TEST',n=7){return {id,name,n,walls:[],danger:[],terrain:{},markers:[],units:[unit('u1','Exploradora TEST','E','ally',1,1),unit('u2','Conjurador TEST','C','ally',1,3),unit('u3','Criatura TEST','X','enemy',n-2,2)],selected:'u1',mode:'play',round:1,stepsUsed:0,acted:false,logs:['Cena sintética criada; nenhuma fonte oficial.'],notes:'',frames:[],frameTopology:null,explored:[],fovEnabled:false,fovRadius:8};}
+const defaultWorkspace=()=>({schema:WORKSCHEMA,version:1,revision:0,active:'c1',scenes:[newScene()]});
+let workspace=defaultWorkspace(),history=[],future=[],zoom=44,playTimer=null,viewReplay=null,replayOrigin=null,frameIndex=0,renderLast=0;
+let editingNew=false,editingId=null,lastCell=null,gesture={pointers:new Map(),start:null,suppress:false,dragged:false};
+let storageState='COMMITTED_VERIFIED',storageUncertain=null,externalConflict=null,lastVerifiedRaw=null,pendingRestore=null,restoreDialogOpen=false,markerDialogOpen=false,markerEditId=null,markerTarget=null,toastTimer=null;
+// Régua visual, não persistida e sem regras oficiais: um par de células da cena ativa.
+let rulerA=null,rulerB=null,rulerSceneId=null;
+
+const scene=()=>workspace.scenes.find(s=>s.id===workspace.active), selected=()=>scene().units.find(u=>u.id===scene().selected);
+const note=t=>{$('message').textContent=t;};
+function pushLog(s,t){s.logs.unshift(`[${stamp()}] ${t}`);s.logs=s.logs.slice(0,MAX_LOGS);}
+function migrateWorkspace(w){
+ // Migration limited to TEST15 v1 fields; do not rewrite unknown schema versions.
+ if(!safeKeys(w)||w.schema!==WORKSCHEMA||w.version!==1||!Array.isArray(w.scenes))return w;
+ if(!Object.hasOwn(w,'revision'))w.revision=0;
+ for(const sc of w.scenes){if(safeKeys(sc)){
+   if(!Object.hasOwn(sc,'markers'))sc.markers=[];
+   if(!Object.hasOwn(sc,'explored'))sc.explored=[];
+   if(!Object.hasOwn(sc,'fovEnabled'))sc.fovEnabled=false;
+   if(!Object.hasOwn(sc,'fovRadius'))sc.fovRadius=8;
+ }}return w;
+}
+function validateScene(s){
+ if(!safeKeys(s)||!validId(s.id)||!textOK(s.name,70)||!allowedSize.includes(s.n)||!Array.isArray(s.units)||s.units.length>MAX_UNITS||!Array.isArray(s.walls)||!Array.isArray(s.danger)||!safeKeys(s.terrain)||!Array.isArray(s.logs)||s.logs.length>MAX_LOGS||!textOK(s.mode,20)||!['play','pan','wall','danger','terrain','erase','place','measure','mark'].includes(s.mode)||!Number.isSafeInteger(s.round)||s.round<1||s.round>999999||!Number.isSafeInteger(s.stepsUsed)||s.stepsUsed<0||s.stepsUsed>4||typeof s.acted!=='boolean'||typeof s.notes!=='string'||s.notes.length>800||!Array.isArray(s.frames)||s.frames.length>MAX_EVENTS)return false;
+ const ids=new Set(),where=new Set();for(const u of s.units){if(!safeKeys(u)||!validId(u.id)||ids.has(u.id)||!textOK(u.name,48)||!textOK(u.mark,2)||!['ally','enemy','neutral'].includes(u.team)||!inside(u.x,u.y,s.n)||where.has(xy(u.x,u.y))||!Number.isInteger(u.range)||u.range<1||u.range>20||![u.hp,u.soul,u.pa].every(v=>Number.isInteger(v)&&v>=0&&v<=99999))return false;ids.add(u.id);where.add(xy(u.x,u.y));}
+ if(s.selected!==null&&!ids.has(s.selected))return false;
+ for(const list of [s.walls,s.danger]){if(list.length>s.n*s.n||new Set(list).size!==list.length)return false;for(const key of list){if(!isCanonicalCoord(key,s.n)||where.has(key))return false;}}
+ if(s.walls.some(x=>s.danger.includes(x)||Object.hasOwn(s.terrain,x)))return false;
+ for(const [k,v] of Object.entries(s.terrain)){if(!isCanonicalCoord(k,s.n)||!['grass','sand','water'].includes(v))return false;}
+ // Markers are independent presentation data, scoped to a scene and never gameplay units.
+ if(!Array.isArray(s.markers)||s.markers.length>MAX_MARKERS)return false;
+ const markerIds=new Set(),markerCells=new Set();for(const m of s.markers){
+  if(!safeKeys(m)||!validId(m.id)||markerIds.has(m.id)||markerCells.has(xy(m.x,m.y))||!inside(m.x,m.y,s.n)||
+     !['pin','note','highlight'].includes(m.kind)||!textOK(m.text,100)||
+     Object.keys(m).some(k=>!['id','x','y','kind','text'].includes(k)))return false;
+  markerIds.add(m.id);markerCells.add(xy(m.x,m.y));
+ }
+ if(s.logs.some(x=>typeof x!=='string'||x.length>400||/[<>]/.test(x)))return false;
+ if(s.frameTopology!==null&&s.frameTopology!==topology(s))return false;
+ if(s.frames.length>0&&s.frameTopology===null)return false;
+ if(!Array.isArray(s.explored)||s.explored.length>s.n*s.n||new Set(s.explored).size!==s.explored.length||typeof s.fovEnabled!=='boolean'||!Number.isSafeInteger(s.fovRadius)||s.fovRadius<2||s.fovRadius>20)return false;
+ for(const k of s.explored){if(!isCanonicalCoord(k,s.n))return false;}
+ for(const f of s.frames){if(!safeKeys(f)||!textOK(f.title,100)||!safeKeys(f.positions)||Object.keys(f.positions).length!==ids.size)return false;const occupied=new Set();for(const id of ids){const p=f.positions[id];if(!Array.isArray(p)||p.length!==2||!inside(p[0],p[1],s.n)||s.walls.includes(xy(...p))||occupied.has(xy(...p)))return false;occupied.add(xy(...p));}if(Object.keys(f.positions).some(k=>!ids.has(k)||!validId(k)))return false;}
+ return true;
+}
+function validateWorkspace(w){if(!safeKeys(w)||w.schema!==WORKSCHEMA||w.version!==1||!(w.revision===undefined||(Number.isSafeInteger(w.revision)&&w.revision>=0&&w.revision<1000000000))||!Array.isArray(w.scenes)||w.scenes.length<1||w.scenes.length>MAX_SCENES||!validId(w.active))return false;const ids=new Set();for(const s of w.scenes){if(!validateScene(s)||ids.has(s.id))return false;ids.add(s.id);}return ids.has(w.active);}
+// TEST20: three-valued durability; failed readback is NEVER proof of rollback.
+function persistError(status,message,cause){const error=new Error(message||String(cause?.message||cause||status));error.storageStatus=status;return error;}
+function storageGuard(){
+ if(storageUncertain)throw persistError('UNKNOWN_AFTER_WRITE','Persistência ainda indeterminada; exporte a memória e reconcilie antes de editar.');
+ if(externalConflict)throw persistError('EXTERNAL_CONFLICT','Outra aba alterou o salvamento. Exporte a memória e confira a versão gravada antes de editar.');
+}
+function showToast(kind,message){
+ const toast=$('saveToast');if(!toast)return;
+ if(toastTimer!==null)clearTimeout(toastTimer);
+ toast.hidden=false;toast.dataset.kind=kind;toast.textContent=message;
+ if(kind==='success')toastTimer=setTimeout(()=>{toast.hidden=true;toastTimer=null;},3600);
+}
+function externalAlert(observed,reason){
+ if(storageUncertain)return;
+ externalConflict={observed,reason,verifiedCandidate:null,verifiedRaw:null};
+ storageState='EXTERNAL_CONFLICT';stopReplay();
+ if(restoreDialogOpen)cancelRestoreReview();
+ if(markerDialogOpen)closeMarkerDialog();
+ storageBanner('Outra aba alterou o salvamento ou há divergência de revisão. Exporte a memória, confira o armazenamento e escolha a versão. Nenhuma substituição automática será feita.');
+ showToast('warning','⚠ Conflito entre abas: alterações não foram sobrescritas.');
+ note('CONFLITO: outra aba modificou o salvamento. Exportar memória → Conferir armazenamento → Adotar explicitamente se desejar.');
+}
+
+function updateModalIsolation(){const root=document.querySelector('.shell');if(root)root.inert=Boolean(storageUncertain||externalConflict||restoreDialogOpen||markerDialogOpen);}
+function storageBanner(message){
+ updateModalIsolation();
+ const panel=$('storageConflict');if(!panel)return;
+ const active=Boolean(storageUncertain||externalConflict);
+ panel.hidden=!active;
+ $('storageConflictHeading').textContent=externalConflict?'⚠ Conflito entre abas':'⚠ Persistência indeterminada';
+ $('storageConflictInfo').textContent=active?(message||'O armazenamento pode conter dados diferentes. Exporte primeiro o estado aberto e confira o armazenamento.') : '';
+ if(active){$('storageStatus').textContent=externalConflict?'CONFLITO: OUTRA ABA ALTEROU O SALVAMENTO — confira antes de editar':'ATENÇÃO: PERSISTÊNCIA INDETERMINADA — exporte e reconcilie';$('storageExport').focus();}
+}
+// TEST27: optimistic localStorage check. Detection, NOT an atomic compare-and-swap.
+function persistChecked(candidate){
+ storageGuard();
+ if(!validateWorkspace(candidate))throw persistError('FAILED_CONFIRMED','Estado TEST inválido');
+ let previous;
+ try{previous=localStorage.getItem(KEY);}catch(e){storageState='FAILED_CONFIRMED';throw persistError('FAILED_CONFIRMED','Não foi possível ler o estado anterior; nenhuma gravação foi iniciada.',e);}
+ if(previous!==lastVerifiedRaw){externalAlert(previous,'PRE_WRITE_REVISION_MISMATCH');throw persistError('EXTERNAL_CONFLICT','O salvamento mudou desde que esta aba o leu. Nenhum write foi iniciado.');}
+ let previousRevision=workspace.revision??0;
+ if(previous!==null){try{const stored=JSON.parse(previous);if(Number.isSafeInteger(stored.revision)&&stored.revision>=0)previousRevision=stored.revision;else previousRevision=0;}catch(e){throw persistError('FAILED_CONFIRMED','Salvamento existente ilegível: exporte original antes de substituir.');}}
+ if(previousRevision>=999999998)throw persistError('FAILED_CONFIRMED','Limite de revisões atingido. Exporte backup.');
+ const next=clone(candidate);next.revision=previousRevision+1;
+ if(!validateWorkspace(next))throw persistError('FAILED_CONFIRMED','Estado candidato inválido');
+ const serialized=JSON.stringify(next);
+ if(serialized.length>MAX_FILE)throw persistError('FAILED_CONFIRMED','Salvamento acima de 750 KB; exporte um backup menor.');
+ let wrote=false,reason;
+ try{
+  localStorage.setItem(KEY,serialized);wrote=true;
+  if(localStorage.getItem(KEY)!==serialized)throw Error('Verificação de leitura local divergente');
+  storageState='COMMITTED_VERIFIED';candidate.revision=next.revision;lastVerifiedRaw=serialized;return true;
+ }catch(e){reason=e;}
+ try{
+  const now=localStorage.getItem(KEY);
+  if(now===previous){storageState='FAILED_CONFIRMED';throw persistError('FAILED_CONFIRMED','Gravação não confirmada; estado anterior relido. '+reason.message,reason);}
+  if(now!==previous){
+   if(previous===null)localStorage.removeItem(KEY);else localStorage.setItem(KEY,previous);
+   if(localStorage.getItem(KEY)===previous){storageState='FAILED_CONFIRMED';throw persistError('FAILED_CONFIRMED','Restauração recusada e estado anterior revalidado. '+reason.message,reason);}
+  }
+ }catch(e){if(e.storageStatus==='FAILED_CONFIRMED')throw e;}
+ storageState='UNKNOWN_AFTER_WRITE';
+ storageUncertain={previous,serialized,candidate:next,previousWorkspace:clone(workspace),cause:String(reason?.message||reason),wrote};
+ storageBanner('O navegador não confirmou o salvamento nem a reversão. Exporte o estado aberto ANTES de recarregar. Depois confira o armazenamento.');
+ throw persistError('UNKNOWN_AFTER_WRITE','Estado do armazenamento INDETERMINADO após tentativa de gravação; nenhum rollback confirmado.');
+}
+function saveLocal(quiet=true){
+ try{persistChecked(workspace);$('storageStatus').textContent='✓ Salvo e relido neste navegador · revisão '+workspace.revision+' · '+stamp();if(!quiet){note('✓ Salvo neste navegador, conferido por leitura. Backup é um arquivo separado.');showToast('success','✓ Salvo neste navegador — confirmado por leitura.');}return true;}
+ catch(e){
+  if(storageUncertain||externalConflict){storageBanner();note(externalConflict?'CONFLITO entre abas: exporte a memória e reconcilie; não houve sobrescrita.':'ATENÇÃO: persistência INDETERMINADA. Exporte o estado aberto; confira o armazenamento antes de editar.');showToast('warning',externalConflict?'⚠ Outra aba salvou alterações.':'⚠ Salvamento não confirmado.');}
+  else{$('storageStatus').textContent='NÃO SALVO: '+e.message+' • exporte backup';if(!quiet){note('FALHA ao salvar: '+e.message+'. As alterações atuais podem se perder ao reabrir.');showToast('error','✕ Salvamento não confirmado.');}}
+  return false;
+ }
+}
+function restoreCandidate(raw){
+ storageGuard();const candidate=migrateWorkspace(clone(raw));
+ persistChecked(candidate);
+ stopReplay();workspace=candidate;history=[];future=[];clearReplay();closeTokenForm();render();center();
+ $('storageStatus').textContent='Backup restaurado, gravado e relido · '+stamp();
+ return true;
+}
+function inspectReconcile(){
+ if(externalConflict){
+  let raw;try{raw=localStorage.getItem(KEY);}catch(e){storageBanner('Leitura indisponível: '+e.message+'. Exporte o estado aberto.');return 'UNREADABLE';}
+  if(raw===lastVerifiedRaw){externalConflict=null;storageState='COMMITTED_VERIFIED';storageBanner();note('Armazenamento alinhado novamente; nenhum dado substituído.');return 'ALIGNED';}
+  try{if(!raw||raw.length>MAX_FILE)throw Error('Salvamento ausente ou acima do limite');const planned=planCoordinateMigration(JSON.parse(raw));if(!['NO_CHANGE','SAFE_NORMALIZATION'].includes(planned.status))throw Error(planned.reason||planned.status);
+   const candidate=planned.candidate;externalConflict.verifiedCandidate=candidate;externalConflict.verifiedRaw=raw;externalConflict.migrationCount=planned.changes||0;
+   storageBanner((planned.changes?'Formato antigo: '+planned.changes+' chave(s) de coordenadas podem ser normalizadas mediante confirmação. ':'Versão externa válida encontrada. ')+candidate.scenes.length+' cena(s), revisão '+(candidate.revision??0)+'. Exporte a memória antes de decidir adotar.');return 'EXTERNAL_AVAILABLE';}
+  catch(e){storageBanner('Conteúdo externo inválido ou divergente. Preserve o estado aberto e o backup; não haverá importação automática. '+e.message);return 'INVALID_EXTERNAL';}
+ }
+ if(!storageUncertain)return 'CLEAR';
+ let current;try{current=localStorage.getItem(KEY);}catch(e){storageBanner('Leitura ainda indisponível: '+e.message+'. Preserve e exporte o estado aberto.');return 'UNREADABLE';}
+ const p=storageUncertain;
+ if(current===p.previous){storageUncertain=null;storageState='FAILED_CONFIRMED';storageBanner();$('storageStatus').textContent='Reconciliado: estado anterior confirmado no armazenamento.';note('Estado anterior confirmado; pode continuar a editar.');return 'STORED_PREVIOUS';}
+ if(current===p.serialized){storageBanner('O armazenamento contém o candidato restaurado, mas a tela mantém a versão anterior. Exporte antes de escolher “Adotar o gravado”.');return 'STORED_CANDIDATE';}
+ storageBanner('Armazenamento divergente do anterior e do candidato. Não substitua; exporte o estado em memória e reconcilie manualmente.');return 'DIVERGED';
+}
+function adoptReconciled(){
+ if(externalConflict){
+  if(inspectReconcile()!=='EXTERNAL_AVAILABLE')return false;
+  const known=externalConflict.verifiedRaw;
+  if(!window.confirm('A versão em outra aba tem '+externalConflict.verifiedCandidate.scenes.length+' cena(s). Adotá-la e DESCARTAR o estado em memória? Exporte primeiro se necessário.'))return false;
+  try{if(localStorage.getItem(KEY)!==known){storageBanner('Outra gravação ocorreu enquanto você confirmava. Confira novamente.');return false;}}
+  catch(e){storageBanner('Leitura falhou durante a confirmação. Nenhuma versão adotada.');return false;}
+  const restored=clone(externalConflict.verifiedCandidate),mig=externalConflict.migrationCount||0;
+  if(mig){
+   if(!window.confirm('O armazenamento contém '+mig+' chave(s) antigas de coordenadas. Normalizar e SALVAR agora, preservando a cópia bruta que você exportou?'))return false;
+   const held=externalConflict,originalExpected=lastVerifiedRaw;
+   externalConflict=null;lastVerifiedRaw=known;
+   try{persistChecked(restored);}catch(e){if(!storageUncertain){externalConflict=held;lastVerifiedRaw=originalExpected;storageBanner('Falha ao normalizar: '+e.message+'. Original preservado ou estado indeterminado.');}return false;}
+   workspace=restored;
+  }else{workspace=restored;lastVerifiedRaw=known;externalConflict=null;storageState='COMMITTED_VERIFIED';}
+  history=[];future=[];clearReplay();closeTokenForm();invalidateFov();storageBanner();render();center();
+  $('storageStatus').textContent='Versão externa adotada após leitura — revisão '+workspace.revision;note('Versão externa reconciliada sem sobrescrever o armazenamento.');return true;
+ }
+ if(!storageUncertain)return false;
+ const status=inspectReconcile();if(status!=='STORED_CANDIDATE')return false;
+ if(!window.confirm('O navegador contém o backup importado, diferente da cena aberta. Adotar a versão gravada agora? Exporte primeiro a cena aberta se precisar preservá-la.'))return false;
+ const p=storageUncertain;
+ try{if(localStorage.getItem(KEY)!==p.serialized){storageBanner('O armazenamento mudou durante a confirmação. Confira novamente.');return false;}}catch(e){return false;}
+ workspace=clone(p.candidate);lastVerifiedRaw=p.serialized;storageUncertain=null;storageState='COMMITTED_VERIFIED';history=[];future=[];clearReplay();closeTokenForm();storageBanner();render();center();
+ $('storageStatus').textContent='Versão gravada verificada e adotada · '+stamp();note('Versão persistida adotada após reconciliação.');return true;
+}
+function restoreReview(candidate){
+ const active=workspace.scenes, next=candidate.scenes, removed=active.filter(sc=>!next.some(v=>v.id===sc.id));
+ const changed=active.filter(sc=>next.some(v=>v.id===sc.id&&!equal(sc,v)));
+ return {currentCount:active.length,incomingCount:next.length,removedCount:removed.length,changedCount:changed.length,requiresReview:next.length<active.length||removed.length>0||changed.length>0};
+}
+function showRestoreReview(raw,stats){
+ pendingRestore=clone(raw);restoreDialogOpen=true;updateModalIsolation();
+ $('restoreReview').hidden=false;
+ $('restoreReviewSummary').textContent=`Agora: ${stats.currentCount} cena(s). Backup: ${stats.incomingCount} cena(s). ${stats.removedCount} cena(s) desapareceriam e ${stats.changedCount} seriam alteradas.${stats.migrationCount?' '+stats.migrationCount+' chave(s) antigas de coordenadas serão normalizadas após sua confirmação.':''} Esta ação substitui TODO o conjunto local. Exporte o atual para não perdê-lo.`;
+ $('restoreReviewConfirm').focus();
+}
+function cancelRestoreReview(){pendingRestore=null;restoreDialogOpen=false;$('restoreReview').hidden=true;updateModalIsolation();}
+function loadLocal(){let raw=null;
+ try{raw=localStorage.getItem(KEY);if(!raw)return;if(raw.length>MAX_FILE)throw Error('Salvamento acima do limite');const val=JSON.parse(raw);migrateWorkspace(val);if(!validateWorkspace(val))throw Error('Estado anterior inválido ou coordenadas ambíguas');workspace=val;lastVerifiedRaw=raw;}
+ catch(e){$('storageStatus').textContent='Salvamento anterior sob revisão: '+e.message+'; dados originais preservados.';
+  if(raw){externalAlert(raw,'INVALID_STORED_WORKSPACE');storageBanner('O armazenamento contém formato antigo ou dados inválidos. Exporte a cópia bruta antes de importar uma versão normalizada. Nenhuma gravação ocorreu.');}
+ }
+}
+function download(obj,name){const blob=new Blob([JSON.stringify(obj)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+async function readJSON(file){if(!file||file.size>MAX_FILE)throw Error('Arquivo acima do limite de 750 KB');return JSON.parse(await file.text());}
+function positions(s){return Object.fromEntries(s.units.map(u=>[u.id,[u.x,u.y]]));}
+function topology(s){return JSON.stringify({n:s.n,walls:[...s.walls].sort(),ids:s.units.map(x=>x.id).sort()});}
+function captureFrame(s,title){const top=topology(s);if(s.frameTopology!==top){s.frames=[];s.frameTopology=top;}s.frames.push({title,positions:positions(s)});if(s.frames.length>MAX_EVENTS)s.frames.shift();}
+function snap(){storageGuard();history.push(clone(workspace));if(history.length>40)history.shift();future=[];}
+function commit(s,msg,record=false){pushLog(s,msg);if(record)captureFrame(s,msg);render();saveLocal();}
+function undo(){storageGuard();if(!history.length)return note('Nada para desfazer.');stopReplay();future.push(clone(workspace));workspace=history.pop();render();saveLocal();note('Alteração desfeita.');}
+function redo(){storageGuard();if(!future.length)return note('Nada para refazer.');stopReplay();history.push(clone(workspace));workspace=future.pop();render();saveLocal();note('Alteração refeita.');}
+function nextId(prefix,existing){let i=1;while(existing.has(`${prefix}${i}`))i++;return `${prefix}${i}`;}
+function neighbors(s,x,y){return [[1,0],[-1,0],[0,1],[0,-1]].map(([dx,dy])=>[x+dx,y+dy]).filter(([nx,ny])=>inside(nx,ny,s.n));}
+function allRoutes(s,active){const dist=new Map([[xy(active.x,active.y),0]]),prev=new Map(),queue=[[active.x,active.y]],blocked=new Set([...s.walls,...s.units.filter(u=>u.id!==active.id).map(u=>xy(u.x,u.y))]);for(let i=0;i<queue.length;i++){const [x,y]=queue[i],d=dist.get(xy(x,y));for(const [nx,ny] of neighbors(s,x,y)){const k=xy(nx,ny);if(blocked.has(k)||dist.has(k))continue;dist.set(k,d+1);prev.set(k,xy(x,y));queue.push([nx,ny]);}}return {dist,prev};}
+function routeTo(routes,from,to){const dest=xy(to.x,to.y),start=xy(from.x,from.y);if(!routes.dist.has(dest))return null;const path=[];let p=dest;while(p!==start){const [x,y]=p.split(',').map(Number);path.unshift({x,y});p=routes.prev.get(p);if(!p)return null;}return path;}
+function dangerWarning(s,path){return path.filter(p=>s.danger.includes(xy(p.x,p.y))).length;}
+function aooWarning(s,u,path){let prev={x:u.x,y:u.y},count=0;for(const p of path){if(s.units.some(v=>v.team!==u.team&&v.team!=='neutral'&&Math.abs(v.x-prev.x)+Math.abs(v.y-prev.y)===1))count++;prev=p;}return count;}
+function clickCell(x,y){if(gesture.suppress)return;const s=scene(),key=xy(x,y),at=s.units.find(u=>u.x===x&&u.y===y),u=selected();lastCell={x,y};
+ if(s.mode==='pan')return;
+ if(s.mode==='measure'){
+  if(rulerSceneId!==s.id||rulerA===null||rulerB!==null){rulerA={x,y};rulerB=null;rulerSceneId=s.id;}
+  else rulerB={x,y};
+  renderBoard(s);renderRuler();
+  return;
+ }
+ if(s.mode==='mark'){openMarkerDialog(x,y);return;}
+ if(s.mode==='play'){
+   if(at){s.selected=at.id;invalidateFov();render();saveLocal();return note('Selecionado: '+at.name);}
+   if(!u||u.team!=='ally')return note('Selecione um aliado TEST para mover.');
+   const routes=allRoutes(s,u),path=routeTo(routes,u,{x,y});if(!path||!path.length)return note('Casa bloqueada ou inalcançável.');if(path.length>4-s.stepsUsed)return note('Movimento TEST: passos restantes '+(4-s.stepsUsed)+'.');
+   const warn=aooWarning(s,u,path),danger=dangerWarning(s,path);snap();if(!s.frames.length)captureFrame(s,"Início da movimentação TEST");u.x=x;u.y=y;s.stepsUsed+=path.length;commit(s,`${u.name} moveu ${path.length} casa(s).${warn?' Alerta de oportunidade não resolvido.':''}${danger?' Terreno perigoso não resolvido.':''}`,true);note('Movimento visual TEST executado; sem dano ou resultado oficial.');return;
+ }
+ if(s.mode==='place'){
+   if(!u)return note('Selecione o token a posicionar.');if(at&&at.id!==u.id)return note('Casa ocupada.');if(s.walls.includes(key))return note('Parede bloqueia token.');if(u.x===x&&u.y===y)return;
+   snap();if(!s.frames.length)captureFrame(s,"Início do posicionamento TEST");u.x=x;u.y=y;s.stepsUsed=0;commit(s,`Token ${u.name} reposicionado na cena TEST.`,true);return;
+ }
+ if(at)return note('Não edite terreno sob unidades.');
+ const old=JSON.stringify({walls:s.walls,danger:s.danger,terrain:s.terrain});
+ const previousTopology=topology(s);
+ const redoBeforeNoop=future;
+ snap();
+ if(s.mode==='wall'){
+   const had=s.walls.includes(key);
+   s.walls=s.walls.filter(z=>z!==key);
+   if(!had){s.walls.push(key);s.danger=s.danger.filter(z=>z!==key);delete s.terrain[key];}
+ }else if(s.mode==='danger'){
+   const had=s.danger.includes(key);
+   s.danger=s.danger.filter(z=>z!==key);
+   if(!had){s.danger.push(key);s.walls=s.walls.filter(z=>z!==key);delete s.terrain[key];}
+ }else if(s.mode==='terrain'){
+   const steps=[undefined,'grass','sand','water'],cur=s.terrain[key],next=steps[(steps.indexOf(cur)+1)%steps.length];
+   if(next)s.terrain[key]=next;else delete s.terrain[key];s.danger=s.danger.filter(z=>z!==key);s.walls=s.walls.filter(z=>z!==key);
+ }else if(s.mode==='erase'){
+   s.walls=s.walls.filter(z=>z!==key);s.danger=s.danger.filter(z=>z!==key);delete s.terrain[key];
+ }
+ if(old===JSON.stringify({walls:s.walls,danger:s.danger,terrain:s.terrain})){history.pop();future=redoBeforeNoop;return;}
+ // Topologia é propriedade do mapa, não do botão escolhido: qualquer modo
+ // pode remover paredes. Alteração cosmética/perigo preserva replay válido.
+ if(topology(s)!==previousTopology){s.frames=[];s.frameTopology=null;if(replayOrigin==='local')clearReplay();}
+ commit(s,'Terreno TEST editado em '+(x+1)+','+(y+1)+'.');
+}
+// Edição por toque, com snapshots isolados e sem efeitos em motores oficiais.
+function changeMode(mode){storageGuard();const s=scene();if(!['play','pan','wall','danger','terrain','erase','place','measure','mark'].includes(mode))return;
+ if(mode!==s.mode){rulerA=null;rulerB=null;rulerSceneId=null;}
+ s.mode=mode;gesture.suppress=false;render();}
+function resize(n){storageGuard();const s=scene();if(!allowedSize.includes(n)||n===s.n)return; if(s.units.some(u=>u.x>=n||u.y>=n)){return note('Não é possível reduzir: existem unidades fora da nova grade.');}const lostMarkers=s.markers.filter(m=>m.x>=n||m.y>=n).length;if(lostMarkers&&!window.confirm(`Reduzir a grade removerá ${lostMarkers} marcação(ões) fora do mapa. Exporte um backup antes, se necessário. Continuar?`))return;snap();s.n=n;s.walls=s.walls.filter(key=>key.split(',').every(v=>Number(v)<n));s.danger=s.danger.filter(key=>key.split(',').every(v=>Number(v)<n));for(const key of Object.keys(s.terrain))if(key.split(',').some(v=>Number(v)>=n))delete s.terrain[key];s.frames=[];s.frameTopology=null;s.explored=s.explored.filter(key=>key.split(',').every(v=>Number(v)<n));s.markers=s.markers.filter(m=>m.x<n&&m.y<n);invalidateFov();commit(s,'Grade alterada para '+n+'×'+n+'.');if(s.fovEnabled&&selected())centerAt(selected().x,selected().y);else center();}
+const board=$('board'),vp=$('viewport'),rulerSvg=$('rulerOverlay'),markerSvg=$('markerOverlay');let cachedN=0,tiles=[];
+function ensureBoard(n){if(cachedN===n)return;cachedN=n;tiles=[];const frag=document.createDocumentFragment();for(let y=0;y<n;y++)for(let x=0;x<n;x++){const b=document.createElement('button');b.type='button';b.className='tile';b.dataset.xy=xy(x,y);b.setAttribute('role','gridcell');b.innerHTML='<span class="coord"></span><span class="token" hidden></span><span class="markerCue" hidden aria-hidden="true"></span>';frag.append(b);tiles.push(b);}board.replaceChildren(frag);board.append(rulerSvg,markerSvg);board.style.setProperty('--n',n);}
+// TEST18 VISUAL FOV: author-written symmetric shadowcasting implementation for synthetic maps.
+// This is neither a canonical light/perception rule nor a client-side security filter.
+let fovCacheKey='',fovCache=null;
+function invalidateFov(){fovCacheKey='';fovCache=null;}
+function symmetricShadowcast(s,origin,radius){
+ const walls=new Set(s.walls),visible=new Set([xy(origin.x,origin.y)]),rad2=radius*radius;
+ const blocked=(x,y)=>!inside(x,y,s.n)||walls.has(xy(x,y));
+ // Four quadrants, depths progressing outwards, slope bounds -1 .. 1.
+ const orient=[(d,c)=>[origin.x+c,origin.y-d],(d,c)=>[origin.x+c,origin.y+d],(d,c)=>[origin.x+d,origin.y+c],(d,c)=>[origin.x-d,origin.y+c]];
+ const roundUp=v=>Math.floor(v+0.5),roundDown=v=>Math.ceil(v-0.5);
+ for(const project of orient){
+  const scan=(depth,start,end)=>{
+   if(depth>radius||start>end)return;
+   let prevWall=null,low=start;
+   for(let col=roundUp(depth*start);col<=roundDown(depth*end);col++){
+    const [x,y]=project(depth,col),wall=blocked(x,y);
+    if(inside(x,y,s.n)&&((col>=depth*start&&col<=depth*end)||wall)&&((x-origin.x)**2+(y-origin.y)**2<=rad2))visible.add(xy(x,y));
+    const boundary=(2*col-1)/(2*depth);
+    if(prevWall===true&&!wall)low=boundary;
+    if(prevWall===false&&wall)scan(depth+1,low,boundary);
+    prevWall=wall;
+   }
+   if(prevWall===false)scan(depth+1,low,end);
+  };
+  scan(1,-1,1);
+ }
+ return visible;
+}
+function currentFov(s){
+ if(!s.fovEnabled)return null;
+ const u=selected();if(!u)return null;
+ const key=JSON.stringify([s.id,s.n,u.id,u.x,u.y,s.fovRadius,[...s.walls].sort()]); // topology fingerprint invalidates on edits
+ if(key!==fovCacheKey){fovCacheKey=key;fovCache=symmetricShadowcast(s,u,s.fovRadius);}
+ const old=new Set(s.explored);for(const k of fovCache)old.add(k);
+ if(old.size!==s.explored.length)s.explored=[...old].sort();
+ return fovCache;
+}
+function reachable(s){const u=selected();if(!u||u.team!=='ally'||s.mode!=='play')return new Set();const r=allRoutes(s,u),remaining=4-s.stepsUsed;return new Set([...r.dist].filter(([k,d])=>d>0&&d<=remaining).map(([k])=>k));}
+function renderBoard(s){
+ ensureBoard(s.n);
+ const occupied=new Map(s.units.map(u=>[xy(u.x,u.y),u]));const marked=new Map(s.markers.map(m=>[xy(m.x,m.y),m]));
+ const walls=new Set(s.walls),danger=new Set(s.danger);
+ const reach=$('layerReach').checked?reachable(s):new Set();
+ const showCoords=$('layerCoords').checked,showDanger=$('layerDanger').checked,fov=currentFov(s),explored=fov?new Set(s.explored):null;if($('fovStatus'))$('fovStatus').textContent=fov?`${fov.size} visíveis · ${s.explored.length} exploradas`:'FOV desligado';
+ for(let i=0;i<tiles.length;i++){
+  const b=tiles[i],x=i%s.n,y=Math.floor(i/s.n),key=xy(x,y),u=occupied.get(key),marker=marked.get(key);
+  let cls='tile'+((x+y)%2?' alt':'');
+  if(s.terrain[key])cls+=' ground-'+s.terrain[key];
+  if(walls.has(key))cls+=' wall';
+  if(danger.has(key)&&showDanger)cls+=' danger';
+  if(reach.has(key))cls+=' reachable';
+  if(rulerSceneId===s.id&&rulerA&&xy(rulerA.x,rulerA.y)===key)cls+=' ruler-point ruler-start';
+  if(rulerSceneId===s.id&&rulerB&&xy(rulerB.x,rulerB.y)===key)cls+=' ruler-point ruler-end';
+  if(marker)cls+=' has-marker';if(u?.id===s.selected)cls+=' chosen';if(fov&&!fov.has(key))cls+=explored.has(key)?' fov-explored':' fov-hidden';
+  // TEST07: atualiza somente casas cujo conteúdo visual realmente mudou.
+  const sig=cls+'|'+showCoords+'|'+(u?u.id+':'+u.mark+':'+u.team+':'+u.name:'')+'|'+(marker?marker.id+':'+marker.kind+':'+marker.text:'');
+  if(b.dataset.sig===sig)continue;
+  b.dataset.sig=sig;b.className=cls;
+  b.setAttribute('aria-label',`Coluna ${x+1}, linha ${y+1}${u?', '+u.name:''}${walls.has(key)?', parede':''}${marker?', marcação '+marker.kind+': '+marker.text:''}`);
+  const coord=b.firstElementChild;coord.hidden=!showCoords;
+  if(showCoords)coord.textContent=`${x+1}.${y+1}`;
+  const p=b.querySelector('.token');p.hidden=!u;const cue=b.querySelector('.markerCue');cue.hidden=!marker;if(marker){cue.textContent=marker.kind==='note'?'✎':marker.kind==='highlight'?'◎':'◆';cue.title=marker.text;}
+  if(u){p.className='token '+u.team;p.textContent=u.mark;p.title=u.name;}
+ }
+}
+
+// TEST28: marker data shares the EXISTING scene/history/backup; no parallel event store.
+function openMarkerDialog(x,y){
+ storageGuard();const s=scene(),prior=s.markers.find(m=>m.x===x&&m.y===y);
+ markerTarget={x,y,sceneId:s.id};markerEditId=prior?.id||null;markerDialogOpen=true;
+ $('markerHeading').textContent=prior?'Editar marcação TEST':'Nova marcação TEST';
+ $('markerKind').value=prior?.kind||'pin';$('markerText').value=prior?.text||'';
+ $('markerDelete').hidden=!prior;$('markerFormError').textContent='';$('markerDialog').hidden=false;
+ updateModalIsolation();$('markerText').focus();
+}
+function closeMarkerDialog(){markerDialogOpen=false;markerEditId=null;markerTarget=null;$('markerDialog').hidden=true;updateModalIsolation();}
+function markerCommand(action,target,payload){
+ const s=scene();if(!target||target.sceneId!==s.id||!inside(target.x,target.y,s.n))throw Error('Cena ou coordenada inválida');
+ if(!['ADD','UPDATE','REMOVE'].includes(action))throw Error('Comando visual desconhecido');
+ if(action==='ADD'){
+  if(s.markers.length>=MAX_MARKERS)throw Error('Limite de 40 marcações por cena');
+  if(s.markers.some(m=>m.x===target.x&&m.y===target.y))throw Error('Casa já marcada');
+  if(!payload||!textOK(payload.text,100)||!['pin','note','highlight'].includes(payload.kind))throw Error('Texto ou tipo de marcação inválido');
+  const id=nextId('m',new Set(s.markers.map(m=>m.id)));snap();s.markers.push({id,x:target.x,y:target.y,kind:payload.kind,text:payload.text});
+ }else{
+  const idx=s.markers.findIndex(m=>m.id===markerEditId&&m.x===target.x&&m.y===target.y);
+  if(idx<0)throw Error('Marcação original não existe mais');
+  if(action==='UPDATE'){
+   if(!payload||!textOK(payload.text,100)||!['pin','note','highlight'].includes(payload.kind))throw Error('Texto ou tipo de marcação inválido');
+   const prior=s.markers[idx];
+   if(prior.kind===payload.kind&&prior.text===payload.text){
+    closeMarkerDialog();note('Marcação TEST sem alteração; histórico de Refazer preservado.');return false;
+   }
+   snap();s.markers[idx]={...prior,kind:payload.kind,text:payload.text};
+  }else{snap();s.markers.splice(idx,1);}
+ }
+ closeMarkerDialog();commit(s,action==='REMOVE'?'Marcação TEST removida.':'Marcação TEST atualizada.');
+ note('Marcação visual TEST '+(action==='REMOVE'?'removida':'salva')+'; nenhum efeito mecânico.');
+}
+function saveMarkerDialog(){
+ const target=markerTarget;
+ try{storageGuard();const payload={kind:$('markerKind').value,text:$('markerText').value.trim()};
+  if(!textOK(payload.text,100)||!['pin','note','highlight'].includes(payload.kind))throw Error('Texto: 1 a 100 caracteres, sem HTML ou controles.');
+  markerCommand(markerEditId?'UPDATE':'ADD',target,payload);
+ }catch(e){$('markerFormError').textContent=e.message;}
+}
+function deleteMarkerDialog(){try{storageGuard();markerCommand('REMOVE',markerTarget,null);}catch(e){$('markerFormError').textContent=e.message;}}
+function renderMarkerOverlay(s){
+ const svg=$('markerOverlay'),unit=zoom+2,ns='http://www.w3.org/2000/svg';
+ svg.setAttribute('viewBox',`0 0 ${s.n*unit} ${s.n*unit}`);svg.setAttribute('width',s.n*unit);svg.setAttribute('height',s.n*unit);
+ const frag=document.createDocumentFragment();
+ for(const m of s.markers){const x=(m.x+.5)*unit,y=(m.y+.5)*unit;
+  const el=document.createElementNS(ns,m.kind==='highlight'?'rect':'circle');
+  if(m.kind==='highlight'){el.setAttribute('x',x-unit*.41);el.setAttribute('y',y-unit*.41);el.setAttribute('width',unit*.82);el.setAttribute('height',unit*.82);el.setAttribute('rx',5);}
+  else{el.setAttribute('cx',x);el.setAttribute('cy',y);el.setAttribute('r',m.kind==='note'?unit*.22:unit*.16);}
+  el.setAttribute('class','visual-mark '+m.kind);frag.appendChild(el);
+ }
+ svg.replaceChildren(frag);
+}
+function renderMarkerList(s){const root=$('markerList');root.replaceChildren();$('markerCount').textContent=s.markers.length+' / '+MAX_MARKERS;
+ for(const m of s.markers){const btn=document.createElement('button');btn.type='button';btn.className='markerItem';btn.textContent=`${m.kind==='note'?'✎':m.kind==='highlight'?'◎':'◆'} ${m.text} (${m.x+1},${m.y+1})`;
+  btn.addEventListener('click',()=>{changeMode('mark');centerAt(m.x,m.y);openMarkerDialog(m.x,m.y);});root.append(btn);}
+}
+function renderUnits(s){const root=$('unitList');root.replaceChildren();for(const u of s.units){const b=document.createElement('button');b.type='button';b.className='unitBtn'+(u.id===s.selected?' sel':'');const bubble=document.createElement('span');bubble.className='bubble '+u.team;bubble.textContent=u.mark;const label=document.createElement('span'),strong=document.createElement('strong'),small=document.createElement('small');strong.textContent=u.name;small.textContent=`${u.team==='ally'?'Aliado':u.team==='enemy'?'Adversário':'Neutro'} • ${u.x+1},${u.y+1} • Vida ${u.hp} • Alma ${u.soul} • PA ${u.pa}`;label.append(strong,small);b.append(bubble,label);b.addEventListener('click',()=>{s.selected=u.id;invalidateFov();render();saveLocal();note('Selecionado '+u.name);});root.append(b);}}
+function renderSceneSelector(){const root=$('scenes'),s=scene();root.replaceChildren();for(const sc of workspace.scenes){const opt=document.createElement('option');opt.value=sc.id;opt.textContent=sc.name;root.append(opt);}root.value=s.id;}
+function renderLog(s){const root=$('log');root.replaceChildren();for(const msg of s.logs.slice(0,12)){const p=document.createElement('p');p.textContent=msg;root.append(p);}}
+function renderRuler(){
+ const s=scene(),root=$('rulerOverlay'),line=$('rulerSegment'),status=$('rulerStatus');
+ if(rulerSceneId!==s.id||rulerA&&!inside(rulerA.x,rulerA.y,s.n)||rulerB&&!inside(rulerB.x,rulerB.y,s.n)){rulerA=null;rulerB=null;rulerSceneId=null;}
+ const show=Boolean(s.mode==='measure'&&rulerSceneId===s.id&&rulerA);
+ root.toggleAttribute('hidden',!show);const cell=zoom+2;root.setAttribute('width',String(s.n*cell));root.setAttribute('height',String(s.n*cell));
+ if(!show){status.textContent='Régua: dois toques no mapa · nenhuma regra de alcance.';return;}
+ if(!rulerB){line.setAttribute('x1',String((rulerA.x+.5)*cell));line.setAttribute('y1',String((rulerA.y+.5)*cell));line.setAttribute('x2',String((rulerA.x+.5)*cell));line.setAttribute('y2',String((rulerA.y+.5)*cell));status.textContent=`Régua: início ${rulerA.x+1},${rulerA.y+1} · toque a segunda casa.`;return;}
+ line.setAttribute('x1',String((rulerA.x+.5)*cell));line.setAttribute('y1',String((rulerA.y+.5)*cell));line.setAttribute('x2',String((rulerB.x+.5)*cell));line.setAttribute('y2',String((rulerB.y+.5)*cell));
+ const dx=Math.abs(rulerA.x-rulerB.x),dy=Math.abs(rulerA.y-rulerB.y);
+ status.textContent=`Régua TEST: ${rulerA.x+1},${rulerA.y+1} → ${rulerB.x+1},${rulerB.y+1} · Manhattan ${dx+dy} casas · reta ${Math.hypot(dx,dy).toFixed(2)} casas (geométrico, não canônico).`;
+}
+function render(){const t0=performance.now(),s=scene();renderSceneSelector();$('gridSize').value=String(s.n);$('sceneHeading').textContent=s.name;$('sceneMeta').textContent=' · '+s.n+'×'+s.n;$('unitCount').textContent=s.units.length+' unidades';$('roundCount').textContent='Rodada TEST '+s.round;$('activeSceneCount').textContent=workspace.scenes.length+' cena(s)';$('sceneNotes').value=s.notes;$('layerFov').checked=s.fovEnabled;$('fovRadius').value=String(s.fovRadius);renderBoard(s);renderMarkerOverlay(s);renderMarkerList(s);renderUnits(s);renderLog(s);for(const b of document.querySelectorAll('[data-mode]')){const active=b.dataset.mode===s.mode;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));}drawMinimap();renderRuler();renderReplay();renderLast=performance.now()-t0;$('perf').textContent=`Render ${renderLast.toFixed(1)} ms (medição local)`;}
+function cameraScale(next,anchor){const prior=zoom,after=Math.min(84,Math.max(28,Math.round(Number(next)/4)*4));if(!Number.isFinite(after))return;const x=anchor?.x??vp.clientWidth/2,y=anchor?.y??vp.clientHeight/2;const worldX=(vp.scrollLeft+x)/prior,worldY=(vp.scrollTop+y)/prior;zoom=after;document.documentElement.style.setProperty('--cell',after+'px');$('zoom').value=String(after);$('zoomLabel').textContent=after+' px';vp.scrollLeft=worldX*after-x;vp.scrollTop=worldY*after-y;drawMinimap();renderRuler();renderMarkerOverlay(scene());}
+function center(){vp.scrollLeft=Math.max(0,(board.scrollWidth-vp.clientWidth)/2);vp.scrollTop=Math.max(0,(board.scrollHeight-vp.clientHeight)/2);drawMinimap();}
+function centerAt(x,y){const s=scene();vp.scrollLeft=Math.max(0,(x+.5)*(zoom+2)-vp.clientWidth/2);vp.scrollTop=Math.max(0,(y+.5)*(zoom+2)-vp.clientHeight/2);drawMinimap();}
+function drawMinimap(){const s=scene(),canvas=$('minimap'),ctx=canvas.getContext('2d'),W=canvas.width,step=W/s.n,walls=new Set(s.walls),danger=new Set(s.danger);ctx.clearRect(0,0,W,W);for(let y=0;y<s.n;y++)for(let x=0;x<s.n;x++){const key=xy(x,y);ctx.fillStyle=walls.has(key)?'#8b94a1':danger.has(key)?'#aa634d':s.terrain[key]==='grass'?'#327963':s.terrain[key]==='water'?'#316a9b':s.terrain[key]==='sand'?'#9c8254':'#324e69';ctx.fillRect(x*step,y*step,step-.5,step-.5);}for(const u of s.units){ctx.beginPath();ctx.arc((u.x+.5)*step,(u.y+.5)*step,Math.max(2.5,step*.3),0,Math.PI*2);ctx.fillStyle=u.id===s.selected?'#fbe08a':u.team==='enemy'?'#d7757a':'#67bdf1';ctx.fill();}const rect=vp.getBoundingClientRect(),br=board.getBoundingClientRect();if(br.width&&br.height){const x=Math.max(0,(rect.left-br.left)/br.width*W),y=Math.max(0,(rect.top-br.top)/br.height*W);ctx.strokeStyle='#ffffb5';ctx.lineWidth=2;ctx.strokeRect(x,y,Math.min(W-x,rect.width/br.width*W),Math.min(W-y,rect.height/br.height*W));}}
+function cameraGesture(){const points=gesture.pointers,xyList=[...points.values()];if(xyList.length!==2)return null;const a=xyList[0],b=xyList[1];return {mid:{x:(a.x+b.x)/2,y:(a.y+b.y)/2},distance:Math.max(1,Math.hypot(a.x-b.x,a.y-b.y))};}
+vp.addEventListener('pointerdown',e=>{if(e.pointerType==='mouse'&&e.button!==0)return;if(gesture.pointers.size===0)gesture.suppress=false;gesture.pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});gesture.dragged=false;const g=cameraGesture();if(g){const r=vp.getBoundingClientRect();gesture.start={zoom,distance:g.distance,worldX:(vp.scrollLeft+g.mid.x-r.left)/zoom,worldY:(vp.scrollTop+g.mid.y-r.top)/zoom};gesture.suppress=true;}if(scene().mode==='pan'||gesture.pointers.size>1)try{vp.setPointerCapture(e.pointerId);}catch{}});
+vp.addEventListener('pointermove',e=>{const previous=gesture.pointers.get(e.pointerId);if(!previous)return;gesture.pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});const g=cameraGesture();if(g&&gesture.start){const rect=vp.getBoundingClientRect();cameraScale(gesture.start.zoom*g.distance/gesture.start.distance,{x:g.mid.x-rect.left,y:g.mid.y-rect.top});vp.scrollLeft=gesture.start.worldX*zoom-(g.mid.x-rect.left);vp.scrollTop=gesture.start.worldY*zoom-(g.mid.y-rect.top);gesture.suppress=true;gesture.dragged=true;drawMinimap();e.preventDefault();}else if(scene().mode==='pan'&&gesture.pointers.size===1){const dx=e.clientX-previous.x,dy=e.clientY-previous.y;if(dx||dy){vp.scrollLeft-=dx;vp.scrollTop-=dy;gesture.suppress=true;gesture.dragged=true;drawMinimap();e.preventDefault();}}});
+function endPointer(e){if(!gesture.pointers.has(e.pointerId))return;gesture.pointers.delete(e.pointerId);if(gesture.pointers.size<2)gesture.start=null;if(gesture.pointers.size===0&&gesture.dragged){gesture.suppress=true;}else if(gesture.pointers.size===0&&scene().mode!=='pan'){gesture.suppress=false;}}
+for(const type of ['pointerup','pointercancel','lostpointercapture'])vp.addEventListener(type,endPointer);
+vp.addEventListener('click',e=>{if(gesture.suppress||scene().mode==='pan'){e.preventDefault();e.stopPropagation();gesture.suppress=false;}},true);
+board.addEventListener('click',e=>{const b=e.target.closest('[data-xy]');if(!b)return;const [x,y]=b.dataset.xy.split(',').map(Number);clickCell(x,y);});
+$('minimap').addEventListener('click',e=>{const r=e.currentTarget.getBoundingClientRect(),s=scene(),x=Math.min(s.n-1,Math.max(0,Math.floor((e.clientX-r.left)/r.width*s.n))),y=Math.min(s.n-1,Math.max(0,Math.floor((e.clientY-r.top)/r.height*s.n)));centerAt(x,y);});vp.addEventListener('scroll',drawMinimap,{passive:true});
+function editToken(create=false){const s=scene(),u=selected();if(!create&&!u)return note('Selecione uma unidade para editar.');if(create&&s.units.length>=MAX_UNITS)return note('Limite de 30 unidades por cena.');editingNew=create;editingId=create?null:u.id;const t=create?unit('','Token TEST','T','neutral',0,0):u;$('tokName').value=t.name;$('tokMark').value=t.mark;$('tokTeam').value=t.team;$('tokHp').value=t.hp;$('tokSoul').value=t.soul;$('tokPa').value=t.pa;$('tokRange').value=t.range;$('tokenForm').classList.remove('hidden');}
+function commitToken(){const s=scene(),name=$('tokName').value.trim(),mark=$('tokMark').value.trim(),team=$('tokTeam').value,range=Number($('tokRange').value),values=[$('tokHp'),$('tokSoul'),$('tokPa')].map(el=>Number(el.value));if(!textOK(name,48)||!textOK(mark,2)||!['ally','enemy','neutral'].includes(team)||!Number.isInteger(range)||range<1||range>20||values.some(v=>!Number.isInteger(v)||v<0||v>99999))return note('Dados TEST inválidos. Confira nome, marca e valores.');if(editingNew){const occupied=new Set(s.units.map(u=>xy(u.x,u.y))),walls=new Set(s.walls);let pos=null;for(let y=0;y<s.n&&!pos;y++)for(let x=0;x<s.n;x++)if(!occupied.has(xy(x,y))&&!walls.has(xy(x,y))){pos={x,y};break;}if(!pos)return note('Mapa sem casa livre para token.');snap();const id=nextId('u',new Set(s.units.map(u=>u.id)));s.units.push({...unit(id,name,mark,team,pos.x,pos.y),range,hp:values[0],soul:values[1],pa:values[2]});s.selected=id;s.frames=[];s.frameTopology=null;commit(s,'Novo token TEST criado: '+name);}else{const u=selected();if(!u||u.id!==editingId)return note('Seleção alterada; reabra o editor.');snap();Object.assign(u,{name,mark,team,range,hp:values[0],soul:values[1],pa:values[2]});commit(s,'Token TEST editado: '+name);}closeTokenForm();}
+function closeTokenForm(){$('tokenForm').classList.add('hidden');editingNew=false;editingId=null;}
+function removeToken(){const s=scene(),u=selected();if(!u)return; if(!confirm(`Remover ${u.name} desta cena TEST?`))return;snap();s.units=s.units.filter(x=>x.id!==u.id);s.selected=s.units[0]?.id||null;s.frames=[];s.frameTopology=null;commit(s,'Token TEST removido: '+u.name);}
+function createScene(){if(workspace.scenes.length>=MAX_SCENES)return note('Limite de oito cenas.');snap();const id=nextId('c',new Set(workspace.scenes.map(s=>s.id)));const sc=newScene(id,'Nova cena TEST '+id);workspace.scenes.push(sc);workspace.active=id;history=[];future=[];clearReplay();render();saveLocal();note('Cena independente criada.');}
+function copyScene(){if(workspace.scenes.length>=MAX_SCENES)return note('Limite de oito cenas.');const id=nextId('c',new Set(workspace.scenes.map(s=>s.id))),sc=clone(scene());sc.id=id;sc.name=(sc.name.slice(0,52)+' (cópia)');snap();workspace.scenes.push(sc);workspace.active=id;clearReplay();render();saveLocal();note('Cena duplicada sem modificar a original.');}
+function deleteScene(){if(workspace.scenes.length<=1)return note('Mantenha ao menos uma cena TEST.');const s=scene();if(!confirm(`Excluir a cena TEST “${s.name}”?`))return;snap();workspace.scenes=workspace.scenes.filter(x=>x.id!==s.id);workspace.active=workspace.scenes[0].id;clearReplay();render();saveLocal();note('Cena experimental excluída.');}
+function switchScene(id){storageGuard();if(!workspace.scenes.some(s=>s.id===id))return;workspace.active=id;invalidateFov();clearReplay();history=[];future=[];closeTokenForm();render();saveLocal();center();}
+function renameScene(){const s=scene(),name=prompt('Nome da cena TEST (máximo 70 caracteres):',s.name);if(name===null)return;const value=name.trim();if(!textOK(value,70))return note('Nome TEST inválido.');if(value===s.name)return note('Nome da cena inalterado; Refazer preservado.');snap();s.name=value;commit(s,'Cena renomeada.');}
+function resetScene(){const s=scene();if(!confirm(`Limpar o mapa, tokens e histórico de “${s.name}” nesta cena TEST?`))return;snap();const restored=newScene(s.id,s.name,s.n);restored.notes=s.notes;workspace.scenes=workspace.scenes.map(x=>x.id===s.id?restored:x);history=[];future=[];clearReplay();render();saveLocal();note('Cena reiniciada.');}
+function nextRound(){const s=scene();snap();s.round++;s.stepsUsed=0;s.acted=false;commit(s,'Nova rodada TEST; não executa iniciativa oficial.');}
+function addEventFrame(){const s=scene();snap();captureFrame(s,'Quadro TEST '+(s.frames.length+1));commit(s,'Quadro de replay TEST capturado.');loadCurrentReplay();}
+function makeReplay(s){const frames=s.frames.length?s.frames:[{title:'Posições atuais TEST',positions:positions(s)}];return {schema:REPLAYSCHEMA,source:{kind:'SYNTHETIC_FIXTURE',scope:'MESTRE_ONLY',isolatedCopy:true,reference:'TABLETOP-PUBLIC-TEST29',exportedAt:stamp()},grid:{width:s.n,height:s.n,walls:s.walls.map(v=>v.split(',').map(Number))},units:s.units.map(u=>({id:u.id,label:u.name,mark:u.mark,team:u.team})),events:frames.map((f,i)=>({id:'frame-'+String(i+1).padStart(3,'0'),type:i?'POSITION':'ROUND_NOTE',title:f.title,description:'Snapshot visual sintético; sem cálculo do RPG.',frame:{positions:f.positions}}))};}
+function validateReplay(d){if(!safeKeys(d)||d.schema!==REPLAYSCHEMA||!safeKeys(d.source)||d.source.kind!=='SYNTHETIC_FIXTURE'||d.source.scope!=='MESTRE_ONLY'||d.source.isolatedCopy!==true||!textOK(d.source.reference,100)||!textOK(d.source.exportedAt,40)||!safeKeys(d.grid)||!allowedSize.includes(d.grid.width)||d.grid.width!==d.grid.height||!Array.isArray(d.grid.walls)||d.grid.walls.length>200||!Array.isArray(d.units)||d.units.length<1||d.units.length>MAX_UNITS||!Array.isArray(d.events)||d.events.length<1||d.events.length>MAX_EVENTS)return false;
+ const walls=new Set();for(const w of d.grid.walls){if(!Array.isArray(w)||w.length!==2||!inside(w[0],w[1],d.grid.width)||walls.has(xy(...w)))return false;walls.add(xy(...w));}
+ const ids=new Set();for(const u of d.units){if(!safeKeys(u)||!validId(u.id)||ids.has(u.id)||!textOK(u.label,70)||!textOK(u.mark,2)||!['ally','enemy','neutral'].includes(u.team))return false;ids.add(u.id);}const eventIds=new Set();let previousNumeric=null,previousPrefix=null,hadSequence=null,prevSequence=null;
+ const idsClassification=d.events.map(e=>typeof e.id==='string'&&/^(frame|ev)-\d+$/.test(e.id));
+ const numericIds=idsClassification.every(Boolean),mixedIds=idsClassification.some(Boolean)&&!numericIds;
+ if(mixedIds&&!d.events.every(e=>safeKeys(e)&&Number.isSafeInteger(e.sequence)&&e.sequence>=0))return false;
+ for(const e of d.events){
+  if(Object.hasOwn(e,'sequence')){if(!Number.isSafeInteger(e.sequence)||e.sequence<0||hadSequence===false||(prevSequence!==null&&e.sequence<=prevSequence))return false;prevSequence=e.sequence;hadSequence=true;}
+  else if(hadSequence===true)return false;else hadSequence=false;
+  if(numericIds){const m=/^(frame|ev)-(\d+)$/.exec(e.id);const num=Number(m[2]);if(!Number.isSafeInteger(num)||num<0||(previousPrefix!==null&&m[1]!==previousPrefix)||(previousNumeric!==null&&num<=previousNumeric))return false;previousNumeric=num;previousPrefix=m[1];}
+if(!safeKeys(e)||!textOK(e.id,55)||eventIds.has(e.id)||!['POSITION','ATTACK_DECLARED','AO0_ALERT','DAMAGE_RECORDED','ROUND_NOTE','EFFECT_DECLARED'].includes(e.type)||!textOK(e.title,120)||!textOK(e.description,500)||!safeKeys(e.frame)||!safeKeys(e.frame.positions))return false;eventIds.add(e.id);if(Object.keys(e.frame.positions).length!==ids.size)return false;const occupied=new Set();for(const id of ids){const p=e.frame.positions[id];if(!Array.isArray(p)||p.length!==2||!inside(p[0],p[1],d.grid.width)||walls.has(xy(...p))||occupied.has(xy(...p)))return false;occupied.add(xy(...p));}if(Object.keys(e.frame.positions).some(k=>!ids.has(k)||!validId(k)))return false;}return true;}
+function stopReplay(){if(playTimer!==null){clearInterval(playTimer);playTimer=null;}$('replayPlay').textContent='▶ Reproduzir';}
+function clearReplay(){stopReplay();viewReplay=null;replayOrigin=null;frameIndex=0;drawnTopology='';}
+let drawnTopology='';
+function loadCurrentReplay(){const d=makeReplay(scene());if(!validateReplay(d))return note('Não foi possível gerar replay TEST: snapshots incompatíveis.');loadReplay(d,'local');}
+function loadReplay(d,origin='external'){if(!validateReplay(d))throw Error('Replay inválido ou não sintético; dados VLAB reais permanecem HOLD.');stopReplay();viewReplay=clone(d);replayOrigin=origin;frameIndex=0;drawnTopology='';renderReplay();}
+function renderReplay(){const d=viewReplay,root=$('replayGrid'),overlay=$('replayPieces'),list=$('eventList');if(!d){$('replayCounter').textContent='0/0';$('replayInfo').textContent='Capture um quadro ou importe replay sintético.';root.replaceChildren();overlay.replaceChildren();list.replaceChildren();return;}
+ const n=d.grid.width,event=d.events[frameIndex],prev=frameIndex?d.events[frameIndex-1]:null,size=n===20?20:28,gap=2;const signature=n+':'+d.grid.walls.map(w=>w.join(',')).join('|');if(signature!==drawnTopology){drawnTopology=signature;root.replaceChildren();overlay.replaceChildren();root.style.setProperty('--n',n);root.style.setProperty('--t',size+'px');overlay.style.setProperty('--t',size+'px');const walls=new Set(d.grid.walls.map(w=>xy(...w)));for(let y=0;y<n;y++)for(let x=0;x<n;x++){const tile=document.createElement('div');tile.className='replayCell'+(walls.has(xy(x,y))?' wall':'');root.append(tile);}for(const u of d.units){const piece=document.createElement('div');piece.className='replayPiece '+u.team;piece.dataset.id=u.id;piece.style.width=size+'px';piece.style.height=size+'px';const inner=document.createElement('span');inner.textContent=u.mark;piece.append(inner);overlay.append(piece);}}
+ for(const piece of overlay.children){const p=event.frame.positions[piece.dataset.id];piece.style.transform=`translate(${p[0]*(size+gap)}px,${p[1]*(size+gap)}px)`;}
+ let delta='Quadro inicial.';if(prev){const changes=d.units.filter(u=>!equal(prev.frame.positions[u.id],event.frame.positions[u.id])).map(u=>`${u.label}: ${prev.frame.positions[u.id].join(',')} → ${event.frame.positions[u.id].join(',')}`);delta=changes.join('\n')||'Nenhuma posição mudou.';}
+ $('replayCounter').textContent=`${frameIndex+1}/${d.events.length}`;$('replayInfo').textContent=event.title+'\n'+event.description+'\n'+delta;$('replaySeek').max=d.events.length-1;$('replaySeek').value=frameIndex;list.replaceChildren();for(let i=0;i<d.events.length;i++){const b=document.createElement('button');b.type='button';b.className=i===frameIndex?'current':'';b.textContent=`${i+1}. ${d.events[i].title}`;b.onclick=()=>seek(i);list.append(b);}}
+function seek(i){if(!viewReplay)return;frameIndex=Math.max(0,Math.min(viewReplay.events.length-1,i));renderReplay();}
+function togglePlayback(){if(playTimer!==null){stopReplay();return;}if(!viewReplay)return note('Capture ou importe replay TEST primeiro.');if(frameIndex>=viewReplay.events.length-1)seek(0);$('replayPlay').textContent='⏸ Pausar';playTimer=setInterval(()=>{if(!viewReplay||frameIndex>=viewReplay.events.length-1){stopReplay();return;}seek(frameIndex+1);},Number($('replaySpeed').value));}
+function exportReplay(){if(!viewReplay)loadCurrentReplay();if(viewReplay)download(viewReplay,'TABLETOP_TEST15_REPLAY_SINTETICO.json');}
+function initialize(){loadLocal();document.documentElement.style.setProperty('--cell',zoom+'px');render();center();}
+// CONTROLES DE CENA, EDITOR, TOKEN, PERSISTÊNCIA.
+$('scenes').onchange=e=>switchScene(e.target.value);$('newScene').onclick=createScene;$('copyScene').onclick=copyScene;$('deleteScene').onclick=deleteScene;$('renameScene').onclick=renameScene;$('resetScene').onclick=resetScene;$('gridSize').onchange=e=>resize(Number(e.target.value));$('nextRound').onclick=nextRound;
+for(const b of document.querySelectorAll('[data-mode]'))b.onclick=()=>changeMode(b.dataset.mode);$('undo').onclick=undo;$('redo').onclick=redo;$('zoomOut').onclick=()=>cameraScale(zoom-4);$('zoomIn').onclick=()=>cameraScale(zoom+4);$('zoom').oninput=e=>cameraScale(Number(e.target.value));$('center').onclick=center;$('focus').onclick=()=>{const u=selected();if(u)centerAt(u.x,u.y);};
+for(const id of ['layerCoords','layerReach','layerDanger'])$(id).onchange=()=>{renderBoard(scene());drawMinimap();};$('layerFov').onchange=e=>{scene().fovEnabled=e.target.checked;invalidateFov();render();saveLocal();if(e.target.checked){const u=selected();if(u)centerAt(u.x,u.y);}note(e.target.checked?'Campo de visão EXPERIMENTAL: não aplica regras oficiais.':'FOV visual desligado.');};$('fovRadius').onchange=e=>{scene().fovRadius=Number(e.target.value);invalidateFov();render();saveLocal();};$('newToken').onclick=()=>editToken(true);$('editToken').onclick=()=>editToken(false);$('removeToken').onclick=removeToken;$('commitToken').onclick=commitToken;$('cancelToken').onclick=closeTokenForm;
+$('sceneNotes').addEventListener('change',e=>{const s=scene();const value=e.target.value;if(value.length>800)return note('Nota muito longa.');if(value===s.notes)return; snap();s.notes=value;saveLocal();});
+// The storage event is delivered by the browser to OTHER same-origin tabs (never used as a lock).
+window.addEventListener('storage',e=>{
+ if(e.key!==KEY||storageUncertain)return;
+ try{const observed=localStorage.getItem(KEY);if(observed!==lastVerifiedRaw)externalAlert(observed,'STORAGE_EVENT');}
+ catch(err){externalAlert(e.newValue,'STORAGE_EVENT_UNREADABLE');}
+});
+$('save').onclick=()=>saveLocal(false);$('backup').onclick=()=>{if(validateWorkspace(workspace))download(workspace,'TABLETOP_ASSIMILACAO_BACKUP_TEST15.json');};
+$('restore').onchange=async e=>{const f=e.target.files?.[0];if(!f)return;try{
+ storageGuard();const w=await readJSON(f),planned=planCoordinateMigration(w);
+ if(!['NO_CHANGE','SAFE_NORMALIZATION'].includes(planned.status))throw Error('Backup incompatível: '+(planned.reason||planned.status)+'; original não alterado.');
+ const candidate=planned.candidate;
+ if(!validateWorkspace(candidate))throw Error('Schema, topologia, cena ou conteúdo inválido');
+ const stats=restoreReview(candidate);stats.migrationCount=planned.changes||0;
+ stats.requiresReview=stats.requiresReview||planned.status==='SAFE_NORMALIZATION';
+ if(stats.requiresReview){showRestoreReview(candidate,stats);note('Backup: revise a substituição/migração antes de confirmar.');return;}
+ if(!confirm(`Substituir ${stats.currentCount} cena(s) atuais pelas ${stats.incomingCount} do backup TEST? Você pode cancelar e usar ↓ Backup antes de continuar.`))return;
+ restoreCandidate(w);note('Backup sintético restaurado e persistência local conferida.');
+ }catch(err){note(err.storageStatus==='UNKNOWN_AFTER_WRITE'?'ATENÇÃO: armazenamento INDETERMINADO; exporte e reconcilie antes de continuar.':'Backup rejeitado: '+err.message);}finally{e.target.value='';}};
+$('restoreReviewCancel').onclick=cancelRestoreReview;
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&restoreDialogOpen){e.preventDefault();cancelRestoreReview();note('Restauração cancelada; suas cenas continuam intactas.');}});
+$('restoreReviewExport').onclick=()=>{download(workspace,'TABLETOP_BACKUP_ANTES_DE_RESTAURAR.json');note('Backup do estado atual exportado; confira o arquivo baixado antes de confirmar.');};
+$('markerCancel').onclick=closeMarkerDialog;$('markerSave').onclick=saveMarkerDialog;$('markerDelete').onclick=deleteMarkerDialog;
+$('restoreReviewConfirm').onclick=()=>{if(!pendingRestore)return;const raw=pendingRestore;cancelRestoreReview();try{restoreCandidate(raw);note('Backup restaurado e persistência conferida.');}catch(e){note(e.storageStatus==='UNKNOWN_AFTER_WRITE'?'ATENÇÃO: persistência INDETERMINADA; exporte e reconcilie.':'Backup rejeitado: '+e.message);}};
+$('storageRecheck').onclick=()=>inspectReconcile();$('storageAdopt').onclick=()=>adoptReconciled();
+$('storageExport').onclick=()=>{download(workspace,'TABLETOP_RECUPERACAO_MEMORIA_TEST.json');note('Estado em memória exportado; guarde o download antes de recarregar.');};
+$('storageRawExport').onclick=()=>{try{const raw=localStorage.getItem(KEY);if(!raw)throw Error('Nenhum salvamento disponível');const blob=new Blob([raw],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='TABLETOP_ARMAZENAMENTO_ORIGINAL_SEM_ALTERAR.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);note('Bytes do armazenamento exportados sem alterações.');}catch(e){note('Não foi possível exportar o armazenamento bruto: '+e.message);}};
+$('record').onclick=addEventFrame;$('replayExport').onclick=exportReplay;$('replayPlay').onclick=togglePlayback;$('replaySpeed').onchange=()=>{if(playTimer!==null){stopReplay();togglePlayback();}};$('replayPrev').onclick=()=>{stopReplay();seek(frameIndex-1);};$('replayNext').onclick=()=>{stopReplay();seek(frameIndex+1);};$('replayFirst').onclick=()=>{stopReplay();seek(0);};$('replaySeek').oninput=e=>{stopReplay();seek(Number(e.target.value));};
+function checkExternalOnResume(){
+ if(storageUncertain||externalConflict)return;
+ try{const observed=localStorage.getItem(KEY);if(observed!==lastVerifiedRaw)externalAlert(observed,'RESUME_REVISION_CHECK');}
+ catch(e){externalAlert(null,'RESUME_READ_UNAVAILABLE');}
+}
+document.addEventListener('visibilitychange',()=>{
+ if(document.hidden&&playTimer!==null){stopReplay();note('Replay pausado: a aba ficou em segundo plano.');}
+ if(!document.hidden)checkExternalOnResume();
+});
+window.addEventListener('focus',checkExternalOnResume);
+
+$('replayImport').onchange=async e=>{const f=e.target.files?.[0];if(!f)return;try{const v=await readJSON(f);loadReplay(v);note('Replay TEST importado; nenhuma cena foi modificada.');}catch(err){note('Replay rejeitado: '+err.message);}finally{e.target.value='';}};
+// API ESTRITAMENTE TEST para ensaios externos; nenhuma escrita remota.
+window.__tabletopTEST={storageState:()=>storageState,externalConflict:()=>Boolean(externalConflict),lastVerifiedRaw:()=>lastVerifiedRaw,planCoordinateMigration,markers:()=>clone(scene().markers),markerCommand,openMarkerDialog,inspectReconcile,adoptReconciled,restoreReview,uncertain:()=>Boolean(storageUncertain),state:()=>clone(workspace),scene:()=>clone(scene()),validateWorkspace,validateReplay,restoreCandidate,shadowcast:({x,y,radius})=>[...symmetricShadowcast(scene(),{x,y},radius)].sort(),fovNow:()=>currentFov(scene())?[...currentFov(scene())].sort():null,mode:changeMode,cell:clickCell,undo,redo,save:saveLocal,createScene,copyScene,switchScene,resize,addToken:()=>editToken(true),capture:addEventFrame,replay:()=>viewReplay?clone(viewReplay):null,seek,makeReplay:()=>makeReplay(scene()),zoom:v=>cameraScale(v),ruler:()=>({scene:rulerSceneId,start:rulerA?clone(rulerA):null,end:rulerB?clone(rulerB):null,text:$('rulerStatus').textContent}),lastRenderMs:()=>renderLast,render,center};
+initialize();
+})();
+</script><script>/* Tabletop Assimilação TEST35 — v2 candidate adapter, not a server.
+ * PESQ-INOV-20261023-013 proposal is NOT an adopted network contract.
+ * Frontend never authenticates: ticket-test-* is a local fixture, never a credential.
+ * Projection must be allowlisted by authoritative backend BEFORE transmitting to players.
+ */
+(()=>{'use strict';
+const V2=2, V1='assim.tabletop.room.presentation.v1';
+const safe=s=>typeof s==='string'&&/^[a-z][a-z0-9_-]{0,31}$/.test(s)&&!['__proto__','constructor','prototype'].includes(s);
+const obj=x=>x!==null&&typeof x==='object'&&!Array.isArray(x)&&Object.getPrototypeOf(x)===Object.prototype;
+const exact=(x,req,opt=[])=>obj(x)&&req.every(k=>Object.hasOwn(x,k))&&Object.keys(x).every(k=>req.includes(k)||opt.includes(k));
+const nat=n=>Number.isSafeInteger(n)&&n>=0;
+const validProfile=x=>['gm','p1','p2'].includes(x);
+const coord=(x,y,n)=>Number.isInteger(x)&&Number.isInteger(y)&&x>=0&&y>=0&&x<n&&y<n;
+function validProjection(s){
+ // Explicit TEMPORARY extension over PESQ013 example: n/walls/markers and unit shape.
+ // An actual backend missing this extension is incompatible, never guessed from sceneId.
+ if(!exact(s,['sceneId','n','walls','units','markers'])||!safe(s.sceneId)||![5,7,10,20].includes(s.n)||!Array.isArray(s.walls)||!Array.isArray(s.units)||!Array.isArray(s.markers)||s.markers.length>40)return false;
+ const ids=new Set(),occupied=new Set(),walls=new Set();
+ for(const c of s.walls){if(typeof c!=='string'||!/^(0|[1-9]\d*),(0|[1-9]\d*)$/.test(c))return false;let [x,y]=c.split(',').map(Number);if(!coord(x,y,s.n)||walls.has(c))return false;walls.add(c);}
+ for(const u of s.units){if(!exact(u,['id','name','mark','team','ownerId','x','y'])||!safe(u.id)||ids.has(u.id)||typeof u.name!=='string'||!u.name.length||u.name.length>45||/[<>\x00-\x1f]/.test(u.name)||typeof u.mark!=='string'||u.mark.length<1||u.mark.length>2||/[<>\x00-\x1f]/.test(u.mark)||!['ally','enemy','neutral'].includes(u.team)||!(u.ownerId===null||safe(u.ownerId))||!coord(u.x,u.y,s.n)||walls.has(`${u.x},${u.y}`)||occupied.has(`${u.x},${u.y}`))return false;
+  occupied.add(`${u.x},${u.y}`);ids.add(u.id);
+ }
+ for(const m of s.markers){if(!exact(m,['id','x','y','label'])||!safe(m.id)||!coord(m.x,m.y,s.n)||typeof m.label!=='string'||m.label.length>100||/[<>\x00-\x1f]/.test(m.label))return false;}
+ return true;
+}
+function validV2Response(p){
+ if(!obj(p)||p.v!==V2||!safe(p.roomId)||!['WELCOME','SNAPSHOT','EVENT','ACK','RECEIPT'].includes(p.type))return false;
+ if(p.type==='WELCOME')return exact(p,['v','type','roomId','participantId','role','revision','sessionEpoch','snapshot','members'])&&safe(p.participantId)&&['MASTER','PLAYER'].includes(p.role)&&nat(p.revision)&&nat(p.sessionEpoch)&&validProjection(p.snapshot)&&Array.isArray(p.members)&&p.members.length<=3&&p.members.every(m=>exact(m,['id','label','role'])&&safe(m.id)&&typeof m.label==='string'&&m.label.length>0&&m.label.length<=34&&['MASTER','PLAYER'].includes(m.role));
+ if(p.type==='SNAPSHOT')return exact(p,['v','type','roomId','revision','snapshot'])&&nat(p.revision)&&validProjection(p.snapshot);
+ if(p.type==='EVENT')return exact(p,['v','type','roomId','revision','commandId','kind','actorId','snapshot'])&&nat(p.revision)&&safe(p.commandId)&&['MOVE_VISUAL_TEST','ROOM_UPDATED'].includes(p.kind)&&safe(p.actorId)&&validProjection(p.snapshot);
+ if(p.type==='ACK')return exact(p,['v','type','roomId','commandId','status'],['revision','eventId','reason','currentRevision'])&&safe(p.commandId)&&['ACCEPTED','REJECTED'].includes(p.status)&&(p.status==='ACCEPTED'?nat(p.revision)&&safe(p.eventId)&&!Object.hasOwn(p,'reason')&&!Object.hasOwn(p,'currentRevision'):['STALE_REVISION','NOT_OWNER','INVALID_INTENT','ID_REUSE_CONFLICT','UNAUTHORIZED','ROOM_ERROR','MECHANICS_HOLD'].includes(p.reason)&&nat(p.currentRevision)&&!Object.hasOwn(p,'revision')&&!Object.hasOwn(p,'eventId'));
+ if(p.type==='RECEIPT')return exact(p,['v','type','roomId','commandId','status'])&&safe(p.commandId)&&p.status==='NOT_FOUND';
+ return false;
+}
+function validV2Outgoing(p){
+ if(!obj(p)||p.v!==2||!safe(p.roomId))return false;
+ if(p.type==='JOIN')return exact(p,['v','type','roomId','ticket'])&&typeof p.ticket==='string'&&/^test-local-(gm|p1|p2)$/.test(p.ticket); // fixture ONLY
+ if(p.type==='INTENT')return exact(p,['v','type','roomId','commandId','baseRevision','kind','unitId','payload'])&&safe(p.commandId)&&nat(p.baseRevision)&&p.kind==='MOVE_VISUAL_TEST'&&safe(p.unitId)&&exact(p.payload,['x','y'])&&coord(p.payload.x,p.payload.y,20);
+ if(p.type==='RECEIPT_QUERY')return exact(p,['v','type','roomId','commandId'])&&safe(p.commandId);
+ if(p.type==='RESYNC')return exact(p,['v','type','roomId','afterRevision'])&&nat(p.afterRevision);
+ return false;
+}
+// This translator intentionally rejects genuine v2 payloads lacking n/walls/units
+// or unknown fields. No role/owner claim is sent with intents; only the TEST ticket
+// is sent with JOIN. Never turn a client-selected GM role into actual authority.
+function createV2AdapterTransport(v2Factory){
+ if(typeof v2Factory!=='function')throw Error('v2 transport missing');
+ return ({onMessage,onClose})=>{
+  let profile=null,roomId=null,revision=0,connected=false;
+  const emit=p=>onMessage(JSON.stringify(p));
+  const base=(type,r)=>({schema:V1,type,roomId,revision:r,seq:r});
+  const projection=s=>({n:s.n,walls:s.walls,units:s.units});
+  const rawTransport=v2Factory({onMessage:raw=>{
+   try{if(typeof raw!=='string'||raw.length>65536)throw Error('Frame inválido');
+    const p=JSON.parse(raw);if(!validV2Response(p)||p.roomId!==roomId)throw Error('v2: schema incompatível ou projeção privada');
+    if(p.type==='WELCOME'){
+     const expect=p.role==='MASTER'?'gm':p.participantId;
+     if(connected||!profile||p.participantId!==profile||expect!==profile)throw Error('v2: identidade divergente');
+     revision=p.revision;connected=true;
+     emit({...base('ROOM_JOINED',revision),role:p.role==='MASTER'?'gm':'player',selfId:p.participantId,members:p.members.map(m=>({id:m.id,label:m.label,role:m.role==='MASTER'?'gm':'player'})),snapshot:projection(p.snapshot)});return;
+    }
+    if(!connected)throw Error('v2: frame antes de WELCOME');
+    if(p.type==='SNAPSHOT'){revision=p.revision;emit({...base('ROOM_SNAPSHOT',revision),snapshot:projection(p.snapshot)});return;}
+    if(p.type==='EVENT'){if(p.revision<=revision)return;revision=p.revision;emit({...base('ROOM_EVENT',revision),intentId:p.commandId,kind:'MOVE_CONFIRMED',actorId:p.actorId,snapshot:projection(p.snapshot)});return;}
+    if(p.type==='ACK'){const rev=p.status==='ACCEPTED'?p.revision:p.currentRevision;
+     emit({...base('ROOM_RECEIPT',rev),intentId:p.commandId,status:p.status,...(p.status==='REJECTED'?{reason:p.reason}:{})});return;
+    }
+    if(p.type==='RECEIPT'){emit({...base('ROOM_RECEIPT',revision),intentId:p.commandId,status:'NOT_FOUND'});return;}
+   }catch(_err){onMessage('{"malformedV2Projection":true}');} // fail-closed in RoomClient, no raw data in log
+  },onClose});
+  return {send:raw=>{
+   const m=JSON.parse(raw);if(m.schema!==V1||m.roomId!=='arena-test')throw Error('v1 incompatible');
+   let p;
+   if(m.type==='ROOM_JOIN'){if(!validProfile(m.profile))throw Error('Perfil DEMO inválido');profile=m.profile;roomId=m.roomId;p={v:2,type:'JOIN',roomId,ticket:'test-local-'+profile};}
+   else if(m.type==='ROOM_INTENT'){p={v:2,type:'INTENT',roomId,commandId:m.intentId,baseRevision:m.revision,kind:'MOVE_VISUAL_TEST',unitId:m.unitId,payload:{x:m.x,y:m.y}};}
+   else if(m.type==='ROOM_RECEIPT_QUERY'){p={v:2,type:'RECEIPT_QUERY',roomId,commandId:m.intentId};}
+   else if(m.type==='ROOM_RESYNC'){p={v:2,type:'RESYNC',roomId,afterRevision:m.knownRevision};}
+   else throw Error('Envelope de saída incompatível');
+   if(!validV2Outgoing(p))throw Error('Comando v2 rejeitado');rawTransport.send(JSON.stringify(p));
+  },close:()=>rawTransport.close()};
+ };
+}
+// Server-shaped fixture only; this is NOT WebSocket, authentication or Durable Object.
+const mock={roomId:'arena-test',revision:0,n:7,walls:['3,3'],units:[
+ {id:'demo_a',name:'Exploradora TEST',mark:'E',team:'ally',ownerId:'p1',x:1,y:1},
+ {id:'demo_b',name:'Conjurador TEST',mark:'C',team:'ally',ownerId:'p2',x:1,y:4},
+ {id:'demo_n',name:'Criatura TEST',mark:'X',team:'enemy',ownerId:null,x:5,y:3}],
+ peers:new Set(),receipts:new Map(),dropNextAck:false,sessionEpoch:1};
+const members=[{id:'gm',label:'Mestre TEST',role:'MASTER'},{id:'p1',label:'Player 1 TEST',role:'PLAYER'},{id:'p2',label:'Player 2 TEST',role:'PLAYER'}];
+function mockV2TransportFactory({onMessage,onClose}){
+ const peer={id:null,closed:false,onMessage,onClose};mock.peers.add(peer);
+ const emit=(p,target=peer)=>{if(!target.closed)target.onMessage(JSON.stringify(p));};
+ const base=type=>({v:2,type,roomId:mock.roomId});
+ const project=id=>({sceneId:'scene-test',n:mock.n,walls:[...mock.walls],markers:[],units:mock.units.filter(u=>id==='gm'||u.ownerId===id).map(u=>({...u}))});
+ const ack=(id,p)=>{mock.receipts.set(id+':'+p.commandId,{payload:JSON.stringify(p),response:p.response});};
+ return {send:raw=>{
+  const p=JSON.parse(raw);if(!validV2Outgoing(p)||p.roomId!==mock.roomId)throw Error('Mock packet invalid');
+  if(p.type==='JOIN'){peer.id=p.ticket.slice('test-local-'.length);emit({...base('WELCOME'),participantId:peer.id,role:peer.id==='gm'?'MASTER':'PLAYER',revision:mock.revision,sessionEpoch:mock.sessionEpoch,snapshot:project(peer.id),members:members.map(m=>({...m}))});return;}
+  if(!peer.id)throw Error('JOIN before actions');
+  if(p.type==='RECEIPT_QUERY'){
+   const found=mock.receipts.get(peer.id+':'+p.commandId);emit(found?found.response:{...base('RECEIPT'),commandId:p.commandId,status:'NOT_FOUND'});return;
+  }
+  if(p.type==='RESYNC'){emit({...base('SNAPSHOT'),revision:mock.revision,snapshot:project(peer.id)});return;}
+  const key=peer.id+':'+p.commandId,old=mock.receipts.get(key),fingerprint=JSON.stringify(p);
+  if(old){if(old.payload===fingerprint){emit(old.response);return;}
+   emit({...base('ACK'),commandId:p.commandId,status:'REJECTED',reason:'ID_REUSE_CONFLICT',currentRevision:mock.revision});return;}
+  const u=mock.units.find(u=>u.id===p.unitId);let reason=null;
+  if(p.baseRevision!==mock.revision)reason='STALE_REVISION';
+  else if(!u||(peer.id!=='gm'&&u.ownerId!==peer.id))reason='NOT_OWNER';
+  else if((p.payload.x===u.x&&p.payload.y===u.y)||p.payload.x>=mock.n||p.payload.y>=mock.n||mock.walls.includes(`${p.payload.x},${p.payload.y}`)||mock.units.some(x=>x.id!==u.id&&x.x===p.payload.x&&x.y===p.payload.y))reason='INVALID_INTENT';
+  if(reason){const response={...base('ACK'),commandId:p.commandId,status:'REJECTED',reason,currentRevision:mock.revision};mock.receipts.set(key,{payload:fingerprint,response});emit(response);return;}
+  // Synthetic authoritative fixture: only visual XY; no PA/damage/pathing/turn calculations.
+  u.x=p.payload.x;u.y=p.payload.y;mock.revision++;
+  const response={...base('ACK'),commandId:p.commandId,status:'ACCEPTED',revision:mock.revision,eventId:'ev-'+mock.revision};
+  mock.receipts.set(key,{payload:fingerprint,response});
+  const drop=mock.dropNextAck;mock.dropNextAck=false;
+  if(!drop)emit(response);
+  for(const target of [...mock.peers]){
+   if(target.closed||!target.id||drop&&target===peer)continue;
+   if(target.id==='gm'||u.ownerId===target.id)emit({...base('EVENT'),revision:mock.revision,commandId:p.commandId,kind:'MOVE_VISUAL_TEST',actorId:u.id,snapshot:project(target.id)},target);
+   else emit({...base('SNAPSHOT'),revision:mock.revision,snapshot:project(target.id)},target);
+  }
+ },close:()=>{if(peer.closed)return;peer.closed=true;mock.peers.delete(peer);onClose();}};
+}
+window.TabletopRoomV2TEST={createV2AdapterTransport,mockV2TransportFactory,mock,validV2Response,validV2Outgoing,validProjection};
+})();
+</script><script>/* Assimilação Tabletop TEST36 — FRONTEND de sala, somente fixtures sintéticas.
+ * Sem autenticação, autoridade VLAB, coordenação de servidor ou ACL de produção.
+ * Dados reais só podem chegar de backend competente com projeção por papel ANTES do envio.
+ * A seleção de perfil aqui é uma DEMO local e nunca concede permissões reais.
+ */
+(()=>{'use strict';
+const SCHEMA='assim.tabletop.room.presentation.v1';
+const LIMIT=65536, VALID_N=[5,7,10,20];
+const byId=id=>document.getElementById(id);
+const safeId=s=>typeof s==='string'&&/^[a-z][a-z0-9_-]{0,31}$/.test(s)&&!['constructor','prototype','__proto__'].includes(s);
+const exact=(v,required,optional=[])=>v!==null&&typeof v==='object'&&!Array.isArray(v)&&Object.getPrototypeOf(v)===Object.prototype&&required.every(k=>Object.hasOwn(v,k))&&Object.keys(v).every(k=>required.includes(k)||optional.includes(k));
+const cellKey=(x,y)=>`${x},${y}`;
+const coord=(s,n)=>{if(typeof s!=='string'||!/^\d+,\d+$/.test(s))return false;const [x,y]=s.split(',').map(Number);return Number.isInteger(x)&&Number.isInteger(y)&&x>=0&&y>=0&&x<n&&y<n&&cellKey(x,y)===s;};
+const validRole=x=>x==='gm'||x==='player';
+function checkSnapshot(s){
+ if(!exact(s,['n','units','walls'])||!VALID_N.includes(s.n)||!Array.isArray(s.units)||s.units.length>30||!Array.isArray(s.walls)||s.walls.length>s.n*s.n)return false;
+ const occupied=new Set(),ids=new Set(),walls=new Set();
+ for(const k of s.walls){if(!coord(k,s.n)||walls.has(k))return false;walls.add(k);}
+ for(const u of s.units){
+  if(!exact(u,['id','name','mark','team','ownerId','x','y'])||!safeId(u.id)||ids.has(u.id)||typeof u.name!=='string'||u.name.length>45||!u.name.length||/[<>\u0000-\u001f]/.test(u.name)||typeof u.mark!=='string'||u.mark.length<1||u.mark.length>2||/[<>\u0000-\u001f]/.test(u.mark)||!['ally','enemy','neutral'].includes(u.team)||!(u.ownerId===null||safeId(u.ownerId))||!Number.isInteger(u.x)||!Number.isInteger(u.y)||u.x<0||u.y<0||u.x>=s.n||u.y>=s.n||walls.has(cellKey(u.x,u.y))||occupied.has(cellKey(u.x,u.y)))return false;
+  ids.add(u.id);occupied.add(cellKey(u.x,u.y));
+ }return true;
+}
+function checkPacket(p){
+ if(!exact(p,['schema','type','roomId','revision','seq'],['role','selfId','members','snapshot','intentId','reason','kind','actorId','status'])||p.schema!==SCHEMA||!safeId(p.roomId)||!Number.isSafeInteger(p.revision)||p.revision<0||!Number.isSafeInteger(p.seq)||p.seq<0)return false;
+ if(p.type==='ROOM_JOINED'){
+  if(!exact(p,['schema','type','roomId','revision','seq','role','selfId','members','snapshot'])||!validRole(p.role)||!safeId(p.selfId)||!Array.isArray(p.members)||p.members.length>3||!checkSnapshot(p.snapshot))return false;
+  const unique=new Set();for(const m of p.members){if(!exact(m,['id','label','role'])||!safeId(m.id)||unique.has(m.id)||!validRole(m.role)||typeof m.label!=='string'||m.label.length<1||m.label.length>34||/[<>\u0000-\u001f]/.test(m.label))return false;unique.add(m.id);}return p.members.some(m=>m.id===p.selfId&&m.role===p.role);
+ }
+ if(p.type==='ROOM_SNAPSHOT')return exact(p,['schema','type','roomId','revision','seq','snapshot'])&&checkSnapshot(p.snapshot);
+ if(p.type==='ROOM_EVENT')return exact(p,['schema','type','roomId','revision','seq','intentId','kind','actorId','snapshot'])&&safeId(p.intentId)&&['MOVE_CONFIRMED','ROOM_UPDATED'].includes(p.kind)&&safeId(p.actorId)&&checkSnapshot(p.snapshot);
+ if(p.type==='ROOM_RECEIPT')return exact(p,['schema','type','roomId','revision','seq','intentId','status'],['reason'])&&safeId(p.intentId)&&['ACCEPTED','REJECTED','NOT_FOUND'].includes(p.status)&&(p.status!=='REJECTED'||['STALE_REVISION','NOT_OWNER','INVALID_INTENT','DUPLICATE_INTENT','ID_REUSE_CONFLICT','UNAUTHORIZED','ROOM_ERROR','MECHANICS_HOLD'].includes(p.reason))&&(p.status==='REJECTED'||!Object.hasOwn(p,'reason'));
+ if(p.type==='ROOM_REJECT')return exact(p,['schema','type','roomId','revision','seq','intentId','reason'])&&safeId(p.intentId)&&['STALE_REVISION','NOT_OWNER','INVALID_INTENT','DUPLICATE_INTENT','UNAUTHORIZED','ROOM_ERROR'].includes(p.reason);
+ return false;
+}
+function checkOutgoing(p){
+ if(p?.schema!==SCHEMA||!safeId(p.roomId))return false;
+ if(p.type==='ROOM_JOIN')return exact(p,['schema','type','roomId','profile'])&&['gm','p1','p2'].includes(p.profile);
+ if(p.type==='ROOM_RECEIPT_QUERY')return exact(p,['schema','type','roomId','intentId'])&&safeId(p.intentId);
+ if(p.type==='ROOM_RESYNC')return exact(p,['schema','type','roomId','knownRevision','knownSeq'])&&Number.isSafeInteger(p.knownRevision)&&p.knownRevision>=0&&Number.isSafeInteger(p.knownSeq)&&p.knownSeq>=0;
+ return p.type==='ROOM_INTENT'&&exact(p,['schema','type','roomId','revision','intentId','action','unitId','x','y'])&&Number.isSafeInteger(p.revision)&&p.revision>=0&&safeId(p.intentId)&&p.action==='MOVE_REQUEST'&&safeId(p.unitId)&&Number.isInteger(p.x)&&Number.isInteger(p.y)&&p.x>=0&&p.y>=0&&p.x<20&&p.y<20;
+}
+// Comandos não são zerados após um erro ambíguo. Journal guarda apenas IDs/intenções TEST,
+// NUNCA ticket, credentials, snapshots de Mestre ou informações de Party.
+class RoomClient{
+ constructor({transportFactory,onUpdate,nonce='session',protocol='v1',journalStore=null,journalKey='assim-tabletop-room-pending-test'}={}){
+  this.factory=transportFactory;this.onUpdate=onUpdate||(()=>{});this.nonce=safeId(nonce)?nonce:'session';this.protocol=protocol;
+  this.journalStore=journalStore;this.journalKey=journalKey;this.epoch=0;this.counter=0;this.pending=new Map();this.loadJournal();this.reset(true);
+ }
+ loadJournal(){
+  if(!this.journalStore)return;
+  // Fail closed: an invalid outbox may contain an unresolved command. Never erase
+  // it merely because the JSON is malformed or the storage read is unavailable.
+  try{const raw=this.journalStore.getItem(this.journalKey);if(raw===null)return;
+   if(typeof raw!=='string'||raw.length>4096)throw Error('journal-length');
+   const v=JSON.parse(raw);
+   if(!exact(v,['version','counter','entries'])||v.version!==1||!Number.isSafeInteger(v.counter)||v.counter<0||!Array.isArray(v.entries)||v.entries.length>1)throw Error('journal-schema');
+   const restored=new Map();
+   for(const e of v.entries){
+    if(!exact(e,['profile','payload','state'])||!['gm','p1','p2'].includes(e.profile)||!['PENDING','UNKNOWN','NOT_FOUND'].includes(e.state)||!checkOutgoing(e.payload)||e.payload.type!=='ROOM_INTENT'||restored.has(e.payload.intentId))throw Error('journal-entry');
+    restored.set(e.payload.intentId,{profile:e.profile,payload:e.payload,state:'UNKNOWN'});
+   }
+   this.counter=v.counter;this.pending=restored;
+  }catch(_err){this.journalError=true;}
+ }
+ saveJournal(){
+  // Refuse to destroy a malformed/unreadable previous journal. This is not a
+  // transactional guarantee for browser storage; write+readback is best effort.
+  if(this.journalError)return false;
+  if(!this.journalStore)return this.protocol!=='v2';
+  try{const entries=[...this.pending.values()].map(e=>({profile:e.profile,payload:e.payload,state:e.state}));const raw=JSON.stringify({version:1,counter:this.counter,entries});
+    this.journalStore.setItem(this.journalKey,raw);if(this.journalStore.getItem(this.journalKey)!==raw)throw Error('readback');return true;
+  }catch(_err){this.journalError=true;return false;}
+ }
+ reset(preservePending=true){this.connected=false;this.connecting=false;this.roomId='arena-test';this.selfId=null;this.role=null;this.profile=null;this.revision=0;this.seq=0;this.snapshot=null;this.members=[];if(!preservePending)this.pending.clear();this.transport=null;this.error='';this.status='offline';this.log=[];}
+ update(message){if(message){this.log.unshift(message);this.log=this.log.slice(0,10);}this.onUpdate(this);}
+ markUnknown(reason){if(this.pending.size){for(const e of this.pending.values())if(e.state==='PENDING')e.state='UNKNOWN';this.saveJournal();this.status='unknown';this.update(reason||'Confirmação indeterminada; consulte recibo com o mesmo ID.');}}
+ connect(profile='gm'){
+  if(!['gm','p1','p2'].includes(profile))throw Error('Perfil de demonstração inválido');
+  this.disconnect(true);this.profile=profile;this.status='connecting';this.connecting=true;this.update('Abrindo transporte sintético local…');
+  if(typeof this.factory!=='function')throw Error('Transportador de sala ainda não disponível');
+  try{const epoch=this.epoch;this.transport=this.factory({onMessage:data=>{if(epoch===this.epoch)this.receive(data);},onClose:()=>{if(epoch===this.epoch)this.handleDisconnect();}});
+   const msg={schema:SCHEMA,type:'ROOM_JOIN',roomId:this.roomId,profile};if(!checkOutgoing(msg))throw Error('Entrada não validada');this.transport.send(JSON.stringify(msg));
+  }catch(e){this.error='Não foi possível conectar: '+e.message;this.status='error';this.connecting=false;this.update(this.error);}
+ }
+ handleDisconnect(){this.connected=false;this.connecting=false;if(this.pending.size){this.markUnknown('Transporte interrompido; confirmação UNKNOWN. Reconecte e consulte recibo.');return;}
+  if(this.status==='error'){this.update();return;}this.status='offline';this.update('Transporte encerrado; nenhum evento local aplicado.');}
+ disconnect(preservePending=true){this.epoch++;if(this.pending.size)this.markUnknown('Conexão encerrada com intenção sem recibo: UNKNOWN.');
+  const old=this.transport;this.transport=null;if(old){try{old.close();}catch(_err){}}
+  this.reset(preservePending);if(this.pending.size)this.status='unknown';this.onUpdate(this);
+ }
+ receive(raw){
+  try{if(typeof raw!=='string'||raw.length>LIMIT)throw Error('Pacote excede limite');
+   const p=JSON.parse(raw);if(!checkPacket(p)||p.roomId!==this.roomId)throw Error('Projeção rejeitada pelo contrato fechado');
+   if(p.type==='ROOM_JOINED'){
+    if(!this.connecting||p.selfId!==this.profile||(this.profile==='gm')!==(p.role==='gm'))throw Error('Identidade ou papel divergente');
+    this.selfId=p.selfId;this.role=p.role;this.revision=p.revision;this.seq=p.seq;this.members=p.members;this.snapshot=p.snapshot;this.connected=true;this.connecting=false;
+    const awaiting=[...this.pending.values()].filter(e=>e.profile===this.profile);
+    this.status=awaiting.length?'unknown':'connected';this.update(awaiting.length?'Conectado com comando UNKNOWN — consultar recibo':'Sala sintética conectada; snapshot de revisão '+p.revision);
+    if(awaiting.length&&this.protocol==='v2')this.queryReceipt();return;
+   }
+   if(!this.connected)throw Error('Mensagem recebida antes da entrada autorizada');
+   if(p.type==='ROOM_RECEIPT'){
+    const entry=this.pending.get(p.intentId);
+    if(!entry||entry.profile!==this.profile)throw Error('Recibo de comando desconhecido');
+    if(p.status==='NOT_FOUND'){entry.state='NOT_FOUND';this.saveJournal();this.status='unknown';this.update('Recibo não encontrado; resultado ainda não confirmado. Não recrie comando.');return;}
+    this.pending.delete(p.intentId);this.saveJournal();
+    if(p.status==='REJECTED'){this.status='connected';this.update('Comando rejeitado por recibo: '+p.reason);if(p.reason==='STALE_REVISION')this.resync();return;}
+    if(p.revision>this.revision){this.status='resync';this.update('Recibo ACCEPTED confirmado; recuperando snapshot da revisão '+p.revision);this.resync();}
+    else{this.status='connected';this.update('Recibo ACCEPTED confirmado.');}return;
+   }
+   if(p.type==='ROOM_REJECT'){
+    if(!this.pending.has(p.intentId))throw Error('Rejeição de intenção desconhecida');
+    this.pending.delete(p.intentId);this.saveJournal();this.status='connected';this.update('Intenção rejeitada: '+p.reason+'. Nenhum movimento local aplicado.');
+    if(p.reason==='STALE_REVISION')this.resync();return;
+   }
+   if(p.type==='ROOM_EVENT'){
+    if(p.revision!==this.revision+1||p.seq!==this.seq+1){this.status='resync';this.update('Ordem de eventos divergente; solicitando snapshot autorizado.');this.resync();return;}
+    this.revision=p.revision;this.seq=p.seq;this.snapshot=p.snapshot;
+    if(this.protocol==='v1'){const e=this.pending.get(p.intentId);if(e&&e.profile===this.profile&&e.payload.unitId===p.actorId){this.pending.delete(p.intentId);this.saveJournal();}}
+    this.status=this.pending.size?'unknown':'connected';this.update('Evento confirmado por fixture · revisão '+p.revision);return;
+   }
+   if(p.type==='ROOM_SNAPSHOT'){
+    if(p.revision<this.revision||p.seq<this.seq)throw Error('Snapshot regressivo');
+    this.revision=p.revision;this.seq=p.seq;this.snapshot=p.snapshot;this.status=this.pending.size?'unknown':'connected';this.update(this.pending.size?'Snapshot atualizado; recibo do comando ainda UNKNOWN':'Snapshot sincronizado · revisão '+p.revision);return;
+   }
+  }catch(e){this.error='Pacote rejeitado: '+e.message;this.connected=false;this.connecting=false;this.status='error';this.markUnknown('Pacote inválido; intenção UNKNOWN. Reconcilie quando retornar.');this.snapshot=null;this.update(this.error);try{this.transport?.close();}catch(_err){}}
+ }
+ sendIntent(unitId,x,y){
+  if(!this.connected||!this.snapshot||this.status!=='connected')return false;
+  if(this.protocol==='v2'&&(!this.journalStore||this.journalError)){this.status='error';this.update('Comando não enviado: registro local de recibos indisponível ou inválido. Preserve o registro antes de limpar os dados do navegador.');return false;}
+  const u=this.snapshot.units.find(u=>u.id===unitId);if(!u||!(this.role==='gm'||u.ownerId===this.selfId)){this.update('Personagem não controlável neste snapshot.');return false;}
+  if(this.pending.size){this.update('Existe comando pendente. Não é seguro criar uma nova ID.');return false;}
+  const intentId=`${this.nonce}_${++this.counter}`;
+  const p={schema:SCHEMA,type:'ROOM_INTENT',roomId:this.roomId,revision:this.revision,intentId,action:'MOVE_REQUEST',unitId,x,y};
+  if(!checkOutgoing(p)||x>=this.snapshot.n||y>=this.snapshot.n||this.snapshot.walls.includes(cellKey(x,y))){this.update('Destino ou intenção inválida.');return false;}
+  this.pending.set(intentId,{profile:this.profile,payload:p,state:'PENDING'});
+  if(!this.saveJournal()){this.pending.delete(intentId);this.status='error';this.update('Não foi possível registrar comando antes do envio; nada enviado.');return false;}
+  this.update('Comando registrado; aguardando recibo.');
+  try{this.transport.send(JSON.stringify(p));return true;}catch(_err){this.markUnknown('Falha ambígua ao enviar: UNKNOWN. Consulte o mesmo ID.');return false;}
+ }
+ queryReceipt(){
+  if(this.protocol!=='v2'||!this.connected||!this.transport){this.update('Consultas de recibo indisponíveis no contrato v1; preserve a intenção UNKNOWN.');return false;}
+  const e=[...this.pending.values()].find(x=>x.profile===this.profile);if(!e)return false;
+  const p={schema:SCHEMA,type:'ROOM_RECEIPT_QUERY',roomId:this.roomId,intentId:e.payload.intentId};
+  if(!checkOutgoing(p))return false;
+  try{this.transport.send(JSON.stringify(p));this.update('Consultando recibo do mesmo comando '+e.payload.intentId);return true;}
+  catch(_err){this.markUnknown('Consulta não confirmada; tente novamente com o mesmo ID.');return false;}
+ }
+ // Proteção contra mutação/reenvio acidental: a intenção só pode ser consultada, nunca
+ // recriada com o mesmo ID e bytes diferentes. Toda repetição depende do servidor idempotente.
+ comparePendingCommand(intentId,payload){const e=this.pending.get(intentId);return !!e&&JSON.stringify(e.payload)===JSON.stringify(payload);}
+ resync(){if(!this.transport)return false;const p={schema:SCHEMA,type:'ROOM_RESYNC',roomId:this.roomId,knownRevision:this.revision,knownSeq:this.seq};if(!checkOutgoing(p))return false;try{this.transport.send(JSON.stringify(p));return true;}catch(_err){this.markUnknown('Sincronização indisponível.');return false;}}
+}
+// Fixture sintética com papéis para UX e testes, NÃO backend ou autenticação.
+// Em produção a autoridade e o filtro por escopo precisam ocorrer fora do cliente.
+// Uma única fixture compartilhada apenas ENTRE instâncias deste MESMO JS/contexto.
+// Isso não sincroniza navegadores/dispositivos e NÃO é o futuro backend multiplayer.
+const demoRoom={revision:0,seq:0,n:7,walls:['3,3'],units:[
+ {id:'demo_a',name:'Exploradora TEST',mark:'E',team:'ally',ownerId:'p1',x:1,y:1},
+ {id:'demo_b',name:'Conjurador TEST',mark:'C',team:'ally',ownerId:'p2',x:1,y:4},
+ {id:'demo_n',name:'Criatura TEST',mark:'X',team:'enemy',ownerId:null,x:5,y:3}
+],peers:new Set(),seen:new Map()};
+const demoMembers=[{id:'gm',label:'Mestre TEST',role:'gm'},{id:'p1',label:'Player 1 TEST',role:'player'},{id:'p2',label:'Player 2 TEST',role:'player'}];
+function demoTransportFactory({onMessage,onClose}){
+ const peer={profile:null,closed:false,onMessage,onClose};demoRoom.peers.add(peer);
+ const base=type=>({schema:SCHEMA,type,roomId:'arena-test',revision:demoRoom.revision,seq:demoRoom.seq});
+ const projection=recipient=>({n:demoRoom.n,walls:demoRoom.walls.slice(),units:demoRoom.units.filter(u=>recipient==='gm'||u.ownerId===recipient).map(u=>({...u}))});
+ const wire=(target,p)=>{if(!target.closed)target.onMessage(JSON.stringify(p));};
+ return {send(raw){
+  if(peer.closed)throw Error('Transporte fechado');if(typeof raw!=='string'||raw.length>LIMIT)throw Error('Pacote inválido');const m=JSON.parse(raw);
+  if(!checkOutgoing(m))throw Error('Comando com propriedades não permitidas');
+  if(m.type==='ROOM_JOIN'){peer.profile=m.profile;wire(peer,{...base('ROOM_JOINED'),role:m.profile==='gm'?'gm':'player',selfId:m.profile,members:demoMembers.map(x=>({...x})),snapshot:projection(m.profile)});return;}
+  if(!peer.profile)throw Error('Entrada obrigatória');
+  if(m.type==='ROOM_RESYNC'){wire(peer,{...base('ROOM_SNAPSHOT'),snapshot:projection(peer.profile)});return;}
+  const key=peer.profile+':'+m.intentId;
+  if(demoRoom.seen.has(key)){wire(peer,demoRoom.seen.get(key));return;}
+  const u=demoRoom.units.find(u=>u.id===m.unitId);
+  let reason=null;
+  if(m.revision!==demoRoom.revision)reason='STALE_REVISION';
+  else if(!u||(peer.profile!=='gm'&&u.ownerId!==peer.profile))reason='NOT_OWNER';
+  else if((m.x===u.x&&m.y===u.y)||m.x>=demoRoom.n||m.y>=demoRoom.n||demoRoom.walls.includes(cellKey(m.x,m.y))||demoRoom.units.some(x=>x.id!==u.id&&x.x===m.x&&x.y===m.y))reason='INVALID_INTENT';
+  if(reason){const rej={...base('ROOM_REJECT'),intentId:m.intentId,reason};demoRoom.seen.set(key,rej);wire(peer,rej);return;}
+  // A fixture só atualiza uma posição sintética; não faz regras de movimento/alcance/dano.
+  u.x=m.x;u.y=m.y;demoRoom.revision++;demoRoom.seq++;
+  for(const target of [...demoRoom.peers]){
+   if(target.closed||!target.profile)continue;
+   // O ID de ator oculto NÃO viaja em evento da projeção de outra player.
+   const canSee=target.profile==='gm'||u.ownerId===target.profile;
+   const event=canSee?{...base('ROOM_EVENT'),intentId:m.intentId,kind:'MOVE_CONFIRMED',actorId:u.id,snapshot:projection(target.profile)}:{...base('ROOM_SNAPSHOT'),snapshot:projection(target.profile)};
+   if(target===peer)demoRoom.seen.set(key,event);
+   wire(target,event);
+  }
+ },close(){if(peer.closed)return;peer.closed=true;demoRoom.peers.delete(peer);peer.onClose();}};
+}
+
+const room=byId('roomPanel');
+if(!room)return;
+const client=new RoomClient({transportFactory:demoTransportFactory,nonce:'demo',onUpdate:draw});
+let selectedId=null;
+function draw(c){
+ const st=byId('roomStatus');st.textContent=c.protocol==='v2'&&c.connected&&(c.journalError||!c.journalStore)?'⚠ Recibos locais indisponíveis':c.status==='connected'?'● DEMO conectada':c.status==='connecting'?'Conectando…':c.status==='resync'?'⚠ Sincronizando':c.status==='unknown'?'⚠ Comando UNKNOWN':c.status==='error'?'✕ Pacote recusado':'Desconectado';st.dataset.state=c.status;
+ byId('roomIdentity').textContent=c.connected?`Sala ${c.roomId} · ${c.role==='gm'?'Mestre DEMO':'Player DEMO'} (${c.selfId}) · rev ${c.revision} · seq ${c.seq}`:'Nenhuma conexão real. Use o transporte sintético de demonstração.';
+ const roster=byId('roomRoster');roster.replaceChildren();for(const m of c.members){const tag=document.createElement('span');tag.textContent=m.label+' · '+(m.role==='gm'?'Mestre':'Player');roster.append(tag);}
+ const grid=byId('roomGrid');grid.replaceChildren();
+ if(c.snapshot){const s=c.snapshot;grid.style.setProperty('--room-n',String(s.n));
+  if(!s.units.some(u=>u.id===selectedId))selectedId=null;
+  for(let y=0;y<s.n;y++)for(let x=0;x<s.n;x++){
+   const key=cellKey(x,y),u=s.units.find(u=>u.x===x&&u.y===y);
+   const b=document.createElement('button');b.type='button';b.className='roomCell';
+   if(s.walls.includes(key)){b.classList.add('wall');b.textContent='▣';b.disabled=true;}
+   else{b.textContent=u?u.mark:'·';if(u?.team==='enemy')b.classList.add('enemy');if(u&&(c.role==='gm'||u.ownerId===c.selfId))b.classList.add('owned');if(u?.id===selectedId)b.classList.add('selected');b.setAttribute('aria-label',`${x+1},${y+1}`+(u?' · '+u.name:''));b.addEventListener('click',()=>{
+     if(u&&(c.role==='gm'||u.ownerId===c.selfId)){selectedId=u.id;draw(c);return;}
+     if(selectedId)c.sendIntent(selectedId,x,y);else{c.update('Escolha uma unidade sob seu controle primeiro.');}
+   });}grid.append(b);
+  }
+ }
+ byId('roomHint').textContent=selectedId?'Unidade selecionada: '+selectedId+'. Escolha destino TEST — só muda após evento confirmado.':'Selecione unidade sob seu controle e escolha destino; nenhuma ação altera a arena local.';
+ const log=byId('roomEvents');log.replaceChildren();for(const v of c.log){const p=document.createElement('p');p.textContent=v;log.append(p);}
+}
+byId('roomConnect').addEventListener('click',()=>{
+ selectedId=null;const mode=byId('roomProtocol').value;
+ if(client.pending.size&&client.protocol!==mode){client.update('Não troque protocolo com recibo UNKNOWN. Reconcilie o comando anterior.');return;}
+ client.protocol=mode;
+ if(mode==='v2'){
+  client.factory=window.TabletopRoomV2TEST.createV2AdapterTransport(window.TabletopRoomV2TEST.mockV2TransportFactory);
+  if(!client.journalStore){try{const st=window.sessionStorage;st.getItem(client.journalKey);client.journalStore=st;client.loadJournal();}catch(_err){client.update('Journal durável desta aba indisponível; apenas memória TEST.');}}
+  if(!client.pending.size){try{const bytes=new Uint8Array(8);crypto.getRandomValues(bytes);client.nonce='test'+[...bytes].map(n=>n.toString(16).padStart(2,'0')).join('');}catch(_err){client.nonce='test'+String(Date.now());}}
+ }else{client.factory=demoTransportFactory;}
+ client.connect(byId('roomProfile').value);
+});
+byId('roomDisconnect').addEventListener('click',()=>{selectedId=null;client.disconnect();});
+byId('roomResync').addEventListener('click',()=>{client.resync();});
+byId('roomReceipt').addEventListener('click',()=>{client.queryReceipt();});
+byId('roomProfile').addEventListener('change',()=>{selectedId=null;client.disconnect();});
+byId('roomProtocol').addEventListener('change',()=>{
+ const mode=byId('roomProtocol').value;
+ byId('roomModeNotice').textContent=mode==='v2'?'CANDIDATO v2 · recibos em fixture local, sem login, WebSocket ou servidor real.':'Contrato v1 legado · fixture local, sem recibos de rede.';
+});
+window.TabletopRoomTEST={client,RoomClient,checkPacket,checkSnapshot,checkOutgoing,demoTransportFactory,SCHEMA,selected:()=>selectedId};
+draw(client);
+})();
+</script><script>/* Aditivo TEST; apenas apresentação. NUNCA simula ataque/PA/turno ou altera storage. */
+(()=>{'use strict';
+ const btn=document.getElementById('arenaFocusToggle');const units=document.getElementById('arenaUnitsJump');
+ const viewport=document.getElementById('viewport');const map=viewport?.closest('.card');
+ if(!btn||!units||!map)return;
+ map.classList.add('battle-map-primary');
+ document.body.classList.add('arena-primeiro');
+ btn.setAttribute('aria-expanded','false');
+ btn.addEventListener('click',()=>{
+  const open=document.body.classList.toggle('arena-tools-open');
+  btn.textContent=open?'🗺 Priorizar Arena':'⚙ Ferramentas';
+  btn.setAttribute('aria-expanded',String(open));
+  if(!open)map.scrollIntoView({block:'nearest',behavior:'auto'});
+ });
+ units.addEventListener('click',()=>document.getElementById('unitList')?.scrollIntoView({block:'start',behavior:'auto'}));
+})();
+</script><script>(()=>{'use strict';
+const panel=document.getElementById('scene-test-panel'),viewport=document.getElementById('viewport');
+if(!panel||!viewport)return;
+const modes=Object.freeze(['day','rain','night']);
+const state={schema_version:'assim.tabletop.scene.presentation.test.v1',mode:'day',source:'MESTRE_ONLY_SYNTHETIC_PRESENTATION',mechanics:'NO_RULES_NO_RESOURCE_WRITES',network:'DISABLED'};
+const info=panel.querySelector('#scene-test-info');
+function setMode(mode){if(!modes.includes(mode))return false;for(const m of modes)viewport.classList.remove('scene-'+m);viewport.classList.add('scene-'+mode);state.mode=mode;panel.querySelectorAll('[data-scene]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.scene===mode)));info.textContent=({day:'Dia: iluminação ilustrativa',rain:'Chuva: animação ilustrativa, sem efeitos nas regras',night:'Noite: filtro visual, sem modificar FOV ou permissões'})[mode];const output=panel.querySelector('#scene-export-output');if(!output.hidden){const old=JSON.parse(output.value||'{}');output.value=JSON.stringify({...old,...state},null,2);}return true;}
+panel.querySelectorAll('[data-scene]').forEach(btn=>btn.addEventListener('click',()=>setMode(btn.dataset.scene)));
+panel.querySelector('#scene-export').addEventListener('click',()=>{
+const dto={...state,cell_count:document.querySelectorAll('#board .tile').length,sent_to_server:false,apply_mechanics:false};
+const dest=panel.querySelector('#scene-export-output');dest.value=JSON.stringify(dto,null,2);dest.hidden=false;
+});
+setMode('day');
+})();</script></body></html>

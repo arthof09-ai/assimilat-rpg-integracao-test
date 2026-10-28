@@ -1,0 +1,124 @@
+{
+  "result": "PASS_R173_COLD_PORTABLE_RECOVERY",
+  "R172_baseline_sha": "aecadd7a93186ce170fb3a84dfab21855be3121033372e0aa3a7c359f023dc17",
+  "R173_zip_sha": "91a03910fc170a21b63a3f114695d727b7c93c035d496b4fcd2bfda0c4e53f34",
+  "zip_entries": 15,
+  "manifest_verified": 14,
+  "source_actors": "Sikong Auren L3 vs Leviata Ferro Mnemonico L4",
+  "new_matchup": 1,
+  "paired_policy_runs": 2,
+  "seed_class": "DEV_NOT_HOLDOUT",
+  "attack_attempts_per_run": 71,
+  "genuine_source_complete_battles": 0,
+  "conditional_sandbox_combat_executions": 2,
+  "journal_commits": 144,
+  "native_events": 143,
+  "net_damage_per_run": 6215,
+  "hp_loss_per_run": 6060,
+  "overkill_per_run": 155,
+  "adversarial_hash_recomputed_rejected": 1,
+  "adversarial_reason": "R173_SEMANTIC_MISMATCH_ATTACK_net: 167 != 166",
+  "independent_verifier": "SEPARATE_LOCAL_SOURCE_MATH_AUDITOR_NOT_HUMAN_EXTERNAL",
+  "terminal_contracts": 0,
+  "official_benchmark_cells": 0,
+  "canon_writes": 0,
+  "party_writes": 0,
+  "writer": "HOLD_NO_WRITER",
+  "R172_historical_effects_rerun": false,
+  "results": [
+    {
+      "status": "PASS_R173_INDEPENDENT_MATH_CAUSAL_REPLAY",
+      "source_admissibility": "PHYSICAL_ATTACKS_ONLY;INITIATIVE_EXOGENOUS;RANGE_CONDITIONAL",
+      "policy": "ALWAYS_DODGE",
+      "seed": 1730101,
+      "attacks": 71,
+      "journal_commits": 72,
+      "native_events": 72,
+      "HP": {
+        "AUREN": 523,
+        "LEVIATHAN": 0
+      },
+      "PA": {
+        "AUREN": 719,
+        "LEVIATHAN": 4260
+      },
+      "reaction_left": {
+        "AUREN": 0,
+        "LEVIATHAN": 1
+      },
+      "metrics": {
+        "attacks": 71,
+        "attempts_by_actor": {
+          "AUREN": 36,
+          "LEVIATHAN": 35
+        },
+        "crit_negative": 1,
+        "crit_positive": 0,
+        "hits": 36,
+        "hits_by_actor": {
+          "AUREN": 36,
+          "LEVIATHAN": 0
+        },
+        "hp_loss": 6060,
+        "overkill": 155,
+        "pa_spent": 0,
+        "post_rd": 6215,
+        "raw_hit_damage": 8915,
+        "reactions_spent": 1
+      },
+      "ended": true,
+      "winner": "AUREN",
+      "formal_external_auditor": false,
+      "official_cells": 0,
+      "terminal_contracts": 0,
+      "sha": "cea607ec9cf2daf6edcccc4c21fe7835452e768531c922032fd5b1f8603bdf1a"
+    },
+    {
+      "status": "PASS_R173_INDEPENDENT_MATH_CAUSAL_REPLAY",
+      "source_admissibility": "PHYSICAL_ATTACKS_ONLY;INITIATIVE_EXOGENOUS;RANGE_CONDITIONAL",
+      "policy": "TACTICAL_SAVE",
+      "seed": 1730101,
+      "attacks": 71,
+      "journal_commits": 72,
+      "native_events": 71,
+      "HP": {
+        "AUREN": 523,
+        "LEVIATHAN": 0
+      },
+      "PA": {
+        "AUREN": 719,
+        "LEVIATHAN": 4260
+      },
+      "reaction_left": {
+        "AUREN": 1,
+        "LEVIATHAN": 1
+      },
+      "metrics": {
+        "attacks": 71,
+        "attempts_by_actor": {
+          "AUREN": 36,
+          "LEVIATHAN": 35
+        },
+        "crit_negative": 1,
+        "crit_positive": 0,
+        "hits": 36,
+        "hits_by_actor": {
+          "AUREN": 36,
+          "LEVIATHAN": 0
+        },
+        "hp_loss": 6060,
+        "overkill": 155,
+        "pa_spent": 0,
+        "post_rd": 6215,
+        "raw_hit_damage": 8915,
+        "reactions_spent": 0
+      },
+      "ended": true,
+      "winner": "AUREN",
+      "formal_external_auditor": false,
+      "official_cells": 0,
+      "terminal_contracts": 0,
+      "sha": "5b3c4091bc0667b549eb443ab5210c2440e2ed1a6eecf8e8470e09eaa52c9755"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "as_of": "2026-10-16",
+  "zip": "VLAB_R72_R81_BENCHMARK_BESTA_ED_MESTRE_ONLY.zip",
+  "bytes": 2198309,
+  "sha256": "a6bd78736dc0eefb512e91acec337b9d0bb608e4b28610486abc3d8d5bb2885a",
+  "zip_entries": 91,
+  "manifest_files": 90,
+  "manifest_sha256": "c249b8abfe1e7dc4a93a159062564decebc3cee5b044f255f73e3a3271d3c95f",
+  "clean_cold_audit": {
+    "runs": 14,
+    "seeds": 7,
+    "paired_mirrors": 7,
+    "events": 270,
+    "attacks": 128,
+    "hits": 92,
+    "status": "PASS_RECONSTRUCT_FULL_STATE"
+  },
+  "redteam": {
+    "semantic_mutations_rejected": 8,
+    "pre_intent_negative_no_effect": 5
+  },
+  "source_status": "ED_RD_NOT_PRESENT_IN_FICHA__CONDITIONAL_RD0_ONLY",
+  "canonical_benchmark": 0,
+  "terminal_contracts": 0,
+  "operation_notion_writer": "HOLD",
+  "R59": "NO_RETRY_UNKNOWN_EFFECT",
+  "R72_first_pending": "UNKNOWN_EFFECT_HOLD_NO_RETRY",
+  "history_unchanged": true
+}

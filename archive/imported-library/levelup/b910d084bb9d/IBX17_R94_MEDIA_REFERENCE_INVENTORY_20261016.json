@@ -1,0 +1,144 @@
+{
+  "operation": "LEVEL-UP-ENGINE / IBX-17",
+  "as_of": "2026-10-16",
+  "scope": "R88 corrective clone native child pages",
+  "pages_read": 20,
+  "pages_with_media": 10,
+  "media_references_found": 13,
+  "file_download_references_resolved": 13,
+  "binary_bytes_recovered": 0,
+  "binary_sha256_certified": 0,
+  "status": "REFERENCE_VERIFIED_BINARY_NOT_CERTIFIED",
+  "files": [
+    {
+      "parent_page_id": "6aec2b324ede82559df48174d5da78f0",
+      "block_id": "55ac2b32-4ede-82ff-8c5d-01bb569332d1",
+      "name": "1000130757.jpg",
+      "mime_expected": "image/jpeg",
+      "size_bytes": null,
+      "sha256": null,
+      "pre_post_binary_match": null,
+      "url": "https://app.notion.com/p/6aec2b324ede82559df48174d5da78f0"
+    },
+    {
+      "parent_page_id": "8b7c2b324ede82aea7508138f76048ff",
+      "block_id": "1e3c2b32-4ede-8211-9428-81b60aa85a94",
+      "name": "Untitled.png",
+      "mime_expected": "image/png",
+      "size_bytes": null,
+      "sha256": null,
+      "pre_post_binary_match": null,
+      "url": "https://app.notion.com/p/8b7c2b324ede82aea7508138f76048ff"
+    },
+    {
+      "parent_page_id": "8b7c2b324ede82aea7508138f76048ff",
+      "block_id": "9f5c2b32-4ede-83aa-8c8f-81aa3269e6e0",
+      "name": "e9617458980fac7f86056a4ea6413397.jpg",
+      "mime_expected": "image/jpeg",
+      "size_bytes": null,
+      "sha256": null,
+      "pre_post_binary_match": null,
+      "url": "https://app.notion.com/p/8b7c2b324ede82aea7508138f76048ff"
+    },
+    {
+      "parent_page_id": "8b7c2b324ede82aea7508138f76048ff",
+      "block_id": "f9fc2b32-4ede-828f-bcce-01fdf091bbcb",
+      "name": "Untitled.png",
+      "mime_expected": "image/png",
+      "size_bytes": null,
+      "sha256": null,
+      "pre_post_binary_match": null,
+      "url": "https://app.notion.com/p/8b7c2b324ede82aea7508138f76048ff"
+    },
+    {
+      "parent_page_id": "8b7c2b324ede82aea7508138f76048ff",
+      "block_id": "1b5c2b32-4ede-8382-a287-01108d4fff28",
+      "name": "e9617458980fac7f86056a4ea6413397.jpg",
+      "mime_expected": "image/jpeg",
+      "size_bytes": null,
+      "sha256": null,
+      "pre_post_binary_match": null,
+      "url": "https://app.notion.com/p/8b7c2b324ede82aea7508138f76048ff"
+    },
+    {
+      "parent_page_id": "827c2b324ede8330bf880120758508af",
+      "block_id": "71ec2b32-4ede-8269-8f8e-018446320162",
+      "name": "1000127625.jpg",
+      "mime_expected": "image/jpeg",
+      "size_bytes": null,
+      "sha256": null,
+      "pre_post_binary_match": null,
+      "url": "https://app.notion.com/p/827c2b324ede8330bf880120758508af"
+    },
+    {
+      "parent_page_id": "8b3c2b324ede83e19b5d012eeb5ec0b5",
+      "block_id": "ab8c2b32-4ede-82ab-8896-8113a0415226",
+      "name": "5fab8f9d73f6eb17907695211db912bf.jpg",
+      "mime_expected": "image/jpeg",
+      "size_bytes": null,
+      "sha256": null,
+      "pre_post_binary_match": null,
+      "url": "https://app.notion.com/p/8b3c2b324ede83e19b5d012eeb5ec0b5"
+    },
+    {
+      "parent_page_id": "8a7c2b324ede8227918a01d394978e21",
+      "block_id": "0cfc2b32-4ede-824e-8050-817bb9bb730f",
+      "name": "d23d229e197cdfc2d4c174bb320fab37.jpg",
+      "mime_expected": "image/jpeg",
+      "size_bytes": null,
+      "sha256": null,
+      "pre_post_binary_match": null,
+      "url": "https://app.notion.com/p/8a7c2b324ede8227918a01d394978e21"
+    },
+    {
+      "parent_page_id": "07fc2b324ede839fb58f010a74e186fa",
+      "block_id": "3bfc2b32-4ede-8213-89ba-817f3c184629",
+      "name": "1000110030.jpg",
+      "mime_expected": "image/jpeg",
+      "size_bytes": null,
+      "sha256": null,
+      "pre_post_binary_match": null,
+      "url": "https://app.notion.com/p/07fc2b324ede839fb58f010a74e186fa"
+    },
+    {
+      "parent_page_id": "15bc2b324ede82338c3e01f65d335e5c",
+      "block_id": "587c2b32-4ede-8397-a32b-01809d040b86",
+      "name": "1000127627.jpg",
+      "mime_expected": "image/jpeg",
+      "size_bytes": null,
+      "sha256": null,
+      "pre_post_binary_match": null,
+      "url": "https://app.notion.com/p/15bc2b324ede82338c3e01f65d335e5c"
+    },
+    {
+      "parent_page_id": "f00c2b324ede8358bee6819d629e2d0f",
+      "block_id": "7c5c2b32-4ede-8366-8ce9-81d587ed4f05",
+      "name": "1000083837.jpg",
+      "mime_expected": "image/jpeg",
+      "size_bytes": null,
+      "sha256": null,
+      "pre_post_binary_match": null,
+      "url": "https://app.notion.com/p/f00c2b324ede8358bee6819d629e2d0f"
+    },
+    {
+      "parent_page_id": "2f9c2b324ede82ecb560812e675b455b",
+      "block_id": "b4ac2b32-4ede-8221-a62b-81e3e7cf5af6",
+      "name": "34aabe33ba9dc6d670f814d1f8894e61.jpg",
+      "mime_expected": "image/jpeg",
+      "size_bytes": null,
+      "sha256": null,
+      "pre_post_binary_match": null,
+      "url": "https://app.notion.com/p/2f9c2b324ede82ecb560812e675b455b"
+    },
+    {
+      "parent_page_id": "b26c2b324ede82a79631819b7ebb18cc",
+      "block_id": "a37c2b32-4ede-83d0-88fa-01ffa60e9de0",
+      "name": "Untitled.png",
+      "mime_expected": "image/png",
+      "size_bytes": null,
+      "sha256": null,
+      "pre_post_binary_match": null,
+      "url": "https://app.notion.com/p/b26c2b324ede82a79631819b7ebb18cc"
+    }
+  ]
+}

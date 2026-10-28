@@ -1,0 +1,2205 @@
+{
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "round": "R07",
+  "classification": "MATH_ONLY",
+  "canon_writes": 0,
+  "sources": {
+    "behemoth": "5dac2b324ede83f39cdb01a904ce3cfd",
+    "simio": "301c2b324ede828caccb813d3979267a",
+    "combat": "3ebc2b324ede81f1be4be8804ac113c0",
+    "besta": "3ebc2b324ede81f4992ac88a3588cacd",
+    "magic": "3ebc2b324ede81f7b343f7270ff91373",
+    "baseline": "3f2c2b324ede815498cddb7844245f7e"
+  },
+  "assumptions": [
+    "Two separate attack attempts, hypothetical Símio Luta+6 for Patada and Luta+7 for Mordida",
+    "Prata 2d6 versus Behemoth CA68/71, strict greater than and tie favors defense",
+    "Damage rolled independently, physical melee, Behemoth normal Ouro RD25, no crit or reactions",
+    "Armor is active before tested attempts, no other buffs, no explicit enemy resistance by subtype",
+    "Reflections only on positive received damage; raw basis as rival hypothetical alternative",
+    "Reflected damage is not intrinsically a magical projectile, no extra invented traits",
+    "Attacker RD scenarios only if competence of this mitigation is confirmed",
+    "Accuracy shifts are counterfactual and have not been authorized as Símio statistics"
+  ],
+  "baseline_reused_R06_sha256": "599d59481a1a8572c17d54e9ef1713a4b2741acb0b9114cb5f53b4df09216383",
+  "sensitivity_shared_accuracy_offset": {
+    "-8": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "chance_armored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_after": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "chance_armored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_after": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        }
+      }
+    },
+    "-7": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "chance_armored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_after": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "chance_armored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_after": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        }
+      }
+    },
+    "-6": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "chance_armored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_after": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "chance_armored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_after": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        }
+      }
+    },
+    "-5": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "chance_armored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_after": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "chance_armored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_after": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        }
+      }
+    },
+    "-4": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "chance_armored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_after": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "1/36",
+          "decimal": 0.0277777778
+        },
+        "chance_armored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "probability_reduction": {
+          "fraction": "1/36",
+          "decimal": 0.0277777778
+        },
+        "health_before": {
+          "fraction": "65/72",
+          "decimal": 0.9027777778
+        },
+        "health_after": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_avoided": {
+          "fraction": "65/72",
+          "decimal": 0.9027777778
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        }
+      }
+    },
+    "-3": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "1/36",
+          "decimal": 0.0277777778
+        },
+        "chance_armored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "probability_reduction": {
+          "fraction": "1/36",
+          "decimal": 0.0277777778
+        },
+        "health_before": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "health_after": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_avoided": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "1/12",
+          "decimal": 0.0833333333
+        },
+        "chance_armored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "probability_reduction": {
+          "fraction": "1/12",
+          "decimal": 0.0833333333
+        },
+        "health_before": {
+          "fraction": "65/24",
+          "decimal": 2.7083333333
+        },
+        "health_after": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_avoided": {
+          "fraction": "65/24",
+          "decimal": 2.7083333333
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        }
+      }
+    },
+    "-2": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "1/12",
+          "decimal": 0.0833333333
+        },
+        "chance_armored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "probability_reduction": {
+          "fraction": "1/12",
+          "decimal": 0.0833333333
+        },
+        "health_before": {
+          "fraction": "3",
+          "decimal": 3.0
+        },
+        "health_after": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_avoided": {
+          "fraction": "3",
+          "decimal": 3.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "1/6",
+          "decimal": 0.1666666667
+        },
+        "chance_armored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "probability_reduction": {
+          "fraction": "1/6",
+          "decimal": 0.1666666667
+        },
+        "health_before": {
+          "fraction": "65/12",
+          "decimal": 5.4166666667
+        },
+        "health_after": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_avoided": {
+          "fraction": "65/12",
+          "decimal": 5.4166666667
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        }
+      }
+    },
+    "-1": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "1/6",
+          "decimal": 0.1666666667
+        },
+        "chance_armored": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "probability_reduction": {
+          "fraction": "1/6",
+          "decimal": 0.1666666667
+        },
+        "health_before": {
+          "fraction": "6",
+          "decimal": 6.0
+        },
+        "health_after": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_avoided": {
+          "fraction": "6",
+          "decimal": 6.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "0",
+          "decimal": 0.0
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "5/18",
+          "decimal": 0.2777777778
+        },
+        "chance_armored": {
+          "fraction": "1/36",
+          "decimal": 0.0277777778
+        },
+        "probability_reduction": {
+          "fraction": "1/4",
+          "decimal": 0.25
+        },
+        "health_before": {
+          "fraction": "325/36",
+          "decimal": 9.0277777778
+        },
+        "health_after": {
+          "fraction": "65/72",
+          "decimal": 0.9027777778
+        },
+        "health_avoided": {
+          "fraction": "65/8",
+          "decimal": 8.125
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "13/96",
+          "decimal": 0.1354166667
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "23/96",
+          "decimal": 0.2395833333
+        }
+      }
+    },
+    "0": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "5/18",
+          "decimal": 0.2777777778
+        },
+        "chance_armored": {
+          "fraction": "1/36",
+          "decimal": 0.0277777778
+        },
+        "probability_reduction": {
+          "fraction": "1/4",
+          "decimal": 0.25
+        },
+        "health_before": {
+          "fraction": "10",
+          "decimal": 10.0
+        },
+        "health_after": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "health_avoided": {
+          "fraction": "9",
+          "decimal": 9.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "3/20",
+          "decimal": 0.15
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "61/240",
+          "decimal": 0.2541666667
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "5/12",
+          "decimal": 0.4166666667
+        },
+        "chance_armored": {
+          "fraction": "1/12",
+          "decimal": 0.0833333333
+        },
+        "probability_reduction": {
+          "fraction": "1/3",
+          "decimal": 0.3333333333
+        },
+        "health_before": {
+          "fraction": "325/24",
+          "decimal": 13.5416666667
+        },
+        "health_after": {
+          "fraction": "65/24",
+          "decimal": 2.7083333333
+        },
+        "health_avoided": {
+          "fraction": "65/6",
+          "decimal": 10.8333333333
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "13/32",
+          "decimal": 0.40625
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "23/32",
+          "decimal": 0.71875
+        }
+      }
+    },
+    "1": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "5/12",
+          "decimal": 0.4166666667
+        },
+        "chance_armored": {
+          "fraction": "1/12",
+          "decimal": 0.0833333333
+        },
+        "probability_reduction": {
+          "fraction": "1/3",
+          "decimal": 0.3333333333
+        },
+        "health_before": {
+          "fraction": "15",
+          "decimal": 15.0
+        },
+        "health_after": {
+          "fraction": "3",
+          "decimal": 3.0
+        },
+        "health_avoided": {
+          "fraction": "12",
+          "decimal": 12.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "9/20",
+          "decimal": 0.45
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "61/80",
+          "decimal": 0.7625
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "7/12",
+          "decimal": 0.5833333333
+        },
+        "chance_armored": {
+          "fraction": "1/6",
+          "decimal": 0.1666666667
+        },
+        "probability_reduction": {
+          "fraction": "5/12",
+          "decimal": 0.4166666667
+        },
+        "health_before": {
+          "fraction": "455/24",
+          "decimal": 18.9583333333
+        },
+        "health_after": {
+          "fraction": "65/12",
+          "decimal": 5.4166666667
+        },
+        "health_avoided": {
+          "fraction": "325/24",
+          "decimal": 13.5416666667
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "13/16",
+          "decimal": 0.8125
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "23/16",
+          "decimal": 1.4375
+        }
+      }
+    },
+    "2": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "7/12",
+          "decimal": 0.5833333333
+        },
+        "chance_armored": {
+          "fraction": "1/6",
+          "decimal": 0.1666666667
+        },
+        "probability_reduction": {
+          "fraction": "5/12",
+          "decimal": 0.4166666667
+        },
+        "health_before": {
+          "fraction": "21",
+          "decimal": 21.0
+        },
+        "health_after": {
+          "fraction": "6",
+          "decimal": 6.0
+        },
+        "health_avoided": {
+          "fraction": "15",
+          "decimal": 15.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "9/10",
+          "decimal": 0.9
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "61/40",
+          "decimal": 1.525
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "13/18",
+          "decimal": 0.7222222222
+        },
+        "chance_armored": {
+          "fraction": "5/18",
+          "decimal": 0.2777777778
+        },
+        "probability_reduction": {
+          "fraction": "4/9",
+          "decimal": 0.4444444444
+        },
+        "health_before": {
+          "fraction": "845/36",
+          "decimal": 23.4722222222
+        },
+        "health_after": {
+          "fraction": "325/36",
+          "decimal": 9.0277777778
+        },
+        "health_avoided": {
+          "fraction": "130/9",
+          "decimal": 14.4444444444
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "65/48",
+          "decimal": 1.3541666667
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "115/48",
+          "decimal": 2.3958333333
+        }
+      }
+    },
+    "3": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "13/18",
+          "decimal": 0.7222222222
+        },
+        "chance_armored": {
+          "fraction": "5/18",
+          "decimal": 0.2777777778
+        },
+        "probability_reduction": {
+          "fraction": "4/9",
+          "decimal": 0.4444444444
+        },
+        "health_before": {
+          "fraction": "26",
+          "decimal": 26.0
+        },
+        "health_after": {
+          "fraction": "10",
+          "decimal": 10.0
+        },
+        "health_avoided": {
+          "fraction": "16",
+          "decimal": 16.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "3/2",
+          "decimal": 1.5
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "61/24",
+          "decimal": 2.5416666667
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "5/6",
+          "decimal": 0.8333333333
+        },
+        "chance_armored": {
+          "fraction": "5/12",
+          "decimal": 0.4166666667
+        },
+        "probability_reduction": {
+          "fraction": "5/12",
+          "decimal": 0.4166666667
+        },
+        "health_before": {
+          "fraction": "325/12",
+          "decimal": 27.0833333333
+        },
+        "health_after": {
+          "fraction": "325/24",
+          "decimal": 13.5416666667
+        },
+        "health_avoided": {
+          "fraction": "325/24",
+          "decimal": 13.5416666667
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "65/32",
+          "decimal": 2.03125
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "115/32",
+          "decimal": 3.59375
+        }
+      }
+    },
+    "4": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "5/6",
+          "decimal": 0.8333333333
+        },
+        "chance_armored": {
+          "fraction": "5/12",
+          "decimal": 0.4166666667
+        },
+        "probability_reduction": {
+          "fraction": "5/12",
+          "decimal": 0.4166666667
+        },
+        "health_before": {
+          "fraction": "30",
+          "decimal": 30.0
+        },
+        "health_after": {
+          "fraction": "15",
+          "decimal": 15.0
+        },
+        "health_avoided": {
+          "fraction": "15",
+          "decimal": 15.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "9/4",
+          "decimal": 2.25
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "61/16",
+          "decimal": 3.8125
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "11/12",
+          "decimal": 0.9166666667
+        },
+        "chance_armored": {
+          "fraction": "7/12",
+          "decimal": 0.5833333333
+        },
+        "probability_reduction": {
+          "fraction": "1/3",
+          "decimal": 0.3333333333
+        },
+        "health_before": {
+          "fraction": "715/24",
+          "decimal": 29.7916666667
+        },
+        "health_after": {
+          "fraction": "455/24",
+          "decimal": 18.9583333333
+        },
+        "health_avoided": {
+          "fraction": "65/6",
+          "decimal": 10.8333333333
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "91/32",
+          "decimal": 2.84375
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "161/32",
+          "decimal": 5.03125
+        }
+      }
+    },
+    "5": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "11/12",
+          "decimal": 0.9166666667
+        },
+        "chance_armored": {
+          "fraction": "7/12",
+          "decimal": 0.5833333333
+        },
+        "probability_reduction": {
+          "fraction": "1/3",
+          "decimal": 0.3333333333
+        },
+        "health_before": {
+          "fraction": "33",
+          "decimal": 33.0
+        },
+        "health_after": {
+          "fraction": "21",
+          "decimal": 21.0
+        },
+        "health_avoided": {
+          "fraction": "12",
+          "decimal": 12.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "63/20",
+          "decimal": 3.15
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "427/80",
+          "decimal": 5.3375
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "35/36",
+          "decimal": 0.9722222222
+        },
+        "chance_armored": {
+          "fraction": "13/18",
+          "decimal": 0.7222222222
+        },
+        "probability_reduction": {
+          "fraction": "1/4",
+          "decimal": 0.25
+        },
+        "health_before": {
+          "fraction": "2275/72",
+          "decimal": 31.5972222222
+        },
+        "health_after": {
+          "fraction": "845/36",
+          "decimal": 23.4722222222
+        },
+        "health_avoided": {
+          "fraction": "65/8",
+          "decimal": 8.125
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "169/48",
+          "decimal": 3.5208333333
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "299/48",
+          "decimal": 6.2291666667
+        }
+      }
+    },
+    "6": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "35/36",
+          "decimal": 0.9722222222
+        },
+        "chance_armored": {
+          "fraction": "13/18",
+          "decimal": 0.7222222222
+        },
+        "probability_reduction": {
+          "fraction": "1/4",
+          "decimal": 0.25
+        },
+        "health_before": {
+          "fraction": "35",
+          "decimal": 35.0
+        },
+        "health_after": {
+          "fraction": "26",
+          "decimal": 26.0
+        },
+        "health_avoided": {
+          "fraction": "9",
+          "decimal": 9.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "39/10",
+          "decimal": 3.9
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "793/120",
+          "decimal": 6.6083333333
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "5/6",
+          "decimal": 0.8333333333
+        },
+        "probability_reduction": {
+          "fraction": "1/6",
+          "decimal": 0.1666666667
+        },
+        "health_before": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_after": {
+          "fraction": "325/12",
+          "decimal": 27.0833333333
+        },
+        "health_avoided": {
+          "fraction": "65/12",
+          "decimal": 5.4166666667
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "65/16",
+          "decimal": 4.0625
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "115/16",
+          "decimal": 7.1875
+        }
+      }
+    },
+    "7": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "5/6",
+          "decimal": 0.8333333333
+        },
+        "probability_reduction": {
+          "fraction": "1/6",
+          "decimal": 0.1666666667
+        },
+        "health_before": {
+          "fraction": "36",
+          "decimal": 36.0
+        },
+        "health_after": {
+          "fraction": "30",
+          "decimal": 30.0
+        },
+        "health_avoided": {
+          "fraction": "6",
+          "decimal": 6.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "9/2",
+          "decimal": 4.5
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "61/8",
+          "decimal": 7.625
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "11/12",
+          "decimal": 0.9166666667
+        },
+        "probability_reduction": {
+          "fraction": "1/12",
+          "decimal": 0.0833333333
+        },
+        "health_before": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_after": {
+          "fraction": "715/24",
+          "decimal": 29.7916666667
+        },
+        "health_avoided": {
+          "fraction": "65/24",
+          "decimal": 2.7083333333
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "143/32",
+          "decimal": 4.46875
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "253/32",
+          "decimal": 7.90625
+        }
+      }
+    },
+    "8": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "11/12",
+          "decimal": 0.9166666667
+        },
+        "probability_reduction": {
+          "fraction": "1/12",
+          "decimal": 0.0833333333
+        },
+        "health_before": {
+          "fraction": "36",
+          "decimal": 36.0
+        },
+        "health_after": {
+          "fraction": "33",
+          "decimal": 33.0
+        },
+        "health_avoided": {
+          "fraction": "3",
+          "decimal": 3.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "99/20",
+          "decimal": 4.95
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "671/80",
+          "decimal": 8.3875
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "35/36",
+          "decimal": 0.9722222222
+        },
+        "probability_reduction": {
+          "fraction": "1/36",
+          "decimal": 0.0277777778
+        },
+        "health_before": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_after": {
+          "fraction": "2275/72",
+          "decimal": 31.5972222222
+        },
+        "health_avoided": {
+          "fraction": "65/72",
+          "decimal": 0.9027777778
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "455/96",
+          "decimal": 4.7395833333
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "805/96",
+          "decimal": 8.3854166667
+        }
+      }
+    },
+    "9": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "35/36",
+          "decimal": 0.9722222222
+        },
+        "probability_reduction": {
+          "fraction": "1/36",
+          "decimal": 0.0277777778
+        },
+        "health_before": {
+          "fraction": "36",
+          "decimal": 36.0
+        },
+        "health_after": {
+          "fraction": "35",
+          "decimal": 35.0
+        },
+        "health_avoided": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "21/4",
+          "decimal": 5.25
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "427/48",
+          "decimal": 8.8958333333
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_after": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "39/8",
+          "decimal": 4.875
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "69/8",
+          "decimal": 8.625
+        }
+      }
+    },
+    "10": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "36",
+          "decimal": 36.0
+        },
+        "health_after": {
+          "fraction": "36",
+          "decimal": 36.0
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "27/5",
+          "decimal": 5.4
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "183/20",
+          "decimal": 9.15
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_after": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "39/8",
+          "decimal": 4.875
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "69/8",
+          "decimal": 8.625
+        }
+      }
+    },
+    "11": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "36",
+          "decimal": 36.0
+        },
+        "health_after": {
+          "fraction": "36",
+          "decimal": 36.0
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "27/5",
+          "decimal": 5.4
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "183/20",
+          "decimal": 9.15
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_after": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "39/8",
+          "decimal": 4.875
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "69/8",
+          "decimal": 8.625
+        }
+      }
+    },
+    "12": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "36",
+          "decimal": 36.0
+        },
+        "health_after": {
+          "fraction": "36",
+          "decimal": 36.0
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "27/5",
+          "decimal": 5.4
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "183/20",
+          "decimal": 9.15
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_after": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "39/8",
+          "decimal": 4.875
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "69/8",
+          "decimal": 8.625
+        }
+      }
+    },
+    "13": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "36",
+          "decimal": 36.0
+        },
+        "health_after": {
+          "fraction": "36",
+          "decimal": 36.0
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "27/5",
+          "decimal": 5.4
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "183/20",
+          "decimal": 9.15
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_after": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "39/8",
+          "decimal": 4.875
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "69/8",
+          "decimal": 8.625
+        }
+      }
+    },
+    "14": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "36",
+          "decimal": 36.0
+        },
+        "health_after": {
+          "fraction": "36",
+          "decimal": 36.0
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "27/5",
+          "decimal": 5.4
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "183/20",
+          "decimal": 9.15
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_after": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "39/8",
+          "decimal": 4.875
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "69/8",
+          "decimal": 8.625
+        }
+      }
+    },
+    "15": {
+      "patada": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "36",
+          "decimal": 36.0
+        },
+        "health_after": {
+          "fraction": "36",
+          "decimal": 36.0
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "27/5",
+          "decimal": 5.4
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "183/20",
+          "decimal": 9.15
+        }
+      },
+      "mordida": {
+        "chance_unarmored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "chance_armored": {
+          "fraction": "1",
+          "decimal": 1.0
+        },
+        "probability_reduction": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "health_before": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_after": {
+          "fraction": "65/2",
+          "decimal": 32.5
+        },
+        "health_avoided": {
+          "fraction": "0",
+          "decimal": 0.0
+        },
+        "reflection_after_rd_nominal": {
+          "fraction": "39/8",
+          "decimal": 4.875
+        },
+        "reflection_from_gross_nominal": {
+          "fraction": "69/8",
+          "decimal": 8.625
+        }
+      }
+    }
+  },
+  "attack_test_rank_conflict_sensitivity": {
+    "body_prata_2d6": {
+      "by_attack": {
+        "patada": {
+          "p_CA68": {
+            "fraction": "5/18",
+            "decimal": 0.2777777778
+          },
+          "p_CA71": {
+            "fraction": "1/36",
+            "decimal": 0.0277777778
+          },
+          "expected_damage_avoided": {
+            "fraction": "9",
+            "decimal": 9.0
+          },
+          "expected_damage_CA71": {
+            "fraction": "1",
+            "decimal": 1.0
+          }
+        },
+        "mordida": {
+          "p_CA68": {
+            "fraction": "5/12",
+            "decimal": 0.4166666667
+          },
+          "p_CA71": {
+            "fraction": "1/12",
+            "decimal": 0.0833333333
+          },
+          "expected_damage_avoided": {
+            "fraction": "65/6",
+            "decimal": 10.8333333333
+          },
+          "expected_damage_CA71": {
+            "fraction": "65/24",
+            "decimal": 2.7083333333
+          }
+        }
+      },
+      "total_hp_avoided": {
+        "fraction": "119/6",
+        "decimal": 19.8333333333
+      },
+      "p_at_least_one_hit_CA68": {
+        "fraction": "125/216",
+        "decimal": 0.5787037037
+      },
+      "p_at_least_one_hit_CA71": {
+        "fraction": "47/432",
+        "decimal": 0.1087962963
+      }
+    },
+    "tree_ouro_negro_4d6": {
+      "by_attack": {
+        "patada": {
+          "p_CA68": {
+            "fraction": "613/648",
+            "decimal": 0.9459876543
+          },
+          "p_CA71": {
+            "fraction": "493/648",
+            "decimal": 0.7608024691
+          },
+          "expected_damage_avoided": {
+            "fraction": "20/3",
+            "decimal": 6.6666666667
+          },
+          "expected_damage_CA71": {
+            "fraction": "493/18",
+            "decimal": 27.3888888889
+          }
+        },
+        "mordida": {
+          "p_CA68": {
+            "fraction": "1261/1296",
+            "decimal": 0.9729938272
+          },
+          "p_CA71": {
+            "fraction": "545/648",
+            "decimal": 0.8410493827
+          },
+          "expected_damage_avoided": {
+            "fraction": "1235/288",
+            "decimal": 4.2881944444
+          },
+          "expected_damage_CA71": {
+            "fraction": "35425/1296",
+            "decimal": 27.3341049383
+          }
+        }
+      },
+      "total_hp_avoided": {
+        "fraction": "3155/288",
+        "decimal": 10.9548611111
+      },
+      "p_at_least_one_hit_CA68": {
+        "fraction": "838583/839808",
+        "decimal": 0.9985413333
+      },
+      "p_at_least_one_hit_CA71": {
+        "fraction": "403939/419904",
+        "decimal": 0.9619794048
+      }
+    }
+  },
+  "critical_reflection_maxima_if_no_other_buffs": {
+    "patada": {
+      "normal_max_damage": 66,
+      "critical_max_damage": 78,
+      "reflection_15pct_max_critical_gross": {
+        "fraction": "117/10",
+        "decimal": 11.7
+      },
+      "ceiling_gross_reflection_max": 12,
+      "ceiling_after_defender_RD25_max": 8
+    },
+    "mordida": {
+      "normal_max_damage": 60,
+      "critical_max_damage": 66,
+      "reflection_15pct_max_critical_gross": {
+        "fraction": "99/10",
+        "decimal": 9.9
+      },
+      "ceiling_gross_reflection_max": 10,
+      "ceiling_after_defender_RD25_max": 7
+    }
+  },
+  "reaction_sensitivity_if_legal_esquivar": {
+    "patada": {
+      "attack_max_without_critical": 72,
+      "minimum_reflexo_at_CA68_to_block_all_noncritical_attempts": 4,
+      "minimum_reflexo_at_CA71_to_block_all_noncritical_attempts": 1
+    },
+    "mordida": {
+      "attack_max_without_critical": 73,
+      "minimum_reflexo_at_CA68_to_block_all_noncritical_attempts": 5,
+      "minimum_reflexo_at_CA71_to_block_all_noncritical_attempts": 2
+    }
+  },
+  "at_least_one_hit_two_independent_attempts": {
+    "without_armor": {
+      "fraction": "125/216",
+      "decimal": 0.5787037037
+    },
+    "with_armor": {
+      "fraction": "47/432",
+      "decimal": 0.1087962963
+    },
+    "absolute_reduction": {
+      "fraction": "203/432",
+      "decimal": 0.4699074074
+    },
+    "relative_reduction": {
+      "fraction": "203/250",
+      "decimal": 0.812
+    }
+  },
+  "peak_armor_health_avoided": {
+    "shared_accuracy_shift": 3,
+    "expected_hp_avoided_for_one_each": {
+      "fraction": "709/24",
+      "decimal": 29.5416666667
+    }
+  },
+  "reflection_R06_accuracy_bases_and_rounding_per_successful_hit": {
+    "net_none": {
+      "0": {
+        "fraction": "89/160",
+        "decimal": 0.55625
+      },
+      "5": {
+        "fraction": "1/60",
+        "decimal": 0.0166666667
+      },
+      "7": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "10": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "15": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "35": {
+        "fraction": "0",
+        "decimal": 0.0
+      }
+    },
+    "net_floor": {
+      "0": {
+        "fraction": "215/432",
+        "decimal": 0.4976851852
+      },
+      "5": {
+        "fraction": "1/432",
+        "decimal": 0.0023148148
+      },
+      "7": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "10": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "15": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "35": {
+        "fraction": "0",
+        "decimal": 0.0
+      }
+    },
+    "net_nearest_half_up": {
+      "0": {
+        "fraction": "245/432",
+        "decimal": 0.5671296296
+      },
+      "5": {
+        "fraction": "5/432",
+        "decimal": 0.0115740741
+      },
+      "7": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "10": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "15": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "35": {
+        "fraction": "0",
+        "decimal": 0.0
+      }
+    },
+    "net_ceil": {
+      "0": {
+        "fraction": "787/1296",
+        "decimal": 0.6072530864
+      },
+      "5": {
+        "fraction": "67/1296",
+        "decimal": 0.0516975309
+      },
+      "7": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "10": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "15": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "35": {
+        "fraction": "0",
+        "decimal": 0.0
+      }
+    },
+    "gross_none": {
+      "0": {
+        "fraction": "467/480",
+        "decimal": 0.9729166667
+      },
+      "5": {
+        "fraction": "601/1440",
+        "decimal": 0.4173611111
+      },
+      "7": {
+        "fraction": "281/1440",
+        "decimal": 0.1951388889
+      },
+      "10": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "15": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "35": {
+        "fraction": "0",
+        "decimal": 0.0
+      }
+    },
+    "gross_floor": {
+      "0": {
+        "fraction": "299/324",
+        "decimal": 0.9228395062
+      },
+      "5": {
+        "fraction": "119/324",
+        "decimal": 0.3672839506
+      },
+      "7": {
+        "fraction": "47/324",
+        "decimal": 0.1450617284
+      },
+      "10": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "15": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "35": {
+        "fraction": "0",
+        "decimal": 0.0
+      }
+    },
+    "gross_nearest_half_up": {
+      "0": {
+        "fraction": "1265/1296",
+        "decimal": 0.9760802469
+      },
+      "5": {
+        "fraction": "545/1296",
+        "decimal": 0.4205246914
+      },
+      "7": {
+        "fraction": "257/1296",
+        "decimal": 0.1983024691
+      },
+      "10": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "15": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "35": {
+        "fraction": "0",
+        "decimal": 0.0
+      }
+    },
+    "gross_ceil": {
+      "0": {
+        "fraction": "439/432",
+        "decimal": 1.0162037037
+      },
+      "5": {
+        "fraction": "199/432",
+        "decimal": 0.4606481481
+      },
+      "7": {
+        "fraction": "103/432",
+        "decimal": 0.2384259259
+      },
+      "10": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "15": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "35": {
+        "fraction": "0",
+        "decimal": 0.0
+      }
+    }
+  },
+  "energetic_sensitivity": [
+    {
+      "protected_intervals": 1,
+      "charge_upkeep_from_activation": 23,
+      "charge_upkeep_from_next_interval": 20,
+      "first_cost_fraction_if_including_first": {
+        "fraction": "20/23",
+        "decimal": 0.8695652174
+      },
+      "expected_hp_prevented_for_identical_R06_pair_each_interval": {
+        "fraction": "119/6",
+        "decimal": 19.8333333333
+      },
+      "note": "scenario only; an interval is two independent attempts, not a certified combat turn"
+    },
+    {
+      "protected_intervals": 2,
+      "charge_upkeep_from_activation": 26,
+      "charge_upkeep_from_next_interval": 23,
+      "first_cost_fraction_if_including_first": {
+        "fraction": "10/13",
+        "decimal": 0.7692307692
+      },
+      "expected_hp_prevented_for_identical_R06_pair_each_interval": {
+        "fraction": "119/3",
+        "decimal": 39.6666666667
+      },
+      "note": "scenario only; an interval is two independent attempts, not a certified combat turn"
+    },
+    {
+      "protected_intervals": 3,
+      "charge_upkeep_from_activation": 29,
+      "charge_upkeep_from_next_interval": 26,
+      "first_cost_fraction_if_including_first": {
+        "fraction": "20/29",
+        "decimal": 0.6896551724
+      },
+      "expected_hp_prevented_for_identical_R06_pair_each_interval": {
+        "fraction": "119/2",
+        "decimal": 59.5
+      },
+      "note": "scenario only; an interval is two independent attempts, not a certified combat turn"
+    },
+    {
+      "protected_intervals": 5,
+      "charge_upkeep_from_activation": 35,
+      "charge_upkeep_from_next_interval": 32,
+      "first_cost_fraction_if_including_first": {
+        "fraction": "4/7",
+        "decimal": 0.5714285714
+      },
+      "expected_hp_prevented_for_identical_R06_pair_each_interval": {
+        "fraction": "595/6",
+        "decimal": 99.1666666667
+      },
+      "note": "scenario only; an interval is two independent attempts, not a certified combat turn"
+    },
+    {
+      "protected_intervals": 7,
+      "charge_upkeep_from_activation": 41,
+      "charge_upkeep_from_next_interval": 38,
+      "first_cost_fraction_if_including_first": {
+        "fraction": "20/41",
+        "decimal": 0.487804878
+      },
+      "expected_hp_prevented_for_identical_R06_pair_each_interval": {
+        "fraction": "833/6",
+        "decimal": 138.8333333333
+      },
+      "note": "scenario only; an interval is two independent attempts, not a certified combat turn"
+    },
+    {
+      "protected_intervals": 8,
+      "charge_upkeep_from_activation": 44,
+      "charge_upkeep_from_next_interval": 41,
+      "first_cost_fraction_if_including_first": {
+        "fraction": "5/11",
+        "decimal": 0.4545454545
+      },
+      "expected_hp_prevented_for_identical_R06_pair_each_interval": {
+        "fraction": "476/3",
+        "decimal": 158.6666666667
+      },
+      "note": "scenario only; an interval is two independent attempts, not a certified combat turn"
+    },
+    {
+      "protected_intervals": 10,
+      "charge_upkeep_from_activation": 50,
+      "charge_upkeep_from_next_interval": 47,
+      "first_cost_fraction_if_including_first": {
+        "fraction": "2/5",
+        "decimal": 0.4
+      },
+      "expected_hp_prevented_for_identical_R06_pair_each_interval": {
+        "fraction": "595/3",
+        "decimal": 198.3333333333
+      },
+      "note": "scenario only; an interval is two independent attempts, not a certified combat turn"
+    }
+  ],
+  "normative_findings": [
+    "armor +3 CA reflects 15 percent of damage received EXCEPT magic and projectiles, 20PA+3PA per turn",
+    "system of magic imposes 1 Standard Action on spells without explicit different time; applicability to specific armor ability is not proven",
+    "DMG-RANK v1.1 says return value derives from damage received, no new damage base; no general bypass authorized",
+    "combat Esquiva = CA + Reflexo; Defender =6+CON+Armadura+Fortitude; one Reaction in turn; values unavailable",
+    "spell reflect reaction for half damage is different from armor passive 15 percent and cannot be imported"
+  ],
+  "unknown": [
+    "official Símio Luta bonuses",
+    "Simio rank: title/body Prata5, ancestor OuroNegro5",
+    "armor classification as magia or non-spell bestial ability",
+    "start timing and upkeep first tick",
+    "maintenance action and interruption",
+    "whether reflected damage is subject to attacker RD and type/rider",
+    "rounding scope and rule",
+    "competent reflect source basis gross or net",
+    "combat interactions critical/reactions"
+  ],
+  "falsification_gates": [
+    "Without crit/reaction, with shared R06 parameters, CA delta must change probabilities as distribution",
+    "If defender with protection takes hits not passing CA71, inspect armor timing or certified mechanics before inferring bug",
+    "If a reflected return penetrates a competent attacker RD15 with noncrit gross <=66 and no bypass, inspect rule/rounding/reflection nature; do not presume defect"
+  ]
+}

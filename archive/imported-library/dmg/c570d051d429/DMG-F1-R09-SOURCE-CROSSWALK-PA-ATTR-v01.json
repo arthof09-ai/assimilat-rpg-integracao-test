@@ -1,0 +1,257 @@
+{
+  "integrity_boundary": "No claim that a full actor snapshot is source-frozen, no reinterpretation of Party mirrors, no alteration to pages",
+  "liu": {
+    "candidate_defender_values": {
+      "CON_printed_16": "37+FORTITUDE",
+      "CON_with_weapon_20": "41+FORTITUDE",
+      "fortitude_selected": null,
+      "meaning": "exclusive sensitivity branches, not simultaneous bonuses",
+      "reaction_budget_live": null
+    },
+    "candidate_speed_evidence": {
+      "armor_minus_7": -7,
+      "boots_plus_8_conditional": 8,
+      "implied_base_normal_if_penalty_and_boots": 10,
+      "implied_base_transform_if_penalty_and_boots": 12,
+      "live_boot_activation": null,
+      "live_move_range": null,
+      "normal_3_plus_8": 11,
+      "transformed_5_plus_8": 13
+    },
+    "cross_state_consistency": {
+      "CA_normal": {
+        "DES16": 16,
+        "FF_CA": [
+          4,
+          3,
+          2
+        ],
+        "armor15": 15,
+        "racial6": 6,
+        "total": 46
+      },
+      "CA_transformed": {
+        "DES27": 27,
+        "FF_CA": [
+          4,
+          3,
+          2,
+          3
+        ],
+        "armor15": 15,
+        "racial6": 6,
+        "total": 60
+      },
+      "FF_delta": 10,
+      "FF_normal_display": 620,
+      "FF_normal_rule_calc": 610,
+      "FF_transformed_display": 920,
+      "FF_transformed_rule_calc": 920,
+      "attack_normal_hypothesis": {
+        "armor_bonus": 8,
+        "equals_shortcut": 37,
+        "printed_FOR": 29
+      },
+      "attack_transformed_hypothesis": {
+        "armor_bonus": 8,
+        "equals_shortcut": 48,
+        "printed_FOR": 40
+      },
+      "fixed_damage_normal_hypothesis": {
+        "FF_damage_bonuses": [
+          4,
+          4
+        ],
+        "attack_fixed_37": 37,
+        "equals_shortcut_fixed_45": 45
+      },
+      "fixed_damage_transformed_hypothesis": {
+        "FF_damage_bonuses": [
+          4,
+          4,
+          4
+        ],
+        "attack_fixed_48": 48,
+        "equals_shortcut_fixed_60": 60
+      }
+    },
+    "equipment_named": {
+      "alma_ring": {
+        "PA_bonus": 50,
+        "name": "Anel da Alma"
+      },
+      "armor": {
+        "CA": 15,
+        "FOR_bonus": 8,
+        "PA_nominal": 42,
+        "PA_period": null,
+        "RDF": 10,
+        "name": "Armadura Pesada, Aprimorada, Mitral, Anã (ON)",
+        "speed_penalty_m": -7
+      },
+      "attribute_ring": {
+        "PA_nominal": 30,
+        "attribute_bonus": 6,
+        "name": "Anel de Atributo",
+        "period": null,
+        "which_attribute": null
+      },
+      "boots": {
+        "PA_per_day": 15,
+        "name": "Botas de Velocidade",
+        "requires_action_bônus_unmapped_to_combat": true,
+        "speed_bonus_m_if_activated": 8
+      },
+      "weapon": {
+        "CON_bonus": 4,
+        "PA_per_day": 60,
+        "cruel_certeira_attack_damage_bonus": 2,
+        "decepadora_extra_critical_slashing": 18,
+        "decepadora_spoken_weapon_as_sword": true,
+        "electric_additional": "3d8+6",
+        "name": "Machado de Guerra Elétrico (ON)",
+        "weapon_damage": "5d12"
+      }
+    },
+    "flags": {
+      "action_bonus_mapping": null,
+      "active_boots": null,
+      "canonical_attribute_additions": null,
+      "fight_winner": null,
+      "live_HP": null,
+      "live_PA": null,
+      "selected_proficiencies": null,
+      "spirit_active": null
+    },
+    "normal_literal": {
+      "CA": 46,
+      "CON": 16,
+      "DES": 16,
+      "FF_display": 620,
+      "FOR": 29,
+      "Life_display": 235,
+      "PA_eq": "170+50-15-30-60-42=73",
+      "Perdido_literal": -46,
+      "attack_shortcut": "2d6+37",
+      "damage_shortcut": "5d12+3d8+1d6+45",
+      "dodge_display_total": 49,
+      "movement_display": "3+8 m por turno"
+    },
+    "pa_nominal_equation": {
+      "additional_perdido_possible_if_disjoint": 27,
+      "alma_ring_bonus": 50,
+      "base170": 170,
+      "display_result": 73,
+      "equipment_nominal_subtractions": {
+        "armor": 42,
+        "attribute_ring": 30,
+        "boots": 15,
+        "weapon": 60
+      },
+      "known_live_free_pa": null,
+      "subtractions_sum": 147,
+      "why_not_canonical": "Current loadout, PA commitments/cost timing and unknown Perdido -46 not independently audited; do not assume duration/charge."
+    },
+    "transformed_literal": {
+      "CA": 60,
+      "CON": 25,
+      "DES": 27,
+      "FF_display": 920,
+      "FOR": 40,
+      "attack_shortcut": "2d6+48",
+      "damage_shortcut": "5d12+3d8+1d6+60",
+      "dodge_display_total": 63,
+      "life_modifier_display": 110,
+      "movement_display": "5+8 m por turno"
+    }
+  },
+  "macaco": {
+    "FOR_branches": {
+      "A": {
+        "FOR": 54,
+        "status": "LITERAL"
+      },
+      "B": {
+        "FOR": 56,
+        "status": "HYPOTHETICAL_+2_PASSIVE"
+      }
+    },
+    "attacks": {
+      "Mordida": {
+        "PA_cost": null,
+        "actual_range": null,
+        "attribute": "FOR",
+        "dice": "1d6",
+        "type": "PERFURANTE"
+      },
+      "Patada": {
+        "PA_cost": null,
+        "actual_range": null,
+        "attribute": "FOR",
+        "dice": "2d6",
+        "type": "IMPACTO"
+      },
+      "Poder elemental": {
+        "PA_cost": 10,
+        "attribute": "INT",
+        "dice": "1d10",
+        "type": null
+      }
+    },
+    "body_name": "macaco rei",
+    "derived_current": {
+      "Titan_CA": 67,
+      "Titan_Prof_generic": 11,
+      "Titan_RD_generic": 30,
+      "Titan_alma_with_base": 760,
+      "Titan_life_with_base": 810,
+      "Titan_speed_m": 30,
+      "legacy_alma_omitting_base": 700,
+      "legacy_life_omitting_base": 750,
+      "normal_CA_if_not_Titan": 57
+    },
+    "levels_total": 10,
+    "narrative": "Guardião das Florestas Encantadas",
+    "no_automatic_ice_from_parent_emoji": true,
+    "no_generic_8d10_replacement_for_patada": true,
+    "parent": "Símio Demoníaco❄",
+    "physical_id": "301c2b324ede828caccb813d3979267a",
+    "rank": "Prata 5",
+    "raw_stats": {
+      "ALMA": 700,
+      "CA": 67,
+      "CON": 35,
+      "DES": 40,
+      "FOR": 54,
+      "HP": 750,
+      "INT": 30
+    },
+    "title": "Prata 5 (titã)"
+  },
+  "schema": "DMG-F1-R09-DOCUMENTAL-ATTR-PA-STATE-v0.9",
+  "source_ids": {
+    "DMG_RANK_v11": "3f2c2b324ede815498cddb7844245f7e",
+    "beast_creation": "3ebc2b324ede81f4992ac88a3588cacd",
+    "combat": "3ebc2b324ede81f1be4be8804ac113c0",
+    "creation": "3ebc2b324ede81449222f3c06b840613",
+    "liu": "0b4c2b324ede837cb6be818dc8e36010",
+    "magic": "3ebc2b324ede81f7b343f7270ff91373",
+    "monkey": "301c2b324ede828caccb813d3979267a",
+    "monkey_parent": "f42c2b324ede82f1a62c81d6274d7d37"
+  },
+  "source_mode": "Notion MESTRE-side read-only; physical page ids; historical SHA pins from R03/R07; no engine-accepted freeze or canonical promotion",
+  "three_reserved_decisions": [
+    "FOR 54 vs 56",
+    "historical base0 literal vs contemporary base60",
+    "RDF physical coverage/stacking"
+  ],
+  "unresolved_non_master_decisions": [
+    "current actor presence and armor equipment",
+    "Luta/Reflexo/Fortitude/Initiativa selected",
+    "scene current HP, PA, reaction charges",
+    "tile geometry/reach/LoS",
+    "action economy boots phrase",
+    "critical weapon Axe vs Sword Decepadora",
+    "normal FF620 vs rule computed610"
+  ]
+}

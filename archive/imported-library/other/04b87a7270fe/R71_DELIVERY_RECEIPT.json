@@ -1,0 +1,26 @@
+{
+  "bytes": 1594656,
+  "clean_extraction_verifier": {
+    "aoo": 10,
+    "attacks": 684,
+    "counters": 181,
+    "events": 1573,
+    "full_combat_scenes": 12,
+    "historical_r59": "NO_BYTES_NO_RETRY",
+    "manifest_checked": true,
+    "movements": 30,
+    "negative_preflights": 6,
+    "official_cells": 0,
+    "redteam_semantic_reject": 15,
+    "redteam_structural_pass": 15,
+    "status": "PASS_LOCAL_CLEAN_EXTRACTION",
+    "terminal_contracts": 0
+  },
+  "entries": 96,
+  "manifest_sha256": "c9b18bb3b71906737c064c0ed821b25d704daa245851ae5a35e3323f9d0c07ae",
+  "manifested_files": 95,
+  "sha256": "8991c76284dcbfbc04f17aafa20e4d7916ba5b4d442c0c633276e7c3a2223cb3",
+  "source_R59_not_present": true,
+  "source_archive_r61_unchanged": true,
+  "zip": "VLAB_R62_R71_COMBATES_POTENCIA_DANO_MESTRE_ONLY.zip"
+}

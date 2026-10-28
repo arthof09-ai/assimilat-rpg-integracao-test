@@ -1,0 +1,24 @@
+{
+  "contract": "ASSIMILACAO_VISUAL_SPRITESHEET_TEST.v1",
+  "status": "TEST_SYNTHETIC_NON_CANONICAL",
+  "name": "Viajante TEST (arte autoral sintética)",
+  "asset": "PERSONAGEM_TEST_SPRITESHEET_4x4.png",
+  "asset_sha256": "6efacb1a05f1572b8130add91581aaf93d2745d3188e497a2f78e95cd0949023",
+  "sheet_width": 192,
+  "sheet_height": 192,
+  "columns": 4,
+  "rows": 4,
+  "cell_width": 48,
+  "cell_height": 48,
+  "directions": [
+    "down",
+    "left",
+    "right",
+    "up"
+  ],
+  "frames_per_direction": 4,
+  "fps": 6,
+  "origin": "bottom-center",
+  "copyright": "Original TEST illustration generated in this task",
+  "mechanics": "NONE"
+}

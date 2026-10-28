@@ -1,0 +1,82 @@
+{
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "R123": [
+    {
+      "kind": "AFTER_INTENT",
+      "seed": 939906,
+      "file": "R123_FRESH_AFTER_INTENT_939906.sqlite",
+      "exit": 78,
+      "WAL_state_at_crash": [
+        {
+          "name": "R123_FRESH_AFTER_INTENT_939906.sqlite-shm",
+          "bytes": 32768
+        },
+        {
+          "name": "R123_FRESH_AFTER_INTENT_939906.sqlite-wal",
+          "bytes": 8272
+        },
+        {
+          "name": "R123_FRESH_AFTER_INTENT_939906.sqlite",
+          "bytes": 28672
+        }
+      ],
+      "before": {
+        "head": "fad1f094ca03981aee571ca0877d6ed6e23f3f5109e59233e38cd3c4308b54f1",
+        "revision": 2,
+        "pending": [],
+        "events": 2,
+        "snapshot_sha": "6d4d415913356777adcb3d2c400ace99c06885037265e0ec780838396fd8caa3"
+      },
+      "after": {
+        "head": "fad1f094ca03981aee571ca0877d6ed6e23f3f5109e59233e38cd3c4308b54f1",
+        "revision": 2,
+        "pending": [
+          [
+            "LAB-CMD-R119-4240a0e842a578fecb587e140901f897fdfd50",
+            "fad1f094ca03981aee571ca0877d6ed6e23f3f5109e59233e38cd3c4308b54f1",
+            "STRIKE"
+          ]
+        ],
+        "events": 2,
+        "snapshot_sha": "6d4d415913356777adcb3d2c400ace99c06885037265e0ec780838396fd8caa3"
+      },
+      "status": "PASS_UNKNOWN_EFFECT_LOCKED"
+    },
+    {
+      "kind": "AFTER_COMMIT",
+      "seed": 939907,
+      "file": "R123_FRESH_AFTER_COMMIT_939907.sqlite",
+      "exit": 77,
+      "WAL_state_at_crash": [
+        {
+          "name": "R123_FRESH_AFTER_COMMIT_939907.sqlite-shm",
+          "bytes": 32768
+        },
+        {
+          "name": "R123_FRESH_AFTER_COMMIT_939907.sqlite",
+          "bytes": 28672
+        },
+        {
+          "name": "R123_FRESH_AFTER_COMMIT_939907.sqlite-wal",
+          "bytes": 115392
+        }
+      ],
+      "before": {
+        "head": "5176750355260f66b1602daaae6c5bb08406907475cc24aa70dc96ce61d74ba6",
+        "revision": 2,
+        "pending": [],
+        "events": 2,
+        "snapshot_sha": "0116b17a884224999e08fc1f02cca56ce69b66b23c2aa8088858cf7eec4baa32"
+      },
+      "after": {
+        "head": "4ffcfc3d32fd97a8856d36c7afeb4fe85811ff4c948e76ea88453f87df7bd560",
+        "revision": 3,
+        "pending": [],
+        "events": 3,
+        "snapshot_sha": "9e8befccdd50322a6ca7ae29846fe8641ebe726591b1672fa11c4979d0a793db"
+      },
+      "status": "PASS_EXACTLY_ONCE_REOPENED"
+    }
+  ],
+  "status": "PASS"
+}

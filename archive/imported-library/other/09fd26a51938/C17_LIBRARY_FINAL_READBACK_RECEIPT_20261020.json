@@ -1,0 +1,45 @@
+{
+  "archive_sha256": "2a0340e77ad3ea6f2596c9639df7f04fa578f1e3adfdbe1e92bbbf323d897165",
+  "as_of": "2026-10-20",
+  "checkpoint": "C17",
+  "files": [
+    {
+      "bytes": 32204,
+      "library_readback": "IDENTICAL_BYTES",
+      "name": "DMG_C17_PLANO_SUPREMO_FIP_R71_CIENCIA_20261020_MESTRE_ONLY.zip",
+      "sha256": "2a0340e77ad3ea6f2596c9639df7f04fa578f1e3adfdbe1e92bbbf323d897165"
+    },
+    {
+      "bytes": 4107,
+      "library_readback": "IDENTICAL_BYTES",
+      "name": "PSV_DMG_C17_MESTRE_ONLY.md",
+      "sha256": "ee15b014ae7dc5e46f9621e2d7e8d721fb8b84e36490d24a70503342ab4e55ce"
+    },
+    {
+      "bytes": 13348,
+      "library_readback": "IDENTICAL_BYTES",
+      "name": "C17_PARECER_SISTEMA_UNIVERSAL_DE_DANO_MESTRE_ONLY.md",
+      "sha256": "fe8380347748d9c913caf8c037d15386f8f503f0546334a2e5f8b6cf13e0d7c7"
+    },
+    {
+      "bytes": 2856,
+      "library_readback": "IDENTICAL_BYTES",
+      "name": "C17_MATRIZ_PLANO_SUPREMO_ORIENTACAO.md",
+      "sha256": "473b53f63a4eaa0507dd00f2e2399ce363daa7203d151410030a71b291c6dbd1"
+    },
+    {
+      "bytes": 1642,
+      "library_readback": "IDENTICAL_BYTES",
+      "name": "C17_COLD_PORTABLE_AUDIT_20261020.json",
+      "sha256": "d36ee825fd4bbb7b0df91ad51df8d5f6d610655fa99c2bc4347963fa77caf25b"
+    }
+  ],
+  "formal_F0": "4/8 HOLD",
+  "inbox_ACK_written": false,
+  "nac_pass": "LOCAL_ONLY",
+  "notion_canonical_written": false,
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "party_or_primeiro_written": false,
+  "result": "PASS 5/5 byte-for-byte readback",
+  "source": "Library /Comestre/OP-DMG-CORPUS-EMP-01/"
+}

@@ -1,0 +1,32 @@
+{
+  "state": "C05_LIBRARY_COLD_READBACK_PASS",
+  "paths_equal_count": 3,
+  "zip_entries": 40,
+  "files_manifest_checked": 39,
+  "CRC": "PASS",
+  "sha256": "05dbf2e77beed44430109aa54ebc0c83d373d170d86d6a6c753d574636c088dc",
+  "binary_pairs": [
+    {
+      "source": "DMG_C05_CIENCIA_R160_20261017_MESTRE_ONLY.zip",
+      "library_readback": "DMG_C05_CIENCIA_R160_20261017_MESTRE_ONLY.zip",
+      "byte_equal": true,
+      "bytes": 130514,
+      "sha256": "05dbf2e77beed44430109aa54ebc0c83d373d170d86d6a6c753d574636c088dc"
+    },
+    {
+      "source": "PSV_DMG_C05_DEZ_ETAPAS_20261017_MESTRE_ONLY.md",
+      "library_readback": "PSV_DMG_C05_DEZ_ETAPAS_20261017_MESTRE_ONLY.md",
+      "byte_equal": true,
+      "bytes": 13693,
+      "sha256": "16410691fdcb023298868f9c83465233e0bc2ec486c69db54dca90a4a6b9a147"
+    },
+    {
+      "source": "experimental_damage_calc.py",
+      "library_readback": "experimental_damage_calc_C05_20261017.py",
+      "byte_equal": true,
+      "bytes": 6104,
+      "sha256": "01fd5eb99a782665fc0ad9aedf47ae1e96977ab2f99c7f35d815c4b2c045d2e9"
+    }
+  ],
+  "NAC_PASS": "TECHNICAL_LOCAL_ONLY_F0_FORMAL_HOLD"
+}

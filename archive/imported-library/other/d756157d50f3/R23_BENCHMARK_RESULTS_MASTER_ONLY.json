@@ -1,0 +1,294 @@
+{
+  "benchmark_primary": {
+    "attempted_runs": 16,
+    "blocked_runs": 0,
+    "case_id": "bronze1-fixture-paired-policy",
+    "censored_runs": 0,
+    "completed_runs": 16,
+    "eligibility": "FICTITIOUS_LAB_VALID_ONLY",
+    "eligible_canonical_cells": 0,
+    "executed_canonical_cells": 0,
+    "experiment_sha": "a1acf3e6842f27717dbf4c03b7b0f5412b5f296d30f32784e9bb86092b528eb8",
+    "metrics_by_policy": {
+      "BASIC_ATTACK": {
+        "accuracy": 1.0,
+        "attacks_total": 49,
+        "attempts": 8,
+        "block_reasons": [],
+        "blocked": 0,
+        "censor_reason": [],
+        "censored": 0,
+        "completed": 8,
+        "damage_hp_p50": 8.0,
+        "damage_hp_p90": 10.200000000000003,
+        "damage_hp_total": 384,
+        "hits_total": 49,
+        "max_hit_hp_loss": 11,
+        "pa_spent_total": 0,
+        "population_scope": "THIS FICTITIOUS TEST FIXTURE ONLY",
+        "reactions_total": 0,
+        "rounds_mean": 3.125,
+        "rounds_p50": 3.0,
+        "rounds_p90": 3.3,
+        "source_independent_actor_count": 0,
+        "victory_estimates": {
+          "LAB_PERSONALIZADO_1": {
+            "estimate": 0.125,
+            "lower": 0.02241690886329617,
+            "method": "Wilson approximate 95%; treats seeds as units, NOT independent source instances",
+            "upper": 0.4708948057698615
+          },
+          "LAB_PERSONALIZADO_2": {
+            "estimate": 0.875,
+            "lower": 0.5291051942301386,
+            "method": "Wilson approximate 95%; treats seeds as units, NOT independent source instances",
+            "upper": 0.9775830911367038
+          }
+        },
+        "wins": {
+          "LAB_PERSONALIZADO_1": 1,
+          "LAB_PERSONALIZADO_2": 7
+        }
+      },
+      "DEFENDER_IF_ELIGIBLE": {
+        "accuracy": 1.0,
+        "attacks_total": 50,
+        "attempts": 8,
+        "block_reasons": [],
+        "blocked": 0,
+        "censor_reason": [],
+        "censored": 0,
+        "completed": 8,
+        "damage_hp_p50": 7.0,
+        "damage_hp_p90": 10.100000000000001,
+        "damage_hp_total": 325,
+        "hits_total": 50,
+        "max_hit_hp_loss": 11,
+        "pa_spent_total": 0,
+        "population_scope": "THIS FICTITIOUS TEST FIXTURE ONLY",
+        "reactions_total": 16,
+        "rounds_mean": 3.125,
+        "rounds_p50": 3.0,
+        "rounds_p90": 3.3,
+        "source_independent_actor_count": 0,
+        "victory_estimates": {
+          "LAB_PERSONALIZADO_1": {
+            "estimate": 0.0,
+            "lower": 0,
+            "method": "Wilson approximate 95%; treats seeds as units, NOT independent source instances",
+            "upper": 0.3244156195108769
+          },
+          "LAB_PERSONALIZADO_2": {
+            "estimate": 1.0,
+            "lower": 0.6755843804891231,
+            "method": "Wilson approximate 95%; treats seeds as units, NOT independent source instances",
+            "upper": 1
+          }
+        },
+        "wins": {
+          "LAB_PERSONALIZADO_1": 0,
+          "LAB_PERSONALIZADO_2": 8
+        }
+      }
+    },
+    "participant_source_count": 0,
+    "planned_cells": 1,
+    "planned_runs": 16,
+    "positions_claimed_of_25": 0,
+    "predefined_core_cells": 1875,
+    "schema": "VLAB-R23-AGGREGATE-v1",
+    "technical_cells_executed": 1,
+    "universe_classification_positions": 25,
+    "version": "VLAB-R23-BENCHMARK-AUTO-v1-EXPERIMENTAL",
+    "warnings": [
+      "Outcomes of 1v1 fictitious Bronze1 fixtures cannot estimate balance of canonical Bronze1, beasts, items or 25 ranks",
+      "Seeds are independent computational draws within ONE fictional fixture, not separate actors/sources",
+      "Wilson intervals are descriptive conditional on completed runs; censored and blocked excluded and reported",
+      "Do not infer criticals, PA efficiency, susceptibility or mitigations absent native receipts"
+    ]
+  },
+  "canonical_source_admission": 0,
+  "denominators": {
+    "canonical_cells_eligible": 0,
+    "canonical_cells_executed": 0,
+    "canonical_core_cells_predefined": 1875,
+    "canonical_rank_star_positions": 25,
+    "policy_combat_runs": 16,
+    "qa_additional_runs_excluded": true,
+    "replay_checks": 3,
+    "scientific_certified_combat_runs": 0,
+    "sensitivity_combat_runs": 16,
+    "technical_fixture_cells": 1,
+    "total_primary_and_sensitivity_runs": 32,
+    "unique_canonical_participants": 0
+  },
+  "edition": "R23 BENCHMARK_AUTO",
+  "execution_engine": "v0.8.1 native through R22/R21/R18",
+  "matched_one_modifier": {
+    "baseline_spec_sha": "f837e12311f4c6a84920eefdfc7bbf77244c03398c5c8133e8b82b887a4710ce",
+    "context": "FICTITIOUS_NONCANON_DAMAGE_MODIFIER_NOT_REAL_EQUIPMENT",
+    "mean_actor_hp_removed_delta": 5.875,
+    "paired_completed": 8,
+    "paired_planned": 8,
+    "pairs": [
+      {
+        "actor_hp_removed_difference": 3,
+        "baseline_actor_damage_hp": 27,
+        "baseline_native_calls": 6,
+        "baseline_rounds": 3,
+        "baseline_winner": "LAB_PERSONALIZADO_2",
+        "policy": "BASIC_ATTACK",
+        "seed": 11,
+        "status": "MATCHED_COMPLETE",
+        "variant_actor_damage_hp": 30,
+        "variant_native_calls": 5,
+        "variant_rounds": 3,
+        "variant_winner": "LAB_PERSONALIZADO_1"
+      },
+      {
+        "actor_hp_removed_difference": 4,
+        "baseline_actor_damage_hp": 26,
+        "baseline_native_calls": 6,
+        "baseline_rounds": 3,
+        "baseline_winner": "LAB_PERSONALIZADO_2",
+        "policy": "BASIC_ATTACK",
+        "seed": 23,
+        "status": "MATCHED_COMPLETE",
+        "variant_actor_damage_hp": 30,
+        "variant_native_calls": 5,
+        "variant_rounds": 3,
+        "variant_winner": "LAB_PERSONALIZADO_1"
+      },
+      {
+        "actor_hp_removed_difference": 9,
+        "baseline_actor_damage_hp": 21,
+        "baseline_native_calls": 6,
+        "baseline_rounds": 3,
+        "baseline_winner": "LAB_PERSONALIZADO_2",
+        "policy": "BASIC_ATTACK",
+        "seed": 37,
+        "status": "MATCHED_COMPLETE",
+        "variant_actor_damage_hp": 30,
+        "variant_native_calls": 5,
+        "variant_rounds": 3,
+        "variant_winner": "LAB_PERSONALIZADO_1"
+      },
+      {
+        "actor_hp_removed_difference": 9,
+        "baseline_actor_damage_hp": 21,
+        "baseline_native_calls": 6,
+        "baseline_rounds": 3,
+        "baseline_winner": "LAB_PERSONALIZADO_2",
+        "policy": "BASIC_ATTACK",
+        "seed": 41,
+        "status": "MATCHED_COMPLETE",
+        "variant_actor_damage_hp": 30,
+        "variant_native_calls": 5,
+        "variant_rounds": 3,
+        "variant_winner": "LAB_PERSONALIZADO_1"
+      },
+      {
+        "actor_hp_removed_difference": 8,
+        "baseline_actor_damage_hp": 22,
+        "baseline_native_calls": 6,
+        "baseline_rounds": 3,
+        "baseline_winner": "LAB_PERSONALIZADO_2",
+        "policy": "BASIC_ATTACK",
+        "seed": 53,
+        "status": "MATCHED_COMPLETE",
+        "variant_actor_damage_hp": 30,
+        "variant_native_calls": 5,
+        "variant_rounds": 3,
+        "variant_winner": "LAB_PERSONALIZADO_1"
+      },
+      {
+        "actor_hp_removed_difference": 5,
+        "baseline_actor_damage_hp": 25,
+        "baseline_native_calls": 6,
+        "baseline_rounds": 3,
+        "baseline_winner": "LAB_PERSONALIZADO_2",
+        "policy": "BASIC_ATTACK",
+        "seed": 67,
+        "status": "MATCHED_COMPLETE",
+        "variant_actor_damage_hp": 30,
+        "variant_native_calls": 5,
+        "variant_rounds": 3,
+        "variant_winner": "LAB_PERSONALIZADO_1"
+      },
+      {
+        "actor_hp_removed_difference": 0,
+        "baseline_actor_damage_hp": 30,
+        "baseline_native_calls": 7,
+        "baseline_rounds": 4,
+        "baseline_winner": "LAB_PERSONALIZADO_1",
+        "policy": "BASIC_ATTACK",
+        "seed": 71,
+        "status": "MATCHED_COMPLETE",
+        "variant_actor_damage_hp": 30,
+        "variant_native_calls": 5,
+        "variant_rounds": 3,
+        "variant_winner": "LAB_PERSONALIZADO_1"
+      },
+      {
+        "actor_hp_removed_difference": 9,
+        "baseline_actor_damage_hp": 21,
+        "baseline_native_calls": 6,
+        "baseline_rounds": 3,
+        "baseline_winner": "LAB_PERSONALIZADO_2",
+        "policy": "BASIC_ATTACK",
+        "seed": 83,
+        "status": "MATCHED_COMPLETE",
+        "variant_actor_damage_hp": 30,
+        "variant_native_calls": 5,
+        "variant_rounds": 3,
+        "variant_winner": "LAB_PERSONALIZADO_1"
+      }
+    ],
+    "schema": "VLAB-R23-MATCHED-SENSITIVITY-v1",
+    "single_changed_parameter": {
+      "baseline": 4,
+      "field": "damage_bonus",
+      "fighter_index": 0,
+      "variant": 7
+    },
+    "uncontrolled_elements": [
+      "Runs may end after different number of attacks as outcomes change",
+      "No rank or equipment certification; candidate input is fake modifier only"
+    ],
+    "variant_spec_sha": "3ddfee0cc5bda7b22724c14c40c167d143ec3fe19c650d90f322f54dab342573",
+    "wins_switched": 7
+  },
+  "modes": [
+    "EDxED fictional technical 1v1"
+  ],
+  "official_writes": 0,
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "provenance_level": "FICTITIOUS_NONCANON",
+  "replay_pass": [
+    {
+      "all_pass": true,
+      "note": "Distinct combat_id affects request cmd-id and event hash; compare semantic native trace and A1 hash.",
+      "primary_combat_id": "vlab_129f2b832cf34338b6fd1ef1a7525ba8",
+      "replay_combat_id": "vlab_3bf2c1ed511b4db5aa4ff781beb61143",
+      "run_id": "bench_e614635b4c25752157a6b037e7abb01e",
+      "schema": "VLAB-R23-REPLAY-v1"
+    },
+    {
+      "all_pass": true,
+      "note": "Distinct combat_id affects request cmd-id and event hash; compare semantic native trace and A1 hash.",
+      "primary_combat_id": "vlab_04485a4327bc4df090f85d3522b24c1a",
+      "replay_combat_id": "vlab_ff6f1aab542941a3bc52662b8f4c710d",
+      "run_id": "bench_6506cb8247c9cdb479c6bcf3cbf7622f",
+      "schema": "VLAB-R23-REPLAY-v1"
+    },
+    {
+      "all_pass": true,
+      "note": "Distinct combat_id affects request cmd-id and event hash; compare semantic native trace and A1 hash.",
+      "primary_combat_id": "vlab_8460a76faa9b400da241ce1f3b09e4b5",
+      "replay_combat_id": "vlab_68ca8ecd38984652ac289379aa52109d",
+      "run_id": "bench_79dce2be0166983346af83312fb5e16c",
+      "schema": "VLAB-R23-REPLAY-v1"
+    }
+  ],
+  "statistic_method": "seeds paired; Wilson conditional 95% only on 8 completed matches; no source independence"
+}

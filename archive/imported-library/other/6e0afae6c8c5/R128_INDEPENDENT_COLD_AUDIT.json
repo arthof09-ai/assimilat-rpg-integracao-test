@@ -1,0 +1,54 @@
+[
+  {
+    "file": "R126_PA_REACTION_AOO_DEV_943207.sqlite",
+    "run_id": "R126_PA_REACTION_AOO_DEV_943207",
+    "seed": 943207,
+    "counts": {
+      "events": 11,
+      "ordinary_attacks": 2,
+      "capa": 1,
+      "marca": 1,
+      "aoo": 1,
+      "movement": 1,
+      "safe": 0,
+      "negative_critical": 0,
+      "critical_positive": 0,
+      "ko": 0,
+      "paid_pa": 60,
+      "reactions": 2
+    },
+    "final_state_digest": "0768b3d0e1a6afb1aa4793ee8ddcda707ce98da8771cfa9a01a985201e504b47",
+    "head": "2b548a5c80c2afa6accb65d08ee4bf053cd448b1c1a9cdeec1c47c7c8c1a90f0",
+    "genesis_digest": "1624b32ceab8ff2a4ce81e5aadaf7117275112cde5d206f3853cda3a902166f6",
+    "pending": 0,
+    "official": false,
+    "terminal_pass": false,
+    "native_solver_imported": false
+  },
+  {
+    "file": "R126_SAFE_DISENGAGE_RESERVED_NOT_BLIND_953209.sqlite",
+    "run_id": "R126_SAFE_DISENGAGE_RESERVED_NOT_BLIND_953209",
+    "seed": 953209,
+    "counts": {
+      "events": 11,
+      "ordinary_attacks": 2,
+      "capa": 1,
+      "marca": 0,
+      "aoo": 0,
+      "movement": 1,
+      "safe": 1,
+      "negative_critical": 0,
+      "critical_positive": 0,
+      "ko": 0,
+      "paid_pa": 35,
+      "reactions": 1
+    },
+    "final_state_digest": "98a63f9777bdb8ab02c97968127bfd2b8257a18aa2c44f829df60f03e9cbad2f",
+    "head": "4854e7e3d10603f7ccff1deb874acee52068267d53f7a9d5cde1b6748d66594c",
+    "genesis_digest": "48d9205882b48e9ad5c8d5f90e0d33ed9971788cb1c709ccadfe8fe5159030a8",
+    "pending": 0,
+    "official": false,
+    "terminal_pass": false,
+    "native_solver_imported": false
+  }
+]

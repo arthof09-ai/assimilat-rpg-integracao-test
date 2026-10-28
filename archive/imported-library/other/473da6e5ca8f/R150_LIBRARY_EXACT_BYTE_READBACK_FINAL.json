@@ -1,0 +1,93 @@
+{
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "checkpoint": "R150",
+  "library_folder": "/Comestre/OP-VLAB-FUSION-SANDBOX-01/",
+  "upload_succeeded": 13,
+  "materialized_exact_bytes": 13,
+  "total_primary_files": 13,
+  "status": "PASS_13_OF_13_BYTE_IDENTICAL",
+  "receipt_itself_not_in_denominator": true,
+  "rows": [
+    {
+      "name": "VLAB_R146_R150_SPATIAL_CORRECTION_MULTIRROUND_MESTRE_ONLY.zip",
+      "bytes": 13828550,
+      "sha256": "911bff3503c734173b8173222faca0fc8f5a592b649f30a640e4dfe2d08e0c1e",
+      "match": true
+    },
+    {
+      "name": "R150_PSV_MESTRE_ONLY.md",
+      "bytes": 8670,
+      "sha256": "5ce2d43528e8e3d7460ce65566b85a8538f586d911f3d951fac22b0d21f9f219",
+      "match": true
+    },
+    {
+      "name": "R150_R138_SPATIAL_PARITY_CORRIGENDUM.md",
+      "bytes": 2403,
+      "sha256": "add4658f2a2ff738de37894fc93f75959a1091580712fc8dff74dbd5d6182846",
+      "match": true
+    },
+    {
+      "name": "R150_17_CONTRACTS_BEFORE_AFTER.md",
+      "bytes": 14293,
+      "sha256": "9013b0fce459dedcb95ee031336da4d95530d88e465b83a18ee9f2c4d26050b9",
+      "match": true
+    },
+    {
+      "name": "R150_17_CONTRACTS_BEFORE_AFTER.json",
+      "bytes": 40003,
+      "sha256": "10dfb6d11238f4360c46877d661878ac27225b8d968d749263affc2cc00304ad",
+      "match": true
+    },
+    {
+      "name": "R147_INDEPENDENT_COLD_AUDIT.json",
+      "bytes": 1019,
+      "sha256": "d7fdcead454a72847a67035a74fb3c0c02918585fefbd9a003192cac212206ef",
+      "match": true
+    },
+    {
+      "name": "R148_SOURCE_BINDING_AND_PREFIX.json",
+      "bytes": 943,
+      "sha256": "9a5185f9cde5cb74d4bb1f0e97d6a9fc6de3b4d15de30587c181c0fd5104996c",
+      "match": true
+    },
+    {
+      "name": "R149_SPATIAL_REDTEAM_RESULT.json",
+      "bytes": 508,
+      "sha256": "e84fc7b32a9a47ee7679926854b19fec6bbf71178a5688ef614a3b3562192a35",
+      "match": true
+    },
+    {
+      "name": "R150_COEVAL_AND_SCIENCE.json",
+      "bytes": 1082,
+      "sha256": "29fcd006a9237baf714a681a071d518c785f767c3810efd126271121083635dd",
+      "match": true
+    },
+    {
+      "name": "R150_DMG_ATTACK_RECEIPTS_3.csv",
+      "bytes": 1839,
+      "sha256": "e126c3639ce603e22c2826eac41904b4b607883b7ff605ca8dfa573aee4d8441",
+      "match": true
+    },
+    {
+      "name": "R150_DMG_HANDOFF_READONLY.md",
+      "bytes": 969,
+      "sha256": "f5d794a1878a573dafc033aa65d5b6a6dc1bda90f104c08319418157b041ee5d",
+      "match": true
+    },
+    {
+      "name": "R150_COLD_VERIFIED_READBACK_RECEIPT.json",
+      "bytes": 1198,
+      "sha256": "a7762542de72fb46ef941bef5a8a23e55a928c7f8edd5b413976e61632248317",
+      "match": true
+    },
+    {
+      "name": "R150_ZIP_FREEZE_RECEIPT.json",
+      "bytes": 561,
+      "sha256": "4d90346c2ec82cb191eeb788a1ad1bcbb3a0905a8ebc2f88a031f51ce394b44c",
+      "match": true
+    }
+  ],
+  "terminal_contracts": 0,
+  "DMG_ACK": false,
+  "OP_WRITER": false
+}

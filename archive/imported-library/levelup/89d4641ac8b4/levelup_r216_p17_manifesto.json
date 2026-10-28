@@ -1,0 +1,2396 @@
+{
+  "id": "LEVELUP-R216-P17-AUDIT-OFFLINE",
+  "gerado_em": "2026-10-22T03:06:24.732130+00:00",
+  "fonte_Notion": "https://app.notion.com/p/400c2b324ede8137a06bff45c3b5b1bb",
+  "status": "MANIFESTO DE CÁLCULO E CONTINUIDADE — NÃO É WRITE NOTION, NÃO É HOMOLOGAÇÃO VLAB",
+  "autoridade": "MESTRE-SIDE / TEST",
+  "denominador_niveis": 25,
+  "fisicamente_verificados": [
+    1,
+    2,
+    3,
+    4,
+    24,
+    25
+  ],
+  "bloqueio": "Tentativas adicionais de Notion write retornaram ferramenta bloqueada por configurações de segurança; NÃO presumir persistência dos demais níveis.",
+  "parâmetros_pa": {
+    "ranks": [
+      "Bronze",
+      "Prata",
+      "Ouro",
+      "Ouro Negro",
+      "Lendário"
+    ],
+    "piso_item_por_rank": [
+      8,
+      11,
+      21,
+      35,
+      90
+    ],
+    "base_habilidade": [
+      6,
+      12,
+      24,
+      35,
+      50
+    ],
+    "ativa_diaria": "floor(50% base)",
+    "ativacao_por_uso": "floor(60% base)",
+    "passiva_diaria": "100% base",
+    "atributos": "+1 atributo = 5 PA/dia quando aplicável"
+  },
+  "itens": [
+    {
+      "nome": "Couraça da Muralha",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Prata",
+        "Ouro",
+        "Ouro Negro",
+        "Lendário"
+      ],
+      "efeito_TEST": "CA física do estágio; ativação da CA mágica; duas fontes de CA mágica não se acumulam sem validação."
+    },
+    {
+      "nome": "Machado da Ruptura",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Prata",
+        "Ouro",
+        "Ouro Negro",
+        "Lendário"
+      ],
+      "efeito_TEST": "Arma principal com dano físico por estágio e Ruptura condicionada a acerto e PA/uso."
+    },
+    {
+      "nome": "Manoplas da Bigorna",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Bronze",
+        "Prata",
+        "Ouro",
+        "Ouro"
+      ],
+      "efeito_TEST": "FOR temporária, por ativação; nunca somar FOR automaticamente ao dano."
+    },
+    {
+      "nome": "Cinto do Bastião",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Bronze",
+        "Prata",
+        "Ouro",
+        "Ouro"
+      ],
+      "efeito_TEST": "CON temporária; recalcular os derivados ativos; não produzir cura automática."
+    },
+    {
+      "nome": "Botas da Escarpa",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Prata",
+        "Prata",
+        "Prata",
+        "Prata"
+      ],
+      "efeito_TEST": "DES temporária; não eliminar a penalidade física da armadura pesada."
+    },
+    {
+      "nome": "Anel da Guarda",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Prata",
+        "Ouro",
+        "Ouro Negro",
+        "Ouro Negro"
+      ],
+      "efeito_TEST": "CA mágica ativada em ataque declarado; distinto dos dois Anéis da Alma."
+    },
+    {
+      "nome": "Elmo do Estandarte",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Bronze",
+        "Prata",
+        "Prata",
+        "Prata"
+      ],
+      "efeito_TEST": "Vontade contra medo na guarda de escolta reconhecida."
+    },
+    {
+      "nome": "Capa do Desfiladeiro",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Bronze",
+        "Prata",
+        "Ouro Negro",
+        "Ouro Negro"
+      ],
+      "efeito_TEST": "Furtividade em rochas/penumbra, não a redução de 75 dano previamente não demonstrada."
+    },
+    {
+      "nome": "Braçadeiras do Golpe Medido",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Bronze",
+        "Ouro",
+        "Ouro",
+        "Ouro"
+      ],
+      "efeito_TEST": "Bônus no teste de ataque de duas mãos após preparação; não confundir com dano."
+    },
+    {
+      "nome": "Amuleto da Forja",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Bronze",
+        "Prata",
+        "Ouro",
+        "Ouro"
+      ],
+      "efeito_TEST": "INT para Inscrições/Alquimia preparada; não cria vagas de treinamento."
+    },
+    {
+      "nome": "Anel de Golpe",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Prata",
+        "Ouro",
+        "Ouro",
+        "Ouro"
+      ],
+      "efeito_TEST": "Bônus de acerto; alternativa ao Anel da Guarda; slots com Anéis da Alma em HOLD."
+    },
+    {
+      "nome": "Insígnia da Escolta",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Bronze",
+        "Prata",
+        "Prata",
+        "Prata"
+      ],
+      "efeito_TEST": "Apoio à Vontade de aliado contra medo em alcance e ação definidos."
+    },
+    {
+      "nome": "Arnês Antitombo",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Bronze",
+        "Prata",
+        "Ouro",
+        "Ouro"
+      ],
+      "efeito_TEST": "Redução limitada de empurrão em solo; compatibilidade corporal e AoO em HOLD."
+    },
+    {
+      "nome": "Espada da Guarda",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Prata",
+        "Ouro",
+        "Ouro Negro",
+        "Lendário"
+      ],
+      "efeito_TEST": "Alternativa de uma mão com escudo; incompatível com ataque de machado de duas mãos."
+    },
+    {
+      "nome": "Escudo de Passagem",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Bronze",
+        "Prata",
+        "Ouro",
+        "Ouro Negro"
+      ],
+      "efeito_TEST": "Reserva física; CA do escudo em HOLD, sem inventar."
+    },
+    {
+      "nome": "Selo de Emergência",
+      "ranks_por_estagio": [
+        "Bronze",
+        "Bronze",
+        "Prata",
+        "Ouro",
+        "Ouro Negro"
+      ],
+      "efeito_TEST": "Consumível experimental ainda não fabricado; controle de carga CRAFT HOLD."
+    }
+  ],
+  "niveis": [
+    {
+      "nivel": 1,
+      "rank_personagem": "Bronze",
+      "rank_index": 0,
+      "alma_natural": 22,
+      "aneis_da_alma_pa": 100,
+      "bruto": 122,
+      "itens_energizados": 8,
+      "custo_antigo_PA_dia": 64,
+      "custo_test_proposto_PA_dia": 64,
+      "PA_livre_antigo": 58,
+      "PA_livre_proposto": 58,
+      "delta_PA_livre": 0,
+      "situação_Notion": "VERIFICADO_P17",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        }
+      ],
+      "notion_page_id": "400c2b324ede815cb828dbd345c48724",
+      "FF_normal_atributos_TEST": 280,
+      "FF_transformada_potencial_TEST": null,
+      "marcos_100FF_normal_potenciais": 2,
+      "marcos_100FF_com_transformacao_potenciais": 2,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 2,
+      "rank_personagem": "Bronze",
+      "rank_index": 0,
+      "alma_natural": 31,
+      "aneis_da_alma_pa": 100,
+      "bruto": 131,
+      "itens_energizados": 10,
+      "custo_antigo_PA_dia": 80,
+      "custo_test_proposto_PA_dia": 80,
+      "PA_livre_antigo": 51,
+      "PA_livre_proposto": 51,
+      "delta_PA_livre": 0,
+      "situação_Notion": "VERIFICADO_P17",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        }
+      ],
+      "notion_page_id": "400c2b324ede817fba8fde73a1c45020",
+      "FF_normal_atributos_TEST": 320,
+      "FF_transformada_potencial_TEST": null,
+      "marcos_100FF_normal_potenciais": 3,
+      "marcos_100FF_com_transformacao_potenciais": 3,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 3,
+      "rank_personagem": "Bronze",
+      "rank_index": 0,
+      "alma_natural": 42,
+      "aneis_da_alma_pa": 100,
+      "bruto": 142,
+      "itens_energizados": 11,
+      "custo_antigo_PA_dia": 88,
+      "custo_test_proposto_PA_dia": 88,
+      "PA_livre_antigo": 54,
+      "PA_livre_proposto": 54,
+      "delta_PA_livre": 0,
+      "situação_Notion": "VERIFICADO_P17",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        }
+      ],
+      "notion_page_id": "400c2b324ede81d3adc9ef2fdc11604d",
+      "FF_normal_atributos_TEST": 350,
+      "FF_transformada_potencial_TEST": null,
+      "marcos_100FF_normal_potenciais": 3,
+      "marcos_100FF_com_transformacao_potenciais": 3,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 4,
+      "rank_personagem": "Bronze",
+      "rank_index": 0,
+      "alma_natural": 54,
+      "aneis_da_alma_pa": 100,
+      "bruto": 154,
+      "itens_energizados": 12,
+      "custo_antigo_PA_dia": 96,
+      "custo_test_proposto_PA_dia": 96,
+      "PA_livre_antigo": 58,
+      "PA_livre_proposto": 58,
+      "delta_PA_livre": 0,
+      "situação_Notion": "VERIFICADO_P17",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        }
+      ],
+      "notion_page_id": "400c2b324ede81ac9519fd627291eafc",
+      "FF_normal_atributos_TEST": 390,
+      "FF_transformada_potencial_TEST": null,
+      "marcos_100FF_normal_potenciais": 3,
+      "marcos_100FF_com_transformacao_potenciais": 3,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 5,
+      "rank_personagem": "Bronze",
+      "rank_index": 0,
+      "alma_natural": 68,
+      "aneis_da_alma_pa": 100,
+      "bruto": 168,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 104,
+      "custo_test_proposto_PA_dia": 104,
+      "PA_livre_antigo": 64,
+      "PA_livre_proposto": 64,
+      "delta_PA_livre": 0,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        }
+      ],
+      "notion_page_id": "400c2b324ede81e883d8e0275f06a674",
+      "FF_normal_atributos_TEST": 420,
+      "FF_transformada_potencial_TEST": null,
+      "marcos_100FF_normal_potenciais": 4,
+      "marcos_100FF_com_transformacao_potenciais": 4,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 6,
+      "rank_personagem": "Prata",
+      "rank_index": 1,
+      "alma_natural": 116,
+      "aneis_da_alma_pa": 100,
+      "bruto": 216,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 143,
+      "custo_test_proposto_PA_dia": 119,
+      "PA_livre_antigo": 73,
+      "PA_livre_proposto": 97,
+      "delta_PA_livre": 24,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        }
+      ],
+      "notion_page_id": "400c2b324ede814a8e56fa1275e2bfe3",
+      "FF_normal_atributos_TEST": 450,
+      "FF_transformada_potencial_TEST": 1050,
+      "marcos_100FF_normal_potenciais": 4,
+      "marcos_100FF_com_transformacao_potenciais": 10,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 7,
+      "rank_personagem": "Prata",
+      "rank_index": 1,
+      "alma_natural": 134,
+      "aneis_da_alma_pa": 100,
+      "bruto": 234,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 143,
+      "custo_test_proposto_PA_dia": 119,
+      "PA_livre_antigo": 91,
+      "PA_livre_proposto": 115,
+      "delta_PA_livre": 24,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        }
+      ],
+      "notion_page_id": "400c2b324ede814889fce8568f04949b",
+      "FF_normal_atributos_TEST": 490,
+      "FF_transformada_potencial_TEST": 1190,
+      "marcos_100FF_normal_potenciais": 4,
+      "marcos_100FF_com_transformacao_potenciais": 11,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 8,
+      "rank_personagem": "Prata",
+      "rank_index": 1,
+      "alma_natural": 153,
+      "aneis_da_alma_pa": 100,
+      "bruto": 253,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 143,
+      "custo_test_proposto_PA_dia": 119,
+      "PA_livre_antigo": 110,
+      "PA_livre_proposto": 134,
+      "delta_PA_livre": 24,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        }
+      ],
+      "notion_page_id": "400c2b324ede81fcbac7f21254483905",
+      "FF_normal_atributos_TEST": 530,
+      "FF_transformada_potencial_TEST": 1330,
+      "marcos_100FF_normal_potenciais": 5,
+      "marcos_100FF_com_transformacao_potenciais": 13,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 9,
+      "rank_personagem": "Prata",
+      "rank_index": 1,
+      "alma_natural": 173,
+      "aneis_da_alma_pa": 100,
+      "bruto": 273,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 143,
+      "custo_test_proposto_PA_dia": 119,
+      "PA_livre_antigo": 130,
+      "PA_livre_proposto": 154,
+      "delta_PA_livre": 24,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        }
+      ],
+      "notion_page_id": "400c2b324ede8170b774ea9580ab8e06",
+      "FF_normal_atributos_TEST": 570,
+      "FF_transformada_potencial_TEST": 1470,
+      "marcos_100FF_normal_potenciais": 5,
+      "marcos_100FF_com_transformacao_potenciais": 14,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 10,
+      "rank_personagem": "Prata",
+      "rank_index": 1,
+      "alma_natural": 195,
+      "aneis_da_alma_pa": 100,
+      "bruto": 295,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 143,
+      "custo_test_proposto_PA_dia": 119,
+      "PA_livre_antigo": 152,
+      "PA_livre_proposto": 176,
+      "delta_PA_livre": 24,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Bronze",
+          "pa_dia": 8
+        }
+      ],
+      "notion_page_id": "400c2b324ede81e591ace187c1763b9c",
+      "FF_normal_atributos_TEST": 600,
+      "FF_transformada_potencial_TEST": 1600,
+      "marcos_100FF_normal_potenciais": 6,
+      "marcos_100FF_com_transformacao_potenciais": 16,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 11,
+      "rank_personagem": "Ouro",
+      "rank_index": 2,
+      "alma_natural": 267,
+      "aneis_da_alma_pa": 100,
+      "bruto": 367,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 273,
+      "custo_test_proposto_PA_dia": 193,
+      "PA_livre_antigo": 94,
+      "PA_livre_proposto": 174,
+      "delta_PA_livre": 80,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        }
+      ],
+      "notion_page_id": "400c2b324ede81459656d6abd27699a3",
+      "FF_normal_atributos_TEST": 650,
+      "FF_transformada_potencial_TEST": 1750,
+      "marcos_100FF_normal_potenciais": 6,
+      "marcos_100FF_com_transformacao_potenciais": 17,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 12,
+      "rank_personagem": "Ouro",
+      "rank_index": 2,
+      "alma_natural": 290,
+      "aneis_da_alma_pa": 100,
+      "bruto": 390,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 273,
+      "custo_test_proposto_PA_dia": 193,
+      "PA_livre_antigo": 117,
+      "PA_livre_proposto": 197,
+      "delta_PA_livre": 80,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        }
+      ],
+      "notion_page_id": "400c2b324ede81249cbbea651d99dc00",
+      "FF_normal_atributos_TEST": 700,
+      "FF_transformada_potencial_TEST": 1900,
+      "marcos_100FF_normal_potenciais": 7,
+      "marcos_100FF_com_transformacao_potenciais": 19,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 13,
+      "rank_personagem": "Ouro",
+      "rank_index": 2,
+      "alma_natural": 314,
+      "aneis_da_alma_pa": 100,
+      "bruto": 414,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 273,
+      "custo_test_proposto_PA_dia": 193,
+      "PA_livre_antigo": 141,
+      "PA_livre_proposto": 221,
+      "delta_PA_livre": 80,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        }
+      ],
+      "notion_page_id": "400c2b324ede81ffa1f7d112ce18e793",
+      "FF_normal_atributos_TEST": 740,
+      "FF_transformada_potencial_TEST": 2040,
+      "marcos_100FF_normal_potenciais": 7,
+      "marcos_100FF_com_transformacao_potenciais": 20,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 14,
+      "rank_personagem": "Ouro",
+      "rank_index": 2,
+      "alma_natural": 339,
+      "aneis_da_alma_pa": 100,
+      "bruto": 439,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 273,
+      "custo_test_proposto_PA_dia": 193,
+      "PA_livre_antigo": 166,
+      "PA_livre_proposto": 246,
+      "delta_PA_livre": 80,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        }
+      ],
+      "notion_page_id": "400c2b324ede81beb220cc5953504264",
+      "FF_normal_atributos_TEST": 780,
+      "FF_transformada_potencial_TEST": 2180,
+      "marcos_100FF_normal_potenciais": 7,
+      "marcos_100FF_com_transformacao_potenciais": 21,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 15,
+      "rank_personagem": "Ouro",
+      "rank_index": 2,
+      "alma_natural": 365,
+      "aneis_da_alma_pa": 100,
+      "bruto": 465,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 273,
+      "custo_test_proposto_PA_dia": 193,
+      "PA_livre_antigo": 192,
+      "PA_livre_proposto": 272,
+      "delta_PA_livre": 80,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        }
+      ],
+      "notion_page_id": "400c2b324ede81a885b7f80129bfa054",
+      "FF_normal_atributos_TEST": 820,
+      "FF_transformada_potencial_TEST": 2320,
+      "marcos_100FF_normal_potenciais": 8,
+      "marcos_100FF_com_transformacao_potenciais": 23,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 16,
+      "rank_personagem": "Ouro Negro",
+      "rank_index": 3,
+      "alma_natural": 478,
+      "aneis_da_alma_pa": 100,
+      "bruto": 578,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 455,
+      "custo_test_proposto_PA_dia": 299,
+      "PA_livre_antigo": 123,
+      "PA_livre_proposto": 279,
+      "delta_PA_livre": 156,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        }
+      ],
+      "notion_page_id": "400c2b324ede817d9900f2c240448cb6",
+      "FF_normal_atributos_TEST": 850,
+      "FF_transformada_potencial_TEST": 2450,
+      "marcos_100FF_normal_potenciais": 8,
+      "marcos_100FF_com_transformacao_potenciais": 24,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 17,
+      "rank_personagem": "Ouro Negro",
+      "rank_index": 3,
+      "alma_natural": 507,
+      "aneis_da_alma_pa": 100,
+      "bruto": 607,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 455,
+      "custo_test_proposto_PA_dia": 299,
+      "PA_livre_antigo": 152,
+      "PA_livre_proposto": 308,
+      "delta_PA_livre": 156,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        }
+      ],
+      "notion_page_id": "400c2b324ede8118a1d0d3a56ee787d9",
+      "FF_normal_atributos_TEST": 900,
+      "FF_transformada_potencial_TEST": 2600,
+      "marcos_100FF_normal_potenciais": 9,
+      "marcos_100FF_com_transformacao_potenciais": 26,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 18,
+      "rank_personagem": "Ouro Negro",
+      "rank_index": 3,
+      "alma_natural": 536,
+      "aneis_da_alma_pa": 100,
+      "bruto": 636,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 455,
+      "custo_test_proposto_PA_dia": 299,
+      "PA_livre_antigo": 181,
+      "PA_livre_proposto": 337,
+      "delta_PA_livre": 156,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        }
+      ],
+      "notion_page_id": "400c2b324ede81a78ff5cc32a157d1b7",
+      "FF_normal_atributos_TEST": 950,
+      "FF_transformada_potencial_TEST": 2750,
+      "marcos_100FF_normal_potenciais": 9,
+      "marcos_100FF_com_transformacao_potenciais": 27,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 19,
+      "rank_personagem": "Ouro Negro",
+      "rank_index": 3,
+      "alma_natural": 566,
+      "aneis_da_alma_pa": 100,
+      "bruto": 666,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 455,
+      "custo_test_proposto_PA_dia": 299,
+      "PA_livre_antigo": 211,
+      "PA_livre_proposto": 367,
+      "delta_PA_livre": 156,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        }
+      ],
+      "notion_page_id": "400c2b324ede81c0a6ded4d52b87ec63",
+      "FF_normal_atributos_TEST": 990,
+      "FF_transformada_potencial_TEST": 2890,
+      "marcos_100FF_normal_potenciais": 9,
+      "marcos_100FF_com_transformacao_potenciais": 28,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 20,
+      "rank_personagem": "Ouro Negro",
+      "rank_index": 3,
+      "alma_natural": 597,
+      "aneis_da_alma_pa": 100,
+      "bruto": 697,
+      "itens_energizados": 13,
+      "custo_antigo_PA_dia": 455,
+      "custo_test_proposto_PA_dia": 299,
+      "PA_livre_antigo": 242,
+      "PA_livre_proposto": 398,
+      "delta_PA_livre": 156,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Anel de Golpe",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Insígnia da Escolta",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Arnês Antitombo",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        }
+      ],
+      "notion_page_id": "400c2b324ede81ef9d94d807933e607b",
+      "FF_normal_atributos_TEST": 1030,
+      "FF_transformada_potencial_TEST": 3030,
+      "marcos_100FF_normal_potenciais": 10,
+      "marcos_100FF_com_transformacao_potenciais": 30,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 21,
+      "rank_personagem": "Lendário",
+      "rank_index": 4,
+      "alma_natural": 791,
+      "aneis_da_alma_pa": 100,
+      "bruto": 891,
+      "itens_energizados": 9,
+      "custo_antigo_PA_dia": 810,
+      "custo_test_proposto_PA_dia": 335,
+      "PA_livre_antigo": 81,
+      "PA_livre_proposto": 556,
+      "delta_PA_livre": 475,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Lendário",
+          "pa_dia": 90
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Lendário",
+          "pa_dia": 90
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        }
+      ],
+      "notion_page_id": "400c2b324ede815d8028ca7767b78e1f",
+      "FF_normal_atributos_TEST": 1380,
+      "FF_transformada_potencial_TEST": 3480,
+      "marcos_100FF_normal_potenciais": 13,
+      "marcos_100FF_com_transformacao_potenciais": 34,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 22,
+      "rank_personagem": "Lendário",
+      "rank_index": 4,
+      "alma_natural": 830,
+      "aneis_da_alma_pa": 100,
+      "bruto": 930,
+      "itens_energizados": 9,
+      "custo_antigo_PA_dia": 810,
+      "custo_test_proposto_PA_dia": 335,
+      "PA_livre_antigo": 120,
+      "PA_livre_proposto": 595,
+      "delta_PA_livre": 475,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Lendário",
+          "pa_dia": 90
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Lendário",
+          "pa_dia": 90
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        }
+      ],
+      "notion_page_id": "400c2b324ede81fabc81cf69f0641303",
+      "FF_normal_atributos_TEST": 1430,
+      "FF_transformada_potencial_TEST": 3630,
+      "marcos_100FF_normal_potenciais": 14,
+      "marcos_100FF_com_transformacao_potenciais": 36,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 23,
+      "rank_personagem": "Lendário",
+      "rank_index": 4,
+      "alma_natural": 869,
+      "aneis_da_alma_pa": 100,
+      "bruto": 969,
+      "itens_energizados": 9,
+      "custo_antigo_PA_dia": 810,
+      "custo_test_proposto_PA_dia": 335,
+      "PA_livre_antigo": 159,
+      "PA_livre_proposto": 634,
+      "delta_PA_livre": 475,
+      "situação_Notion": "PENDENTE_ESCRITA",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Lendário",
+          "pa_dia": 90
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Lendário",
+          "pa_dia": 90
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        }
+      ],
+      "notion_page_id": "400c2b324ede81e894a1f4ac84354ee2",
+      "FF_normal_atributos_TEST": 1490,
+      "FF_transformada_potencial_TEST": 3790,
+      "marcos_100FF_normal_potenciais": 14,
+      "marcos_100FF_com_transformacao_potenciais": 37,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 24,
+      "rank_personagem": "Lendário",
+      "rank_index": 4,
+      "alma_natural": 908,
+      "aneis_da_alma_pa": 100,
+      "bruto": 1008,
+      "itens_energizados": 10,
+      "custo_antigo_PA_dia": 900,
+      "custo_test_proposto_PA_dia": 356,
+      "PA_livre_antigo": 108,
+      "PA_livre_proposto": 652,
+      "delta_PA_livre": 544,
+      "situação_Notion": "VERIFICADO_P17",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Lendário",
+          "pa_dia": 90
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Lendário",
+          "pa_dia": 90
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        }
+      ],
+      "notion_page_id": "400c2b324ede81789207ccb2bac264b2",
+      "FF_normal_atributos_TEST": 1560,
+      "FF_transformada_potencial_TEST": 3960,
+      "marcos_100FF_normal_potenciais": 15,
+      "marcos_100FF_com_transformacao_potenciais": 39,
+      "marcos_FF_historia_verificada": null
+    },
+    {
+      "nivel": 25,
+      "rank_personagem": "Lendário",
+      "rank_index": 4,
+      "alma_natural": 948,
+      "aneis_da_alma_pa": 100,
+      "bruto": 1048,
+      "itens_energizados": 10,
+      "custo_antigo_PA_dia": 900,
+      "custo_test_proposto_PA_dia": 356,
+      "PA_livre_antigo": 148,
+      "PA_livre_proposto": 692,
+      "delta_PA_livre": 544,
+      "situação_Notion": "VERIFICADO_P17",
+      "itens_ativos_por_rank": [
+        {
+          "item": "Couraça da Muralha",
+          "rank_item": "Lendário",
+          "pa_dia": 90
+        },
+        {
+          "item": "Machado da Ruptura",
+          "rank_item": "Lendário",
+          "pa_dia": 90
+        },
+        {
+          "item": "Manoplas da Bigorna",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Cinto do Bastião",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Botas da Escarpa",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Anel da Guarda",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Elmo do Estandarte",
+          "rank_item": "Prata",
+          "pa_dia": 11
+        },
+        {
+          "item": "Capa do Desfiladeiro",
+          "rank_item": "Ouro Negro",
+          "pa_dia": 35
+        },
+        {
+          "item": "Braçadeiras do Golpe Medido",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        },
+        {
+          "item": "Amuleto da Forja",
+          "rank_item": "Ouro",
+          "pa_dia": 21
+        }
+      ],
+      "notion_page_id": "400c2b324ede815abca2ce4fb08a8cdc",
+      "FF_normal_atributos_TEST": 1610,
+      "FF_transformada_potencial_TEST": 4110,
+      "marcos_100FF_normal_potenciais": 16,
+      "marcos_100FF_com_transformacao_potenciais": 41,
+      "marcos_FF_historia_verificada": null
+    }
+  ],
+  "medias_dano": [
+    {
+      "rank": "Bronze",
+      "dados_machado": "4d6",
+      "media_machado": 14.0,
+      "dado_ruptura": "+1d6",
+      "media_ruptura_extra": 3.5,
+      "media_machado_com_ruptura": 17.5,
+      "dados_espada": "2d8",
+      "media_espada": 9.0
+    },
+    {
+      "rank": "Prata",
+      "dados_machado": "6d6",
+      "media_machado": 21.0,
+      "dado_ruptura": "+2d6",
+      "media_ruptura_extra": 7.0,
+      "media_machado_com_ruptura": 28.0,
+      "dados_espada": "3d8",
+      "media_espada": 13.5
+    },
+    {
+      "rank": "Ouro",
+      "dados_machado": "8d6",
+      "media_machado": 28.0,
+      "dado_ruptura": "+4d6",
+      "media_ruptura_extra": 14.0,
+      "media_machado_com_ruptura": 42.0,
+      "dados_espada": "4d8",
+      "media_espada": 18.0
+    },
+    {
+      "rank": "Ouro Negro",
+      "dados_machado": "10d6",
+      "media_machado": 35.0,
+      "dado_ruptura": "+9d6",
+      "media_ruptura_extra": 31.5,
+      "media_machado_com_ruptura": 66.5,
+      "dados_espada": "5d8",
+      "media_espada": 22.5
+    },
+    {
+      "rank": "Lendário",
+      "dados_machado": "12d6",
+      "media_machado": 42.0,
+      "dado_ruptura": "+16d6",
+      "media_ruptura_extra": 56.0,
+      "media_machado_com_ruptura": 98.0,
+      "dados_espada": "6d8",
+      "media_espada": 27.0
+    }
+  ],
+  "transformacao": {
+    "estado": "HOLD",
+    "motivo": "compatibilidade de itens e Anéis da Alma na forma não demonstrada; não copiar PA livre normal"
+  },
+  "ff_marcos": {
+    "estado": "HOLD_ROLAGENS",
+    "norma": "Marcos de 100FF possuem escolha/resultado lock; não rolar ou inventar histórico.",
+    "normal_n25_marcos_teoricos": 16,
+    "com_transformacao_n25_marcos_teoricos": 41,
+    "marcos_fisicamente_rolados_e_travados_nesta_rodada": 0,
+    "ativacao_de_transformacao_na_cronologia": "NÃO PROVADA"
+  },
+  "readback_estrutural": {
+    "paginas_lidas": 25,
+    "inventarios_com_16_blocos": 25,
+    "formas_normais": 25,
+    "formas_transformadas": 20,
+    "toggles_bronze_por_pagina": 30,
+    "toggles_prata_a_lendario_por_pagina": 44,
+    "itens_individualizados_fisicamente": 6,
+    "itens_pendentes_fisicamente": 19,
+    "erros_estruturais_detectados": 0
+  },
+  "timestamps_readback_verificados": {
+    "1": "2026-10-22T02:58:04.968Z",
+    "2": "2026-10-22T02:58:08.268Z",
+    "3": "2026-10-22T02:58:11.380Z",
+    "4": "2026-10-22T02:58:14.438Z",
+    "24": "2026-10-22T02:59:45.742Z",
+    "25": "2026-10-22T02:55:20.032Z"
+  },
+  "viabilidade_pa_ranks": [
+    {
+      "nivel": 6,
+      "PA_livre_antigo": 73,
+      "PA_livre_candidato": 97,
+      "custo_T9_teorico": 40,
+      "cabe_T9_do_estado_normal_antigo": true,
+      "cabe_T9_do_estado_normal_candidato": true
+    },
+    {
+      "nivel": 11,
+      "PA_livre_antigo": 94,
+      "PA_livre_candidato": 174,
+      "custo_T9_teorico": 80,
+      "cabe_T9_do_estado_normal_antigo": true,
+      "cabe_T9_do_estado_normal_candidato": true
+    },
+    {
+      "nivel": 16,
+      "PA_livre_antigo": 123,
+      "PA_livre_candidato": 279,
+      "custo_T9_teorico": 160,
+      "cabe_T9_do_estado_normal_antigo": false,
+      "cabe_T9_do_estado_normal_candidato": true
+    },
+    {
+      "nivel": 21,
+      "PA_livre_antigo": 81,
+      "PA_livre_candidato": 556,
+      "custo_T9_teorico": 320,
+      "cabe_T9_do_estado_normal_antigo": false,
+      "cabe_T9_do_estado_normal_candidato": true
+    }
+  ]
+}

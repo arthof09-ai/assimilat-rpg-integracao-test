@@ -1,0 +1,66 @@
+{
+  "AS_OF": "2026-10-16",
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "uploaded": 9,
+  "readback_pass": 9,
+  "items": [
+    {
+      "name": "VLAB_R92_R101_POTENCIA_EQUIVALENTE_2X1_MESTRE_ONLY.zip",
+      "bytes": 9710134,
+      "sha256": "582bc31c08787a8528b7c35fa3c68c202aeaa4f2198a2995bed00a72a6f3b66b",
+      "readback": "BYTE_FOR_BYTE_PASS"
+    },
+    {
+      "name": "R101_PSV_MESTRE_ONLY.md",
+      "bytes": 11727,
+      "sha256": "13900c7ecb1708a3609e5355b31dec4433d6d7062259023fc0c1aae3fb73aed4",
+      "readback": "BYTE_FOR_BYTE_PASS"
+    },
+    {
+      "name": "R101_LOCAL_DELIVERY_RECEIPT.json",
+      "bytes": 593,
+      "sha256": "d1878eb398a1a35baba17409a083d395c6e726c8b2404639426578a44ff34a38",
+      "readback": "BYTE_FOR_BYTE_PASS"
+    },
+    {
+      "name": "R97_VALIDATED_RUNS_24.csv",
+      "bytes": 7952,
+      "sha256": "f7c1d781722294395bb1dd06f48a7bff84aed6382344a18a0b3a85a173bf72a5",
+      "readback": "BYTE_FOR_BYTE_PASS"
+    },
+    {
+      "name": "R97_ATTACK_RECEIPTS_1344_FOR_DMG.csv",
+      "bytes": 1092335,
+      "sha256": "2fd252f2656e11e5dce273c2b7d2857a0f6470b84c9db53d663b6396e89c3740",
+      "readback": "BYTE_FOR_BYTE_PASS"
+    },
+    {
+      "name": "R97_POWER_GRID_104_CORRECTED_V2.csv",
+      "bytes": 23111,
+      "sha256": "439ba365dadced95a8820fc309ea1cbea79ee51b0487c8306a744a3cc62eebf1",
+      "readback": "BYTE_FOR_BYTE_PASS"
+    },
+    {
+      "name": "R97_PAIRED_BLOCKS_12.csv",
+      "bytes": 1546,
+      "sha256": "8aaee381e64b65847cc57fd3dd6ed0967af33fe17a68754d3a43e1de8b98c220",
+      "readback": "BYTE_FOR_BYTE_PASS"
+    },
+    {
+      "name": "R92_R94_ERRATA_AND_QUARANTINE.json",
+      "bytes": 2249,
+      "sha256": "a6dfdf2948bffeb2d2b6d6515e41d03350c6d18fe1b3c55248f525247bcc8c84",
+      "readback": "BYTE_FOR_BYTE_PASS"
+    },
+    {
+      "name": "R101_17_CONTRACTS_RECONCILED.json",
+      "bytes": 11660,
+      "sha256": "5f56344c39d486bc4f3bdc6b11ec8c3f3489a4349f8fb8a4ce8c794bebb3674b",
+      "readback": "BYTE_FOR_BYTE_PASS"
+    }
+  ],
+  "no_overwrite": true,
+  "Notion_writer_status": "HOLD",
+  "terminal_contracts": 0,
+  "status": "LIBRARY_READBACK_PHYSICALLY_VERIFIED"
+}

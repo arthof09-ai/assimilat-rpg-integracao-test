@@ -1,0 +1,18 @@
+{
+  "byte_identical": true,
+  "classification": "MESTRE_ONLY",
+  "clean_extract": "2197/2197 integrity + 8/8 new unit tests + native A/B run",
+  "crc": "PASS",
+  "historic_r17_entries_unchanged": 2167,
+  "human_uat": "PENDING",
+  "library_id": "libfile_f07ed165c53c8191beafa1bac241642c",
+  "manifest_sha_entries": 2197,
+  "official_integration": "HOLD",
+  "r18_sha256": "e079da7aa5c16364a18515de3f4941583e394dc345493adabb9d2db06faceefc",
+  "readback_method": "Library upload -> list -> materialize -> sha256 and full ZIP CRC/manifest/bytewise compare",
+  "returned_sha256": "e079da7aa5c16364a18515de3f4941583e394dc345493adabb9d2db06faceefc",
+  "schema": "VLAB-R18-POST-UPLOAD-LIBRARY-READBACK-CERT",
+  "terminal_contracts": 0,
+  "total_bytes": 14691125,
+  "zip_entries": 2198
+}

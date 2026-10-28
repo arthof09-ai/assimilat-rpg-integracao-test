@@ -1,0 +1,522 @@
+{
+  "QA_local_assertions": [
+    "A_score_normal_hit",
+    "B_score_normal_miss",
+    "C_crit_auto_over_CA",
+    "D_crit_auto_over_evasion",
+    "E_wrong_order_6_5_6_rejected",
+    "F_margin_plus_one_valid_6_6_4",
+    "G_RD_not_ignored",
+    "H_damage_correct",
+    "seq_positive_2_of_216",
+    "margin_limit_6_of_216",
+    "reject_bad_d6_(6, 6, 7)",
+    "reject_bad_d6_(0, 6, 6)",
+    "reject_bad_margin_-1",
+    "reject_bad_margin_5",
+    "synthetic_mutant_numeric_first_detected",
+    "PMF sums to 1",
+    "PMF sums to 1",
+    "PMF sums to 1",
+    "PMF sums to 1",
+    "PMF sums to 1",
+    "crit-only exact PMF",
+    "crit damage mitigated range 15 to 20",
+    "2-critical lethal outcomes 6 of 36",
+    "3 critical hits guaranteed to KO",
+    "crit-only damage expected per attack",
+    "transition mass normalized",
+    "survival nonincreasing",
+    "transition mass normalized",
+    "survival nonincreasing",
+    "transition mass normalized",
+    "transition mass normalized",
+    "survival nonincreasing",
+    "bilateral terminal mass",
+    "independent exact closed-form mean versus Markov",
+    "independent exact closed-form first win versus Markov",
+    "bilateral terminal mass",
+    "bilateral terminal mass",
+    "transition mass normalized",
+    "survival nonincreasing",
+    "transition mass normalized",
+    "survival nonincreasing",
+    "bilateral terminal mass",
+    "transition mass normalized",
+    "survival nonincreasing",
+    "transition mass normalized",
+    "survival nonincreasing",
+    "bilateral terminal mass",
+    "PMF sums to 1",
+    "transition mass normalized",
+    "survival nonincreasing",
+    "bilateral terminal mass",
+    "PMF sums to 1",
+    "transition mass normalized",
+    "survival nonincreasing",
+    "bilateral terminal mass",
+    "PMF sums to 1",
+    "transition mass normalized",
+    "survival nonincreasing",
+    "bilateral terminal mass",
+    "PMF sums to 1",
+    "transition mass normalized",
+    "survival nonincreasing",
+    "bilateral terminal mass",
+    "PMF sums to 1",
+    "transition mass normalized",
+    "survival nonincreasing",
+    "bilateral terminal mass",
+    "increased crit margin shortens symmetric duel",
+    "PMF sums to 1",
+    "transition mass normalized",
+    "survival nonincreasing",
+    "source 4/6 common hit vs Galidemus CA21",
+    "source Galidemus one-sided finite expected tries",
+    "reject_impossible_attack_die_7",
+    "reject_impossible_damage_die_7",
+    "reject_retroactive_evasion",
+    "reject_second_reaction_before_refresh",
+    "reject_duplicate_command",
+    "reject_KO_attacker",
+    "defense spent and no damage",
+    "positive critical empirical frequency not far from theoretical in independent PCG64 holdout",
+    "MC sample uncensored within 1800 rounds goat_symmetric_always_evasion",
+    "Monte Carlo sanity mean goat_symmetric_always_evasion",
+    "Monte Carlo sanity winner goat_symmetric_always_evasion",
+    "MC sample uncensored within 1800 rounds goat_symmetric_decline",
+    "Monte Carlo sanity mean goat_symmetric_decline",
+    "Monte Carlo sanity winner goat_symmetric_decline",
+    "MC sample uncensored within 1800 rounds goat_symmetric_first_once",
+    "Monte Carlo sanity mean goat_symmetric_first_once",
+    "Monte Carlo sanity winner goat_symmetric_first_once",
+    "output readback exact rational",
+    "immutability of eight existing R02-R09 artifacts"
+  ],
+  "QA_local_pass_count": 92,
+  "R40_from_notion_document_only": {
+    "KO_native": 4,
+    "fully_completes_new_lab_fights": 2,
+    "native_attacks": 42,
+    "observed_positive_crit_in_fights": 0,
+    "physical_zip_audit_by_DMG": "NOT DONE. Notion source opened; no original ZIP bytes materialized.",
+    "reaction_valid": 15,
+    "refused_reactions": 9,
+    "source_document_SHA256_claim": "2be2d7b8cb39fd4aa340afc07a200c8c1c5234475256635e2dad85a2aeeb1e71",
+    "terminal_17": 0,
+    "total_lab_fights": 18
+  },
+  "baseline": "DMG-RANK-01 v1.1",
+  "canonical_writes": 0,
+  "goat_crit_only": {
+    "E_attacks_one_attacker_HP38": {
+      "decimal": 306.0,
+      "fraction": "306"
+    },
+    "E_crit_hits_for_KO": {
+      "decimal": 2.8333333333333335,
+      "fraction": "17/6"
+    },
+    "E_time_until_first_crit_opportunities": {
+      "decimal": 108.0,
+      "fraction": "108"
+    },
+    "closed_form_symmetric_bilateral": {
+      "expected_attack_count": {
+        "decimal": 411.00669375023585,
+        "fraction": "163389546/397535"
+      },
+      "mean_rounds": {
+        "decimal": 205.75378677688602,
+        "fraction": "3780942979428/18376055375"
+      },
+      "p_equal_isolated_KO_time": {
+        "decimal": 0.001759607072363864,
+        "fraction": "32334637/18376055375"
+      },
+      "p_first": {
+        "decimal": 0.5008798035361819,
+        "fraction": "9204195006/18376055375"
+      }
+    },
+    "damage_crit_net_pmf": {
+      "15": "1/6",
+      "16": "1/6",
+      "17": "1/6",
+      "18": "1/6",
+      "19": "1/6",
+      "20": "1/6"
+    },
+    "damage_crit_net_range": [
+      15,
+      20
+    ],
+    "health_state_matrix_bilateral": {
+      "expected_total_attack_opportunities": 411.00669375023114,
+      "mean_rounds": 205.75378677688366,
+      "p_first_actor_wins": 0.5008798035361809,
+      "p_second_actor_wins": 0.499120196463817,
+      "quantile_rounds": {
+        "0.1": 74,
+        "0.25": 120,
+        "0.5": 187,
+        "0.75": 271,
+        "0.9": 362,
+        "0.95": 424,
+        "0.99": 555,
+        "0.999": 726
+      },
+      "survival_horizon": {
+        "100": 0.8194486046588306,
+        "1000": 1.8143790789984235e-05,
+        "16": 0.9961807602329914,
+        "200": 0.451331858099293,
+        "50": 0.9555961354079133,
+        "500": 0.019851078118244787,
+        "8": 0.9991575653105949
+      },
+      "tail_survival_at_H": 2.201397976082446e-15
+    },
+    "p_at_least_one_crit_after_n_independent_checks": {
+      "100": 0.6055406817148757,
+      "1000": 0.9999087942543494,
+      "16": 0.1382915431145809,
+      "200": 0.844401846218035,
+      "50": 0.37194003607527704,
+      "500": 0.9904498300721606,
+      "8": 0.07171746925549703
+    },
+    "p_crit": {
+      "decimal": 0.009259259259259259,
+      "fraction": "1/108"
+    },
+    "p_noncrit_hit_evasion26": {
+      "decimal": 0.0,
+      "fraction": "0"
+    },
+    "p_three_crit_required": {
+      "decimal": 0.8333333333333334,
+      "fraction": "5/6"
+    },
+    "p_two_crit_KO": {
+      "decimal": 0.16666666666666666,
+      "fraction": "1/6"
+    }
+  },
+  "goat_defense_policies": {
+    "DECLINE": {
+      "expected_total_attack_opportunities": 7.398469148872096,
+      "mean_rounds": 4.0253526544996046,
+      "p_first_actor_wins": 0.6522361601271128,
+      "p_second_actor_wins": 0.3477638398728871,
+      "quantile_rounds": {
+        "0.1": 3,
+        "0.25": 4,
+        "0.5": 4,
+        "0.75": 4,
+        "0.9": 5,
+        "0.95": 5,
+        "0.99": 6,
+        "0.999": 7
+      },
+      "survival_horizon": {
+        "100": 2.585152791693996e-142,
+        "1000": 0.0,
+        "16": 4.135514578420438e-16,
+        "200": 1.1561262623488302e-296,
+        "50": 4.2504342573902923e-66,
+        "500": 0.0,
+        "8": 1.4248555783018384e-05
+      },
+      "tail_survival_at_H": 0.0
+    },
+    "EVADE_FIRST_ONCE": {
+      "expected_total_attack_opportunities": 9.34575813178592,
+      "mean_rounds": 4.997972420523538,
+      "p_first_actor_wins": 0.6501867092611539,
+      "p_second_actor_wins": 0.34981329073884604,
+      "quantile_rounds": {
+        "0.1": 4,
+        "0.25": 5,
+        "0.5": 5,
+        "0.75": 5,
+        "0.9": 6,
+        "0.95": 6,
+        "0.99": 7,
+        "0.999": 8
+      },
+      "survival_horizon": {
+        "100": 8.693534237803332e-141,
+        "1000": 0.0,
+        "16": 9.803772613509911e-15,
+        "200": 4.016570968404421e-295,
+        "50": 1.3407690028220736e-64,
+        "500": 0.0,
+        "8": 0.00020795051888403027
+      },
+      "tail_survival_at_H": 0.0
+    },
+    "EVADE_WHEN_AVAILABLE": {
+      "expected_total_attack_opportunities": 411.00669375023114,
+      "mean_rounds": 205.75378677688366,
+      "p_first_actor_wins": 0.5008798035361809,
+      "p_second_actor_wins": 0.499120196463817,
+      "quantile_rounds": {
+        "0.1": 74,
+        "0.25": 120,
+        "0.5": 187,
+        "0.75": 271,
+        "0.9": 362,
+        "0.95": 424,
+        "0.99": 555,
+        "0.999": 726
+      },
+      "survival_horizon": {
+        "100": 0.8194486046588306,
+        "1000": 1.8143790789984235e-05,
+        "16": 0.9961807602329914,
+        "200": 0.451331858099293,
+        "50": 0.9555961354079133,
+        "500": 0.019851078118244787,
+        "8": 0.9991575653105949
+      },
+      "tail_survival_at_H": 2.201397976082446e-15
+    }
+  },
+  "margins_counterfactual": {
+    "0": {
+      "mean_rounds": 205.75378677688366,
+      "median_rounds": 187,
+      "p_first_actor_wins": 0.5008798035361809,
+      "q_crit": {
+        "decimal": 0.009259259259259259,
+        "fraction": "1/108"
+      },
+      "survive_after_8_rounds": 0.9991575653105949
+    },
+    "1": {
+      "mean_rounds": 137.31688194737202,
+      "median_rounds": 125,
+      "p_first_actor_wins": 0.5013225183273556,
+      "q_crit": {
+        "decimal": 0.013888888888888888,
+        "fraction": "1/72"
+      },
+      "survive_after_8_rounds": 0.9980606665658938
+    },
+    "2": {
+      "mean_rounds": 103.09872972509284,
+      "median_rounds": 94,
+      "p_first_actor_wins": 0.5017671357111106,
+      "q_crit": {
+        "decimal": 0.018518518518518517,
+        "fraction": "1/54"
+      },
+      "survive_after_8_rounds": 0.9964786261971148
+    },
+    "3": {
+      "mean_rounds": 82.56808013316041,
+      "median_rounds": 75,
+      "p_first_actor_wins": 0.5022136765013131,
+      "q_crit": {
+        "decimal": 0.023148148148148147,
+        "fraction": "5/216"
+      },
+      "survive_after_8_rounds": 0.9943893777697901
+    },
+    "4": {
+      "mean_rounds": 68.88118319498497,
+      "median_rounds": 63,
+      "p_first_actor_wins": 0.5026621618240154,
+      "q_crit": {
+        "decimal": 0.027777777777777776,
+        "fraction": "1/36"
+      },
+      "survive_after_8_rounds": 0.9917739353894277
+    }
+  },
+  "master_binding_change": "positive critical automatically hits even if ordinary score <= CA or Esquiva; critical damage and RD remain",
+  "method": "independent exact closed-form Q + absorbing health-state Markov + registered random PCG64 Monte Carlo",
+  "new_VLAB_combats": 0,
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "original_immutable_sha256": {
+    "DMG_R02_RECONSTRUCAO_CIENTIFICA_MESTRE_SIDE.zip": "6b7702304dad1c4be8f11eb5e0af06482f723827dbc4045026bdd21e3cf7f547",
+    "r03/DMG_R03_INDEPENDENT_COHORT_CROSSRANK_MASTER_ONLY.zip": "cb41b5d46fece58602ea5d912f21579f064b688ecc4490acf4b27447e4154bfe",
+    "r04/DMG_R04_MECHANICAL_ROBUSTNESS_MASTER_ONLY.zip": "76913a4128515ada36b60956cff1c333e17413153c8ac1788e7012523180aa8e",
+    "r04/R07_RESULTS_EXACT.json": "ffd629c2e1ba5307fb4dd59b72e39ef0fdf7a354503767edc8199ce36336ff40",
+    "r04/R08_RESULTS_MECHANICAL.json": "2ace58e82b07235de93cc902d4aa5ad877922cc658a0cc2586955cb12018de2c",
+    "r04/R09_REPLAY_EXACT.py": "c95ee7f62f7647982f08609312142dcfc261a189e72b3802e5c6283f08b0017d",
+    "r04/R09_RESULTS_EXACT.json": "99d577f2b1f2027913c564e7b72b5c7789f32aa2cb79655031857423be6bdf64",
+    "r04/R09_VLAB_HANDOFF_READONLY.json": "e189b08096fecce49bf686b27ffa7947a25d9944820c93222c28c7326e2ee761"
+  },
+  "other_source_real_contrasts": {
+    "FRIGIDO_ATTACK_FIRST_GOAT_DECLINE": {
+      "expected_total_attack_opportunities": 4.918795724737083,
+      "mean_rounds": 2.9593978623685415,
+      "p_first_actor_wins": 0.9999999999999999,
+      "p_second_actor_wins": 1.0651455965777118e-16,
+      "quantile_rounds": {
+        "0.1": 3,
+        "0.25": 3,
+        "0.5": 3,
+        "0.75": 3,
+        "0.9": 3,
+        "0.95": 3,
+        "0.99": 3,
+        "0.999": 3
+      },
+      "survival_horizon": {
+        "100": 0.0,
+        "1000": 0.0,
+        "16": 0.0,
+        "200": 0.0,
+        "50": 0.0,
+        "500": 0.0,
+        "8": 0.0
+      },
+      "tail_survival_at_H": 0.0
+    },
+    "FRIGIDO_ATTACK_FIRST_GOAT_EVADE_WHEN_AVAILABLE": {
+      "expected_total_attack_opportunities": 7.818475613342432,
+      "mean_rounds": 4.409237806671214,
+      "p_first_actor_wins": 0.9999999999999967,
+      "p_second_actor_wins": 3.174438872626951e-15,
+      "quantile_rounds": {
+        "0.1": 3,
+        "0.25": 3,
+        "0.5": 4,
+        "0.75": 5,
+        "0.9": 6,
+        "0.95": 7,
+        "0.99": 9,
+        "0.999": 12
+      },
+      "survival_horizon": {
+        "100": 1.500729888848578e-44,
+        "1000": 0.0,
+        "16": 1.0086131603615222e-05,
+        "200": 4.587397650575978e-92,
+        "50": 4.2907070479318455e-21,
+        "500": 1.124914987968921e-235,
+        "8": 0.017966527377492644
+      },
+      "tail_survival_at_H": 0.0
+    },
+    "GALIDEMUS_B1_AS_TARGET_ONE_SIDED": {
+      "common_hit_p": "4/6",
+      "expected_attacks_to_KO_HP32": 4.70425499470822,
+      "expected_net_per_attack_inc_auto_crit": {
+        "decimal": 7.757716049382716,
+        "fraction": "5027/648"
+      },
+      "goat_attack_luta6": "1d6+13+6",
+      "target_CA": 21,
+      "target_HP": 32,
+      "target_RD": 5,
+      "target_counterattack_Luta": "UNRESOLVED; not a full fight"
+    }
+  },
+  "prereg_sha256": "8c0d6ecf717180c844bf304ee17ea568e3b14af83b53984ff76e3aed18e0de87",
+  "research": "DMG R10",
+  "sampling": {
+    "MC_BILATERAL": {
+      "goat_symmetric_always_evasion": {
+        "case": "GvG_EVADE_ALWAYS",
+        "censored": 0,
+        "horizon_rounds": 1800,
+        "mean_rounds_observed_uncensored": 206.21385,
+        "median_rounds_observed_uncensored": 188.0,
+        "n": 20000,
+        "p_A_win_unconditional": 0.5015,
+        "p_B_win_unconditional": 0.4985,
+        "round_quantiles_observed_uncensored": {
+          "0.1": 75.0,
+          "0.5": 188.0,
+          "0.9": 361.0,
+          "0.99": 552.0099999999984
+        },
+        "sampled_branch": "per-attack ordered 3d6 + separately sampled ordinary and damage d6, no native combat",
+        "seed": 2026101510
+      },
+      "goat_symmetric_decline": {
+        "case": "GvG_DECLINE",
+        "censored": 0,
+        "horizon_rounds": 1800,
+        "mean_rounds_observed_uncensored": 4.021166666666667,
+        "median_rounds_observed_uncensored": 4.0,
+        "n": 12000,
+        "p_A_win_unconditional": 0.6540833333333333,
+        "p_B_win_unconditional": 0.34591666666666665,
+        "round_quantiles_observed_uncensored": {
+          "0.1": 3.0,
+          "0.5": 4.0,
+          "0.9": 5.0,
+          "0.99": 6.0
+        },
+        "sampled_branch": "per-attack ordered 3d6 + separately sampled ordinary and damage d6, no native combat",
+        "seed": 2026101811
+      },
+      "goat_symmetric_first_once": {
+        "case": "GvG_FIRST_ONCE",
+        "censored": 0,
+        "horizon_rounds": 1800,
+        "mean_rounds_observed_uncensored": 5.003833333333334,
+        "median_rounds_observed_uncensored": 5.0,
+        "n": 12000,
+        "p_A_win_unconditional": 0.65025,
+        "p_B_win_unconditional": 0.34975,
+        "round_quantiles_observed_uncensored": {
+          "0.1": 4.0,
+          "0.5": 5.0,
+          "0.9": 6.0,
+          "0.99": 7.0
+        },
+        "sampled_branch": "per-attack ordered 3d6 + separately sampled ordinary and damage d6, no native combat",
+        "seed": 2026102011
+      },
+      "goat_symmetric_margin1_conditional": {
+        "case": "GvG_EVADE_MARGIN1_CONTRAFACTUAL",
+        "censored": 0,
+        "horizon_rounds": 1800,
+        "mean_rounds_observed_uncensored": 136.94316666666666,
+        "median_rounds_observed_uncensored": 124.0,
+        "n": 12000,
+        "p_A_win_unconditional": 0.4955,
+        "p_B_win_unconditional": 0.5045,
+        "round_quantiles_observed_uncensored": {
+          "0.1": 50.0,
+          "0.5": 124.0,
+          "0.9": 241.0,
+          "0.99": 363.0100000000002
+        },
+        "sampled_branch": "per-attack ordered 3d6 + separately sampled ordinary and damage d6, no native combat",
+        "seed": 2026102211
+      }
+    },
+    "PCG64_ordered_3d6_holdout": {
+      "critical_negative_count": 1003,
+      "critical_positive_count": 1074,
+      "n": 108000,
+      "p_positive": 0.009944444444444445,
+      "seed": 2026101511
+    }
+  },
+  "scientific_caveats": [
+    "critical verification and ordinary score treated as independent in R10 mathematical model",
+    "critical negative has no invented fumble effects",
+    "infinite duration only for miss-only R09 model, now refuted by positive auto-critical",
+    "geometry and forced push simplified as movement can restore adjacency in open space; blocked map can change results",
+    "regular combat critical auto-hit override is the new Mestre decision, not physically edited in Notion",
+    "initiative ORDER condition A first, not fixed initiative bonuses for any new scene",
+    "increased crit margins are counterfactual not assigned to official Goat",
+    "results are analytics on independent models, not native VLAB engine nor canon outcomes"
+  ],
+  "sources": {
+    "beast": "3ebc2b324ede81f4992ac88a3588cacd",
+    "cabramestre": "391c2b324ede8252b0cc810423cdbfa6",
+    "combat": "3ebc2b324ede81f1be4be8804ac113c0",
+    "frigido": "f0dc2b324ede820ab9470168d4a53315",
+    "galidemus": "eddc2b324ede829f8a75011e8acbf429",
+    "vLab": "3f3c2b324ede819496ddd7f93bd7e5d2"
+  }
+}

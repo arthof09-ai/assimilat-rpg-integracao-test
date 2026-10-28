@@ -1,0 +1,27 @@
+{
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "baseline": "R01–R107",
+  "selected_ledger": 6,
+  "events": 636,
+  "attack_events": 208,
+  "spell_events": 4,
+  "crit_plus_events": 6,
+  "weak_attacks": 16,
+  "efforts": 2,
+  "pa_spent": 220,
+  "independent_seed_values": [
+    915133,
+    919982,
+    920801
+  ],
+  "mirror_not_independent": true,
+  "fault_tests": 2,
+  "new_negative_preflight": 9,
+  "legacy_unittests": 28,
+  "new_native_unittests": 23,
+  "terminals": 0,
+  "official_cells": 0,
+  "receipts_csv_rows": 212,
+  "local_competent_engine": "v0.8.1 effects v08 source copy with Stage12 R18 SQLite commit bridge",
+  "restriction": "No full source official or canonical promotion"
+}

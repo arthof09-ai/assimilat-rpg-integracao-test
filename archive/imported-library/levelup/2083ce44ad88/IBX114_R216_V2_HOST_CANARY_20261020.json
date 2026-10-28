@@ -1,0 +1,77 @@
+{
+  "checkpoint": "IBX114-R216-V2-HOST-CANARY-20261020-001",
+  "operation": "LEVEL-UP-ENGINE / IBX-17",
+  "order": "IBX-114",
+  "environment": "MESTRE-SIDE LAB TEST",
+  "page_id": "3ffc2b324ede81439826e9b50ce9de89",
+  "source_page_id": "3ffc2b324ede81758881cda1b2434975",
+  "original_R213_no_write": "3ffc2b324ede81d383e4df1d5a4633ed",
+  "versions": {
+    "pre": "2026-10-20T22:46:35.736Z",
+    "after_patch": "2026-10-20T22:48:35.715Z",
+    "after_rollback": "2026-10-20T22:49:54.967Z"
+  },
+  "snapshots_file_upload_ids": {
+    "pre": "3ffc2b32-4ede-8174-8318-00b27429038c",
+    "after_patch": "3ffc2b32-4ede-819b-a654-00b2ae3755f6",
+    "after_rollback": "3ffc2b32-4ede-81b8-aae5-00b206e397e4"
+  },
+  "scope": {
+    "path": "root R213 TEST technical active header > CD de Magia TEST",
+    "field": "annotation to CD test; numerical CD unchanged",
+    "target_repetitions_before": 1,
+    "serializer_current": "TOGGLE_V2",
+    "toggles": 103,
+    "root_children": 20,
+    "grandchildren": 5
+  },
+  "patch": {
+    "exact_intended_old_plus_new_diff_only": true,
+    "unexpected_other_chars": 0,
+    "target_new_occurrences": 1,
+    "children_IDs_unchanged": true,
+    "other_tags_unchanged": true
+  },
+  "rollback": {
+    "exact_intended_reverse_diff_only": true,
+    "unexpected_other_chars": 0,
+    "marker_absent_after": true,
+    "root_after_body_characters": 51419
+  },
+  "descendants": {
+    "child_versions_unchanged_after_patch": 20,
+    "grandchild_versions_unchanged_after_patch": 5,
+    "child_versions_unchanged_after_rollback": 20,
+    "grandchild_versions_unchanged_after_rollback": 5
+  },
+  "notion_media": {
+    "notion_file_block_reference_urls_resolved": 13,
+    "unresolved": 0,
+    "independent_binary_hashes_checked": 0
+  },
+  "gates": {
+    "selective_patch_new_serializer": "PASS TEST NOTION",
+    "rollback_new_serializer": "PASS TEST NOTION",
+    "descendant_version_preservation": "PASS TEST NOTION",
+    "legacy_escaped_pages": "FAIL TEST NOTION PREVIOUSLY",
+    "all_fields_serializer_v2": "HOLD",
+    "atomic_CAS_and_lease": "HOLD",
+    "production_writer": "HOLD",
+    "seven_original_CSV_binary": "HOLD 0/7",
+    "R216_global": "HOLD"
+  },
+  "r214": {
+    "preview_id": "IBX17-R214-PREVIEW-ALT08-DES1-CON1-FIXED7-20261020",
+    "semantic_sha256": "4ef33cc4c36033015ba8251be8fc096e280b6a644a74ca3ed4ba2794f58b0c19",
+    "coordinator_technical_acceptance": true,
+    "master_preview_approval": false,
+    "transaction_authorized": false,
+    "writes_to_R213": 0
+  },
+  "safety": {
+    "party_writes": 0,
+    "o_primeiro_writes": 0,
+    "writer_authority_inherited": false,
+    "host_CAS_claimed": false
+  }
+}

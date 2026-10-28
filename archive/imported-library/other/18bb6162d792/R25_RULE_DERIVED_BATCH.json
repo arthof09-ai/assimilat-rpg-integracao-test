@@ -1,0 +1,89 @@
+{
+  "a1_events": 283,
+  "attempted": 8,
+  "canonical_cells": 0,
+  "canonical_fights": 0,
+  "canonical_source_actions": 0,
+  "censor_causes": {
+    "41": "INITIATIVE_TIE_BEFORE_DURABLE_INTENT",
+    "71": "CRITICAL_SEQUENCE_POSITIVE_BEFORE_INTENT",
+    "83": "CRITICAL_SEQUENCE_NEGATIVE_BEFORE_INTENT"
+  },
+  "censored": 3,
+  "completed_conditional": 5,
+  "engine": "R25 policy -> R21 historic A1 reducer -> R18 existing v0.7 / v0.8.1 -> R18 SQLite WAL",
+  "limit": "NOT A RULING ON THE WHOLE 25-POSITION SYSTEM, NO SOURCE NATIVE ATTESTATION",
+  "mode": "RULE_DERIVED_VIRTUAL_BASELINE_CONDITIONAL",
+  "native_attacks": 94,
+  "positive_PA_consumed": 0,
+  "rounds_completed": [
+    9,
+    11,
+    10,
+    7,
+    7
+  ],
+  "schema": "R25_RULE_DERIVED_BATCH",
+  "seeds": [
+    11,
+    23,
+    37,
+    41,
+    53,
+    67,
+    71,
+    83
+  ],
+  "sources": {
+    "attack_damage_type": "impacto TRANSPORT PLACEHOLDER; only general RD5, no damage-type-specific effects; NOT official elemental taxonomy",
+    "authority": {
+      "attack": "Sistema de Combate / padrão, 1 ação padrão; 1d6+FOR+bônus Luta",
+      "attributes": "Criação de Besta / 35 pontos iniciais, +8 por nível Besta normal",
+      "base_damage": "Criação de Besta / Besta normal Bronze = 3d6",
+      "ca": "Criação de Besta / 10+DES+CON/5 (sem fração neste setup)",
+      "critical": "Sistema de Combate / detectar sequência de 3d6, CENSURAR gatilhos não integrados",
+      "defense_strategy": "As duas Bestas voluntariamente NÃO declaram reações (não desativar slots)",
+      "hp": "Criação de Besta / 30+1*(10+CON)",
+      "pa": "Criação de Besta / 30+1*(10+INT)",
+      "proficiency": "Criação de Besta / +6 Bronze normal",
+      "rank": "Bronze 1★ / 1d6 para testes em Sistema de Combate",
+      "rd": "Criação de Besta / Bronze normal = 5 geral"
+    },
+    "canonicity": "NONCANONICAL_RULE-DERIVED ONLY",
+    "critical_trigger_coverage": "NOT IMPLEMENTED; if critical or critical failure detected, CENSOR BEFORE HIT/DAMAGE",
+    "kind": "RULE_DERIVED_VIRTUAL_BASELINE_CONDITIONAL",
+    "lab_allocation_choices": {
+      "RULE_BEAST_A": {
+        "CAR": 3,
+        "CON": 10,
+        "DES": 6,
+        "FOR": 17,
+        "INT": 4,
+        "SAB": 3
+      },
+      "RULE_BEAST_B": {
+        "CAR": 3,
+        "CON": 10,
+        "DES": 11,
+        "FOR": 12,
+        "INT": 4,
+        "SAB": 3
+      }
+    },
+    "ordinary_attack_PA": "NO_POSITIVE_PA_SPEND_BY_GENERIC_STANDARD_ATTACK_OBSERVED; zero as lab preflight parameter, not source-attested cost for named skill",
+    "position": "LAB-ZONE-1 both actors / adjacent experiment design; no movement or opportunity",
+    "rank_star_canonical_credit": 0,
+    "schema": "R25_SOURCE_RULE_MAP",
+    "source_entities_real": 0,
+    "source_page_ids": [
+      "3ebc2b32-4ede-81f1-be4b-e8804ac113c0",
+      "3ebc2b32-4ede-81f4-992a-c88a3588cacd"
+    ],
+    "source_scope": "REOPENED_NOTION_TEXT_OBSERVATIONS_NOT_SIGNED_NATIVE_SNAPSHOTS",
+    "trained_luta_choice": "EXPERIMENTAL_ALLOCATION: +6 Bronze proficiency assigned to Luta; verify competency before global generalization"
+  },
+  "wins_by_technical_actor": {
+    "LAB_PERSONALIZADO_1": 2,
+    "LAB_PERSONALIZADO_2": 3
+  }
+}

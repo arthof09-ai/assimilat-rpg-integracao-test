@@ -1,0 +1,140 @@
+{
+  "DMG_attack_receipts_new": 3,
+  "R138": {
+    "Marca_expiration": "HOLD_NOT_CERTIFIED",
+    "accepted_scope": "4-ROUND_SOURCE_CONDITIONAL_CENSORED_INTEGRATION_ONLY",
+    "captured_prefix_state": null,
+    "end_hp": {
+      "A": 523,
+      "E": 630,
+      "F1": 218
+    },
+    "end_pa": {
+      "A": 719,
+      "E": 459,
+      "F1": 339
+    },
+    "head": "6e0dd0bc6e8c6e57973f3fdc6bc0b3b65ffe7e05a0c37b345c79c76efff6c7a1",
+    "independent_auditor_imports_engine": false,
+    "metrics": {
+      "PA_total": 430,
+      "commits": 40,
+      "damage_effective": 672,
+      "healing_effective": 411,
+      "heals": 4,
+      "mark_boundary_holds": 1,
+      "native_events": 43,
+      "normal_attacks": 2,
+      "opportunity_attacks": 1,
+      "passo_expirations": 1,
+      "reactions_paid": 2,
+      "reactive_heals": 1,
+      "start_count": {
+        "A": 4,
+        "E": 4,
+        "F1": 4
+      }
+    },
+    "phase": "CENSORED_HORIZON",
+    "run_id": "R138_MULTI_SOURCE_FERYN_ERISTAN_DEV_S991402",
+    "seed": 991402,
+    "state_sha256": "076cfba8feb719d880f4b4f7a0227466bb9ce6bcaf728ac04718f143c2024da9",
+    "terminal_certificates": 0
+  },
+  "R140_prefix": {
+    "HP": {
+      "A": 523,
+      "E": 630,
+      "F1": 435
+    },
+    "PA": {
+      "A": 719,
+      "E": 654,
+      "F1": 339
+    },
+    "active_next": "A",
+    "checkpoint": "R140_COLD_RECONSTRUCTED_PREFIX_ROUND2_REV20.sqlite",
+    "checkpoint_file_sha256": "72797a13375b75e7cab93669bc9de915672ce98de393c9bfd87d072f3ee7254d",
+    "classification": "COLD_RECONSTRUCTED_PREFIX_NOT_LIVE_SAVE",
+    "last_event_row_sha": "42391d7f392b3d8ee987cce92e687ac94f08ee208dbdfd82341621b0810e1121",
+    "open_by_original_R18": "PASS",
+    "original_events_reexecuted": false,
+    "original_run": "R138_MULTI_SOURCE_FERYN_ERISTAN_DEV_S991402",
+    "prefix_revision": 20,
+    "prefix_state_sha256": "4eb0f0467411c053353e6dae4720487fe98d2dbe7f9cb919fd3c07509c1a39e6",
+    "round_after_prefix": 3,
+    "source_head_is_untouched": true,
+    "source_revision": 40
+  },
+  "R141": {
+    "healing_cap": {
+      "effective": 14,
+      "gross": 96,
+      "imports_resolver": false,
+      "independent_heal_cap_audit": "PASS",
+      "ledger_sha": "ef6e06dac699ef9361d6068f7c81ca840e211911e6d5db1c6da07fd1646d8b9d",
+      "new_pa_E": 729,
+      "overheal": 82,
+      "run_id": "R141_HEAL_CAP_S993101"
+    },
+    "negative_gates": 6
+  },
+  "R142_redteam": [
+    {
+      "events": 40,
+      "file_sha256": "472e76b0088c2a3094ea84b27718b37c2745cf5cb01d0747b77d9ade47a43b73",
+      "mode": "FAKE_PA_COST",
+      "original_unmodified": true,
+      "reason": "heal PA_spent",
+      "rehashed_chain": "YES_TEST_ONLY",
+      "test_copy": "R142_REDTEAM_FAKE_PA_COST_REHASHED.sqlite",
+      "verdict": "INDEPENDENT_SEMANTIC_REJECT"
+    },
+    {
+      "events": 40,
+      "file_sha256": "72797a13375b75e7cab93669bc9de915672ce98de393c9bfd87d072f3ee7254d",
+      "mode": "FAKE_EFFECT_EXPIRY",
+      "original_unmodified": true,
+      "reason": "expiry scope",
+      "rehashed_chain": "YES_TEST_ONLY",
+      "test_copy": "R142_REDTEAM_FAKE_EFFECT_EXPIRY_REHASHED.sqlite",
+      "verdict": "INDEPENDENT_SEMANTIC_REJECT"
+    }
+  ],
+  "R143_faults": [
+    {
+      "commits": 0,
+      "mode": "AFTER_INTENT",
+      "official": false,
+      "pending": 1,
+      "raw_chain": "PASS",
+      "run_id": "R143_TEMP_PASSO_AFTER_INTENT_S994211",
+      "semantic_replay": "PASS",
+      "sha256": "c5c591102c222904bfa8db8fee7c09db3c9ac26f421cc204be5f87590514ed6f",
+      "state_is_unchanged": true
+    },
+    {
+      "commits": 3,
+      "mode": "AFTER_COMMIT",
+      "official": false,
+      "pending": 0,
+      "raw_chain": "PASS",
+      "run_id": "R143_TEMP_PASSO_AFTER_COMMIT_S994212",
+      "semantic_replay": "PASS",
+      "sha256": "8b522e4c4d7f1a45623c713176e6ec0e1e8e0be82a0a4f9557d1bc866fcf6e90",
+      "state_is_unchanged": false
+    }
+  ],
+  "censored_battles": 1,
+  "complete_battles": 0,
+  "contracts_certified_terminal": 0,
+  "contracts_total": 17,
+  "new_multi_round_seed": 991402,
+  "new_scenes": 1,
+  "original_R137_SHA256": "cb616e562970e9fb6e8e08465cdf1fbbf4070d85f99c0000ea8f0756f7b8371e",
+  "power_cells_official": 0,
+  "power_cells_total": 1875,
+  "readback_complete": false,
+  "runs_technical_not_battles": 7,
+  "source_status": "MESTRE_SIDE_PROPOSALS_LAB_ONLY"
+}

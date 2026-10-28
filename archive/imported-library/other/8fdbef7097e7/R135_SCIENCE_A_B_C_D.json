@@ -1,0 +1,19 @@
+{
+  "batteries": {
+    "A": "25 individual ED; 0 new official cells, 1 Eristan ON5 healer not ED",
+    "B": "27 same lineage; Grifo L2 derivation and L3 source preserved; no new battle",
+    "C": "25 team power; A/Feryn clones not balanced ED teams; no score",
+    "D": "27 distinct beasts; ADM26, Divine27, no new distinct species or canonical measurements"
+  },
+  "official_cells": 0,
+  "total_cells": 1875,
+  "new_selected_scenes": 3,
+  "new_selected_seed_families": 3,
+  "selected_one_round_events": 32,
+  "selected_offensive_attack_receipts": 7,
+  "selected_PA_paid": 170,
+  "auditor_failed_run": "R130_HEAL_SOURCE_3ACTOR_S963211",
+  "auditor_pass_heal_run": "R132_HEAL_SOURCE_3ACTOR_CORRECTED_S963212",
+  "not_official_full_combat": true,
+  "blind_holdout_certified": false
+}

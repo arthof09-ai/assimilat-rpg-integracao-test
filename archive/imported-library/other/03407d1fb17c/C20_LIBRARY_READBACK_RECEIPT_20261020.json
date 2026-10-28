@@ -1,0 +1,34 @@
+{
+  "NAC_PASS_GLOBAL": false,
+  "as_of": "2026-10-20",
+  "checkpoint": "C20",
+  "destination": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "files": [
+    {
+      "binary_identical": true,
+      "filename": "DMG_C20_ADMISSIBILIDADE_PROGRESSAO_20261020_MESTRE_ONLY.zip",
+      "library_readback_bytes": 24441,
+      "library_readback_sha256": "0c4fe2166baaf8dae1509321a3a83409277b486f95842d44e3bd1787774f7ff2",
+      "original_bytes": 24441,
+      "original_sha256": "0c4fe2166baaf8dae1509321a3a83409277b486f95842d44e3bd1787774f7ff2"
+    },
+    {
+      "binary_identical": true,
+      "filename": "PSV_DMG_C20_MESTRE_ONLY.md",
+      "library_readback_bytes": 15231,
+      "library_readback_sha256": "ddc688f4d07fe118d25ca379ef6cc4f16d00a5924cb949fb6182a4166f46ef5b",
+      "original_bytes": 15231,
+      "original_sha256": "ddc688f4d07fe118d25ca379ef6cc4f16d00a5924cb949fb6182a4166f46ef5b"
+    }
+  ],
+  "formal_F0": "4/8 HOLD",
+  "fresh_reproduction": "PASS_11_OF_11_BYTE_IDENTICAL_DATASETS",
+  "library_persisted": true,
+  "library_readback": "PASS_2_OF_2_IDENTICAL_BYTES",
+  "manifest": "PASS_14_OF_14",
+  "notion_canonical_written": false,
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "party_primeiro_written": false,
+  "scientific_scope": "16 pages, 8 families, 20 effect occurrences, 8 candidate pairs; 0 strict A; 3 B; 5 C",
+  "zip_crc": "PASS"
+}

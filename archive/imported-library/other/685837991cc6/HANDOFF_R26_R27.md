@@ -1,0 +1,9 @@
+# Handoff R26 → R27
+
+Operação OP-DMG-CORPUS-EMP-01; CM-000001; pesquisador Mestre-side; writer DMG/Party/VLAB/HOLD. Recuperar `DMG-F1-R26-NORMATIVA-INTEGRACAO-JAKU-v01.zip` e verificar SHA do relatório entregue ao Mestre. R25 está dentro do ZIP, SHA b3e90a31f5df1ce16bbe4dfdc3bbd17d4d8de1eb6d661f90fb21a843706896b1; original R24 está aninhado. R13 está copiado byte-idêntico SHA 799fbaba2cd1c150c350cc46edd9c1d17c1f95eb66ed010f46df53a703212209.
+
+Fronteira científica: “ação bônus” do item é texto adaptado de Gauntlets of Flaming Fury (D&D), mas **não homologado no Sistema de Assimilação**; `DEC-BONUS-JAKU-01` com opções N1–N5 pendente, N1 recomendação não canônica. Infusão Jaku +2d8+2 “espiritual flamejante”: tipagem Fogo/espiritual/bypass e compatibilidade precisam verificação, `DEC-INFUSION-JAKU-01` pendente. Manoplas +1d8+2 Fogo mágico textuais, ativação não legalizada. Dano impresso 5d8+1d6+33 = DME59, extra condicional fraqueza 3d8=DME13,5, total bruto condicional DME72,5. Origem não atribuída residual 1d6+27. Defesa Dragão CA39 vs fórmula 44,6, 2d6+30 supera39 em6/36 e44,6 em0/36; RD normal Ouro25 ou Titã45, não subtrair automaticamente por pool. Sem estados/rolls readback.
+
+Laboratório: Central em 13/10 R06 gateway não implantado, DENY não, canário não, CM000006 identity HOLD, readback R14 técnico em Library não autoriza produção. Pedido em `R26_ENCAMINHAMENTO_CM000006.md` por Inbox: tratar somente como encaminhamento/preflight, não ACK/green nem aprovação de execução. Confirmar estado Inbox antes de presumir envio.
+
+B01–B18: 1 PASS DOCUMENTAL B02, 9 PARTIAL, 6 BLOCKED, 2 NOT_TESTED; STRICT 0/2, CSV I0003 0/9, DEC B11/B12 0/5. Não duplicar OP/Diário nem estender R25 sem evidência. Próximo ato: receber DEC-BONUS + classe infusão + CA, obter avaliação/ACK do CM000006 e canal isolado, executar **somente com autorização e gates**, relatar evidência real/experimental, manter STRICT sem promoção indevida.

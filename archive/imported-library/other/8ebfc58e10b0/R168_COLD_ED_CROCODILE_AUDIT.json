@@ -1,0 +1,63 @@
+{
+  "status": "INDEPENDENT_COLD_PASS_TWO_PHYSICAL_CONDITIONAL_DUELS",
+  "runs": [
+    {
+      "file": "R168_ED_AUREN_VS_CROC_BASIC_DEV_S1168001.sqlite",
+      "run_id": "R168_ED_AUREN_VS_CROC_BASIC_DEV_S1168001",
+      "events": 198,
+      "seed": 1168001,
+      "scene": "G_FULL",
+      "side": "CROC_BASIC_ONLY",
+      "causal_integrity": "PASS",
+      "counts": {
+        "turn_starts": 66,
+        "native_attacks": 66,
+        "crits_plus": 1,
+        "crits_negative_lab": 0,
+        "weak_attacks": 4,
+        "final_efforts": 0,
+        "actual_hp_loss": 5580,
+        "overkill": 152,
+        "turn_ends": 66
+      },
+      "winner": "E",
+      "phase": "FINISHED",
+      "last_head": "6d54104108806c774717f0577a3888ec46f6bd57158265025a2d820978088463",
+      "source_frozen": "CROC_P3_FULLSPEC_SOURCE_ACTOR_GENESIS_NOT_CANON_PROMOTED",
+      "natural_Besta_initiative": "UNRESOLVED",
+      "holdout": "RESERVED_NONBLIND"
+    },
+    {
+      "file": "R168_ED_AUREN_VS_CROC_BASIC_RESERVED_NONBLIND_S1169001.sqlite",
+      "run_id": "R168_ED_AUREN_VS_CROC_BASIC_RESERVED_NONBLIND_S1169001",
+      "events": 198,
+      "seed": 1169001,
+      "scene": "G_FULL",
+      "side": "CROC_BASIC_ONLY",
+      "causal_integrity": "PASS",
+      "counts": {
+        "turn_starts": 66,
+        "native_attacks": 66,
+        "crits_plus": 0,
+        "crits_negative_lab": 0,
+        "weak_attacks": 3,
+        "final_efforts": 0,
+        "actual_hp_loss": 5580,
+        "overkill": 62,
+        "turn_ends": 66
+      },
+      "winner": "E",
+      "phase": "FINISHED",
+      "last_head": "753f5fc218cd963a475b5f7c93d9a93266e604b443efba0bb246918d2e8ca82a",
+      "source_frozen": "CROC_P3_FULLSPEC_SOURCE_ACTOR_GENESIS_NOT_CANON_PROMOTED",
+      "natural_Besta_initiative": "UNRESOLVED",
+      "holdout": "RESERVED_NONBLIND"
+    }
+  ],
+  "runs_checked": 2,
+  "commits": 396,
+  "native_attacks": 132,
+  "official_benchmark": 0,
+  "holdout_independence": "NOT PROVED; seed reservation is not blind holdout",
+  "new_mechanical_insight": "Crocodile physical base attack ceiling 170 below Auren CA225; only positive critical auto-hit can connect. Auren min physical score 199 > Croc CA112 except R42 negative crit."
+}

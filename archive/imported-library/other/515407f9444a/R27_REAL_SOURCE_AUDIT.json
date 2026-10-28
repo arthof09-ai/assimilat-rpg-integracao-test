@@ -1,0 +1,146 @@
+{
+  "schema": "R27_REAL_SOURCE_GAP_AUDIT",
+  "read_utc": "2026-10-15",
+  "four_existing_entities_examined": 4,
+  "source_rows": [
+    {
+      "name": "Galinha Demoníaca (Galidemus)",
+      "id": "eddc2b32-4ede-829f-8a75-011e8acbf429",
+      "updated_utc": "2026-10-01T18:00:52.905Z",
+      "rank": "Bronze 1",
+      "hp": 32,
+      "pa": 32,
+      "ca": 21,
+      "for": 5,
+      "des": 13,
+      "con": 6,
+      "int": 6,
+      "habilidades": [
+        "Patada: 1d4 + destreza cortante"
+      ],
+      "source_url": "https://app.notion.com/p/eddc2b324ede829f8a75011e8acbf429",
+      "local_excerpt_digest_sha256": "b4067aecedf4e5e2759ec0046b56f9f68e242c5b6de874c9fd9ed8535aa0def5",
+      "digest_status": "LOCAL_TRANSCRIPTION_ONLY_NOT_NOTION_NATIVE_SOURCE_DIGEST"
+    },
+    {
+      "name": "Cabra de Chifres",
+      "id": "391c2b32-4ede-8252-b0cc-810423cdbfa6",
+      "updated_utc": "2026-10-01T18:00:34.040Z",
+      "rank": "Bronze 1",
+      "hp": 38,
+      "pa": 22,
+      "ca": 20,
+      "for": 13,
+      "des": 8,
+      "con": 10,
+      "int": 2,
+      "habilidades": [
+        "Investida: joga a pessoa para longe; 1d6 + força impacto"
+      ],
+      "source_url": "https://app.notion.com/p/391c2b324ede8252b0cc810423cdbfa6",
+      "local_excerpt_digest_sha256": "638990d85198945446ade6a429c47cc43725ee0e8ceaca6907c9d092c5bfd416",
+      "digest_status": "LOCAL_TRANSCRIPTION_ONLY_NOT_NOTION_NATIVE_SOURCE_DIGEST"
+    },
+    {
+      "name": "Raposa Flamejante",
+      "id": "4d0c2b32-4ede-827b-9925-018be01e60ca",
+      "updated_utc": "2026-10-01T18:00:46.092Z",
+      "rank": "Bronze 2",
+      "hp": 40,
+      "pa": 52,
+      "ca": 25,
+      "for": 2,
+      "des": 14,
+      "con": 5,
+      "int": 16,
+      "habilidades": [
+        "Passos flamejantes: rastro de fogo",
+        "Bola de fogo: 1d4+5"
+      ],
+      "source_url": "https://app.notion.com/p/4d0c2b324ede827b9925018be01e60ca",
+      "local_excerpt_digest_sha256": "79e7bddca1c9116298faaff4508b99237dbb56e1c5d72903bf7e424a9ce08627",
+      "digest_status": "LOCAL_TRANSCRIPTION_ONLY_NOT_NOTION_NATIVE_SOURCE_DIGEST"
+    },
+    {
+      "name": "Macaco Rei, Titã",
+      "id": "301c2b32-4ede-828c-accb-813d3979267a",
+      "updated_utc": "2026-10-01T18:00:42.589Z",
+      "rank": "Prata 5 Titã",
+      "hp": 750,
+      "pa": 700,
+      "ca": 67,
+      "for": 54,
+      "des": 40,
+      "con": 35,
+      "int": 30,
+      "habilidades": [
+        "Patada: 2d6 + força impacto",
+        "Mordida: 1d6 + força perfurante",
+        "Poder Elemental: 1d10 + inteligência, 10 PA",
+        "Força Titânica +2 FOR e demais capacidades"
+      ],
+      "source_url": "https://app.notion.com/p/301c2b324ede828caccb813d3979267a",
+      "local_excerpt_digest_sha256": "89335120645c409e6324fbca198b86a0511be6dd6c5f6b15b522eafabb05413c",
+      "digest_status": "LOCAL_TRANSCRIPTION_ONLY_NOT_NOTION_NATIVE_SOURCE_DIGEST"
+    }
+  ],
+  "mechanical_blockers": [
+    {
+      "source": "Galinha Demoníaca",
+      "action": "Patada",
+      "requirement": "TO_HIT_ATTRIBUTE_AND_TRAINED_LUTA",
+      "status": "HOLD",
+      "finding": "Dano usa DES13 mas Sistema de Combate usa FOR normalmente; DES para acerto exige arma/estilo competente; Luta individual não materialmente comprovada",
+      "tested_conditional": {
+        "formula_untrained": "1d6+FOR5",
+        "max": 11,
+        "formula_if_plus6_Luta_assigned": "1d6+FOR5+6",
+        "max_with_Luta6": 17,
+        "target_cabra_CA": 20,
+        "exact_hit_faces": 0
+      }
+    },
+    {
+      "source": "Galinha Demoníaca",
+      "action": "Patada",
+      "requirement": "PA_COST_WINDOW_RANGE_POSITION",
+      "status": "HOLD",
+      "finding": "Ataque normal consome Ação Padrão, mas Patada de ficha não congela todas as condições e custo específico; proximidade/geometria nativa não atestada"
+    },
+    {
+      "source": "Galinha Demoníaca",
+      "action": "Patada",
+      "requirement": "EXPLICIT_HP_PA_CA_VS_GENERAL_RULE",
+      "status": "RECONCILIATION_NEEDED",
+      "finding": "Valores impressos HP32 PA32 CA21 prevalecem como observação da ficha, derivação geral B1 sob premissas HP46 PA46 CA24.2; sem sobrescrever"
+    },
+    {
+      "source": "Cabra de Chifres",
+      "action": "Investida",
+      "requirement": "PUSH_DISTANCE_DIRECTION_SAVE_POSITION_AND_ORDER",
+      "status": "HOLD",
+      "finding": "Rider empurrão indispensável, parâmetros não documentados; não omitir para declarar ataque completo"
+    },
+    {
+      "source": "Raposa Flamejante",
+      "action": "Bola de Fogo/Passos Flamejantes",
+      "requirement": "CAST_COST_TARGET_RESOLUTION_AND_FIRE_TRAIL_TEMPORAL",
+      "status": "HOLD",
+      "finding": "Sem ação/custo/alcance/reflexo/DoT completo; não reduzir a 1d4+5 como ação integral"
+    },
+    {
+      "source": "Macaco Rei, Titã",
+      "action": "Patada/Mordida",
+      "requirement": "R31_FULL_EFFECT_C_D_E",
+      "status": "HOLD",
+      "finding": "Cálculos documentais R31 não constituem capacidades nativas/txn/source-atestado; passiva Força Titânica stacking pendente; não recebeu ACK"
+    }
+  ],
+  "canonical_actions_admitted": 0,
+  "canonical_native_action_receipts": 0,
+  "canonical_full_fights": 0,
+  "canonical_matrix_cells": 0,
+  "existing_ibx_90_91_92_no_ack": true,
+  "source_digest_attestation": "NONE",
+  "historical_native_v081_compatibility": "positive only for documentary component under forced laboratory payload in R24; not an admitted real action"
+}

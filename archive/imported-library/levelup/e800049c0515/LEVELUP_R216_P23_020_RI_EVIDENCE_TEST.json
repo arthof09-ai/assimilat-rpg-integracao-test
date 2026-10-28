@@ -1,0 +1,275 @@
+{
+  "status": "TEST_ONLY",
+  "source_checkpoint": "P23-019",
+  "records": [
+    {
+      "slot": 1,
+      "name": "Couraça da Muralha",
+      "declared_rank_test": "Lendário",
+      "evidence_level": "E2_ANALYTIC_ONLY",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "living_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    },
+    {
+      "slot": 2,
+      "name": "Machado da Ruptura",
+      "declared_rank_test": "Lendário",
+      "evidence_level": "E2_ANALYTIC_ONLY",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "living_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    },
+    {
+      "slot": 3,
+      "name": "Manoplas da Bigorna",
+      "declared_rank_test": "Ouro",
+      "evidence_level": "E3_INSUFFICIENT",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "living_comparator",
+        "family_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    },
+    {
+      "slot": 4,
+      "name": "Cinto do Bastião",
+      "declared_rank_test": "Ouro",
+      "evidence_level": "E3_INSUFFICIENT",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "living_comparator",
+        "family_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    },
+    {
+      "slot": 5,
+      "name": "Botas da Escarpa",
+      "declared_rank_test": "Prata",
+      "evidence_level": "E3_INSUFFICIENT",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "living_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    },
+    {
+      "slot": 6,
+      "name": "Anel da Guarda",
+      "declared_rank_test": "Ouro Negro",
+      "evidence_level": "E3_INSUFFICIENT",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "living_comparator",
+        "family_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    },
+    {
+      "slot": 7,
+      "name": "Elmo do Estandarte",
+      "declared_rank_test": "Prata",
+      "evidence_level": "E3_INSUFFICIENT",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "living_comparator",
+        "family_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    },
+    {
+      "slot": 8,
+      "name": "Capa do Desfiladeiro",
+      "declared_rank_test": "Ouro Negro",
+      "evidence_level": "E3_INSUFFICIENT",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "living_comparator",
+        "family_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    },
+    {
+      "slot": 9,
+      "name": "Braçadeiras do Golpe Medido",
+      "declared_rank_test": "Ouro",
+      "evidence_level": "E3_INSUFFICIENT",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "living_comparator",
+        "family_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    },
+    {
+      "slot": 10,
+      "name": "Amuleto da Forja",
+      "declared_rank_test": "Ouro",
+      "evidence_level": "E3_INSUFFICIENT",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "living_comparator",
+        "family_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    },
+    {
+      "slot": 11,
+      "name": "Anel de Golpe",
+      "declared_rank_test": "Ouro",
+      "evidence_level": "E3_INSUFFICIENT",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "living_comparator",
+        "family_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    },
+    {
+      "slot": 12,
+      "name": "Insígnia da Escolta",
+      "declared_rank_test": "Prata",
+      "evidence_level": "E3_INSUFFICIENT",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "living_comparator",
+        "family_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    },
+    {
+      "slot": 13,
+      "name": "Arnês Antitombo",
+      "declared_rank_test": "Ouro",
+      "evidence_level": "E3_INSUFFICIENT",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "living_comparator",
+        "family_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    },
+    {
+      "slot": 14,
+      "name": "Espada da Guarda",
+      "declared_rank_test": "Lendário",
+      "evidence_level": "E2_ANALYTIC_ONLY",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "living_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    },
+    {
+      "slot": 15,
+      "name": "Escudo de Passagem",
+      "declared_rank_test": "Ouro Negro",
+      "evidence_level": "E3_INSUFFICIENT",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "effect_isolation",
+        "living_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    },
+    {
+      "slot": 16,
+      "name": "Selo de Emergência",
+      "declared_rank_test": "Ouro Negro",
+      "evidence_level": "E3_INSUFFICIENT",
+      "certification": "HOLD",
+      "missing_evidence": [
+        "physical_object",
+        "material_origin",
+        "effect_isolation",
+        "living_comparator",
+        "action_timing",
+        "duration_frequency",
+        "craft_transfer",
+        "fip_basis"
+      ]
+    }
+  ],
+  "tests_passed": 10
+}

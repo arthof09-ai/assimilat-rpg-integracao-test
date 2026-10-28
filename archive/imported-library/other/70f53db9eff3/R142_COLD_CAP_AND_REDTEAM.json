@@ -1,0 +1,36 @@
+{
+  "cap": {
+    "run_id": "R141_HEAL_CAP_S993101",
+    "independent_heal_cap_audit": "PASS",
+    "gross": 96,
+    "effective": 14,
+    "overheal": 82,
+    "new_pa_E": 729,
+    "ledger_sha": "ef6e06dac699ef9361d6068f7c81ca840e211911e6d5db1c6da07fd1646d8b9d",
+    "imports_resolver": false
+  },
+  "redteam": [
+    {
+      "mode": "FAKE_PA_COST",
+      "test_copy": "R142_REDTEAM_FAKE_PA_COST_REHASHED.sqlite",
+      "events": 40,
+      "rehashed_chain": "YES_TEST_ONLY",
+      "verdict": "INDEPENDENT_SEMANTIC_REJECT",
+      "reason": "heal PA_spent",
+      "original_unmodified": true,
+      "file_sha256": "472e76b0088c2a3094ea84b27718b37c2745cf5cb01d0747b77d9ade47a43b73"
+    },
+    {
+      "mode": "FAKE_EFFECT_EXPIRY",
+      "test_copy": "R142_REDTEAM_FAKE_EFFECT_EXPIRY_REHASHED.sqlite",
+      "events": 40,
+      "rehashed_chain": "YES_TEST_ONLY",
+      "verdict": "INDEPENDENT_SEMANTIC_REJECT",
+      "reason": "expiry scope",
+      "original_unmodified": true,
+      "file_sha256": "72797a13375b75e7cab93669bc9de915672ce98de393c9bfd87d072f3ee7254d"
+    }
+  ],
+  "source_status": "MASTER_ONLY_SYNTHETIC_TECHNICAL",
+  "auditor_imports_native_or_R18": false
+}

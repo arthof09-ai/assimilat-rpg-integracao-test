@@ -1,0 +1,31 @@
+{
+  "contract_kind": "DRAFT_NOT_CANONICAL",
+  "origin_video_id": "496040",
+  "canonical_mechanics": "VLAB_ONLY_IF_AUTHORIZED",
+  "phase": "TEST_EXPERIMENTAL",
+  "required_authority": "Desenvolvedor writer e VLAB competente para efeitos reais",
+  "design": {
+    "aim": "animação decorrente de evento confirmado",
+    "events": [
+      "TURN_STARTED",
+      "MOVE_ACCEPTED",
+      "ATTACK_RESOLVED",
+      "REACTION_RESOLVED"
+    ],
+    "animation_modes": [
+      "CINEMATICA",
+      "EQUILIBRADA",
+      "OBJETIVA"
+    ],
+    "prohibits": [
+      "writer_party",
+      "damage_calculation",
+      "change_of_server_revision"
+    ],
+    "accept": [
+      "reaction_only_on_receipt",
+      "style_independent_of_rules",
+      "asset_rights_verified"
+    ]
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "schema": "DMG-F1-R06-ORIGINAL-B01-B18-GATE-AUDIT-v0.7",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "actor_pair": "Liu Xiaua Prata5 × Macaco Rei/Símio Demoníaco Prata5 (Titã-title)",
+  "source_manifest": "IBX-34 / original R03 native JSON and R04/R04B/R05",
+  "denominator": 18,
+  "certified": 0,
+  "target": 9,
+  "scope": "WHOLE original gates, not subclaims or 76 mathematical tests",
+  "counts": {
+    "PARTIAL": 10,
+    "BLOCKED": 6,
+    "NOT-TESTED": 2
+  },
+  "full_fight_certified": 0,
+  "engine_attack_executed": false,
+  "lab_accept": null,
+  "recipient": {
+    "logical_target_old": "CM-000001",
+    "scientific_origin": "CM-000001",
+    "identified_lab_author": "Mestre + Comestre do chat do Laboratório (unregistered in CM Registry)",
+    "target_instance_id": null,
+    "confirmed_delivery": false,
+    "ack": false,
+    "route_status": "HOLD_IDENTITY_UNRESOLVED",
+    "why": "Plan and v0.9 omit authorized COMESTRE-ID/INSTANCE-ID; CM-000001 I0003 belongs to DMG, I0004 COMM-BILAT, neither proves Lab author."
+  },
+  "NoRepeat": [
+    "198 historical partial union",
+    "Fogo 44×43",
+    "R03",
+    "R04",
+    "R04B",
+    "R05",
+    "76 existing independent tests"
+  ],
+  "unknown_effect": [
+    "possible asynchronous Lab reader unknown: not to infer ACK",
+    "undemonstrated actor action and current combat state",
+    "source fingerprint not accepted by runtime; Stage08 strict gate DENY without external Notion frozen evidence"
+  ],
+  "source_last_edit_readback": {
+    "LIU": "2026-10-01T09:40:50.721Z",
+    "MACACO": "2026-10-01T18:00:42.589Z",
+    "SIMIO": "2026-10-01T18:00:41.676Z",
+    "COMBAT": "2026-10-07T23:51:04.971Z",
+    "FICHA": "2026-10-07T23:51:09.023Z",
+    "BEAST-CURRENT": "2026-10-07T20:58:56.199Z",
+    "DMG-RANK": "2026-10-08T00:01:28.857Z",
+    "LAB-09": "2026-10-08T14:27:25.920Z",
+    "LAB-STAGE08": "2026-10-08T19:55:17.430Z"
+  },
+  "sources": {
+    "LIU": "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010",
+    "MACACO": "https://app.notion.com/p/301c2b324ede828caccb813d3979267a",
+    "SIMIO": "https://app.notion.com/p/f42c2b324ede82f1a62c81d6274d7d37",
+    "COMBAT": "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0",
+    "FICHA": "https://app.notion.com/p/3ebc2b324ede81449222f3c06b840613",
+    "BEAST-CURRENT": "https://app.notion.com/p/3ebc2b324ede81f4992ac88a3588cacd",
+    "BEAST-OLD": "https://app.notion.com/p/e22c2b324ede836cb582819ac2ad27c5",
+    "DMG-RANK": "https://app.notion.com/p/3f2c2b324ede815498cddb7844245f7e",
+    "DMG-TAX": "https://app.notion.com/p/3f3c2b324ede81609a28e18c11d3cae4",
+    "LAB-09": "https://app.notion.com/p/3f3c2b324ede81e795d9c59794bcbdeb",
+    "LAB-STAGE08": "https://app.notion.com/p/3f3c2b324ede819496ddd7f93bd7e5d2",
+    "ACTIONCATALOG": "https://app.notion.com/p/3f3c2b324ede8182a7c6da2804944d2f",
+    "IBX-34": "https://app.notion.com/p/3f3c2b324ede81fb8f6cf31d58f5e605",
+    "IDENTITY": "https://app.notion.com/p/3f1c2b324ede81238a39cc28e148af1f",
+    "LAB-PLAN": "https://app.notion.com/p/3f3c2b324ede81d480dbf11732734463"
+  },
+  "records": [
+    {
+      "original_id": "B01",
+      "original_name": "source version/encounter state",
+      "r04_matrix_label": "SOURCE_CURRENTNESS",
+      "original_requirement": "Current validity of actor stats/conditions; snapshot page unverified, no actual encounter state",
+      "status": "PARTIAL",
+      "whole_gate_certified": false,
+      "science_evidence": "Both source pages and competent systems re-opened with stable 2026-10-01/07 edits. Exact scene-time active status and authoritative currentness of the historical combatant are absent.",
+      "missing_for_full_gate": "Confirm official current-as-of identity and frozen actor snapshot, state NORMAL and timestamp/scene-ID.",
+      "next_authority": "SCIENTIFIC+MESTRE",
+      "trace_refs": "SOURCE-FETCH:LIU+MACACO;R03-R05",
+      "source_ids": [
+        "liu",
+        "macaco"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B02",
+      "original_name": "Símio vs Macaco identity/Titan naming",
+      "r04_matrix_label": "NAME_RANK_TITAN",
+      "original_requirement": "Resolve Símio parent vs body Macaco Rei and Titan flag; rule applies based on physical ID not alias",
+      "status": "PARTIAL",
+      "whole_gate_certified": false,
+      "science_evidence": "Unique physical Macaco variant 301c... nested in Símio Demoníaco❄ parent; title Prata 5 (titã), body macaco rei. Official 25-rank track supports P5.",
+      "missing_for_full_gate": "Competent acceptance of Titan status/name hierarchy plus explicit effective FOR54/56 interpretation (no alias invention).",
+      "next_authority": "MESTRE/CANON-GOV",
+      "trace_refs": "SOURCE-FETCH:SIMIO+MACACO;R05",
+      "source_ids": [
+        "simio_parent",
+        "macaco"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B03",
+      "original_name": "historical vs current natural Life/Alma discrepancy",
+      "r04_matrix_label": "LIFE_ALMA_RULE_CONFLICT",
+      "original_requirement": "Beast natural base missing from historical page numbers; choose in fixture exact authority and snapshot values",
+      "status": "BLOCKED",
+      "whole_gate_certified": false,
+      "science_evidence": "Macaco 750/700 literal; 810/760 hypothetical current formula; old beast rules lack 60 initial base. Separate scenarios documented.",
+      "missing_for_full_gate": "Competent rule on historical snapshot vs retroactive new-base construction for the actual scene; choose ONE baseline or approve A/B as separate lab sensitivities.",
+      "next_authority": "MESTRE/NAC-NORM",
+      "trace_refs": "SOURCE-FETCH:BEAST-OLD+BEAST-CURRENT+MACACO;R04",
+      "source_ids": [
+        "beast_rules",
+        "macaco"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B04",
+      "original_name": "PA Livre and item commitments/costs",
+      "r04_matrix_label": "PA_FREE_AND_COMMITMENTS",
+      "original_requirement": "Alma vs PA Livre; equipment commitments, cooldown, costs, regen, initial state",
+      "status": "BLOCKED",
+      "whole_gate_certified": false,
+      "science_evidence": "Liu source Alma algebra 170+50−15−30−60−42=73, 46 spent elsewhere; Macaco Alma700; source does not prove opening PA-free.",
+      "missing_for_full_gate": "Legitimate current PA Livre, already committed PA, cost zero/nonzero of attack, items, regen and actual scene consumption.",
+      "next_authority": "MESTRE/CORPUS",
+      "trace_refs": "SOURCE-FETCH:LIU+MACACO+MAGIC;R03",
+      "source_ids": [
+        "liu",
+        "macaco",
+        "magic"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B05",
+      "original_name": "complete legal actor action inventory",
+      "r04_matrix_label": "ACTION_INVENTORY",
+      "original_requirement": "Complete legal action loadouts and owned abilities for all actors not adjudicated",
+      "status": "PARTIAL",
+      "whole_gate_certified": false,
+      "science_evidence": "Macaco has literal Patada, Mordida, Poder Elemental source. Liu has attack excerpt and arsenal. Patada chosen as restricted action.",
+      "missing_for_full_gate": "Full legal action inventory/loading: actor ownership, adapters, attack legality, ranged/melee options and passes; Lab strict menu ACCEPT.",
+      "next_authority": "CORPUS+LAB",
+      "trace_refs": "R03+R04+AICATALOG-V07",
+      "source_ids": [
+        "liu",
+        "macaco"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B06",
+      "original_name": "time/action/cost/reaction triggers",
+      "r04_matrix_label": "ACTION_COST_AND_REACTION_WINDOWS",
+      "original_requirement": "Attack/magic default known, but abilities, equipment toggles and reactions timing incomplete",
+      "status": "PARTIAL",
+      "whole_gate_certified": false,
+      "science_evidence": "Combat universal 1 Standard/1 Movement/1 Reaction/Free; standard basic attack costs Standard. Defender/Dodge/Counter timing before attack documented.",
+      "missing_for_full_gate": "Scene-specific action budget, movement, used reaction, cost/tick/order/trigger and guard implementation in engine.",
+      "next_authority": "LAB+MESTRE",
+      "trace_refs": "COMBAT-REG1/3/4;R05-REACTION",
+      "source_ids": [
+        "combat",
+        "liu",
+        "macaco"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B07",
+      "original_name": "individual initiative proficiency and ties",
+      "r04_matrix_label": "INITIATIVE_MODIFIERS_TIES",
+      "original_requirement": "Official initiative formula known, individual modifiers and tied-roll policy unresolved",
+      "status": "BLOCKED",
+      "whole_gate_certified": false,
+      "science_evidence": "Prata uses 2d6; DES Liu16 Macaco40; Liu Instinto Selvagem +4. Conditional dominance valid only within modifier-bound.",
+      "missing_for_full_gate": "Actual INICIATIVA proficiencies, buffs, negative states; tied-roll policy and scheduler event with deterministic seed.",
+      "next_authority": "CORPUS+MESTRE+LAB",
+      "trace_refs": "COMBAT-REG2;LIU;MACACO;R04",
+      "source_ids": [
+        "combat",
+        "liu",
+        "macaco"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B08",
+      "original_name": "roll semantics and Luta proficiencies",
+      "r04_matrix_label": "HIT_FORMULA_AND_SKILLS",
+      "original_requirement": "Liu 2d6+37 versus damage parentheses ambiguous; beast Luta applicability and skills undefined",
+      "status": "PARTIAL",
+      "whole_gate_certified": false,
+      "science_evidence": "Hit rule roll2d6+attribute+Luta, strictly greater than defense; 36/36 without penalties for FOR54 and FOR56 versus CA46 and ready Dodge49. Math independent verified.",
+      "missing_for_full_gate": "Actual selected skill Luta and effective FOR, positional target, reaction policy, damage vs attack semantics in Liu source, engine action ACK.",
+      "next_authority": "CORPUS+LAB+MESTRE",
+      "trace_refs": "COMBAT-REG3;R04+R05",
+      "source_ids": [
+        "combat",
+        "liu",
+        "macaco"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B09",
+      "original_name": "defense reactions and Fortitude/Reflexo modifiers",
+      "r04_matrix_label": "DEFENSIVE_REACTIONS",
+      "original_requirement": "CA rules known; Fortitude/Reflexo actual skill bonuses and reaction scheduling not frozen",
+      "status": "PARTIAL",
+      "whole_gate_certified": false,
+      "science_evidence": "Liu passive CA46; sheet-display Reflexo49 probable total (no 46+49); Defender 37+Fortitude; one Reaction/turn, before attack. R05 conditional bounds.",
+      "missing_for_full_gate": "Actual Fortitude and Reflexo breakdown/selected training, actor reaction eligible/unspent, choice and timing in scheduler.",
+      "next_authority": "CORPUS+LAB",
+      "trace_refs": "LIU;FICHA-BASE;COMBAT-REG4;R05-REACTION",
+      "source_ids": [
+        "combat",
+        "liu",
+        "macaco"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B10",
+      "original_name": "RD/RDF/type-specific interactions and stacking",
+      "r04_matrix_label": "RD_RDF_MIXED_DAMAGE",
+      "original_requirement": "Beast RD tables and Liu RDF10 known; general+specific stacking, per-component applicability and order unresolved",
+      "status": "BLOCKED",
+      "whole_gate_certified": false,
+      "science_evidence": "Macaco Patada explicitly IMPACTO/FÍSICO, Liu RDF10 item; damage62 => net52 only if that protection applies, else62. LAB isolated component max(0,gross-applicableRD) pending NAC-NORM.",
+      "missing_for_full_gate": "Competent RDF impact applicability, general+specific priority if relevant, equipment activation, rounding, mixed types; exact mitg event.",
+      "next_authority": "MESTRE/NAC-NORM+LAB",
+      "trace_refs": "LIU;DMG-TAX;DEV-AI08;R05",
+      "source_ids": [
+        "beast_rules",
+        "liu",
+        "macaco"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B11",
+      "original_name": "legacy critical Brutal/rerolls vs current combat rules",
+      "r04_matrix_label": "CRIT_EFFECT_INTERACTION",
+      "original_requirement": "Official sequential critical known; Liu critical modifier/re-roll and beast action applicability unresolved",
+      "status": "PARTIAL",
+      "whole_gate_certified": false,
+      "science_evidence": "Sequential 3d6 (2,3,4) ordinary branch shown; source has Liu Destruidor and Crítico Brutal requiring interaction for her attack.",
+      "missing_for_full_gate": "Ruling for full critical/failure paths including reroll and bonus application, and canonical selection for actor abilities.",
+      "next_authority": "MESTRE+LAB",
+      "trace_refs": "COMBAT-REG6;LIU;R04",
+      "source_ids": [
+        "combat",
+        "liu",
+        "macaco"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B12",
+      "original_name": "effects duration/DoT/controls and tick",
+      "r04_matrix_label": "STATUS_DURATION_DOT",
+      "original_requirement": "Freeze/Tempestade; Furia and Extensão; duration/tick/stacking not fully sourced",
+      "status": "PARTIAL",
+      "whole_gate_certified": false,
+      "science_evidence": "Fraco threshold <10% official; R04 single Patada does not reach it from 235; no optional AoE/DoT activated in isolated event.",
+      "missing_for_full_gate": "Frozen start statuses, all mandatory passives/effects, tick/update/expiration and whether they are optional for whole encounter.",
+      "next_authority": "CORPUS+LAB",
+      "trace_refs": "COMBAT-REG7;LIU;MACACO;R04",
+      "source_ids": [
+        "liu",
+        "macaco"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B13",
+      "original_name": "target range/positions/LoS/environment",
+      "r04_matrix_label": "MAP_RANGE_LOS_TARGET",
+      "original_requirement": "No complete legal distances, battle map, LoS, area, target geometry and positions",
+      "status": "BLOCKED",
+      "whole_gate_certified": false,
+      "science_evidence": "Movement rules and Titan Prata speed available. No scene position, blocked cells, reach of Patada or valid LoS/adjacency baseline.",
+      "missing_for_full_gate": "Authorized initial scene with actor coords, target, reach, terrain and adjacency+LoS proof; travel if needed.",
+      "next_authority": "MESTRE+LAB",
+      "trace_refs": "COMBAT-REG1/7;BESTA-REG8;R05",
+      "source_ids": [
+        "liu",
+        "macaco"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B14",
+      "original_name": "Behemoth reflector before/after mitigation/timing/rounding",
+      "r04_matrix_label": "SPECIAL_TRIGGER_TIMING",
+      "original_requirement": "Behemoth reflection trigger before/after RD, no reflection-of-reflection, rounding; generic state time",
+      "status": "NOT-TESTED",
+      "whole_gate_certified": false,
+      "science_evidence": "Behemoth reflector 15%, 20PA activation+3 upkeep is in secondary stress source, but Macaco scene does not activate it. No generic effect-order replay.",
+      "missing_for_full_gate": "Formal scope applicability for main pairing, or trigger timing/rounding and source accepted for secondary stress, plus scheduler event.",
+      "next_authority": "MESTRE+LAB",
+      "trace_refs": "BEHEMOTH;AI09;R04B",
+      "source_ids": [
+        "combat"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B15",
+      "original_name": "elemental weaknesses and mixed components",
+      "r04_matrix_label": "ELEMENTAL_WEAKNESS",
+      "original_requirement": "Elemental vulnerabilities and obscure damage tags lack verified quantitative interpretation for pair",
+      "status": "PARTIAL",
+      "whole_gate_certified": false,
+      "science_evidence": "Taxonomy distinguishes physical IMPACTO from element. Macaco vulnerabilities rare metal/illusion in source. Patada to Liu is single impact component in restricted event.",
+      "missing_for_full_gate": "Authorize whether effects/weaknesses passively trigger for either actor, and full source-based elemental/mixed damage tag policy for all legal attacks.",
+      "next_authority": "CORPUS+MESTRE",
+      "trace_refs": "DMG-TAX;MACACO;LIU;R04",
+      "source_ids": [
+        "liu",
+        "macaco",
+        "combat"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B16",
+      "original_name": "transform Spirit/overlay legality T9-A",
+      "r04_matrix_label": "SPIRIT_TRANSFORMATION",
+      "original_requirement": "Liu ED spirit field not complete; no valid overlay/scene ledger/initial state to activate T9-A",
+      "status": "PARTIAL",
+      "whole_gate_certified": false,
+      "science_evidence": "T9-A one transformation per scene and lock are documented; baseline Patada excludes transformation. Liu transformational evidence still incomplete.",
+      "missing_for_full_gate": "Frozen NORMAL state, spirit and actual rights; demonstrate no mandatory transform; if activated later, ledger/ticks/duration accepted.",
+      "next_authority": "CORPUS+LAB",
+      "trace_refs": "T9-A;LIU;AI09",
+      "source_ids": [
+        "liu",
+        "transform"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B17",
+      "original_name": "defeat/death/exhaustion/incoherence",
+      "r04_matrix_label": "END_FIGHT_AND_EXHAUSTION",
+      "original_requirement": "Lethal/nonlethal and defeat thresholds and special exhaustion application not certified for scenario",
+      "status": "NOT-TESTED",
+      "whole_gate_certified": false,
+      "science_evidence": "Fraco state <10% Vida official; source has no certified defeat/death/flee or zero-HP workflow for these actors.",
+      "missing_for_full_gate": "Authoritative defeat/incapacitation/death/flee/end criteria and engine replay of outcome, with no fabricated winner.",
+      "next_authority": "MESTRE+LAB",
+      "trace_refs": "COMBAT-REG7;AI09",
+      "source_ids": [
+        "combat",
+        "magic"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    },
+    {
+      "original_id": "B18",
+      "original_name": "engine scheduler/replay/seed and independent NAC-PASS",
+      "r04_matrix_label": "ENGINE_REPLAY_ACCEPT",
+      "original_requirement": "Scheduler tie/action order, seed, deterministic roster, runtime capability and independent NAC-PASS not available to this scientific branch",
+      "status": "BLOCKED",
+      "whole_gate_certified": false,
+      "science_evidence": "Lab v0.9 has partial demonstrations. Newer experimental Stage08 rebuilt successor has 292/292 documentary tests PASS and 377+119 regressions, but historical v0.9 ZIP unavailable, 0/17 parity, strict source gate DENY, 0 certified duels, no Liu×Macaco engine RUN; recipient identity unproven. Original R03/R04/R05 data available in IBX34.",
+      "missing_for_full_gate": "Legitimate target INSTANCE-ID/ACK, import contract ACCEPT, full frozen-source evidence, source/legal preflight, executable scheduler, deterministic seed/event log and independent NAC-PASS.",
+      "next_authority": "LAB+AUDITOR+MESTRE-ROUTING",
+      "trace_refs": "AI09;ACTIONCATALOG;IBX34;ID-COMESTRE",
+      "source_ids": [
+        "combat",
+        "transform"
+      ],
+      "acceptance_event": null,
+      "source_snapshot_scope": "Original R03 Notion native JSON + R04/R05 handoffs; targeted source re-fetch freshness; no certified full-source physical hash in this run",
+      "evidence_readback": "Current canonical targeted fetch of Liu/Macaco/Combate/Criação Ficha/Besta/DMG-RANK + original R03 native attachment re-download; IBX34 R04/R05 appendix readback",
+      "original_blocks_full_fight": true
+    }
+  ]
+}

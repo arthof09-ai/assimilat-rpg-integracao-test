@@ -1,0 +1,15 @@
+{
+  "baseline_R160_SHA256": "60d058273ba930623c165374196c7b739005efa30bef3d4b79730b3427878b54",
+  "controlled_R170_SHA256": "4502665346741ff231b79659d881bdac252112f42e91bce7d0747f3e18344dc1",
+  "patch_sha256": "7b283338553ccca7851157e72471044214167444e2170755817a2c6d044b5893",
+  "nature": "ADDITIVE controlled copy, historical baseline never edited",
+  "new_fields": [
+    "timed_source_speed_penalty_m",
+    "cocoon_source_speed_penalty_m"
+  ],
+  "new_handlers": [
+    "apply_flecha_trava_post_hit",
+    "expire_flecha_trava_next_turn"
+  ],
+  "modified_original_logic": "Casulo speed -4 added while CA+22 preserved, expiry HOLD; no changes to native HP/damage resolver"
+}

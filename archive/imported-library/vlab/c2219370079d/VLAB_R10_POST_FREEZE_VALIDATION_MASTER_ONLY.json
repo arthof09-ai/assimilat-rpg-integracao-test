@@ -1,0 +1,38 @@
+{
+  "all_safe_checks_pass": true,
+  "crc_pass": true,
+  "experimental_sandbox": true,
+  "library_byte_equal": true,
+  "library_bytes": 3727314,
+  "library_sha256": "088b61c9824a7ad58a047d00c59db22c989da17140f5637a64f7a82010e5b274",
+  "manifest_entries": 1101,
+  "manifest_hash_pass": 1101,
+  "nac_pass_terminal": "HOLD",
+  "official_credits": 0,
+  "party_writes": 0,
+  "r09_members": 990,
+  "r09_members_preserved": 990,
+  "r09_sha256": "d3aab6bbbae5ca8dfd1bd0ff275d25c9674b778ca78a5d7e35ee4eeda89612ed",
+  "r10_bytes": 3727314,
+  "r10_sha256": "088b61c9824a7ad58a047d00c59db22c989da17140f5637a64f7a82010e5b274",
+  "test_clean": {
+    "groups": 63,
+    "new_count": 37,
+    "new_pass": true,
+    "regression_count": 580,
+    "regression_pass": true,
+    "total_distinct": 617
+  },
+  "test_only_new_members": 111,
+  "test_work": {
+    "groups": 63,
+    "new_count": 37,
+    "new_pass": true,
+    "regression_count": 580,
+    "regression_pass": true,
+    "total_distinct": 617
+  },
+  "version": "R10-POST-FREEZE-RELEASE-CHECK-01",
+  "writer_green": "HOLD",
+  "zip_entries": 1102
+}

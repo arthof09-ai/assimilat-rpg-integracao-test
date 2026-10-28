@@ -1,0 +1,12 @@
+id,priority,status,evidence,gate_for_resolution
+NORM-004,P0,HOLD,Regra de desempate de iniciativa ausente; R245 275 cenários math-only,Norma canônica ou decisão Mestre + testes de empate nativo
+NORM-005,P0,HOLD,Falha crítica extrema gatilho fonte; consequência operacional insuficiente R242,"Regra competente + testes fonte-gated, sem LAB-only para certificação"
+HP-017,P1,HOLD,R246 14 paradas HP0 LAB e 6 censuras sem mortes oficiais,Política oficial de KO/morte/finalização; prova causal nativa
+GEO-006,P1,HOLD,Bloco adjacente não tem conversão única metragem/diagonal no Combate,Fonte de grade/diagonal e AoO; 4+ fixtures diferenciais
+E-013,P1,HOLD,"19 armas triadas, cinco candidatas; nenhuma isolou chassi físico com/sem magia","P4 com componente físico igual em ambos braços, efeito mágico/PA e RD segregáveis"
+B-010_D-012,P1,HOLD,Bestas VZ PRECREATE L3 0 fichas P4 homologadas,P4 física/fonte hash e painel de coortes elegíveis
+TERM-007,P0,HOLD,R249 17 contratos existentes mapeados; nenhum cert terminal,17 aceites integrais auditados independentes
+R91-008,P0,HOLD,Nenhuma célula homologada; 275 cenários R245 não são célula,Cobertura de 1.875 células oficiais com fonte/políticas/intervalos
+DMG-BRIDGE,P1,READY_FOR_ROUTE,R244 verificou efeito de RD nominal 181 e 24 testes 4d6; DMG erro não demonstrado,Encaminhar evidência pela Inbox/rota autorizada e obter ACK real
+SCI-021,P2,PASS_LOCAL_ONLY,R247 McNemar exato 128 pares; R248 sensibilidade matemática 15 CA,Revisão científica independente para qualquer inferência generalizada
+GOV-001_DOC-002,P0,HOLD,Sem writer/lease/epoch/fencing CM000006; Notion OP/Diário não editados,Verificação de claim e escrita documental pós-collision + readback

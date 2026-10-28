@@ -1,0 +1,108 @@
+[
+  {
+    "conditional_on_damage_component_only": true,
+    "effect_id": "GAL_PATADA",
+    "max": 17,
+    "mean": 15.5,
+    "min": 14,
+    "model": "one independent uniform die per declared roll; attribute fixed as printed",
+    "no_hit_or_defense_model": true,
+    "pmf": [
+      {
+        "denominator": 4,
+        "gross_outcome": 14,
+        "probability_numerator": 1
+      },
+      {
+        "denominator": 4,
+        "gross_outcome": 15,
+        "probability_numerator": 1
+      },
+      {
+        "denominator": 4,
+        "gross_outcome": 16,
+        "probability_numerator": 1
+      },
+      {
+        "denominator": 4,
+        "gross_outcome": 17,
+        "probability_numerator": 1
+      }
+    ],
+    "source_url": "https://app.notion.com/p/eddc2b324ede829f8a75011e8acbf429"
+  },
+  {
+    "conditional_on_damage_component_only": true,
+    "effect_id": "CABRA_INVESTIDA",
+    "max": 19,
+    "mean": 16.5,
+    "min": 14,
+    "model": "one independent uniform die per declared roll; attribute fixed as printed",
+    "no_hit_or_defense_model": true,
+    "pmf": [
+      {
+        "denominator": 6,
+        "gross_outcome": 14,
+        "probability_numerator": 1
+      },
+      {
+        "denominator": 6,
+        "gross_outcome": 15,
+        "probability_numerator": 1
+      },
+      {
+        "denominator": 6,
+        "gross_outcome": 16,
+        "probability_numerator": 1
+      },
+      {
+        "denominator": 6,
+        "gross_outcome": 17,
+        "probability_numerator": 1
+      },
+      {
+        "denominator": 6,
+        "gross_outcome": 18,
+        "probability_numerator": 1
+      },
+      {
+        "denominator": 6,
+        "gross_outcome": 19,
+        "probability_numerator": 1
+      }
+    ],
+    "source_url": "https://app.notion.com/p/391c2b324ede8252b0cc810423cdbfa6"
+  },
+  {
+    "conditional_on_damage_component_only": true,
+    "effect_id": "FELPUDO_ESPINHOS",
+    "max": 12,
+    "mean": 10.5,
+    "min": 9,
+    "model": "one independent uniform die per declared roll; attribute fixed as printed",
+    "no_hit_or_defense_model": true,
+    "pmf": [
+      {
+        "denominator": 4,
+        "gross_outcome": 9,
+        "probability_numerator": 1
+      },
+      {
+        "denominator": 4,
+        "gross_outcome": 10,
+        "probability_numerator": 1
+      },
+      {
+        "denominator": 4,
+        "gross_outcome": 11,
+        "probability_numerator": 1
+      },
+      {
+        "denominator": 4,
+        "gross_outcome": 12,
+        "probability_numerator": 1
+      }
+    ],
+    "source_url": "https://app.notion.com/p/40ec2b324ede825990c2014b4ef594cb"
+  }
+]

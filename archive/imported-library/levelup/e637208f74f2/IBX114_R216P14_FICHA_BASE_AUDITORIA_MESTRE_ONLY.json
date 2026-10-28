@@ -1,0 +1,12 @@
+{
+  "scope": "MESTRE-SIDE LEVEL-UP TEST / P12 source verification supporting P14 template transfer",
+  "source_zip_sha256": "619fe210a2e8469df59f7db001220c97309cae79054b7574284a5047c633e4de",
+  "total_profiles": 25,
+  "total_transformations": 20,
+  "checks_total": 290,
+  "checks_pass": 290,
+  "checks_failed": 0,
+  "errors": [],
+  "p14_notions_readback_reported": "25/25 valid child pages (15 native duplicates + 10 faithful content copies); 20/20 in-page transformations; Notion structural readback in tool response, not software machine-vetted here",
+  "not_validated": "actor writer / VLAB combat results / physical compatibility transformed / CRAFT item acceptance / original Ficha Base write beyond readback"
+}

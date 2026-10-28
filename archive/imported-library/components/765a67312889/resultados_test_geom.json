@@ -1,0 +1,93 @@
+{
+  "directed_checks": 15,
+  "pass": 15,
+  "cases": [
+    {
+      "viewport": "360x740",
+      "shape": "POINT",
+      "highlighted": 1,
+      "status": "PASS"
+    },
+    {
+      "viewport": "360x740",
+      "shape": "LINE",
+      "highlighted": 4,
+      "status": "PASS"
+    },
+    {
+      "viewport": "360x740",
+      "shape": "CONE",
+      "highlighted": 5,
+      "status": "PASS"
+    },
+    {
+      "viewport": "360x740",
+      "shape": "CIRCLE",
+      "highlighted": 12,
+      "status": "PASS"
+    },
+    {
+      "viewport": "360x740",
+      "check": "legacy preview retained; all 49 tiles; no network; no JS errors",
+      "status": "PASS"
+    },
+    {
+      "viewport": "390x844",
+      "shape": "POINT",
+      "highlighted": 1,
+      "status": "PASS"
+    },
+    {
+      "viewport": "390x844",
+      "shape": "LINE",
+      "highlighted": 4,
+      "status": "PASS"
+    },
+    {
+      "viewport": "390x844",
+      "shape": "CONE",
+      "highlighted": 5,
+      "status": "PASS"
+    },
+    {
+      "viewport": "390x844",
+      "shape": "CIRCLE",
+      "highlighted": 12,
+      "status": "PASS"
+    },
+    {
+      "viewport": "390x844",
+      "check": "legacy preview retained; all 49 tiles; no network; no JS errors",
+      "status": "PASS"
+    },
+    {
+      "viewport": "412x915",
+      "shape": "POINT",
+      "highlighted": 1,
+      "status": "PASS"
+    },
+    {
+      "viewport": "412x915",
+      "shape": "LINE",
+      "highlighted": 4,
+      "status": "PASS"
+    },
+    {
+      "viewport": "412x915",
+      "shape": "CONE",
+      "highlighted": 5,
+      "status": "PASS"
+    },
+    {
+      "viewport": "412x915",
+      "shape": "CIRCLE",
+      "highlighted": 12,
+      "status": "PASS"
+    },
+    {
+      "viewport": "412x915",
+      "check": "legacy preview retained; all 49 tiles; no network; no JS errors",
+      "status": "PASS"
+    }
+  ]
+}

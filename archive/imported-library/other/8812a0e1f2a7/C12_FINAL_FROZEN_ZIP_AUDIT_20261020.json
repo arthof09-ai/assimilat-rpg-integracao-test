@@ -1,0 +1,17 @@
+{
+  "status": "PASS_FINAL_FROZEN_ZIP_COLD_RECOVERY",
+  "zip_name": "DMG_C12_CIENCIA_CHASSIS_FIP_TRIAGEM_20261020_MESTRE_ONLY.zip",
+  "zip_sha256": "19c9b8799d161e3eaa577ec30c8a10ec0ebe7cf22533f73c393b68df3e4218a4",
+  "zip_bytes": 44914,
+  "zip_entry_count": 18,
+  "manifest_member_count": 17,
+  "member_sha_pass": 17,
+  "zip_crc_pass": true,
+  "isolated_reproduction_scripts": 4,
+  "files_byte_identical_post_replay": 17,
+  "c11_zip_historical_sha_verified_before_packaging": true,
+  "notion_canon_writes": 0,
+  "party_writes": 0,
+  "official_rule_modifications": 0,
+  "f0": "4/8 HOLD"
+}

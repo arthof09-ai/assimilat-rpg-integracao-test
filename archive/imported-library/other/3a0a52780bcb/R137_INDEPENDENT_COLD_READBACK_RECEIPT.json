@@ -1,0 +1,22 @@
+{
+  "clean_extracted_independently": true,
+  "run_ids_selected": [
+    "R126_PA_REACTION_AOO_DEV_943207",
+    "R126_SAFE_DISENGAGE_RESERVED_NOT_BLIND_953209",
+    "R132_HEAL_SOURCE_3ACTOR_CORRECTED_S963212"
+  ],
+  "attack_receipts": 7,
+  "transactions": 32,
+  "PA_spent": 170,
+  "cold_runner_checks": {
+    "r126_positional": 2,
+    "r132_heal": 1,
+    "r134_fault": 2,
+    "legacy_regression": 28
+  },
+  "verified_contract_ids": 17,
+  "r125_immutable": true,
+  "unknown_effect_not_rerun": true,
+  "terminal": 0,
+  "official_cells": 0
+}

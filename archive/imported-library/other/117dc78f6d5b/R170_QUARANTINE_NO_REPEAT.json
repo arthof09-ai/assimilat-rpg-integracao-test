@@ -1,0 +1,125 @@
+{
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "baseline": "R01–R160 intact archived",
+  "prior_R160_quarantine_verbatim": {
+    "operation": "OP-VLAB-FUSION-SANDBOX-01",
+    "history_R01_R150": "PRESERVED_NO_REWRITE",
+    "known_holds": {
+      "R123": "UNKNOWN_EFFECT",
+      "R130": "QA_FAIL serialization",
+      "R134": "UNKNOWN_EFFECT",
+      "R138": "SPATIAL_PARITY_HOLD",
+      "R143": "UNKNOWN_EFFECT",
+      "R124_5x5": "CENSORED",
+      "R93_R95": "HISTORICAL_CRITICAL_ERRATA",
+      "R156_TACTIC_FERYN_ERISTAN_S997601": "NEW_UNKNOWN_EFFECT_PENDING_AFTER_INTENT",
+      "R159_BE_SPECIAL_S998801": "STOPPED_ON_ODD_HALF_SOURCE_HOLD_AT_FIRST_TURN_START"
+    },
+    "no_repeat": [
+      "ALL_R01_R150_EXISTING_IDS",
+      "R153_CASULO_CA_SOURCE_DEV_S999013",
+      "R154_TWO_AOO_FULL_SOURCE_DEV_S999141",
+      "R154_TWO_AOO_KO_SOURCE_DEV_S999142",
+      "R155_AOO_NEGATIVE_R42_R43_DEV_S999353",
+      "R156_TACTIC_FERYN_ERISTAN_S997601",
+      "R157_TACTIC_BASIC_DEV_S997617",
+      "R157_TACTIC_WIND_DEV_S997617",
+      "R158_NEGATIVE_CRITICAL_TACTIC_DEV_S997946",
+      "R159_ED_GRIFO_AUREN_BE_SPECIAL_DEV_S998801",
+      "R159_ED_GRIFO_AUREN_BE_BASIC_DEV_S998801",
+      "R159_ED_GRIFO_AUREN_BE_SPECIAL_DEV_S998803",
+      "R159_ED_GRIFO_AUREN_BE_BASIC_DEV_S998803"
+    ],
+    "authority_writer": "PAUSED; NO WRITER/LEASE/EPOCH/FENCING/INSTANCE_ID/IBX101_ACK",
+    "canonical_write": "NONE",
+    "DMG_ACK": "NONE"
+  },
+  "r161_to_r170_seen_banks": {
+    "R163_AFTER_INTENT_S1163101": {
+      "DB_SHA256": "ca34cb3b444790a801a617743e0371362146d35b8f32909a66ab6e5a1c3d3a8b",
+      "commits": 0,
+      "pending": 0,
+      "status": "DIAGNOSTIC_QUARANTINE"
+    },
+    "R163_FRESH_AFTER_INTENT_S1163103": {
+      "DB_SHA256": "3c85ab84aacee89f7a7d42e47d79f30f63fb59e0e3198878a46ce1e6d45ac777",
+      "commits": 0,
+      "pending": 1,
+      "status": "UNKNOWN_EFFECT_HOLD_NO_RETRY"
+    },
+    "R163_FRESH_AFTER_COMMIT_S1163104": {
+      "DB_SHA256": "7900f373c9bb77849cf08c6363b783e0009a51a25e6884da0b6376fc65784e19",
+      "commits": 1,
+      "pending": 0,
+      "status": "DIAGNOSTIC_QUARANTINE"
+    },
+    "R165_FLECHA_TURN_EXPLICIT_DEV_S1185001": {
+      "DB_SHA256": "63bdd45ffc3bffa7e8661b3c0712e67108e877f418265acae03a5d107bfbe1ae",
+      "commits": 4,
+      "pending": 0,
+      "status": "DIAGNOSTIC_QUARANTINE"
+    },
+    "R165_FLECHA_TURN_EXPLICIT_V2_DEV_S1185088": {
+      "DB_SHA256": "6b400e17af8982488c5ead084dd505ac57c842915877d4af78baae8e4648aab2",
+      "commits": 4,
+      "pending": 1,
+      "status": "UNKNOWN_EFFECT_HOLD_NO_RETRY"
+    },
+    "R165_FLECHA_TURN_EXPLICIT_V3_DEV_S1185114": {
+      "DB_SHA256": "32e79d21c75e01ab6c6a0abb672f1d49fdb0a1a363bd5f926362f56e68c0444c",
+      "commits": 7,
+      "pending": 0,
+      "status": "SELECTED_COLD_PASS"
+    },
+    "R166_CASULO_AOO_NEGATIVE_DEV_S1195392": {
+      "DB_SHA256": "81509f812d81a1f1e90f2bc40dac4001770508ac502a9e4e0258a320eca6b8ca",
+      "commits": 1,
+      "pending": 1,
+      "status": "UNKNOWN_EFFECT_HOLD_NO_RETRY"
+    },
+    "R166_V2_CASULO_AOO_NEGATIVE_DEV_S1195557": {
+      "DB_SHA256": "6d7394902dcd4bb70452525b33cdc83e00a785baf8f7234d5e411e056b825861",
+      "commits": 5,
+      "pending": 0,
+      "status": "SELECTED_COLD_PASS"
+    },
+    "R166_V2_CASULO_AOO_KO_DEV_S1205088": {
+      "DB_SHA256": "496fdf41b859fcdd6541e46d930f06969d662702a6b80078b377935d2ec44ff3",
+      "commits": 5,
+      "pending": 0,
+      "status": "SELECTED_COLD_PASS"
+    },
+    "R168_ED_AUREN_VS_CROC_BASIC_DEV_S1168001": {
+      "DB_SHA256": "0c68c22c79ed03f84fa0e06854efb40b5ae0c22a99389f0edc146b3a5aac2951",
+      "commits": 198,
+      "pending": 0,
+      "status": "SELECTED_COLD_PASS"
+    },
+    "R168_ED_AUREN_VS_CROC_BASIC_RESERVED_NONBLIND_S1169001": {
+      "DB_SHA256": "7cf1987d96ebf37eef9b764a46363076b2568cd82d26992876156577a2080d2e",
+      "commits": 198,
+      "pending": 0,
+      "status": "SELECTED_COLD_PASS"
+    }
+  },
+  "R169_semantic_redteam_V1": "DIAGNOSTIC_WAL_ONLY_NOT_PERSISTED_IN_BASE_DB, excluded; V2 uses checkpointed actual modified copies, 2/2 rejected",
+  "accepted_selected_new_runs": [
+    "R165_FLECHA_TURN_EXPLICIT_V3_DEV_S1185114",
+    "R166_V2_CASULO_AOO_NEGATIVE_DEV_S1195557",
+    "R166_V2_CASULO_AOO_KO_DEV_S1205088",
+    "R168_ED_AUREN_VS_CROC_BASIC_DEV_S1168001",
+    "R168_ED_AUREN_VS_CROC_BASIC_RESERVED_NONBLIND_S1169001"
+  ],
+  "preserved_incidents": [
+    "R123_UNKNOWN_EFFECT",
+    "R130_QA_FAIL",
+    "R134_UNKNOWN_EFFECT",
+    "R138_SPATIAL_PARITY_HOLD",
+    "R143_UNKNOWN_EFFECT",
+    "R124_CENSORED",
+    "R156_UNKNOWN_EFFECT",
+    "R159_ODD_HALF_BLOCKED"
+  ],
+  "no_repeat": "No R01–R160 historical event repeated; new diagnostics with pending remain locked. No random or ID reuse.",
+  "authority": "CM-000006 PAUSED; no writer lease epoch fencing ID/IBX101-ACK; sandbox development and read-only Notion/Library only"
+}

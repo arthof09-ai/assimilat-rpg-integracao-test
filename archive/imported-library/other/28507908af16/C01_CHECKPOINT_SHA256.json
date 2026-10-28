@@ -1,0 +1,210 @@
+{
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "checkpoint": "POST-R10-C01-20261015",
+  "role": "MESTRE-SIDE",
+  "historical_name_collision": "2026-10-09 DMG R11→R12 separate historic stream; this delta is NOT same R11",
+  "r10_state_chronology": {
+    "R10_RESULTS.json": "INTERMEDIATE R40 cold archive audit not yet completed",
+    "R10_SECONDARY_AUDIT.json": "LATER completed R40 readback and independent audit",
+    "PSV_DMG_R10_20261015.md": "LATER final scientific report; no retroactive edit"
+  },
+  "artifacts": [
+    {
+      "relative_path": "C01_33_ACTIONS_FRONTIER.json",
+      "bytes": 158039,
+      "sha256": "00bc9f1473cacf2d8ee4df6c4a7a6e5d1b1a6fa3fc4a8293907c0da3db2567de"
+    },
+    {
+      "relative_path": "C01_ARMOR_SOURCE_CONTROL.json",
+      "bytes": 1724,
+      "sha256": "6a51fc7b3e9cfb505ca2a2667fe774c9ac2d167e482f68ae180e2d412ed476f6"
+    },
+    {
+      "relative_path": "C01_ARMOR_SOURCE_CONTROL.py",
+      "bytes": 2728,
+      "sha256": "e3442dc53d17880bcd91522c21235512315c47bf15c78bcbad4969bfe83a715b"
+    },
+    {
+      "relative_path": "C01_AUDIT_INDEPENDENT.json",
+      "bytes": 2250,
+      "sha256": "f3d61bb6f1658742791cd2bb1662c444fb0531c95248d003e2a2b1f0405242ce"
+    },
+    {
+      "relative_path": "C01_CHECKPOINT_SUBRESULTS.txt",
+      "bytes": 447,
+      "sha256": "9a228698c90852748a592a28a48ff73aaa841f31e7bd9a4fcc0c45efe3634a99"
+    },
+    {
+      "relative_path": "C01_EXISTING_CORPUS_CRIT_FRONTIERS.py",
+      "bytes": 4891,
+      "sha256": "ba4904bd3e798ebea138185ff8330653fd98c4127d3bdb1188f288b94f071a25"
+    },
+    {
+      "relative_path": "C01_FINAL_VERIFY.py",
+      "bytes": 1433,
+      "sha256": "b792980d0406e764638eb497cd4f8e8077d81d15d73168e98546a6405e09be6e"
+    },
+    {
+      "relative_path": "C01_INDEPENDENT_AUDIT.py",
+      "bytes": 6845,
+      "sha256": "29da93f9b3f07e207e72e683466d07bf0ecf40f1e0095bd252e3d9c9a2e77260"
+    },
+    {
+      "relative_path": "C01_MC_PREREG.json",
+      "bytes": 1564,
+      "sha256": "f238a8a53f7d7f90380da44079d1cb475df461163f05c46180fa398da9e857b1"
+    },
+    {
+      "relative_path": "C01_NEW_SOURCE_LEDGER.json",
+      "bytes": 15077,
+      "sha256": "6205e0608f9af16b7d729e371ccdc8e1cddbdabadb1d761088c73faf56c3aab8"
+    },
+    {
+      "relative_path": "C01_PREREG_SAMPLE_FROZEN.json",
+      "bytes": 4789,
+      "sha256": "3c76ad28703b54858e93f7f227324fb44cb57512927915f4155378e3424ae6a0"
+    },
+    {
+      "relative_path": "C01_R42_COMPARE.json",
+      "bytes": 3542,
+      "sha256": "04efec84c52d1a771ffc80756c8e9d36cfb0bb7d50537f6bc97c263281728cac"
+    },
+    {
+      "relative_path": "C01_R42_COMPATIBILITY.py",
+      "bytes": 2784,
+      "sha256": "91eb9773f192f234b14f62ba1c3e21581924fec1031da2260cbd9a7cb440298c"
+    },
+    {
+      "relative_path": "C01_RESEARCH_MODEL.py",
+      "bytes": 20790,
+      "sha256": "79729e6dc90ac117c8ff9d4b974ef777ddc179c15b1be33a4d1a07ca7758e8b5"
+    },
+    {
+      "relative_path": "C01_RESULTS_MODEL.json",
+      "bytes": 65732,
+      "sha256": "83917c896fa612c871c0948d62d8442b22fe986ece4d232c11f3b19722160172"
+    },
+    {
+      "relative_path": "C01_RUN_LOG.json",
+      "bytes": 3179,
+      "sha256": "63194919abbd61b1e3d3f8e7189dea96e1cde8e034d0ca5f41a4a72654e88755"
+    },
+    {
+      "relative_path": "C01_VLAB_DELTA_READONLY.json",
+      "bytes": 5191,
+      "sha256": "9e2e195cade9b1ed9c26bd91983d63f3e8cc98817ab1a2b17949418d7d5fe2e6"
+    },
+    {
+      "relative_path": "PSV_DMG_POST_R10_C01.md",
+      "bytes": 17234,
+      "sha256": "53e7dbc4593e8eba749b1011d6374c8a6015a9b82e4872e8fc024ace8071d282"
+    }
+  ],
+  "historical_r10": [
+    {
+      "absolute_path": "/mnt/data/dmg_recovery/r10/PSV_DMG_R10_20261015.md",
+      "sha256": "d48be82967b14d992f0f01895cf7007118f6ca5c41d72f955eb82220ac033976",
+      "bytes": 16003
+    },
+    {
+      "absolute_path": "/mnt/data/dmg_recovery/r10/R10_AUDIT_SECONDARY.py",
+      "sha256": "015a4d9f79d907755f628c9b40266fd3a50526328bb3a935ca85c156e0a6655a",
+      "bytes": 8952
+    },
+    {
+      "absolute_path": "/mnt/data/dmg_recovery/r10/R10_CROSSRANK.py",
+      "sha256": "cda9d035dbe5a96527b3970e5ca15c3e7d9b7feca4310a34211c6015e03bc23a",
+      "bytes": 3798
+    },
+    {
+      "absolute_path": "/mnt/data/dmg_recovery/r10/R10_CROSSRANK_RESULT.json",
+      "sha256": "4c8cb460f9b9e7f79ae025e18850ea3158ce26e49c25251a314a40ef0075503d",
+      "bytes": 1854
+    },
+    {
+      "absolute_path": "/mnt/data/dmg_recovery/r10/R10_MASTER_DECISION_READONLY.md",
+      "sha256": "c63cb662523965d89239fb839bfc54311c06e9e16dcc42bf10498ca97fb52919",
+      "bytes": 2352
+    },
+    {
+      "absolute_path": "/mnt/data/dmg_recovery/r10/R10_MODEL.py",
+      "sha256": "c2a7765c9664e90eb66d7a89f3bede69cb7638f516118347ca28a1b4554689ea",
+      "bytes": 20830
+    },
+    {
+      "absolute_path": "/mnt/data/dmg_recovery/r10/R10_NATIVE_CORE_CRITICAL_PROBE.py",
+      "sha256": "bb066e9b7f84be2a00b4b8af1d64919c87a31b478147a0c03e3dd92d0c6b86fc",
+      "bytes": 3972
+    },
+    {
+      "absolute_path": "/mnt/data/dmg_recovery/r10/R10_NATIVE_CRITICAL_GAP.json",
+      "sha256": "7d19f49b9376ede7b126ff982c90e0d62c172eb8d57bf4a5f5577e2137954162",
+      "bytes": 2114
+    },
+    {
+      "absolute_path": "/mnt/data/dmg_recovery/r10/R10_PREREG.json",
+      "sha256": "8c0d6ecf717180c844bf304ee17ea568e3b14af83b53984ff76e3aed18e0de87",
+      "bytes": 2847
+    },
+    {
+      "absolute_path": "/mnt/data/dmg_recovery/r10/R10_RESULTS.json",
+      "sha256": "8f8f9d66bb0cb26064e32e75e2bb4e16a2a5e09b6cc71ad894ab018a0a2d76bb",
+      "bytes": 17347
+    },
+    {
+      "absolute_path": "/mnt/data/dmg_recovery/r10/R10_SECONDARY_AUDIT.json",
+      "sha256": "bfdf5b9ac59e1c63c0045a720b115b657de35d2a18cd73c4372b80b89dd16b5a",
+      "bytes": 4652
+    },
+    {
+      "absolute_path": "/mnt/data/dmg_recovery/r10/R10_VLAB_HANDOFF_READONLY.json",
+      "sha256": "fe3406d8ccdc243f3730339991cfb32de12acaab043d407f54463e9baeac699d",
+      "bytes": 7491
+    }
+  ],
+  "v_lab_readonly_archives": [
+    {
+      "relative_path": "evidence_readonly/VLAB_R41_CRITICO_AUTOMATICO_RNG_REACOES_MESTRE_ONLY.zip",
+      "bytes": 415090,
+      "sha256": "105615717ddb62b84e51f2232bde067133e3c576a14340dac3b5427e0078306b"
+    },
+    {
+      "relative_path": "evidence_readonly/VLAB_R42_AOO_CONTRA_NEGCRIT_INIT_MESTRE_ONLY.zip",
+      "bytes": 599773,
+      "sha256": "36f99ca5e77ea6aae0d4537f1cc64ba69ea6242c1c67a24b4a1bebc17e98c966"
+    }
+  ],
+  "validation": {
+    "R10_SHA": "12/12 PASS",
+    "VLAB_R41_zip": "59 internal SHA,6 scenes,475 events PASS original standalone",
+    "VLAB_R42_zip": "30 internal SHA,6 SQLite,931 events PASS original standalone",
+    "C01_math": "14 local checks PASS",
+    "C01_secondary": "16/16 checks PASS independent code; 12000 local seeded Monte Carlo"
+  },
+  "denominators": {
+    "new_notion_pages_opened": 18,
+    "new_master_pages": 17,
+    "party_mirror_opened_excluded": 1,
+    "new_master_beast_pages": 12,
+    "new_beast_pages_with_complete_numeric_attack": 2,
+    "new_numerical_actions": 4,
+    "old_numerical_actions_reused": 29,
+    "combined_exploratory_actions": 33,
+    "RD_scalar_scenarios_per_action": 9,
+    "numeric_boundaries": 297,
+    "F0_documentary": "4/8 HOLD",
+    "L003_authenticated": "0/71",
+    "VLAB_terminal_contracts": "0/17",
+    "canonical_cells": "0/1875",
+    "global_corpus_coverage": "UNKNOWN"
+  },
+  "preservation": {
+    "canonical_writes": 0,
+    "Party_writes": 0,
+    "O_Primeiro_writes": 0,
+    "VLAB_new_native_executions_by_DMG": 0,
+    "DMG_RANK_01": "v1.1 unchanged",
+    "productive_NAC_PASS": "HOLD"
+  },
+  "resume_exact": "POST-R10-C02: verify scene-admissible source identity of new Regalis Ouro2 name-blank and Veado Bronze4 title/Bronze2 body; investigate competent hit, RD, Luta, time/cost only on authorized sources; study additional grouped families without duplicate historic Lot003; refer VLAB current R42 AoO double trigger and normal Contra-atacar gap."
+}

@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "case": "ALTER_NORMAL_NET",
+      "source_DB": "R119_THREE_ACTOR_DEV_918201.sqlite",
+      "copied_file": "R125_ALTER_NORMAL_NET_COPY.sqlite",
+      "syntactic_sha_chain": "PASS",
+      "semantic_cold_audit": "REJECT",
+      "cause": "AssertionError ",
+      "no_original_mutation": true
+    },
+    {
+      "case": "ALTER_COUNTER_ADVANTAGE",
+      "source_DB": "R119_THREE_ACTOR_DEV_918201.sqlite",
+      "copied_file": "R125_ALTER_COUNTER_ADVANTAGE_COPY.sqlite",
+      "syntactic_sha_chain": "PASS",
+      "semantic_cold_audit": "REJECT",
+      "cause": "AssertionError ",
+      "no_original_mutation": true
+    }
+  ],
+  "accepted": 0,
+  "rejected": 2
+}

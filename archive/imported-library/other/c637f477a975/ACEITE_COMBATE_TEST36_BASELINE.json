@@ -1,0 +1,77 @@
+{
+  "source_name": "TABLETOP_SITE_SINTETICO_TEST36_CANDIDATE.zip",
+  "source_sha256": "5a7cb0bd9f7b239f7441c843d5df831a0bd16be92a46386241f0072907561bf1",
+  "method": "inspecao estatica deterministica, NEGATIVOS sao bloqueios e nao testes funcionais",
+  "coverage": 11,
+  "present_test": 5,
+  "pending_blocker": 6,
+  "checks": [
+    {
+      "check": "UI mapa/grade presente",
+      "expected_class": "IMPLEMENTADO_TEST",
+      "assertion_supported": true,
+      "evidence_note": "DOM do TEST36: #viewport e #board"
+    },
+    {
+      "check": "Painel de unidades e edição TEST",
+      "expected_class": "IMPLEMENTADO_TEST",
+      "assertion_supported": true,
+      "evidence_note": "DOM de editor token e recurso TEST"
+    },
+    {
+      "check": "Perfis Mestre/P1/P2 sintéticos",
+      "expected_class": "IMPLEMENTADO_TEST",
+      "assertion_supported": true,
+      "evidence_note": "Perfis DEMO não autenticados"
+    },
+    {
+      "check": "Recuperação de intenção/recibo em fixture v2",
+      "expected_class": "IMPLEMENTADO_TEST",
+      "assertion_supported": true,
+      "evidence_note": "Consulta local não garante durabilidade servidor"
+    },
+    {
+      "check": "Rodada visual somente TEST",
+      "expected_class": "IMPLEMENTADO_TEST",
+      "assertion_supported": true,
+      "evidence_note": "Botão rodada sintética não é iniciativa canônica"
+    },
+    {
+      "check": "Seleção de AÇÃO ataque/magia no DOM",
+      "expected_class": "PENDENTE",
+      "assertion_supported": true,
+      "evidence_note": "Não há botão de ação mecânica com ids auditados; revisar nomenclaturas futuras"
+    },
+    {
+      "check": "Iniciativa oficial com fonte autorizada",
+      "expected_class": "PENDENTE",
+      "assertion_supported": true,
+      "evidence_note": "O código nega explicitamente iniciativa oficial"
+    },
+    {
+      "check": "Resolução de dano VLAB no TEST36",
+      "expected_class": "PENDENTE",
+      "assertion_supported": true,
+      "evidence_note": "Ausência de interface VLAB mecânica no bundle entregue"
+    },
+    {
+      "check": "Autenticação multiplayer real",
+      "expected_class": "PENDENTE",
+      "assertion_supported": true,
+      "evidence_note": "Texto explicita fixture e ausência de auth"
+    },
+    {
+      "check": "Segurança server-side Mestre/Party comprovada",
+      "expected_class": "PENDENTE",
+      "assertion_supported": true,
+      "evidence_note": "Site TEST sem rede real, não prova filtro server-side"
+    },
+    {
+      "check": "Três Android conectados",
+      "expected_class": "PENDENTE",
+      "assertion_supported": true,
+      "evidence_note": "Não há teste físico no código/artefato"
+    }
+  ],
+  "disclaimer": "NÃO mede mecânica VLAB, não executa Android, não testa servidores WSS e não substitui aceite funcional por jogador"
+}

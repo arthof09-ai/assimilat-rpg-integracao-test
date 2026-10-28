@@ -1,0 +1,11 @@
+{
+  "run": "R165_FLECHA_TURN_EXPLICIT_V3_DEV_S1185114",
+  "PASS": true,
+  "commits": 7,
+  "actual_HP_loss": 343,
+  "PA": 55,
+  "documented_end_of_next_own_turn_applied": true,
+  "source_expiration_Casulo": "HOLD",
+  "final_state_sha": "a6bbb9e9161d3056ebd42c754eaef3ae8b26462160bc1e1ead19801bb3eb482d",
+  "root_sha": "21dc0241296c018dbc55712fcc131fb7dad59eaa77472aa2df771d866accf54d"
+}

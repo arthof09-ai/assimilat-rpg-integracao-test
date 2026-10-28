@@ -1,0 +1,38 @@
+{
+  "status": "PASS_R199_COLD_PORTABLE_RECOVERY",
+  "zip_path": "/mnt/data/vlab_r199/library_readback/VLAB_R199_MAGIC_TRANSFORM_BEAST_COMBAT_MESTRE_ONLY.zip",
+  "zip_sha256": "533782992f7c16dfd79c06a7113b38d49d4e487cede9f42c1a19d073de0fd015",
+  "zip_bytes": 16798708,
+  "archive_files": 744,
+  "manifest_verified": 743,
+  "baseline_R198_sha256": "b7fc08a1cee2891c52fbf8e446ef96da8193430a45268cc141abcbc7a9f6f11b",
+  "fight_dbs": 32,
+  "fight_totals": {
+    "commits": 575,
+    "native_events": 1775,
+    "attacks": 488,
+    "spells": 101,
+    "pa_spent": 1128,
+    "transform_activations": 8,
+    "transform_expirations": 6,
+    "beast_power_uses": 56
+  },
+  "outcomes": {
+    "FINISHED": 30,
+    "CENSORED_HORIZON": 2
+  },
+  "adversarial_clones_rejected": 16,
+  "adversarial_clones_total": 16,
+  "historic_magic_dbs_read_only": 8,
+  "historic_spells": 20,
+  "historic_spell_PA": 160,
+  "historic_spell_HP_removed": 163,
+  "historic_decline_spell_HP_removed": 0,
+  "dry_original_banks": 6,
+  "dry_pending_unretried": 1,
+  "old_battles_rerun": 0,
+  "official_benchmarks_added": 0,
+  "terminal_contracts_certified": 0,
+  "independent_human_auditor": false,
+  "production": "HOLD"
+}

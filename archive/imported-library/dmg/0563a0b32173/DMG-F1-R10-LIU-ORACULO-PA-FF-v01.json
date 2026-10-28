@@ -1,0 +1,255 @@
+{
+  "CA_provenance": {
+    "do_not_add_CA_to_total_dodge": true,
+    "dodge_total_normal49": 49,
+    "dodge_total_transform63": 63,
+    "normal": "6+DES16+armor15+(4+3+2)=46",
+    "real_reflex_proficiency_selected": null,
+    "transform": "6+DES27+armor15+(4+3+2+3)=60"
+  },
+  "FF_base_formula": "(FOR+DES+CON)*10 with all active physical modifiers, but no double counting",
+  "FF_branches": [
+    {
+      "FF_milestones": 6,
+      "FF_result": 610,
+      "armor_FOR_added_externally": 0,
+      "axe_CON_added_externally": 0,
+      "defender_before_skill": 37,
+      "evidence_level": "FORMULA_APPLIED_TO_PRINTED_ATTR_NO_LIVE_STATE",
+      "extension_max_dice": "3d6",
+      "extension_nominal_PA": 30,
+      "form": "normal",
+      "warning": "Never stack hypothetical external bonus over a shortcut already incorporating it"
+    },
+    {
+      "FF_milestones": 6,
+      "FF_result": 650,
+      "armor_FOR_added_externally": 0,
+      "axe_CON_added_externally": 4,
+      "defender_before_skill": 41,
+      "evidence_level": "HYPOTHETICAL_IF_EQUIPMENT_NOT_ALREADY_INCLUDED",
+      "extension_max_dice": "3d6",
+      "extension_nominal_PA": 30,
+      "form": "normal",
+      "warning": "Never stack hypothetical external bonus over a shortcut already incorporating it"
+    },
+    {
+      "FF_milestones": 6,
+      "FF_result": 690,
+      "armor_FOR_added_externally": 8,
+      "axe_CON_added_externally": 0,
+      "defender_before_skill": 37,
+      "evidence_level": "HYPOTHETICAL_IF_EQUIPMENT_NOT_ALREADY_INCLUDED",
+      "extension_max_dice": "3d6",
+      "extension_nominal_PA": 30,
+      "form": "normal",
+      "warning": "Never stack hypothetical external bonus over a shortcut already incorporating it"
+    },
+    {
+      "FF_milestones": 7,
+      "FF_result": 730,
+      "armor_FOR_added_externally": 8,
+      "axe_CON_added_externally": 4,
+      "defender_before_skill": 41,
+      "evidence_level": "HYPOTHETICAL_IF_EQUIPMENT_NOT_ALREADY_INCLUDED",
+      "extension_max_dice": "3d7",
+      "extension_nominal_PA": 35,
+      "form": "normal",
+      "warning": "Never stack hypothetical external bonus over a shortcut already incorporating it"
+    },
+    {
+      "FF_milestones": 9,
+      "FF_result": 920,
+      "armor_FOR_added_externally": 0,
+      "axe_CON_added_externally": 0,
+      "defender_before_skill": 46,
+      "evidence_level": "FORMULA_APPLIED_TO_PRINTED_ATTR_NO_LIVE_STATE",
+      "extension_max_dice": "3d9",
+      "extension_nominal_PA": 45,
+      "form": "transform",
+      "warning": "Never stack hypothetical external bonus over a shortcut already incorporating it"
+    },
+    {
+      "FF_milestones": 9,
+      "FF_result": 960,
+      "armor_FOR_added_externally": 0,
+      "axe_CON_added_externally": 4,
+      "defender_before_skill": 50,
+      "evidence_level": "HYPOTHETICAL_IF_EQUIPMENT_NOT_ALREADY_INCLUDED",
+      "extension_max_dice": "3d9",
+      "extension_nominal_PA": 45,
+      "form": "transform",
+      "warning": "Never stack hypothetical external bonus over a shortcut already incorporating it"
+    },
+    {
+      "FF_milestones": 10,
+      "FF_result": 1000,
+      "armor_FOR_added_externally": 8,
+      "axe_CON_added_externally": 0,
+      "defender_before_skill": 46,
+      "evidence_level": "HYPOTHETICAL_IF_EQUIPMENT_NOT_ALREADY_INCLUDED",
+      "extension_max_dice": "3d10",
+      "extension_nominal_PA": 50,
+      "form": "transform",
+      "warning": "Never stack hypothetical external bonus over a shortcut already incorporating it"
+    },
+    {
+      "FF_milestones": 10,
+      "FF_result": 1040,
+      "armor_FOR_added_externally": 8,
+      "axe_CON_added_externally": 4,
+      "defender_before_skill": 50,
+      "evidence_level": "HYPOTHETICAL_IF_EQUIPMENT_NOT_ALREADY_INCLUDED",
+      "extension_max_dice": "3d10",
+      "extension_nominal_PA": 50,
+      "form": "transform",
+      "warning": "Never stack hypothetical external bonus over a shortcut already incorporating it"
+    }
+  ],
+  "FF_milestones_printed_normal_calc": 6,
+  "FF_milestones_printed_normal_display": 6,
+  "FF_milestones_printed_transform": 9,
+  "FF_normal_difference": 10,
+  "FF_printed_normal_calc": 610,
+  "FF_printed_normal_display": 620,
+  "FF_printed_transform_calc": 920,
+  "FF_printed_transform_display": 920,
+  "alma": {
+    "alma_ring": 50,
+    "branches": [
+      {
+        "PA_before_transform": 73,
+        "T9_PA_required": 40,
+        "approved": false,
+        "can_pay_40": true,
+        "mode": "73_is_available_now_if_components_are_correct",
+        "post_cost_IF_only_T9": 33
+      },
+      {
+        "PA_before_transform": 27,
+        "T9_PA_required": 40,
+        "approved": false,
+        "can_pay_40": false,
+        "mode": "-46_disjoint_additional_spending",
+        "post_cost_IF_only_T9": null
+      },
+      {
+        "PA_after_bonus_from_printed73": 123,
+        "approved": false,
+        "mode": "transform_plus50_active_after_activation_ONLY_hypothetical"
+      },
+      {
+        "PA_after_bonus_from27": 77,
+        "approved": false,
+        "mode": "transform_plus50_active_after_activation_from27_ONLY_hypothetical"
+      }
+    ],
+    "caveat": "Daily expenditure is not necessarily continuous commitment; transformed +50 PA must not finance its own activation retroactively; -46 time unknown.",
+    "natural_display": 170,
+    "printed_alma_equation": 73,
+    "printed_lost_minus46": -46,
+    "subtractions": [
+      {
+        "PA": 15,
+        "name": "boots",
+        "source_time": "PER_DAY"
+      },
+      {
+        "PA": 30,
+        "name": "attribute_ring",
+        "source_time": "UNSPECIFIED"
+      },
+      {
+        "PA": 60,
+        "name": "weapon",
+        "source_time": "PER_DAY"
+      },
+      {
+        "PA": 42,
+        "name": "armor",
+        "source_time": "UNSPECIFIED"
+      }
+    ],
+    "sum_subtractions": 147,
+    "total_nominal_bonus": 220
+  },
+  "attack_fixed_shortcut_explanations": {
+    "normal": "29+8=37; +4+4 FFdamage=45",
+    "transform": "40+8=48; +4+4+4 FFdamage=60",
+    "unproven": "Whether gear was already incorporated in reported physical attributes / other weapon modifiers; +2 Cruel Certeira or +6 electricity not automatically allocated to fixed shortcut"
+  },
+  "furia": {
+    "active_state": null,
+    "cost_PA": 12,
+    "normal_threshold_nominal": 117.5,
+    "plus_FOR": 15,
+    "plus_Life": 80,
+    "transform_threshold_IF_life345": 172.5,
+    "trigger_literal": "vida chega na metade"
+  },
+  "normal_source": {
+    "CA": 46,
+    "CON": 16,
+    "DES": 16,
+    "FF_display": 620,
+    "FOR": 29,
+    "alma_equation": 73,
+    "attack": "2d6+37",
+    "damage": "5d12+3d8+1d6+45",
+    "dodge_total": 49,
+    "life_display": 235,
+    "lost_minus46": -46,
+    "speed_display": "3+8"
+  },
+  "schema": "DMG-F1-R10-LIU-PROVENANCE-ORACLE-v01",
+  "source_url": "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010",
+  "speed": {
+    "armor_penalty": -7,
+    "boots_action_type": "action_bonus_described_outside_current_action_economy",
+    "boots_conditional_bonus8": 8,
+    "boots_status_live": null,
+    "implied_unarmored_normal_if_both_operating": 10,
+    "implied_unarmored_transform_if_both_operating": 12,
+    "legal_move_live": null,
+    "normal_display_meters_if_active11": 11,
+    "transform_display_meters_if_active13": 13
+  },
+  "status": "SOURCE_LITERAL_AND_CONDITIONAL_ONLY",
+  "transform_source": {
+    "CA": 60,
+    "CON": 25,
+    "DES": 27,
+    "FF_display": 920,
+    "FOR": 40,
+    "alma_display_delta": 50,
+    "attack": "2d6+48",
+    "damage": "5d12+3d8+1d6+60",
+    "dodge_total": 63,
+    "life_display_delta": 110,
+    "speed_display": "5+8"
+  },
+  "transformation_T9": {
+    "action": "FULL_ACTION",
+    "activation_observed": false,
+    "compatible_spirit_bonus_conditional_plus1": true,
+    "cost_pa": 40,
+    "duration": "1d6+1 turns",
+    "presumed_spirit_compatibility": null,
+    "rank": "PRATA5",
+    "source": "Sistema de Transformação Espiritual vigente T9"
+  },
+  "unverified_current_state": [
+    "active_armor",
+    "axe_bonus_in_printed_CON",
+    "ring +6 allocated stat",
+    "spell/PA spending history",
+    "Perdido timestamp",
+    "boots activation",
+    "FF permanent milestone locks",
+    "selected proficiencies",
+    "spirit identity/eligibility",
+    "map/positions",
+    "combat initiative",
+    "form activation"
+  ]
+}

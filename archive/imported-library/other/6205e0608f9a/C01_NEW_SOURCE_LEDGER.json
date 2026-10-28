@@ -1,0 +1,450 @@
+[
+  {
+    "cohort_key": "B3",
+    "page_id": "bdbc2b324ede83b09e56014278be74d8",
+    "url": "https://app.notion.com/p/bdbc2b324ede83b09e56014278be74d8",
+    "title_rank": "Bronze 3",
+    "body_rank": "Bronze 3",
+    "tree_rank": "Bronze 3",
+    "source_kind": "MASTER_BEAST",
+    "identity": "Corvo carniceiro",
+    "ca": 24,
+    "hp": "45+50",
+    "initial_numeric_attacks": [],
+    "features": [
+      "Asas Noturnas: +3 DES and +2 Furtividade at night; not damage",
+      "stun CD 6+INT with no duration/procedure"
+    ],
+    "notes": [
+      "HP expression 45+50 not collapsed"
+    ],
+    "source_last_edited_at": "2026-10-01T18:00:33.849Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "B4a",
+    "page_id": "8acc2b324ede827b9bc801746ae97409",
+    "url": "https://app.notion.com/p/8acc2b324ede827b9bc801746ae97409",
+    "title_rank": "Bronze 4",
+    "body_rank": "Bronze 2",
+    "tree_rank": "Bronze 4",
+    "source_kind": "MASTER_BEAST",
+    "identity": "veado das montanhas",
+    "ca": 49,
+    "hp": "52+50",
+    "initial_numeric_attacks": [
+      {
+        "name": "Galha mortal",
+        "dice": [
+          1,
+          6
+        ],
+        "attribute": "FOR",
+        "attribute_value": 11,
+        "formula": "1d6+FOR11",
+        "damage_type": "antler attack; subtype not declared",
+        "cost_PA": null,
+        "hit_Luta": null
+      }
+    ],
+    "features": [
+      "Corrida congelante 20m/turn; maneuver rules incomplete",
+      "Caminhada silenciosa +4m movement on snow"
+    ],
+    "notes": [
+      "Body Bronze2, title/tree Bronze4, no rank resolved"
+    ],
+    "source_last_edited_at": "2026-10-01T18:00:42.529Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "B4b",
+    "page_id": "109c2b324ede8206bee481f992b7f800",
+    "url": "https://app.notion.com/p/109c2b324ede8206bee481f992b7f800",
+    "title_rank": "Bronze 4",
+    "body_rank": "Bronze 2",
+    "tree_rank": "Prata 5",
+    "source_kind": "MASTER_BEAST",
+    "identity": "Escorpião de Fogo",
+    "ca": 41,
+    "hp": "104+50",
+    "initial_numeric_attacks": [],
+    "features": [
+      "Cauda Incendiária burn unquantified",
+      "Carapaça Refletora magic return percentage unspecified",
+      "Corrida Ardente residual damage unspecified"
+    ],
+    "notes": [
+      "drops dice excluded from attacks",
+      "triple-rank conflict"
+    ],
+    "source_last_edited_at": "2026-10-01T18:00:47.889Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "O2a",
+    "page_id": "5fac2b324ede8381a25581194ebf9bd7",
+    "url": "https://app.notion.com/p/5fac2b324ede8381a25581194ebf9bd7",
+    "title_rank": "Ouro 2",
+    "body_rank": "Ouro 2",
+    "tree_rank": "Ouro 2",
+    "source_kind": "MASTER_BEAST",
+    "identity": "Regalis voltmane (tree); body name blank",
+    "ca": 78,
+    "hp": 936,
+    "initial_numeric_attacks": [
+      {
+        "name": "Raio eletrizante",
+        "dice": [
+          2,
+          4
+        ],
+        "attribute": "INT",
+        "attribute_value": 72,
+        "formula": "2d4+INT72",
+        "damage_type": "raio; elemental RD unknown",
+        "cost_PA": null,
+        "hit_Luta": null,
+        "rider": "on independent 1d4=1 require Fortitude save; on failure paralyze 1 turn; Fortitude DC unlisted"
+      },
+      {
+        "name": "Raio purificador",
+        "dice": [
+          2,
+          4
+        ],
+        "attribute": "INT",
+        "attribute_value": 72,
+        "formula": "2d4+INT72",
+        "damage_type": "raio; elemental RD unknown",
+        "cost_PA": null,
+        "hit_Luta": null
+      },
+      {
+        "name": "Toque macabro",
+        "dice": [
+          1,
+          4
+        ],
+        "attribute": "INT",
+        "attribute_value": 72,
+        "formula": "1d4+INT72",
+        "damage_type": "macabro; unspecified precise type",
+        "cost_PA": null,
+        "hit_Luta": null
+      }
+    ],
+    "features": [
+      "Refração Luminosa +6CA; creates 3 copies each +2 CA; whether additional stack unclear"
+    ],
+    "notes": [
+      "body species blank",
+      "do not assume spells can receive normal attack critical"
+    ],
+    "source_last_edited_at": "2026-10-01T18:00:50.244Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "O2b",
+    "page_id": "e66c2b324ede82d4894681c836bb012f",
+    "url": "https://app.notion.com/p/e66c2b324ede82d4894681c836bb012f",
+    "title_rank": "Ouro 2",
+    "body_rank": "Ouro Negro (star absent)",
+    "tree_rank": "Ouro 2",
+    "source_kind": "MASTER_BEAST",
+    "identity": "Dracquático Azur",
+    "ca": 57,
+    "hp": 660,
+    "initial_numeric_attacks": [],
+    "features": [
+      "Garras de Correnteza can cut through armor; no numeric bypass or damage"
+    ],
+    "notes": [
+      "title/tree Ouro2 vs body Ouro Negro"
+    ],
+    "source_last_edited_at": "2026-10-01T18:00:40.391Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "O2c",
+    "page_id": "991c2b324ede8348a25b8165cfb81e1a",
+    "url": "https://app.notion.com/p/991c2b324ede8348a25b8165cfb81e1a",
+    "title_rank": "Ouro 2",
+    "body_rank": "Bronze (star absent)",
+    "tree_rank": "Ouro Negro 1",
+    "source_kind": "MASTER_BEAST",
+    "identity": "Leviatã Luminescente",
+    "ca": 32,
+    "hp": 480,
+    "initial_numeric_attacks": [],
+    "features": [
+      "Barbatanas Cortantes no numeric skill damage"
+    ],
+    "notes": [
+      "drop dice excluded",
+      "triple-rank conflict"
+    ],
+    "source_last_edited_at": "2026-10-01T18:00:45.311Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "ON1a",
+    "page_id": "a0dc2b324ede823e911801087a7331b0",
+    "url": "https://app.notion.com/p/a0dc2b324ede823e911801087a7331b0",
+    "title_rank": "Ouro Negro 1",
+    "body_rank": "Ouro (star absent)",
+    "tree_rank": "Ouro Negro 1",
+    "source_kind": "MASTER_BEAST",
+    "identity": "Cão Infernal de Fogo",
+    "ca": 86,
+    "hp": 1824,
+    "initial_numeric_attacks": [],
+    "features": [
+      "Mordida Flamejante burning unquantified",
+      "Chicote de Fogo area no dice",
+      "Aura de Calor persistent no rate",
+      "Resistência ao Fogo claimed immunity"
+    ],
+    "notes": [
+      "drop dice excluded"
+    ],
+    "source_last_edited_at": "2026-10-01T18:00:48.404Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "ON1b",
+    "page_id": "f28c2b324ede834b8db781887d0019fa",
+    "url": "https://app.notion.com/p/f28c2b324ede834b8db781887d0019fa",
+    "title_rank": "Ouro Negro 1",
+    "body_rank": "Lendário (star absent)",
+    "tree_rank": "Ouro Negro 1",
+    "source_kind": "MASTER_BEAST",
+    "identity": "Espinodonte",
+    "ca": 66,
+    "hp": 1120,
+    "initial_numeric_attacks": [],
+    "features": [
+      "Investida Espinhosa no numeric damage",
+      "Rocha Flamejante area no dice"
+    ],
+    "notes": [
+      "drop dice excluded"
+    ],
+    "source_last_edited_at": "2026-10-01T18:01:10.358Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "ON1c",
+    "page_id": "294c2b324ede83cc8529017b8555b5be",
+    "url": "https://app.notion.com/p/294c2b324ede83cc8529017b8555b5be",
+    "title_rank": "Ouro Negro 1",
+    "body_rank": "Lendário (star absent)",
+    "tree_rank": "Ouro Negro 1",
+    "source_kind": "MASTER_BEAST",
+    "identity": "Carpe Draco",
+    "ca": 75,
+    "hp": 1040,
+    "initial_numeric_attacks": [],
+    "features": [
+      "Sopro de Água area push no numeric damage"
+    ],
+    "notes": [
+      "drop dice excluded"
+    ],
+    "source_last_edited_at": "2026-10-01T18:00:46.285Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "L1a",
+    "page_id": "6c6c2b324ede8295ad98813f0db138f4",
+    "url": "https://app.notion.com/p/6c6c2b324ede8295ad98813f0db138f4",
+    "title_rank": "Lendário 1",
+    "body_rank": "Lendário (star absent)",
+    "tree_rank": "Lendário 4",
+    "source_kind": "MASTER_BEAST",
+    "identity": "Wyvern",
+    "ca": 150,
+    "hp": 5250,
+    "initial_numeric_attacks": [],
+    "features": [
+      "Garras Afiadas vague damage",
+      "Escamas Resistentes undefined specific RD"
+    ],
+    "notes": [
+      "body Legendary without star, tree L4 conflicts title L1"
+    ],
+    "source_last_edited_at": "2026-10-01T18:00:50.110Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "L1b",
+    "page_id": "ffec2b324ede8289a99101f42099c55c",
+    "url": "https://app.notion.com/p/ffec2b324ede8289a99101f42099c55c",
+    "title_rank": "Lendário 1 Titã",
+    "body_rank": "Bronze (star absent)",
+    "tree_rank": "Lendário 1",
+    "source_kind": "MASTER_BEAST",
+    "identity": "Elefante Colossal",
+    "ca": 133,
+    "hp": 6090,
+    "initial_numeric_attacks": [],
+    "features": [
+      "Pisada Sísmica area no dice",
+      "resist physical nonmagic amount absent"
+    ],
+    "notes": [
+      "title Lendario Titan vs body Bronze",
+      "drops dice excluded"
+    ],
+    "source_last_edited_at": "2026-10-01T18:01:07.676Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "L1c",
+    "page_id": "394c2b324ede82a3b9f401465b96f9ed",
+    "url": "https://app.notion.com/p/394c2b324ede82a3b9f401465b96f9ed",
+    "title_rank": "Lendário 1 Titã",
+    "body_rank": "Bronze (star absent)",
+    "tree_rank": "Lendário 1",
+    "source_kind": "MASTER_BEAST",
+    "identity": "Guardião Etéreo",
+    "ca": 121,
+    "hp": 3150,
+    "initial_numeric_attacks": [],
+    "features": [
+      "Círculos Místicos DoT lacks magnitude and duration",
+      "Explosão Etérea area lacks damage"
+    ],
+    "notes": [
+      "title Lendario Titan vs body Bronze"
+    ],
+    "source_last_edited_at": "2026-10-01T18:00:57.259Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "bleed1",
+    "page_id": "7d9c2b324ede83698dc381e76c958649",
+    "url": "https://app.notion.com/p/7d9c2b324ede83698dc381e76c958649",
+    "title_rank": null,
+    "body_rank": null,
+    "tree_rank": null,
+    "source_kind": "PARTY_MIRROR_EXCLUDE",
+    "identity": "Sangramento (Party Mestre Espelho)",
+    "ca": null,
+    "hp": null,
+    "initial_numeric_attacks": [],
+    "features": [],
+    "notes": [
+      "PARTY mirror located, content excluded from Master corpus and no cross-surface data propagation"
+    ],
+    "source_last_edited_at": "2026-09-30T04:46:05.791Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "bleed2",
+    "page_id": "3f5c2b324ede81b191dac6a379e5781f",
+    "url": "https://app.notion.com/p/3f5c2b324ede81b191dac6a379e5781f",
+    "title_rank": null,
+    "body_rank": "Ouro",
+    "tree_rank": null,
+    "source_kind": "PS_SEMICANON_EXCLUDE",
+    "identity": "Pérola Sangue Sereno",
+    "ca": null,
+    "hp": null,
+    "initial_numeric_attacks": [],
+    "features": [
+      "proposed healing 4d8+8, 18PA, Action Standard, 1 application/8h"
+    ],
+    "notes": [
+      "healing not damage and incubating PS; no official inference"
+    ],
+    "source_last_edited_at": "2026-10-10T18:38:56.762Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "poison1",
+    "page_id": "3efc2b324ede815f9e59efd4445697fb",
+    "url": "https://app.notion.com/p/3efc2b324ede815f9e59efd4445697fb",
+    "title_rank": null,
+    "body_rank": "Bronze 5 proposed",
+    "tree_rank": null,
+    "source_kind": "PS_SEMICANON_EXCLUDE",
+    "identity": "Lótus Veneno Quieto",
+    "ca": null,
+    "hp": null,
+    "initial_numeric_attacks": [],
+    "features": [
+      "proposal ingredient, no numeric damage"
+    ],
+    "notes": [
+      "explicit noncanonical/PS only"
+    ],
+    "source_last_edited_at": "2026-10-06T19:09:56.012Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "poison2",
+    "page_id": "1a8c2b324ede82068fdd01d6066b2184",
+    "url": "https://app.notion.com/p/1a8c2b324ede82068fdd01d6066b2184",
+    "title_rank": null,
+    "body_rank": null,
+    "tree_rank": null,
+    "source_kind": "MASTER_NARRATIVE_ITEM",
+    "identity": "Veneno de Água-viva",
+    "ca": null,
+    "hp": null,
+    "initial_numeric_attacks": [],
+    "features": [
+      "poison usable in potions/toxins, no numeric damage or application"
+    ],
+    "notes": [
+      "no numeric recipe, no poison damage"
+    ],
+    "source_last_edited_at": "2026-09-30T04:44:25.812Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "cost1",
+    "page_id": "3f6c2b324ede81a78a59d3d81fd5e966",
+    "url": "https://app.notion.com/p/3f6c2b324ede81a78a59d3d81fd5e966",
+    "title_rank": "Ouro Negro 5",
+    "body_rank": "Ouro Negro 5",
+    "tree_rank": null,
+    "source_kind": "MASTER_PROPOSED_ENCOUNTER_EXCLUDE",
+    "identity": "Sikong Iskiel proposed encounter",
+    "ca": null,
+    "hp": null,
+    "initial_numeric_attacks": [],
+    "features": [
+      "many numeric equipment/action costs; not official native character"
+    ],
+    "notes": [
+      "Master-side encounter proposal; not current canonical actor"
+    ],
+    "source_last_edited_at": "2026-10-11T11:45:05.928Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  },
+  {
+    "cohort_key": "cost2",
+    "page_id": "3edc2b324ede816cbad5ca3880ce144d",
+    "url": "https://app.notion.com/p/3edc2b324ede816cbad5ca3880ce144d",
+    "title_rank": null,
+    "body_rank": "Sem classificação",
+    "tree_rank": null,
+    "source_kind": "MASTER_EQUIPMENT",
+    "identity": "Traje águia celeste",
+    "ca": null,
+    "hp": null,
+    "initial_numeric_attacks": [],
+    "features": [
+      "20PA/day ongoing",
+      "Voo da Águia costs 4PA per activation, at most once/turn, movement 4.5m",
+      "Contra-ataque grants +2CA while Counterattacking; no wearer/source data"
+    ],
+    "notes": [
+      "current item, not equipped by selected beast and not an attack"
+    ],
+    "source_last_edited_at": "2026-10-03T13:21:42.496Z",
+    "source_content_sha256": "NOT AVAILABLE: fetched Notion content not transported as raw bytes to local corpus"
+  }
+]

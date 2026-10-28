@@ -1,0 +1,77 @@
+{
+  "as_of": "2026-10-19",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "external_temp_directory": "/tmp/dmg_c11_cold_by5bso2n",
+  "archive_sha256": "d4a91fb7a0b7d0ab44cb8b39d652db0cab15f0a2532194ca2ec41dba2e0e089e",
+  "commands": [
+    {
+      "cmd": "python c11_empirical_diagnosis.py",
+      "code": 0,
+      "last": "_rank\": 11.5, \"q25_nearest_rank\": 22.5, \"median\": 27.0, \"mean\": 24.083333333333332, \"trimmed_20pct_mean\": 26.125, \"q75_nearest_rank\": 28.0, \"q90_nearest_rank\": 28.5, \"max\": 28.5, \"IQR\": 5.5, \"MAD\": 1.25, \"std_population\": 5.961100755919348, \"CV_descriptive\": 0.24751975457104558, \"scope\": \"SELECTED_NON_RANDOM_N_LT10_DO_NOT_GENERALIZE\"}, \"l_intrinsic_fip\": 3}\n",
+      "stderr": ""
+    },
+    {
+      "cmd": "python c11_independent_oracle.py",
+      "code": 0,
+      "last": "amba_gross_equal_mamute_exact\": \"235/2592\", \"p_gamba_gt_pct\": 25.829475308641975, \"source_p1_means\": [\"31\", \"32\", \"32\", \"65/2\", \"34\", \"81/2\"], \"source_b5_means\": [\"23/2\", \"45/2\", \"53/2\", \"55/2\", \"28\", \"57/2\"], \"limitations\": \"NO independent human auditor, selected sources, no formal blind holdout, no attribution of rank effect; experimental snapshots only\"}\n",
+      "stderr": ""
+    },
+    {
+      "cmd": "python generate_c11_queries.py",
+      "code": 0,
+      "last": "C11_FIVE_QUESTIONS 5\n",
+      "stderr": ""
+    }
+  ],
+  "reproduced_artifact_bitwise_checks": [
+    {
+      "file": "C11_19_EFFECTS_SOURCE_SCOPED.csv",
+      "same_bytes": true,
+      "sha256": "257494ae989c96f9bb753f93f388af0bda9e13066d4534f0c9bdd53097315836"
+    },
+    {
+      "file": "C11_STRATA_HETEROGENEITY_AND_SENSITIVITY.json",
+      "same_bytes": true,
+      "sha256": "c9cbeecf8440cabd579a74d40205e1e4a0e4665d72a181d24290f638670e899b"
+    },
+    {
+      "file": "C11_MATH_PMF_SUMMARIES.json",
+      "same_bytes": true,
+      "sha256": "8cb8b5232d9dfda16572c8effa7c476bc4c48d0d0d3496a1478c32ba6d32b72a"
+    },
+    {
+      "file": "C11_SOURCE_SCOPE_MANIFEST.json",
+      "same_bytes": true,
+      "sha256": "a4017915059693e8361ccd6a79ef028476f644b319bf3a45a7070c432aac422b"
+    },
+    {
+      "file": "C11_LENDARIO_FIP_DIAGNOSTIC_NOT_ADJUDICATION.csv",
+      "same_bytes": true,
+      "sha256": "0d14c357f8b2fcfd078f04a7a594fa177cd18690daf67090e2dc89ed79d0a8ee"
+    },
+    {
+      "file": "C11_SOURCE_PAIRED_PA_MARGINAL.csv",
+      "same_bytes": true,
+      "sha256": "2139993c2f2856325c0d6ed4e8655a697ed99798edeab3dde403d93367cb7cfb"
+    },
+    {
+      "file": "C11_BURST_VS_SUSTAIN_RIDER_WINDOWS_TEST.csv",
+      "same_bytes": true,
+      "sha256": "13da035b29863de3d88e590fe465ff102ecf8c0cd1d5ecc9adc6008b65db88de"
+    },
+    {
+      "file": "C11_INDEPENDENT_MATH_ORACLE_PASS.json",
+      "same_bytes": true,
+      "sha256": "3db27cf79d27ac5093e810df37c6f5bfe32fb76c9989a29f4093ea6087ab0fa4"
+    },
+    {
+      "file": "C11_FIVE_MESTRE_QUESTIONS_REPRODUCED.json",
+      "same_bytes": true,
+      "sha256": "b88e891a6e2ff45438f6aa92f5901c73d4af55682fe5840dfb44032d9c0ffb43"
+    }
+  ],
+  "all_pass": true,
+  "n_files_reproduced": 9,
+  "n_commands": 3,
+  "independent_oracle_checks": 282
+}

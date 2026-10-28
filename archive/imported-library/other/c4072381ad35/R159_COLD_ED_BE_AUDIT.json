@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "selected_runs": 4,
+  "source": "COLD_SEMANTIC_INDEPENDENT_NO_ENGINE_IMPORT",
+  "total_events": 457,
+  "totals": {
+    "turn_starts": 153,
+    "native_attacks": 151,
+    "weak_attacks": 7,
+    "actual_hp_loss": 12945,
+    "overkill": 153,
+    "turn_ends": 152,
+    "native_specials": 1,
+    "pa_spent": 55
+  },
+  "runs": [
+    {
+      "file": "R159_ED_GRIFO_AUREN_BE_BASIC_DEV_S998801.sqlite",
+      "run_id": "R159-G_FULL-998801-BE_BASIC",
+      "events": 156,
+      "seed": 998801,
+      "scene": "G_FULL",
+      "side": "BE_BASIC",
+      "causal_integrity": "PASS",
+      "counts": {
+        "turn_starts": 52,
+        "native_attacks": 52,
+        "crits_plus": 0,
+        "crits_negative_lab": 0,
+        "weak_attacks": 3,
+        "final_efforts": 0,
+        "actual_hp_loss": 4315,
+        "overkill": 149,
+        "turn_ends": 52
+      },
+      "winner": "E",
+      "phase": "FINISHED",
+      "last_head": "c450a313059d3cc391b44056711d280e00308299914d98066343fbcbed5acb69"
+    },
+    {
+      "file": "R159_ED_GRIFO_AUREN_BE_BASIC_DEV_S998803.sqlite",
+      "run_id": "R159-G_FULL-998803-BE_BASIC",
+      "events": 150,
+      "seed": 998803,
+      "scene": "G_FULL",
+      "side": "BE_BASIC",
+      "causal_integrity": "PASS",
+      "counts": {
+        "turn_starts": 50,
+        "native_attacks": 50,
+        "crits_plus": 0,
+        "crits_negative_lab": 0,
+        "weak_attacks": 2,
+        "final_efforts": 0,
+        "actual_hp_loss": 4315,
+        "overkill": 2,
+        "turn_ends": 50
+      },
+      "winner": "E",
+      "phase": "FINISHED",
+      "last_head": "97377379afe5010a58b70a61e5d6bffabb58c5691caa586809a74e4c6751fbd4"
+    },
+    {
+      "file": "R159_ED_GRIFO_AUREN_BE_SPECIAL_DEV_S998801.sqlite",
+      "run_id": "R159-G_FULL-998801-BE_SPECIAL",
+      "events": 1,
+      "seed": 998801,
+      "scene": "G_FULL",
+      "side": "BE_SPECIAL",
+      "causal_integrity": "PASS",
+      "counts": {
+        "turn_starts": 1
+      },
+      "winner": null,
+      "phase": "ACTIVE",
+      "last_head": "865562316de6b40bb7858332b0126f2ff3329b876f46c05522e57352d98e6336"
+    },
+    {
+      "file": "R159_ED_GRIFO_AUREN_BE_SPECIAL_DEV_S998803.sqlite",
+      "run_id": "R159-G_FULL-998803-BE_SPECIAL",
+      "events": 150,
+      "seed": 998803,
+      "scene": "G_FULL",
+      "side": "BE_SPECIAL",
+      "causal_integrity": "PASS",
+      "counts": {
+        "turn_starts": 50,
+        "native_specials": 1,
+        "pa_spent": 55,
+        "turn_ends": 50,
+        "native_attacks": 49,
+        "crits_plus": 0,
+        "crits_negative_lab": 0,
+        "weak_attacks": 2,
+        "final_efforts": 0,
+        "actual_hp_loss": 4315,
+        "overkill": 2
+      },
+      "winner": "E",
+      "phase": "FINISHED",
+      "last_head": "837688a0df8e11cbcc148740724cdbe1d48fddd6665a54fd0e56cb35a2e093d8"
+    }
+  ],
+  "odd_seed_case": "S998801 special stopped on odd half; physically 1 intent-free event not counted as full combat",
+  "official_power_cells": 0,
+  "terminal_contracts_certified": 0
+}

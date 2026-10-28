@@ -1,0 +1,69 @@
+{
+  "bundle": "PACOTE_REFERENCIAS_VIDEOS_LOTE01_TEST_20261023.zip",
+  "files": {
+    "DOSSIE_VIDEO_LOTE01_INOVADOR.md": {
+      "sha256": "8b78cdfe7a33e9fcef3b770399bf5406249acbeec51da800f7b5a763c60e2146",
+      "bytes": 15890
+    },
+    "build_assets.py": {
+      "sha256": "6cf664c6eafe4af3a97bbf56426e4ac79e1e5ff7f97b03239b0d8140b9519949",
+      "bytes": 2916
+    },
+    "visualizador_atlas_TEST.html": {
+      "sha256": "8b260aaf42f01e672182b863d08b0bbf34f6bbc2aa94480df1ff63c8d217acbd",
+      "bytes": 2084
+    },
+    "test_visualizador.py": {
+      "sha256": "4185e74e9233e3327d748fbf6e5ec4cbec62facee5f7c9cf874f4fbe7d0d0f9a",
+      "bytes": 1330
+    },
+    "MANIFESTO_ASSETS_TEST.json": {
+      "sha256": "6212eb2216f0be09397ea5ce40f5d5e84b811740c71fd71e5312c4ef20790150",
+      "bytes": 1222
+    },
+    "screenshot_prova_assets_chromium_390x844.png": {
+      "sha256": "b777878af2412715e61106529dc6cd03f72a95c83a819207a9992ca30e2e75d0",
+      "bytes": 23702
+    },
+    "contact_495923.jpg": {
+      "sha256": "efb38a037a963f1c9cbe702f98e792cdd4d596a150843223658feb38141c5e61",
+      "bytes": 415779
+    },
+    "contact_495933.jpg": {
+      "sha256": "c6277f6395dd2167cbedef78ade463603c922d27588bbbc52ea797bed0eb44cc",
+      "bytes": 167886
+    },
+    "contact_495943.jpg": {
+      "sha256": "b65d46ca1fbea524b04ea2a13472cc3e2cbb7fe5dfb3fbf1d267ceec788e0862",
+      "bytes": 336960
+    },
+    "contact_495950.jpg": {
+      "sha256": "a8e18f00cc619f772b403493789aa29ffa5fdb505d3e43d200e44424e3a1d74f",
+      "bytes": 106211
+    },
+    "contact_495957.jpg": {
+      "sha256": "1c4da005d13169659a633e9bbce320d364fc80c254c8626b0eccd7f5a3a9d039",
+      "bytes": 137620
+    },
+    "base_agua.png": {
+      "sha256": "d9d71375696ae168f50f5fd4578090e9cd20c28c7ba1b2fe6af1dc2bb8f20505",
+      "bytes": 199
+    },
+    "base_grama.png": {
+      "sha256": "ce23a9741c9414f2e01204f5cb0c315e4bc6e610da745183ab8bdf5432c4ea3d",
+      "bytes": 194
+    },
+    "base_pedra.png": {
+      "sha256": "7fe6a88953bd08734ddddd863a1f3a4fb48193efb9f2048155b3fb36d362f2d2",
+      "bytes": 194
+    },
+    "inimigo_test_sprite_atlas.png": {
+      "sha256": "d608a988e638a40a882a1c4724561e2596ef32382f292a1e273703405aa9e6ec",
+      "bytes": 643
+    },
+    "mestre_test_sprite_atlas.png": {
+      "sha256": "35dcd85f3460f13e4a4ecb378ab6e5985276d2d4ad372fb71fe124af7482b59e",
+      "bytes": 643
+    }
+  }
+}

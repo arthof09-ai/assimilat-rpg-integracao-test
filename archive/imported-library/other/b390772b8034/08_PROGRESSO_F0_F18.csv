@@ -1,0 +1,20 @@
+phase,name,local_state,physically_evidenced,next_acceptance,dependencies
+F0,Pré-registro/autoridades/freeze,PARCIAL,4/8 documentary gates historical; local source-excerpt hashes+holdout defined; no independent full-source freeze,"Full source fingerprint per fixture, maps all authorized surfaces, separate independent reviewer and writer eligibility",DMG can freeze local evidence; no native VLAB dependency
+F1,Descoberta e censo,PARCIAL,Additional bounded lot of Notion physical pages analyzed; global D0 UNKNOWN,Enumerate all roots and candidates; close all inspected SOURCE-PAGE vs global collection D0,DMG-only
+F2,Dedup e genealogia,PARCIAL,Mirror pages/versions grouped as occurrences; not independent samples,Resolve all canon/historical/Party crosswalks across full corpus,DMG-only
+F3,Extração forense,PARCIAL,Effect records and literal snippets for this lot,Extract every effect from all candidate pages and decide PRESENT/ABSENT/PARTIAL,DMG-only
+F4,Normalização matemática,PARCIAL,"Dice+fixed exact local DMEs, no unproved external bonuses","Distributions and ambiguous full-corpus formulas, independently audited",DMG-only
+F5,Taxonomia universal,PARCIAL,Source/cause/damage-type/DoT/mixed/raw split in lot,"Resolve unknown source tags, independent coder, cross-family taxonomy",DMG-only
+F6,Classificação,PARCIAL,RN actor/RI item/RE unknown distinct; contradictions marked,Official reconciliation of all RE/FIP stars and variants,DMG-only
+F7,Dossiês tipo x rank,PARCIAL_LOT_ONLY,"Sparse per-layer/type/rank documentary cells, not rank-wide atlas",Full F1-F6 eligible census then each type x rank,DMG; VLAB only for external performance
+F8,Estatísticas robustas,PARCIAL_EXPLORATORIA,n/min/median/mean/max where n permits; no generalization,"n sufficient, clustering, quartiles when meaningful, intervals",DMG; VLAB for combat stats
+F9,Matched pairs/entrega,NAO_INICIADA,No matched canonical physical comparators certified; R23 fictitious contrast not canonical,Comparable matched pairs with state/action/cost,DMG stats; VLAB full-fight
+F10,Fronteiras entre ranks,NAO_INICIADA,Current lot sparse and rank axis mixed; no rank inference,Comparable strata adjacent ranks and controls,DMG stats; VLAB for defense effects
+F11,Benchmark ladder,PARCIAL_PLANEJADA,"1875 technical cells specified; 0 canonical eligible, VLAB R23 synthetic run evidence",Strong/low/high/outlier canonical comparators per type x rank,DMG selection+VLAB full combat
+F12,Vieses do corpus,PARCIAL_LOT_ONLY,Party duplicates and high-end item outlier flagged; no global representativeness,Audit whole census clusters and source biases,"DMG-only, VLAB result analysis later"
+F13,Candidata DMG v2,NAO_INICIADA,No proposed official candidate intentionally,Corpus sufficient + expert hypothesis after F7-F12,DMG with Mestre gate
+F14,Regressão da candidata,NAO_INICIADA,No DMG v2 candidate exists,Apply same corpus and seeds to v1.1 and v2,DMG+VLAB
+F15,Stress adversarial candidata,NAO_INICIADA,"No candidate, no authorized full-scene stress",Stress stacking/bypass/crit/DoT cross-rank,DMG+VLAB
+F16,Playtest humano e validação,NAO_INICIADA,No human playtest under future candidate,Human sessions distinct from Monte Carlo,Mestre/players only if specifically authorized
+F17,Decisão Mestre/NAC,NAO_INICIADA,"No v2, no normative acceptance",Mestre review + NAC-NORM/NAC-PASS,Mestre and competent gates
+F18,Migração JIT e reversão,NAO_INICIADA,No migration planned/executed,Approved rollout and rollback with authority,Competent writer/gate

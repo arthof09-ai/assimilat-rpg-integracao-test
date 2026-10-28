@@ -1,0 +1,5 @@
+definition_id,source_key,position,expression,note,intrinsic_dme,intrinsic_min,intrinsic_max,intrinsic_variance,dice_groups,intrinsic_fixed,status
+FRIO_V3_MAIN,frio_v3,HEADER,4d8+8,conflicts with body 2d8+2,26.0,12,40,21.0,"[{'quantity': 4, 'faces': 8}]",8,CONFLICT_ALTERNATIVE_NOT_SELECTED
+FRIO_V3_MAIN,frio_v3,BODY,2d8+2,conflicts with header 4d8+8,11.0,4,18,10.5,"[{'quantity': 2, 'faces': 8}]",2,CONFLICT_ALTERNATIVE_NOT_SELECTED
+COLUNA_V2_DOT,coluna_v2,HEADER,3d6,header says cost 12PA,10.5,3,18,8.75,"[{'quantity': 3, 'faces': 6}]",0,CONFLICT_ALTERNATIVE_NOT_SELECTED
+COLUNA_V2_DOT,coluna_v2,BODY,2d6,body says cost 11PA,7.0,2,12,5.833333333333333,"[{'quantity': 2, 'faces': 6}]",0,CONFLICT_ALTERNATIVE_NOT_SELECTED

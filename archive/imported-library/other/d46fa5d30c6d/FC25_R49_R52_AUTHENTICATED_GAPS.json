@@ -1,0 +1,297 @@
+{
+  "recovery": {
+    "archive_chain": [
+      {
+        "unit": "R52",
+        "archive_sha256": "abb373d4b25ca017c91adf7dec17e25f3f73bed7a8973d419921be3addf276ee",
+        "archive_bytes": 10938039,
+        "zip_crc": "PASS",
+        "zip_members": 9
+      },
+      {
+        "unit": "R51",
+        "archive_sha256": "7d18136e1220f1ba2c0b784d27fa9a3d62b2de079b1534b3da89f49725c1803f",
+        "archive_bytes": 10920501,
+        "zip_crc": "PASS",
+        "zip_members": 15
+      },
+      {
+        "unit": "R50",
+        "archive_sha256": "17a52e9c3715509ffc870161a03f3c5589668f46736149a307de0e6d39491772",
+        "archive_bytes": 10899864,
+        "zip_crc": "PASS",
+        "zip_members": 18
+      },
+      {
+        "unit": "R49",
+        "archive_sha256": "9836107af402d277909dfe6c3886f4c2a2db4ea5a5edc8e365b142b91d0fd99e",
+        "archive_bytes": 10957591,
+        "zip_crc": "PASS",
+        "zip_members": 210
+      }
+    ],
+    "evidence_files_sha256": {
+      "R49_gaps": "c3a98592afef96c5d51edf474207afc1df7110009a70dcd86170222170fa2acb",
+      "R49_plan_B30_01": "f9836f78b2a0eb05f339af619543785ec48f0a830ffde627cb138dad1185a247",
+      "R49_plan_B30_03": "977a59d214371eee3884f90d39e234a1d00bc22dc8dd0d1b45cd49eb4d66ab4d",
+      "R50_lineage": "cc42e883b21a7d9c5b04237cfb701633ed491603a68c9e6313b3cda52d9d66dd",
+      "R50_minimal_actions": "f02a8c417344d2a71876a223c6aab6f8b1c52d1194866995e803d0cc5321ae33",
+      "R51_actual_slate_source": "a1d5884402bbce7169b18a2b74ff90aa3aba556966f048bb63c449017081f6fa"
+    },
+    "source_verified_historical_not_new_notion_readback": true,
+    "notion_executing_instance_error": "link_id must identify an eligible linked account",
+    "R49_gap_denominators": {
+      "total": 26,
+      "B30-01": 13,
+      "B30-03": 13,
+      "AUTHORIZATION_OR_MASTER_DECISION": 8,
+      "CRAFT_ENGINEERING": 2,
+      "PHYSICAL_MEASUREMENT_OR_VALIDATION": 16
+    },
+    "R49_reported_closed_officially": 0,
+    "R49_plan_status": {
+      "B30-01": "DRY_RUN_NON_EXECUTABLE_OFFICIALLY",
+      "B30-03": "DRY_RUN_NON_EXECUTABLE_OFFICIALLY"
+    },
+    "R50_global_absence_certified": false,
+    "R50_B30_01_alias_decision": "Tábua Lamelar de Ardósia = Tábua Lamelar de Inscrição (mesma candidatura)",
+    "R50_B30_03_collision": "Espaçador Dielétrico Boreal versus Espaçador de Mica Calibrado — POTENTIAL_SAME_LINEAGE_CONFLICT",
+    "no_changes_to_historical_status": true
+  },
+  "gaps": [
+    {
+      "design_id": "B30-01",
+      "r49_gap": "P0_FENCING_C19",
+      "r49_category_original": "AUTHORIZATION_OR_MASTER_DECISION",
+      "r49_status_original": "NOT_DEMONSTRATED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "publication_only",
+      "fc25_interpretation": "Coordenação: IBX-38/fencing técnico; não é condição material do desenho"
+    },
+    {
+      "design_id": "B30-01",
+      "r49_gap": "P0_C19_021_UNKNOWN_EFFECT",
+      "r49_category_original": "AUTHORIZATION_OR_MASTER_DECISION",
+      "r49_status_original": "PENDING_RECONCILIATION",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "publication_only",
+      "fc25_interpretation": "Coordenação: reconciliar C19-021 antes de qualquer commit"
+    },
+    {
+      "design_id": "B30-01",
+      "r49_gap": "PS_SOURCE_REAL_STOCK_AND_UNITS",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "UNVERIFIED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "campaign_fabrication",
+      "fc25_interpretation": "Estoque real necessário para fabricar em campanha, não exigência universal de protótipo documental RC5"
+    },
+    {
+      "design_id": "B30-01",
+      "r49_gap": "REAL_LOT_DIMENSIONS_AND_IDENTITY",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "UNVERIFIED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "campaign_fabrication",
+      "fc25_interpretation": "Unidade de lâmina >=130x90x9 é requisito condicional de aceitação; ocorrência real não comprovada"
+    },
+    {
+      "design_id": "B30-01",
+      "r49_gap": "MEASURED_PROCESS_YIELD_AND_FAILURE_RATES",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "NOT_MEASURED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "conditional_engineering",
+      "fc25_interpretation": "Rendimento por tentativa está definido (0/1); taxa física e custos/risco reais indeterminados. Aprovação técnica requer tratamento econômico/risco admitido, não inventar p"
+    },
+    {
+      "design_id": "B30-01",
+      "r49_gap": "TOOLS_SKILLS_OPERATOR_REAL_WORLD",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "NOT_VERIFIED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "technical_and_campaign_separable",
+      "fc25_interpretation": "Ferramentas e ofício como requisitos de projeto existentes; aptidão/autoridade de conhecimento in-game não verificada; operador em campanha separável"
+    },
+    {
+      "design_id": "B30-01",
+      "r49_gap": "CALIBRATION_CUSTODY_AUTHENTICITY",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "SIMULATED_FIXTURES_ONLY",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "campaign_fabrication",
+      "fc25_interpretation": "QA requer instrumento compatível e critérios; calibração de ocorrência real é condição de execução, não prova universal da receita"
+    },
+    {
+      "design_id": "B30-01",
+      "r49_gap": "QUALITY_PHYSICAL_INDEPENDENT_TEST",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "NOT_MEASURED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "conditional_engineering",
+      "fc25_interpretation": "QA de projeto e teste sintético existentes; aceitação dos critérios por autoridade competente e aplicabilidade material ainda necessárias; ensaio terrestre não universal"
+    },
+    {
+      "design_id": "B30-01",
+      "r49_gap": "COST_UTE_CTE_MED_BY_MARKET_TIME",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "UNKNOWN",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "technical_economic_conditional",
+      "fc25_interpretation": "Anexo C exige árvore UTE/CTE e unidade/rendimento; preço de mercado somente se aplicável/validado, não inventar"
+    },
+    {
+      "design_id": "B30-01",
+      "r49_gap": "FUNCTIONAL_BENCHMARK_VS_COMMON_SUBSTITUTES",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "NOT_MEASURED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "technical_lineage",
+      "fc25_interpretation": "Função de gabarito diferente da rocha bruta; diferencial versus receita de gabarito genérico não provado; existente-first e relação S0/S1/S2"
+    },
+    {
+      "design_id": "B30-01",
+      "r49_gap": "ANTI_DUPLICATE_GLOBAL_RECIPE_PRODUCT_LINEAGE",
+      "r49_category_original": "CRAFT_ENGINEERING",
+      "r49_status_original": "SEARCH_LIMITED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "technical_lineage_and_publication",
+      "fc25_interpretation": "Consulta dirigida R49/R50 sem duplicata positiva; revisão competente de produto/fórmula deve anteceder RC5 e commit"
+    },
+    {
+      "design_id": "B30-01",
+      "r49_gap": "REC_LIB_SINGLE_PHYSICAL_PARENT",
+      "r49_category_original": "AUTHORIZATION_OR_MASTER_DECISION",
+      "r49_status_original": "PENDING_DESTINATION",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "publication_only",
+      "fc25_interpretation": "Coordenação IBX-78: destino pai único ainda não confirmado; não é defeito de BOM"
+    },
+    {
+      "design_id": "B30-01",
+      "r49_gap": "CANONICAL_LINKS_AND_PS_JIT_AUTHORIZATION",
+      "r49_category_original": "AUTHORIZATION_OR_MASTER_DECISION",
+      "r49_status_original": "PENDING",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "technical_authority_and_publication",
+      "fc25_interpretation": "PS da matéria-prima existe; conhecimento, segurança e JIT de introdução em campanha separados de publicação de links"
+    },
+    {
+      "design_id": "B30-03",
+      "r49_gap": "P0_FENCING_C19",
+      "r49_category_original": "AUTHORIZATION_OR_MASTER_DECISION",
+      "r49_status_original": "NOT_DEMONSTRATED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "publication_only",
+      "fc25_interpretation": "Coordenação: IBX-38/fencing técnico; não é condição material do desenho"
+    },
+    {
+      "design_id": "B30-03",
+      "r49_gap": "P0_C19_021_UNKNOWN_EFFECT",
+      "r49_category_original": "AUTHORIZATION_OR_MASTER_DECISION",
+      "r49_status_original": "PENDING_RECONCILIATION",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "publication_only",
+      "fc25_interpretation": "Coordenação: reconciliar C19-021 antes de qualquer commit"
+    },
+    {
+      "design_id": "B30-03",
+      "r49_gap": "PS_SOURCE_REAL_STOCK_AND_UNITS",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "UNVERIFIED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "campaign_fabrication",
+      "fc25_interpretation": "Estoque real necessário para fabricar em campanha, não exigência universal de protótipo documental RC5"
+    },
+    {
+      "design_id": "B30-03",
+      "r49_gap": "REAL_LOT_DIMENSIONS_AND_IDENTITY",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "UNVERIFIED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "campaign_fabrication",
+      "fc25_interpretation": "Unidade de lâmina >=130x90x9 é requisito condicional de aceitação; ocorrência real não comprovada"
+    },
+    {
+      "design_id": "B30-03",
+      "r49_gap": "MEASURED_PROCESS_YIELD_AND_FAILURE_RATES",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "NOT_MEASURED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "conditional_engineering",
+      "fc25_interpretation": "Rendimento por tentativa está definido (0/1); taxa física e custos/risco reais indeterminados. Aprovação técnica requer tratamento econômico/risco admitido, não inventar p"
+    },
+    {
+      "design_id": "B30-03",
+      "r49_gap": "TOOLS_SKILLS_OPERATOR_REAL_WORLD",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "NOT_VERIFIED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "technical_and_campaign_separable",
+      "fc25_interpretation": "Ferramentas e ofício como requisitos de projeto existentes; aptidão/autoridade de conhecimento in-game não verificada; operador em campanha separável"
+    },
+    {
+      "design_id": "B30-03",
+      "r49_gap": "CALIBRATION_CUSTODY_AUTHENTICITY",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "SIMULATED_FIXTURES_ONLY",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "campaign_fabrication",
+      "fc25_interpretation": "QA requer instrumento compatível e critérios; calibração de ocorrência real é condição de execução, não prova universal da receita"
+    },
+    {
+      "design_id": "B30-03",
+      "r49_gap": "QUALITY_PHYSICAL_INDEPENDENT_TEST",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "NOT_MEASURED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "conditional_engineering",
+      "fc25_interpretation": "QA de projeto e teste sintético existentes; aceitação dos critérios por autoridade competente e aplicabilidade material ainda necessárias; ensaio terrestre não universal"
+    },
+    {
+      "design_id": "B30-03",
+      "r49_gap": "COST_UTE_CTE_MED_BY_MARKET_TIME",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "UNKNOWN",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "technical_economic_conditional",
+      "fc25_interpretation": "Anexo C exige árvore UTE/CTE e unidade/rendimento; preço de mercado somente se aplicável/validado, não inventar"
+    },
+    {
+      "design_id": "B30-03",
+      "r49_gap": "FUNCTIONAL_BENCHMARK_VS_COMMON_SUBSTITUTES",
+      "r49_category_original": "PHYSICAL_MEASUREMENT_OR_VALIDATION",
+      "r49_status_original": "NOT_MEASURED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "technical_lineage",
+      "fc25_interpretation": "Função de gabarito diferente da rocha bruta; diferencial versus receita de gabarito genérico não provado; existente-first e relação S0/S1/S2"
+    },
+    {
+      "design_id": "B30-03",
+      "r49_gap": "ANTI_DUPLICATE_GLOBAL_RECIPE_PRODUCT_LINEAGE",
+      "r49_category_original": "CRAFT_ENGINEERING",
+      "r49_status_original": "SEARCH_LIMITED",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "technical_lineage_and_publication",
+      "fc25_interpretation": "Consulta dirigida R49/R50 sem duplicata positiva; revisão competente de produto/fórmula deve anteceder RC5 e commit"
+    },
+    {
+      "design_id": "B30-03",
+      "r49_gap": "REC_LIB_SINGLE_PHYSICAL_PARENT",
+      "r49_category_original": "AUTHORIZATION_OR_MASTER_DECISION",
+      "r49_status_original": "PENDING_DESTINATION",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "publication_only",
+      "fc25_interpretation": "Coordenação IBX-78: destino pai único ainda não confirmado; não é defeito de BOM"
+    },
+    {
+      "design_id": "B30-03",
+      "r49_gap": "CANONICAL_LINKS_AND_PS_JIT_AUTHORIZATION",
+      "r49_category_original": "AUTHORIZATION_OR_MASTER_DECISION",
+      "r49_status_original": "PENDING",
+      "r49_resolved_officially": false,
+      "fc25_classification_proposed": "technical_authority_and_publication",
+      "fc25_interpretation": "PS da matéria-prima existe; conhecimento, segurança e JIT de introdução em campanha separados de publicação de links"
+    }
+  ]
+}

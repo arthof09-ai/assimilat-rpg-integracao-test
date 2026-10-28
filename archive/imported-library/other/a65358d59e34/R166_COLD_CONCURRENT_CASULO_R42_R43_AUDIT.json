@@ -1,0 +1,64 @@
+[
+  {
+    "run": "R166_V2_CASULO_AOO_KO_DEV_S1205088",
+    "PASS": true,
+    "commits": 5,
+    "HP_final": 0,
+    "actor_ca": 247,
+    "actor_speed_penalty_m": 4,
+    "casulo_expiry": "HOLD",
+    "records": [
+      {
+        "run": "R166_V2_CASULO_AOO_KO_DEV_S1205088",
+        "roll_crit_first": [
+          6,
+          6,
+          6
+        ],
+        "net": [
+          114
+        ],
+        "actual": [
+          60
+        ],
+        "skipped": [
+          "V"
+        ],
+        "move": "CENTER",
+        "target_hp": 0
+      }
+    ],
+    "head": "e28b3cf55ca3cb2e8803ff086f1ba66a826a495ee6d1385bf1d62f9443c3bdc1"
+  },
+  {
+    "run": "R166_V2_CASULO_AOO_NEGATIVE_DEV_S1195557",
+    "PASS": true,
+    "commits": 5,
+    "HP_final": 523,
+    "actor_ca": 247,
+    "actor_speed_penalty_m": 4,
+    "casulo_expiry": "HOLD",
+    "records": [
+      {
+        "run": "R166_V2_CASULO_AOO_NEGATIVE_DEV_S1195557",
+        "roll_crit_first": [
+          1,
+          1,
+          2
+        ],
+        "net": [
+          0,
+          0
+        ],
+        "actual": [
+          0,
+          0
+        ],
+        "skipped": [],
+        "move": "OUT_OF_ADJACENCY",
+        "target_hp": 523
+      }
+    ],
+    "head": "34be7d7da2bfe57682d6084f01000f2978bdca743cac6aac2019101f2999a138"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "video_id": "496118",
+  "schema": "ASSIMILACAO_VIDEO_ACCEPTANCE_V1",
+  "canonical": false,
+  "created": "2026-10-24",
+  "privacy": "MESTRE_ONLY",
+  "real_program": false,
+  "title": "BATTLE-VERTICAL-SLICE-ACCEPTANCE",
+  "owner": "Coordenação audita, Dev implementa, VLAB mecânica",
+  "baseline": "TEST36/última versão",
+  "objective": "Ao menos um ciclo de combate tático real verificável",
+  "tests": [
+    "entrada em arena e turnos",
+    "comando autorizado ator/ação/alvo",
+    "recibo VLAB homologado com rastreio",
+    "Vida/Alma/PA atualizados SOMENTE por recibo",
+    "perda de ACK com UNKNOWN e consulta",
+    "3 aparelhos Android WSS role-safe quando permitido"
+  ],
+  "authority": "VLAB único motor; sala única autoridade do estado",
+  "output": "vídeo, testes e pacotes de BATALHA, não somente hardening",
+  "status": "HOLD_MECHANICS_SERVER_ANDROID"
+}

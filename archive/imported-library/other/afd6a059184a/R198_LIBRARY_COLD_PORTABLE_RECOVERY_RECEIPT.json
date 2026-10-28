@@ -1,0 +1,32 @@
+{
+  "status": "PASS_R198_COLD_PORTABLE_RECOVERY",
+  "as_of": "2026-10-19",
+  "file_hashes": 516,
+  "baseline_R197_sha256": "6b63f53ea35627f390feee8b695380ee9ea1bba8654c5ca2e0e4447219029602",
+  "baseline_R196_nested_sha256": "7dc3a95aafa7dfc4db6ae0d99f7c0474e630ea86f0f70dff4112abf771403786",
+  "core_fights": 38,
+  "core_attacks": 389,
+  "core_commits": 427,
+  "core_native_events": 1167,
+  "initiative_holds_before_commit": 2,
+  "magic_fights": 8,
+  "magic_casts": 20,
+  "magic_pa_spent": 160,
+  "total_completed_fights": 46,
+  "total_commits": 523,
+  "total_native_events": 1451,
+  "forged_hash_clones_semantically_rejected": [
+    "SOURCE_IDENTITY",
+    "ATTACK_SCORE",
+    "RD_MODIFIED",
+    "INIT_RESULT",
+    "CRITICAL_STATUS",
+    "MAGIC_PA_DEBIT",
+    "MAGIC_TAG"
+  ],
+  "historical_fights_rerun": 0,
+  "terminal_contracts": 0,
+  "official_benchmarks": 0,
+  "production": "HOLD",
+  "external_audit": false
+}

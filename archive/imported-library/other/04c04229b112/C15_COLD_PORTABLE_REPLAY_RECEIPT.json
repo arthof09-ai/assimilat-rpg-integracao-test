@@ -1,0 +1,12 @@
+{
+  "checkpoint": "C15",
+  "as_of": "2026-10-20",
+  "zip_sha256": "1f5d0c16a3a56a978acfc286c1b52886c109786515a06a160096fbf7c21201d5",
+  "zip_crc": "PASS",
+  "manifest_hashes": 12,
+  "cold_rerun_scripts": 2,
+  "cold_reproduced_outputs_byte_identical": 6,
+  "independent_vlab_db_source_sha256": "80a513dfc5f1c182597a576f416a752ca25a8b2aa8ba2634f9195fcc9c1cace2",
+  "historic_vlab_db_mutations": 0,
+  "lab_battles_reexecuted": 0
+}

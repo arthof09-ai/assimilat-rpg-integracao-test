@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "as_of": "2026-10-17",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "destination_library": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "recovered_files": [
+    {
+      "name": "DMG_C08_CONSULTOR_GENERALIZAVEL_20261017_MESTRE_ONLY.zip",
+      "bytes": 95978,
+      "sha256": "4653b03dd640326a449588fb902a076e85cd802324b97827cdb3be2d58c259ef",
+      "cold_readback_equal": true
+    },
+    {
+      "name": "PSV_DMG_C08_CONSULTOR_GENERALIZAVEL_20261017_MESTRE_ONLY.md",
+      "bytes": 9629,
+      "sha256": "e69c88000c4055a66132191755958fc4eb1e8bc66ea03d6010f2282f4d400b22",
+      "cold_readback_equal": true
+    },
+    {
+      "name": "C08_FINAL_ZIP_COLD_EXTRACT_AUDIT_20261017.json",
+      "bytes": 2312,
+      "sha256": "efd00673ac40f56008b81b14b554668f551f4e9eaea2988f6bfccd66c7591558",
+      "cold_readback_equal": true
+    }
+  ],
+  "zip_entries": 25,
+  "zip_manifest_verified": 24,
+  "zip_crc": "PASS",
+  "readback": "byte-for-byte comparison for three uploaded artifacts",
+  "formal_F0": "4/8_UNCHANGED",
+  "writer": "NO_CANONICAL_WRITER_OR_LEASE_CLAIM",
+  "scientific_scope": "LOCAL_FUNCTIONAL_PORTABLE_MESTRE_SIDE_ONLY"
+}

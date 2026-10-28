@@ -1,0 +1,180 @@
+{
+  "checks": {
+    "E353_standalone_same_JPEG_as_peer": true,
+    "cohort_intersection": 0,
+    "cohort_union": 26,
+    "holdout14_masked_match_template": 14,
+    "original_raw_match_R45_corpus": 26,
+    "peer12_masked_match_submitted_csv": 12,
+    "physical_image_bytes_covered": 26
+  },
+  "epistemic_gate": "Confirma correspondencia, hashes e censo; NAO comprova ausencia de exposicao ao Atlas, acuracia ou RE. Nenhum rank historico incluido.",
+  "images": [
+    {
+      "blind_cohort": "PEER12",
+      "id": "TEC-0E7493058FC8",
+      "masked_sha256": "fb153ddfcb77eb6f71e860516ad8a568e4ed2da8d3daa0cb35f282767541f8e3",
+      "original_sha256": "846bbe433cb432f170253dc654e0f60ef9168b8633a04caab4c01ef35a59d30e"
+    },
+    {
+      "blind_cohort": "HOLDOUT14",
+      "id": "TEC-1808CAC63847",
+      "masked_sha256": "d24baec53170ef25930b248802f82697ca49ea9c7c032bf6621c39aeb167625c",
+      "original_sha256": "f3a76c2f65fbcff21ce3360edb0f8191a4fe2951d53f09e02f2d49959044fd6d"
+    },
+    {
+      "blind_cohort": "HOLDOUT14",
+      "id": "TEC-320DB7B56AD0",
+      "masked_sha256": "70c7218b2b06236e956203ef8341929e082859139e283624e2ce043c2d5da2a9",
+      "original_sha256": "49b6b0dc6468b9cbeda1d88f228c76af5419f2f5a4d4d14e1c2ee467c98b62b3"
+    },
+    {
+      "blind_cohort": "PEER12",
+      "id": "TEC-39F038CF281E",
+      "masked_sha256": "12480089af1bf21646e2105d8140a59f0b49a766b5d898793ffaa49e297805fd",
+      "original_sha256": "85ae64f24fbe32f2ab0ada58eeddbec504be30f12790c4868eef75762ecb7d4e"
+    },
+    {
+      "blind_cohort": "PEER12",
+      "id": "TEC-3A1BC9C77ED8",
+      "masked_sha256": "0cd74da6d58a5311c64654eee8c42a22a950e573c0c43cba1f305533b3fcf3aa",
+      "original_sha256": "3cad40225a2f2f281d1f6074ec19f30d3a0d1f0f7d42fba0a82aea792bf3f6ff"
+    },
+    {
+      "blind_cohort": "HOLDOUT14",
+      "id": "TEC-44ACABD04901",
+      "masked_sha256": "d08c82f910702dde58ec7cedba168214c98d5a94109a74d1abde4a9072b2381a",
+      "original_sha256": "174416dfe6f5fd72565e8de0c664a287a0a15302e8b38883678f4d4f70022598"
+    },
+    {
+      "blind_cohort": "HOLDOUT14",
+      "id": "TEC-4756338D9E0C",
+      "masked_sha256": "575c6af3962f9b136df688b36140fc94447ab6d33fd810937af9a0618762dffc",
+      "original_sha256": "06d57e944d2781d14b377440400dcec14f41408bc7fc436171b396d00916e9e6"
+    },
+    {
+      "blind_cohort": "HOLDOUT14",
+      "id": "TEC-49FDDBE69D38",
+      "masked_sha256": "f002ba2363a223a573c641938a31dc7bc033a11d5fd245dd86e6128890c2f1e4",
+      "original_sha256": "39bc07c8c00a51a3412cbcbdf107a68d82f121f5ceee34e1a4336bf159e78ac1"
+    },
+    {
+      "blind_cohort": "HOLDOUT14",
+      "id": "TEC-575586E88BE3",
+      "masked_sha256": "b6d9630bbf739c1353351eabaf54d67f763ac04f96472da212e7c096c214009c",
+      "original_sha256": "9628427072e8e693e46c79f7e53bb78fb2499bdd21a1c66b49bbcf54fa17f6a9"
+    },
+    {
+      "blind_cohort": "HOLDOUT14",
+      "id": "TEC-680699BF9999",
+      "masked_sha256": "8c9cafcffc5662c050cc4c54ba73b4c43dfe5f6b0c1703e98444060a5933c170",
+      "original_sha256": "ad0df13fbbb21993f0a9932e4779c409a6d20c0708aa02a8723765e4521bc356"
+    },
+    {
+      "blind_cohort": "HOLDOUT14",
+      "id": "TEC-6B84A461C262",
+      "masked_sha256": "eb9e0e6808f5d77462b378acee779684e5cbe3a6c2e344419660b4522632ab73",
+      "original_sha256": "35f190be09b5e21a9690108360ffa646650308b448307241c15868e869a522d0"
+    },
+    {
+      "blind_cohort": "PEER12",
+      "id": "TEC-7F4A4B423743",
+      "masked_sha256": "a8743618ad3e8ab9cb17ab98b208adf6a5c9218f51d6d0779b00646173d41d52",
+      "original_sha256": "720ebfba4e2e6db04f391659721b1a1dc88d0781d46f94858f7cfdb4a8eb72f6"
+    },
+    {
+      "blind_cohort": "HOLDOUT14",
+      "id": "TEC-9252C3B2669F",
+      "masked_sha256": "e51f32a0fd7bc1dac206e99549a66ee3e33a8ba4517ac35b553c494291b67e81",
+      "original_sha256": "e65ded49808fa2bd1a20845886618826a7cf9150b0f376e2faefb44a5f7eb955"
+    },
+    {
+      "blind_cohort": "PEER12",
+      "id": "TEC-9668762A6DAC",
+      "masked_sha256": "917d983b6fa3d8692db9c70ccb542eb2731af51c05a03f8f43eb2ebb465a9836",
+      "original_sha256": "f15a709cc86d799a0449e6d38107676ccc7999215aff4232617944477fbf9f3a"
+    },
+    {
+      "blind_cohort": "HOLDOUT14",
+      "id": "TEC-9684BAE3174B",
+      "masked_sha256": "847ea987440d7441b6a8cc43bc5432727b224e9b934d0789e24f606e69cdba08",
+      "original_sha256": "dc0b44299798523e17fec259535e9a7139821b0b209c6fac6093afdc1532bf08"
+    },
+    {
+      "blind_cohort": "PEER12",
+      "id": "TEC-968D29765EB1",
+      "masked_sha256": "e880d45b4d0d276ee835e8f64f6a064a16367ebbe167c9dd54f0e8cd110cf78d",
+      "original_sha256": "c357ccef3d827f51005f140b0c5ce7a511c23e807ae438d08e0c8c6ed9d23ba7"
+    },
+    {
+      "blind_cohort": "PEER12",
+      "id": "TEC-988589FB9716",
+      "masked_sha256": "9700ec679047dd09f5c347d982d2517385f794e8d147b2640fbdffddc2126d9f",
+      "original_sha256": "930d58906bca3dd241329ffe3df5c56058f6c2d607369a511d7738f47582efd5"
+    },
+    {
+      "blind_cohort": "HOLDOUT14",
+      "id": "TEC-A2802280AAE8",
+      "masked_sha256": "f077fbecced02191fff742e234b244abb2c8fb468a97bf24d03cb18553a2b180",
+      "original_sha256": "c302621577cd33795c09856a9545b8b6f37167ddcc7caf594b4f5e609b9469be"
+    },
+    {
+      "blind_cohort": "PEER12",
+      "id": "TEC-AC33D1C9DD16",
+      "masked_sha256": "d51026978026916209885674a05584d1750bb65ba3c4f2d20c5f7b61b67bf266",
+      "original_sha256": "d75e01e2a8787c918120044fe8ccc8a362b5201e4075d42c59d1c48381cb838e"
+    },
+    {
+      "blind_cohort": "HOLDOUT14",
+      "id": "TEC-B0D00FDE2408",
+      "masked_sha256": "4a0598022af4a4cd96a710d293412f91aed450e6fe01fd19c61ab40cc3121db6",
+      "original_sha256": "98d3325a92acfe84f7acfaaa5547b26088a26a7117653e2b0225c9a98b1ddaac"
+    },
+    {
+      "blind_cohort": "HOLDOUT14",
+      "id": "TEC-B22F58FD1A83",
+      "masked_sha256": "a13b232470d04db3be0b8de40015d38fbb713d0690c996bf128ca450d224cfb2",
+      "original_sha256": "6c3453a939e7ad0c094e88242ed7fd689e1d199917e7acdd9e021bfe5d001024"
+    },
+    {
+      "blind_cohort": "PEER12",
+      "id": "TEC-C71526491A42",
+      "masked_sha256": "1e11ddfdcd923aad793461b587977f1275339d90df336c528dd032c99dd33683",
+      "original_sha256": "0c3ea6fced3b1131811756d2e8b04eaff81069c86d31d7e465acc5c6e388eda7"
+    },
+    {
+      "blind_cohort": "PEER12",
+      "id": "TEC-D9EF9388353A",
+      "masked_sha256": "d94bb0085418a07c8560496751ae9fc45cde1c177e84d053f28fbffaade2476f",
+      "original_sha256": "0d919aeef31f0b5a2c40430527f8d88e860c0b323358d2a427d5e240700cb196"
+    },
+    {
+      "blind_cohort": "PEER12",
+      "id": "TEC-E229A1361599",
+      "masked_sha256": "e561649d0a2c1a9ed9df2c2bac40b875606357eeffa4f820f3827da23e20d1a1",
+      "original_sha256": "914d187e740d15c288244b997b4db63189af18ee5de23036641f9834b42b6fea"
+    },
+    {
+      "blind_cohort": "PEER12",
+      "id": "TEC-E3532F6A98AC",
+      "masked_sha256": "dea20214109a26bf1d8bd86b8d1086e731f28c89fc5dbc6d49a2c3b625ebb482",
+      "original_sha256": "8ec7496fe951f262623ff9780837cdabb1a32b839b82d487e1f81cfa121695d3"
+    },
+    {
+      "blind_cohort": "HOLDOUT14",
+      "id": "TEC-F1BD993CFF60",
+      "masked_sha256": "094fb613b322a58d1321b407ade76b80f8062591de8dd79e8764f33e681d3a8b",
+      "original_sha256": "ba9b5d658cdfa1679b9b69c81292272d90bd6c6c479357ee77621a3a6ee8fb76"
+    }
+  ],
+  "record_id": "PA-R49C-LINEAGE-26-12-14-20261021-001",
+  "scope": "MESTRE_ONLY_TEST",
+  "verified_sources_sha256": {
+    "E353_reviewer_zip": "dc02863e7c9162fc5655227a0d4746444b9849ae010cca3fb90970dcbbac439b",
+    "R45_corpus_zip": "9a7b8b27493552d302b4f41110f474da6465491fbf0aa45f63b4f7fc33dcfda4",
+    "all26_raw_zip": "ecd4f9698e269021bb300e231c3da97d639ab8cec429d72e1c4210d7b2d00aee",
+    "holdout14_zip": "6d7387d19bd5765ed487d579d515ac7bbac36ea35c20679d54a7a3693558b954",
+    "peer_final_zip": "d5fa1054b6e296d893e182a735efb24f2053ffdf28bbcecae7da552318b93435",
+    "peer_masked_source_zip": "5c688a22908b0f55af792c826c20b22e43dd675a3b676a939268c40b9d55fe33"
+  }
+}

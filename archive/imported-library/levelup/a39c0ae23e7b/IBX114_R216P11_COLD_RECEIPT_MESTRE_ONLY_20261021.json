@@ -1,0 +1,14 @@
+{
+  "source_zip_sha256": "c4af37628e47a7316cb695b446359b89fed2c6cc9bbb3b5fdf99a72b6c80922e",
+  "files_manifest": 335,
+  "zip_entries": 336,
+  "cold_duration_seconds": 112.798,
+  "full_suite_exit": 0,
+  "test_receipt_tail": "----------------------------------------------------------------------\nRan 1842 tests in 110.172s\n\nOK\n",
+  "pdf_pages": {
+    "book": 26,
+    "codex": 81,
+    "beast": 2
+  },
+  "safe_no_world_writes": true
+}

@@ -1,0 +1,92 @@
+{
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "producer": "OP-DMG-CORPUS-EMP-01",
+  "round": "DMG-R08",
+  "environment": "MESTRE-SIDE",
+  "new_VLAB_execution": false,
+  "handoff_delivery_confirmed": false,
+  "proposed_case_id": "DMG-R08-FRIGIDO-CABRA-EVADE",
+  "state": "PARTIALLY_ADMISSIBLE",
+  "prior_native_baseline": {
+    "round": "VLAB-R34",
+    "seed": 347,
+    "combatants": ["Frígido Ossário Bronze 5", "Cabra de Chifres Bronze 1"],
+    "three_rounds": true,
+    "native_attacks": 5,
+    "native_source_refs": ["f0dc2b324ede820ab9470168d4a53315", "391c2b324ede8252b0cc810423cdbfa6"],
+    "native_reported_replays_pass": true,
+    "DMG_independent_SQLite_readback": false,
+    "original_reactions": "DECLINE by both"
+  },
+  "actors": {
+    "frigido": {
+      "source_id": "f0dc2b324ede820ab9470168d4a53315",
+      "identity": "Frígido Ossário Bronze 5, selected under Mestre R32-R34 authority despite tree Prata 3",
+      "action": "Rabada",
+      "attack": "1d6 + FOR18 + Luta6 (individual Mestre R32)",
+      "damage": "1d6 + FOR18 physical, on hit",
+      "target_CA": 20,
+      "target_RD": 5,
+      "standard_actions": 1,
+      "additional_PA": 0
+    },
+    "cabra": {
+      "source_id": "391c2b324ede8252b0cc810423cdbfa6",
+      "identity": "Cabra de Chifres Bronze 1, selected under Mestre R34 authority despite tree Prata 5",
+      "action": "Investida",
+      "attack": "1d6 + FOR13 + Luta6 (individual Mestre R34)",
+      "damage": "1d6 + FOR13 physical impact",
+      "target_CA": 31,
+      "target_RD": 5,
+      "standard_actions": 1,
+      "additional_PA": 0,
+      "on_hit_positive_damage_push": "1.5m for FF310 under Mestre R34",
+      "evasion_decision_R36": "Reflexo+6, Esquiva CA20+6=26 authorized on Cabra; confirm this can be admitted against Rabada Frígido in new pairing"
+    }
+  },
+  "proposed_policies": [
+    "Control: same sources, DECLINE reactions, new independent scene and seed, do not re-execute historical R34",
+    "Treatment: Cabra announces legal ESQUIVAR before each incoming Rabada when one reaction remains; Frígido declines voluntary reactions",
+    "Use R26 refresh and R37 tie defense wins, current VLAB engine as-is",
+    "Critical rules resolved by native existing engine; stratify native results separately from no-critical theoretical prediction",
+    "Same source ranks and exact individual Luta bonuses; do not generalize to other creatures"
+  ],
+  "science": {
+    "basic_attack_no_reaction": {
+      "frigido_hit_probability": "1",
+      "frigido_expected_damage_per_attempt": "33/2",
+      "cabra_hit_probability": "0"
+    },
+    "conditional_if_evasion_scope_admitted": {
+      "frigido_hit_probability_vs_Esquiva26_without_critical": "2/3",
+      "frigido_expected_damage_per_attempt_without_critical": "11",
+      "damage_prevented_per_Rabada_attempt_if_reaction_available": "11/2"
+    },
+    "existing_real_source_observations": {
+      "VLAB_R36_reaction_count": 8,
+      "VLAB_R36_previously_hitting_attacks_stopped": 7,
+      "VLAB_R37_censored_8round_duels_with_zero_damage": 2
+    }
+  },
+  "falsifiers": [
+    "In noncritical legal baseline, a Cabra Investida attack <=25 harms Frígido CA31",
+    "In noncritical no-evasion baseline, a Rabada attack >=25 fails to exceed Cabra CA20",
+    "With authorized Evasion26, noncritical Rabada score <=26 inflicts damage despite the announced reaction, without another recognized mechanism",
+    "Evasion is logged when no reaction slot is available or not announced",
+    "A reported result violates the published 1d6 dice domain or source numeric attribute"
+  ],
+  "admission_gates": [
+    "Confirm whether Mestre R36 Cabra Reflexo+6 Evasion authorization extends from B1xB1 to new B5xB1 scene; otherwise HOLD before native experiment",
+    "Freeze Reaction declaration policy and initiative source snapshot; no assumed bonuses",
+    "If interaction with critical still ambiguous, specify rule application with existing engine and flag uncertainties",
+    "New scene independent of R34 and other historical receipts, replay/readback/checkpoint",
+    "No official campaign or Party changes, no VLAB execution claimed by DMG"
+  ],
+  "behemoth_armor_case": {
+    "status": "BLOCKED_NORMATIVE",
+    "simio": "Prata5(Titã) title/body, tree OuroNegro5; real Luta, +2 FOR inclusion unresolved; conditional RD30 or60 if corresponding Titã classification admitted",
+    "behemoth": "CA68, projected CA71 if +3 is additive, RD25 normal Ouro1, +3 CA and reflect15% of damage received excluding magic/projectiles, 20PA+3PA/turn",
+    "blocking_fields": ["Simio rank competent", "individual Luta bonuses", "FOR54 includes +2?", "armor CA already active?", "armor timing and duration", "reflection type and mitigation", "rounding and reaction snapshot"],
+    "normative_note": "DMG-RANK-01 v1.1 reflection X% derived from damage received; before-RD gross-reflection scenario is counterfactual, not same standing"
+  }
+}

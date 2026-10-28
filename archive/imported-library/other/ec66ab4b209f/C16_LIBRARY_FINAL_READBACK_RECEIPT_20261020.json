@@ -1,0 +1,62 @@
+{
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "checkpoint": "C16",
+  "as_of": "2026-10-20",
+  "library_path": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "status": "PASS_C16_LIBRARY_COLD_READBACK",
+  "readback_objects": 6,
+  "all_byte_identical": true,
+  "c16_zip_sha256": "8169eb651a833dfbfbc00244b4ba259ba2f891e02b4104434e1f15191db1505e",
+  "manifest_checked": 18,
+  "zip_crc": "PASS",
+  "scientific_regenerated_exact": 9,
+  "original_vlab_sqlite_write": 0,
+  "new_combat_runs": 0,
+  "f0_formal": "4/8",
+  "production": "HOLD",
+  "writer_lease_epoch_fencing": "NOT_ASSUMED",
+  "objects": [
+    {
+      "filename": "DMG_C16_DEFESAS_DINAMICAS_R205_CIENCIA_20261020_MESTRE_ONLY.zip",
+      "original_sha256": "8169eb651a833dfbfbc00244b4ba259ba2f891e02b4104434e1f15191db1505e",
+      "library_readback_sha256": "8169eb651a833dfbfbc00244b4ba259ba2f891e02b4104434e1f15191db1505e",
+      "size_bytes": 36056,
+      "byte_identical": true
+    },
+    {
+      "filename": "PSV_DMG_C16_MESTRE_ONLY.md",
+      "original_sha256": "4b4e506f1846cf699b90664154508ccc6bd0f51b07a97a01193646de9509cf8e",
+      "library_readback_sha256": "4b4e506f1846cf699b90664154508ccc6bd0f51b07a97a01193646de9509cf8e",
+      "size_bytes": 5534,
+      "byte_identical": true
+    },
+    {
+      "filename": "C16_PARECER_CIENTIFICO_MESTRE_ONLY.md",
+      "original_sha256": "242ad43355384737d2c06773f97fb9b641accc6feb2d9608dddf7f84ecb24b20",
+      "library_readback_sha256": "242ad43355384737d2c06773f97fb9b641accc6feb2d9608dddf7f84ecb24b20",
+      "size_bytes": 13127,
+      "byte_identical": true
+    },
+    {
+      "filename": "C16_CRITERIOS_PARA_NOVAS_CRIACOES.md",
+      "original_sha256": "61216ba7270e88898cdd560211a6a55a2d54caa16af81ad2b125ab91a65b56ec",
+      "library_readback_sha256": "61216ba7270e88898cdd560211a6a55a2d54caa16af81ad2b125ab91a65b56ec",
+      "size_bytes": 3887,
+      "byte_identical": true
+    },
+    {
+      "filename": "C16_VLAB_EXPERIMENTAL_REQUEST_NOT_SENT.md",
+      "original_sha256": "8597764892a0262c9be337d74f925146740a40a4fa41a263eac42b0835c25f54",
+      "library_readback_sha256": "8597764892a0262c9be337d74f925146740a40a4fa41a263eac42b0835c25f54",
+      "size_bytes": 4087,
+      "byte_identical": true
+    },
+    {
+      "filename": "C16_COLD_PORTABLE_AUDIT.json",
+      "original_sha256": "c9389cf456e320a6c0478dfe498b2ed5d7cd8a2c62843e97323b87aa20a2266e",
+      "library_readback_sha256": "c9389cf456e320a6c0478dfe498b2ed5d7cd8a2c62843e97323b87aa20a2266e",
+      "size_bytes": 591,
+      "byte_identical": true
+    }
+  ]
+}

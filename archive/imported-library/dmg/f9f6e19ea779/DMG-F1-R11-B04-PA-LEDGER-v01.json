@@ -1,0 +1,65 @@
+{
+  "NOT_PROVEN": [
+    "73 = PA total? PA restante? PA Livre? ficha mistura usos por dia e custos ocupados",
+    "46 perdido = novo gasto? já absorvido? antes da sessão? por forma compartilhado?",
+    "15,60 diários = total do dia ou comprometimento contínuo?",
+    "30,42 = reserva de uso contínuo ou desembolso?",
+    "anéis ativos, botas acionadas, armadura e machado equipados no momento zero",
+    "+50 transformado é aumento do total ou derivação separada; regra T6 já governa recálculo",
+    "o Macaco tem Alma impressa700 mas PA livre não fornecido"
+  ],
+  "acceptance_requirements": [
+    "Mestre/current scene logs confirm effective_at, actor form and worn/active gear",
+    "Each item cost typed AS DAILY SPENT vs PA COMMITTED vs ONE-TIME PA, with source and period",
+    "PA Total, PA committed, PA spent and PA Free reconciled and >=0",
+    "perdido=-46 proven semantics and no double subtraction",
+    "scene-aligned paired actor snapshot/readback and test of transformation legal reject below 40"
+  ],
+  "authority": "Scene owner/Mestre for effective_at and current ledger; normative decision via NAC-NORM-01 only if source rules insufficient. Engineer tests consumption but does not invent state.",
+  "conditional_branches": [
+    {
+      "can_pay_40": true,
+      "canonical": false,
+      "id": "P73",
+      "pa_free_hypothetical": 73,
+      "remaining": 33
+    },
+    {
+      "can_pay_40": false,
+      "canonical": false,
+      "id": "P27",
+      "pa_free_hypothetical": 27,
+      "remaining_if_invalid": 27
+    }
+  ],
+  "gate": "B04",
+  "literal": {
+    "alma_expression": "170+50-15-30-60-42=73",
+    "equipment": {
+      "anel_alma": "+50 PA",
+      "anel_atributo": "30 PA [sem semântica temporal explícita]",
+      "armadura": "42 PA [sem semântica temporal explícita]",
+      "botas_velocidade": "15 PA por dia",
+      "machado": "-60 PA por dia"
+    },
+    "perdido_normal": "-46",
+    "perdido_transformado": "-46",
+    "transformed_alma_bonus": "+50"
+  },
+  "proven_math": {
+    "T9_duration": "1d6+1",
+    "T9_prata_activation": 40,
+    "base_alma_plus_ring": 220,
+    "conditional_subtotal_minus_perdido_46": 27,
+    "costs_termed_daily": [
+      15,
+      60
+    ],
+    "sum_four_explicit_cost_terms": 147,
+    "written_subtotal": 73
+  },
+  "rules_url": "https://app.notion.com/p/3ebc2b324ede81449222f3c06b840613",
+  "source_url": "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010",
+  "status": "SOURCE_TEXT_BOUND_AND_EQUATION_PROVEN_BUT_SCENE_EPOCH_AND_RESERVE_TYPES_UNKNOWN",
+  "verdict": "BLOCKED"
+}

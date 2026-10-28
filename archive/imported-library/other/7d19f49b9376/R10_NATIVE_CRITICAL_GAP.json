@@ -1,0 +1,71 @@
+{
+  "status": "CONTROLLED_NATIVE_MODULE_COMPATIBILITY_DEFECT_REPRODUCED",
+  "original_engine": "COMBAT-EFFECT-ADAPTER-PARTIAL-v0.8",
+  "original_module_sha256": "066ffe9636d07e09b192695cff94df21a1116d4e391452805bf13f37af440d29",
+  "provenance": "R27 historical_v081_verified_original; strict synthetic example with pre-existing fixture proof; no event in R40 files written or replayed",
+  "case_no_reaction": {
+    "synthetic_input": {
+      "hit_d6": 1,
+      "raw_attack": 20,
+      "crit_3d6": [
+        6,
+        6,
+        5
+      ],
+      "damage_d6": 3,
+      "crit_gross": 22,
+      "rd": 5,
+      "defense": 20,
+      "reaction_predeclared": false
+    },
+    "master_expected": {
+      "hit": true,
+      "net": 17,
+      "after_hp": 21
+    },
+    "original_native_v081_observed": {
+      "hit": false,
+      "net": 0,
+      "after_hp": 38,
+      "defense_negated": false
+    },
+    "discrepancy": "CRITICAL_AUTO_HIT_NOT_PROPAGATED_IN_NATIVE_ADAPTER"
+  },
+  "case_with_predeclared_evasion": {
+    "synthetic_input": {
+      "hit_d6": 1,
+      "raw_attack": 20,
+      "crit_3d6": [
+        6,
+        6,
+        5
+      ],
+      "damage_d6": 3,
+      "crit_gross": 22,
+      "rd": 5,
+      "defense": 26,
+      "reaction_predeclared": true
+    },
+    "master_expected": {
+      "hit": true,
+      "net": 17,
+      "after_hp": 21
+    },
+    "original_native_v081_observed": {
+      "hit": false,
+      "net": 0,
+      "after_hp": 38,
+      "defense_negated": true
+    },
+    "discrepancy": "CRITICAL_AUTO_HIT_NOT_PROPAGATED_IN_NATIVE_ADAPTER"
+  },
+  "R40_adapter_evidence": {
+    "R40_tape_positive_critical": true,
+    "R40_native_call_lacks_critical_flag": true,
+    "R40_auditor_uses": "hit_bool = score > 20; net = 0 if (not hit_bool or re is not None) else max(0,raw-5)",
+    "R40_actual_crit_events": 0,
+    "R40_replay_affected_by_the_new_decision": "NOT DEMONSTRATED / no positive critical event in 42 original attacks"
+  },
+  "integration_gate": "BLOCKED_CRITICAL_AUTO_HIT until official VLAB patch+controlled native source-specific receipt+independent replay/NAC-PASS",
+  "canonical_writes": 0
+}

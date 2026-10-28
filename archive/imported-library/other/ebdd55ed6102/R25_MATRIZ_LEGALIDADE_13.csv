@@ -1,0 +1,14 @@
+id,questao,veredito,evidencia,falta
+Q01,Posse documental por Jaku,DOCUMENTAL_PASS,"A mesma ficha contém lança, infusão e manoplas; P3/P4 repetem, sem duplicação",Estado de posse efetiva no epoch da cena
+Q02,Equipamentos fisicamente coexistentes,COMPATIBILIDADE_TEXTUAL_PARCIAL,Manoplas podem envolver armas corpo a corpo empunhadas; ficha relaciona lança e luvas,"Confirmar uso simultâneo, mãos, empunhadura, equipamento, carga"
+Q03,Ativação manoplas,SOURCE_PRESENT_ACTION_UNMAPPED,"Texto diz como ação bônus, chamas em 1 ou 2 armas, até soltar/baixar, reset próxima madrugada",Mapeamento aprovado na economia de ações; recibo do gatilho
+Q04,Disponibilidade ação bônus,BLOCKED_NORM,"Sistema atual enumera padrão, movimento, reação, livre e completa; bônus não está definido",Sem autoconversão; decisão/precedência NAC-NORM e aceitação operador
+Q05,Dano de Fogo das manoplas,DOCUMENTAL_PASS_CONDITIONAL_APPLICATION,+1d8+2 de Fogo extra POR GOLPE em arma flamejante,"Golpe elegível, chamas ativas, source-dice/roll receipt"
+Q06,Infusão Espiritual Flamejante,DOCUMENTAL_PRESENCE_STACK_PROVENANCE_PARTIAL,Lança declara +2d8+2 espiritual flamejante; ataque impresso 5d8 alinha 2+2+1 dados,Operador não pode descartar infusão nem tratá-la automaticamente como Fogo ou bypass
+Q07,Natureza e tags,MIXED,Manoplas: FOGO explícito; lança base 2d8+2 sem subtipo explícito; infusão textual ESPIRITUAL_FLAMEJANTE,"Mestre/autoridade confirma se infusão é FOGO, ESPÍRITO, efeito híbrido e if base pool mantém FISICO"
+Q08,Fraqueza do dragão,DOCUMENTAL_PASS_CONDITIONAL_TRIGGER,Ficha especifica vulnerabilidade a ataques MAGICOS de FOGO; Sistema Combate +3 dados do maior elemental válido,"Confirmação de natureza mágica de evento e tag real, sem aplicar bônus ao físico"
+Q09,Acerto e defesa,PARTIAL,"Jaku `2d6+30`, dragão CA literal 39, ataque precisa > defesa","Rolagem real, equipamento ativo, reação, cobertura e fonte da CA no epoch"
+Q10,RD e líquido,RULE_BRANCH_KNOWN_APPLICATION_PENDING,"Criação Besta RD Ouro normal 25, Titã 45; Dragão CON33, ficha não certifica status Titã","Status, RD especial, divisão das tags, ordem de aplicação, arredondamento e resultado real"
+Q11,PA e charges,DOCUMENTAL_ARITHMETIC_NO_EVENT,Jaku 91-15-20-13=43; itens registram custos 20/13 PA por dia,"Custos pagos no dia, PA Livre no epoch, charge da manopla e evento que iniciou chamas"
+Q12,Compatibilidade temporal ator/alvo,BLOCKED,Ficha de Jaku sem título morto; Dragon ficha estática não constitui participante ativo,"Scene_id, epoch, presença, posições, alcance, LoS, vida, condições"
+Q13,Aplicação física completa,BLOCKED_STRICT,"Nenhum evento com estado antes/depois, reação, recibo de HP e replay fonte-gated",Operador CM-000006 sob autorização/collision gate/ACK e auditoria independente

@@ -1,0 +1,10 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sprite Atlas — Assimilação | TEST</title><style>
+body{background:#101827;color:#d9e8ef;font:15px system-ui;padding:16px;max-width:480px;margin:auto} canvas{background:#20394a;width:100%;max-width:390px;height:auto;image-rendering:pixelated;border:1px solid #789} select{background:#193549;color:white;padding:9px;font:inherit;border-radius:5px}.note{font-size:12px;color:#9bb2c3}</style></head><body><h2>Teste de importação de PNG em Canvas</h2><p class="note">Prova de pipeline de assets original, sintético, NÃO é jogo nem engine.</p><label for="dir">Direção:</label> <select id="dir"><option value="0">Sul</option><option value="1">Norte</option><option value="2">Oeste</option><option value="3">Leste</option></select><canvas id="stage" width="240" height="120"></canvas><p id="status">Carregando arquivos locais...</p><script>
+const c=document.querySelector('canvas'),ctx=c.getContext('2d'),status=document.querySelector('#status');ctx.imageSmoothingEnabled=false;
+const src=['mestre_test_sprite_atlas.png','inimigo_test_sprite_atlas.png','base_grama.png','base_pedra.png','base_agua.png'];let imgs={},ready=0,frame=0;
+src.forEach(s=>{const im=new Image();im.onload=()=>{imgs[s]=im;if(++ready===src.length){status.textContent='5/5 PNG carregados; Canvas pronto';render();setInterval(()=>{frame=1-frame;render()},170);}};im.onerror=()=>status.textContent='ERRO no arquivo '+s;im.src=s;});
+function render(){if(ready!==src.length)return;const d=Number(document.querySelector('#dir').value);ctx.clearRect(0,0,240,120);
+for(let y=0;y<5;y++)for(let x=0;x<10;x++){const tile= imgs[x===5?'base_pedra.png':y>=3?'base_agua.png':'base_grama.png'];ctx.drawImage(tile,x*24,y*24);}
+ctx.drawImage(imgs['mestre_test_sprite_atlas.png'],frame*24,d*24,24,24,72,48,24,24);ctx.drawImage(imgs['inimigo_test_sprite_atlas.png'],frame*24,d*24,24,24,168,48,24,24);}
+document.querySelector('#dir').addEventListener('change',render);
+</script></body></html>

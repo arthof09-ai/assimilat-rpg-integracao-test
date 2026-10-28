@@ -1,0 +1,23 @@
+{
+  "artifact": "VLAB_STAGE12_A1A2A3_SCIENTIFIC_BASELINE_R27_SANDBOX.zip",
+  "library_file_id": "libfile_1a06c19c497c819197d8f2284d8de09e",
+  "sha256": "d8a384f8d6d8b94ef494fc67bac704c1aa87c1ada64359342f8cdcab6da31ab1",
+  "size_bytes": 21563581,
+  "readback_byte_identical": true,
+  "CRC_PASS": true,
+  "internal_hashes_pass": 3300,
+  "members_total": 3301,
+  "R26_parent_preserved_members": 2597,
+  "matrix_planned": 320,
+  "matrix_observed": 320,
+  "complete_conditional": 120,
+  "censored_no_hit": 200,
+  "R27_event_readback": 320,
+  "independent_replays": 4,
+  "portable_checkpoints_verified": 24,
+  "canonical_actions_admitted": 0,
+  "canonical_cells": 0,
+  "production_writes": 0,
+  "test_new_clean": 10,
+  "R26_directed_smoke": 21
+}

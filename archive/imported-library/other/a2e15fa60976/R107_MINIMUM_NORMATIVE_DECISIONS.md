@@ -1,0 +1,15 @@
+# R107 — bloqueios mínimos sem invenção de regras
+**Operação:** CM-000006 / OP-VLAB-FUSION-SANDBOX-01 · MESTRE-SIDE · 16/10/2026.
+
+## Decisão exigida apenas se a regra existente não for encontrada
+
+1. **Competência de iniciativa de Bestas e aplicações:** Sistema de Combate fornece `dados rank + DES + bônus de Iniciativa`. Criação de Besta fornece proficiência racial/rank +22 para Titã Lendário, mas não registra automaticamente Iniciativa como perícia proficiente. O dossiê Grifo especifica ataque `6d6+138`, não iniciativa. O valor legal para a Besta é **6d6+116+X**; X depende de comprovar elegibilidade de proficiência de Iniciativa. **NÃO colocar X=0 como fato da Besta nem X=22 por analogia sem autoridade.** Mesmo com X∈{0,22}, Grifo versus Auren varia apenas na cauda: a maioria das aberturas de Auren é matematicamente inevitável, mas isso não certifica escolha normativa.
+2. **Críticos positivos:** já existe resposta inequívoca: o bônus ao dano corresponde ao **máximo da soma de TODOS os dados normais**, não só uma face. R95 e R93 desobedeceram parcialmente; criar adaptador novo antes de mais combate, não alterar históricos.
+3. **Meia-dano ímpar:** Descarga Curta do Grifo 14d10 Lightning, Reflexo CD94 reduz metade. Fonte vigente não oferece regra de arredondamento impar explicitamente identificada; antes de executar tal comando real decidir qual autoridade de arredondamento usar. R103 deixou seis comandos pares pendentes sem commits, executou seis comandos cuja soma era par. A distância de 1,5 m usada na fixture é uma escolha geométrica LAB para manter adversários adjacentes, **não definição oficial de alcance da magia**.
+4. **Transformação Auren:** página individual descreve 100 PA ativação +15/turn, mas Sistema de Combate especifica 320 PA para Lendário. Aplicar NAC-NORM-01 hierarquia, sem normalizar por conveniência.
+5. **Esforço final / Fraco:** fonte atual Besta e Combate demandam desvantagem e ação especial abaixo de 10%; nos R95/R93 esses gatilhos não foram demonstrados e devem ficar em HOLD de paridade antes de promover mesmo ataque básico.
+6. **2×1 equilibrado:** só Auren L3 tem ficha mecanicamente completa e elegível; Feryn ON5 não possui Espírito Demoníaco documentado. Os oito P1 da frente Vhal-Zoryn estão em especificações Mestre-side PRECREATE; HANDOFF registra 0/8 fichas físicas. Exigir dois ED com rank comparável, especializações complementares, fonte de equipamento/PA/reações confirmada e IA de cooperação antes do novo 2×1 finalístico.
+7. **Fonte VZ:** PRECREATE-CHAR-VZ-01 é suporte de autoria; 0/14 entidades físicas declaradas no HANDOFF. Nenhum test substitui as fontes oficiais da campanha principal; não promover automaticamente referência de potência geral.
+
+## Fronteira legítima
+Reparar crítico/Fraco/regras especiais em cópia nova; adaptar o resolver nativo em vez de criar motor concorrente; provar iniciativa com fórmula competente antes de usar uma rolagem natural da Besta; testar reações e scheduler com múltiplos gatilhos; promover contrato só após auditor independente + NAC-PASS correspondente.

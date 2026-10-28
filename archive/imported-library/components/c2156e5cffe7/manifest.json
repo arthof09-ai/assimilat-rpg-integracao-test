@@ -1,0 +1,271 @@
+{
+  "project": "RPG Assimilação",
+  "visibility": "MESTRE-ONLY",
+  "files": [
+    {
+      "path": "relatorios/RELATORIO_496086.md",
+      "size": 7593,
+      "sha256": "eca7262ad89e82ff30b70020056e85fe51dd02de627f63628f4a22c945c8550a"
+    },
+    {
+      "path": "relatorios/RELATORIO_496097.md",
+      "size": 6438,
+      "sha256": "41927ec7d82894c570be0396af0e21bb9af2e5b4c57962f011f33dda37a56695"
+    },
+    {
+      "path": "relatorios/RELATORIO_496109.md",
+      "size": 7458,
+      "sha256": "39f4ac61aa344710cc2b0cb6cf60990af38485d2cc11883f5762141a72221db4"
+    },
+    {
+      "path": "relatorios/RELATORIO_496118.md",
+      "size": 6226,
+      "sha256": "999c83ef49d327f5dfff21729ed2be8b502f40ce59560d24eca699c765268a5f"
+    },
+    {
+      "path": "contratos/ACEITE_496086.json",
+      "size": 871,
+      "sha256": "2183a30b77160e2d16ca09ff01b278eafe027271320ce085c4d55e8967e0360a"
+    },
+    {
+      "path": "contratos/ACEITE_496097.json",
+      "size": 821,
+      "sha256": "6d94fa1aab585cbdee7e393590156ac5b1193c17e7111e95967835a9e6f0a7b8"
+    },
+    {
+      "path": "contratos/ACEITE_496109.json",
+      "size": 778,
+      "sha256": "598a928e0575822fca2ebfe9b46c2b2bfdc548ca3ab5d7e67b8ba4790bf35324"
+    },
+    {
+      "path": "contratos/ACEITE_496118.json",
+      "size": 880,
+      "sha256": "49c4a04c01c0a2cd9558b1126fc39dc1160b894df8a8f32dbff6ec3154779595"
+    },
+    {
+      "path": "experimento/ARENA_TEST36_RECIBOS_VISUAIS_SINTETICOS_OFFLINE.html",
+      "size": 135528,
+      "sha256": "cac765edf996864686f24a841622d14404b9088e19319461f2141a983335c354"
+    },
+    {
+      "path": "experimento/CONTRATO_APRESENTACAO_RECIBO_TEST.json",
+      "size": 1090,
+      "sha256": "60f053a187a4a4d6054100db267b2d2e96ea03d12bfadabce5f6d83af4c20053"
+    },
+    {
+      "path": "experimento/PROVA_RECIBOS_360x740.png",
+      "size": 78658,
+      "sha256": "4892a27825bc57ed7716d2e5b63ca436c9357327db2ee3dd45a8ec59fc5a8ad5"
+    },
+    {
+      "path": "experimento/PROVA_RECIBOS_390x844.png",
+      "size": 96518,
+      "sha256": "3b118ccd413d3b0d7c083596caa2dd1f6794d16c209c75bf38b4bfeea024d96b"
+    },
+    {
+      "path": "experimento/PROVA_RECIBOS_412x915.png",
+      "size": 102943,
+      "sha256": "d30a0fc916833f22af5ba1d422cc8f943b661fcdbaefda2e646209f436446c68"
+    },
+    {
+      "path": "experimento/RESULTADOS_CHROMIUM.json",
+      "size": 2006,
+      "sha256": "d0c73a5c5083e5e0e4e26090e8effc25a28097b41efae85fe6ef9dd5e537ad3d"
+    },
+    {
+      "path": "experimento/test_receipt_view.py",
+      "size": 2751,
+      "sha256": "b7e62fd0a0a72095e549cd55e0aeac25ad0646b32b3c89509e25efb92ca276a0"
+    },
+    {
+      "path": "sheets/496086_01.jpg",
+      "size": 311802,
+      "sha256": "e39320060398eb1dc88d69b45c59aef4e525712340cc17cec2f52c366c6927b3"
+    },
+    {
+      "path": "sheets/496086_02.jpg",
+      "size": 214397,
+      "sha256": "53d848827b2c67372a0236363c3fc426c6366627b47b14707e70b79992f0fced"
+    },
+    {
+      "path": "sheets/496086_03.jpg",
+      "size": 179512,
+      "sha256": "0f9e6b6024c86c109abcfd6dcd869277c89d63030a78cf1c5c0a59837096ff12"
+    },
+    {
+      "path": "sheets/496097_01.jpg",
+      "size": 229748,
+      "sha256": "7396e4b7c553cb3fd6691aa558acf561480de62bff13420744e390394e441386"
+    },
+    {
+      "path": "sheets/496097_02.jpg",
+      "size": 239272,
+      "sha256": "81cd891102585ee062cdfb00f2534c45075a256614f21196940e02af3b09aa1a"
+    },
+    {
+      "path": "sheets/496109_01.jpg",
+      "size": 215708,
+      "sha256": "628793fbcd4c0d78f00a4db71583ebba10ee10840812d20abe0ea4fc1151915c"
+    },
+    {
+      "path": "sheets/496109_02.jpg",
+      "size": 237863,
+      "sha256": "8b72cf4a71e0974e0528529338f4fe1a6c161cdd75e97b7636564687512eec8f"
+    },
+    {
+      "path": "sheets/496109_03.jpg",
+      "size": 112052,
+      "sha256": "d635ceab07e49d84ed694a24b1c05854f3937be538ed108070d889ca536d01f4"
+    },
+    {
+      "path": "sheets/496118_01.jpg",
+      "size": 235850,
+      "sha256": "a2713fc4abc35823b331df2922af05042d0d673941df6cd369f0e2bc8c82161e"
+    },
+    {
+      "path": "sheets/496118_02.jpg",
+      "size": 244616,
+      "sha256": "c2ef114898908994fa39bb58d7b744447b4fb190a400d3a8cb3debad27293308"
+    },
+    {
+      "path": "quadros/496086_0139.jpg",
+      "size": 101764,
+      "sha256": "252d00d62b403f86befdb1f69bda8c32e0c4fc7b69b40d2820234bcba2654217"
+    },
+    {
+      "path": "quadros/496086_0195.jpg",
+      "size": 69235,
+      "sha256": "c589967253a9bc831558abac7071079c4d49127d99b10f4769539d581c6d868c"
+    },
+    {
+      "path": "quadros/496086_0363.jpg",
+      "size": 63651,
+      "sha256": "63d06403ce6a5eb0acacb22528026c005e667703edc7e79a9faff031bbf3ea13"
+    },
+    {
+      "path": "quadros/496086_0755.jpg",
+      "size": 60858,
+      "sha256": "a2ade3f60dc7823655a9b4a1ee7b084e54e0f36e54d0000a2152a6bcb271a5f9"
+    },
+    {
+      "path": "quadros/496086_1314.jpg",
+      "size": 65419,
+      "sha256": "d6afec10164a3d40b84e234b335eda5afe0cfebd95eb21e79c594501ab78a7fc"
+    },
+    {
+      "path": "quadros/496086_1481.jpg",
+      "size": 108025,
+      "sha256": "6e23d39dddb1d9f7d1b612ad94252a733018ddba3603ed2ff9eb132831d76143"
+    },
+    {
+      "path": "quadros/496086_1649.jpg",
+      "size": 69603,
+      "sha256": "c4cd6c151d138cc832f200b65be1a29510f525079256e32245675620720892f8"
+    },
+    {
+      "path": "quadros/496097_0094.jpg",
+      "size": 45864,
+      "sha256": "74c15395fc46bbc9032ac3e5304fc8ea9c69d948c1fa00d982426175661ce5ed"
+    },
+    {
+      "path": "quadros/496097_0246.jpg",
+      "size": 57648,
+      "sha256": "464b2762ad269027dd401563b29e54386afd6af37bc49f19aeb857e0e338a7c4"
+    },
+    {
+      "path": "quadros/496097_0549.jpg",
+      "size": 43060,
+      "sha256": "abc433974a8246a2ecba78e3ff430fbe1ec99e1fc4f958773464a895c203fb9a"
+    },
+    {
+      "path": "quadros/496097_0625.jpg",
+      "size": 72968,
+      "sha256": "93b9dfc8a96f43660a57223eb85fb7048640af3b34db3438b74d8a62f0b2a42a"
+    },
+    {
+      "path": "quadros/496097_0663.jpg",
+      "size": 33850,
+      "sha256": "c09e9e4a8c5cc8f808272e7e8e1fb82b2a5f53c71e0d5a60e13d510e4d96412b"
+    },
+    {
+      "path": "quadros/496097_0777.jpg",
+      "size": 92343,
+      "sha256": "4eba33000db0c5c90712c566ad14770c5abfbaf35147f90910fa194df7a1f363"
+    },
+    {
+      "path": "quadros/496109_0261.jpg",
+      "size": 88835,
+      "sha256": "7a614fae77880729a9a18aaba3aad1bd071e5c49ee13971cb4ca1dfa20e2d278"
+    },
+    {
+      "path": "quadros/496109_0381.jpg",
+      "size": 48676,
+      "sha256": "16faca9a32c48d99042e40276a6b9511dddf69927e6d90e66ff9d9a284d31221"
+    },
+    {
+      "path": "quadros/496109_0542.jpg",
+      "size": 92856,
+      "sha256": "5f3f2d521ab084a0a1cd5fc220e084d92c48b851e0d578768ef7b5ea8b7e2970"
+    },
+    {
+      "path": "quadros/496109_0783.jpg",
+      "size": 54118,
+      "sha256": "0bef099bc3b23caccd1db618ae0335c28718b47bb8a912e9585fd582bdbc2990"
+    },
+    {
+      "path": "quadros/496109_0984.jpg",
+      "size": 48287,
+      "sha256": "0497d71a865817cdcc7d64de022ba63a1de111f5d157f9042867c6753960f2eb"
+    },
+    {
+      "path": "quadros/496109_1144.jpg",
+      "size": 50643,
+      "sha256": "63bfbf1ab7aecc5db3a14aced2198c324efd2189b7a447299d1481aa66acad1f"
+    },
+    {
+      "path": "quadros/496118_0035.jpg",
+      "size": 76017,
+      "sha256": "1f3ea1ee6fcf0cdcce8db0d7d56a0e57cec6ba8b91d059afafae9b015ba0b882"
+    },
+    {
+      "path": "quadros/496118_0107.jpg",
+      "size": 43720,
+      "sha256": "0744bd1335f3fc3548108105be5abbfd4c6f834ae9f4f89cc9386689bdbeb5d0"
+    },
+    {
+      "path": "quadros/496118_0227.jpg",
+      "size": 39229,
+      "sha256": "0a10f130dd22428b2c211dec5a8fadd8588a34df7ae1dbed6e384f33910ba697"
+    },
+    {
+      "path": "quadros/496118_0395.jpg",
+      "size": 83385,
+      "sha256": "a92f49892700018a6f63f02fda49b1707e493796350e4cab6a44bf1d4a2691a1"
+    },
+    {
+      "path": "quadros/496118_0466.jpg",
+      "size": 67296,
+      "sha256": "d4991264858f10c3951940d1286f073f63d36a4d6494d82fbba5c3ec2a24e92b"
+    },
+    {
+      "path": "media_manifest.json",
+      "size": 2482,
+      "sha256": "38c742289784901b63954333b38bec5f5617872f512ff533972c4fa491565007"
+    },
+    {
+      "path": "MATRIZ_DECISOES_LOTE05.md",
+      "size": 1372,
+      "sha256": "2a9e20932a41a944fe6dfa16b19904029c95ce74e86b45cb6b030caaf89bcc33"
+    },
+    {
+      "path": "LEIA_PRIMEIRO.md",
+      "size": 3012,
+      "sha256": "14c45b9f18d7efdf76bc81c68f4ce9a92c0a56ca4096b17618b1c1f7122b3fbd"
+    },
+    {
+      "path": "COMPENDIO_4_RELATORIOS_LOTE05_20261024.pdf",
+      "size": 1319098,
+      "sha256": "73b10fbf33ef2a0461f07b249ef20f5cbc641fba14b16684aab7e3f69cbf2da8"
+    }
+  ]
+}

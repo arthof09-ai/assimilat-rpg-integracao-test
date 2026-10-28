@@ -1,0 +1,117 @@
+{
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "checkpoint": "POST-R10-C01-20261015",
+  "timestamp_date": "2026-10-15",
+  "frozen_before_Notion_search": true,
+  "hypotheses": {
+    "H1": "Rank and named title conflicts may make nominal damage progression misleading; record rank concordance before comparisons",
+    "H2": "For real higher-rank sources, critical automatic hit may still be stopped by competent RD even when chance of normal hit is zero",
+    "H3": "Costed ability with lower per-hit damage may outperform uncosted depending legitimate PA/action budget, only calculate completed fields"
+  },
+  "sampling": {
+    "source": "Notion Master original only",
+    "queries_in_order": [
+      "Bronze 3",
+      "Bronze 4",
+      "Ouro 2",
+      "Ouro Negro 1",
+      "Lendário 1",
+      "Sangramento",
+      "veneno",
+      "custo PA habilidade ataque"
+    ],
+    "selection": "For each rank-title query, first three Notion results with title matching exact rank/star, not in prior known IDs. For thematic queries, first two relevant exact-master pages after dedup and identity screen; no output-driven inclusion. Target at most 20 new pages total. Search results can be incomplete; nonrepresentative convenience design.",
+    "exclude": "Party mirror, PS/semicanon, known historical duplicate ID, result lacking verified page identity. Do not count exclusions as rank absence",
+    "holdout": "NONHOLDOUT_EXPLORATORY; sources exposed by title search before contents; no independent family holdout claim",
+    "provenance": "all page IDs, rank/title/body/tree, Notion edited stamp, source URL; no auto-promotion"
+  },
+  "already_examined_known_source_page_ids_sorted": [
+    "034c2b324ede83ffa7118144011beaf3",
+    "08cc2b324ede8378a3a7018646e2d5cd",
+    "0c9c2b324ede82ab8be801371d927931",
+    "1c6c2b324ede8252872c81bd287fb516",
+    "1fdc2b324ede82bd9d4f811abb689440",
+    "206c2b324ede835383a1818a6edd5273",
+    "254c2b324ede82d392d80140dd4c9f35",
+    "2bfc2b324ede82699fbf0187858cf72d",
+    "2f3c2b324ede830c94af0113e39a1a50",
+    "301c2b324ede828caccb813d3979267a",
+    "336c2b324ede82ac82ab01ac0eb062a2",
+    "383c2b324ede8266ad2b819fc078a66a",
+    "391c2b324ede8252b0cc810423cdbfa6",
+    "398c2b324ede82e4bd71011de3e2377f",
+    "3b0c2b324ede83cc931801874fb504b5",
+    "3bfc2b324ede826b9a1881a45c3050df",
+    "432c2b324ede8393a90501de383cbe81",
+    "442c2b324ede8364870a814350dd5051",
+    "44fc2b324ede8240813d8187bd1a6778",
+    "45bc2b324ede823cb1328108c91421b4",
+    "46ec2b324ede824bad03818efd5838ac",
+    "474c2b324ede82d08ea6819069c17043",
+    "4bac2b324ede8321af6b01eb96452d04",
+    "530c2b324ede826da039011f56008eb6",
+    "56ac2b324ede8352868101e11ea16355",
+    "5dac2b324ede83f39cdb01a904ce3cfd",
+    "5e4c2b324ede8282ad2c01c9363c3098",
+    "5e9c2b324ede83ed99078151805dec0b",
+    "5fcc2b324ede8339a5bd01cd65ea103e",
+    "725c2b324ede8301baed01d62bd2b8e0",
+    "778c2b324ede83d0a89281a4c12ba768",
+    "77ec2b324ede82d49662812c1e72b7b0",
+    "783c2b324ede8200b08681808730daef",
+    "84ac2b324ede834abc5181e3228ae375",
+    "99bc2b324ede8353b872017eb3d57afc",
+    "b0ec2b324ede835a927601b4cbd8fca6",
+    "c5bc2b324ede82628e6e01b466fa0f78",
+    "c96c2b324ede8228ab1b81f11f1f0804",
+    "d1dc2b324ede829d9e4e01ee9c063c34",
+    "dd7c2b324ede83b084e3019984b6e281",
+    "e85c2b324ede838185340120868b73a0",
+    "eddc2b324ede829f8a75011e8acbf429",
+    "f0dc2b324ede820ab9470168d4a53315"
+  ],
+  "denominators_prior": {
+    "R03_R04_master_pages": 53,
+    "initial_numeric_actions": 29,
+    "F0": "4/8",
+    "L003_authenticated": "0/71"
+  },
+  "stop_rules": "Do not fill unknown Luta, save, armor, cost; report data status, not fake damage/attempt; freeze formulas only if numeric from body.",
+  "frozen_selection_after_title_only_search_before_detail_fetch": {
+    "Bronze 3": [
+      "bdbc2b324ede83b09e56014278be74d8"
+    ],
+    "Bronze 4": [
+      "8acc2b324ede827b9bc801746ae97409",
+      "109c2b324ede8206bee481f992b7f800"
+    ],
+    "Ouro 2": [
+      "5fac2b324ede8381a25581194ebf9bd7",
+      "e66c2b324ede82d4894681c836bb012f",
+      "991c2b324ede8348a25b8165cfb81e1a"
+    ],
+    "Ouro Negro 1": [
+      "a0dc2b324ede823e911801087a7331b0",
+      "f28c2b324ede834b8db781887d0019fa",
+      "294c2b324ede83cc8529017b8555b5be"
+    ],
+    "Lendário 1": [
+      "6c6c2b324ede8295ad98813f0db138f4",
+      "ffec2b324ede8289a99101f42099c55c",
+      "394c2b324ede82a3b9f401465b96f9ed"
+    ],
+    "Sangramento": [
+      "7d9c2b324ede83698dc381e76c958649",
+      "3f5c2b324ede81b191dac6a379e5781f"
+    ],
+    "veneno": [
+      "3efc2b324ede815f9e59efd4445697fb",
+      "1a8c2b324ede82068fdd01d6066b2184"
+    ],
+    "custo PA habilidade ataque": [
+      "3f6c2b324ede81a78a59d3d81fd5e966",
+      "3edc2b324ede816cbad5ca3880ce144d"
+    ]
+  },
+  "selection_frozen_new_candidate_count": 18
+}

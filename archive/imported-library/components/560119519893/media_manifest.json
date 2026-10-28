@@ -1,0 +1,58 @@
+[
+  {
+    "stem": "496150",
+    "duration": 144.428118,
+    "sha256": "6c4eff84f95cef4cc8d8cda83529e4d6aabe11e81bd190aed6ed8edd38586507",
+    "bytes": 8369604,
+    "subtitle_streams": 0,
+    "contact": []
+  },
+  {
+    "stem": "496165",
+    "duration": 110.062585,
+    "sha256": "69a44ebb8e405076438618fe93f40d119cde511bebda1b4e5211cd8db1becc2b",
+    "bytes": 7619131,
+    "subtitle_streams": 0,
+    "contact": []
+  },
+  {
+    "stem": "496174",
+    "duration": 159.265669,
+    "sha256": "3f8820a9e75111eb4672382097c0ecfe7956a3d42138ae28f4dba0ddb8560a8a",
+    "bytes": 9152543,
+    "subtitle_streams": 0,
+    "contact": []
+  },
+  {
+    "stem": "496183",
+    "duration": 30.65034,
+    "sha256": "e1c9634035057ae3c7ce015933b54605b4c4181ec11afce2c1e5fa4b844cabb9",
+    "bytes": 2090297,
+    "subtitle_streams": 0,
+    "contact": []
+  },
+  {
+    "stem": "496192",
+    "duration": 147.493152,
+    "sha256": "2e16baf7d9d2d74a7d4f06e1850fdf392ccb393db416501a64cb363711a1d443",
+    "bytes": 10352614,
+    "subtitle_streams": 0,
+    "contact": []
+  },
+  {
+    "stem": "496201",
+    "duration": 156.688254,
+    "sha256": "9af674e18fc6801ba2a30605d415f3130a0b970a301610d1f0daf4041efe932f",
+    "bytes": 10331413,
+    "subtitle_streams": 0,
+    "contact": []
+  },
+  {
+    "stem": "496210",
+    "duration": 79.435465,
+    "sha256": "d4458a40cb3751e41ec6448cf0cda79dba104ed2122f3784d6989cb2e3178bb4",
+    "bytes": 3872282,
+    "subtitle_streams": 0,
+    "contact": []
+  }
+]
