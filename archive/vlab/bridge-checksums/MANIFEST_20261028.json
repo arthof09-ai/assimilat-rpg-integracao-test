@@ -8,7 +8,7 @@
     "Google Drive original",
     "Google Drive novo RPG"
   ],
-  "readback": "UTF8_CONTENT_EXACT_PASS_4_OF_4",
+  "readback": "UTF8_CHECKSUM_CONTENT_PASS_4_OF_4_AND_GIT_ZIP_TREE_BLOB_SIZE_PASS_4_OF_4",
   "total_source_file_bytes": 385,
   "files": [
     {
@@ -21,7 +21,12 @@
       "source_drive_original": "https://drive.google.com/file/d/1IPnHerDiSA80vXjISHHKI5H9ObcryBKg/view",
       "source_drive_new": "https://drive.google.com/file/d/1SGeEdVldNxuUKHwJf6DHQ6_DPyCZuPol/view",
       "sources_text_equal": true,
-      "zip_bytes_migrated": false
+      "zip_bytes_migrated": true,
+      "zip_github_path": "archive/vlab/bridge-zip/ponte-vlab-tabletop-test.zip",
+      "zip_size_bytes": 367597,
+      "zip_git_blob_sha1": "ccc5c2b87eb523b8d6f0e9d5090f7c52be167516",
+      "zip_sha256_matched_declared_digest": "PASS",
+      "zip_crc": "PASS"
     },
     {
       "original_name": "ponte-vlab-tabletop-0.2.0.zip.sha256",
@@ -33,7 +38,12 @@
       "source_drive_original": "https://drive.google.com/file/d/1asXAdUNlhR2XV1wo12QJ0k1_7rJmdZRW/view",
       "source_drive_new": "https://drive.google.com/file/d/1gQuBYU3Q_4aJlrnmyAjXNzGpMhlkoLqN/view",
       "sources_text_equal": true,
-      "zip_bytes_migrated": false
+      "zip_bytes_migrated": true,
+      "zip_github_path": "archive/vlab/bridge-zip/ponte-vlab-tabletop-0.2.0.zip",
+      "zip_size_bytes": 189939,
+      "zip_git_blob_sha1": "2dbade507ebb9ac9c64d9cfebf83e05356abf83c",
+      "zip_sha256_matched_declared_digest": "PASS",
+      "zip_crc": "PASS"
     },
     {
       "original_name": "ponte-vlab-tabletop-0.3.0-test-events.zip.sha256",
@@ -45,7 +55,12 @@
       "source_drive_original": "https://drive.google.com/file/d/1fgokv3UlCjq_Vfvkb8MavAdq6ZzW0mK3/view",
       "source_drive_new": "https://drive.google.com/file/d/1siD3j-6uj3HVkuHdBwtkWD-E73nIzUbR/view",
       "sources_text_equal": true,
-      "zip_bytes_migrated": false
+      "zip_bytes_migrated": true,
+      "zip_github_path": "archive/vlab/bridge-zip/ponte-vlab-tabletop-0.3.0-test-events.zip",
+      "zip_size_bytes": 218841,
+      "zip_git_blob_sha1": "f1fdcc812ca403847d3b821bdd285a6fbb603f6a",
+      "zip_sha256_matched_declared_digest": "PASS",
+      "zip_crc": "PASS"
     },
     {
       "original_name": "ponte-vlab-tabletop-0.4.0-test38.zip.sha256",
@@ -57,12 +72,19 @@
       "source_drive_original": "https://drive.google.com/file/d/17csOudQa1wZxSiaQysc0CQJ3Bi_oFtSr/view",
       "source_drive_new": "https://drive.google.com/file/d/1WiU5ycJdAEfWMrHBPkFUy3twKfiQI7Gt/view",
       "sources_text_equal": true,
-      "zip_bytes_migrated": false
+      "zip_bytes_migrated": true,
+      "zip_github_path": "archive/vlab/bridge-zip/ponte-vlab-tabletop-0.4.0-test38.zip",
+      "zip_size_bytes": 1163331,
+      "zip_git_blob_sha1": "8c6ba721e6df149f8b64bf9c1449ec5fea9f6f8d",
+      "zip_sha256_matched_declared_digest": "PASS",
+      "zip_crc": "PASS"
     }
   ],
   "limitations": [
-    "Four SHA256 sidecars preserve expected digests but do not prove that ZIP payloads are present in GitHub.",
-    "ZIP bytes and functional tests remain pending.",
-    "GitHub commits on this recovery branch require PR review before main integration."
-  ]
+    "The four original ZIP payloads were recovered after initial checksum-only checkpoint; manifest updated with traceable paths and Git blob hashes.",
+    "PR review and merge to main are pending; local synthetic tests do not authorize deployment or canon promotion.",
+    "0.4.0 browser visual integration blocked by environment's localhost Chromium policy; see ZIP manifest."
+  ],
+  "recovery_status": "ZIP_RECOVERY_4_OF_4_VERIFIED_ON_ISOLATED_BRANCH",
+  "zip_recovery_manifest": "archive/vlab/bridge-zip/MANIFEST_20261028.json"
 }
