@@ -1,0 +1,110 @@
+{
+  "schema": "assimilat.archive_recovery_zip/1.0",
+  "operation": "GitHub × Notion × Google Drive — archival recovery",
+  "capture_date": "2026-10-28",
+  "repo": "arthof09-ai/assimilat-rpg-integracao-test",
+  "branch": "audit/recovery-20261028-library35-drive-checksums",
+  "provenance": {
+    "surface": "Drive original RPG root",
+    "folder_url": "https://drive.google.com/drive/folders/1RPl9yOjGrhO73vfRU0jmmGHZkvkKHG1B",
+    "checksum_sources": "archive/vlab/bridge-checksums/",
+    "classification": "HISTORICAL_TEST",
+    "canonization": "NOT_AUTHORIZED",
+    "deployment": "NOT_AUTHORIZED"
+  },
+  "size_bytes_total": 1939708,
+  "validation_method": "Original byte download -> SHA256 compared to .sha256 sidecar -> zipfile CRC testzip() -> Git blob SHA1 content identity -> Git recursive tree path+size+SHA verification",
+  "zip_files": [
+    {
+      "original_name": "ponte-vlab-tabletop-test.zip",
+      "github_path": "archive/vlab/bridge-zip/ponte-vlab-tabletop-test.zip",
+      "source_drive_file_url": "https://drive.google.com/file/d/1sA1QvBqorW5iBLmdWmo5u_QpSxsBf-O6/view",
+      "bytes": 367597,
+      "sha256": "80aa408adabcd3c8e9fb2267d7efeb5ee4b9a3ef5e22c618a9d814bb98b751a3",
+      "git_blob_sha1": "ccc5c2b87eb523b8d6f0e9d5090f7c52be167516",
+      "zip_member_count": 44,
+      "original_source_sha256_check": "PASS",
+      "zip_crc": "PASS",
+      "git_tree_blob_and_size_readback": "PASS",
+      "git_content_base64_readback": "COMPLETE_MATCH",
+      "local_test_run": {
+        "environment": "Python 3.13.5; Node v22.16.0; TypeScript CLI 5.8.3; synthetic transport; no authoritative VLAB mechanics",
+        "status": "PASS",
+        "python_unittest_count": 34,
+        "node_tests_nested_in_python": 15,
+        "typecheck": "PASS",
+        "three_client_demo": "PASS"
+      }
+    },
+    {
+      "original_name": "ponte-vlab-tabletop-0.2.0.zip",
+      "github_path": "archive/vlab/bridge-zip/ponte-vlab-tabletop-0.2.0.zip",
+      "source_drive_file_url": "https://drive.google.com/file/d/1QPy8KGevTarOg9k0nYpfcFhuqPs2GwT8/view",
+      "bytes": 189939,
+      "sha256": "31b8a9ea23d6751baeb73be328b705674c929553ccb81e61a0df495df5937fd3",
+      "git_blob_sha1": "2dbade507ebb9ac9c64d9cfebf83e05356abf83c",
+      "zip_member_count": 49,
+      "original_source_sha256_check": "PASS",
+      "zip_crc": "PASS",
+      "git_tree_blob_and_size_readback": "PASS",
+      "git_content_base64_readback": "COMPLETE_MATCH",
+      "local_test_run": {
+        "environment": "Python 3.13.5; Node v22.16.0; TypeScript CLI 5.8.3; synthetic transport; no authoritative VLAB mechanics",
+        "status": "PASS",
+        "python_unittest_count": 61,
+        "node_tests_nested_in_python": 38,
+        "typecheck": "PASS",
+        "three_client_demo": "PASS"
+      }
+    },
+    {
+      "original_name": "ponte-vlab-tabletop-0.3.0-test-events.zip",
+      "github_path": "archive/vlab/bridge-zip/ponte-vlab-tabletop-0.3.0-test-events.zip",
+      "source_drive_file_url": "https://drive.google.com/file/d/1M6r9FnshCDXSr2_NaMnC4JMzhZ7H_CDy/view",
+      "bytes": 218841,
+      "sha256": "78760b79e842f83625daf8c17c2f1bf56c1320a9b35408f949f6fbf82648afda",
+      "git_blob_sha1": "f1fdcc812ca403847d3b821bdd285a6fbb603f6a",
+      "zip_member_count": 61,
+      "original_source_sha256_check": "PASS",
+      "zip_crc": "PASS",
+      "git_tree_blob_and_size_readback": "PASS",
+      "git_content_base64_readback": "COMPLETE_MATCH",
+      "local_test_run": {
+        "environment": "Python 3.13.5; Node v22.16.0; TypeScript CLI 5.8.3; synthetic transport; no authoritative VLAB mechanics",
+        "status": "PASS",
+        "python_unittest_count": 68,
+        "node_tests_nested_in_python": 50,
+        "typecheck": "PASS",
+        "three_client_demo": "PASS"
+      }
+    },
+    {
+      "original_name": "ponte-vlab-tabletop-0.4.0-test38.zip",
+      "github_path": "archive/vlab/bridge-zip/ponte-vlab-tabletop-0.4.0-test38.zip",
+      "source_drive_file_url": "https://drive.google.com/file/d/1FviMApTDDcvtO1yt9dfGiFh_6IUhAUHw/view",
+      "bytes": 1163331,
+      "sha256": "5d3155e25ab9b1a6fa07e85ef43e92cf42de16c12e0cae25e70d868556f31a4a",
+      "git_blob_sha1": "8c6ba721e6df149f8b64bf9c1449ec5fea9f6f8d",
+      "zip_member_count": 65,
+      "original_source_sha256_check": "PASS",
+      "zip_crc": "PASS",
+      "git_tree_blob_and_size_readback": "PASS",
+      "git_content_base64_readback": "TRUNCATED_CONNECTOR_CONTENT_TREE_SHA_AND_SIZE_MATCH",
+      "local_test_run": {
+        "environment": "Python 3.13.5; Node v22.16.0; TypeScript CLI 5.8.3; synthetic transport; no authoritative VLAB mechanics",
+        "status": "HOLD_BROWSER_VISUAL_TEST",
+        "python_unittest_count": 76,
+        "node_tests_nested_in_python": null,
+        "typecheck": "PASS",
+        "three_client_demo": "NOT_RUN_NEW_RECEIPT"
+      }
+    }
+  ],
+  "limitations": [
+    "No code promotion, canonical rule change, Party write or production deployment",
+    "The 0.4.0 TEST38 browser visual test encountered Chromium Page.goto ERR_BLOCKED_BY_ADMINISTRATOR for localhost in this environment; 75/76 unittest tests passed, TypeScript typecheck PASS; browser validation pending in environment allowing local loopback",
+    "GH CI, real Android, authoritative VLAB Python-vs-TypeScript equivalence, original mechanics and actual physical server integration not tested",
+    "ZIPs are archived historical TEST artifacts, not validated live executables",
+    "No ZIP files from inaccessible ChatGPT Library source have been substituted or reconstructed"
+  ]
+}
