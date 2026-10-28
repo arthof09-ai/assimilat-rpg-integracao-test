@@ -1,0 +1,68 @@
+{
+  "schema": "assimilat.archive_vlab_split_v1",
+  "artifact": "VLAB_CODIGO_MAE_R324_COMPLETO.zip",
+  "classification": "MESTRE_ONLY_HISTORICAL_TEST_NOT_CANONICAL",
+  "source_size_bytes": 15698603,
+  "source_sha256": "2a52c00d2199e40c5635def308349d1dce21ca061212666595e5742dce5d68f0",
+  "zip_members": 87,
+  "parts": [
+    {
+      "file": "part01.bin",
+      "bytes": 1572864,
+      "git_blob_sha1": "65629054a7bf0922355aa0c89c3d18b4355e9343"
+    },
+    {
+      "file": "part02.bin",
+      "bytes": 1572864,
+      "git_blob_sha1": "66f433d1dd8554fd45828c174e6461513f88ab09"
+    },
+    {
+      "file": "part03.bin",
+      "bytes": 1572864,
+      "git_blob_sha1": "88abbf4e2acec995bf3ccf0c551b3335dbdd13dc"
+    },
+    {
+      "file": "part04.bin",
+      "bytes": 1572864,
+      "git_blob_sha1": "2c91f047d2b7e92476ea45e0aacbedef3b2c6ca3"
+    },
+    {
+      "file": "part05.bin",
+      "bytes": 1572864,
+      "git_blob_sha1": "cf0b9a7d271bd824061955323d5ff7904781ddfa"
+    },
+    {
+      "file": "part06.bin",
+      "bytes": 1572864,
+      "git_blob_sha1": "8453c848250f2b704cc3a8b1bfb8cb2a85f4ed7e"
+    },
+    {
+      "file": "part07.bin",
+      "bytes": 1572864,
+      "git_blob_sha1": "f5a88c4106c1b8b206a966c32fe4ff9fe5020433"
+    },
+    {
+      "file": "part08.bin",
+      "bytes": 1572864,
+      "git_blob_sha1": "0f7538183063be3ad7a893cc55658243e3ca570e"
+    },
+    {
+      "file": "part09.bin",
+      "bytes": 1572864,
+      "git_blob_sha1": "f6ccbc34490d44d618343c763f08a8bcc41ddb24"
+    },
+    {
+      "file": "part10.bin",
+      "bytes": 1542827,
+      "git_blob_sha1": "3357b8a6a5cfd0efc92d3aa0f571bd413534159f"
+    }
+  ],
+  "provenance": {
+    "drive_new": "https://drive.google.com/file/d/1_qqhVE6gNVe1wU-uVey0e1vktW3GEyiK/view",
+    "drive_original": "https://drive.google.com/file/d/1l-jJow5XGSMdzH9CiNrv6I8cXP5JF_XO/view",
+    "verified_cross_drive_sha256": true,
+    "sha256_manifest_internal": "86/86",
+    "crc_nested_zip": "18/18"
+  },
+  "scope": "Backup historico de codigo/TEST; nao homologar motor nem compartilhar na Party."
+}
