@@ -1,0 +1,131 @@
+{
+  "timestamp_utc": "2026-10-28T22:18:54.995452+00:00",
+  "method": "Fresh shallow clone from GitHub, no local alternates/shared objects; physical file SHA256/size and nested CRC via verifier; explicit main fetch and R326 byte reconstruction.",
+  "pr_artifact_commit": "559624f2182c9826f7e7e5f39dcba4ef2330a104",
+  "artifact_files_read_back": 1759,
+  "artifact_bytes_read_back": 400062018,
+  "original_library_files": 941,
+  "extracted_original_members": 818,
+  "all_artifact_hashes_and_sizes": "PASS",
+  "R323_R324_drive_exact_remote_reassembly": "PASS",
+  "main_commit": "a31438287ed6d3eee8880ca70cb44ae81d432340",
+  "main_file_count": 94,
+  "new_artifacts_present_in_main": 0,
+  "R326_main_reassembled_sha256": "420fa4c9f084df449e68075e30fec50ad392bfe041070433b9a4feaf4daf17d5",
+  "merge": "HOLD_EXISTING_PARTY_DATA_IN_PREVIOUS_ARCHIVES",
+  "CI": {
+    "commit": "559624f2182c9826f7e7e5f39dcba4ef2330a104",
+    "runs": [
+      {
+        "id": 40778643577,
+        "url": "https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/runs/40778643577",
+        "jobs": [
+          {
+            "id": 123134359372,
+            "name": "smoke",
+            "status": "completed",
+            "conclusion": "success",
+            "run_id": 40778643577,
+            "logs_url": null,
+            "steps": [
+              {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1
+              },
+              {
+                "name": "Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2
+              },
+              {
+                "name": "Run actions/setup-python@v5",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3
+              },
+              {
+                "name": "Run strictly synthetic tests",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4
+              },
+              {
+                "name": "Reproduce native DMG C29 numerics (TEST, no writers)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5
+              },
+              {
+                "name": "Post Run actions/setup-python@v5",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9
+              },
+              {
+                "name": "Post Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 10
+              },
+              {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 11
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 40778643499,
+        "url": "https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/runs/40778643499",
+        "jobs": [
+          {
+            "id": 123134359015,
+            "name": "verify",
+            "status": "completed",
+            "conclusion": "success",
+            "run_id": 40778643499,
+            "logs_url": null,
+            "steps": [
+              {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1
+              },
+              {
+                "name": "Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2
+              },
+              {
+                "name": "Verify original SHA-256, nested CRC and split reconstruction",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3
+              },
+              {
+                "name": "Post Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6
+              },
+              {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

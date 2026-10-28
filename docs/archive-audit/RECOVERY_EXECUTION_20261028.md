@@ -2,7 +2,7 @@
 
 **Executor:** Codex, operador do chat; identidade institucional Comestre não estabelecida. Ordem direta do Mestre. Escopo TEST / preservação, sem mudança de regras, fichas, Party, implantação ou promoção canônica.
 
-## Entrega física preparada
+## Entrega física publicada e relida
 
 - **941 arquivos originais distintos da Biblioteca**, incluindo os três ZIPs publicados antes do lote maior: LEVEL-UP R049, CRAFT R50BCD e Tabletop TEST42.
 - **818 membros técnicos originais** extraídos, sem alterar seus bytes, de contêineres que permanecem em revisão. Para contêineres com indicadores Party, extração limitada a fontes de programas e metadados de dependências; dados/relatórios não são publicados por essa via.
@@ -62,7 +62,9 @@ Os 631 originais em revisão continuam preservados nas suas fontes. Parte de seu
 
 ## Estado de publicação deste recibo
 
-O lote maior foi verificado localmente. **Readback do commit remoto e CI do lote: PENDENTES até recibo específico.** O recibo posterior deve fixar o commit relido e contar apenas bytes efetivamente recuperados do GitHub.
+**VERIFICADO — 28/10/2026 22:18 UTC:** clone raso NOVO do GitHub, sem objetos locais compartilhados, head `559624f2182c9826f7e7e5f39dcba4ef2330a104`. Os 1.759 arquivos / 400.062.018 bytes foram fisicamente relidos com SHA-256/tamanhos e CRC PASS; R323/R324 remontados nesse clone e comparados byte a byte aos originais Drive. Main novamente obtida do servidor: `a31438287ed6d3eee8880ca70cb44ae81d432340`, 94 arquivos, nenhum dos novos conteúdos incorporado. R326 remontado diretamente dos blobs da main com SHA-256 original. [Recibo de readback](GITHUB_READBACK_20261028.json).
+
+**CI do lote remoto:** [Archive integrity #2 SUCCESS](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/runs/40778643499) e [Integrity Auditor #110 SUCCESS](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/actions/runs/40778643577), ambos no SHA `559624f2182c9826f7e7e5f39dcba4ef2330a104`; todos os jobs/etapas concluídos com sucesso, incluindo auditoria sintética e DMG C29 nativo. Resultados não liberam o HOLD de confidencialidade da PR.
 
 Main no início: `a31438287ed6d3eee8880ca70cb44ae81d432340`, 94 arquivos. PR no início: `29e819da054fafb2d87f912009432214132f8852`, 145 arquivos, aberta/draft. Nenhuma mesclagem foi autorizada por um PASS de integridade isolado.
 
