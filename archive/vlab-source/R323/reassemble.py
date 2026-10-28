@@ -25,13 +25,13 @@ def main():
         with out.open("xb") as target:
             for part in parts:
                 name = part["file"]
-                if not re.fullmatch(r"part[0-9]{2}\\.bin", name):
+                if not re.fullmatch(r"part[0-9]{2}\.bin", name):
                     raise ValueError("unsafe manifest part name")
                 src = root / name
                 data = src.read_bytes()
                 if len(data) != part["bytes"]:
                     raise ValueError("part size mismatch: " + name)
-                git_digest = hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+                git_digest = hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
                 if git_digest != part["git_blob_sha1"]:
                     raise ValueError("part git-blob SHA mismatch: " + name)
                 target.write(data)
@@ -42,7 +42,7 @@ def main():
             if len(z.infolist()) != manifest["zip_members"]:
                 raise ValueError("ZIP member count mismatch")
             for item in z.infolist():
-                n = item.filename.replace("\\\\", "/")
+                n = item.filename.replace("\\", "/")
                 if n.startswith("/") or ".." in n.split("/"):
                     raise ValueError("unsafe member")
             if z.testzip() is not None:
