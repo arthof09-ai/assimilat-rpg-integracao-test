@@ -1,0 +1,583 @@
+{
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "round": "R05_FAST_RESEARCH",
+  "baseline": "DMG-RANK-01 v1.1, unchanged",
+  "evidence": "MATH_ONLY; R04 source pages already reopened; no new Notion readback in R05",
+  "attacker_page_id": "301c2b324ede828caccb813d3979267a",
+  "target_page_id": "5dac2b324ede83f39cdb01a904ce3cfd",
+  "target_conditions": "Behemoth Glacial Ouro1 CA68; +3 CA from Armadura de Gelo to CA71 only if activated; RD25 assumes ordinary Ouro RD without special resistance",
+  "noncanonical_test_parameters": "Luta Patada+6 and Mordida+7 are sensitivity parameters only; NOT authorized for Símio. Frígido-only Luta+6 does not transfer",
+  "exclusions": "No crit, voluntary reactions, magical effects, reflection, or damage-type-specific resistance; rolls of hit and damage treated as independent; action timing not admitted",
+  "source_paths": [
+    "https://app.notion.com/p/301c2b324ede828caccb813d3979267a",
+    "https://app.notion.com/p/5dac2b324ede83f39cdb01a904ce3cfd"
+  ],
+  "rows": [
+    {
+      "CA": 68,
+      "RD": 5,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "5/18",
+            "decimal": 0.2777777777777778
+          },
+          "E_net_on_hit": {
+            "fraction": "56",
+            "decimal": 56.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "140/9",
+            "decimal": 15.555555555555555
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "5/12",
+            "decimal": 0.4166666666666667
+          },
+          "E_net_on_hit": {
+            "fraction": "105/2",
+            "decimal": 52.5
+          },
+          "E_net_per_attempt": {
+            "fraction": "175/8",
+            "decimal": 21.875
+          }
+        }
+      },
+      "higher_per_attempt": "Mordida"
+    },
+    {
+      "CA": 68,
+      "RD": 15,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "5/18",
+            "decimal": 0.2777777777777778
+          },
+          "E_net_on_hit": {
+            "fraction": "46",
+            "decimal": 46.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "115/9",
+            "decimal": 12.777777777777779
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "5/12",
+            "decimal": 0.4166666666666667
+          },
+          "E_net_on_hit": {
+            "fraction": "85/2",
+            "decimal": 42.5
+          },
+          "E_net_per_attempt": {
+            "fraction": "425/24",
+            "decimal": 17.708333333333332
+          }
+        }
+      },
+      "higher_per_attempt": "Mordida"
+    },
+    {
+      "CA": 68,
+      "RD": 25,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "5/18",
+            "decimal": 0.2777777777777778
+          },
+          "E_net_on_hit": {
+            "fraction": "36",
+            "decimal": 36.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "10",
+            "decimal": 10.0
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "5/12",
+            "decimal": 0.4166666666666667
+          },
+          "E_net_on_hit": {
+            "fraction": "65/2",
+            "decimal": 32.5
+          },
+          "E_net_per_attempt": {
+            "fraction": "325/24",
+            "decimal": 13.541666666666666
+          }
+        }
+      },
+      "higher_per_attempt": "Mordida"
+    },
+    {
+      "CA": 68,
+      "RD": 35,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "5/18",
+            "decimal": 0.2777777777777778
+          },
+          "E_net_on_hit": {
+            "fraction": "26",
+            "decimal": 26.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "65/9",
+            "decimal": 7.222222222222222
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "5/12",
+            "decimal": 0.4166666666666667
+          },
+          "E_net_on_hit": {
+            "fraction": "45/2",
+            "decimal": 22.5
+          },
+          "E_net_per_attempt": {
+            "fraction": "75/8",
+            "decimal": 9.375
+          }
+        }
+      },
+      "higher_per_attempt": "Mordida"
+    },
+    {
+      "CA": 68,
+      "RD": 50,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "5/18",
+            "decimal": 0.2777777777777778
+          },
+          "E_net_on_hit": {
+            "fraction": "11",
+            "decimal": 11.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "55/18",
+            "decimal": 3.0555555555555554
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "5/12",
+            "decimal": 0.4166666666666667
+          },
+          "E_net_on_hit": {
+            "fraction": "15/2",
+            "decimal": 7.5
+          },
+          "E_net_per_attempt": {
+            "fraction": "25/8",
+            "decimal": 3.125
+          }
+        }
+      },
+      "higher_per_attempt": "Mordida"
+    },
+    {
+      "CA": 68,
+      "RD": 51,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "5/18",
+            "decimal": 0.2777777777777778
+          },
+          "E_net_on_hit": {
+            "fraction": "10",
+            "decimal": 10.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "25/9",
+            "decimal": 2.7777777777777777
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "5/12",
+            "decimal": 0.4166666666666667
+          },
+          "E_net_on_hit": {
+            "fraction": "13/2",
+            "decimal": 6.5
+          },
+          "E_net_per_attempt": {
+            "fraction": "65/24",
+            "decimal": 2.7083333333333335
+          }
+        }
+      },
+      "higher_per_attempt": "Patada"
+    },
+    {
+      "CA": 68,
+      "RD": 55,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "5/18",
+            "decimal": 0.2777777777777778
+          },
+          "E_net_on_hit": {
+            "fraction": "6",
+            "decimal": 6.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "5/3",
+            "decimal": 1.6666666666666667
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "5/12",
+            "decimal": 0.4166666666666667
+          },
+          "E_net_on_hit": {
+            "fraction": "5/2",
+            "decimal": 2.5
+          },
+          "E_net_per_attempt": {
+            "fraction": "25/24",
+            "decimal": 1.0416666666666667
+          }
+        }
+      },
+      "higher_per_attempt": "Patada"
+    },
+    {
+      "CA": 68,
+      "RD": 60,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "5/18",
+            "decimal": 0.2777777777777778
+          },
+          "E_net_on_hit": {
+            "fraction": "14/9",
+            "decimal": 1.5555555555555556
+          },
+          "E_net_per_attempt": {
+            "fraction": "35/81",
+            "decimal": 0.43209876543209874
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "5/12",
+            "decimal": 0.4166666666666667
+          },
+          "E_net_on_hit": {
+            "fraction": "0",
+            "decimal": 0.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "0",
+            "decimal": 0.0
+          }
+        }
+      },
+      "higher_per_attempt": "Patada"
+    },
+    {
+      "CA": 71,
+      "RD": 5,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "1/36",
+            "decimal": 0.027777777777777776
+          },
+          "E_net_on_hit": {
+            "fraction": "56",
+            "decimal": 56.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "14/9",
+            "decimal": 1.5555555555555556
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "1/12",
+            "decimal": 0.08333333333333333
+          },
+          "E_net_on_hit": {
+            "fraction": "105/2",
+            "decimal": 52.5
+          },
+          "E_net_per_attempt": {
+            "fraction": "35/8",
+            "decimal": 4.375
+          }
+        }
+      },
+      "higher_per_attempt": "Mordida"
+    },
+    {
+      "CA": 71,
+      "RD": 15,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "1/36",
+            "decimal": 0.027777777777777776
+          },
+          "E_net_on_hit": {
+            "fraction": "46",
+            "decimal": 46.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "23/18",
+            "decimal": 1.2777777777777777
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "1/12",
+            "decimal": 0.08333333333333333
+          },
+          "E_net_on_hit": {
+            "fraction": "85/2",
+            "decimal": 42.5
+          },
+          "E_net_per_attempt": {
+            "fraction": "85/24",
+            "decimal": 3.5416666666666665
+          }
+        }
+      },
+      "higher_per_attempt": "Mordida"
+    },
+    {
+      "CA": 71,
+      "RD": 25,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "1/36",
+            "decimal": 0.027777777777777776
+          },
+          "E_net_on_hit": {
+            "fraction": "36",
+            "decimal": 36.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "1",
+            "decimal": 1.0
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "1/12",
+            "decimal": 0.08333333333333333
+          },
+          "E_net_on_hit": {
+            "fraction": "65/2",
+            "decimal": 32.5
+          },
+          "E_net_per_attempt": {
+            "fraction": "65/24",
+            "decimal": 2.7083333333333335
+          }
+        }
+      },
+      "higher_per_attempt": "Mordida"
+    },
+    {
+      "CA": 71,
+      "RD": 35,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "1/36",
+            "decimal": 0.027777777777777776
+          },
+          "E_net_on_hit": {
+            "fraction": "26",
+            "decimal": 26.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "13/18",
+            "decimal": 0.7222222222222222
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "1/12",
+            "decimal": 0.08333333333333333
+          },
+          "E_net_on_hit": {
+            "fraction": "45/2",
+            "decimal": 22.5
+          },
+          "E_net_per_attempt": {
+            "fraction": "15/8",
+            "decimal": 1.875
+          }
+        }
+      },
+      "higher_per_attempt": "Mordida"
+    },
+    {
+      "CA": 71,
+      "RD": 50,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "1/36",
+            "decimal": 0.027777777777777776
+          },
+          "E_net_on_hit": {
+            "fraction": "11",
+            "decimal": 11.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "11/36",
+            "decimal": 0.3055555555555556
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "1/12",
+            "decimal": 0.08333333333333333
+          },
+          "E_net_on_hit": {
+            "fraction": "15/2",
+            "decimal": 7.5
+          },
+          "E_net_per_attempt": {
+            "fraction": "5/8",
+            "decimal": 0.625
+          }
+        }
+      },
+      "higher_per_attempt": "Mordida"
+    },
+    {
+      "CA": 71,
+      "RD": 51,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "1/36",
+            "decimal": 0.027777777777777776
+          },
+          "E_net_on_hit": {
+            "fraction": "10",
+            "decimal": 10.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "5/18",
+            "decimal": 0.2777777777777778
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "1/12",
+            "decimal": 0.08333333333333333
+          },
+          "E_net_on_hit": {
+            "fraction": "13/2",
+            "decimal": 6.5
+          },
+          "E_net_per_attempt": {
+            "fraction": "13/24",
+            "decimal": 0.5416666666666666
+          }
+        }
+      },
+      "higher_per_attempt": "Mordida"
+    },
+    {
+      "CA": 71,
+      "RD": 55,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "1/36",
+            "decimal": 0.027777777777777776
+          },
+          "E_net_on_hit": {
+            "fraction": "6",
+            "decimal": 6.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "1/6",
+            "decimal": 0.16666666666666666
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "1/12",
+            "decimal": 0.08333333333333333
+          },
+          "E_net_on_hit": {
+            "fraction": "5/2",
+            "decimal": 2.5
+          },
+          "E_net_per_attempt": {
+            "fraction": "5/24",
+            "decimal": 0.20833333333333334
+          }
+        }
+      },
+      "higher_per_attempt": "Mordida"
+    },
+    {
+      "CA": 71,
+      "RD": 60,
+      "results": {
+        "Patada": {
+          "P_hit": {
+            "fraction": "1/36",
+            "decimal": 0.027777777777777776
+          },
+          "E_net_on_hit": {
+            "fraction": "14/9",
+            "decimal": 1.5555555555555556
+          },
+          "E_net_per_attempt": {
+            "fraction": "7/162",
+            "decimal": 0.043209876543209874
+          }
+        },
+        "Mordida": {
+          "P_hit": {
+            "fraction": "1/12",
+            "decimal": 0.08333333333333333
+          },
+          "E_net_on_hit": {
+            "fraction": "0",
+            "decimal": 0.0
+          },
+          "E_net_per_attempt": {
+            "fraction": "0",
+            "decimal": 0.0
+          }
+        }
+      },
+      "higher_per_attempt": "Patada"
+    }
+  ],
+  "threshold": {
+    "at_ca68": "RD50: Mordida advantage; RD51: Patada advantage (integer RD)",
+    "at_ca71": "+3CA drops Patada hit chance 10/36 -> 1/36 and Mordida 15/36 -> 3/36; total expected harm decreases but relative advantage changes"
+  },
+  "qa": "All exact-fraction asserts passed; 101 uniform RD stochastic dominance assertions; no claims of native VLAB execution",
+  "no_canon_changes": true
+}

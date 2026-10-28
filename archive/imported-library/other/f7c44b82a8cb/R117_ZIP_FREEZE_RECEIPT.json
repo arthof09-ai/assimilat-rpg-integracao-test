@@ -1,0 +1,13 @@
+{
+  "ZIP": "/mnt/data/VLAB_R108_R117_NATIVE_CRITICO_FRACO_DESCARGA_MESTRE_ONLY.zip",
+  "sha256": "e57461df692818db820cf96a825a36d1ee4b5c11b19afaae1c835716c06ed2a8",
+  "bytes": 11173790,
+  "total_entries": 516,
+  "hashed_entries": 515,
+  "CRC": "PASS",
+  "hashes": "PASS",
+  "original_R107_archive_hash_preserved": "6bb377a3683a6b7559ae564a8edec005cfca4dc728808fcb61c5ea13b242af20",
+  "cold_auditor": "TO_RUN_FROM_EXTRACTED_ARCHIVE",
+  "library_readback": "NOT_YET",
+  "terminal_claims": 0
+}

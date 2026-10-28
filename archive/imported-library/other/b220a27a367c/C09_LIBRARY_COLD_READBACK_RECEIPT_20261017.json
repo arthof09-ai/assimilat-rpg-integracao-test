@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-10-17",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "library_path": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "state": "C09_COLD_LIBRARY_READBACK_PASS",
+  "files": [
+    {
+      "file": "DMG_C09_EFETIVO_POR_TENTATIVA_20261017_MESTRE_ONLY.zip",
+      "bytes": 86273,
+      "sha256": "00aa09b0e8cb7364ecfa58a61c4a6f729a1188d5e600356bbc869f7fe4fd8735",
+      "byte_identical": true
+    },
+    {
+      "file": "PSV_DMG_C09_EFETIVO_POR_TENTATIVA_20261017_MESTRE_ONLY.md",
+      "bytes": 6916,
+      "sha256": "389194841e2e216c78ada8c935d4ed4c913b9ef6c72d1597abfc2ad5e6eeeb03",
+      "byte_identical": true
+    },
+    {
+      "file": "C09_CLEAN_ARCHIVE_REPRODUCTION_20261017.json",
+      "bytes": 5731,
+      "sha256": "4370127fa5f3d308ec26137916736b5f4b3f62e2451ecc7e337e7ad621a73f8c",
+      "byte_identical": true
+    }
+  ],
+  "manifest_18_of_18": "PASS",
+  "archive_CRC": "PASS",
+  "zip_entries": 19,
+  "testing": {
+    "directed": 40,
+    "independent": 29,
+    "cold_extract_commands": 10
+  },
+  "authority": "LOCAL_EXPERIMENTAL_ONLY_NO_CANONICAL_WRITE",
+  "formal_F0": "4/8"
+}

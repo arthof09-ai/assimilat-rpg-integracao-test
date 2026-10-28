@@ -1,0 +1,46 @@
+{
+  "contract_id": "DMG-CORPUS-TO-VLAB-READONLY-01",
+  "version": "0.2-proposal-noncanonical",
+  "producer": "CM-000001 / OP-DMG-CORPUS-EMP-01",
+  "consumer": "Laboratorio de Combate Virtual (independent workstream)",
+  "read_only": true,
+  "schema_source": "DMG-TAX-DATA-01",
+  "payload": "OP-DMG-CORPUS-NORMALIZED-READONLY-v02.json",
+  "entities": {
+    "records": "records",
+    "effects": "effects_preliminary",
+    "components": "components_preliminary"
+  },
+  "identity": {
+    "record": "source_page_id",
+    "effect": "effect_id",
+    "component": "component_id"
+  },
+  "nullable_fields_mean": "UNKNOWN_NOT_ZERO",
+  "rank_authority": "TITLE_PREFERRED_PROVISIONAL_ONLY; higher authority and explicit Mestre correction prevail",
+  "source_status": "READ_PRIOR_TURN; NOT_REVALIDATED_AS_CURRENT_CANON",
+  "prohibitions": [
+    "DO_NOT_WRITE_CANON",
+    "DO_NOT_ASSUME_MISSING_RULES",
+    "DO_NOT_TREAT_CROSSREFERENCE_AS_UNIQUE_FIXTURE",
+    "DO_NOT_TREAT_PRELIMINARY_EFFECT_AS_VERIFIED_DEFINITION",
+    "DO_NOT_ENABLE_FULL_FIGHT_WITH_MISSING_FIELDS"
+  ],
+  "eligibility": {
+    "MATH_ONLY": "explicit formula and dice-only statistics; unresolved modifiers remain symbolic",
+    "DAMAGE_ON_HIT": "requires full modifiers and effect conditions",
+    "FULL_FIGHT": "requires verified current combatant source, full attack and action catalog, hit/save rules, defense/RD/resistance, resources, turn economy, conditions, environment, defeat rules, and source snapshots"
+  },
+  "expected_consumer_behavior": {
+    "reject_incomplete_full_fight": true,
+    "preserve_provenance": true,
+    "never_backfill_unknown": true,
+    "send_back_discrepancy_reports_only": true
+  },
+  "integrity": {
+    "record_count": 104,
+    "unique_ids": 104,
+    "preliminary_effect_count": 49,
+    "complete_full_fight": 0
+  }
+}

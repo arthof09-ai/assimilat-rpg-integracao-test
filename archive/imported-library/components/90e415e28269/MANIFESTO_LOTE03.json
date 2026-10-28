@@ -1,0 +1,92 @@
+{
+  "scope": "private/master-side video triage only; not redistribute source footage",
+  "source_videos": [
+    {
+      "file": "496003.mp4",
+      "sha256": "5b2cb496cc84e504f7eb7a76d5d4f069f80f6aba1bbd71c1c20ece652df06494",
+      "bytes": 135158768
+    },
+    {
+      "file": "496008.mp4",
+      "sha256": "ef4c047b3b391a6ffcb9f5c49938f847f84798a94063a241041a14e707193139",
+      "bytes": 31345526
+    },
+    {
+      "file": "496016.mp4",
+      "sha256": "0c5d172ce002c3adaf3124986e409a288bee2cea56e7d7408f8f0e99cfab824c",
+      "bytes": 36032167
+    }
+  ],
+  "items": [
+    {
+      "path": "contact_496003_p1.jpg",
+      "bytes": 242588,
+      "sha256": "286c2f5def081c20f446589695e9929c11b5a5550730ae6838ea6160c6831479"
+    },
+    {
+      "path": "contact_496003_p2.jpg",
+      "bytes": 254525,
+      "sha256": "758292967290bbeef6d24b6a9c262327ae0fa0468cc75236981fcfa0559a3043"
+    },
+    {
+      "path": "contact_496003_p3.jpg",
+      "bytes": 193705,
+      "sha256": "86eef72cd6a4fa5355ecf05ceba416be339efa98f77f993c95b103ee3c79c9a9"
+    },
+    {
+      "path": "contact_496003_p4.jpg",
+      "bytes": 99535,
+      "sha256": "6439eef352bee11765c70ca039a6ffa31a3a2d29f5634b790ab43a29bb2f2b13"
+    },
+    {
+      "path": "contact_496008_p1.jpg",
+      "bytes": 207735,
+      "sha256": "a5c6da2ba9cee8e18eaf485357a5ec63e0f2fd0e7bb98924e53b06a00656bd56"
+    },
+    {
+      "path": "contact_496008_p2.jpg",
+      "bytes": 215909,
+      "sha256": "092867c3544873e91917ffb03552ec9bf4595877c75b1657b6876d16f7dc1f46"
+    },
+    {
+      "path": "contact_496016_p1.jpg",
+      "bytes": 203745,
+      "sha256": "2c4ff1363b8b6c823c614286257619f050d62c1c2e7109a55bdb5e4d37dc268e"
+    },
+    {
+      "path": "contact_496016_p2.jpg",
+      "bytes": 235346,
+      "sha256": "9ccbedd4909f57729f7be159ddef2c7abf91cf1f3d02904228d76dda7eb4a042"
+    },
+    {
+      "path": "detail_496003_0964.png",
+      "bytes": 788681,
+      "sha256": "704d5a3a6051c5d5d83b26cd33b3bb7ecad41dc3649cc88ece94b5b6a9155a90"
+    },
+    {
+      "path": "detail_496008_0907.png",
+      "bytes": 359285,
+      "sha256": "1aeb578e22a8ceeaa8d1967fe77c59305696328a3fcee94c5d3a4b85bf091d62"
+    },
+    {
+      "path": "detail_496016_0968.png",
+      "bytes": 1208292,
+      "sha256": "6079bdd26f0327692433005994a492e847f2f4b43ce1fb8604cdd1a7fc717c0e"
+    },
+    {
+      "path": "DOSSIE_VIDEO_LOTE03_INOVADOR_20261023.md",
+      "bytes": 12087,
+      "sha256": "5f41a3e564f2d96ba9c3532fdd01bc4bf9a6378ea55b77010bcd079521832d1d"
+    },
+    {
+      "path": "verificador_aceite_combate_test36.py",
+      "bytes": 3946,
+      "sha256": "3f05625ae0b519f2a41599857c89a14e6e7ff64c57b906e231f519b7fffc3735"
+    },
+    {
+      "path": "ACEITE_COMBATE_TEST36_BASELINE.json",
+      "bytes": 2834,
+      "sha256": "c637f477a975f59e5c1e71abec81cbbe7e214c4bd76ba9f0b11a505f0b0dec55"
+    }
+  ]
+}

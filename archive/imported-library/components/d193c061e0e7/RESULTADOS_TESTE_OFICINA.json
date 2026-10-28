@@ -1,0 +1,74 @@
+[
+  {
+    "viewport": "360x740",
+    "passed": 15,
+    "total": 15,
+    "checks": {
+      "title": true,
+      "stage_has_alpha": true,
+      "sheet_is_192": true,
+      "default_grid": true,
+      "16_nonempty": true,
+      "audit_pass": true,
+      "direction": true,
+      "pause": true,
+      "resume": true,
+      "export": true,
+      "invalid_grid": true,
+      "reset": true,
+      "no_errors": true,
+      "offline_no_requests": true,
+      "mobile_width_fit": true
+    },
+    "errors": [],
+    "requests": []
+  },
+  {
+    "viewport": "390x844",
+    "passed": 15,
+    "total": 15,
+    "checks": {
+      "title": true,
+      "stage_has_alpha": true,
+      "sheet_is_192": true,
+      "default_grid": true,
+      "16_nonempty": true,
+      "audit_pass": true,
+      "direction": true,
+      "pause": true,
+      "resume": true,
+      "export": true,
+      "invalid_grid": true,
+      "reset": true,
+      "no_errors": true,
+      "offline_no_requests": true,
+      "mobile_width_fit": true
+    },
+    "errors": [],
+    "requests": []
+  },
+  {
+    "viewport": "412x915",
+    "passed": 15,
+    "total": 15,
+    "checks": {
+      "title": true,
+      "stage_has_alpha": true,
+      "sheet_is_192": true,
+      "default_grid": true,
+      "16_nonempty": true,
+      "audit_pass": true,
+      "direction": true,
+      "pause": true,
+      "resume": true,
+      "export": true,
+      "invalid_grid": true,
+      "reset": true,
+      "no_errors": true,
+      "offline_no_requests": true,
+      "mobile_width_fit": true
+    },
+    "errors": [],
+    "requests": []
+  }
+]

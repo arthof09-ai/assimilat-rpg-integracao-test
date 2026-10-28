@@ -1,0 +1,56 @@
+{
+  "a1_turn_starts": [
+    {
+      "actor": "LAB_PERSONALIZADO_1",
+      "round": 1,
+      "seq": 1
+    },
+    {
+      "actor": "LAB_PERSONALIZADO_2",
+      "round": 1,
+      "seq": 2
+    },
+    {
+      "actor": "LAB_PERSONALIZADO_1",
+      "round": 2,
+      "seq": 3
+    },
+    {
+      "actor": "LAB_PERSONALIZADO_2",
+      "round": 2,
+      "seq": 4
+    },
+    {
+      "actor": "LAB_PERSONALIZADO_1",
+      "round": 3,
+      "seq": 5
+    },
+    {
+      "actor": "LAB_PERSONALIZADO_2",
+      "round": 3,
+      "seq": 6
+    }
+  ],
+  "auto_refresh_current_code": false,
+  "auto_refresh_observed_events": [],
+  "baseline_defender_claim": "HOLD_TEMPORAL_BIAS_UNRESOLVED",
+  "current_rule_text": "Em um turno 1 Reação; anunciar antes de ataque inimigo",
+  "explicit_refresh_time_found": "NOT_SPECIFIED_UNAMBIGUOUSLY",
+  "must_not_infer_per_battle_reaction_limit_as_canon": true,
+  "native_damage_replay_unchanged": true,
+  "observed_reaction_uses": [
+    {
+      "by": "LAB_PERSONALIZADO_2",
+      "consumed": true,
+      "seq": 2
+    },
+    {
+      "by": "LAB_PERSONALIZADO_1",
+      "consumed": true,
+      "seq": 3
+    }
+  ],
+  "official_rule_changes": 0,
+  "schema": "VLAB-R24-REACTION-TEMPORAL-AUDIT",
+  "source": "3ebc2b32-4ede-81f1-be4b-e8804ac113c0"
+}

@@ -1,0 +1,10 @@
+{
+  "file": "VLAB_R161_R170_RECEIPTS_TEMPORAL_CROC_ED_CORRECTED_MESTRE_ONLY.zip",
+  "bytes": 15604260,
+  "SHA256": "ab34cad5a0b26455f9a0ad659735867fa3a9a430e526e08fa2dcd6a13b776ed0",
+  "entries": 150,
+  "manifest_nonself_files": 149,
+  "verified": 149,
+  "CRC": "PASS",
+  "old_R160_SHA256": "7b208fe553809df6a999a1e4f9a70d7ad116033e929256bc71dbcd61843f3410"
+}

@@ -1,0 +1,73 @@
+{
+  "pass_status": "PASS",
+  "files_readback_byte_identical": 12,
+  "files_total": 12,
+  "zip_sha256": "6bb377a3683a6b7559ae564a8edec005cfca4dc728808fcb61c5ea13b242af20",
+  "archive_entries": 64,
+  "manifest_validated_files": 63,
+  "notion_writer_acquired": false,
+  "profile_status": "PAUSED",
+  "contract_certified": 0,
+  "files": [
+    {
+      "file": "VLAB_R102_R107_AUDITORIA_17_CONTRATOS_CIENCIA_MESTRE_ONLY.zip",
+      "bytes": 9397382,
+      "sha256": "6bb377a3683a6b7559ae564a8edec005cfca4dc728808fcb61c5ea13b242af20"
+    },
+    {
+      "file": "R107_PSV_AUDITORIA_17_MESTRE_ONLY.md",
+      "bytes": 12407,
+      "sha256": "533b80009f805d10f496948c29157ba1cd48e5747c94f885ee80d03ff195b4fd"
+    },
+    {
+      "file": "R105_ORIGINAL_17_CONTRACTS_MATRIX.md",
+      "bytes": 22216,
+      "sha256": "4bb46adeed3253c50900ac912fb3dcd11592f5b1fa3ec600e97f407aa009286d"
+    },
+    {
+      "file": "R105_ORIGINAL_17_CONTRACTS_MATRIX.json",
+      "bytes": 39952,
+      "sha256": "28c848e3b68cc6d2e972dfcc0d7ce478525276a0dc5c138120a985ae87f33330"
+    },
+    {
+      "file": "R102_CAUSAL_R95_READONLY.json",
+      "bytes": 11243,
+      "sha256": "0d8ae9786ac7478285b1badda8c56967427af2bcbbbc428c6f1d1d4d3858f44d"
+    },
+    {
+      "file": "R102_R93_R95_CRITICAL_PARITY_ERRATA.json",
+      "bytes": 3984,
+      "sha256": "896549d00f32b4e0f91140aa68e770515db7e193cba863420bd9ace5c7d2e236"
+    },
+    {
+      "file": "R103_INDEPENDENT_COLD_AUDIT.json",
+      "bytes": 2763,
+      "sha256": "c74bab0eaf486036b9f6c31790e5c17d6860589c0fe9f18ea169311f68152495"
+    },
+    {
+      "file": "R104_GRIFO_L2_SOURCE_DERIVED.json",
+      "bytes": 1974,
+      "sha256": "5ce2d2b0c0fc7efd9030ce7d14389eb40ed7ead7fdc7222925bf4c45bb6792f4"
+    },
+    {
+      "file": "R106_PANEL_BESTAS_27_STATUS.json",
+      "bytes": 4045,
+      "sha256": "3bda7fc772d390506ba8766f09001c1133feec7e56329f038727535cbdd69aae"
+    },
+    {
+      "file": "R105_DMG_HANDOFF_READONLY.md",
+      "bytes": 3988,
+      "sha256": "7403c8a80c9a2efc405af3feaa434bc171fc32359cfcf45839368be6231126fe"
+    },
+    {
+      "file": "R107_MINIMUM_NORMATIVE_DECISIONS.md",
+      "bytes": 3167,
+      "sha256": "a2e15fa609766a50ad835a55b293bdb373589b52749c9a3eb5a8963fb97da264"
+    },
+    {
+      "file": "R107_COLD_READBACK_RECEIPT.json",
+      "bytes": 550,
+      "sha256": "e655acee203feca3fffc571007cd8feeb0d33264e7d9ce0e38d238902aa21985"
+    }
+  ]
+}

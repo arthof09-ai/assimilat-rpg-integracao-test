@@ -1,0 +1,34 @@
+{
+  "contract_kind": "DRAFT_NOT_CANONICAL",
+  "origin_video_id": "496042",
+  "canonical_mechanics": "VLAB_ONLY_IF_AUTHORIZED",
+  "phase": "TEST_EXPERIMENTAL",
+  "required_authority": "Desenvolvedor writer e VLAB competente para efeitos reais",
+  "design": {
+    "aim": "painel read-only de habilidade e custos canônicos",
+    "source_states": [
+      "FONTE_AUTORIZADA",
+      "FONTE_PENDENTE",
+      "NAO_AUTORIZADO"
+    ],
+    "fields": [
+      "character_display",
+      "ability_name",
+      "cost_pa_canonical_or_null",
+      "targeting_source",
+      "server_revision",
+      "role_projection"
+    ],
+    "prohibits": [
+      "invent_cost",
+      "invent_ability",
+      "write_level_up",
+      "publish_master_only"
+    ],
+    "accept": [
+      "role_projection_before_transmission",
+      "no_unavailable_cost_filled_in",
+      "mobile_arena_visible"
+    ]
+  }
+}

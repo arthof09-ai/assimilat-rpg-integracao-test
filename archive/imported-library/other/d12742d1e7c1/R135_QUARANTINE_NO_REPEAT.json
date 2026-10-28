@@ -1,0 +1,39 @@
+{
+  "no_repeat_historical": "R01–R125 preserved in exact original ZIP including R123 unknown and R124 5×5 censored",
+  "R130_HEAL_SOURCE_3ACTOR_S963211": {
+    "status": "QUARANTINE",
+    "cause": "native generator unexpectedly set all actor speed to None; independent cold audit rejected state at INIT",
+    "no_retry": true
+  },
+  "R134_AFTER_INTENT_973211": {
+    "status": "DIAGNOSTIC_PREVALIDATION_HOLD",
+    "cause": "payload JSON conversion vs tuple comparison rejected before intent; no unknown effect",
+    "no_credit": true
+  },
+  "R134_AFTER_INTENT_973213": {
+    "status": "UNKNOWN_EFFECT_HOLD",
+    "pending": 1,
+    "no_retry": true
+  },
+  "R134_AFTER_COMMIT_973214": {
+    "status": "FAULT_PROBE_PASS",
+    "pending": 0,
+    "exactly_one_paid_reaction": true
+  },
+  "R135_NEGATIVE_PRE_INTENT_983211": {
+    "status": "REJECTION_PROBE_VALID",
+    "pending": 0
+  },
+  "R132_HEAL_SOURCE_3ACTOR_CORRECTED_S963212": {
+    "status": "SELECTED_COLD_PASS",
+    "healing": 79,
+    "pa": 75
+  },
+  "source_constraints": [
+    "R126 Marca duration source3 turns but expiration boundary unresolved; mark stored only",
+    "R126 distances/range asserted experimental fixture; do not certify positional metric/line of sight canon",
+    "R135 specific RD Dark60 source unit only, not a real attack",
+    "R130 initial readback failed; preserve all; no reverse mutation"
+  ],
+  "writer": "CM-000006 PAUSED, no lease/ACK/epoch/fencing"
+}

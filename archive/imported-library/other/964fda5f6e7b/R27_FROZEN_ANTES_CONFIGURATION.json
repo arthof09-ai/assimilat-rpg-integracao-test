@@ -1,0 +1,88 @@
+{
+  "canon_write": false,
+  "classification": "CONDITIONAL_NONCANONICAL",
+  "critical_lab_policy": "MESTRE-20261015-VLAB-CRITICAL_FAILURE-AUTOMATIC_MISS_NO_PENALTY",
+  "engine": "A1/V07/V081/R18_SQLITE via R25/R26",
+  "first_normal_action_policy": "ALWAYS_BASIC_NORMAL_ATTACK_NO_VOLUNTARY_REACTIONS",
+  "initial_history_frozen": "R26 ZIP preserved bytes; R25 and duel of Vigias not modified",
+  "local_manifest_sha256": "cfd67e3d761aa62edf662ecd10badb8f5a3b5bf40bdd62382c47707c02959f7f",
+  "official_current_rules_version": "DMG-RANK v1.1 UNCHANGED",
+  "ordered_pair_count": 16,
+  "plan_320_experiment_configurations": 320,
+  "poscrit_policy": "3D6_MAX_DICE_BONUS_18_PLUS_NORMAL_DICE",
+  "profiles": {
+    "ASSIMETRICO": {
+      "CAR": 3,
+      "CON": 10,
+      "DES": 22,
+      "FOR": 2,
+      "INT": 3,
+      "SAB": 3
+    },
+    "DEFENSIVO": {
+      "CAR": 3,
+      "CON": 15,
+      "DES": 12,
+      "FOR": 6,
+      "INT": 4,
+      "SAB": 3
+    },
+    "EQUILIBRADO": {
+      "CAR": 4,
+      "CON": 10,
+      "DES": 9,
+      "FOR": 12,
+      "INT": 4,
+      "SAB": 4
+    },
+    "OFENSIVO": {
+      "CAR": 3,
+      "CON": 10,
+      "DES": 4,
+      "FOR": 20,
+      "INT": 3,
+      "SAB": 3
+    }
+  },
+  "project_operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "round_limit": 24,
+  "rule_authorities": {
+    "beast": "3ebc2b32-4ede-81f4-992a-c88a3588cacd",
+    "combat": "3ebc2b32-4ede-81f1-be4b-e8804ac113c0",
+    "scientific_plan": "3f3c2b32-4ede-81d4-80db-f11732734463"
+  },
+  "rule_derived_but_conditional_fields": [
+    "LUTA_BONUS6_ALLOCATION_UNATTESTED_INDIVIDUAL",
+    "PA_ZERO_FOR_TECHNICAL_BASIC_ATTACK",
+    "IMPACTO_TAG_PLACEHOLDER",
+    "ADJACENT_LAB_SCENE"
+  ],
+  "same_seed_across_side_inversions": true,
+  "schema": "R27_BASELINE_ANTES_FROZEN_PREREGISTERED",
+  "seeds": [
+    11,
+    23,
+    37,
+    41,
+    53,
+    67,
+    71,
+    83,
+    97,
+    101,
+    113,
+    127,
+    131,
+    149,
+    157,
+    163,
+    173,
+    181,
+    191,
+    197
+  ],
+  "seeds_per_cell": 20,
+  "upstream_r26_sha256": "0375f64f884ac9d85b1bfa5f9f01099c53873f4c6e1a76d126de31b423927e75",
+  "version": "VLAB-R27-SCIENTIFIC-BASELINE-CONDITIONAL-1",
+  "win_condition": "HP_ZERO_LAB_CONDITIONAL_ONLY"
+}

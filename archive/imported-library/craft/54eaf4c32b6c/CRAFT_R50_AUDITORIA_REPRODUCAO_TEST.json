@@ -1,0 +1,13 @@
+{
+  "checkpoint": "R50-AUDIT",
+  "source": "R49",
+  "zip_sha256": "386757fde97576221fef3759bfd8fccb72c307da042aaa89d054b4c09bb0dd00",
+  "manifest_verified": "193/193",
+  "js_verified": "1765/1765",
+  "fuzz_verified": "2000/2000",
+  "chromium_this_turn": "NOT_RUN",
+  "android_physical": "NOT_RUN",
+  "canonical_writes": 0,
+  "gates": "HOLD",
+  "next": "Android physical validation, authenticated 50 decisions and R46 evidence; ACK/fencing/REC-LIB"
+}

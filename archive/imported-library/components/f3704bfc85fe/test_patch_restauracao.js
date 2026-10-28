@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict');
+const {restaurarBackupSeguro}=require('./patch_restauracao_sugerido.js');
+let estado={scenes:[{name:'ORIGINAL'}]},persistido=JSON.stringify(estado),writes=0;
+const storage={setItem(k,v){writes++;persistido=v;},getItem(){return persistido;}};
+const base={valida:x=>Array.isArray(x?.scenes),storage,chave:'TEST',publica:v=>estado=v,clona:x=>JSON.parse(JSON.stringify(x))};
+let testes=0;
+let result=restaurarBackupSeguro({...base,texto:'{JSON inválido'});assert.equal(result.ok,false);assert.equal(estado.scenes[0].name,'ORIGINAL');testes++;
+result=restaurarBackupSeguro({...base,texto:JSON.stringify({foo:2})});assert.equal(result.ok,false);assert.equal(estado.scenes[0].name,'ORIGINAL');testes++;
+const failing={...storage,setItem(){throw new Error('QuotaExceededError')}};
+result=restaurarBackupSeguro({...base,storage:failing,texto:JSON.stringify({scenes:[{name:'IMPORTADA'}]})});assert.equal(result.ok,false);assert.equal(estado.scenes[0].name,'ORIGINAL');assert.equal(JSON.parse(persistido).scenes[0].name,'ORIGINAL');testes++;
+result=restaurarBackupSeguro({...base,texto:JSON.stringify({scenes:[{name:'IMPORTADA'}]})});assert.equal(result.ok,true);assert.equal(estado.scenes[0].name,'IMPORTADA');assert.equal(JSON.parse(persistido).scenes[0].name,'IMPORTADA');testes++;
+console.log(JSON.stringify({testes,pass:testes,foco:'pré-persistência, falhas de quota e rejeições',escopo:'standalone demonstrator'}));

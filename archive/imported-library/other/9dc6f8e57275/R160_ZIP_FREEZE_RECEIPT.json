@@ -1,0 +1,13 @@
+{
+  "path": "/mnt/data/VLAB_R151_R160_TACTICAL_R42_R43_CASULO_ED_BE_VERIFIED_MESTRE_ONLY.zip",
+  "size_bytes": 15175798,
+  "sha256": "7b208fe553809df6a999a1e4f9a70d7ad116033e929256bc71dbcd61843f3410",
+  "manifest_items_verified": 365,
+  "entries": 367,
+  "crc": "PASS",
+  "nested_R150": "SHA256_IDENTICAL",
+  "readback": "SAME_CONTAINER_NOT_COLD_YET",
+  "source_scripts_included": true,
+  "unmodified_R01_R150": "PRESERVED_BY_NESTED_R150",
+  "timestamp_utc": "2026-10-17T01:45:57.434085+00:00"
+}

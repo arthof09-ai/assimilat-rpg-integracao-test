@@ -1,0 +1,56 @@
+{
+  "after_rollback_status": "DENIED_AFTER_ROLLBACK",
+  "before_commit_status": "DENIED_NO_COMMIT",
+  "commit_status": "COMMITTED_LOCAL_VERIFIED",
+  "notion_writes": 0,
+  "published_to_party": false,
+  "report": {
+    "alma_atual": {
+      "antes": 20,
+      "depois": 20
+    },
+    "alma_maxima": {
+      "antes": 22,
+      "depois": 32
+    },
+    "alteracoes_atributos_normais": {
+      "INT": {
+        "antes": 4,
+        "depois": 6
+      }
+    },
+    "aviso": "Demonstração local: nenhuma ficha do Notion foi alterada; não enviar à Party.",
+    "classe_armadura": {
+      "antes": 15,
+      "depois": 15
+    },
+    "classe_dificuldade_magia": {
+      "antes": 6,
+      "depois": 8
+    },
+    "classificacao_anterior": "Bronze",
+    "classificacao_atual": "Bronze",
+    "forca_fisica": {
+      "antes": 140,
+      "depois": 140
+    },
+    "nivel_anterior": 1,
+    "nivel_atual": 2,
+    "observacao_forma": "Transformação permanece indisponível em Bronze.",
+    "pa_livre": {
+      "antes": 21,
+      "depois": 31
+    },
+    "personagem": "PERSONAGEM_SINTETICO_TESTE",
+    "tipo": "PREVIA_DE_RELATORIO_LOCAL_NAO_PUBLICADO",
+    "vida_atual": {
+      "antes": 20,
+      "depois": 20
+    },
+    "vida_maxima": {
+      "antes": 22,
+      "depois": 30
+    }
+  },
+  "scope": "MASTER_SIDE_LOCAL_CANDIDATE"
+}

@@ -1,0 +1,116 @@
+{
+  "schema": "DMG-F1-R05-REACTION-BOUND-v0.6",
+  "sources": {
+    "combat": "3ebc2b324ede81f1be4be8804ac113c0",
+    "liu": "0b4c2b324ede837cb6be818dc8e36010",
+    "monkey": "301c2b324ede828caccb813d3979267a"
+  },
+  "attack": "Macaco Patada 2d6+FOR, FOR 54/56 sensitivity. Luta=0 and no penalties ONLY as a bound.",
+  "defender": "6 + CON16 + Armor15 + FortitudeBonus = 37+f",
+  "reaction_choices_exclusive": [
+    "none/passive CA46",
+    "Esquivar total49 if Reação available",
+    "Defender 37+f if Reação available",
+    "Contra-atacar triggers only if attack does NOT exceed CA46"
+  ],
+  "key_distribution_table": [
+    {
+      "FOR": 54,
+      "FortitudeBonus": 0,
+      "DefenderTotal": 37,
+      "hit_out_of_36": 36
+    },
+    {
+      "FOR": 54,
+      "FortitudeBonus": 2,
+      "DefenderTotal": 39,
+      "hit_out_of_36": 36
+    },
+    {
+      "FOR": 54,
+      "FortitudeBonus": 18,
+      "DefenderTotal": 55,
+      "hit_out_of_36": 36
+    },
+    {
+      "FOR": 54,
+      "FortitudeBonus": 19,
+      "DefenderTotal": 56,
+      "hit_out_of_36": 35
+    },
+    {
+      "FOR": 54,
+      "FortitudeBonus": 20,
+      "DefenderTotal": 57,
+      "hit_out_of_36": 33
+    },
+    {
+      "FOR": 54,
+      "FortitudeBonus": 28,
+      "DefenderTotal": 65,
+      "hit_out_of_36": 1
+    },
+    {
+      "FOR": 54,
+      "FortitudeBonus": 29,
+      "DefenderTotal": 66,
+      "hit_out_of_36": 0
+    },
+    {
+      "FOR": 56,
+      "FortitudeBonus": 0,
+      "DefenderTotal": 37,
+      "hit_out_of_36": 36
+    },
+    {
+      "FOR": 56,
+      "FortitudeBonus": 2,
+      "DefenderTotal": 39,
+      "hit_out_of_36": 36
+    },
+    {
+      "FOR": 56,
+      "FortitudeBonus": 20,
+      "DefenderTotal": 57,
+      "hit_out_of_36": 36
+    },
+    {
+      "FOR": 56,
+      "FortitudeBonus": 21,
+      "DefenderTotal": 58,
+      "hit_out_of_36": 35
+    },
+    {
+      "FOR": 56,
+      "FortitudeBonus": 30,
+      "DefenderTotal": 67,
+      "hit_out_of_36": 1
+    },
+    {
+      "FOR": 56,
+      "FortitudeBonus": 31,
+      "DefenderTotal": 68,
+      "hit_out_of_36": 0
+    }
+  ],
+  "all_hit_condition": {
+    "FOR54": "Fortitude <=18, no other modifiers",
+    "FOR56": "Fortitude <=20, no other modifiers"
+  },
+  "counterattack_trigger_counts": {
+    "FOR54": 0,
+    "FOR56": 0
+  },
+  "unknowns": [
+    "Liu Fortitude exact skill",
+    "reactions declared before attack",
+    "action still available",
+    "Luta/penalties",
+    "stat FOR54/56 source conflict",
+    "range/LoS",
+    "RDF applicability"
+  ],
+  "eligibility": "Only reaction mathematics if declared legal; no real runtime execution or full-fight certification",
+  "unit_tests_new": 15,
+  "unit_tests_fail": 0
+}

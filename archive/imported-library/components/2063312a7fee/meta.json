@@ -1,0 +1,34 @@
+[
+  {
+    "id": "496036",
+    "duration_seconds": 1544.9333333333334,
+    "sha256": "3402d0aeb330b58dd116e39933f4853af2c20721dcb0b7df8693fcc18188dacf",
+    "samples": 32,
+    "errors": 0,
+    "contact_pages": 2
+  },
+  {
+    "id": "496038",
+    "duration_seconds": 1077.6666666666667,
+    "sha256": "e91a7ee1cefdfa725339c5303084449944fba2af1d8fa9fbe97498d80839f8f9",
+    "samples": 32,
+    "errors": 0,
+    "contact_pages": 2
+  },
+  {
+    "id": "496040",
+    "duration_seconds": 1448.0333333333333,
+    "sha256": "19f6ac37128727306a26a5c95a7237850c91d6560476d0638e40c9f21cd5d8c5",
+    "samples": 32,
+    "errors": 0,
+    "contact_pages": 2
+  },
+  {
+    "id": "496042",
+    "duration_seconds": 2274.5666666666666,
+    "sha256": "ba25c517d171cebf7aecddcc66e43cf8f4f36583869cee7c061bbe33e09b6421",
+    "samples": 48,
+    "errors": 0,
+    "contact_pages": 3
+  }
+]

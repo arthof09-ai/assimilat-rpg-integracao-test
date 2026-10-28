@@ -1,0 +1,31 @@
+import sys,unittest
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'code'))
+import lot_and_ticket as a
+class TestActualEvidence(unittest.TestCase):
+ def setUp(self):self.e=a.read_evidence();self.out=a.compile_docket()
+ def test_existing_case(self):self.assertEqual(self.out['case'],'LAB-CRAFT-VIGILIA-BOREAL-20261020-001')
+ def test_three_nonlot_pages(self):self.assertEqual(a.qualify_finished_oil(self.e)['sources_examined'],3)
+ def test_no_qualified_lot(self):self.assertEqual(a.qualify_finished_oil(self.e)['usable_lots'],0)
+ def test_price_not_availability(self):self.assertEqual(self.e['oil_inventory_evidence'][2]['kind'],'HISTORICAL_PRICE_RECORD')
+ def test_catalog_price_not_consumed(self):self.assertEqual(a.qualify_finished_oil(self.e)['candidate_rows'][2]['quantity_consumed'],0)
+ def test_mirror_table_bounded(self):self.assertEqual(self.e['stock_checks'][1]['rows_scanned'],10)
+ def test_mirror_zero_does_not_prove_global_absence(self):self.assertIsNone(a.qualify_finished_oil(self.e)['stock_exists_somewhere'])
+ def test_operator_candidates_not_assigned(self):self.assertIsNone(a.qualify_operator(self.e)['assigned_authorized_operator'])
+ def test_operator_candidates_exactly_two(self):self.assertEqual(len(self.e['operator_candidates']),2)
+ def test_energy_xor_preserved(self):self.assertEqual(len(self.e['P2']['items'][-1]['alternatives']),2)
+ def test_all_bom_lines_carried(self):self.assertEqual(len(a.p2_materials(self.e)),7)
+ def test_sal_unresolved(self):self.assertTrue(a.h2_3_admission(self.e)['blocking_dimensions']['P2_SALT'])
+ def test_energy_method_unresolved(self):self.assertTrue(a.h2_3_admission(self.e)['blocking_dimensions']['P2_ENERGIZATION'])
+ def test_pattern_figure_no_verified_geometry(self):self.assertTrue(a.h2_3_admission(self.e)['blocking_dimensions']['P2_PATTERN_SPEC'])
+ def test_admission_rejected_real_current(self):self.assertEqual(a.h2_3_admission(self.e)['stage_A'],'HOLD_NO_APPLICATION')
+ def test_own_effect_not_observed(self):self.assertEqual(a.h2_3_admission(self.e)['in_game_magic_observations'],0)
+ def test_fixture_not_stock(self):self.assertEqual(a.evaluate_fixture({'simulated':True,'lot_id':'FAKE'})['reason'],'LAB_FIXTURE_IS_NOT_MATERIAL_LOT')
+ def test_almost_complete_record_still_needs_authority(self):self.assertEqual(a.evaluate_fixture({'lot_id':'TEST-X','product_page':'x','origin':'y','quantity':1,'custody':'z','quality':'q','use_authorized':True})['reason'],'REQUIRES_INDEPENDENT_AUTHORITY_SOURCE_READBACK')
+ def test_material_no_fabrication(self):self.assertEqual(a.material_status(self.e)['physical_units_built'],0)
+ def test_PA_null(self):self.assertIsNone(self.out['PA_H1'])
+ def test_h2_no_integration(self):self.assertFalse(self.out['magic_success_claimed'])
+ def test_r48_baseline_frozen(self):self.assertFalse(self.out['baseline']['executed_r48_factory'])
+ def test_no_party_writes(self):self.assertEqual(self.out['party_or_primeiro_writes'],0)
+if __name__=='__main__': unittest.main(verbosity=1)

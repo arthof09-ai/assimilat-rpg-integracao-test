@@ -1,0 +1,87 @@
+{
+  "zip": "/mnt/data/DMG_C09_EFETIVO_POR_TENTATIVA_20261017_MESTRE_ONLY.zip",
+  "sha256": "00aa09b0e8cb7364ecfa58a61c4a6f729a1188d5e600356bbc869f7fe4fd8735",
+  "bytes": 86273,
+  "zip_entries": 19,
+  "manifest_members_pass": 18,
+  "manifest_members_expected": 18,
+  "CRC": "PASS",
+  "clean_dir_10_commands": "PASS",
+  "commands": [
+    {
+      "cmd": "python c09_effective.py Varok Machado Raiz-Ferro contra Eristan",
+      "returncode": 0,
+      "first_output_line": [
+        "Sikong Varok usa Machado do Juramento Raiz-Ferro contra Sikong Eristan. Ataque 4d6+100 vs CA 76: P(acerto)=1 (empate favorece defesa). Dano 10d10+48, média bruta 103. Dano esperado pós-RD por tentativa: 78. Vínculo PA/dia 95; PA golpe-base None (se ausente, indeterminado). Não equivale a vitória nem a combate VLAB. Fonte https://app.notion.com/p/3f6c2b324ede81f49ea9efbe1a811091"
+      ]
+    },
+    {
+      "cmd": "python c09_effective.py Varok Quebra do Tronco contra Eristan --activate --pa-current 100 --already-used no",
+      "returncode": 0,
+      "first_output_line": [
+        "Sikong Varok usa Machado do Juramento Raiz-Ferro contra Sikong Eristan. Ataque 4d6+100 vs CA 76: P(acerto)=1 (empate favorece defesa). Dano 10d10+48, média bruta 103. Dano esperado pós-RD por tentativa: 78. Vínculo PA/dia 95; PA golpe-base None (se ausente, indeterminado). Adicional Quebra do Tronco: +6d12 (média 39), PA/ativação 60, ONCE_PER_SCENE; PRECONDITIONS_DOCUMENTED_FOR_TEST. TEST RD uma aplicação: 117 PV/tentativa; RD por componente: 68795233/746496 (não adjudicar). Não equivale a vitória nem a combate VLAB. Fonte https://app.notion.com/p/3f6c2b324ede81f49ea9efbe1a811091"
+      ]
+    },
+    {
+      "cmd": "python c09_effective.py Iskiel Mergulho Cortante contra Eristan --activate --fly-m 20 --already-used no --pa-current 100",
+      "returncode": 0,
+      "first_output_line": [
+        "Sikong Iskiel usa Arco da Asa Rasgada contra Sikong Eristan. Ataque 4d6+101 vs CA 76: P(acerto)=1 (empate favorece defesa). Dano 9d8+47, média bruta 175/2. Dano esperado pós-RD por tentativa: HOLD_MIXED_WIND_PIERCING_RD_PARTITION. Vínculo PA/dia 95; PA golpe-base None (se ausente, indeterminado). Adicional Mergulho Cortante: +5d10 (média 55/2), PA/ativação 45, ONCE_PER_TURN; PRECONDITIONS_DOCUMENTED_FOR_TEST. TEST sem RD: 115 PV/tentativa. Não equivale a vitória nem a combate VLAB. Fonte https://app.notion.com/p/3f6c2b324ede81a78a59d3d81fd5e966"
+      ]
+    },
+    {
+      "cmd": "python c09_effective.py Veyun Cetro contra Eristan",
+      "returncode": 0,
+      "first_output_line": [
+        "Sikong Veyun usa Cetro da Prisão Prismática contra Sikong Eristan. Ataque por salvaguarda, NÃO contra CA. Dano 8d10+26 TERRA, média bruta 70. Reflexo 4d6+28 versus CD72; P(superar)=0. Após salvaguarda antes de RD elemental: FLOOR TEST=70, CEIL TEST=70; RD Terra pendente. 65 PA/uso, 85 PA/dia em vínculo; sem FF/crítico. CURRENT_PA_UNKNOWN_SOURCE_MAX_ONLY. Fonte https://app.notion.com/p/3f6c2b324ede819e879beabb795001ba; custo e resolução documentados, cena e arredondamento não homologados."
+      ]
+    },
+    {
+      "cmd": "python c09_effective.py Veyun Cetro contra Auren",
+      "returncode": 0,
+      "first_output_line": [
+        "Sikong Veyun usa Cetro da Prisão Prismática contra Sikong Auren. Ataque por salvaguarda, NÃO contra CA. Dano 8d10+26 TERRA, média bruta 70. Reflexo 6d6+166 versus CD72; P(superar)=1. Após salvaguarda antes de RD elemental: FLOOR TEST=139/4, CEIL TEST=141/4; RD Terra pendente. 65 PA/uso, 85 PA/dia em vínculo; sem FF/crítico. CURRENT_PA_UNKNOWN_SOURCE_MAX_ONLY. Fonte https://app.notion.com/p/3f6c2b324ede819e879beabb795001ba; custo e resolução documentados, cena e arredondamento não homologados."
+      ]
+    },
+    {
+      "cmd": "python c09_effective.py Arveth Bastião contra Eristan",
+      "returncode": 0,
+      "first_output_line": [
+        "Sikong Arveth usa Bastião das Sete Gargantas contra Sikong Eristan. Ataque 4d6+72 vs CA 76: P(acerto)=1295/1296 (empate favorece defesa). Dano 8d10+35, média bruta 79. Dano esperado pós-RD por tentativa: 1295/24. Vínculo PA/dia 85; PA golpe-base None (se ausente, indeterminado). Não equivale a vitória nem a combate VLAB. Fonte https://app.notion.com/p/3f6c2b324ede8105891fc647242e61ca"
+      ]
+    },
+    {
+      "cmd": "python c09_effective.py Quanto dano causa o Arranhão Putrificador?",
+      "returncode": 0,
+      "first_output_line": [
+        "Arranhão Putrificador — Gambá Demoníaco. Fonte https://app.notion.com/p/966c2b324ede83d7962b019b1861b6b1 (edição 2026-10-01T18:00:52.851Z; SOURCE_READ_NOTION_MESTRE_C08).",
+        "Fórmula literal 2d6+Des = 2d6+25; canal VIDA; bruto 27–37; média exata 32, condicionado ao efeito ocorrer."
+      ]
+    },
+    {
+      "cmd": "python c09_effective.py Explique R157 BASIC sequencia 48",
+      "returncode": 0,
+      "first_output_line": [
+        "VLAB R162 — RUN R157_TACTIC_BASIC_DEV_S997617, seq 48, índice nativo 1 (seed 997617).",
+        "Sikong Eristan (E) → Sikong Feryn (F); SPELL_NO_PHYSICAL_ATTACK; ação spell, habilidade SPORES. Dano registrado 73, RD 0, pós-RD 73."
+      ]
+    },
+    {
+      "cmd": "python -m unittest discover -s tests -p test_c09_effective.py",
+      "returncode": 0,
+      "first_output_line": [
+        "........................................",
+        "----------------------------------------------------------------------"
+      ]
+    },
+    {
+      "cmd": "python tests/c09_independent_oracle.py",
+      "returncode": 0,
+      "first_output_line": [
+        "{",
+        "  \"status\": \"PASS\","
+      ]
+    }
+  ],
+  "baseline_7_files_verified": "evidence/C09_C08_UNMODIFIED_REUSE_CERTIFICATE.json"
+}

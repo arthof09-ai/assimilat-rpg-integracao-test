@@ -1,0 +1,25 @@
+{
+  "checkpoint": "R140_COLD_RECONSTRUCTED_PREFIX_ROUND2_REV20.sqlite",
+  "classification": "COLD_RECONSTRUCTED_PREFIX_NOT_LIVE_SAVE",
+  "original_run": "R138_MULTI_SOURCE_FERYN_ERISTAN_DEV_S991402",
+  "source_revision": 40,
+  "prefix_revision": 20,
+  "original_events_reexecuted": false,
+  "last_event_row_sha": "42391d7f392b3d8ee987cce92e687ac94f08ee208dbdfd82341621b0810e1121",
+  "prefix_state_sha256": "4eb0f0467411c053353e6dae4720487fe98d2dbe7f9cb919fd3c07509c1a39e6",
+  "checkpoint_file_sha256": "72797a13375b75e7cab93669bc9de915672ce98de393c9bfd87d072f3ee7254d",
+  "open_by_original_R18": "PASS",
+  "source_head_is_untouched": true,
+  "round_after_prefix": 3,
+  "active_next": "A",
+  "HP": {
+    "A": 523,
+    "E": 630,
+    "F1": 435
+  },
+  "PA": {
+    "A": 719,
+    "E": 654,
+    "F1": 339
+  }
+}

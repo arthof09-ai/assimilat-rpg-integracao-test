@@ -1,0 +1,47 @@
+{
+  "as_of": "2026-10-20",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "scope": "C13_SCIENTIFIC_MESTRE_ONLY",
+  "publication": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "files": [
+    {
+      "name": "DMG_C13_COMPARADORES_HOMOGENEOS_VLAB_R200_20261020_MESTRE_ONLY.zip",
+      "local_sha256": "78a8107755bd9fd0a1ffdb24890a603c3e7380a3eb4f077badd8fe0522a10f14",
+      "cold_library_sha256": "78a8107755bd9fd0a1ffdb24890a603c3e7380a3eb4f077badd8fe0522a10f14",
+      "size_bytes": 34960,
+      "identical": true
+    },
+    {
+      "name": "PSV_DMG_C13_COBERTURA_E_VLAB_R200_20261020_MESTRE_ONLY.md",
+      "local_sha256": "2b83ecdb57856a8a23f9d9880604dd88e0aa305437c584522df92bf978d1f6f3",
+      "cold_library_sha256": "2b83ecdb57856a8a23f9d9880604dd88e0aa305437c584522df92bf978d1f6f3",
+      "size_bytes": 7179,
+      "identical": true
+    },
+    {
+      "name": "C13_DIAGNOSTICO_CIENTIFICO_MESTRE_ONLY.md",
+      "local_sha256": "2d5460180b9e9e305f6e2d4bcfa299d79b066593e6ec50400a974603da6207c5",
+      "cold_library_sha256": "2d5460180b9e9e305f6e2d4bcfa299d79b066593e6ec50400a974603da6207c5",
+      "size_bytes": 13854,
+      "identical": true
+    },
+    {
+      "name": "C13_FROZEN_ZIP_COLD_REPLAY_AUDIT_20261020.json",
+      "local_sha256": "cacdfc58558984ec834304bb617b8146597700fb831bac4ad28f6f6740ec4968",
+      "cold_library_sha256": "cacdfc58558984ec834304bb617b8146597700fb831bac4ad28f6f6740ec4968",
+      "size_bytes": 1563,
+      "identical": true
+    }
+  ],
+  "zip_entries": 17,
+  "manifest_verified": 16,
+  "crc": "PASS",
+  "independent_science_check": "PASS 42 checks",
+  "clean_reproduction": "16/16 byte-identical",
+  "original_notions_written": 0,
+  "original_sqlite_written": 0,
+  "party_written": 0,
+  "formal_F0": "4/8 HOLD",
+  "production": "HOLD",
+  "note": "Readback attests Library bytes, not independent Notion source classification or normative promotion."
+}

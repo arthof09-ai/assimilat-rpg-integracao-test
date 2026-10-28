@@ -1,0 +1,1580 @@
+{
+  "schema": "DMG-EMP-EDxBE-EVIDENCE-v0.4",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "mode": "MASTER_SIDE_RESEARCH_ONLY",
+  "created_date": "2026-10-08",
+  "canonical_baseline": "DMG-RANK-01 v1.1 OFICIAL, unchanged",
+  "notion_written": false,
+  "independent_simulation_executed": false,
+  "full_fight_certified_count": 0,
+  "two_scenarios_proposed": true,
+  "scientific_scope": {
+    "149_historical_identity_set": "NOT_CERTIFIED",
+    "historical_original_IDs_recovered_subgroup": 87,
+    "known_local_distinct": 111,
+    "subset_union": 198,
+    "subset_intersection": 0,
+    "fogo_csv_rows": 44,
+    "fogo_csv_link_ids": 43,
+    "fogo_agny_no_level_rows": 1,
+    "fogo_direct_local_set_equals_orig_csv_set": true,
+    "crossreference13_not_added_to43": true,
+    "root_239_parent_and412_pointers": "PREDECESSOR_HISTORY_ONLY_NOT_GLOBAL_D0D9"
+  },
+  "sources": {
+    "liu": {
+      "page_id": "0b4c2b324ede837cb6be818dc8e36010",
+      "url": "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010",
+      "source_title": "Liu Xiaua (2º Filha do Chefe)",
+      "last_edited_at": "2026-10-01T09:40:50.721Z",
+      "sha256_utf8_notion_content": "0e7114574824c12138fa90392a3286a176e953d8b1b6e15a39e7a26d69645fd3",
+      "hash_scope": "Exact Markdown inside <content> returned by Notion fetch, UTF8, inclusive of interior newlines; excludes binary, linked child pages, outside metadata",
+      "notion_verification_state": "unverified",
+      "source_version": "last_edited_at + SHA256; not official promotion"
+    },
+    "macaco": {
+      "page_id": "301c2b324ede828caccb813d3979267a",
+      "url": "https://app.notion.com/p/301c2b324ede828caccb813d3979267a",
+      "source_title": "Prata 5 (titã)",
+      "last_edited_at": "2026-10-01T18:00:42.589Z",
+      "sha256_utf8_notion_content": "d2136dfaecdd78915657c399141178d7282e7cbc19d1b8129646aa75ccf11c4e",
+      "hash_scope": "Exact Markdown inside <content> returned by Notion fetch, UTF8, inclusive of interior newlines; excludes binary, linked child pages, outside metadata",
+      "notion_verification_state": "unverified",
+      "source_version": "last_edited_at + SHA256; not official promotion"
+    },
+    "simio_parent": {
+      "page_id": "f42c2b324ede82f1a62c81d6274d7d37",
+      "url": "https://app.notion.com/p/f42c2b324ede82f1a62c81d6274d7d37",
+      "source_title": "Símio Demoníaco❄",
+      "last_edited_at": "2026-10-01T18:00:41.676Z",
+      "sha256_utf8_notion_content": "7984efb769402cb26a1078e62e6b5913e61577bc503c30d74aa9aa0193654a7b",
+      "hash_scope": "Exact Markdown inside <content> returned by Notion fetch, UTF8, inclusive of interior newlines; excludes binary, linked child pages, outside metadata",
+      "notion_verification_state": "unverified",
+      "source_version": "last_edited_at + SHA256; not official promotion"
+    },
+    "behemoth": {
+      "page_id": "1fdc2b324ede82bd9d4f811abb689440",
+      "url": "https://app.notion.com/p/1fdc2b324ede82bd9d4f811abb689440",
+      "source_title": "Prata 5",
+      "last_edited_at": "2026-10-01T18:00:46.463Z",
+      "sha256_utf8_notion_content": "0ac74c0277ce19173f498f0c58a16d19afcc8d6d8a7b0e1b3c77982214eb9606",
+      "hash_scope": "Exact Markdown inside <content> returned by Notion fetch, UTF8, inclusive of interior newlines; excludes binary, linked child pages, outside metadata",
+      "notion_verification_state": "unverified",
+      "source_version": "last_edited_at + SHA256; not official promotion"
+    },
+    "combat": {
+      "page_id": "3ebc2b324ede81f1be4be8804ac113c0",
+      "url": "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0",
+      "source_title": "Sistema de Combate",
+      "last_edited_at": "2026-10-07T23:51:04.971Z",
+      "sha256_utf8_notion_content": "56a0e4242919ce3364ce42d313e8d648c5289863160ea6dcf69b21f954b80b18",
+      "hash_scope": "Exact Markdown inside <content> returned by Notion fetch, UTF8, inclusive of interior newlines; excludes binary, linked child pages, outside metadata",
+      "notion_verification_state": "unverified",
+      "source_version": "last_edited_at + SHA256; not official promotion"
+    },
+    "beast_rules": {
+      "page_id": "3ebc2b324ede81f4992ac88a3588cacd",
+      "url": "https://app.notion.com/p/3ebc2b324ede81f4992ac88a3588cacd",
+      "source_title": "Criação de Besta",
+      "last_edited_at": "2026-10-07T20:58:56.199Z",
+      "sha256_utf8_notion_content": "8be7b7f6ce778cb05249855648956fb29018634d1c444a16dc548e89fef42536",
+      "hash_scope": "Exact Markdown inside <content> returned by Notion fetch, UTF8, inclusive of interior newlines; excludes binary, linked child pages, outside metadata",
+      "notion_verification_state": "unverified",
+      "source_version": "last_edited_at + SHA256; not official promotion"
+    },
+    "magic": {
+      "page_id": "3ebc2b324ede81f7b343f7270ff91373",
+      "url": "https://app.notion.com/p/3ebc2b324ede81f7b343f7270ff91373",
+      "source_title": "Sistema de Magia",
+      "last_edited_at": "2026-10-07T23:51:07.044Z",
+      "sha256_utf8_notion_content": "85964f6047eda0455be913aab682ed9cb7b793ca7eb727bf5cb63861811d3839",
+      "hash_scope": "Exact Markdown inside <content> returned by Notion fetch, UTF8, inclusive of interior newlines; excludes binary, linked child pages, outside metadata",
+      "notion_verification_state": "unverified",
+      "source_version": "last_edited_at + SHA256; not official promotion"
+    },
+    "rank": {
+      "page_id": "3f2c2b324ede815498cddb7844245f7e",
+      "url": "https://app.notion.com/p/3f2c2b324ede815498cddb7844245f7e",
+      "source_title": "DMG-RANK-01 v1.1",
+      "last_edited_at": "2026-10-08T00:01:28.857Z",
+      "sha256_utf8_notion_content": "290f00cb726e3270c304788ea4f257c56ed92ea2dbf8160ee5ecc8b6092092d3",
+      "hash_scope": "Exact Markdown inside <content> returned by Notion fetch, UTF8, inclusive of interior newlines; excludes binary, linked child pages, outside metadata",
+      "notion_verification_state": "unverified",
+      "source_version": "last_edited_at + SHA256; not official promotion"
+    },
+    "transform": {
+      "page_id": "3f2c2b324ede81c0ae0ee4e66212edc9",
+      "url": "https://app.notion.com/p/3f2c2b324ede81c0ae0ee4e66212edc9",
+      "source_title": "Sistema de Transformação Espiritual",
+      "last_edited_at": "2026-10-08T14:26:21.578Z",
+      "sha256_utf8_notion_content": "27d43c6c8dfae2adf4783cba45774b51431ba422a2789c9d685baf1776f1e36c",
+      "hash_scope": "Exact Markdown inside <content> returned by Notion fetch, UTF8, inclusive of interior newlines; excludes binary, linked child pages, outside metadata",
+      "notion_verification_state": "unverified",
+      "source_version": "last_edited_at + SHA256; not official promotion"
+    }
+  },
+  "actors": {
+    "liu": {
+      "actor_id": "NPC-LIU-XIAUA-P5-SNAPSHOT-20261008",
+      "source_key": "liu",
+      "display_name": "Liu Xiaua",
+      "kind": "ED",
+      "region": null,
+      "rank": {
+        "value": "Prata 5",
+        "literal": "Espiritualista Demoníaco Prata 5",
+        "source_key": "liu",
+        "derivation": "EXPLICIT_SOURCE",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "special_flag": null,
+      "attributes": {
+        "FOR": {
+          "value": 29,
+          "literal": "FOR explicit",
+          "source_key": "liu",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        },
+        "DES": {
+          "value": 16,
+          "literal": "DES explicit",
+          "source_key": "liu",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        },
+        "CON": {
+          "value": 16,
+          "literal": "CON explicit",
+          "source_key": "liu",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        },
+        "INT": {
+          "value": 11,
+          "literal": "INT explicit",
+          "source_key": "liu",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        },
+        "SAB": {
+          "value": 4,
+          "literal": "SAB explicit",
+          "source_key": "liu",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        },
+        "CAR": {
+          "value": 2,
+          "literal": "CAR explicit",
+          "source_key": "liu",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        }
+      },
+      "life": {
+        "value": 235,
+        "literal": "Vida: 235",
+        "source_key": "liu",
+        "derivation": "EXPLICIT_SOURCE",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "alma": {
+        "value": 73,
+        "literal": "Alma: 170+50−15−30−60−42=73",
+        "source_key": "liu",
+        "derivation": "EXPLICIT_SOURCE",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "PA_free": {
+        "value": null,
+        "literal": "Alma: 170+50−15−30−60−42=73",
+        "source_key": "liu",
+        "derivation": "PENDING_CONSISTENCY_WITH_PA_TOTAL",
+        "status": "UNVERIFIED_FREE_RESOURCE"
+      },
+      "CA": {
+        "value": 46,
+        "literal": "CA: 46 (Reflexo: 49)",
+        "source_key": "liu",
+        "derivation": "EXPLICIT_SOURCE",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "RDF": {
+        "value": 10,
+        "literal": "Armadura Pesada Anã (ON). +15 CA, RDF 10",
+        "source_key": "liu",
+        "derivation": "EXPLICIT_SOURCE",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "proficiency_luta": {
+        "value": null,
+        "literal": "Lista de proficiências sem destaques inequívocos; cabeçalho Negrito = + em branco",
+        "source_key": "liu",
+        "derivation": "NOT_RESOLVED",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "proficiency_iniciativa": {
+        "value": null,
+        "literal": "Lista de proficiências sem destaques inequívocos",
+        "source_key": "liu",
+        "derivation": "NOT_RESOLVED",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "movement": {
+        "value": "3+8",
+        "literal": "Deslocamento: 3+8 m por turno",
+        "source_key": "liu",
+        "derivation": "FORMULA_RAW_NO_RESOLUTION",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "weapon": {
+        "value": "Machado de Guerra Elétrico (ON)",
+        "literal": "5d12 de dano; efeitos elétricos e encantamentos individualizados",
+        "source_key": "liu",
+        "derivation": "EXPLICIT_SOURCE",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "combat_formula_raw": {
+        "value": "2d6+37 (5d12+3d8+1d6+45)",
+        "literal": "H - Ataque Básico: 2d6+37 (5d12+3d8+1d6+45)",
+        "source_key": "liu",
+        "derivation": "EXPLICIT_SOURCE",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "can_transform": {
+        "value": null,
+        "literal": "ED - [empty] sob primeiro estado P5; nenhuma ficha de Espírito/overlay verificada",
+        "source_key": "liu",
+        "derivation": "UNKNOWN",
+        "status": "FAIL_CLOSED"
+      },
+      "source_notes": [
+        "Alma 73 é expressão registrada, não atesta PA livre no início de cena",
+        "A ficha combina equipamento, efeitos persistentes e custos/dia; não somar bônus novamente sem delta",
+        "Fúria +15 FOR/+80 Vida custa 12 PA, gatilho metade da Vida, duração ausente",
+        "Extensão Corporal +3d6 dano OU +6 CA custa 30 PA, tempo/duração ausentes",
+        "Crítico Brutal +2 multiplicador histórico conflita/precisa compatibilização com crítico atual baseado em máximos",
+        "Destruidor rerrola resultados 1/2 dos dados da arma; efeito altera distribuição real",
+        "Possível camada de dano misto 5d12 arma / 3d8 elétrico / 1d6 origem desconhecida"
+      ]
+    },
+    "macaco": {
+      "actor_id": "BESTIA-GELO-SIMIO-P5-301c2b32",
+      "source_key": "macaco",
+      "display_name": "Macaco Rei [corpo]; Símio Demoníaco❄ [pai]",
+      "kind": "BE",
+      "region": null,
+      "rank": {
+        "value": "Prata 5",
+        "literal": "Título Prata 5 (titã); corpo Rank Prata 5 (2d6)",
+        "source_key": "macaco",
+        "derivation": "EXPLICIT_SOURCE",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "special_flag": {
+        "value": "TITAN_TITLE",
+        "literal": "Título: Prata 5 (titã)",
+        "source_key": "macaco",
+        "derivation": "TITLE_PREFERRED_PENDING_AUTHORITY",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "attributes": {
+        "FOR": {
+          "value": 54,
+          "literal": "FOR explicit",
+          "source_key": "macaco",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        },
+        "DES": {
+          "value": 40,
+          "literal": "DES explicit",
+          "source_key": "macaco",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        },
+        "CON": {
+          "value": 35,
+          "literal": "CON explicit",
+          "source_key": "macaco",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        },
+        "INT": {
+          "value": 30,
+          "literal": "INT explicit",
+          "source_key": "macaco",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        },
+        "SAB": {
+          "value": 10,
+          "literal": "SAB explicit",
+          "source_key": "macaco",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        },
+        "CAR": {
+          "value": 10,
+          "literal": "CAR explicit",
+          "source_key": "macaco",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        }
+      },
+      "life": {
+        "value": 750,
+        "literal": "Vida: 750",
+        "source_key": "macaco",
+        "derivation": "EXPLICIT_SOURCE",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "alma": {
+        "value": 700,
+        "literal": "Alma: 700",
+        "source_key": "macaco",
+        "derivation": "EXPLICIT_SOURCE",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "PA_free": {
+        "value": null,
+        "literal": "Alma: 700; nenhuma linha inequívoca PA livre/comprometido",
+        "source_key": "macaco",
+        "derivation": "UNKNOWN",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "CA": {
+        "value": 67,
+        "literal": "Ca: 67",
+        "source_key": "macaco",
+        "derivation": "EXPLICIT_SOURCE",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "RDF": {
+        "value": null,
+        "literal": "Nenhuma RDF individual declarada",
+        "source_key": "macaco",
+        "derivation": "UNKNOWN",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "RD_from_rule_conditional": {
+        "value": 30,
+        "literal": "Criação Besta Regra 6: RD Prata Titã=30",
+        "source_key": "beast_rules",
+        "derivation": "RULE_DERIVED_IF_TITAN",
+        "status": "PENDING_SNAPSHOT_ADJUDICATION"
+      },
+      "proficiency_from_rule_conditional": {
+        "value": 11,
+        "literal": "Criação Besta Regra 4: Prata Titã +11",
+        "source_key": "beast_rules",
+        "derivation": "RULE_DERIVED_IF_TITAN",
+        "status": "PENDING_LUTA_APPLICABILITY"
+      },
+      "movement_from_rule_conditional": {
+        "value": 30,
+        "literal": "20 + DES/4 = 20 + 40/4",
+        "source_key": "beast_rules",
+        "derivation": "RULE_DERIVED_IF_TITAN",
+        "status": "ROUNDING_UNITS_PENDING"
+      },
+      "naming": {
+        "canonical_parent_id": "f42c2b324ede82f1a62c81d6274d7d37",
+        "parent_title": "Símio Demoníaco❄",
+        "variant_body_name": "macaco rei",
+        "variant_title": "Prata 5 (titã)",
+        "identity_resolution": "SAME_PHYSICAL_VARIANT_ID; NAME_RELATION_PENDING; DO_NOT_CREATE_ALIAS"
+      },
+      "notes": [
+        "Força Titânica +2 FOR na lista; desconhecido se já contabilizado em FOR 54",
+        "Poder Elemental 1d10+INT custa 10PA, elemento/alcance/ação/defesa ausentes",
+        "Patada impacto; Mordida perfurante; ambas sem alcance/custo individual no corpo",
+        "Fraqueza de metais raros e ilusões qualitativas sem magnitude",
+        "CA coincide exatamente com fórmula Titã mas isso não substitui adjudicação da identidade"
+      ]
+    },
+    "behemoth": {
+      "actor_id": "BESTIA-GELO-BEHEMOTH-P5-1fdc2b32",
+      "source_key": "behemoth",
+      "display_name": "Behemoth Glacial",
+      "kind": "BE",
+      "region": null,
+      "rank": {
+        "value": "Prata 5",
+        "literal": "Título Prata 5; corpo Classificação Prata 5",
+        "source_key": "behemoth",
+        "derivation": "EXPLICIT_SOURCE",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "special_flag": {
+        "value": null,
+        "literal": "Título não declara Titã, corpo não descreve Titã",
+        "source_key": "behemoth",
+        "derivation": "NO_TITAN_PROOF",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "attributes": {
+        "FOR": {
+          "value": 15,
+          "literal": "FOR explicit",
+          "source_key": "behemoth",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        },
+        "DES": {
+          "value": 45,
+          "literal": "DES explicit",
+          "source_key": "behemoth",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        },
+        "CON": {
+          "value": 30,
+          "literal": "CON explicit",
+          "source_key": "behemoth",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        },
+        "INT": {
+          "value": 36,
+          "literal": "INT explicit",
+          "source_key": "behemoth",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        },
+        "SAB": {
+          "value": 15,
+          "literal": "SAB explicit",
+          "source_key": "behemoth",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        },
+        "CAR": {
+          "value": 10,
+          "literal": "CAR explicit",
+          "source_key": "behemoth",
+          "derivation": "EXPLICIT_SOURCE",
+          "status": "OBSERVED_NOT_CERTIFIED"
+        }
+      },
+      "life": {
+        "value": 500,
+        "literal": "Vida: 500",
+        "source_key": "behemoth",
+        "derivation": "EXPLICIT_SOURCE",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "alma": {
+        "value": 560,
+        "literal": "Alma: 560",
+        "source_key": "behemoth",
+        "derivation": "EXPLICIT_SOURCE",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "PA_free": {
+        "value": null,
+        "literal": "Alma: 560; não evidencia PA livre",
+        "source_key": "behemoth",
+        "derivation": "UNKNOWN",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "CA": {
+        "value": 61,
+        "literal": "CA: 61",
+        "source_key": "behemoth",
+        "derivation": "EXPLICIT_SOURCE",
+        "status": "OBSERVED_NOT_CERTIFIED"
+      },
+      "RD_from_rule_conditional": {
+        "value": 15,
+        "literal": "Criação Besta Regra 6: RD Prata normal=15",
+        "source_key": "beast_rules",
+        "derivation": "RULE_DERIVED_IF_NORMAL",
+        "status": "PENDING_SNAPSHOT_ADJUDICATION"
+      },
+      "proficiency_from_rule_conditional": {
+        "value": 8,
+        "literal": "Criação Besta Regra 4: Prata normal +8",
+        "source_key": "beast_rules",
+        "derivation": "RULE_DERIVED_IF_NORMAL",
+        "status": "PENDING_LUTA_APPLICABILITY"
+      },
+      "movement_from_rule_conditional": {
+        "value": 21.25,
+        "literal": "10 + DES/4 = 10 + 45/4",
+        "source_key": "beast_rules",
+        "derivation": "RULE_DERIVED_IF_NORMAL",
+        "status": "ROUNDING_UNITS_PENDING"
+      },
+      "notes": [
+        "Armadura de Gelo +3 CA, 15% de dano recebido refletido, EXCETO magia e projétil, custo 20PA +3PA/turno",
+        "Reflexão da Armadura não é equivalente à reação Refletir Magias, nem pode ser somada automaticamente",
+        "Cronologia da reflexão, arredondamento, antes/depois RD e definição de elegibilidade são desconhecidas",
+        "Sopro Congelante CD6+INT, 10PA, sem teste/duração/alcance completos",
+        "Tempestade de Neve 15PA, debuff descritivo sem intensidade/duração"
+      ]
+    }
+  },
+  "effects": [
+    {
+      "effect_id": "OPDMG-F1-EXP-01",
+      "owner": "LIU",
+      "label": "Ataque Basico",
+      "raw_formula": "5d12+3d8+1d6+45",
+      "source_key": "liu",
+      "kind": "CANDIDATE_DAMAGE_AFTER_PARENTHESIS",
+      "ambiguity": "MIXED_DAMAGE_NOT_TYPED",
+      "parsed": {
+        "pool": [
+          {
+            "n": 5,
+            "faces": 12
+          },
+          {
+            "n": 3,
+            "faces": 8
+          },
+          {
+            "n": 1,
+            "faces": 6
+          }
+        ],
+        "fixed_intrinsic": 45,
+        "external_attributes": [],
+        "dme_intrinsic": 94.5,
+        "min_without_external_attribute": 54,
+        "max_without_external_attribute": 135,
+        "formula_math_mean": 94.5,
+        "dme_certified_intrinsic": null,
+        "dme_certification_status": "BLOCKED_ROLE_OR_PROVENANCE"
+      },
+      "attributed_value_if_source_literal_meaning": null,
+      "conditional_mean_if_external_attr_applies": 94.5,
+      "conditional_min_if_external_attr_applies": 54,
+      "conditional_max_if_external_attr_applies": 135,
+      "eligibility": "MATH_ONLY_FOR_DICE; NOT_HIT_ONLY_CERTIFIED; NOT_FULL_FIGHT",
+      "source_span": "entity page, ability/equipment named Ataque Basico",
+      "source_freeze_key": "liu",
+      "dice_distribution_model": "uniform independent dice, ignores rerolls/critical/buffs/resistances"
+    },
+    {
+      "effect_id": "OPDMG-F1-EXP-02",
+      "owner": "LIU",
+      "label": "Teste Ataque",
+      "raw_formula": "2d6+37",
+      "source_key": "liu",
+      "kind": "CANDIDATE_ATTACK_ROLL_NOT_DAMAGE",
+      "ambiguity": "AMBIGUOUS_ATTACK_VS_DAMAGE",
+      "parsed": {
+        "pool": [
+          {
+            "n": 2,
+            "faces": 6
+          }
+        ],
+        "fixed_intrinsic": 37,
+        "external_attributes": [],
+        "dme_intrinsic": 44.0,
+        "min_without_external_attribute": 39,
+        "max_without_external_attribute": 49,
+        "formula_math_mean": 44.0,
+        "dme_certified_intrinsic": null,
+        "dme_certification_status": "BLOCKED_ROLE_OR_PROVENANCE"
+      },
+      "attributed_value_if_source_literal_meaning": null,
+      "conditional_mean_if_external_attr_applies": 44.0,
+      "conditional_min_if_external_attr_applies": 39,
+      "conditional_max_if_external_attr_applies": 49,
+      "eligibility": "MATH_ONLY_FOR_DICE; NOT_HIT_ONLY_CERTIFIED; NOT_FULL_FIGHT",
+      "source_span": "entity page, ability/equipment named Teste Ataque",
+      "source_freeze_key": "liu",
+      "dice_distribution_model": "uniform independent dice, ignores rerolls/critical/buffs/resistances"
+    },
+    {
+      "effect_id": "OPDMG-F1-EXP-03",
+      "owner": "LIU",
+      "label": "Machado arma base",
+      "raw_formula": "5d12",
+      "source_key": "liu",
+      "kind": "WEAPON_BASE_COMPONENT",
+      "ambiguity": "WEAPON_MODIFIERS_NOT_INCLUDED",
+      "parsed": {
+        "pool": [
+          {
+            "n": 5,
+            "faces": 12
+          }
+        ],
+        "fixed_intrinsic": 0,
+        "external_attributes": [],
+        "dme_intrinsic": 32.5,
+        "min_without_external_attribute": 5,
+        "max_without_external_attribute": 60,
+        "formula_math_mean": 32.5,
+        "dme_certified_intrinsic": 32.5,
+        "dme_certification_status": "MATH_ONLY_NOT_EFFECT_VALIDATED"
+      },
+      "attributed_value_if_source_literal_meaning": null,
+      "conditional_mean_if_external_attr_applies": 32.5,
+      "conditional_min_if_external_attr_applies": 5,
+      "conditional_max_if_external_attr_applies": 60,
+      "eligibility": "MATH_ONLY_FOR_DICE; NOT_HIT_ONLY_CERTIFIED; NOT_FULL_FIGHT",
+      "source_span": "entity page, ability/equipment named Machado arma base",
+      "source_freeze_key": "liu",
+      "dice_distribution_model": "uniform independent dice, ignores rerolls/critical/buffs/resistances"
+    },
+    {
+      "effect_id": "OPDMG-F1-EXP-04",
+      "owner": "LIU",
+      "label": "Infusao Eletrica",
+      "raw_formula": "3d8+6",
+      "source_key": "liu",
+      "kind": "ELECTRICAL_ADDON_COMPONENT",
+      "ambiguity": "STACKING_AND_USE_NOT_VERIFIED",
+      "parsed": {
+        "pool": [
+          {
+            "n": 3,
+            "faces": 8
+          }
+        ],
+        "fixed_intrinsic": 6,
+        "external_attributes": [],
+        "dme_intrinsic": 19.5,
+        "min_without_external_attribute": 9,
+        "max_without_external_attribute": 30,
+        "formula_math_mean": 19.5,
+        "dme_certified_intrinsic": 19.5,
+        "dme_certification_status": "MATH_ONLY_NOT_EFFECT_VALIDATED"
+      },
+      "attributed_value_if_source_literal_meaning": null,
+      "conditional_mean_if_external_attr_applies": 19.5,
+      "conditional_min_if_external_attr_applies": 9,
+      "conditional_max_if_external_attr_applies": 30,
+      "eligibility": "MATH_ONLY_FOR_DICE; NOT_HIT_ONLY_CERTIFIED; NOT_FULL_FIGHT",
+      "source_span": "entity page, ability/equipment named Infusao Eletrica",
+      "source_freeze_key": "liu",
+      "dice_distribution_model": "uniform independent dice, ignores rerolls/critical/buffs/resistances"
+    },
+    {
+      "effect_id": "OPDMG-F1-EXP-05",
+      "owner": "LIU",
+      "label": "Extensao Corporal",
+      "raw_formula": "3d6",
+      "source_key": "liu",
+      "kind": "OPTIONAL_BUFF",
+      "ambiguity": "COST_30PA_NO_DURATION",
+      "parsed": {
+        "pool": [
+          {
+            "n": 3,
+            "faces": 6
+          }
+        ],
+        "fixed_intrinsic": 0,
+        "external_attributes": [],
+        "dme_intrinsic": 10.5,
+        "min_without_external_attribute": 3,
+        "max_without_external_attribute": 18,
+        "formula_math_mean": 10.5,
+        "dme_certified_intrinsic": 10.5,
+        "dme_certification_status": "MATH_ONLY_NOT_EFFECT_VALIDATED"
+      },
+      "attributed_value_if_source_literal_meaning": null,
+      "conditional_mean_if_external_attr_applies": 10.5,
+      "conditional_min_if_external_attr_applies": 3,
+      "conditional_max_if_external_attr_applies": 18,
+      "eligibility": "MATH_ONLY_FOR_DICE; NOT_HIT_ONLY_CERTIFIED; NOT_FULL_FIGHT",
+      "source_span": "entity page, ability/equipment named Extensao Corporal",
+      "source_freeze_key": "liu",
+      "dice_distribution_model": "uniform independent dice, ignores rerolls/critical/buffs/resistances"
+    },
+    {
+      "effect_id": "OPDMG-F1-EXP-06",
+      "owner": "MACACO",
+      "label": "Patada",
+      "raw_formula": "2d6+FOR",
+      "source_key": "macaco",
+      "kind": "IMPACT_ATTACK",
+      "ambiguity": "FOR_54_PROVISIONAL",
+      "parsed": {
+        "pool": [
+          {
+            "n": 2,
+            "faces": 6
+          }
+        ],
+        "fixed_intrinsic": 0,
+        "external_attributes": [
+          "FOR"
+        ],
+        "dme_intrinsic": 7.0,
+        "min_without_external_attribute": 2,
+        "max_without_external_attribute": 12,
+        "formula_math_mean": 7.0,
+        "dme_certified_intrinsic": 7.0,
+        "dme_certification_status": "MATH_ONLY_NOT_EFFECT_VALIDATED"
+      },
+      "attributed_value_if_source_literal_meaning": 54,
+      "conditional_mean_if_external_attr_applies": 61.0,
+      "conditional_min_if_external_attr_applies": 56,
+      "conditional_max_if_external_attr_applies": 66,
+      "eligibility": "MATH_ONLY_FOR_DICE; NOT_HIT_ONLY_CERTIFIED; NOT_FULL_FIGHT",
+      "source_span": "entity page, ability/equipment named Patada",
+      "source_freeze_key": "macaco",
+      "dice_distribution_model": "uniform independent dice, ignores rerolls/critical/buffs/resistances"
+    },
+    {
+      "effect_id": "OPDMG-F1-EXP-07",
+      "owner": "MACACO",
+      "label": "Mordida",
+      "raw_formula": "1d6+FOR",
+      "source_key": "macaco",
+      "kind": "PIERCING_ATTACK",
+      "ambiguity": "FOR_54_PROVISIONAL",
+      "parsed": {
+        "pool": [
+          {
+            "n": 1,
+            "faces": 6
+          }
+        ],
+        "fixed_intrinsic": 0,
+        "external_attributes": [
+          "FOR"
+        ],
+        "dme_intrinsic": 3.5,
+        "min_without_external_attribute": 1,
+        "max_without_external_attribute": 6,
+        "formula_math_mean": 3.5,
+        "dme_certified_intrinsic": 3.5,
+        "dme_certification_status": "MATH_ONLY_NOT_EFFECT_VALIDATED"
+      },
+      "attributed_value_if_source_literal_meaning": 54,
+      "conditional_mean_if_external_attr_applies": 57.5,
+      "conditional_min_if_external_attr_applies": 55,
+      "conditional_max_if_external_attr_applies": 60,
+      "eligibility": "MATH_ONLY_FOR_DICE; NOT_HIT_ONLY_CERTIFIED; NOT_FULL_FIGHT",
+      "source_span": "entity page, ability/equipment named Mordida",
+      "source_freeze_key": "macaco",
+      "dice_distribution_model": "uniform independent dice, ignores rerolls/critical/buffs/resistances"
+    },
+    {
+      "effect_id": "OPDMG-F1-EXP-08",
+      "owner": "MACACO",
+      "label": "Poder Elemental",
+      "raw_formula": "1d10+INT",
+      "source_key": "macaco",
+      "kind": "ELEMENTAL_UNDEFINED",
+      "ambiguity": "INT_30_COST_10PA",
+      "parsed": {
+        "pool": [
+          {
+            "n": 1,
+            "faces": 10
+          }
+        ],
+        "fixed_intrinsic": 0,
+        "external_attributes": [
+          "INT"
+        ],
+        "dme_intrinsic": 5.5,
+        "min_without_external_attribute": 1,
+        "max_without_external_attribute": 10,
+        "formula_math_mean": 5.5,
+        "dme_certified_intrinsic": 5.5,
+        "dme_certification_status": "MATH_ONLY_NOT_EFFECT_VALIDATED"
+      },
+      "attributed_value_if_source_literal_meaning": 30,
+      "conditional_mean_if_external_attr_applies": 35.5,
+      "conditional_min_if_external_attr_applies": 31,
+      "conditional_max_if_external_attr_applies": 40,
+      "eligibility": "MATH_ONLY_FOR_DICE; NOT_HIT_ONLY_CERTIFIED; NOT_FULL_FIGHT",
+      "source_span": "entity page, ability/equipment named Poder Elemental",
+      "source_freeze_key": "macaco",
+      "dice_distribution_model": "uniform independent dice, ignores rerolls/critical/buffs/resistances"
+    },
+    {
+      "effect_id": "OPDMG-F1-EXP-09",
+      "owner": "BEHEMOTH",
+      "label": "Estilhacos de Gelo",
+      "raw_formula": "2d6+DES",
+      "source_key": "behemoth",
+      "kind": "ICE_SHARD_ATTACK",
+      "ambiguity": "DES_45_PROVISIONAL",
+      "parsed": {
+        "pool": [
+          {
+            "n": 2,
+            "faces": 6
+          }
+        ],
+        "fixed_intrinsic": 0,
+        "external_attributes": [
+          "DES"
+        ],
+        "dme_intrinsic": 7.0,
+        "min_without_external_attribute": 2,
+        "max_without_external_attribute": 12,
+        "formula_math_mean": 7.0,
+        "dme_certified_intrinsic": 7.0,
+        "dme_certification_status": "MATH_ONLY_NOT_EFFECT_VALIDATED"
+      },
+      "attributed_value_if_source_literal_meaning": 45,
+      "conditional_mean_if_external_attr_applies": 52.0,
+      "conditional_min_if_external_attr_applies": 47,
+      "conditional_max_if_external_attr_applies": 57,
+      "eligibility": "MATH_ONLY_FOR_DICE; NOT_HIT_ONLY_CERTIFIED; NOT_FULL_FIGHT",
+      "source_span": "entity page, ability/equipment named Estilhacos de Gelo",
+      "source_freeze_key": "behemoth",
+      "dice_distribution_model": "uniform independent dice, ignores rerolls/critical/buffs/resistances"
+    },
+    {
+      "effect_id": "OPDMG-F1-EXP-10",
+      "owner": "BEHEMOTH",
+      "label": "Mordida",
+      "raw_formula": "3d6+FOR",
+      "source_key": "behemoth",
+      "kind": "BITE_ATTACK",
+      "ambiguity": "FOR_15_PROVISIONAL",
+      "parsed": {
+        "pool": [
+          {
+            "n": 3,
+            "faces": 6
+          }
+        ],
+        "fixed_intrinsic": 0,
+        "external_attributes": [
+          "FOR"
+        ],
+        "dme_intrinsic": 10.5,
+        "min_without_external_attribute": 3,
+        "max_without_external_attribute": 18,
+        "formula_math_mean": 10.5,
+        "dme_certified_intrinsic": 10.5,
+        "dme_certification_status": "MATH_ONLY_NOT_EFFECT_VALIDATED"
+      },
+      "attributed_value_if_source_literal_meaning": 15,
+      "conditional_mean_if_external_attr_applies": 25.5,
+      "conditional_min_if_external_attr_applies": 18,
+      "conditional_max_if_external_attr_applies": 33,
+      "eligibility": "MATH_ONLY_FOR_DICE; NOT_HIT_ONLY_CERTIFIED; NOT_FULL_FIGHT",
+      "source_span": "entity page, ability/equipment named Mordida",
+      "source_freeze_key": "behemoth",
+      "dice_distribution_model": "uniform independent dice, ignores rerolls/critical/buffs/resistances"
+    }
+  ],
+  "derived_consistency": [
+    {
+      "check": "MACACO_TITAN_CA",
+      "observed": 67,
+      "rule_or_expression_result": 67.0,
+      "observed_minus_derived": 0.0,
+      "expected_diff": 0,
+      "notes": "CA matches title Titan; not alias proof",
+      "assessment": "MATCH"
+    },
+    {
+      "check": "MACACO_TITAN_LIFE",
+      "observed": 750,
+      "rule_or_expression_result": 810,
+      "observed_minus_derived": -60,
+      "expected_diff": -60,
+      "notes": "Only progressed 10*(40+35)=750 fits old sheet",
+      "assessment": "SOURCE_RULE_MISMATCH_PENDING_AUTHORITY"
+    },
+    {
+      "check": "MACACO_TITAN_ALMA",
+      "observed": 700,
+      "rule_or_expression_result": 760,
+      "observed_minus_derived": -60,
+      "expected_diff": -60,
+      "notes": "Only progressed 10*(40+30)=700 fits old sheet",
+      "assessment": "SOURCE_RULE_MISMATCH_PENDING_AUTHORITY"
+    },
+    {
+      "check": "BEHEMOTH_NORMAL_CA",
+      "observed": 61,
+      "rule_or_expression_result": 61.0,
+      "observed_minus_derived": 0.0,
+      "expected_diff": 0,
+      "notes": "CA matches normal formula",
+      "assessment": "MATCH"
+    },
+    {
+      "check": "BEHEMOTH_NORMAL_LIFE",
+      "observed": 500,
+      "rule_or_expression_result": 530,
+      "observed_minus_derived": -30,
+      "expected_diff": -30,
+      "notes": "Only progressed 10*(20+30)=500 fits old sheet",
+      "assessment": "SOURCE_RULE_MISMATCH_PENDING_AUTHORITY"
+    },
+    {
+      "check": "BEHEMOTH_NORMAL_ALMA",
+      "observed": 560,
+      "rule_or_expression_result": 590,
+      "observed_minus_derived": -30,
+      "expected_diff": -30,
+      "notes": "Only progressed 10*(20+36)=560 fits old sheet",
+      "assessment": "SOURCE_RULE_MISMATCH_PENDING_AUTHORITY"
+    },
+    {
+      "check": "LIU_CA",
+      "observed": 46,
+      "rule_or_expression_result": 46,
+      "observed_minus_derived": 0,
+      "expected_diff": 0,
+      "notes": "Shows consistency if FF bonuses 4+3+2 all available",
+      "assessment": "MATCH"
+    },
+    {
+      "check": "LIU_ALMA_ARITHMETIC",
+      "observed": 73,
+      "rule_or_expression_result": 73,
+      "observed_minus_derived": 0,
+      "expected_diff": 0,
+      "notes": "Does not establish free PA as currently spendable",
+      "assessment": "MATCH"
+    }
+  ],
+  "baseline_rules": {
+    "turn": "1 standard +1 move +1 reaction +free; full consumes standard/move/usually reaction",
+    "initiative": "2d6+DES+initiative proficiency/bonus at P5; ties unresolved",
+    "attack": "2d6+FOR or DES when allowed +Luta proficiency, result strictly greater defense",
+    "defender": "6+CON+Armour+Fortitude bonus; if not exceeded no damage",
+    "dodge": "CA+Reflexo proficiency; counter on failed opponent hit if reaction",
+    "critical": "seq3d6 + special max dice; spell critical forbidden; timing/rider interaction pending",
+    "RD": "Besta Prata normal15 / Prata Titã30; Liu historical RDF10, resolver RD stack/type priority",
+    "magic": "cost from PA Libre; default one standard action if not specified; no universal cast roll",
+    "weakness": "additional 3 rolls of largest elemental die on applicable weaknesses only",
+    "transformation": "T9-A one use per scene, next scene after a complete short/long rest following prior use; Liu cannot be assumed ready",
+    "defeat": "source-specific threshold not certified; PA insufficiency exhaustion collapses per Sistema de Magia"
+  },
+  "scenarios": [
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "participants": [
+        "liu",
+        "macaco"
+      ],
+      "stage": "MATH_ONLY_SEPARATE; HIT_ONLY_NOT_CERTIFIED; FULL_FIGHT_STRICT_REJECT",
+      "fixed_seed": null,
+      "initial_position": null,
+      "environment": null,
+      "opening_initiative_rolls": null,
+      "actual_initial_PA": null,
+      "ruleset_baseline": "DMG-RANK-01 v1.1",
+      "expected_outcome": null,
+      "expected_trace": [
+        "GATE_EVIDENCE",
+        "INIT_ORDER_WHEN_MODIFIERS_RESOLVED",
+        "ACTION_MENU_THROUGH_ABILITYSOURCE",
+        "ATTACK_RESOLVE",
+        "MITIGATION",
+        "STATE_DIFF",
+        "DEFEAT"
+      ],
+      "conditional_hit_range_note": "If Liu 2d6+37 is attack roll, 39..49 does not exceed unmodified CA67; NOT a certified impossibility until notation and buffs confirmed"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "participants": [
+        "liu",
+        "behemoth"
+      ],
+      "stage": "MATH_ONLY_SEPARATE; HIT_ONLY_NOT_CERTIFIED; FULL_FIGHT_STRICT_REJECT",
+      "fixed_seed": null,
+      "initial_position": null,
+      "environment": null,
+      "opening_initiative_rolls": null,
+      "actual_initial_PA": null,
+      "ruleset_baseline": "DMG-RANK-01 v1.1",
+      "expected_outcome": null,
+      "expected_trace": [
+        "GATE_EVIDENCE",
+        "INIT_ORDER_WHEN_MODIFIERS_RESOLVED",
+        "ACTION_MENU_THROUGH_ABILITYSOURCE",
+        "ATTACK_RESOLVE",
+        "MITIGATION",
+        "REFLECTION_ELIGIBLE_AND_POST_OR_PRE_RD_TODO",
+        "STATE_DIFF",
+        "DEFEAT"
+      ],
+      "conditional_hit_range_note": "If Liu 2d6+37 is attack roll, 39..49 does not exceed unmodified CA61; NOT certified impossibility until notation/buffs confirmed"
+    }
+  ],
+  "blockers": [
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B01",
+      "gate": "SOURCE_CURRENTNESS",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Current validity of actor stats/conditions; snapshot page unverified, no actual encounter state",
+      "next_owner": "CORPUS+MESTRE",
+      "evidence_source_keys": [
+        "liu",
+        "macaco"
+      ],
+      "decision_required": "Current validity of actor stats/conditions; snapshot page unverified, no actual encounter state"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B02",
+      "gate": "NAME_RANK_TITAN",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Resolve Símio parent vs body Macaco Rei and Titan flag; rule applies based on physical ID not alias",
+      "next_owner": "MESTRE/CANON-GOV",
+      "evidence_source_keys": [
+        "simio_parent",
+        "macaco"
+      ],
+      "decision_required": "Resolve Símio parent vs body Macaco Rei and Titan flag; rule applies based on physical ID not alias"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B03",
+      "gate": "LIFE_ALMA_RULE_CONFLICT",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Beast natural base missing from historical page numbers; choose in fixture exact authority and snapshot values",
+      "next_owner": "MESTRE/CANON-GOV",
+      "evidence_source_keys": [
+        "beast_rules",
+        "macaco"
+      ],
+      "decision_required": "Beast natural base missing from historical page numbers; choose in fixture exact authority and snapshot values"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B04",
+      "gate": "PA_FREE_AND_COMMITMENTS",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Alma vs PA Livre; equipment commitments, cooldown, costs, regen, initial state",
+      "next_owner": "CORPUS+MESTRE",
+      "evidence_source_keys": [
+        "liu",
+        "macaco",
+        "magic"
+      ],
+      "decision_required": "Alma vs PA Livre; equipment commitments, cooldown, costs, regen, initial state"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B05",
+      "gate": "ACTION_INVENTORY",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Complete legal action loadouts and owned abilities for all actors not adjudicated",
+      "next_owner": "CORPUS+LAB",
+      "evidence_source_keys": [
+        "liu",
+        "macaco"
+      ],
+      "decision_required": "Complete legal action loadouts and owned abilities for all actors not adjudicated"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B06",
+      "gate": "ACTION_COST_AND_REACTION_WINDOWS",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Attack/magic default known, but abilities, equipment toggles and reactions timing incomplete",
+      "next_owner": "LAB+MESTRE",
+      "evidence_source_keys": [
+        "combat",
+        "liu",
+        "macaco"
+      ],
+      "decision_required": "Attack/magic default known, but abilities, equipment toggles and reactions timing incomplete"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B07",
+      "gate": "INITIATIVE_MODIFIERS_TIES",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Official initiative formula known, individual modifiers and tied-roll policy unresolved",
+      "next_owner": "CORPUS+LAB",
+      "evidence_source_keys": [
+        "combat",
+        "liu",
+        "macaco"
+      ],
+      "decision_required": "Official initiative formula known, individual modifiers and tied-roll policy unresolved"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B08",
+      "gate": "HIT_FORMULA_AND_SKILLS",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Liu 2d6+37 versus damage parentheses ambiguous; beast Luta applicability and skills undefined",
+      "next_owner": "CORPUS+MESTRE",
+      "evidence_source_keys": [
+        "combat",
+        "liu",
+        "macaco"
+      ],
+      "decision_required": "Liu 2d6+37 versus damage parentheses ambiguous; beast Luta applicability and skills undefined"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B09",
+      "gate": "DEFENSIVE_REACTIONS",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "CA rules known; Fortitude/Reflexo actual skill bonuses and reaction scheduling not frozen",
+      "next_owner": "CORPUS+LAB",
+      "evidence_source_keys": [
+        "combat",
+        "liu",
+        "macaco"
+      ],
+      "decision_required": "CA rules known; Fortitude/Reflexo actual skill bonuses and reaction scheduling not frozen"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B10",
+      "gate": "RD_RDF_MIXED_DAMAGE",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Beast RD tables and Liu RDF10 known; general+specific stacking, per-component applicability and order unresolved",
+      "next_owner": "MESTRE+LAB",
+      "evidence_source_keys": [
+        "beast_rules",
+        "liu",
+        "macaco"
+      ],
+      "decision_required": "Beast RD tables and Liu RDF10 known; general+specific stacking, per-component applicability and order unresolved"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B11",
+      "gate": "CRIT_EFFECT_INTERACTION",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Official sequential critical known; Liu critical modifier/re-roll and beast action applicability unresolved",
+      "next_owner": "MESTRE+LAB",
+      "evidence_source_keys": [
+        "combat",
+        "liu",
+        "macaco"
+      ],
+      "decision_required": "Official sequential critical known; Liu critical modifier/re-roll and beast action applicability unresolved"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B12",
+      "gate": "STATUS_DURATION_DOT",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Freeze/Tempestade; Furia and Extensão; duration/tick/stacking not fully sourced",
+      "next_owner": "CORPUS+LAB",
+      "evidence_source_keys": [
+        "liu",
+        "macaco"
+      ],
+      "decision_required": "Freeze/Tempestade; Furia and Extensão; duration/tick/stacking not fully sourced"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B13",
+      "gate": "MAP_RANGE_LOS_TARGET",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "No complete legal distances, battle map, LoS, area, target geometry and positions",
+      "next_owner": "MESTRE+LAB",
+      "evidence_source_keys": [
+        "liu",
+        "macaco"
+      ],
+      "decision_required": "No complete legal distances, battle map, LoS, area, target geometry and positions"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B14",
+      "gate": "SPECIAL_TRIGGER_TIMING",
+      "status": "NO_15PCT_REFLECTOR; GENERAL_TEMPORAL_REACTION_PENDING",
+      "blocks_full_fight": true,
+      "why": "Behemoth reflection trigger before/after RD, no reflection-of-reflection, rounding; generic state time",
+      "next_owner": "MESTRE+LAB",
+      "evidence_source_keys": [
+        "combat"
+      ],
+      "decision_required": "Behemoth reflection trigger before/after RD, no reflection-of-reflection, rounding; generic state time"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B15",
+      "gate": "ELEMENTAL_WEAKNESS",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Elemental vulnerabilities and obscure damage tags lack verified quantitative interpretation for pair",
+      "next_owner": "CORPUS+MESTRE",
+      "evidence_source_keys": [
+        "liu",
+        "macaco",
+        "combat"
+      ],
+      "decision_required": "Elemental vulnerabilities and obscure damage tags lack verified quantitative interpretation for pair"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B16",
+      "gate": "SPIRIT_TRANSFORMATION",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Liu ED spirit field not complete; no valid overlay/scene ledger/initial state to activate T9-A",
+      "next_owner": "CORPUS+LAB",
+      "evidence_source_keys": [
+        "liu",
+        "transform"
+      ],
+      "decision_required": "Liu ED spirit field not complete; no valid overlay/scene ledger/initial state to activate T9-A"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B17",
+      "gate": "END_FIGHT_AND_EXHAUSTION",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Lethal/nonlethal and defeat thresholds and special exhaustion application not certified for scenario",
+      "next_owner": "MESTRE+LAB",
+      "evidence_source_keys": [
+        "combat",
+        "magic"
+      ],
+      "decision_required": "Lethal/nonlethal and defeat thresholds and special exhaustion application not certified for scenario"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-MACACO-01",
+      "gate_id": "B18",
+      "gate": "ENGINE_REPLAY_ACCEPT",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Scheduler tie/action order, seed, deterministic roster, runtime capability and independent NAC-PASS not available to this scientific branch",
+      "next_owner": "LAB+AUDITOR",
+      "evidence_source_keys": [
+        "combat",
+        "transform"
+      ],
+      "decision_required": "Scheduler tie/action order, seed, deterministic roster, runtime capability and independent NAC-PASS not available to this scientific branch"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B01",
+      "gate": "SOURCE_CURRENTNESS",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Current validity of actor stats/conditions; snapshot page unverified, no actual encounter state",
+      "next_owner": "CORPUS+MESTRE",
+      "evidence_source_keys": [
+        "liu",
+        "behemoth"
+      ],
+      "decision_required": "Current validity of actor stats/conditions; snapshot page unverified, no actual encounter state"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B02",
+      "gate": "NAME_RANK_TITAN",
+      "status": "NOT_APPLICABLE_MACACO_ALIAS_ONLY",
+      "blocks_full_fight": false,
+      "why": "Resolve Símio parent vs body Macaco Rei and Titan flag; rule applies based on physical ID not alias",
+      "next_owner": "MESTRE/CANON-GOV",
+      "evidence_source_keys": [
+        "simio_parent"
+      ],
+      "decision_required": "Resolve Símio parent vs body Macaco Rei and Titan flag; rule applies based on physical ID not alias"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B03",
+      "gate": "LIFE_ALMA_RULE_CONFLICT",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Beast natural base missing from historical page numbers; choose in fixture exact authority and snapshot values",
+      "next_owner": "MESTRE/CANON-GOV",
+      "evidence_source_keys": [
+        "beast_rules",
+        "behemoth"
+      ],
+      "decision_required": "Beast natural base missing from historical page numbers; choose in fixture exact authority and snapshot values"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B04",
+      "gate": "PA_FREE_AND_COMMITMENTS",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Alma vs PA Livre; equipment commitments, cooldown, costs, regen, initial state",
+      "next_owner": "CORPUS+MESTRE",
+      "evidence_source_keys": [
+        "liu",
+        "behemoth",
+        "magic"
+      ],
+      "decision_required": "Alma vs PA Livre; equipment commitments, cooldown, costs, regen, initial state"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B05",
+      "gate": "ACTION_INVENTORY",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Complete legal action loadouts and owned abilities for all actors not adjudicated",
+      "next_owner": "CORPUS+LAB",
+      "evidence_source_keys": [
+        "liu",
+        "behemoth"
+      ],
+      "decision_required": "Complete legal action loadouts and owned abilities for all actors not adjudicated"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B06",
+      "gate": "ACTION_COST_AND_REACTION_WINDOWS",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Attack/magic default known, but abilities, equipment toggles and reactions timing incomplete",
+      "next_owner": "LAB+MESTRE",
+      "evidence_source_keys": [
+        "combat",
+        "liu",
+        "behemoth"
+      ],
+      "decision_required": "Attack/magic default known, but abilities, equipment toggles and reactions timing incomplete"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B07",
+      "gate": "INITIATIVE_MODIFIERS_TIES",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Official initiative formula known, individual modifiers and tied-roll policy unresolved",
+      "next_owner": "CORPUS+LAB",
+      "evidence_source_keys": [
+        "combat",
+        "liu",
+        "behemoth"
+      ],
+      "decision_required": "Official initiative formula known, individual modifiers and tied-roll policy unresolved"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B08",
+      "gate": "HIT_FORMULA_AND_SKILLS",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Liu 2d6+37 versus damage parentheses ambiguous; beast Luta applicability and skills undefined",
+      "next_owner": "CORPUS+MESTRE",
+      "evidence_source_keys": [
+        "combat",
+        "liu",
+        "behemoth"
+      ],
+      "decision_required": "Liu 2d6+37 versus damage parentheses ambiguous; beast Luta applicability and skills undefined"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B09",
+      "gate": "DEFENSIVE_REACTIONS",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "CA rules known; Fortitude/Reflexo actual skill bonuses and reaction scheduling not frozen",
+      "next_owner": "CORPUS+LAB",
+      "evidence_source_keys": [
+        "combat",
+        "liu",
+        "behemoth"
+      ],
+      "decision_required": "CA rules known; Fortitude/Reflexo actual skill bonuses and reaction scheduling not frozen"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B10",
+      "gate": "RD_RDF_MIXED_DAMAGE",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Beast RD tables and Liu RDF10 known; general+specific stacking, per-component applicability and order unresolved",
+      "next_owner": "MESTRE+LAB",
+      "evidence_source_keys": [
+        "beast_rules",
+        "liu",
+        "behemoth"
+      ],
+      "decision_required": "Beast RD tables and Liu RDF10 known; general+specific stacking, per-component applicability and order unresolved"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B11",
+      "gate": "CRIT_EFFECT_INTERACTION",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Official sequential critical known; Liu critical modifier/re-roll and beast action applicability unresolved",
+      "next_owner": "MESTRE+LAB",
+      "evidence_source_keys": [
+        "combat",
+        "liu",
+        "behemoth"
+      ],
+      "decision_required": "Official sequential critical known; Liu critical modifier/re-roll and beast action applicability unresolved"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B12",
+      "gate": "STATUS_DURATION_DOT",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Freeze/Tempestade; Furia and Extensão; duration/tick/stacking not fully sourced",
+      "next_owner": "CORPUS+LAB",
+      "evidence_source_keys": [
+        "liu",
+        "behemoth"
+      ],
+      "decision_required": "Freeze/Tempestade; Furia and Extensão; duration/tick/stacking not fully sourced"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B13",
+      "gate": "MAP_RANGE_LOS_TARGET",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "No complete legal distances, battle map, LoS, area, target geometry and positions",
+      "next_owner": "MESTRE+LAB",
+      "evidence_source_keys": [
+        "liu",
+        "behemoth"
+      ],
+      "decision_required": "No complete legal distances, battle map, LoS, area, target geometry and positions"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B14",
+      "gate": "SPECIAL_TRIGGER_TIMING",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Behemoth reflection trigger before/after RD, no reflection-of-reflection, rounding; generic state time",
+      "next_owner": "MESTRE+LAB",
+      "evidence_source_keys": [
+        "behemoth",
+        "combat"
+      ],
+      "decision_required": "Behemoth reflection trigger before/after RD, no reflection-of-reflection, rounding; generic state time"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B15",
+      "gate": "ELEMENTAL_WEAKNESS",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Elemental vulnerabilities and obscure damage tags lack verified quantitative interpretation for pair",
+      "next_owner": "CORPUS+MESTRE",
+      "evidence_source_keys": [
+        "liu",
+        "behemoth",
+        "combat"
+      ],
+      "decision_required": "Elemental vulnerabilities and obscure damage tags lack verified quantitative interpretation for pair"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B16",
+      "gate": "SPIRIT_TRANSFORMATION",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Liu ED spirit field not complete; no valid overlay/scene ledger/initial state to activate T9-A",
+      "next_owner": "CORPUS+LAB",
+      "evidence_source_keys": [
+        "liu",
+        "transform"
+      ],
+      "decision_required": "Liu ED spirit field not complete; no valid overlay/scene ledger/initial state to activate T9-A"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B17",
+      "gate": "END_FIGHT_AND_EXHAUSTION",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Lethal/nonlethal and defeat thresholds and special exhaustion application not certified for scenario",
+      "next_owner": "MESTRE+LAB",
+      "evidence_source_keys": [
+        "combat",
+        "magic"
+      ],
+      "decision_required": "Lethal/nonlethal and defeat thresholds and special exhaustion application not certified for scenario"
+    },
+    {
+      "scenario_id": "PAIR-P5-LIU-vs-BEHEMOTH-02",
+      "gate_id": "B18",
+      "gate": "ENGINE_REPLAY_ACCEPT",
+      "status": "PENDING_COMPETENT_RESOLUTION",
+      "blocks_full_fight": true,
+      "why": "Scheduler tie/action order, seed, deterministic roster, runtime capability and independent NAC-PASS not available to this scientific branch",
+      "next_owner": "LAB+AUDITOR",
+      "evidence_source_keys": [
+        "combat",
+        "transform"
+      ],
+      "decision_required": "Scheduler tie/action order, seed, deterministic roster, runtime capability and independent NAC-PASS not available to this scientific branch"
+    }
+  ],
+  "integration": {
+    "target_contracts": [
+      "AbilitySource",
+      "ActorActionState",
+      "FrozenRuleEvidence",
+      "SourcedOption"
+    ],
+    "mapping_intent": "DATA_ONLY_ADAPTER_GUIDE_NOT_CODE",
+    "strict_null_semantics": "null = UNKNOWN, never 0 or default success",
+    "action_id_prefix": "DMG-EVIDENCE-NOT-LEGAL-OPTION",
+    "AbilitySource": {
+      "source_page_id": "source_key -> sources[source_key].page_id",
+      "raw_action": "effects[*].label/raw_formula",
+      "action_type": "UNKNOWN unless validated by specific source",
+      "PA_cost": "explicit source-only else null",
+      "range": "explicit source-only else null",
+      "frequency": null,
+      "save": "explicit source-only else null",
+      "reaction_trigger": null,
+      "effect_adapter_status": "UNIMPLEMENTED_OR_NOT_CERTIFIED"
+    },
+    "ActorActionState": {
+      "actor_id": "actors[*].actor_id",
+      "PA_free": "null until proven",
+      "loadout": "partial, not legal",
+      "scene_id": null,
+      "reactions_available": null
+    },
+    "FrozenRuleEvidence": {
+      "source_ref": "sources[*].url",
+      "sha256": "sources[*].sha256_utf8_notion_content",
+      "hash_scope": "source content only; not subpages/attachments",
+      "verification_state": "source page Notion UNVERIFIED; freeze candidate not terminal"
+    },
+    "SourcedOption": {
+      "legal": false,
+      "reject_reasons": "scenario blockers",
+      "policy": "STRICT_REJECT_UNTIL_ALL_GATE_EVIDENCE"
+    },
+    "compatibility": "Laboratorio v0.9 owns schemas, scheduler and final import; this dataset does not alter them"
+  },
+  "gate_assessment": {
+    "per_scenario_gates": 18,
+    "scenarios": 2,
+    "gate_rows": 36,
+    "scientific_matrix_classified": true,
+    "rules_reconciled_not_full": true,
+    "allow_FULL_FIGHT": false,
+    "proceed_gate": "REQUIRES_MESTRE_SOURCE_ADJUDICATION_AND_LAB_ACCEPTANCE",
+    "NAC_PASS": "NOT_PASSED"
+  }
+}

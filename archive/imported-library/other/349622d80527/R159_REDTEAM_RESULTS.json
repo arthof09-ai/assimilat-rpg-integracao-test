@@ -1,0 +1,16 @@
+[
+  {
+    "mutation": "SPELL_PA_79_UNDERPAY",
+    "source_db": "R157_TACTIC_BASIC_DEV_S997617",
+    "independent_semantic_rejected": true,
+    "hash_chain_valid": true,
+    "reason": "AssertionError:native spell HP/PA"
+  },
+  {
+    "mutation": "CRITICAL_FAIL_GHOST_DAMAGE",
+    "source_db": "R158_NEGATIVE_CRITICAL_TACTIC_DEV_S997946",
+    "independent_semantic_rejected": true,
+    "hash_chain_valid": true,
+    "reason": "AssertionError:native physical damage/RD"
+  }
+]

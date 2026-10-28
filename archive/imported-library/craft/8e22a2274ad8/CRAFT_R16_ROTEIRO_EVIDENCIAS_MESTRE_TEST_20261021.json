@@ -1,0 +1,282 @@
+{
+  "schema": "CRAFT_R14_EVIDENCE_REQUEST_TEST_V1",
+  "classification": "MESTRE-SIDE_ONLY_DO_NOT_SEND_PARTY",
+  "purpose": "SOLICITACAO_DE_EVIDENCIAS_NAO_E_LAUDO_NEM_AUTORIZACAO",
+  "authority": "PR-ITEM-02 / REC-EXEC / R46; sem substituir instrumentos existentes",
+  "requires_human_source_review": true,
+  "release_gate": "NO_PRODUCTION_NO_PARTY_PUBLICATION",
+  "projects": [
+    {
+      "proposal_id": "R53-TEST-SONDA-001",
+      "proposal_name": "Sonda de Eco Estático do Vale dos Raios",
+      "validator_verdict": "HOLD_TEST_DESIGN",
+      "blocking_errors": [],
+      "source_urls": [
+        "https://app.notion.com/p/3edc2b324ede8153b25cd4d8f323bc67",
+        "https://app.notion.com/p/3edc2b324ede8176817ec09a5651648f"
+      ],
+      "missing_evidence": [
+        {
+          "priority": "P0",
+          "source_hold": "LIVE_SOURCE_RECHECK",
+          "title": "Reler as fontes Mestre vigentes",
+          "authority": "Notion Mestre read-only",
+          "state": "PENDENTE_NAO_OBSERVADO",
+          "required_fields": [
+            "UUID da fonte",
+            "URL canônica",
+            "data da leitura",
+            "diferença versus snapshot R53",
+            "responsável pela leitura"
+          ],
+          "observed_data": null,
+          "approved_for_production": false
+        },
+        {
+          "priority": "P1",
+          "source_hold": "SOURCE_PENDING",
+          "title": "Identificar material e forma física",
+          "authority": "REC-EXEC / EXISTING-FIRST",
+          "state": "PENDENTE_NAO_OBSERVADO",
+          "required_fields": [
+            "nome do recurso ou comum",
+            "função BOM",
+            "fonte existente comprovada ou lacuna",
+            "quantidade e unidade",
+            "lote ou fornecedor"
+          ],
+          "observed_data": null,
+          "approved_for_production": false
+        },
+        {
+          "priority": "P1",
+          "source_hold": "BOM_QUANTITY_PENDING",
+          "title": "Completar quantidades de BOM",
+          "authority": "PR-ITEM-02 / REC-EXEC",
+          "state": "PENDENTE_NAO_OBSERVADO",
+          "required_fields": [
+            "node_id",
+            "quantidade mensurável",
+            "unidade",
+            "tipo de consumo",
+            "justificativa da dose"
+          ],
+          "observed_data": null,
+          "approved_for_production": false
+        },
+        {
+          "priority": "P1",
+          "source_hold": "RECIPE_NOT_EXECUTABLE",
+          "title": "Fechar parâmetros reproduzíveis da receita",
+          "authority": "REC-EXEC",
+          "state": "PENDENTE_NAO_OBSERVADO",
+          "required_fields": [
+            "rendimento",
+            "perda",
+            "tempo",
+            "especialista qualificado",
+            "armazenamento",
+            "procedimento e controles"
+          ],
+          "observed_data": null,
+          "approved_for_production": false
+        },
+        {
+          "priority": "P1",
+          "source_hold": "MECHANICS_PENDING",
+          "title": "Especificar efeitos sem inventar dados",
+          "authority": "PR-ITEM-02 / fornecedor PA",
+          "state": "PENDENTE_NAO_OBSERVADO",
+          "required_fields": [
+            "ativação",
+            "duração",
+            "alcance",
+            "recarga",
+            "fonte da regra e versão",
+            "teste independente"
+          ],
+          "observed_data": null,
+          "approved_for_production": false
+        },
+        {
+          "priority": "P2",
+          "source_hold": "MAGIC_NOT_DEMONSTRATED",
+          "title": "Preparar comprovação física e mágica R46",
+          "authority": "R46 nativo; exigir laudo independente",
+          "state": "PENDENTE_NAO_OBSERVADO",
+          "required_fields": [
+            "ID de amostra",
+            "fonte e lote",
+            "instrumento e calibração válida",
+            "operador",
+            "testemunha/custódia",
+            "medida, unidade e incerteza",
+            "tolerância e controle comum",
+            "laudo assinado",
+            "observação de transferência/retensão"
+          ],
+          "observed_data": null,
+          "approved_for_production": false
+        },
+        {
+          "priority": "P2",
+          "source_hold": "ECONOMY_PENDING",
+          "title": "Reconciliar economia sem misturar preços",
+          "authority": "PR-ECO / Anexo C",
+          "state": "PENDENTE_NAO_OBSERVADO",
+          "required_fields": [
+            "custo dos insumos",
+            "UTE",
+            "CTE",
+            "preço referência",
+            "preço local",
+            "preço realizado, se houver",
+            "fonte, data e confiança"
+          ],
+          "observed_data": null,
+          "approved_for_production": false
+        }
+      ],
+      "physical_success": false,
+      "magic_transfer_proved": false,
+      "canonical_item_created": false,
+      "party_release_authorized": false
+    },
+    {
+      "proposal_id": "R53-TEST-TONICO-002",
+      "proposal_name": "Tônico Experimental de Passo Elétrico",
+      "validator_verdict": "HOLD_TEST_DESIGN",
+      "blocking_errors": [],
+      "source_urls": [
+        "https://app.notion.com/p/3edc2b324ede8125abcddb7a1f37a98e",
+        "https://app.notion.com/p/3edc2b324ede818290aad649c65aa304"
+      ],
+      "missing_evidence": [
+        {
+          "priority": "P0",
+          "source_hold": "LIVE_SOURCE_RECHECK",
+          "title": "Reler as fontes Mestre vigentes",
+          "authority": "Notion Mestre read-only",
+          "state": "PENDENTE_NAO_OBSERVADO",
+          "required_fields": [
+            "UUID da fonte",
+            "URL canônica",
+            "data da leitura",
+            "diferença versus snapshot R53",
+            "responsável pela leitura"
+          ],
+          "observed_data": null,
+          "approved_for_production": false
+        },
+        {
+          "priority": "P1",
+          "source_hold": "SOURCE_PENDING",
+          "title": "Identificar material e forma física",
+          "authority": "REC-EXEC / EXISTING-FIRST",
+          "state": "PENDENTE_NAO_OBSERVADO",
+          "required_fields": [
+            "nome do recurso ou comum",
+            "função BOM",
+            "fonte existente comprovada ou lacuna",
+            "quantidade e unidade",
+            "lote ou fornecedor"
+          ],
+          "observed_data": null,
+          "approved_for_production": false
+        },
+        {
+          "priority": "P1",
+          "source_hold": "BOM_QUANTITY_PENDING",
+          "title": "Completar quantidades de BOM",
+          "authority": "PR-ITEM-02 / REC-EXEC",
+          "state": "PENDENTE_NAO_OBSERVADO",
+          "required_fields": [
+            "node_id",
+            "quantidade mensurável",
+            "unidade",
+            "tipo de consumo",
+            "justificativa da dose"
+          ],
+          "observed_data": null,
+          "approved_for_production": false
+        },
+        {
+          "priority": "P1",
+          "source_hold": "RECIPE_NOT_EXECUTABLE",
+          "title": "Fechar parâmetros reproduzíveis da receita",
+          "authority": "REC-EXEC",
+          "state": "PENDENTE_NAO_OBSERVADO",
+          "required_fields": [
+            "rendimento",
+            "perda",
+            "tempo",
+            "especialista qualificado",
+            "armazenamento",
+            "procedimento e controles"
+          ],
+          "observed_data": null,
+          "approved_for_production": false
+        },
+        {
+          "priority": "P1",
+          "source_hold": "MECHANICS_PENDING",
+          "title": "Especificar efeitos sem inventar dados",
+          "authority": "PR-ITEM-02 / fornecedor PA",
+          "state": "PENDENTE_NAO_OBSERVADO",
+          "required_fields": [
+            "ativação",
+            "duração",
+            "alcance",
+            "recarga",
+            "fonte da regra e versão",
+            "teste independente"
+          ],
+          "observed_data": null,
+          "approved_for_production": false
+        },
+        {
+          "priority": "P2",
+          "source_hold": "MAGIC_NOT_DEMONSTRATED",
+          "title": "Preparar comprovação física e mágica R46",
+          "authority": "R46 nativo; exigir laudo independente",
+          "state": "PENDENTE_NAO_OBSERVADO",
+          "required_fields": [
+            "ID de amostra",
+            "fonte e lote",
+            "instrumento e calibração válida",
+            "operador",
+            "testemunha/custódia",
+            "medida, unidade e incerteza",
+            "tolerância e controle comum",
+            "laudo assinado",
+            "observação de transferência/retensão"
+          ],
+          "observed_data": null,
+          "approved_for_production": false
+        },
+        {
+          "priority": "P2",
+          "source_hold": "ECONOMY_PENDING",
+          "title": "Reconciliar economia sem misturar preços",
+          "authority": "PR-ECO / Anexo C",
+          "state": "PENDENTE_NAO_OBSERVADO",
+          "required_fields": [
+            "custo dos insumos",
+            "UTE",
+            "CTE",
+            "preço referência",
+            "preço local",
+            "preço realizado, se houver",
+            "fonte, data e confiança"
+          ],
+          "observed_data": null,
+          "approved_for_production": false
+        }
+      ],
+      "physical_success": false,
+      "magic_transfer_proved": false,
+      "canonical_item_created": false,
+      "party_release_authorized": false
+    }
+  ]
+}

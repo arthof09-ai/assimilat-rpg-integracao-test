@@ -1,0 +1,252 @@
+{
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "round": "R06_FAST_RESEARCH",
+  "baseline": "DMG-RANK-01 v1.1 unchanged",
+  "evidence": "MATH_ONLY; reuse R05 script and sourced sheets, no new readback from Notion",
+  "sourced_defense": "Behemoth Ouro1: Armadura de Gelo +3 CA, reflects 15% of damage received except spells and projectiles, 20PA cast and 3PA/turn maintain",
+  "assumptions": [
+    "Both Símio physical attacks are melee/nonprojectile, no magic on tested components",
+    "Printed Behemoth CA68 rises to 71 when Armor active",
+    "Gold normal RD25 both before and after Armor; no extra resistance by damage subtype",
+    "Símio Prata 2d6 test, FOR54, hypothetical Luta+6 for Patada and +7 Mordida",
+    "No crit, Reactions, extra effects, retargeting, armor action-delay, conditions or retaliation mitigation",
+    "Damage and to-hit rolls independent",
+    "Reflection measured after defender RD25, and nominal returned damage not further reduced by attacker resistance",
+    "Rounds of independent attempts, not real VLAB combat"
+  ],
+  "source_ids": {
+    "Símio": "301c2b324ede828caccb813d3979267a",
+    "Behemoth": "5dac2b324ede83f39cdb01a904ce3cfd"
+  },
+  "scenarios": {
+    "Patada": {
+      "p0": {
+        "fraction": "5/18",
+        "decimal": 0.27777778
+      },
+      "p1": {
+        "fraction": "1/36",
+        "decimal": 0.02777778
+      },
+      "harm": {
+        "fraction": "36",
+        "decimal": 36.0
+      },
+      "before": {
+        "fraction": "10",
+        "decimal": 10.0
+      },
+      "after": {
+        "fraction": "1",
+        "decimal": 1.0
+      },
+      "prevented": {
+        "fraction": "9",
+        "decimal": 9.0
+      },
+      "reflection_exact": {
+        "fraction": "3/20",
+        "decimal": 0.15
+      },
+      "reflection_floor": {
+        "fraction": "59/432",
+        "decimal": 0.13657407
+      },
+      "reflection_nearest": {
+        "fraction": "65/432",
+        "decimal": 0.15046296
+      },
+      "reflection_ceil": {
+        "fraction": "211/1296",
+        "decimal": 0.16280864
+      },
+      "reflection_conditional_exact": {
+        "fraction": "27/5",
+        "decimal": 5.4
+      },
+      "reflection_conditional_floor": {
+        "fraction": "59/12",
+        "decimal": 4.91666667
+      },
+      "reflection_conditional_nearest": {
+        "fraction": "65/12",
+        "decimal": 5.41666667
+      },
+      "reflection_conditional_ceil": {
+        "fraction": "211/36",
+        "decimal": 5.86111111
+      }
+    },
+    "Mordida": {
+      "p0": {
+        "fraction": "5/12",
+        "decimal": 0.41666667
+      },
+      "p1": {
+        "fraction": "1/12",
+        "decimal": 0.08333333
+      },
+      "harm": {
+        "fraction": "65/2",
+        "decimal": 32.5
+      },
+      "before": {
+        "fraction": "325/24",
+        "decimal": 13.54166667
+      },
+      "after": {
+        "fraction": "65/24",
+        "decimal": 2.70833333
+      },
+      "prevented": {
+        "fraction": "65/6",
+        "decimal": 10.83333333
+      },
+      "reflection_exact": {
+        "fraction": "13/32",
+        "decimal": 0.40625
+      },
+      "reflection_floor": {
+        "fraction": "13/36",
+        "decimal": 0.36111111
+      },
+      "reflection_nearest": {
+        "fraction": "5/12",
+        "decimal": 0.41666667
+      },
+      "reflection_ceil": {
+        "fraction": "4/9",
+        "decimal": 0.44444444
+      },
+      "reflection_conditional_exact": {
+        "fraction": "39/8",
+        "decimal": 4.875
+      },
+      "reflection_conditional_floor": {
+        "fraction": "13/3",
+        "decimal": 4.33333333
+      },
+      "reflection_conditional_nearest": {
+        "fraction": "5",
+        "decimal": 5.0
+      },
+      "reflection_conditional_ceil": {
+        "fraction": "16/3",
+        "decimal": 5.33333333
+      }
+    }
+  },
+  "two_attempts_one_each": {
+    "expected_avoided_HP": {
+      "fraction": "119/6",
+      "decimal": 19.83333333
+    },
+    "expected_reflected_nominal_exact": {
+      "fraction": "89/160",
+      "decimal": 0.55625
+    },
+    "expected_reflected_nominal_floor_per_hit": {
+      "fraction": "215/432",
+      "decimal": 0.49768519
+    },
+    "expected_reflected_nominal_round_half_up_per_hit": {
+      "fraction": "245/432",
+      "decimal": 0.56712963
+    },
+    "expected_reflected_nominal_ceil_per_hit": {
+      "fraction": "787/1296",
+      "decimal": 0.60725309
+    }
+  },
+  "PA_duration_sensitivity": [
+    {
+      "turns_covered": 1,
+      "activation_PA": 20,
+      "upkeep_including_first_turn_PA": 3,
+      "total_if_upkeep_on_first_turn_PA": 23,
+      "total_if_upkeep_starts_next_turn_PA": 20,
+      "expected_avoided_HP_given_two_attempts_each_turn": {
+        "fraction": "119/6",
+        "decimal": 19.83333333
+      },
+      "expected_nominal_reflection_exact_given_two_attempts_each_turn": {
+        "fraction": "89/160",
+        "decimal": 0.55625
+      }
+    },
+    {
+      "turns_covered": 2,
+      "activation_PA": 20,
+      "upkeep_including_first_turn_PA": 6,
+      "total_if_upkeep_on_first_turn_PA": 26,
+      "total_if_upkeep_starts_next_turn_PA": 23,
+      "expected_avoided_HP_given_two_attempts_each_turn": {
+        "fraction": "119/3",
+        "decimal": 39.66666667
+      },
+      "expected_nominal_reflection_exact_given_two_attempts_each_turn": {
+        "fraction": "89/80",
+        "decimal": 1.1125
+      }
+    },
+    {
+      "turns_covered": 3,
+      "activation_PA": 20,
+      "upkeep_including_first_turn_PA": 9,
+      "total_if_upkeep_on_first_turn_PA": 29,
+      "total_if_upkeep_starts_next_turn_PA": 26,
+      "expected_avoided_HP_given_two_attempts_each_turn": {
+        "fraction": "119/2",
+        "decimal": 59.5
+      },
+      "expected_nominal_reflection_exact_given_two_attempts_each_turn": {
+        "fraction": "267/160",
+        "decimal": 1.66875
+      }
+    },
+    {
+      "turns_covered": 5,
+      "activation_PA": 20,
+      "upkeep_including_first_turn_PA": 15,
+      "total_if_upkeep_on_first_turn_PA": 35,
+      "total_if_upkeep_starts_next_turn_PA": 32,
+      "expected_avoided_HP_given_two_attempts_each_turn": {
+        "fraction": "595/6",
+        "decimal": 99.16666667
+      },
+      "expected_nominal_reflection_exact_given_two_attempts_each_turn": {
+        "fraction": "89/32",
+        "decimal": 2.78125
+      }
+    },
+    {
+      "turns_covered": 10,
+      "activation_PA": 20,
+      "upkeep_including_first_turn_PA": 30,
+      "total_if_upkeep_on_first_turn_PA": 50,
+      "total_if_upkeep_starts_next_turn_PA": 47,
+      "expected_avoided_HP_given_two_attempts_each_turn": {
+        "fraction": "595/3",
+        "decimal": 198.33333333
+      },
+      "expected_nominal_reflection_exact_given_two_attempts_each_turn": {
+        "fraction": "89/16",
+        "decimal": 5.5625
+      }
+    }
+  ],
+  "rounding_scope": "Rounding on each reflected hit rather than end-of-round aggregation; both are unresolved. No adopted rounding rule",
+  "restrictions": "Reflections from magic or projectiles excluded; reflected damage final attacker HP loss unresolvable without attacker RD/resistance and order",
+  "blocked": [
+    "official Luta for Símio",
+    "Prata5 vs OuroNegro5 ancestry/title conflict",
+    "if armor activation costs Standard Action",
+    "if upkeep starts activation turn",
+    "reflection rounding scope/order",
+    "whether returned damage bypasses attacker own RD",
+    "legal Reaction availability",
+    "target specific resistances"
+  ],
+  "tests": "Exact-Fraction assertions passed; both attack cases and energy examples readback checked",
+  "canon_writes": 0
+}

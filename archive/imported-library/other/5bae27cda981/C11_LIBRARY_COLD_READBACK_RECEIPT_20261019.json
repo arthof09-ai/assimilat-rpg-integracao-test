@@ -1,0 +1,46 @@
+{
+  "as_of": "2026-10-19",
+  "baseline": "DMG-RANK-01 v1.1 unchanged",
+  "destination": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "f0": "4/8",
+  "manifest_revalidated_members": 24,
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "published_items": [
+    {
+      "library_materialized_bytes": 66162,
+      "local_bytes": 66162,
+      "name": "DMG_C11_DIAGNOSTICO_EMPIRICO_20261019_MESTRE_ONLY.zip",
+      "same_bytes": true,
+      "sha256_library": "d4a91fb7a0b7d0ab44cb8b39d652db0cab15f0a2532194ca2ec41dba2e0e089e",
+      "sha256_local": "d4a91fb7a0b7d0ab44cb8b39d652db0cab15f0a2532194ca2ec41dba2e0e089e"
+    },
+    {
+      "library_materialized_bytes": 19016,
+      "local_bytes": 19016,
+      "name": "C11_DIAGNOSTICO_EQUILIBRIO_EMPIRICO_MESTRE_ONLY.md",
+      "same_bytes": true,
+      "sha256_library": "1c3138a2343237c90aa4b6e01f2aa073e9c40e65dc15febc3ca7613846d05937",
+      "sha256_local": "1c3138a2343237c90aa4b6e01f2aa073e9c40e65dc15febc3ca7613846d05937"
+    },
+    {
+      "library_materialized_bytes": 12080,
+      "local_bytes": 12080,
+      "name": "PSV_DMG_C11_DIAGNOSTICO_EMPIRICO_20261019_MESTRE_ONLY.md",
+      "same_bytes": true,
+      "sha256_library": "79192f155010b84068dd894c9464d5b8435c859e7548d222a5413c4c5846b37e",
+      "sha256_local": "79192f155010b84068dd894c9464d5b8435c859e7548d222a5413c4c5846b37e"
+    },
+    {
+      "library_materialized_bytes": 3135,
+      "local_bytes": 3135,
+      "name": "C11_CLEAN_ARCHIVE_REPRODUCTION_20261019.json",
+      "same_bytes": true,
+      "sha256_library": "41f1da53a32ff803a589a9c3fb91641dfdd3766d3d5270ad5652171e98a6f158",
+      "sha256_local": "41f1da53a32ff803a589a9c3fb91641dfdd3766d3d5270ad5652171e98a6f158"
+    }
+  ],
+  "scientific_reproduction": true,
+  "technical_all_byte_equal": true,
+  "writer_state": "NO_WRITER_NO_LEASE_NO_EPOCH_NO_ACK",
+  "zip_crc": "PASS"
+}

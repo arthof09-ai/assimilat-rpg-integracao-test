@@ -1,0 +1,11 @@
+# CORRIGENDUM R150 — R138 SPATIAL_PARITY_HOLD (MESTRE-SIDE)
+
+**Operação existente:** OP-VLAB-FUSION-SANDBOX-01 · **Ambiente:** engenharia sandbox, não cânone.
+
+O pacote físico R138–R145 (13.778.050 bytes, SHA-256 `3407c17ab74fb9c2931814a880196237eda70c790cae987f7fe35aee24ffa383`) e seus 40 commits são **imutáveis**. A auditoria de hashes, custo, RNG e estados permaneceu positiva; uma revisão de *precondição espacial* posterior ao upload detectou que o lançamento de Pulso de Estabilização registrava **2m no instante pré-movimento** (após Ataque de Oportunidade) quando o congelamento do cenário indicava **3m antes do movimento e 2m depois**. Os dois valores são legalmente até 3m, mas o valor temporal do evento estava incorreto. A auditoria R139 não conferia o campo diretamente contra o pré-registro: **não atribuir PASS integral de proveniência espacial à cena R138** nem usar os seus três recibos como amostras independentes/admitidas em ciência de potência. Status: `TECHNICAL_LEDGER_REPLAY_PASS / SPATIAL_SOURCE_PRECONDITION_HOLD / CENSORED_HORIZON`.
+
+**Correção sem sobrescrita:** R146, seed **995401**, novo banco e RUN-ID, recupera pré-registro explícito e audita 3m antes do movimento, 2m depois, com ação causal `weapon_attack → PULSO_ESTABILIZACAO → move`, e não realiza replay de R138. R147 recompõe **40 commits** e **43 efeitos nativos** de modo independente (sem importar motor); R148 confere fonte/instante e lê prefixo20 no R18 original; R149 rejeita tentativa adversarial de alterar 3m→2m mesmo após reconstrução da cadeia SHA. R146 termina após quatro rodadas **CENSURADO**, sem vitória. Este material é uma **prova técnica fonte-condicional substitutiva de R138**, não um segundo ensaio estatisticamente independente.
+
+**Demais R145:** R141 cap cura (96 bruto, 14 efetivo, 82 excesso) e seis pré-intent rejeitados, R142 redteams (2/2) e R143–R144 crash recovery (2/2) permanecem válidos em seus escopos. Não executar novamente as seeds antigas, não retomar intents em UNKNOWN_EFFECT, não alterar R123/R130/R134, R124 5×5 nem o ZIP R137. A contagem R137 correta: 15/15 arquivos de origem com readback + recibo recuperado posteriormente.
+
+**Gate:** terminal 0/17; potência oficial 0/1875; DMG **handoff preparado**, sem ACK. CM-000006 PAUSED sem writer/lease/ACK; sem writes no Notion OP, Party, O Primeiro ou DMG.

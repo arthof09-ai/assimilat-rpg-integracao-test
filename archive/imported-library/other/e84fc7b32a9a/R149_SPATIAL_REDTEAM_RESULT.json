@@ -1,0 +1,11 @@
+{
+  "status": "PASS_SPATIAL_SEMANTIC_REJECTION",
+  "test_copy": "R149_SPATIAL_LATE_METRIC_2M_REHASHED.sqlite",
+  "tamper": "3m PRE-MOVE -> 2m AFTER-MOVE",
+  "all_row_sha256_chain_refabricated": "YES_COPY_ONLY",
+  "independent_reject_reason": "topology",
+  "original_R146_sha256": "363d853db27bf64670f3a3c939d0f39d70a8872c0bc3eb4c92620cd5cbaa470b",
+  "adversarial_copy_sha256": "2228ea336db3cf7db4ef2db0f0bfce06dc15949bdb731bc0990a7bc1bd828dce",
+  "prior_R138_DO_NOT_REWRITE": true,
+  "official_effects": 0
+}

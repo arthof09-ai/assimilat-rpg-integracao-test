@@ -1,0 +1,60 @@
+{
+  "as_of": "2026-10-17",
+  "result": "PASS_COLD_INDEPENDENT_RECOVERY",
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "zip_path": "VLAB_R161_R170_RECEIPTS_TEMPORAL_CROC_ED_CORRECTED_MESTRE_ONLY.zip",
+  "zip_sha256": "ab34cad5a0b26455f9a0ad659735867fa3a9a430e526e08fa2dcd6a13b776ed0",
+  "entries": 150,
+  "manifest_files_verified": 149,
+  "R160_nested_original_sha256": "7b208fe553809df6a999a1e4f9a70d7ad116033e929256bc71dbcd61843f3410",
+  "selected_banks_verified": 5,
+  "selected_commits_verified": 413,
+  "selected_receipts_verified": 137,
+  "physical_R18_checkpoint_open": 5,
+  "legacy_unit_tests": "28/28 PASS",
+  "R160_historical_reconcile": "154/154,466/466,11808 effective,62 overkill PASS",
+  "adversarial_semantic_hash_edited_rejected": 2,
+  "selected_runs": [
+    {
+      "run": "R165_FLECHA_TURN_EXPLICIT_V3_DEV_S1185114",
+      "commits": 7,
+      "attacks": 2,
+      "head": "21dc0241296c018dbc55712fcc131fb7dad59eaa77472aa2df771d866accf54d",
+      "status": "PASS"
+    },
+    {
+      "run": "R166_V2_CASULO_AOO_KO_DEV_S1205088",
+      "commits": 5,
+      "attacks": 1,
+      "head": "e28b3cf55ca3cb2e8803ff086f1ba66a826a495ee6d1385bf1d62f9443c3bdc1",
+      "status": "PASS"
+    },
+    {
+      "run": "R166_V2_CASULO_AOO_NEGATIVE_DEV_S1195557",
+      "commits": 5,
+      "attacks": 2,
+      "head": "34be7d7da2bfe57682d6084f01000f2978bdca743cac6aac2019101f2999a138",
+      "status": "PASS"
+    },
+    {
+      "run": "R168_ED_AUREN_VS_CROC_BASIC_DEV_S1168001",
+      "commits": 198,
+      "attacks": 66,
+      "head": "6d54104108806c774717f0577a3888ec46f6bd57158265025a2d820978088463",
+      "status": "PASS"
+    },
+    {
+      "run": "R168_ED_AUREN_VS_CROC_BASIC_RESERVED_NONBLIND_S1169001",
+      "commits": 198,
+      "attacks": 66,
+      "head": "753f5fc218cd963a475b5f7c93d9a93266e604b443efba0bb246918d2e8ca82a",
+      "status": "PASS"
+    }
+  ],
+  "R160_contract_matrix_unchanged_ids": true,
+  "terminal_contracts": 0,
+  "official_power_cells": 0,
+  "no_historical_combat_reruns": true,
+  "writer": "NOT_AUTHORIZED",
+  "DMG_ACK": "NONE"
+}

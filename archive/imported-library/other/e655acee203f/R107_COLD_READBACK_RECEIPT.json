@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "zip_bytes": 9397382,
+  "zip_sha256": "6bb377a3683a6b7559ae564a8edec005cfca4dc728808fcb61c5ea13b242af20",
+  "entries": 64,
+  "manifest_hashes": 63,
+  "cold_extract_dir": "R107_INDEPENDENT_COLD_zqn56i2m",
+  "cold_audited_r103": 15,
+  "commits_r103": 6,
+  "critical_unit_checks_r106": 20,
+  "native_source_gate_verified": true,
+  "old_r101_zip_sha256": "582bc31c08787a8528b7c35fa3c68c202aeaa4f2198a2995bed00a72a6f3b66b",
+  "old_r101_archive_untouched": true,
+  "checks": "SOURCE_MATCH_MANIFEST_CRC_AND_INDEPENDENT_CODE_EXECUTION"
+}

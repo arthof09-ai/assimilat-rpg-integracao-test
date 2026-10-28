@@ -1,0 +1,80 @@
+{
+  "acceptance_requirements": [
+    "current actor form, equipped state and final physical attributes signed",
+    "CA effective and FF milestone locks verified without double count",
+    "selected proficiency values or confirmed untrained and source provenance",
+    "reaction consumes once at legal trigger, attack compared strictly greater than total reaction defense",
+    "replay event pre/post matches engine accepted source"
+  ],
+  "authority": "Mestre or competent scene owner for loadout/skills; Lab for reaction scheduler/replay; NAC-NORM if actual rule conflict.",
+  "conditional_reaction_branches": {
+    "DO_NOT_ADD_CA_PLUS_PRECOMPUTED_DODGE": "46+49=95 INVALID",
+    "defender_normal": "37+Fortitude_final",
+    "defender_normal_plus_external_4CON": "41+Fortitude_final",
+    "defender_transformada": "46+Fortitude_final",
+    "defender_transformada_plus_external_4CON": "50+Fortitude_final",
+    "dodge_precomputed_normal": 49,
+    "dodge_precomputed_transformada": 63
+  },
+  "gate": "B09",
+  "printed_by_form": {
+    "normal": {
+      "AttackBasic": "2d6+37",
+      "CA": 46,
+      "CON": 16,
+      "DES": 16,
+      "DODGE_TOTAL": 49,
+      "FF_CA_MILESTONES": [
+        4,
+        3,
+        2
+      ],
+      "FF_PRINTED": 620,
+      "FOR": 29,
+      "armor_CA": 15,
+      "armor_FOR_bonus": 8,
+      "axe_CON_bonus": 4
+    },
+    "transformada": {
+      "AttackBasic": "2d6+48",
+      "CA": 60,
+      "CON": 25,
+      "DES": 27,
+      "DODGE_TOTAL": 63,
+      "FF_CA_MILESTONES": [
+        4,
+        3,
+        2,
+        3
+      ],
+      "FF_PRINTED": 920,
+      "FOR": 40,
+      "armor_CA": 15,
+      "armor_FOR_bonus": 8,
+      "axe_CON_bonus": 4
+    }
+  },
+  "proficiency_norm": "Criação de Ficha Regra 7: if proficient initial bonus +2; skill SELECTED or growth must be source confirmed; 49-46=3 does NOT establish selected prof +3",
+  "proven_arithmetic": {
+    "CA_normal": 46,
+    "CA_transformada": 60,
+    "DEFENDER_normal_without_fortitude": 37,
+    "DEFENDER_transform_without_fortitude": 46,
+    "DODGE_DELTA_normal": 3,
+    "DODGE_DELTA_transformada": 3,
+    "FF_normal_rule": 610,
+    "FF_transform_rule": 920,
+    "attack_37_relation": 37,
+    "attack_48_relation": 48
+  },
+  "rules_url": "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0",
+  "source_url": "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010",
+  "sources_ambiguity": [
+    "No unequivocal current Lutar/Fortitude/Reflexo selected marks in textual sheet",
+    "Printed stats vs equipment FOR+8/CON+4 incorporation not annotated",
+    "Normal FF print 620 but printed attributes yield 610; both same 6x100 milestones, extras could cross next",
+    "Attack Basic formula may represent attack roll or damage shortcut, need explicit source semantics",
+    "No current reaction budget, trigger or epoch; cannot execute Defender/Esquiva/Counter attack officially"
+  ],
+  "verdict": "PARTIAL"
+}

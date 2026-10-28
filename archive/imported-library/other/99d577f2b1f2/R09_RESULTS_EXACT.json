@@ -1,0 +1,197 @@
+{
+  "canonical_writes": 0,
+  "crit": {
+    "critical_auto_hit_or_bypass_evasion": "NOT RESOLVED; 1/108 does not authorize bypass",
+    "probability_0_critical_verification_in_16_attempts_IF_independent_per_attempt": {
+      "decimal": 0.861708456885,
+      "fraction": "295216374856540727739668685278401/342594264333413043824572923641856"
+    },
+    "system_base_critical_verification_probability": {
+      "decimal": 0.009259259259,
+      "fraction": "1/108"
+    }
+  },
+  "environment": "MESTRE-SIDE",
+  "evidence_classification": {
+    "math_only": [
+      "Cabra repeat one attack per refresh zero ordinary damaging hits under continuous legal precommitted evade",
+      "Frigido vs Cabra exact duration no crit",
+      "multiple attackers model separate"
+    ],
+    "unresolved": [
+      "Critical verification interaction with a missed attack / Esquiva",
+      "new full-fight initiative values and legal reaction policy",
+      "different offensive options/attack of opportunity Luta scope",
+      "R40 native admission"
+    ],
+    "verified_rules": [
+      "Cabra Investida +6 hit-only R34",
+      "Cabra Esquiva Reflexo+6 R36, R39B reused",
+      "Defensive ties winner R37",
+      "R26 reaction refresh at start own turn",
+      "R39B second attack landed after reaction spent"
+    ]
+  },
+  "exact_local_checks_passed": 45,
+  "executed_new_VLAB_combats": 0,
+  "frigido_vs_goat": {
+    "E_attacks_decline_noncritical": {
+      "decimal": 2.972222222222,
+      "fraction": "107/36"
+    },
+    "E_attacks_evasion_noncritical": {
+      "decimal": 4.458333333333,
+      "fraction": "107/24"
+    },
+    "p_goat_survives_8_frig_attacks_decline": {
+      "decimal": 0.0,
+      "fraction": "0"
+    },
+    "p_goat_survives_8_frig_attacks_evasion": {
+      "decimal": 0.019187454487,
+      "fraction": "1133/59049"
+    },
+    "p_hit_decline": {
+      "decimal": 1.0,
+      "fraction": "1"
+    },
+    "p_hit_evasion26": {
+      "decimal": 0.666666666667,
+      "fraction": "2/3"
+    },
+    "p_two_hits_exact_kill": {
+      "decimal": 0.027777777778,
+      "fraction": "1/36"
+    },
+    "ratio": {
+      "decimal": 1.5,
+      "fraction": "3/2"
+    }
+  },
+  "native_preexisting_observations": {
+    "R34": {
+      "source": "Notion OP; coordinator independently audited original ZIP per Mestre",
+      "three_rabadas_hit_two_investidas_miss": true
+    },
+    "R37": {
+      "DECLINE_control_scenes_finished": 2,
+      "HP_end": "38/38",
+      "attacks_each": 16,
+      "censored_scenes": 2,
+      "reactions_each": 16,
+      "rounds_each": 8,
+      "source": "Notion OP; coordinator independently audited ZIP per Mestre",
+      "winner": null
+    },
+    "R39B": {
+      "one_evasion_blocks_first": true,
+      "second_damage_net": 14,
+      "source": "Notion OP; not freshly independently replayed by DMG",
+      "target_HP": "38 -> 24",
+      "two_sequential_incoming": true
+    }
+  },
+  "official_baseline": "DMG-RANK-01 v1.1 unchanged",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "policies": {
+    "DECLINE": {
+      "damage_expected_per_attack_goat": {
+        "decimal": 9.583333333333,
+        "fraction": "115/12"
+      },
+      "expected_incoming_goat_attacks_to_deal_HP38_vs_passive_goat": {
+        "decimal": 4.610185185185,
+        "fraction": "4979/1080"
+      },
+      "goat_vs_goat_hit_probability": {
+        "decimal": 0.833333333333,
+        "fraction": "5/6"
+      }
+    },
+    "EVADE_FIRST_ONE_TIME": {
+      "expected_incoming_goat_attacks_to_deal_HP38_vs_passive_goat": {
+        "decimal": 5.610185185185,
+        "fraction": "6059/1080"
+      },
+      "first_incoming_attack_damage": 0
+    },
+    "EVADE_WHEN_AVAILABLE": {
+      "HP_drain_after_8_and_16_opportunities": 0,
+      "goat_vs_goat_hit_probability_noncritical": {
+        "decimal": 0.0,
+        "fraction": "0"
+      },
+      "legal_scope": "one Investida arrives per renewal cycle, defender always has a Reaction and announces Esquiva BEFORE the result",
+      "mathematical_expected_attempts_to_kill": "INFINITY ONLY IN THIS CLOSED NONCRITICAL ONE-ATTACK MODEL, NOT A CANONICAL FIGHT"
+    },
+    "TWO_INCOMING_BEFORE_REFRESH": {
+      "expected_second_attack_damage": {
+        "decimal": 9.583333333333,
+        "fraction": "115/12"
+      },
+      "first_blocked": true,
+      "prior_native_R39B_observed_second_hit_damage": 14,
+      "second_has_no_Reaction": true,
+      "second_hit_probability_against_CA20": {
+        "decimal": 0.833333333333,
+        "fraction": "5/6"
+      }
+    }
+  },
+  "preserved_R08_artifact_hashes_sha256": {
+    "R08_PSV_MECHANICAL.md": "816b93374d1d02cde56a0f2610eddd5a27b1f96d8d69494a6206bb20e6e54c59",
+    "R08_REPLAY_MECHANICAL.py": "06761c30fa1fb2ab39c7112601bdf6775c568da91004e58c60f1586d6dedcdd2",
+    "R08_RESULTS_MECHANICAL.json": "2ace58e82b07235de93cc902d4aa5ad877922cc658a0cc2586955cb12018de2c",
+    "R08_VLAB_HANDOFF_READONLY.json": "e9525e1158ddb589fdd569fb0026691767c4d7c35fc6a56186b6082681293d5c"
+  },
+  "round": "R09",
+  "scope_notes": [
+    "The numbers are attack-opportunity math, not whole-fight winners or initiative model.",
+    "No retroactive choice of Evasion by reading dice outcomes.",
+    "Movement, geometry, initiative, opportunity attacks and critical bypass not modeled.",
+    "Only one attacking allowed per reaction-renewal interval for deterministic no-damage proof.",
+    "No write to Notion, no VLAB task accepted or executed."
+  ],
+  "source_attack_domains": {
+    "frig_net_damage_vs_RD5": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "frig_rabada_scores": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "goat_investida_scores": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "goat_net_damage_vs_RD5": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "source_ids": {
+    "Besta": "3ebc2b324ede81f4992ac88a3588cacd",
+    "Cobra": "391c2b324ede8252b0cc810423cdbfa6",
+    "Combat": "3ebc2b324ede81f1be4be8804ac113c0",
+    "Frigido": "f0dc2b324ede820ab9470168d4a53315",
+    "VLAB_operation": "3f3c2b324ede819496ddd7f93bd7e5d2"
+  },
+  "status": "R09 mathematics complete / VLAB new full-fight admission pending"
+}

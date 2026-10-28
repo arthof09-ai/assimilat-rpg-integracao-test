@@ -1,0 +1,117 @@
+{
+  "id": "C02_C05_COLD_QA",
+  "independent_no_import_main_model": true,
+  "source": "C02-C05 frozen source parameters read-only",
+  "tests": [
+    {
+      "check": "four d6 1296 outcomes",
+      "pass": true
+    },
+    {
+      "check": "Varok vs CA123 only all-six common hit",
+      "pass": true
+    },
+    {
+      "check": "Varok vs Esquiva125 has no noncrit hit",
+      "pass": true
+    },
+    {
+      "check": "Feryn vs CA83 all common hit",
+      "pass": true
+    },
+    {
+      "check": "Arveth vs CA123 none common",
+      "pass": true
+    },
+    {
+      "check": "Feryn vs Defender99 1261 common hits",
+      "pass": true
+    },
+    {
+      "check": "independent expectation Feryn_vs_Varok_CA",
+      "pass": true
+    },
+    {
+      "check": "independent expectation Varok_vs_Feryn_CA",
+      "pass": true
+    },
+    {
+      "check": "independent expectation Varok_vs_Feryn_evade",
+      "pass": true
+    },
+    {
+      "check": "independent expectation Arveth_vs_Feryn_CA",
+      "pass": true
+    },
+    {
+      "check": "tiebreak tie exact polynomial",
+      "pass": true
+    },
+    {
+      "check": "reroll expectation exact",
+      "pass": true
+    },
+    {
+      "check": "Feryn boost independent",
+      "pass": true
+    },
+    {
+      "check": "Varok 6d12 39",
+      "pass": true
+    },
+    {
+      "check": "Arveth 6d10 33",
+      "pass": true
+    },
+    {
+      "check": "Monte Carlo tracks renewal Feryn_vs_Varok_CA",
+      "pass": true
+    },
+    {
+      "check": "Monte Carlo tracks renewal Varok_vs_Feryn_CA",
+      "pass": true
+    },
+    {
+      "check": "Monte Carlo tracks renewal Varok_vs_Feryn_evade",
+      "pass": true
+    },
+    {
+      "check": "manifest C02-C05 hashes",
+      "pass": true
+    },
+    {
+      "check": "predecessor C01 preserved",
+      "pass": true
+    }
+  ],
+  "pass_count": 20,
+  "seed": 2026101601,
+  "monte_carlo": {
+    "Feryn_vs_Varok_CA": {
+      "n": 5000,
+      "mean": 15.625,
+      "sem": 0.010614025226383309,
+      "z_diff_from_model": 1.1636037918301074,
+      "exact_renewal": 15.61264948,
+      "max": 18
+    },
+    "Varok_vs_Feryn_CA": {
+      "n": 5000,
+      "mean": 321.694,
+      "sem": 2.5906154346923227,
+      "z_diff_from_model": 0.5082869122009944,
+      "exact_renewal": 320.37722408,
+      "max": 1504
+    },
+    "Varok_vs_Feryn_evade": {
+      "n": 5000,
+      "mean": 327.6402,
+      "sem": 2.5914365856619956,
+      "z_diff_from_model": 1.4041693708165455,
+      "exact_renewal": 324.00138412,
+      "max": 1668
+    }
+  },
+  "native_VLAB_executions": 0,
+  "not_canon": true
+}

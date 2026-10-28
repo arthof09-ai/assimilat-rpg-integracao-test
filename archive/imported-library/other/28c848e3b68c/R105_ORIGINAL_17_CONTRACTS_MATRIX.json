@@ -1,0 +1,533 @@
+{
+  "schema": "R105_ORIGINAL_17_CONTRACTS_FULL_LINEAGE_CROSSWALK",
+  "baseline_original": "R17 rows contain R15 exact terminal requirements; R18 certified matrix preserved",
+  "source_file_hashes": {
+    "VLAB_R17_MATRIX_17_MASTER_ONLY.json": "436b1bf47ab6075dfcbacfc36d526bb945d309ac72feca26fb4dfa5a86ac63ec",
+    "VLAB_R18_MATRIX_17_MASTER_ONLY.json": "6303064ac97118ec1ed8763b94a5c014a641c1c67ac0efdb596c167abe6df744",
+    "R60_17_CONTRACTS_CROSSWALK.json": "b329206c0f29c809887ed455f7d0e24bd0353b6570919781795c577d5743dcf7",
+    "R70_CROSSWALK_17.json": "00aa94ca9dc6af86917a9869972423926711b8d5f253408dc9a2f4b3676df022",
+    "R81_17_CONTRACTS_RECONCILED.json": "a1b3c9476e8f1bfaf5509220aeaa2df7ff6ba6b5151c87fa893684d863d260c2",
+    "R91_17_CONTRACTS_RECONCILED.json": "8ed8df0839b5c20e586efbb087b52766282ca83c9cc20d1a6017f338143199d9",
+    "R101_17_CONTRACTS_RECONCILED.json": "5f56344c39d486bc4f3bdc6b11ec8c3f3489a4349f8fb8a4ce8c794bebb3674b"
+  },
+  "denominator": 17,
+  "original_ids_unchanged": true,
+  "terminal_certified": 0,
+  "official_cells_promoted": 0,
+  "official_cells_denominator": 1875,
+  "NAC_PASS_PRODUCTION": "HOLD",
+  "writer": "PAUSED/NOT_ACQUIRED",
+  "historical_evidence_status": "R92_R101 adapter technically audited; current Combat normative critical mismatch found in R102",
+  "contracts": [
+    {
+      "position": 1,
+      "id": "ACTION_CATALOG_AIN01",
+      "original_requirement_verbatim": "REAL_SOURCE_LOADOUT_AND_FULL_EFFECT_COVERAGE + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Admit full source-authorized action catalog and adapters; replay representative legal effects",
+      "original_dependency_owner": "Rules/source owner + independent auditor",
+      "R01_R17": {
+        "R15": "No change to the action catalog: two native attacks within existing fixture only",
+        "R16": "No new material evidence; R01-R15 retained unchanged",
+        "R17": "R01-R16 preserved; no additional runtime execution credited"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "3 current equipped sources Feryn/Varok/Arveth, scope-limited Goat Investida R53B; source-specific attack profiles and reaction choice, 8 sandbox fights; advanced action catalog and all loadouts NOT covered.",
+      "R62_R71": "12 complete lab fights with source-bound F/V/R normal attacks plus 10 AoO and 181 counters; advanced skills/costed effects excluded",
+      "R72_R81": "No new exercise in R72–R81; preserve R71 proof and original R18 requirements",
+      "R82_R91": "NO_NEW_CONTRACT_WIDE_EVIDENCE: historic R81 baseline remains. Do not infer terminal certificate.",
+      "R92_R101": "No new terminal proof; R91 preserved.",
+      "R102_R105_new_evidence": "R103 6 recibos da Descarga Curta em adaptador aditivo fonte-limitado, NÃO prova menu v0.8.1.",
+      "tests_remaining": "Catalogar Magia, Talão, Bico, Descarga, reação, prebuff e equipamento em catálogo com seleção autorizada; usar adaptador original com fontes congeladas.",
+      "blocker": "Native v0.8.1 SAVE-HALF explicitamente bloqueado; escolhas/efeitos/custos especiais incompletos.",
+      "minimum_terminal_acceptance": "REAL_SOURCE_LOADOUT_AND_FULL_EFFECT_COVERAGE + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "LAB_COMPONENT_ADVANCED_NOT_TERMINAL"
+    },
+    {
+      "position": 2,
+      "id": "ACTOR_SNAPSHOT_SCENARIO",
+      "original_requirement_verbatim": "CURRENT_CANON_ACTOR_SNAPSHOTS_AND_SNAPSHOT_FREEZE + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Independent source freeze for actual eligible synthetic/legal baseline and seal source hashes",
+      "original_dependency_owner": "Mestre + source owners + independent auditor",
+      "R01_R17": {
+        "R15": "Five synthetic actors have signed local snapshots and remote state mirrors",
+        "R16": "R11 signed snapshots from scene cursor 15 restored across WAL suffix to cursor 34; compare local/remote prefix and hashes.",
+        "R17": "R01-R16 preserved; no additional runtime execution credited"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "3 real Notion Master NPC snapshots, 8 stationary triple-actor fights with distinct resources and rounds; 14-actor canonical snapshot freeze NOT covered.",
+      "R62_R71": "3 F/V/R original proposal profiles pinned by R52 source freeze; 12 complete synthetic-grid scenes; 2/3 current-page readbacks F and V, third R current read failed but historic frozen",
+      "R72_R81": "No new exercise in R72–R81; preserve R71 proof and original R18 requirements",
+      "R82_R91": "NO_NEW_CONTRACT_WIDE_EVIDENCE: historic R81 baseline remains. Do not infer terminal certificate.",
+      "R92_R101": "Experimental independent semantic R95 source-basic fixed opener + R93 basic team 2x1; no production terminal proof.",
+      "R102_R105_new_evidence": "R103 15 genesis/SQLite isolados auditados, nenhuma ficha canônica escrita.",
+      "tests_remaining": "Reabrir e congelar snapshots canônicos das identidades e diferentes estados, 14 gates conforme contrato, testar mutação/reabertura e isolamento de fonte.",
+      "blocker": "VZ PRECREATE não materializado, perfil VLAB PAUSED e snapshots de personagens da campanha sem licença de escrita.",
+      "minimum_terminal_acceptance": "CURRENT_CANON_ACTOR_SNAPSHOTS_AND_SNAPSHOT_FREEZE + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "HISTORICAL_PARTIAL_OR_NOT_EXERCISED"
+    },
+    {
+      "position": 3,
+      "id": "AUTHORITATIVE_RULES_AND_ADAPTERS",
+      "original_requirement_verbatim": "AUTHORITATIVE_SOURCE_FREEZE_AND_CONFLICT_RESOLUTION + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Resolve all live mechanics/source precedence and adapter provenance",
+      "original_dependency_owner": "Mestre/NAC-NORM-01 + independent auditor",
+      "R01_R17": {
+        "R15": "Retained native existing engine; no new rule introduced",
+        "R16": "No new material evidence; R01-R15 retained unchanged",
+        "R17": "R01-R16 preserved; no additional runtime execution credited"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "Express R50/R51 decisions applied; independent expected-effective-hit and COUNTER-origin guards, 5 case seeds; formal NAC-NORM canon update NOT done.",
+      "R62_R71": "native R50/R51 subset reused from authenticated R52 runner; 181 counters tied to effective misses; no full normative promotions",
+      "R72_R81": "No new exercise in R72–R81; preserve R71 proof and original R18 requirements",
+      "R82_R91": "NO_NEW_CONTRACT_WIDE_EVIDENCE: historic R81 baseline remains. Do not infer terminal certificate.",
+      "R92_R101": "Experimental independent semantic R95 source-basic fixed opener + R93 basic team 2x1; no production terminal proof.",
+      "R102_R105_new_evidence": "R102 4 ocorrências físicas espelhadas read-only discrepantes, 1 seed real; não alterar R95.",
+      "tests_remaining": "Comparar literalmente Sistema de Combate com implementações e reproduzir TODOS os divergentes; bloquear efeitos conflitantes.",
+      "blocker": "R95 usou +10 no crítico de 20d10 quando norma atual manda +200; FRACO/esforço final omitidos; v0.8.1 SAVE-HALF bloqueado.",
+      "minimum_terminal_acceptance": "AUTHORITATIVE_SOURCE_FREEZE_AND_CONFLICT_RESOLUTION + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "LAB_COMPONENT_ADVANCED_NOT_TERMINAL"
+    },
+    {
+      "position": 4,
+      "id": "BATTLE_1X1_2X1_20X20",
+      "original_requirement_verbatim": "COMPLETE_SOURCE_LEGAL_FIGHT_1X1_TO_20X20 + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Complete all authorized participant-scale fixtures incl 1x1 2x1 20x20",
+      "original_dependency_owner": "Mestre/actor fixtures + independent auditor",
+      "R01_R17": {
+        "R15": "Five-actor two-round historical scene; not complete encounter matrix",
+        "R16": "No new material evidence; R01-R15 retained unchanged",
+        "R17": "R01-R16 preserved; no additional runtime execution credited"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "8 laboratory full 3-actor free-for-all stationary/melee scenarios, fixed policies; required 1x1, 2x1, 20x20 team-scaled contracts NOT established.",
+      "R62_R71": "12 new complete three-actor free-for-all fights, 0 1x1, 0 2x1 formal teams, 0 20x20",
+      "R72_R81": "14 new complete 1x1 source-conditional Besta x ED runs; seven unique seeds, two mirrored positions, 0 official cells; 2x1 and 20x20 not exercised",
+      "R82_R91": "48 selected 1x1 mirror runs across 6 distinct matchups, 24 paired blocks, 40 finishes and 8 censures. Group 2x1 and 20x20 not exercised; 40 ID-collision runs excluded.",
+      "R92_R101": "Experimental independent semantic R95 source-basic fixed opener + R93 basic team 2x1; no production terminal proof.",
+      "R102_R105_new_evidence": "Nenhum duelo antigo repetido; R103 apenas habilidade isolada.",
+      "tests_remaining": "Admitir lutas completas 1x1, 2x1 e 20x20 com políticas legais, cenários fonte-autênticos, reações, custos, KO, replay.",
+      "blocker": "1x1 R95 com crítico divergente; 2x1 R93 NPC desigual; 20x20 não executado; políticas incompletas.",
+      "minimum_terminal_acceptance": "COMPLETE_SOURCE_LEGAL_FIGHT_1X1_TO_20X20 + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "HISTORICAL_PARTIAL_OR_NOT_EXERCISED"
+    },
+    {
+      "position": 5,
+      "id": "BLEED_AND_HEAL_RESTRICTIONS",
+      "original_requirement_verbatim": "BLEED_HEAL_SOURCE_AND_EFFECT_ADAPTER_INTEGRATION + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Freeze and verify bleed/heal rule provenance and duration ticks, adjudicate ambiguous case without inventing rules",
+      "original_dependency_owner": "Combat/bleed authority + independent auditor",
+      "R01_R17": {
+        "R15": "Control batches track existing HP, bleed counters and duration status; no new duration rule",
+        "R16": "Restored final control batch includes verified TICK and HEAL material receipts (2/5 material effects), preserve HP chain with digest.",
+        "R17": "R01-R16 preserved; no additional runtime execution credited"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "No physical bleed/heal source abilities or tick policy in this delta.",
+      "R62_R71": "0 authoritative bleed/heal actions in this delta",
+      "R72_R81": "No new exercise in R72–R81; preserve R71 proof and original R18 requirements",
+      "R82_R91": "NO_NEW_CONTRACT_WIDE_EVIDENCE: historic R81 baseline remains. Do not infer terminal certificate.",
+      "R92_R101": "No new terminal proof; R91 preserved.",
+      "R102_R105_new_evidence": "Não se fabricou sangramento/cura.",
+      "tests_remaining": "Recuperar efeito físico real, cura/tick/duração/stacks, gates por fonte; executar testes de evento, expiração, negativos e recuperação.",
+      "blocker": "Sem fonte competente para efeito de sangramento e cura com duração/limites completos no perfil selecionado.",
+      "minimum_terminal_acceptance": "BLEED_HEAL_SOURCE_AND_EFFECT_ADAPTER_INTEGRATION + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "HISTORICAL_PARTIAL_OR_NOT_EXERCISED"
+    },
+    {
+      "position": 6,
+      "id": "ED_VS_BE_DAMAGE",
+      "original_requirement_verbatim": "REAL_ED_BE_EFFECTS_RANK_AND_SOURCE_FIXTURES + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Source-verified ED/Besta encounters across selected ranks with combat log",
+      "original_dependency_owner": "Science/source freeze + independent auditor",
+      "R01_R17": {
+        "R15": "Two synthetic native 20-HP damage events in five-actor scene; continuity preserved",
+        "R16": "No new material evidence; R01-R15 retained unchanged",
+        "R17": "R17 one read-only DOCUMENTARY_MATH_ONLY observed source snapshot Galidemus Bronze1; no native damage or full fight; not a terminal test"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "No ED actor offensive source or target BE resistance in this delta.",
+      "R62_R71": "0 ED-vs-Besta fights; three source-proposal NPCs used instead",
+      "R72_R81": "14 real-source-derived conditional lab 1x1 between Frígido Ossário Bronze5 and virtual Capanga ED Prata3, 128 attempts, 92 hits; ED RD assumed zero explicitly",
+      "R82_R91": "3 physically reopened Besta profiles x 3 ED candidate profiles; 884 source-bound attack receipts, 224 hits across 48 accepted-identifier LAB runs. Only M6 has ED RD14 explicitly in sheet; reduced H attack, no integral build claim.",
+      "R92_R101": "No new terminal proof; R91 preserved.",
+      "R102_R105_new_evidence": "R102 isolou impacto bruto/pós-RD/realizado e corrigiu interpretação da assimetria.",
+      "tests_remaining": "Nova comparação física ED x Besta sob regras completas com não acerto, mitigação, crítico, vários patamares e efeitos especiais.",
+      "blocker": "R95 crítica/Fraco divergence e source PRECREATE; fonte da real life/canon de VZ pendente; falta ampla diversidade.",
+      "minimum_terminal_acceptance": "REAL_ED_BE_EFFECTS_RANK_AND_SOURCE_FIXTURES + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "LAB_COMPONENT_ADVANCED_NOT_TERMINAL"
+    },
+    {
+      "position": 7,
+      "id": "GENERAL_SPECIFIC_RD",
+      "original_requirement_verbatim": "RD_MULTI_TAG_STACKING_BYPASS_NORMATIVE_RULING + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Normative ruling + targeted multi-tag/bypass native parity",
+      "original_dependency_owner": "Mestre + NAC-NORM-01 + independent auditor",
+      "R01_R17": {
+        "R15": "Existing simple RD historically preserved; no new multi-tag adjudication",
+        "R16": "No new material evidence; R01-R15 retained unchanged",
+        "R17": "R01-R16 preserved; no additional runtime execution credited"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "Physical general RD 22/30/35 applied during 336 attack attempts and 6 AoOs; not stacked/specific/magic bypass.",
+      "R62_R71": "684 attacks (380 observed hits) across both cohorts with general RD 22/30/35, no specific resistance/bypass",
+      "R72_R81": "Besta RD5 used in 14 duels; no stated ED RD, conditional zero without canonization",
+      "R82_R91": "Beasts Bron5 RD5, Ouro normal RD25 and Titã Ouro RD45 by current Criação de Besta; Gorrok natural physical RD15; Raya physical armor RD14; Sunarco RD5 equipment conditional light-v-medium conflict. No general-specific stacking authority tested.",
+      "R92_R101": "No new terminal proof; R91 preserved.",
+      "R102_R105_new_evidence": "R103 tipo Lightning foi delimitado sem RD tipada de Lightning; não testa múltiplas tags.",
+      "tests_remaining": "Teste separadamente RD geral, específica, múltiplos tipos, maior/adição/empilhamento e bypass com autoridade documentada.",
+      "blocker": "Regra normativa para empilhamento e bypass ainda HOLD; RD de Auren é físico/Dark tipado.",
+      "minimum_terminal_acceptance": "RD_MULTI_TAG_STACKING_BYPASS_NORMATIVE_RULING + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "HISTORICAL_PARTIAL_OR_NOT_EXERCISED"
+    },
+    {
+      "position": 8,
+      "id": "ITEM_EQUIPMENT_AND_ENHANCEMENTS",
+      "original_requirement_verbatim": "CURRENT_EQUIPMENT_CHARGE_SNAPSHOTS + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Freeze current equipped items and charges and test item-effect lifecycle",
+      "original_dependency_owner": "Sheet authority + independent auditor",
+      "R01_R17": {
+        "R15": "No new official equipment activation",
+        "R16": "No new material evidence; R01-R15 retained unchanged",
+        "R17": "R01-R16 preserved; no additional runtime execution credited"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "Equipped Luta and normal weapon dice/FF once, daily PA commitments not recharged; charges and full equipment semantics NOT exercised.",
+      "R62_R71": "source-frozen normal equipped attack dice and bonuses; charge/active equipment/prebuff not evaluated",
+      "R72_R81": "No new exercise in R72–R81; preserve R71 proof and original R18 requirements",
+      "R82_R91": "Raya printed armor RD14 is frozen and applied; Sunarco medium RD5 remains conditional due header disagreement; Gorrok natural RD15 non-item. Equipment changes mid-fight not exercised.",
+      "R92_R101": "No new terminal proof; R91 preserved.",
+      "R102_R105_new_evidence": "Auren forma equipada conhecida, prova de cobrança isolada é de habilidade do Grifo, não de item.",
+      "tests_remaining": "Equipamento atual, ativação, compromissos de PA, charges, troca, duração, carga diária, perda/remoção e recuperação.",
+      "blocker": "Snapshots completos de equip. e cobrança de PA de peças do cenário não testados; nenhum write em ficha.",
+      "minimum_terminal_acceptance": "CURRENT_EQUIPMENT_CHARGE_SNAPSHOTS + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "HISTORICAL_PARTIAL_OR_NOT_EXERCISED"
+    },
+    {
+      "position": 9,
+      "id": "OFFICIAL_QA_NAC_LEDGERS",
+      "original_requirement_verbatim": "B1_B2_B3_NAC_PASS_AND_OFFICIAL_LEDGER_GATE + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Shared enforced writer, independent NAC-PASS, official audit ledger and final readback",
+      "original_dependency_owner": "CM-000001 gateway/ACL + auditor",
+      "R01_R17": {
+        "R15": "External sequenced multi-effect receipts, SQL idempotency and recovery across local processes",
+        "R16": "No new material evidence; R01-R15 retained unchanged",
+        "R17": "R01-R16 preserved; no additional runtime execution credited"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "0 official cells credited; no NAC-PASS, no writer, no B1-B3 accepted ledger proofs.",
+      "R62_R71": "12 independent cold-audited sandbox fights; 15 semantic rechain attacks detected; 0 official ledger promotions",
+      "R72_R81": "14/14 full-state cold auditors PASS; eight chain-rehashed semantic corruptions rejected; five prevalidation negatives no pending",
+      "R82_R91": "8/8 chain-rehashed semantic mutations rejected, 5/5 pre-intent invalid commands without side effects, 48/48 independent replay and SQLite checkpoint readback. No Notion writer/independent official terminal reviewers.",
+      "R92_R101": "No new terminal proof; R91 preserved.",
+      "R102_R105_new_evidence": "R103 auditor frio local PASS, sem pretensão de QA oficial.",
+      "tests_remaining": "Provar B1/B2/B3, status do writer, fencing, ledger oficial, auditor externo e NAC-PASS terminal com readback.",
+      "blocker": "CM-000006 PAUSED; writer/lease/fencing/IBX-101 ACK ausentes; OFFICIAL_READBACK=0.",
+      "minimum_terminal_acceptance": "B1_B2_B3_NAC_PASS_AND_OFFICIAL_LEDGER_GATE + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "HISTORICAL_PARTIAL_OR_NOT_EXERCISED"
+    },
+    {
+      "position": 10,
+      "id": "PA_AND_PREBUFF_COSTS",
+      "original_requirement_verbatim": "CURRENT_PA_PREBUFF_COSTS_AND_TIMING_AUTHORITY + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Positive native PA debit source, exact receipt, timing, rollback/replay + prebuff",
+      "original_dependency_owner": "Mestre/rule author + engine provenance + auditor",
+      "R01_R17": {
+        "R15": "Zero-cost reactions reconciled; PA 5 unresolved and blocked",
+        "R16": "No new material evidence; R01-R15 retained unchanged",
+        "R17": "PA=Pontos de Alma; positive 5 case source not attested; native debit receipt absent; DENY preserved"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "Recorded unchanged PA for 0-PA normal equipped attacks; no source-authorized ability PA/prebuff timing or endurance costs.",
+      "R62_R71": "PA unchanged for selected no-additional-PA attacks; no positive consumption or buff gating proved",
+      "R72_R81": "128 attacks all PA0, no magic/activation/prebuff invoked",
+      "R82_R91": "Only basic attack PA0 across all 884 attempts. Source PA balances frozen; no source-attested activation/prebuff PA spending proved in this stage.",
+      "R92_R101": "No new terminal proof; R91 preserved.",
+      "R102_R105_new_evidence": "R103 6 eventos com -55 PA, standard1->0, 6 half ímpares HOLD sem pending, 3 negativas sem efeito.",
+      "tests_remaining": "Gasto PA positivo de fontes e prebuffs em transações indivisíveis, falta PA, rollback, timing, charges, custo em cada turno.",
+      "blocker": "v0.8.1 SAVE-HALF recusa; regra arredondamento ímpar ausente; lifecycle de buff/prebuff ainda não validado.",
+      "minimum_terminal_acceptance": "CURRENT_PA_PREBUFF_COSTS_AND_TIMING_AUTHORITY + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "LAB_COMPONENT_ADVANCED_NOT_TERMINAL"
+    },
+    {
+      "position": 11,
+      "id": "REACTION_TRIGGER_AND_SINGLE_USE",
+      "original_requirement_verbatim": "MULTI_TRIGGER_INTERRUPTS_AND_NORMATIVE_PRECEDENCE + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Legitimate multiple interrupts/priority and cross-scene source adjudication",
+      "original_dependency_owner": "Combat authority + independent auditor",
+      "R01_R17": {
+        "R15": "Two separate synthetic reactions 1->0, recovered once; sequenced receipts",
+        "R16": "No new material evidence; R01-R15 retained unchanged",
+        "R17": "Normative provenance reconciled; R09 cost=5 synthetic with v0.7/v0.8.1 mismatch; 0 cost experimental unchanged; no new run"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "R50 only effective miss triggers counter, R51 no recursive counter, R26 own-turn refresh, six normal AoOs; broader simultaneous reactive priority and external acceptance unresolved.",
+      "R62_R71": "10 new AoO +181 counters, own-turn refresh and six safe negative preflights, with 0 repeated reaction claims; no normative simultaneous-tie branch",
+      "R72_R81": "Selected policy declared NONE on all 14 duels, R26 own-turn renew preserved; no new counter/AoO claims",
+      "R82_R91": "NO_NEW_CONTRACT_WIDE_EVIDENCE: historic R81 baseline remains. Do not infer terminal certificate.",
+      "R92_R101": "No new terminal proof; R91 preserved.",
+      "R102_R105_new_evidence": "R71 mantém 10 AoO e 181 counters históricos, sem rerun.",
+      "tests_remaining": "Dois gatilhos mesmo turno, consumo único, janela/renovação, simultâneas, aninhadas, rollback e precedência documentada.",
+      "blocker": "Prioridade concorrente/nested não adjudicada; nenhum gatilho novo pós-R71.",
+      "minimum_terminal_acceptance": "MULTI_TRIGGER_INTERRUPTS_AND_NORMATIVE_PRECEDENCE + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "HISTORICAL_PARTIAL_OR_NOT_EXERCISED"
+    },
+    {
+      "position": 12,
+      "id": "RNG_REPLAY_STATISTICS",
+      "original_requirement_verbatim": "CANONICAL_DICE_SOURCE_AND_STATISTICAL_HOLDOUT + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Canonical dice seed/frozen source and statistical holdout prior to real benchmark",
+      "original_dependency_owner": "Scientific audit + independent reviewer",
+      "R01_R17": {
+        "R15": "Deterministic five-actor run compared with cold-recovered sequence; synthetic only",
+        "R16": "No new material evidence; R01-R15 retained unchanged",
+        "R17": "R01-R16 preserved; no additional runtime execution credited"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "264 events independent replay, fixed R18 experimental RNG, 3 post-repair frozen-seed holdouts; not a source-canonical RNG or universal win-probability estimation.",
+      "R62_R71": "12 cold reconstructions/684 attack receipts; R62 condition-specific exploratory 6, R68 common-label paired 6 incl 4 holdout, 1 recorded design errata",
+      "R72_R81": "Cold stdlib full-state replays for 14 ledgers/270 events; seven 2-sided seed pairs (3 dev+4 holdout) match outcomes, no source-agnostic RNG claim",
+      "R82_R91": "48/48 full-state cold replays, 1,824 events, 24 pair mirrors, 8 censored runs (4 independent seed blocks); old colliding RUN-ID batch quarantined, new identifiers unique.",
+      "R92_R101": "Experimental independent semantic R95 source-basic fixed opener + R93 basic team 2x1; no production terminal proof.",
+      "R102_R105_new_evidence": "R102 recontou blocos independentes; R103 3 seeds em 6 ledgers causalmente frios; não são seis seeds.",
+      "tests_remaining": "Source-canonical RNG, seed freeze, pares lado, replays completos, estatística pré-registrada, holdout independente cego por famílias.",
+      "blocker": "2 seeds R95, 3 seeds R103 e espelhos não fornecem validação independente de famílias nem RNG de rolagem oficial.",
+      "minimum_terminal_acceptance": "CANONICAL_DICE_SOURCE_AND_STATISTICAL_HOLDOUT + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "LAB_COMPONENT_ADVANCED_NOT_TERMINAL"
+    },
+    {
+      "position": 13,
+      "id": "SOURCE_FREEZE_AND_RANK",
+      "original_requirement_verbatim": "REAL_BESTIARY_RANK_SNAPSHOTS_14_ACTOR_GATES + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Current bestiary tier snapshots and fourteen actor/source gates",
+      "original_dependency_owner": "Mestre/source owner + independent auditor",
+      "R01_R17": {
+        "R15": "Original source freeze probes preserved; no new authoritative freeze",
+        "R16": "No new material evidence; R01-R15 retained unchanged",
+        "R17": "Galidemus source metadata and observed excerpt digest frozen in R17 lab only, source-owner approval NOT established; no canonical frozen actor snapshot"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "Notion master source physical reopen for 3 ON5 NPCs and bronze Goat ability-specific; only 4 identities and 3 equipped ON5 profiles, no complete 14 actor gates.",
+      "R62_R71": "3 selected Ouro Negro 5 NPC proposal snapshots frozen; physical re-open F/V; current R read failure, no bestiary-wide/rank census",
+      "R72_R81": "Reopened source Besta Bronze5 + ED Prata3; source URLs, original formulas and RD ambiguity frozen; 25-slot matrices documented but not filled",
+      "R82_R91": "R81 original 90/90 SHA; R82 3 Besta source profiles, 2 explicit ED and one inferred ED source; corrected scheme B27 D27 A25 C25 =104 primary slots; no 27 canonical ranks invented.",
+      "R92_R101": "No new terminal proof; R91 preserved.",
+      "R102_R105_new_evidence": "R104 derivação de Grifo L2, 7 candidatas agrupadas em 4 patamares, sem promoção.",
+      "tests_remaining": "Congelar identidades/versionamento e pelo menos 14 gateways de atores fontes canônicas, rank/estrela/27 patamares de potência.",
+      "blocker": "BEAST-FULLSPEC=suporte PRECREATE VZ, 0/14 físicos no HANDOFF; sem equivalência automática às fichas principais.",
+      "minimum_terminal_acceptance": "REAL_BESTIARY_RANK_SNAPSHOTS_14_ACTOR_GATES + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "LAB_COMPONENT_ADVANCED_NOT_TERMINAL"
+    },
+    {
+      "position": 14,
+      "id": "TACTICAL_AI_AB_FAIRNESS",
+      "original_requirement_verbatim": "OBSERVABLE_TACTICAL_POLICY_FAIRNESS_BLIND_AUDIT + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Blind A/B tactical policies with reproducible source-admitted matchups",
+      "original_dependency_owner": "Mestre/scientific owner + independent reviewer",
+      "R01_R17": {
+        "R15": "No strategic scoring claim; fixed scenario execution only",
+        "R16": "No new material evidence; R01-R15 retained unchanged",
+        "R17": "R01-R16 preserved; no additional runtime execution credited"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "Policy fixed synthetic and asymmetric; 8/8 F winner is not a balance claim or validated tactical fairness.",
+      "R62_R71": "two disclosed lab policies fixed before execution, but selected asymmetric free-for-all targeting; no blind or unbiased tactical fairness",
+      "R72_R81": "Side mirrors 7/7 identical under fixed source-identity labels, adjacent static attacks; no asymmetric three-actor targeting",
+      "R82_R91": "Source-label RNG mirrored 24/24 pairs outcomes, HP, events and hits. Fixed adjacent basic-attack policy only; not full adaptive AI or equipment activations.",
+      "R92_R101": "No new terminal proof; R91 preserved.",
+      "R102_R105_new_evidence": "Nenhuma vitória do Auren foi creditada como sinergia coletiva.",
+      "tests_remaining": "Duas políticas legítimas A/B blindadas, targeting, movimento, controle, recursos, contrajogo e equidade verificada independentemente.",
+      "blocker": "R93 2x1 targeting fixo, sem sinergia de papéis; fonte de equipe equilibrada não formada.",
+      "minimum_terminal_acceptance": "OBSERVABLE_TACTICAL_POLICY_FAIRNESS_BLIND_AUDIT + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "HISTORICAL_PARTIAL_OR_NOT_EXERCISED"
+    },
+    {
+      "position": 15,
+      "id": "TRANSFORMATION_OVERLAY_AI08",
+      "original_requirement_verbatim": "CURRENT_TRANSFORMATION_SOURCE_AND_FULL_DURATION + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Current spirit, TAP, duration and allowed state overlays under authoritative engine",
+      "original_dependency_owner": "Transformation authority + independent auditor",
+      "R01_R17": {
+        "R15": "Historical overlay preserved unchanged",
+        "R16": "No new material evidence; R01-R15 retained unchanged",
+        "R17": "R01-R16 preserved; no additional runtime execution credited"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "No supported transformation overlay actor in this run.",
+      "R62_R71": "no lawful transformations exercised",
+      "R72_R81": "No new exercise in R72–R81; preserve R71 proof and original R18 requirements",
+      "R82_R91": "NO_NEW_CONTRACT_WIDE_EVIDENCE: historic R81 baseline remains. Do not infer terminal certificate.",
+      "R92_R101": "No new terminal proof; R91 preserved.",
+      "R102_R105_new_evidence": "Auditoria documental registra o conflito, 0 transformações novas.",
+      "tests_remaining": "Usar Espírito compatível/overlay materializado, ficha transformada, fórmulas derivadas, PA, duração, dispel, regressão.",
+      "blocker": "Auren fonte individual descreve ativação 100PA/15 por turno, Sistema de Combate Lendário 320PA; resolver precedência antes de executar.",
+      "minimum_terminal_acceptance": "CURRENT_TRANSFORMATION_SOURCE_AND_FULL_DURATION + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "HISTORICAL_PARTIAL_OR_NOT_EXERCISED"
+    },
+    {
+      "position": 16,
+      "id": "TRANSFORMATION_PER_SCENE_AI09",
+      "original_requirement_verbatim": "REAL_SCENE_REST_BOUNDARY_AND_GATE_AUTHORITY + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "Authenticate original binary or formally scope equivalent successor + rest boundary",
+      "original_dependency_owner": "Mestre decision + provenance + independent auditor",
+      "R01_R17": {
+        "R15": "v0.9 original unavailable; no equivalent binary proof",
+        "R16": "No new material evidence; R01-R15 retained unchanged",
+        "R17": "R01-R16 preserved; no additional runtime execution credited"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "Historical authentic v0.9 transformation scene ledger unavailable.",
+      "R62_R71": "no transformation scene/long rest gate exercised; historical native AI09 parity not certified",
+      "R72_R81": "No new exercise in R72–R81; preserve R71 proof and original R18 requirements",
+      "R82_R91": "NO_NEW_CONTRACT_WIDE_EVIDENCE: historic R81 baseline remains. Do not infer terminal certificate.",
+      "R92_R101": "No new terminal proof; R91 preserved.",
+      "R102_R105_new_evidence": "Nenhum contador de cena inventado.",
+      "tests_remaining": "Provar limites por cena, gasto e renovação/rest/cooldown, reentrância, salvamento/recovery, fonte genuína v0.9.",
+      "blocker": "Falta fonte dos limites por cena e paridade v0.9 genuína; nenhuma ativação legítima executada.",
+      "minimum_terminal_acceptance": "REAL_SCENE_REST_BOUNDARY_AND_GATE_AUTHORITY + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "HISTORICAL_PARTIAL_OR_NOT_EXERCISED"
+    },
+    {
+      "position": 17,
+      "id": "TURN_SCHEDULER_EVENT_SOURCING",
+      "original_requirement_verbatim": "CANON_INITIATIVE_TIE_INTERRUPTION_AND_SOURCE_COMPLETE_EVENTS + independent review + applicable NAC-PASS-02",
+      "original_closure_action": "RUN source-frozen initiative/tie fixtures after Mestre ruling; independent Auditor CM-000003 review; NAC-PASS before terminal",
+      "original_dependency_owner": "Mestre/priority authority + independent auditor",
+      "R01_R17": {
+        "R15": "All 34 fixture events sequenced in 5 remote steps, including control batches",
+        "R16": "Granular authenticated WAL→snapshot control-batch reconstruction; 2 real crash points; 7/7 critical gate probes; deterministic R15 remote chain. Canonical initiative formula read.",
+        "R17": "Source crosswalk canonical initiative/actions, explicit tie and concurrent interruptions gap; independent audit IBX-91 created/readback NOVA; no opinion yet"
+      },
+      "R18_R49": {
+        "original_R18_priority_bucket": "PARTIAL_LAB_ONLY",
+        "R18_original_acceptance_retained": true
+      },
+      "R52_R61": "R18 _next_turn and R26 own-turn refresh in 8 fights; KO skip and 264 causal events with 17 checkpoints; AoO movement tested in separate windows, not one fully integrated multi-turn fight with AoO.",
+      "R62_R71": "12 multiround combats with 1573 events, 30 movements, 10 AoO and 181 counters, source-bound damage, full-state cold replay/checkpoint; synthetic movement speed",
+      "R72_R81": "1x1 scheduler 14 complete duels with causal action/turn tracking, 270 events full-state reconstructed",
+      "R82_R91": "48 valid-ID 1v1 source-bounded ledgers, 1,824 verified causal events, 40 terminal one-survivor and 8 censures; no grouped 2x1 certification.",
+      "R92_R101": "Experimental independent semantic R95 source-basic fixed opener + R93 basic team 2x1; no production terminal proof.",
+      "R102_R105_new_evidence": "R104 demonstrou intervalo matemático sem atribuir proficiência à Besta; R103 ação isolada não comprova scheduler.",
+      "tests_remaining": "Iniciativa natural real, tie, turnos 3+ e 20x20, interrupção, KO, reação/ressuprimento, snapshots e recuperação causal.",
+      "blocker": "Competência de Iniciativa do Grifo/Croc não publicada; R95 exógena, R93 usa hipótese de iniciativa; v0.9 parity/rewind não certificada.",
+      "minimum_terminal_acceptance": "CANON_INITIATIVE_TIE_INTERRUPTION_AND_SOURCE_COMPLETE_EVENTS + independent review + applicable NAC-PASS-02",
+      "independent_terminal_acceptor": "PENDING_COMPETENT_AUTHORITY",
+      "nac_pass_terminal": "HOLD",
+      "terminal_certified": false,
+      "official_cells_promoted": 0,
+      "classification": "LAB_COMPONENT_ADVANCED_NOT_TERMINAL"
+    }
+  ]
+}

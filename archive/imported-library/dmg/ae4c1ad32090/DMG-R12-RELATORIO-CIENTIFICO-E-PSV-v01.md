@@ -1,0 +1,29 @@
+# OP-DMG-CORPUS-EMP-01 — R12 | RECUPERAÇÃO CIENTÍFICA PREVENTIVA
+
+**Classificação:** MESTRE-SIDE · DOCUMENTAL · READ-ONLY/LOCAL · NÃO CANÔNICO · SEM WRITER.
+
+**Estado operacional:** CM-000001 identidade persistente verificada; R12 INSTANCE-ID **não consumida**; profile aponta I0006 em WS0002 (coordenação de Inbox/VLAB), candidato seguinte I0007, mas falta prova de original responsável R11 e isolamento de domínio DMG. Workstream próprio de DMG NÃO foi provado em perfil; NÃO criar outro WS por analogia. OP existente preservada.
+
+## R11 recuperação e integridade
+O ZIP R11 preexistente na Biblioteca `/Comestre/OP-DMG-CORPUS-EMP-01/DMG-F1-R11-B02-CERTIFICACAO-E-INTEGRACAO-VLAB-R03-v01.zip` foi materializado, validado com script ORIGINAL `verificar_r11.py`, CRC e hashes de 10 membros. SHA256 ZIP: `5467c6decb19ce3fcbd3eaf2190c4cb3f22e42e056aaf76b9ef615786db2cdb8`; 24.146 bytes; 11 membros, 36/36 testes do R11 reexecutados pelo verificador; não requer regeneração de R03–R11. Os artefatos R11 permanecem intactos. 18 critérios B01–B18: B02 PASS, 9 PARTIAL, 6 BLOCKED, 2 NOT-TESTED; 1/18 = 5,5556%; meta mínima 9 → 1/9 = 11,1111%; 0/2 full-fight, 0/17 contratos LAB aceitos; NAC-PASS-02 mecânico HOLD.
+
+## B02 — certificado somente no alcance documental original
+A cadeia reaberta aponta `Gelo` ID `85fc...` → pai `Símio Demoníaco❄` `f42c...` → filho `301c2b324ede828caccb813d3979267a`, título `Prata 5 (titã)`, campo Nome `macaco rei`, DES=40, CON=35, CA=67. Fórmula especial de Titã: `20+40+35/5=67` (a normal `10+40+35/5=57`). O índice `Ouro Negro 5` classifica espécie no índice, NÃO promove individual variante Prata 5. Fixture científica existente `PAIR-P5-LIU-vs-MACACO-01`, ID estável `BESTIA-GELO-SIMIO-P5-301c2b32`. B02 PASS DOCUMENTAL da identidade/nome/rank/Titã deste ator científico; não valida B01 cena/versão, B03 Vida/Alma, B04 PA, B15 elemento de ataque, B18 motor/replay.
+
+## B04 — cronologia de custos, sem resolução de cena
+Literal na ficha Liu: Alma `170+50−15−30−60−42=73`, `Perdido:-46`. Botas: `15 PA por dia`; Machado: `60 PA por dia`; anel atributo 30 PA e armadura 42 PA sem tipo temporal inequívoco. Não multiplicar 75 PA por turno. Não subtrair perdido −46 duas vezes. Dois testes de sensibilidade sem status canônico: se 73 é PA realmente livre ANTES da transformação, ativação Prata40 é admissível e restam 33 *antes de quaisquer mudanças de forma*; se −46 não estava refletido e PA livre=27, ativação40 é inválida. Bônus +50 do estado transformado não pode pagar retroativamente pré-condição sem regra explícita. Duração Prata 1d6+1 = 2..7 turnos em rolagem teórica; ação COMPLETA. Ledger de eventos proposto com epoch, estados/equipamentos, custo de cada dia, reserva, perda, recuperação, forma e readback. Precisa cena e titular competente para B04; status BLOCKED.
+
+## B09 — CA/FF/Reações
+Normal CA46 = 6+DES16+Armadura15+marcosCA9; transformada CA60 = 6+DES27+Armadura15+marcosCA12. Esquiva impressa 49/63 é **total**, não somar 46+49. Defender normal `37+Fortitude_final`, transformada `46+Fortitude_final`; +4 CON do machado só se ainda NÃO incorporado nos atributos impressos (caso condicional 41/50 antes da proficiência). Ataque básico `2d6+37 / 2d6+48` coincide numericamente com FOR+8, mas não prova semântica de acerto/dano. Regra 7 exige seleção real de Reflexo/Fortitude/Lutar, não deduzir +3 de diferença. Atual Criação de Ficha (edit `2026-10-09T04:07:06.313Z`, DEPOIS do R11) descreve FF=(FOR+DES+CON)*10 e marcos de 100 FF com rolagens/resultados únicos permanentemente registrados: normal fórmula610 versus título impresso620, transformada 920 versus impresso920. Faltam os registros reais dos 6 e 9 marcos ativos, sua primeira aquisição, resultados e aplicação a CA. Nunca retrocorrigir a ficha nem rerrolar dados; status B09 PARTIAL.
+
+## Próximas B03/B13/B15
+B03: valores físicos históricos Macaco 750/700, alternativa de regra moderna Titã 810/760; nenhuma mistura 750/760; requer adjudicação de snapshot. B13: sem cena/mapa/alcance/posição, não certificar alvo mesmo com velocidades impressas. B15: categoria Gelo não empresta elemento gelo à Patada física; Poder Elemental 1d10+INT custo10 PA requer tag e origem. 198 IDs históricos de corpus não recontados nesta fase. Próximo avanço seguro: protocolo de prova de cena do Mestre, assinatura do ledger PA/equipamentos, prova das proficiências e marcos FF; após writer seguro, OP/Diário/Inboxes sincronizados com readback. Nenhum sistema vivo alterado.
+
+## Comunicação VLAB
+Delta B02 preparado em JSON separado, **NÃO ENVIADO**. IBX-44 NOVA/ACK vazio; sem registro de instância sucessora autorizada e sem controle concorrencial, não fingir entrega/ACK na Inbox; IBX-34 histórica preservada. Quando gate legítimo autorizar, mensagem à CM-000006, fornecendo apenas ponteiros e alcance documental restrito; aceitação/lab replay terão seus próprios gates.
+
+## Testes R12
+A nova suíte local executa asserções determinísticas de integridade, numeração, B02 source binding, B04 eventos/custos condicionais, B09 CA/FF e controles negativos, independentes B03/B13/B15, regras antiinflacionárias. 64/64 em `DMG-R12-TESTES-CONDICIONAIS-v01.json` e `verificar_r12.py`; NÃO substituir a matriz científica por testes sintéticos, não certificar motor/combate por asserções.
+
+## FRONTIER-CAPSULE
+LAST-VERIFIED=R11 ZIP com manifesto CRC/SHA íntegros e B02 documental reaberta, R12 elaboração READ-ONLY; PREDECESSOR-DMG=UNKNOWN, INSTANCE-CANDIDATE=I0007 NÃO CONSUMIDA, WS DMG específico=PENDENTE, writer/epoch/lease/fencing/STOP-ACK=UNKNOWN/NÃO COMPROVADOS. FIRST-PENDING=confirmação de instância e domínio de escrita com exclusividade, depois ledger B04 em cena, marcos/proficiências B09, delta B02 via Inbox existente. NÃO REPETIR=R03–R11, matriz18, 198 IDs, B02 PASS, R11 36 checks. NAC-PASS-02 material/global=HOLD. Party/O Primeiro zero escrita.

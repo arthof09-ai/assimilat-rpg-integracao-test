@@ -1,0 +1,203 @@
+{
+  "R40_original_native_validation": {
+    "attacks": 42,
+    "critical_branch": "NOT TESTED / currently incompatible with new Master automatic hit in historic adapter",
+    "evidence": {
+      "91001": {
+        "attacks": 18,
+        "events": 19,
+        "movement_actions": 11,
+        "pushes": 9,
+        "reactions": 5,
+        "rounds": 7,
+        "second_reactions_rejected": 5,
+        "status": "PASS",
+        "winner": "LAB_R40_GOAT_C"
+      },
+      "91002": {
+        "attacks": 24,
+        "events": 25,
+        "movement_actions": 13,
+        "pushes": 11,
+        "reactions": 10,
+        "rounds": 10,
+        "second_reactions_rejected": 4,
+        "status": "PASS",
+        "winner": "LAB_R40_GOAT_B"
+      }
+    },
+    "positive_crits_exercised": 0,
+    "status": "READONLY_INDEPENDENT_VERIFIER_RERUN_2_LEDGERS_PASS"
+  },
+  "VLAB_writer_taken": false,
+  "admission_conditions": [
+    "source GOAT UUID and Master decisions R34/R36/R37/R39B pinned and re-opened",
+    "Legitimate VLAB source-aware attack/reaction contracts; standard action 1, PA0; distinct scene and command IDs",
+    "Native branch evidence of sequential critical dice independently validated",
+    "critical positive propagation into native hit and numeric Esquiva bypass independent of raw score",
+    "RD5 mitigates 22 to17; on hit push 1.5m if allowed by geometry; no collision damage",
+    "Negative critical branch handled per competent rule; if absent use controlled injected positive branch, NOT full-fight",
+    "RNG holdout independent from injected case; never use injected case as frequency sample",
+    "New SQLite and checkpoint/replay only by VLAB authorized writer; production=HOLD"
+  ],
+  "adversarial_negative_cases": [
+    {
+      "ca": 20,
+      "critical": [
+        6,
+        5,
+        6
+      ],
+      "expected": "ordinary miss, no damage",
+      "name": "invalid_permutation",
+      "score": 20
+    },
+    {
+      "critical": [
+        6,
+        6,
+        4
+      ],
+      "expected": "critical only in explicitly margin +1 qualified fixture",
+      "margin_bonus": 1,
+      "name": "higher_margin_only_if_authorized"
+    },
+    {
+      "RD": 25,
+      "critical": [
+        6,
+        6,
+        5
+      ],
+      "expected": "auto hit but net0",
+      "name": "competent_RD_no_bypass",
+      "raw": 22
+    },
+    {
+      "expected": "PRE-INTENT FAIL-CLOSED",
+      "hit_d6": 7,
+      "name": "out_of_domain_roll"
+    },
+    {
+      "critical": [
+        1,
+        1,
+        1
+      ],
+      "expected": "HOLD until competent documented outcome; R40 currently fail-closed NEGATIVE_CRIT_UNRESOLVED_BEFORE_INTENT",
+      "name": "negative_critical"
+    },
+    {
+      "defense_after_dice_seen": true,
+      "expected": "REJECT",
+      "name": "late_defense"
+    },
+    {
+      "expected": "REJECT second before renewal",
+      "name": "two_reactions_one_slot"
+    },
+    {
+      "expected": "REJECT",
+      "name": "KO_actor_continues"
+    },
+    {
+      "expected": "independent semantic event/RD/HP/death/reaction auditing, not hash-only",
+      "name": "replay_correct_math"
+    }
+  ],
+  "authorization": "Mestre explicit decision in DMG R10 message, binding to numerical combat resolution but NOT physically synchronized in Notion",
+  "baseline_immutable": {
+    "R39B_sha256": "3333d215042d0de9ec92a1d10d125f2417864cd5dc474e5f62b9090bf3552166",
+    "R40_sha256": "2be2d7b8cb39fd4aa340afc07a200c8c1c5234475256635e2dad85a2aeeb1e71",
+    "original_native_adapter_sha256": "066ffe9636d07e09b192695cff94df21a1116d4e391452805bf13f37af440d29"
+  },
+  "canonical_writes": 0,
+  "case_A_controlled_branch_no_reaction": {
+    "RD": 5,
+    "attack_score": 20,
+    "critical_seq": [
+      6,
+      6,
+      5
+    ],
+    "damage_d6": 3,
+    "damage_formula": "1d6+FOR13+max_d6_6",
+    "defender": "Cabra de Chifres B1 CA20",
+    "expected_hit": true,
+    "expected_net": 17,
+    "gross": 22,
+    "hit_d6": 1,
+    "reaction_declared": false,
+    "src": "Cabra de Chifres Bronze1 Investida R34 Luta+6",
+    "target_HP_after": 21,
+    "target_HP_before": 38
+  },
+  "case_B_controlled_branch_evasion": {
+    "HP_after": 21,
+    "HP_before": 38,
+    "RD": 5,
+    "attack_score": 20,
+    "critical_seq": [
+      6,
+      6,
+      6
+    ],
+    "damage_d6": 3,
+    "defender": "same Cabra B1 Esquiva26 R36/R39B",
+    "defense_numeric": "26 cannot negate valid positive critical by comparison alone",
+    "expected_hit": true,
+    "expected_net": 17,
+    "gross": 22,
+    "hit_d6": 1,
+    "reaction_timing": "DECLARED BEFORE result, 1 reaction debited even on positive critical",
+    "src": "same Investida"
+  },
+  "critical_handoff_implementation_request": "For authorized additive VLAB adaptation, pass verified positive-critical evidence into hit resolution AND reaction numeric gate, preserving source admission, reaction consumption, RD, audit and replay. Do not patch historical original, do not bypass immunity, do not alter master sheets. The DMG does not claim implementation.",
+  "falsification": [
+    "verified positive critical event is called miss or blocked merely because score<=CA/Esquiva",
+    "critical damage ignores RD5 or uses invalid d6",
+    "event says hit but HP state inconsistent",
+    "Reactions re-used before renewed",
+    "serialized pending UNKNOWN_EFFECT retried silently"
+  ],
+  "frozen_original_zip_sha256": {
+    "DMG_R02_RECONSTRUCAO_CIENTIFICA_MESTRE_SIDE.zip": "6b7702304dad1c4be8f11eb5e0af06482f723827dbc4045026bdd21e3cf7f547",
+    "r03/DMG_R03_INDEPENDENT_COHORT_CROSSRANK_MASTER_ONLY.zip": "cb41b5d46fece58602ea5d912f21579f064b688ecc4490acf4b27447e4154bfe",
+    "r04/DMG_R04_MECHANICAL_ROBUSTNESS_MASTER_ONLY.zip": "76913a4128515ada36b60956cff1c333e17413153c8ac1788e7012523180aa8e",
+    "r04/R07_RESULTS_EXACT.json": "ffd629c2e1ba5307fb4dd59b72e39ef0fdf7a354503767edc8199ce36336ff40",
+    "r04/R08_RESULTS_MECHANICAL.json": "2ace58e82b07235de93cc902d4aa5ad877922cc658a0cc2586955cb12018de2c",
+    "r04/R09_REPLAY_EXACT.py": "c95ee7f62f7647982f08609312142dcfc261a189e72b3802e5c6283f08b0017d",
+    "r04/R09_RESULTS_EXACT.json": "99d577f2b1f2027913c564e7b72b5c7789f32aa2cb79655031857423be6bdf64",
+    "r04/R09_VLAB_HANDOFF_READONLY.json": "e189b08096fecce49bf686b27ffa7947a25d9944820c93222c28c7326e2ee761"
+  },
+  "model_forecasts": {
+    "Esquiva": 26,
+    "critical_verification_chance": "1/108",
+    "max_norm_score": 25,
+    "one_sided_attacks_to_hp38": 306,
+    "p_A_first": 0.5008798035361809,
+    "percentiles_rounds": {
+      "0.1": 74,
+      "0.25": 120,
+      "0.5": 187,
+      "0.75": 271,
+      "0.9": 362,
+      "0.95": 424,
+      "0.99": 555,
+      "0.999": 726
+    },
+    "symmetric_goat_duel_purecrit_round_mean": 205.75378677688366
+  },
+  "new_native_combat_runs": 0,
+  "no_communication_or_execution_claim": true,
+  "operation_dmG": "OP-DMG-CORPUS-EMP-01",
+  "operation_vlab_existing": "OP-VLAB-FUSION-SANDBOX-01",
+  "other_cases": {
+    "Frigido_B5_vs_Behemoth_Gold1": "source-real partial MATH_ONLY, critical net 0..5 after RD25, no full fight",
+    "Frigido_B5_vs_Goat_B1_R32_R34_actions": "MATH_ONLY and R34 historical receipt; one-source hit critical model R10, new full fight needs legit initiative scene",
+    "Goat_B1_vs_Galidemus_B1_R35": "one-sided partial, Galidemus Patada Luta not authorized"
+  },
+  "schema": "DMG-R10-CRITICAL-AUTOHIT-VLAB-HANDOFF-v1",
+  "scope": "MASTER_ONLY_READONLY",
+  "version": "historical native effects v0.8.1 adapter COMBAT-EFFECT-ADAPTER-PARTIAL-v0.8, R40 wrapper; NAC-PASS production HOLD"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS_FOUR_SAVE_PHASE_ASSERTIONS",
+  "real_native_source_run": "R159_ED_GRIFO_AUREN_BE_SPECIAL_DEV_S998803",
+  "gross_pre_save": 74,
+  "native_post_save_pre_rd": 37,
+  "effective_HP_loss": 37,
+  "odd_half": "HOLD_REJECTED",
+  "inconsistent_half": "REJECTED",
+  "full_save_fail": "PASS",
+  "historical_db_modified": false
+}

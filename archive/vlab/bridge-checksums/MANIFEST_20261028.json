@@ -1,0 +1,90 @@
+{
+  "schema": "assimilat.archive_recovery_checksums/1.0",
+  "date": "2026-10-28",
+  "operation": "GitHub × Notion × Google Drive technical recovery",
+  "branch": "audit/recovery-20261028-library35-drive-checksums",
+  "classification": "HISTORICAL_CHECKSUM_ONLY_NOT_ZIP_NOT_EXECUTABLE_NOT_CANON_PROMOTION",
+  "source_accounts": [
+    "Google Drive original",
+    "Google Drive novo RPG"
+  ],
+  "readback": "UTF8_CHECKSUM_CONTENT_PASS_4_OF_4_AND_GIT_ZIP_TREE_BLOB_SIZE_PASS_4_OF_4",
+  "total_source_file_bytes": 385,
+  "files": [
+    {
+      "original_name": "ponte-vlab-tabletop-test.zip.sha256",
+      "github_path": "archive/vlab/bridge-checksums/ponte-vlab-tabletop-test.zip.sha256",
+      "size_bytes": 95,
+      "sha256_file_content": "034b4ef5f9ffb0fe9fa6cdb7d5f4e22c0f304d2882b8ded0cd31aeb04dadfc1b",
+      "target_zip_name": "ponte-vlab-tabletop-test.zip",
+      "target_zip_sha256_declared": "80aa408adabcd3c8e9fb2267d7efeb5ee4b9a3ef5e22c618a9d814bb98b751a3",
+      "source_drive_original": "https://drive.google.com/file/d/1IPnHerDiSA80vXjISHHKI5H9ObcryBKg/view",
+      "source_drive_new": "https://drive.google.com/file/d/1SGeEdVldNxuUKHwJf6DHQ6_DPyCZuPol/view",
+      "sources_text_equal": true,
+      "zip_bytes_migrated": true,
+      "zip_github_path": "archive/vlab/bridge-zip/ponte-vlab-tabletop-test.zip",
+      "zip_size_bytes": 367597,
+      "zip_git_blob_sha1": "ccc5c2b87eb523b8d6f0e9d5090f7c52be167516",
+      "zip_sha256_matched_declared_digest": "PASS",
+      "zip_crc": "PASS"
+    },
+    {
+      "original_name": "ponte-vlab-tabletop-0.2.0.zip.sha256",
+      "github_path": "archive/vlab/bridge-checksums/ponte-vlab-tabletop-0.2.0.zip.sha256",
+      "size_bytes": 96,
+      "sha256_file_content": "71306f96edcab4d6f20c672bfe21f4421fa425798c335022ed956221815d3933",
+      "target_zip_name": "ponte-vlab-tabletop-0.2.0.zip",
+      "target_zip_sha256_declared": "31b8a9ea23d6751baeb73be328b705674c929553ccb81e61a0df495df5937fd3",
+      "source_drive_original": "https://drive.google.com/file/d/1asXAdUNlhR2XV1wo12QJ0k1_7rJmdZRW/view",
+      "source_drive_new": "https://drive.google.com/file/d/1gQuBYU3Q_4aJlrnmyAjXNzGpMhlkoLqN/view",
+      "sources_text_equal": true,
+      "zip_bytes_migrated": true,
+      "zip_github_path": "archive/vlab/bridge-zip/ponte-vlab-tabletop-0.2.0.zip",
+      "zip_size_bytes": 189939,
+      "zip_git_blob_sha1": "2dbade507ebb9ac9c64d9cfebf83e05356abf83c",
+      "zip_sha256_matched_declared_digest": "PASS",
+      "zip_crc": "PASS"
+    },
+    {
+      "original_name": "ponte-vlab-tabletop-0.3.0-test-events.zip.sha256",
+      "github_path": "archive/vlab/bridge-checksums/ponte-vlab-tabletop-0.3.0-test-events.zip.sha256",
+      "size_bytes": 108,
+      "sha256_file_content": "59e633f45b11ca1c6ac76691b3881bbd49575952116cc10cb0f2d5292c40ec3e",
+      "target_zip_name": "ponte-vlab-tabletop-0.3.0-test-events.zip",
+      "target_zip_sha256_declared": "78760b79e842f83625daf8c17c2f1bf56c1320a9b35408f949f6fbf82648afda",
+      "source_drive_original": "https://drive.google.com/file/d/1fgokv3UlCjq_Vfvkb8MavAdq6ZzW0mK3/view",
+      "source_drive_new": "https://drive.google.com/file/d/1siD3j-6uj3HVkuHdBwtkWD-E73nIzUbR/view",
+      "sources_text_equal": true,
+      "zip_bytes_migrated": true,
+      "zip_github_path": "archive/vlab/bridge-zip/ponte-vlab-tabletop-0.3.0-test-events.zip",
+      "zip_size_bytes": 218841,
+      "zip_git_blob_sha1": "f1fdcc812ca403847d3b821bdd285a6fbb603f6a",
+      "zip_sha256_matched_declared_digest": "PASS",
+      "zip_crc": "PASS"
+    },
+    {
+      "original_name": "ponte-vlab-tabletop-0.4.0-test38.zip.sha256",
+      "github_path": "archive/vlab/bridge-checksums/ponte-vlab-tabletop-0.4.0-test38.zip.sha256",
+      "size_bytes": 103,
+      "sha256_file_content": "a63f97c117e5a546d8b28ffae4e7992aa68128e6ff0e6f00911093355401146e",
+      "target_zip_name": "ponte-vlab-tabletop-0.4.0-test38.zip",
+      "target_zip_sha256_declared": "5d3155e25ab9b1a6fa07e85ef43e92cf42de16c12e0cae25e70d868556f31a4a",
+      "source_drive_original": "https://drive.google.com/file/d/17csOudQa1wZxSiaQysc0CQJ3Bi_oFtSr/view",
+      "source_drive_new": "https://drive.google.com/file/d/1WiU5ycJdAEfWMrHBPkFUy3twKfiQI7Gt/view",
+      "sources_text_equal": true,
+      "zip_bytes_migrated": true,
+      "zip_github_path": "archive/vlab/bridge-zip/ponte-vlab-tabletop-0.4.0-test38.zip",
+      "zip_size_bytes": 1163331,
+      "zip_git_blob_sha1": "8c6ba721e6df149f8b64bf9c1449ec5fea9f6f8d",
+      "zip_sha256_matched_declared_digest": "PASS",
+      "zip_crc": "PASS"
+    }
+  ],
+  "limitations": [
+    "The four original ZIP payloads were recovered after initial checksum-only checkpoint; manifest updated with traceable paths and Git blob hashes.",
+    "PR review and merge to main are pending; local synthetic tests do not authorize deployment or canon promotion.",
+    "0.4.0 browser visual integration blocked by environment's localhost Chromium policy; see ZIP manifest."
+  ],
+  "recovery_status": "ZIP_RECOVERY_4_OF_4_VERIFIED_ON_ISOLATED_BRANCH",
+  "zip_recovery_manifest": "archive/vlab/bridge-zip/MANIFEST_20261028.json"
+}

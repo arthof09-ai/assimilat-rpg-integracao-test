@@ -1,0 +1,40 @@
+import unittest,sys,copy,json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'code'))
+from integrated_gate import *
+class IntegratedTests(unittest.TestCase):
+ @classmethod
+ def setUpClass(cls):cls.default=integrated_preflight()
+ def test_sha_baselines(self):self.assertEqual(checked_sources(),UPSTREAM)
+ def test_status_hold(self):self.assertEqual(self.default['status'],'HOLD_NO_APPLICATION')
+ def test_fields_15(self):self.assertEqual(self.default['h23_documented_fields'],15)
+ def test_controls_16(self):self.assertEqual(self.default['causal_controls_proposed_not_executed'],16)
+ def test_salt_pending(self):self.assertTrue(self.default['p2_salt_pending'])
+ def test_energy_pending(self):self.assertTrue(self.default['p2_energy_stage_pending'])
+ def test_oil_lot_not_verif(self):self.assertFalse(self.default['oil_lot_verified'])
+ def test_operator_not_assigned(self):self.assertFalse(self.default['operator_p2_assigned'])
+ def test_h23b_unreachable(self):self.assertEqual(self.default['h23b'],'NOT_REACHABLE')
+ def test_no_source_stabilized(self):self.assertEqual(self.default['source_stabilized'],'NOT_DEMONSTRATED')
+ def test_no_item_integration(self):self.assertEqual(self.default['item_integrated'],'NOT_DEMONSTRATED')
+ def test_no_magic(self):self.assertFalse(self.default['magic_observed'])
+ def test_no_application(self):self.assertFalse(self.default['application_authorized'])
+ def test_no_r48_replay(self):self.assertFalse(self.default['r48_replayed'])
+ def test_r48_existing_order(self):self.assertEqual(self.default['r48_prior_order'],'SBX-R48-ORDER-48322')
+ def test_f5_red(self):self.assertEqual(self.default['f5'],'RED')
+ def test_c19_unknown(self):self.assertEqual(self.default['c19'],'UNKNOWN-EFFECT')
+ def test_no_party(self):self.assertEqual(self.default['party_writes'],0)
+ def test_mirror_o_rejected(self):self.assertEqual(integrated_preflight(MIRROR_O,'MESTRE_ESPELHO_CONTEXT')['status'],'SOURCE_AUTHORITY_REJECTED')
+ def test_mirror_p_rejected(self):self.assertEqual(integrated_preflight(MIRROR_P,'MESTRE_ESPELHO_CONTEXT')['status'],'SOURCE_AUTHORITY_REJECTED')
+ def test_mirror_even_with_fake_master_role_rejected(self):self.assertEqual(integrated_preflight(MIRROR_O,'MASTER_CANON_SOURCE')['status'],'SOURCE_AUTHORITY_REJECTED')
+ def test_master_url_fake_mirror_role_rejected(self):self.assertEqual(integrated_preflight(P2,'MESTRE_ESPELHO_CONTEXT')['status'],'SOURCE_AUTHORITY_REJECTED')
+ def test_any_other_fake_url_rejected(self):self.assertEqual(integrated_preflight('https://app.notion.com/p/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa','MASTER_CANON_SOURCE')['status'],'SOURCE_AUTHORITY_REJECTED')
+ def test_untrusted_flag_does_not_authorize(self):self.assertFalse(integrated_preflight(P2,'MASTER_CANON_SOURCE',{'authorizer_claim':'yes','magic_observed':True})['application_authorized'])
+ def test_untrusted_flags_recorded_not_effectful(self):self.assertEqual(integrated_preflight(P2,'MASTER_CANON_SOURCE',{'force':True})['flags_not_authority'],['force'])
+ def test_source_variant_rejection_keeps_r48(self):self.assertFalse(integrated_preflight(MIRROR_O,'MASTER_CANON_SOURCE')['r48_replayed'])
+ def test_source_variant_rejection_keeps_party(self):self.assertEqual(integrated_preflight(MIRROR_O,'MASTER_CANON_SOURCE')['party_writes'],0)
+ def test_no_new_workflow_writers(self):
+  s=(ROOT/'code'/'integrated_gate.py').read_text();self.assertNotIn('notion_update_page',s);self.assertNotIn('requests.post',s)
+ def test_requires_canonical_not_inferred(self):self.assertEqual(self.default['candidate_role'],'MASTER_CANON_SOURCE')
+ def test_baseline_hashes_pinned(self):self.assertTrue(self.default['baseline_hashes_valid'])
+if __name__=='__main__':unittest.main(verbosity=2)

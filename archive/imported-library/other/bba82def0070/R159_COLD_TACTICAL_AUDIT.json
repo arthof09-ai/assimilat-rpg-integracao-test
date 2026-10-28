@@ -1,0 +1,62 @@
+[
+  {
+    "run_id": "R157_TACTIC_BASIC_DEV_S997617",
+    "verified": true,
+    "events": 49,
+    "rounds": 8,
+    "status": "FINISHED_HP0",
+    "winner": "E",
+    "physical_attacks": 8,
+    "spells": 8,
+    "negative_critical_lab": 0,
+    "PA": 640,
+    "HP_effective": 912,
+    "turn_starts": 16,
+    "end_HP": {
+      "E": 197,
+      "F": 0
+    },
+    "final_hash": "3eb8259ba66d98fb5663c4d7185781dd55ea7114136ad5c9f32ba29278b42ab8",
+    "replay": "FULL_STATE_REPLAY_WITH_INDEPENDENT_RNG_AND_SQLITE"
+  },
+  {
+    "run_id": "R157_TACTIC_WIND_DEV_S997617",
+    "verified": true,
+    "events": 49,
+    "rounds": 8,
+    "status": "FINISHED_HP0",
+    "winner": "E",
+    "physical_attacks": 1,
+    "spells": 15,
+    "negative_critical_lab": 0,
+    "PA": 1060,
+    "HP_effective": 928,
+    "turn_starts": 16,
+    "end_HP": {
+      "E": 181,
+      "F": 0
+    },
+    "final_hash": "5d9656667b50262ce5f16da35f7120c0fba5d5aa60e6207cd6f0d5aab3946b63",
+    "replay": "FULL_STATE_REPLAY_WITH_INDEPENDENT_RNG_AND_SQLITE"
+  },
+  {
+    "run_id": "R158_NEGATIVE_CRITICAL_TACTIC_DEV_S997946",
+    "verified": true,
+    "events": 49,
+    "rounds": 8,
+    "status": "FINISHED_HP0",
+    "winner": "E",
+    "physical_attacks": 8,
+    "spells": 8,
+    "negative_critical_lab": 1,
+    "PA": 640,
+    "HP_effective": 875,
+    "turn_starts": 16,
+    "end_HP": {
+      "E": 234,
+      "F": 0
+    },
+    "final_hash": "f2771e76d3ac91ce583b1781c4de155ef074158d39e058603594b6ea99e5cdf7",
+    "replay": "FULL_STATE_REPLAY_WITH_INDEPENDENT_RNG_AND_SQLITE"
+  }
+]

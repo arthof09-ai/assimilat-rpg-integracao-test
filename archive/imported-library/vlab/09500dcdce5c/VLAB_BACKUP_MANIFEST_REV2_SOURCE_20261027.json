@@ -1,0 +1,209 @@
+{
+  "document_id": "VLAB-MESTRE-ONLY-BACKUP-20261027",
+  "as_of_date": "2026-10-27",
+  "classification": "MESTRE_ONLY",
+  "project": "RPG Assimilação",
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "latest": "R326",
+  "latest_terminal_status": "HOLD 0/17 (não homologado)",
+  "drive_repository": {
+    "root_folder": "https://drive.google.com/drive/folders/1RPl9yOjGrhO73vfRU0jmmGHZkvkKHG1B",
+    "backup_folder": "https://drive.google.com/drive/folders/1dV_oQjtRVHRp0KA3FSJX5Wt1EqPrVW_3",
+    "checkpoint_folder": "https://drive.google.com/drive/folders/1pAColguVHZGlQWBXCY7r9Oq7jIex2W2j",
+    "access": "Private, metadata lists only owner; do not share with Party"
+  },
+  "github": {
+    "repository": "arthof09-ai/assimilat-rpg-integracao-test",
+    "visibility": "public",
+    "master_only_backup": "NOT_UPLOADED_SAFETY"
+  },
+  "notion": {
+    "operation": "https://app.notion.com/p/3f3c2b324ede819496ddd7f93bd7e5d2",
+    "normative_q01_q02": "https://app.notion.com/p/3f9c2b324ede810fa8d2fdac0fea2ab4",
+    "notion_write": "NOT_ATTEMPTED_WRITER_FENCING_NOT_VERIFIED"
+  },
+  "verification": {
+    "uploaded_count": 12,
+    "downloaded_again_count": 12,
+    "sha256_pass": 12,
+    "zip_crc_pass": 12,
+    "notes": [
+      "R317 original Drive upload was an older 38-byte-shorter artifact; replaced in place with Library-final version before final verification.",
+      "The 12 Drive copies are a versioned backup history; R326 includes prior overlays and source archives.",
+      "R315 full ZIP and R322/R323 were restored into the existing Master Library and read back byte-identically.",
+      "No GitHub push because only accessible repository is public and backups are MASTER-ONLY.",
+      "Library membership and Notion writer authority are distinct from Drive backup checks."
+    ],
+    "library_gap_closed": true
+  },
+  "files": [
+    {
+      "version": "R315",
+      "file_name": "VLAB_CODIGO_MAE_R315_FONTES_E_TESTES.zip",
+      "bytes": 14869981,
+      "sha256": "ab6862e2fbbe9caf7057c624530d248e8c137c30afa4d0c7307d8ca476318a9f",
+      "drive_file_id": "1ZEn-hkaRruQyunB-zkKQBsv7oSatdt7v",
+      "drive_url": "https://drive.google.com/file/d/1ZEn-hkaRruQyunB-zkKQBsv7oSatdt7v/view?usp=drivesdk",
+      "drive_download_readback": {
+        "bytes_match": true,
+        "sha256_match": true,
+        "zip_crc": true
+      },
+      "library_file_id": "libfile_3348a4c0760081919ecc7b3cab5679a1"
+    },
+    {
+      "version": "R316",
+      "file_name": "VLAB_CODIGO_MAE_R316_COMPLETO.zip",
+      "bytes": 14960122,
+      "sha256": "ad1dacc5bb61252d7a4c8ffe495244151d69cbf3180171b0c298c9f3d502a195",
+      "drive_file_id": "1RpN3114dfMDdZkhjeQOqr1_gSvw9B1FU",
+      "drive_url": "https://drive.google.com/file/d/1RpN3114dfMDdZkhjeQOqr1_gSvw9B1FU/view?usp=drivesdk",
+      "drive_download_readback": {
+        "bytes_match": true,
+        "sha256_match": true,
+        "zip_crc": true
+      },
+      "library_file_id": "libfile_b6e259bd36748191aaedf52b304daacc"
+    },
+    {
+      "version": "R317",
+      "file_name": "VLAB_CODIGO_MAE_R317_COMPLETO.zip",
+      "bytes": 15057281,
+      "sha256": "14405add779d855143e38c28482098114fbc063988ef32d26f394a0944356983",
+      "drive_file_id": "1y5L4LvbKrZA_Qy-rr4XKSeiA2h24mBhs",
+      "drive_url": "https://drive.google.com/file/d/1y5L4LvbKrZA_Qy-rr4XKSeiA2h24mBhs/view?usp=drivesdk",
+      "drive_download_readback": {
+        "bytes_match": true,
+        "sha256_match": true,
+        "zip_crc": true
+      },
+      "library_file_id": "libfile_b4d8b7c99b8881919d317eb9d129d554"
+    },
+    {
+      "version": "R318",
+      "file_name": "VLAB_CODIGO_MAE_R318_COMPLETO.zip",
+      "bytes": 15159088,
+      "sha256": "7ef14fb7f1a8a04de0cebe67e0f2335edebdc9f988e08258357fcac9c5fdfbd4",
+      "drive_file_id": "1Dzj4_E4iBeqLhQ81eHma1reBzr2zrQJM",
+      "drive_url": "https://drive.google.com/file/d/1Dzj4_E4iBeqLhQ81eHma1reBzr2zrQJM/view?usp=drivesdk",
+      "drive_download_readback": {
+        "bytes_match": true,
+        "sha256_match": true,
+        "zip_crc": true
+      },
+      "library_file_id": "libfile_08eaeae3e29081919809c89524431ff9"
+    },
+    {
+      "version": "R319",
+      "file_name": "VLAB_CODIGO_MAE_R319_COMPLETO.zip",
+      "bytes": 15271679,
+      "sha256": "a9e26acdba62848e5fc14d75552f60748f844ce8418e917d1f27f46185409bce",
+      "drive_file_id": "1tjkYvRG2vOOwVP0tH3thNUa8CIEgpFA-",
+      "drive_url": "https://drive.google.com/file/d/1tjkYvRG2vOOwVP0tH3thNUa8CIEgpFA-/view?usp=drivesdk",
+      "drive_download_readback": {
+        "bytes_match": true,
+        "sha256_match": true,
+        "zip_crc": true
+      },
+      "library_file_id": "libfile_a0c2b4e8425c8191ab849f4d4ae87a8c"
+    },
+    {
+      "version": "R320",
+      "file_name": "VLAB_CODIGO_MAE_R320_COMPLETO.zip",
+      "bytes": 15382665,
+      "sha256": "185d4dec5af431e235ad8735b24d07a84e6affa1a4c6d77c05083936c9ed0fc9",
+      "drive_file_id": "1dSsiZQW8WVHd_QnstqTKkdV_xc7sKnGx",
+      "drive_url": "https://drive.google.com/file/d/1dSsiZQW8WVHd_QnstqTKkdV_xc7sKnGx/view?usp=drivesdk",
+      "drive_download_readback": {
+        "bytes_match": true,
+        "sha256_match": true,
+        "zip_crc": true
+      },
+      "library_file_id": "libfile_30e7afc0e3e48191800a024c63ce12d4"
+    },
+    {
+      "version": "R321",
+      "file_name": "VLAB_CODIGO_MAE_R321_COMPLETO.zip",
+      "bytes": 15476926,
+      "sha256": "ceb1e2a87047280918869bb25ade630f79b12499e2c8869427f7a3f45d99eb09",
+      "drive_file_id": "1BDvqHf3uKzqYzJ-yho26dST1Q8boxiiA",
+      "drive_url": "https://drive.google.com/file/d/1BDvqHf3uKzqYzJ-yho26dST1Q8boxiiA/view?usp=drivesdk",
+      "drive_download_readback": {
+        "bytes_match": true,
+        "sha256_match": true,
+        "zip_crc": true
+      },
+      "library_file_id": "libfile_87259346c56481919df4a0e91caffdb5"
+    },
+    {
+      "version": "R322",
+      "file_name": "VLAB_CODIGO_MAE_R322_COMPLETO.zip",
+      "bytes": 15535930,
+      "sha256": "1ac170499efcd508e06db382da5ebc1c60ec0f624968fd9caf5f27dda9793453",
+      "drive_file_id": "1b6AtRnZkFs8eQs-9ncGu-CKUjLedGEFy",
+      "drive_url": "https://drive.google.com/file/d/1b6AtRnZkFs8eQs-9ncGu-CKUjLedGEFy/view?usp=drivesdk",
+      "drive_download_readback": {
+        "bytes_match": true,
+        "sha256_match": true,
+        "zip_crc": true
+      },
+      "library_file_id": "libfile_4b427cdf69888191926ede0c54cd0acf"
+    },
+    {
+      "version": "R323",
+      "file_name": "VLAB_CODIGO_MAE_R323_COMPLETO.zip",
+      "bytes": 15634470,
+      "sha256": "0ecf4897aa6d05cda373c4bd1a0f8f3d6f83d34add8725b8c44cd2ca2ad15fd8",
+      "drive_file_id": "1Kmggu6y-GixML7mmuOILO9O3q6RhSUKy",
+      "drive_url": "https://drive.google.com/file/d/1Kmggu6y-GixML7mmuOILO9O3q6RhSUKy/view?usp=drivesdk",
+      "drive_download_readback": {
+        "bytes_match": true,
+        "sha256_match": true,
+        "zip_crc": true
+      },
+      "library_file_id": "libfile_17f58b1d6d308191820a76e8723640f1"
+    },
+    {
+      "version": "R324",
+      "file_name": "VLAB_CODIGO_MAE_R324_COMPLETO.zip",
+      "bytes": 15698603,
+      "sha256": "2a52c00d2199e40c5635def308349d1dce21ca061212666595e5742dce5d68f0",
+      "drive_file_id": "1l-jJow5XGSMdzH9CiNrv6I8cXP5JF_XO",
+      "drive_url": "https://drive.google.com/file/d/1l-jJow5XGSMdzH9CiNrv6I8cXP5JF_XO/view?usp=drivesdk",
+      "drive_download_readback": {
+        "bytes_match": true,
+        "sha256_match": true,
+        "zip_crc": true
+      },
+      "library_file_id": "libfile_89be64bf15e88191b227d40c0d9ec92c"
+    },
+    {
+      "version": "R325",
+      "file_name": "VLAB_CODIGO_MAE_R325_COMPLETO.zip",
+      "bytes": 15836459,
+      "sha256": "a322ff311199643e1230b7e1cd3ea31445e1c3155615235df047a928ca58f502",
+      "drive_file_id": "1ZDtKo3BtyxLwHpSEOU9lhzSUtw6EVKDV",
+      "drive_url": "https://drive.google.com/file/d/1ZDtKo3BtyxLwHpSEOU9lhzSUtw6EVKDV/view?usp=drivesdk",
+      "drive_download_readback": {
+        "bytes_match": true,
+        "sha256_match": true,
+        "zip_crc": true
+      },
+      "library_file_id": "libfile_fe732ae71d2c819190e261a4e7001d69"
+    },
+    {
+      "version": "R326",
+      "file_name": "VLAB_CODIGO_MAE_R326_COMPLETO.zip",
+      "bytes": 15951561,
+      "sha256": "420fa4c9f084df449e68075e30fec50ad392bfe041070433b9a4feaf4daf17d5",
+      "drive_file_id": "10m9vPsOfEp5uNs0iuMjINStEYv7nmG2K",
+      "drive_url": "https://drive.google.com/file/d/10m9vPsOfEp5uNs0iuMjINStEYv7nmG2K/view?usp=drivesdk",
+      "drive_download_readback": {
+        "bytes_match": true,
+        "sha256_match": true,
+        "zip_crc": true
+      },
+      "library_file_id": "libfile_305c4c76adfc81918aea816bf791476f"
+    }
+  ]
+}

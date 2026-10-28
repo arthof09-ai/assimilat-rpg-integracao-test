@@ -1,0 +1,85 @@
+{
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "R109": {
+    "status": "HOLD",
+    "cause": "R109 controlled-copy initial SAVE-HALF path denied by inherited residual guard; durable intent existed; no retry of same db",
+    "incident": [
+      {
+        "file": "/mnt/data/vlab_succession/r108_r117/r109_runs/R109_FULL_915037_B_LEFT.sqlite",
+        "events": 1,
+        "pending": [
+          [
+            "LAB-CMD-R109-08039756f555f9f466abdd39bd5ed2fd3fc426",
+            "NATIVE_SPECIAL",
+            "0842a5912b565da424900a7766f8756d4d77297332f38bb000bfb4a1dd44853f"
+          ]
+        ],
+        "meta": {
+          "head": "0842a5912b565da424900a7766f8756d4d77297332f38bb000bfb4a1dd44853f",
+          "revision": "1"
+        }
+      }
+    ],
+    "fixed_in": "R110 new-copy native resolver gate",
+    "no_replay": true
+  },
+  "R110": {
+    "status": "HOLD",
+    "cause": "negative critical encountered inside durable-intent calculation, consequence unresolved; pre-intent rejection missing",
+    "incident": [
+      {
+        "file": "R110_FULL_915037_B_LEFT.sqlite",
+        "events": 16,
+        "pending": [
+          [
+            "LAB-CMD-R109-45b96704de77ff3fdd9f09a424c36df1ce38ab",
+            "NATIVE_ATTACK"
+          ]
+        ],
+        "last_events": [
+          [
+            "TURN_START"
+          ],
+          [
+            "TURN_END"
+          ],
+          [
+            "NATIVE_SPECIAL"
+          ]
+        ]
+      }
+    ],
+    "fix": "R111 preflight classification before new intent, do not retry R110 SQLite"
+  },
+  "R111_scientifically_excluded_distinct_ledger_count": 4,
+  "R111_excluded_unique": [
+    {
+      "ledger": "R111_FULL_919801_B_LEFT.sqlite",
+      "specials": 13,
+      "events": 75,
+      "status": "EXCLUDED_WITH_CHECKPOINT_PRESERVED"
+    },
+    {
+      "ledger": "R111_FULL_915100_E_LEFT.sqlite",
+      "specials": 16,
+      "events": 93,
+      "status": "EXCLUDED_WITH_CHECKPOINT_PRESERVED"
+    },
+    {
+      "ledger": "R111_FULL_919801_E_LEFT.sqlite",
+      "specials": 13,
+      "events": 75,
+      "status": "EXCLUDED_WITH_CHECKPOINT_PRESERVED"
+    },
+    {
+      "ledger": "R111_FULL_915100_B_LEFT.sqlite",
+      "specials": 16,
+      "events": 93,
+      "status": "EXCLUDED_WITH_CHECKPOINT_PRESERVED"
+    }
+  ],
+  "R115_fault_intent": "UNKNOWN_EFFECT_NO_RETRY",
+  "R115_fault_commit": "READBACK_NO_RETRY",
+  "R93_R95": "HISTORICAL_IMMUTABLE_NORMATIVE_PARITY_HOLD",
+  "terminal": 0
+}

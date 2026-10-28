@@ -1,0 +1,28 @@
+{
+  "A5": "0/7 original bytes",
+  "NAC_PASS": "HOLD",
+  "formal_F0": "4/8 HOLD",
+  "items": [
+    {
+      "byte_identical": true,
+      "file": "DMG_C29_ADENDO_AUDITORIA_FF_CHASSI_20261021_MESTRE_ONLY.zip",
+      "original_bytes": 9046,
+      "readback_bytes": 9046,
+      "sha256_original": "aaeea72d27f5577ae0ff19108e14cd9d0b8809f09b8e302a5bc5cfaa5d709279",
+      "sha256_readback": "aaeea72d27f5577ae0ff19108e14cd9d0b8809f09b8e302a5bc5cfaa5d709279"
+    },
+    {
+      "byte_identical": true,
+      "file": "C29_ADENDO_RECONCILIACAO_FF_CHASSI_MESTRE_ONLY.md",
+      "original_bytes": 5889,
+      "readback_bytes": 5889,
+      "sha256_original": "7de0d159d5d23394ff7788afd76fb216d44ad02ff8bcc0a582660a2114234358",
+      "sha256_readback": "7de0d159d5d23394ff7788afd76fb216d44ad02ff8bcc0a582660a2114234358"
+    }
+  ],
+  "library_path": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "notion_no_write": true,
+  "source_C29_main_preserved_sha256": "c5e261aacaa5227ed6ebeb8958baeda944613d43b7fe2a1272be930a964e1882",
+  "title": "C29 FF CHASSI ADDITIVE CORRECTION — Mestre-only",
+  "verification": "2/2 READBACK SHA256 PASS"
+}

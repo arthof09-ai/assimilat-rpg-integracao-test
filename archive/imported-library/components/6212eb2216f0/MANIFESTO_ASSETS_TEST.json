@@ -1,0 +1,55 @@
+{
+  "schema": "assimilat.visual.asset-proof.v1",
+  "status": "SINTETICO_TEST_NAO_CANONICO",
+  "frame_size": 24,
+  "fps_preview": 6,
+  "directions": [
+    "sul",
+    "norte",
+    "oeste",
+    "leste"
+  ],
+  "frames_per_direction": 2,
+  "resources": {
+    "base_agua.png": {
+      "bytes": 199,
+      "dimensions": [
+        24,
+        24
+      ],
+      "sha256": "d9d71375696ae168f50f5fd4578090e9cd20c28c7ba1b2fe6af1dc2bb8f20505"
+    },
+    "base_grama.png": {
+      "bytes": 194,
+      "dimensions": [
+        24,
+        24
+      ],
+      "sha256": "ce23a9741c9414f2e01204f5cb0c315e4bc6e610da745183ab8bdf5432c4ea3d"
+    },
+    "base_pedra.png": {
+      "bytes": 194,
+      "dimensions": [
+        24,
+        24
+      ],
+      "sha256": "7fe6a88953bd08734ddddd863a1f3a4fb48193efb9f2048155b3fb36d362f2d2"
+    },
+    "inimigo_test_sprite_atlas.png": {
+      "bytes": 643,
+      "dimensions": [
+        48,
+        96
+      ],
+      "sha256": "d608a988e638a40a882a1c4724561e2596ef32382f292a1e273703405aa9e6ec"
+    },
+    "mestre_test_sprite_atlas.png": {
+      "bytes": 643,
+      "dimensions": [
+        48,
+        96
+      ],
+      "sha256": "35dcd85f3460f13e4a4ecb378ab6e5985276d2d4ad372fb71fe124af7482b59e"
+    }
+  }
+}

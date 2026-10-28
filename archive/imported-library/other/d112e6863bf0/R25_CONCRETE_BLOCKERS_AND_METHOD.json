@@ -1,0 +1,78 @@
+{
+  "R31": {
+    "IBX90_ack": false,
+    "binary_available": false,
+    "binary_file_id": "libfile_03db9a6705b08191ad5347c55332207c",
+    "policy": "R31 A/B/C/D/E all required; declaration PERMITIDA alone never dispatch",
+    "producer_authenticated_envelope_received": 0,
+    "provider_source_text_retrieved": true
+  },
+  "cabra": {
+    "extra_required_effect": "push displacement/distance/timing target movement after hit unresolved",
+    "full_action": false,
+    "source": "391c2b32-4ede-8252-b0cc-810423cdbfa6"
+  },
+  "canon_fights": 0,
+  "defender_question": {
+    "authority": "Mestre / NAC-NORM-01, reuse IBX-92",
+    "confirmed": "1 Reaction per turn, declared before enemy attack, consumed once",
+    "consequences": "changes defending against attacks before own turn and number of defenses per round",
+    "options": {
+      "A": "At start of that combatant’s own next turn",
+      "B": "At start of new round for all combatants",
+      "C": "Other explicit Mestre-defined instant"
+    },
+    "unresolved": "When does spent reaction become available again?"
+  },
+  "galidemus": {
+    "action": "PATADA 1d4+DES13 cortante",
+    "attack_class": "normal melee physical action STANDARD if generic mapping applicable; named PATADA action-specific timing not attested",
+    "conditional_nohit": "With default FOR5 and Luta 0 or +6, the maximum ordinary hit score is 11 or17, below CA20 and21",
+    "cost": "PA positive unknown; generic normal attack uses 1 STANDARD; absence of explicit PA does not source-attest 0 for this named ability",
+    "defenses": "Source CA21, general Besta Bronze RD5. Gal HP32/PA32 explicit vs general formulas conflict; do not overwrite",
+    "minimum_blocker": "Luta bonus applicability to named Patada; class/cost/target/reach completeness; source actor+defense snapshot and exception status; crit-fail and reactions",
+    "range": "Natural physical contact/adjacency in laboratory can be a declared scenario premise; named ability reach and conditions not sourced",
+    "rank": "Bronze 1",
+    "responsible": "Mestre/NAC-NORM for true normative gaps; DMG/source-owner for source identity/complete action; CM-000006 for native transaction after legitimate gate",
+    "same_source_native_full_attack": 0,
+    "source": "eddc2b32-4ede-829f-8a75-011e8acbf429",
+    "source_specific_luta_prof_bound": "PENDING / global normal Bronze proficiency+6 exists; assignment to attack Luta not source-attested",
+    "to_hit_general": "1d6 + FOR5 + bônus Luta quando competente; dado de dano DES13 não autoriza acertar por DES"
+  },
+  "governance": {
+    "DMG_certified": "1/18",
+    "O_Primeiro_writes": 0,
+    "VLAB_terminals": "0/17",
+    "canonical_cells": "0/1875",
+    "canonical_sheet_writes": 0,
+    "official_NAC_PASS": "HOLD",
+    "party_writes": 0,
+    "strict": "0/2"
+  },
+  "raposa": {
+    "extra_required_effect": "Bola de Fogo hit/save/PA/range; Flame Trail movement/ticks and other source effects unresolved",
+    "full_action": false,
+    "source": "4d0c2b32-4ede-827b-9925-018be01e60ca"
+  },
+  "real_source_candidates": 3,
+  "real_source_legal_actions_admitted": 0,
+  "real_source_native_events": 0,
+  "real_sources_read_last": 3,
+  "rule_derived_bronze1": {
+    "assumptions": [
+      "Chosen 43-point distributions and Luta proficiency+6 as lab builds",
+      "PA initialized to derived Soul 44 yet historical L04 keeps official PA mapping unknown",
+      "impacto technical tag for generic 3d6; general RD5 only",
+      "No voluntary defensive reaction; no reaction refresh inference",
+      "Critical/fail-critical censored before native action, not interpreted",
+      "Adjacent scenario, no movement/equipment/passives"
+    ],
+    "attempts": 8,
+    "canonicity": "CONDITIONAL_SUBSET_NOT_FULL_FIGHT_ELIGIBLE",
+    "censored": 3,
+    "complete_scoped_runs": 5,
+    "historical_reference": "existing L04 build_beast explicitly missing proficiency/accuracy binding, attack action, reaction, movement, tactic, PA usage; R25 does NOT override this gate",
+    "source_entities_real": 0
+  },
+  "schema": "R25_CONCRETE_ADMISSIBILITY_AND_DELIMITATION"
+}

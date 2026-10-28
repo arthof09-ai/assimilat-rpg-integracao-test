@@ -1,0 +1,9 @@
+{
+  "run": "R155_AOO_NEGATIVE_R42_R43_DEV_S999353",
+  "verified": "SOURCE_R43_CAUSAL_RNG_PASS",
+  "commits": 4,
+  "ordered_AOO": 2,
+  "target_HP": 479,
+  "moved": true,
+  "second_reaction_consumed": true
+}

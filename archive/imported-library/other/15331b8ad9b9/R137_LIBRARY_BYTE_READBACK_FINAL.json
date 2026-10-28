@@ -1,0 +1,100 @@
+{
+  "scope": "OP-VLAB-FUSION-SANDBOX-01",
+  "stage": "R137",
+  "uploaded_items": 15,
+  "physical_byte_readback_pass": 15,
+  "warnings": [],
+  "baseline_untouched": true,
+  "items": [
+    {
+      "name": "R128_INDEPENDENT_COLD_AUDIT.json",
+      "bytes": 1589,
+      "sha256": "6e0afae6c8c54e6aec9ff72329038b76c1bfa6f899fefae8ffdafddba536e047",
+      "byte_identical": true
+    },
+    {
+      "name": "R133_HEAL_COLD_AUDIT.json",
+      "bytes": 452,
+      "sha256": "dec5759b99f13d2182e0572375a224c46e7a8cef03fb30e67c75cb29e512eb3d",
+      "byte_identical": true
+    },
+    {
+      "name": "R135_17_CONTRACTS_BEFORE_AFTER.json",
+      "bytes": 24711,
+      "sha256": "6e191ea0aa8c5d6e82a756332d8fe6721f348e387989e08e64d46b2531536b66",
+      "byte_identical": true
+    },
+    {
+      "name": "R135_17_CONTRACTS_BEFORE_AFTER.md",
+      "bytes": 12250,
+      "sha256": "f59918467ac575e1570ef3dbd656eb52efc523b68eacee528e5f0399fec6a118",
+      "byte_identical": true
+    },
+    {
+      "name": "R135_DMG_ATTACK_RECEIPTS_7.csv",
+      "bytes": 1432,
+      "sha256": "74d91ee6b45a4a230faa716709a903e1512dab0442053d47bd2a0c7f200c7e74",
+      "byte_identical": true
+    },
+    {
+      "name": "R135_DMG_HANDOFF_READONLY.md",
+      "bytes": 1375,
+      "sha256": "f3cb9b3a884cdca0966a6818553bfbcb9a1612f08d17094be9f3f9abdcaee661",
+      "byte_identical": true
+    },
+    {
+      "name": "R135_NATIVE_V081_PATCH.diff",
+      "bytes": 10977,
+      "sha256": "141993f96b7c0d2d6c2da924eb6630634b54b0c818daa0a3836d5a1c0bf9e90c",
+      "byte_identical": true
+    },
+    {
+      "name": "R135_NEGATIVE_AND_RD_RESULTS.json",
+      "bytes": 2183,
+      "sha256": "9ae9df41fe31d43648a17d7de1dffa49f7548ed590ff8038baf1c18b8e356a6c",
+      "byte_identical": true
+    },
+    {
+      "name": "R135_QUARANTINE_NO_REPEAT.json",
+      "bytes": 1439,
+      "sha256": "d12742d1e7c1af0e981b9d9c44271f6f589d5edeaac5689348bb3a4b21ac0cc9",
+      "byte_identical": true
+    },
+    {
+      "name": "R135_SCIENCE_A_B_C_D.json",
+      "bytes": 782,
+      "sha256": "8fdbef7097e7d7515f71c779dd4e8a2ba1d054ba361d8061eef080b097d7938c",
+      "byte_identical": true
+    },
+    {
+      "name": "R137_COLD_FAULT_READBACK.json",
+      "bytes": 630,
+      "sha256": "175f9f3213a5652beec8242dc73c3cf462c9018dc77d04fcf7618482ec383767",
+      "byte_identical": true
+    },
+    {
+      "name": "R137_INDEPENDENT_COLD_READBACK_RECEIPT.json",
+      "bytes": 537,
+      "sha256": "3a0a52780bcb0468277e9cb92eb85ade965bc680fc1ffa39834a9864d269f21d",
+      "byte_identical": true
+    },
+    {
+      "name": "R137_PSV_MESTRE_ONLY.md",
+      "bytes": 8825,
+      "sha256": "6cf552a36624010d31f68e2b7eed354ef83c03c5fd41f67cb2dbd5f6cb6bc754",
+      "byte_identical": true
+    },
+    {
+      "name": "R137_ZIP_FREEZE_RECEIPT.json",
+      "bytes": 357,
+      "sha256": "67cf8f08699cf2350edce3c7f616edd9c3d3619159cfc528077d1d95401b6553",
+      "byte_identical": true
+    },
+    {
+      "name": "VLAB_R126_R137_PA_REACAO_AOO_CURA_MESTRE_ONLY.zip",
+      "bytes": 12863376,
+      "sha256": "cb616e562970e9fb6e8e08465cdf1fbbf4070d85f99c0000ea8f0756f7b8371e",
+      "byte_identical": true
+    }
+  ]
+}

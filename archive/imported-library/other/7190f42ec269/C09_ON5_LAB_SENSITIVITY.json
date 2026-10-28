@@ -1,0 +1,703 @@
+{
+  "actors": {
+    "Arveth": {
+      "attack_dice": [
+        4,
+        6
+      ],
+      "attack_fixed": 72,
+      "ca": 93,
+      "dmg_dice": [
+        8,
+        10
+      ],
+      "dmg_fixed": 35,
+      "evade": 95,
+      "hp": 806,
+      "pa_free": 344,
+      "rank": "Ouro Negro 5",
+      "rd": 30
+    },
+    "Feryn": {
+      "attack_dice": [
+        4,
+        6
+      ],
+      "attack_fixed": 92,
+      "ca": 123,
+      "dmg_dice": [
+        8,
+        8
+      ],
+      "dmg_fixed": 47,
+      "evade": 125,
+      "hp": 479,
+      "pa_free": 424,
+      "rank": "Ouro Negro 5",
+      "rd": 22
+    },
+    "Varok": {
+      "attack_dice": [
+        4,
+        6
+      ],
+      "attack_fixed": 100,
+      "ca": 83,
+      "dmg_dice": [
+        10,
+        10
+      ],
+      "dmg_fixed": 48,
+      "evade": 83,
+      "hp": 734,
+      "pa_free": 324,
+      "rank": "Ouro Negro 5",
+      "rd": 35
+    }
+  },
+  "checkpoint": "POST-R10-C09",
+  "known_init_order": {
+    "Feryn_before_Arveth": "PROVED_BY_SUPPORT 4d6+82 min86 > 4d6+25 max49",
+    "Feryn_before_Varok": "PROVED_BY_SUPPORT 4d6+82 min86 > 4d6+29 max53",
+    "Varok_before_Arveth": "NOT_DETERMINISTIC: 4d6+29 vs 4d6+25 overlap"
+  },
+  "limitations": [
+    "attack opportunity model, not multi-turn fight",
+    "equipment states are prepared Mestre-only proposed encounters",
+    "cannot generalize ON5 species population",
+    "no special activation, range/position/adversarial reactions not modelled"
+  ],
+  "model_authorities": [
+    "Mestre R41 positive critical auto-hit",
+    "VLAB LAB-only R42 negative critical auto-miss",
+    "individual ON5 equipment and Luta, no Party source"
+  ],
+  "pairwise_evasion": [
+    {
+      "E_damage_given_critical": {
+        "decimal": 112.0,
+        "fraction": "112"
+      },
+      "E_damage_given_normal_hit": {
+        "decimal": 48.0,
+        "fraction": "48"
+      },
+      "E_damage_per_attack": {
+        "decimal": 48.148148148148,
+        "fraction": "1300/27"
+      },
+      "attack": "4d6+92",
+      "attacker": "Feryn",
+      "critical_negative_LAB": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "critical_positive": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "defender": "Varok",
+      "defense": 83,
+      "defense_kind": "Esquiva",
+      "effective_normal_hits_per_attempt": {
+        "decimal": 0.981481481481,
+        "fraction": "53/54"
+      },
+      "hit_basic_conditional_noncrit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "model": "LAB_R42_NEGATIVE_FAIL_AND_MESTRE_POSITIVE_AUTOMATIC;no_reactions_except_stated",
+      "p_critical_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_normal_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_positive_life_damage": {
+        "decimal": 0.990740740741,
+        "fraction": "107/108"
+      },
+      "total_hit_per_attempt": {
+        "decimal": 0.990740740741,
+        "fraction": "107/108"
+      }
+    },
+    {
+      "E_damage_given_critical": {
+        "decimal": 117.0,
+        "fraction": "117"
+      },
+      "E_damage_given_normal_hit": {
+        "decimal": 53.0,
+        "fraction": "53"
+      },
+      "E_damage_per_attack": {
+        "decimal": 53.101851851852,
+        "fraction": "5735/108"
+      },
+      "attack": "4d6+92",
+      "attacker": "Feryn",
+      "critical_negative_LAB": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "critical_positive": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "defender": "Arveth",
+      "defense": 95,
+      "defense_kind": "Esquiva",
+      "effective_normal_hits_per_attempt": {
+        "decimal": 0.981481481481,
+        "fraction": "53/54"
+      },
+      "hit_basic_conditional_noncrit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "model": "LAB_R42_NEGATIVE_FAIL_AND_MESTRE_POSITIVE_AUTOMATIC;no_reactions_except_stated",
+      "p_critical_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_normal_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_positive_life_damage": {
+        "decimal": 0.990740740741,
+        "fraction": "107/108"
+      },
+      "total_hit_per_attempt": {
+        "decimal": 0.990740740741,
+        "fraction": "107/108"
+      }
+    },
+    {
+      "E_damage_given_critical": {
+        "decimal": 181.0,
+        "fraction": "181"
+      },
+      "E_damage_given_normal_hit": {
+        "decimal": 81.0,
+        "fraction": "81"
+      },
+      "E_damage_per_attack": {
+        "decimal": 1.675925925926,
+        "fraction": "181/108"
+      },
+      "attack": "4d6+100",
+      "attacker": "Varok",
+      "critical_negative_LAB": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "critical_positive": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "defender": "Feryn",
+      "defense": 125,
+      "defense_kind": "Esquiva",
+      "effective_normal_hits_per_attempt": {
+        "decimal": 0.0,
+        "fraction": "0"
+      },
+      "hit_basic_conditional_noncrit": {
+        "decimal": 0.0,
+        "fraction": "0"
+      },
+      "model": "LAB_R42_NEGATIVE_FAIL_AND_MESTRE_POSITIVE_AUTOMATIC;no_reactions_except_stated",
+      "p_critical_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_normal_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_positive_life_damage": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "total_hit_per_attempt": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      }
+    },
+    {
+      "E_damage_given_critical": {
+        "decimal": 173.0,
+        "fraction": "173"
+      },
+      "E_damage_given_normal_hit": {
+        "decimal": 73.0,
+        "fraction": "73"
+      },
+      "E_damage_per_attack": {
+        "decimal": 73.25,
+        "fraction": "293/4"
+      },
+      "attack": "4d6+100",
+      "attacker": "Varok",
+      "critical_negative_LAB": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "critical_positive": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "defender": "Arveth",
+      "defense": 95,
+      "defense_kind": "Esquiva",
+      "effective_normal_hits_per_attempt": {
+        "decimal": 0.981481481481,
+        "fraction": "53/54"
+      },
+      "hit_basic_conditional_noncrit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "model": "LAB_R42_NEGATIVE_FAIL_AND_MESTRE_POSITIVE_AUTOMATIC;no_reactions_except_stated",
+      "p_critical_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_normal_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_positive_life_damage": {
+        "decimal": 0.990740740741,
+        "fraction": "107/108"
+      },
+      "total_hit_per_attempt": {
+        "decimal": 0.990740740741,
+        "fraction": "107/108"
+      }
+    },
+    {
+      "E_damage_given_critical": {
+        "decimal": 137.0,
+        "fraction": "137"
+      },
+      "E_damage_given_normal_hit": {
+        "decimal": 57.0,
+        "fraction": "57"
+      },
+      "E_damage_per_attack": {
+        "decimal": 1.268518518519,
+        "fraction": "137/108"
+      },
+      "attack": "4d6+72",
+      "attacker": "Arveth",
+      "critical_negative_LAB": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "critical_positive": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "defender": "Feryn",
+      "defense": 125,
+      "defense_kind": "Esquiva",
+      "effective_normal_hits_per_attempt": {
+        "decimal": 0.0,
+        "fraction": "0"
+      },
+      "hit_basic_conditional_noncrit": {
+        "decimal": 0.0,
+        "fraction": "0"
+      },
+      "model": "LAB_R42_NEGATIVE_FAIL_AND_MESTRE_POSITIVE_AUTOMATIC;no_reactions_except_stated",
+      "p_critical_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_normal_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_positive_life_damage": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "total_hit_per_attempt": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      }
+    },
+    {
+      "E_damage_given_critical": {
+        "decimal": 124.0,
+        "fraction": "124"
+      },
+      "E_damage_given_normal_hit": {
+        "decimal": 44.0,
+        "fraction": "44"
+      },
+      "E_damage_per_attack": {
+        "decimal": 34.003543667124,
+        "fraction": "297463/8748"
+      },
+      "attack": "4d6+72",
+      "attacker": "Arveth",
+      "critical_negative_LAB": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "critical_positive": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "defender": "Varok",
+      "defense": 83,
+      "defense_kind": "Esquiva",
+      "effective_normal_hits_per_attempt": {
+        "decimal": 0.746713534522,
+        "fraction": "26129/34992"
+      },
+      "hit_basic_conditional_noncrit": {
+        "decimal": 0.760802469136,
+        "fraction": "493/648"
+      },
+      "model": "LAB_R42_NEGATIVE_FAIL_AND_MESTRE_POSITIVE_AUTOMATIC;no_reactions_except_stated",
+      "p_critical_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_normal_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_positive_life_damage": {
+        "decimal": 0.755972793781,
+        "fraction": "26453/34992"
+      },
+      "total_hit_per_attempt": {
+        "decimal": 0.755972793781,
+        "fraction": "26453/34992"
+      }
+    }
+  ],
+  "pairwise_normal_CA": [
+    {
+      "E_damage_given_critical": {
+        "decimal": 112.0,
+        "fraction": "112"
+      },
+      "E_damage_given_normal_hit": {
+        "decimal": 48.0,
+        "fraction": "48"
+      },
+      "E_damage_per_attack": {
+        "decimal": 48.148148148148,
+        "fraction": "1300/27"
+      },
+      "attack": "4d6+92",
+      "attacker": "Feryn",
+      "critical_negative_LAB": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "critical_positive": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "defender": "Varok",
+      "defense": 83,
+      "defense_kind": "CA",
+      "effective_normal_hits_per_attempt": {
+        "decimal": 0.981481481481,
+        "fraction": "53/54"
+      },
+      "hit_basic_conditional_noncrit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "model": "LAB_R42_NEGATIVE_FAIL_AND_MESTRE_POSITIVE_AUTOMATIC;no_reactions_except_stated",
+      "p_critical_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_normal_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_positive_life_damage": {
+        "decimal": 0.990740740741,
+        "fraction": "107/108"
+      },
+      "total_hit_per_attempt": {
+        "decimal": 0.990740740741,
+        "fraction": "107/108"
+      }
+    },
+    {
+      "E_damage_given_critical": {
+        "decimal": 117.0,
+        "fraction": "117"
+      },
+      "E_damage_given_normal_hit": {
+        "decimal": 53.0,
+        "fraction": "53"
+      },
+      "E_damage_per_attack": {
+        "decimal": 53.101851851852,
+        "fraction": "5735/108"
+      },
+      "attack": "4d6+92",
+      "attacker": "Feryn",
+      "critical_negative_LAB": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "critical_positive": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "defender": "Arveth",
+      "defense": 93,
+      "defense_kind": "CA",
+      "effective_normal_hits_per_attempt": {
+        "decimal": 0.981481481481,
+        "fraction": "53/54"
+      },
+      "hit_basic_conditional_noncrit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "model": "LAB_R42_NEGATIVE_FAIL_AND_MESTRE_POSITIVE_AUTOMATIC;no_reactions_except_stated",
+      "p_critical_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_normal_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_positive_life_damage": {
+        "decimal": 0.990740740741,
+        "fraction": "107/108"
+      },
+      "total_hit_per_attempt": {
+        "decimal": 0.990740740741,
+        "fraction": "107/108"
+      }
+    },
+    {
+      "E_damage_given_critical": {
+        "decimal": 181.0,
+        "fraction": "181"
+      },
+      "E_damage_given_normal_hit": {
+        "decimal": 81.0,
+        "fraction": "81"
+      },
+      "E_damage_per_attack": {
+        "decimal": 1.737268518519,
+        "fraction": "1501/864"
+      },
+      "attack": "4d6+100",
+      "attacker": "Varok",
+      "critical_negative_LAB": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "critical_positive": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "defender": "Feryn",
+      "defense": 123,
+      "defense_kind": "CA",
+      "effective_normal_hits_per_attempt": {
+        "decimal": 0.000757315958,
+        "fraction": "53/69984"
+      },
+      "hit_basic_conditional_noncrit": {
+        "decimal": 0.000771604938,
+        "fraction": "1/1296"
+      },
+      "model": "LAB_R42_NEGATIVE_FAIL_AND_MESTRE_POSITIVE_AUTOMATIC;no_reactions_except_stated",
+      "p_critical_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_normal_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_positive_life_damage": {
+        "decimal": 0.010016575217,
+        "fraction": "701/69984"
+      },
+      "total_hit_per_attempt": {
+        "decimal": 0.010016575217,
+        "fraction": "701/69984"
+      }
+    },
+    {
+      "E_damage_given_critical": {
+        "decimal": 173.0,
+        "fraction": "173"
+      },
+      "E_damage_given_normal_hit": {
+        "decimal": 73.0,
+        "fraction": "73"
+      },
+      "E_damage_per_attack": {
+        "decimal": 73.25,
+        "fraction": "293/4"
+      },
+      "attack": "4d6+100",
+      "attacker": "Varok",
+      "critical_negative_LAB": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "critical_positive": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "defender": "Arveth",
+      "defense": 93,
+      "defense_kind": "CA",
+      "effective_normal_hits_per_attempt": {
+        "decimal": 0.981481481481,
+        "fraction": "53/54"
+      },
+      "hit_basic_conditional_noncrit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "model": "LAB_R42_NEGATIVE_FAIL_AND_MESTRE_POSITIVE_AUTOMATIC;no_reactions_except_stated",
+      "p_critical_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_normal_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_positive_life_damage": {
+        "decimal": 0.990740740741,
+        "fraction": "107/108"
+      },
+      "total_hit_per_attempt": {
+        "decimal": 0.990740740741,
+        "fraction": "107/108"
+      }
+    },
+    {
+      "E_damage_given_critical": {
+        "decimal": 137.0,
+        "fraction": "137"
+      },
+      "E_damage_given_normal_hit": {
+        "decimal": 57.0,
+        "fraction": "57"
+      },
+      "E_damage_per_attack": {
+        "decimal": 1.268518518519,
+        "fraction": "137/108"
+      },
+      "attack": "4d6+72",
+      "attacker": "Arveth",
+      "critical_negative_LAB": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "critical_positive": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "defender": "Feryn",
+      "defense": 123,
+      "defense_kind": "CA",
+      "effective_normal_hits_per_attempt": {
+        "decimal": 0.0,
+        "fraction": "0"
+      },
+      "hit_basic_conditional_noncrit": {
+        "decimal": 0.0,
+        "fraction": "0"
+      },
+      "model": "LAB_R42_NEGATIVE_FAIL_AND_MESTRE_POSITIVE_AUTOMATIC;no_reactions_except_stated",
+      "p_critical_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_normal_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_positive_life_damage": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "total_hit_per_attempt": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      }
+    },
+    {
+      "E_damage_given_critical": {
+        "decimal": 124.0,
+        "fraction": "124"
+      },
+      "E_damage_given_normal_hit": {
+        "decimal": 44.0,
+        "fraction": "44"
+      },
+      "E_damage_per_attack": {
+        "decimal": 34.003543667124,
+        "fraction": "297463/8748"
+      },
+      "attack": "4d6+72",
+      "attacker": "Arveth",
+      "critical_negative_LAB": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "critical_positive": {
+        "decimal": 0.009259259259,
+        "fraction": "1/108"
+      },
+      "defender": "Varok",
+      "defense": 83,
+      "defense_kind": "CA",
+      "effective_normal_hits_per_attempt": {
+        "decimal": 0.746713534522,
+        "fraction": "26129/34992"
+      },
+      "hit_basic_conditional_noncrit": {
+        "decimal": 0.760802469136,
+        "fraction": "493/648"
+      },
+      "model": "LAB_R42_NEGATIVE_FAIL_AND_MESTRE_POSITIVE_AUTOMATIC;no_reactions_except_stated",
+      "p_critical_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_normal_damage_positive_given_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "p_positive_life_damage": {
+        "decimal": 0.755972793781,
+        "fraction": "26453/34992"
+      },
+      "total_hit_per_attempt": {
+        "decimal": 0.755972793781,
+        "fraction": "26453/34992"
+      }
+    }
+  ]
+}

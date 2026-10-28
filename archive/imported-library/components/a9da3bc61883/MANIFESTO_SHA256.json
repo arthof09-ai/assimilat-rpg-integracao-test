@@ -1,0 +1,65 @@
+{
+  "schema": "ASSIMILACAO_ASSET_RESEARCH_MANIFEST.v1",
+  "origin_media": "496132.mp4",
+  "origin_video_sha256": "1c0b4e4332b4bc961137a62979474052a0a63be4002f7daa0bb33e600c3f29c4",
+  "access": "MESTRE_ONLY_RESEARCH",
+  "status": "TEST_NOT_CANONICAL",
+  "items": {
+    "LEIA_PRIMEIRO.md": {
+      "size_bytes": 1871,
+      "sha256": "9cb2894c1a6f3b51bbdbdb8ff10861f3341776c0781174fe92b7842d5641c0fa"
+    },
+    "RELATORIO_PROFISSIONAL_VIDEO_496132_20261024.pdf": {
+      "size_bytes": 1007253,
+      "sha256": "8223ef3debd2bd15324cb27d756cfa43cf9283cac4f296e7fd50e33bd73f9c8f"
+    },
+    "RELATORIO_INDIVIDUAL_496132.md": {
+      "size_bytes": 14361,
+      "sha256": "9ae520b1d0ead33bdfc68b7221d73b928c24fa8cbb80d3d5484fbc20c106e381"
+    },
+    "OFICINA_SPRITES_ASSIMILACAO_TEST_ANDROID_OFFLINE.html": {
+      "size_bytes": 15049,
+      "sha256": "421b8019968a5bccb48f88636fa779a6c33b40828132d362536cd1830bf2aa63"
+    },
+    "PERSONAGEM_TEST_SPRITESHEET_4x4.png": {
+      "size_bytes": 3089,
+      "sha256": "6efacb1a05f1572b8130add91581aaf93d2745d3188e497a2f78e95cd0949023"
+    },
+    "CONTRATO_SPRITESHEET_TEST.json": {
+      "size_bytes": 636,
+      "sha256": "cbb6116009adcb2ad7c905d8f5c21975023c8e5ed951b3f316e71757d7627449"
+    },
+    "RESULTADOS_TESTE_OFICINA.json": {
+      "size_bytes": 1568,
+      "sha256": "d193c061e0e7aa2fc2a23133f2f620e508cf7444ec1ed0f092e9c56f5232fe6c"
+    },
+    "test_experiment.py": {
+      "size_bytes": 2928,
+      "sha256": "6b340d346b0b9d55cc6b48bc7ca36b12a94fcaccbfa5b0e4258a90acb804cab4"
+    },
+    "build_experiment.py": {
+      "size_bytes": 13800,
+      "sha256": "e370c7d12591eb81260842d135aed463f023503ab2a60a9dd2c7b67851d0ce50"
+    },
+    "contact_1.jpg": {
+      "size_bytes": 363607,
+      "sha256": "fff73d0e3c6ca7fbc6aa7c3581263bc0ec231ca5a8e83191217de218c91af084"
+    },
+    "contact_2.jpg": {
+      "size_bytes": 338980,
+      "sha256": "e1be9b80ff6dea492edbe404bb91b0e2865bea106573f932266286d33bf97686"
+    },
+    "OFICINA_SPRITES_TEST_390x844.png": {
+      "size_bytes": 179057,
+      "sha256": "51f401b4baa6e045f84682e1881436a6b87c4207f6f2141dac250e555b572932"
+    },
+    "frames/detail_154.png": {
+      "size_bytes": 92189,
+      "sha256": "2396fb56a2bbbfdca13e0519b7c7301517daa25d4c950b7c4d48c2f6c2c84b1b"
+    },
+    "frames/detail_259.png": {
+      "size_bytes": 119461,
+      "sha256": "558b93115bf8b03281ccd25ebe21309ed82b55f1c6d94a92807850f5cf8b5e27"
+    }
+  }
+}

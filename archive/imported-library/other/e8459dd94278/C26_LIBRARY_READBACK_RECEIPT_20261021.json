@@ -1,0 +1,40 @@
+{
+  "artifact": "C26_LIBRARY_READBACK_RECEIPT_20261021",
+  "scope": "MESTRE_SIDE_TEST",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "library_path": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "source": "files.manage_library uploaded then files.materialize read back",
+  "comparison": "binary-equivalent sha256",
+  "files": [
+    {
+      "file_name": "DMG_C26_CAMPANHA_89_FICHAS_MULTIDIMENSIONAL_20261021_MESTRE_ONLY.zip",
+      "original_bytes": 309896,
+      "readback_bytes": 309896,
+      "original_sha256": "c2ae8755eee5cec8ca75a33bdcf7468702bb2d03b3e61fe6f556851cf466977b",
+      "readback_sha256": "c2ae8755eee5cec8ca75a33bdcf7468702bb2d03b3e61fe6f556851cf466977b",
+      "status": "PASS"
+    },
+    {
+      "file_name": "PSV_DMG_C26_MESTRE_ONLY.md",
+      "original_bytes": 15696,
+      "readback_bytes": 15696,
+      "original_sha256": "79de5801dcafb97311214d1c9305788134373a2f2d6898683ddd511f0452bb4c",
+      "readback_sha256": "79de5801dcafb97311214d1c9305788134373a2f2d6898683ddd511f0452bb4c",
+      "status": "PASS"
+    },
+    {
+      "file_name": "C26_PARECER_DECISORIO_MESTRE_ONLY.md",
+      "original_bytes": 2650,
+      "readback_bytes": 2650,
+      "original_sha256": "e1cdb5bcfbe150c30793ebfdec8738f3c306c70346bcac8f09d5c8ca3fe52c98",
+      "readback_sha256": "e1cdb5bcfbe150c30793ebfdec8738f3c306c70346bcac8f09d5c8ca3fe52c98",
+      "status": "PASS"
+    }
+  ],
+  "status": "3/3_PASS",
+  "global_NAC_PASS": "HOLD",
+  "F0": "4/8_HOLD",
+  "documentary_external_coder": false,
+  "notion_original_attachment_bytes_authed": "0/7",
+  "note": "Does not authenticate source page bytes or warrant RE/FIP classification. Receipt readback separately verified after upload."
+}

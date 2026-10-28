@@ -1,0 +1,21 @@
+{
+  "run": "R165_FLECHA_TURN_EXPLICIT_V3_DEV_S1185114",
+  "seed": 1185114,
+  "commits": 7,
+  "status": "EXPLICIT_NEXT_TURN_TEMPORAL_PASS_SOURCE_LIMITED",
+  "critical_positive_is_kiel": true,
+  "Iskiel_spent_PA": 55,
+  "target_base_speed_m": 16,
+  "target_during_effect_speed_m": 10,
+  "target_after_expiry_speed_m": 16,
+  "move9m_passed": true,
+  "move11m_preintent_rejected": true,
+  "target_Auren_hp": 409,
+  "no_duplicate_intent": true,
+  "cold_prefix_reopen": true,
+  "turn_end_source": "Flecha Trava Until End of Target NEXT Turn",
+  "casulo_2_turns_expiry": "SOURCE_HOLD_SEPARATE",
+  "head": "21dc0241296c018dbc55712fcc131fb7dad59eaa77472aa2df771d866accf54d",
+  "checkpoint_after": "PASS",
+  "pending": 0
+}

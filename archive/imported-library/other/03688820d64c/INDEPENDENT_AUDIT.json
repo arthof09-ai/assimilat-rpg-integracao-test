@@ -1,0 +1,474 @@
+{
+  "status": "PASS",
+  "total_checks": 116,
+  "passes": 116,
+  "checks": [
+    {
+      "id": "frozen24_before_body_analysis",
+      "status": "PASS"
+    },
+    {
+      "id": "source_24_unique",
+      "status": "PASS"
+    },
+    {
+      "id": "stratum8x3",
+      "status": "PASS"
+    },
+    {
+      "id": "sampleIDs_exact_preregistered",
+      "status": "PASS"
+    },
+    {
+      "id": "one_damage_source_page",
+      "status": "PASS"
+    },
+    {
+      "id": "two_num_offensive_formulas",
+      "status": "PASS"
+    },
+    {
+      "id": "no_rank_strict_for_24",
+      "status": "PASS"
+    },
+    {
+      "id": "missing_offense_not_imputed_0",
+      "status": "PASS"
+    },
+    {
+      "id": "healing_not_offense",
+      "status": "PASS"
+    },
+    {
+      "id": "aurora_numeric_not_rank_strict",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD0|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD0|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD5|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD5|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD15|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD15|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD25|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD25|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD30|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD30|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD31|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD31|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD35|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD35|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD40|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD40|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD42|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD42|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD45|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "SOURCE_LUPUS_P1_2d6_plus25|RD45|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD0|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD0|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD5|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD5|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD15|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD15|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD25|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD25|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD30|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD30|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD31|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD31|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD35|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD35|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD40|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD40|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD42|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD42|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD45|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EQUAL_MEAN_4d6_plus18|RD45|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD0|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD0|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD5|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD5|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD15|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD15|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD25|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD25|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD30|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD30|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD31|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD31|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD35|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD35|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD40|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD40|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD42|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD42|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD45|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_ATTR_PLUS5_2d6_plus30|RD45|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD0|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD0|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD5|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD5|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD15|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD15|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD25|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD25|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD30|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD30|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD31|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD31|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD35|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD35|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD40|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD40|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD42|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD42|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD45|EXPECTED",
+      "status": "PASS"
+    },
+    {
+      "id": "LAB_EXTRA_D6_3d6_plus25|RD45|P_POSITIVE",
+      "status": "PASS"
+    },
+    {
+      "id": "equal_mean_base_vs_var",
+      "status": "PASS"
+    },
+    {
+      "id": "different_rd35",
+      "status": "PASS"
+    },
+    {
+      "id": "highRD42_attr_below",
+      "status": "PASS"
+    },
+    {
+      "id": "highRD42_extra_d6_pos",
+      "status": "PASS"
+    },
+    {
+      "id": "old9_plus_strict6",
+      "status": "PASS"
+    },
+    {
+      "id": "2cohorts_not_pooled",
+      "status": "PASS"
+    },
+    {
+      "id": "old9_page7",
+      "status": "PASS"
+    },
+    {
+      "id": "strict6_page6",
+      "status": "PASS"
+    },
+    {
+      "id": "rank_strict_counts",
+      "status": "PASS"
+    },
+    {
+      "id": "band_descriptive_not_normative",
+      "status": "PASS"
+    },
+    {
+      "id": "below_band_sample7_and6",
+      "status": "PASS"
+    },
+    {
+      "id": "29_numeric_action_26_pages",
+      "status": "PASS"
+    },
+    {
+      "id": "28_of29_attribute",
+      "status": "PASS"
+    },
+    {
+      "id": "attr_weighted_1011_over1199_5",
+      "status": "PASS"
+    },
+    {
+      "id": "R11_MANIFEST_DMG-F1-R11-B02-CERTIFICACAO-DOCUMENTAL-v01.json",
+      "status": "PASS"
+    },
+    {
+      "id": "R11_MANIFEST_DMG-F1-R11-B03-B13-B15-CAMINHOS-v01.json",
+      "status": "PASS"
+    },
+    {
+      "id": "R11_MANIFEST_DMG-F1-R11-B04-PA-LEDGER-v01.json",
+      "status": "PASS"
+    },
+    {
+      "id": "R11_MANIFEST_DMG-F1-R11-B09-DEFESA-PROVENIENCIA-v01.json",
+      "status": "PASS"
+    },
+    {
+      "id": "R11_MANIFEST_DMG-F1-R11-MATRIZ-B01-B18-v01.json",
+      "status": "PASS"
+    },
+    {
+      "id": "R11_MANIFEST_DMG-F1-R11-RELATORIO-PSV-E-CERTIFICACAO-v01.md",
+      "status": "PASS"
+    },
+    {
+      "id": "R11_MANIFEST_DMG-F1-R11-TESTES-NOVOS-v01.json",
+      "status": "PASS"
+    },
+    {
+      "id": "R11_MANIFEST_DMG-F1-R11-VLAB-FUNCTIONAL-R03-HANDOFF-v01.json",
+      "status": "PASS"
+    },
+    {
+      "id": "R11_MANIFEST_README_R11.md",
+      "status": "PASS"
+    },
+    {
+      "id": "R11_MANIFEST_verificar_r11.py",
+      "status": "PASS"
+    },
+    {
+      "id": "R11_B02_only",
+      "status": "PASS"
+    },
+    {
+      "id": "R11_18_original_requirements",
+      "status": "PASS"
+    }
+  ],
+  "independent_method": "Brute itertools enumerate each dice face; independently inspect R11 ZIP manifest; no use of main-model functions",
+  "limitation": "Checking exact arithmetic cannot verify Notion-source rank authority, combat engine or representativeness",
+  "notion_writes": 0
+}

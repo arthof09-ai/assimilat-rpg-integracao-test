@@ -1,0 +1,247 @@
+{
+  "R07_baseline_file_sha256": "ffd629c2e1ba5307fb4dd59b72e39ef0fdf7a354503767edc8199ce36336ff40",
+  "behemoth": {
+    "Alma_published": 660,
+    "CA_formula_unrounded": "68.4",
+    "CA_published": 68,
+    "HP": 682,
+    "RD_Ouro_normal": 25,
+    "activation_action": null,
+    "armor_CA_if_additional": 71,
+    "armor_cost_initial_PA": 20,
+    "armor_pct_reflect": 15,
+    "armor_spell_classification": null,
+    "armor_upkeep_PA_each_turn": 3,
+    "lifetime": null,
+    "projectiles_magics_reflection_excluded": true,
+    "reflect_on_damage_received_authority": true,
+    "reflect_to_attacker_RD_rule": null,
+    "state_CA_armor_included": null
+  },
+  "canon_writes": 0,
+  "classification": "MATH_ONLY with documented prior VLAB-native controls",
+  "native_documented_VLAB_R34": {
+    "Cabra_actual_HP_removed": 38,
+    "DMG_independently_verified_SQLite": false,
+    "HP_Cabra_end": 0,
+    "HP_Frigido_end": 125,
+    "overkill": 15,
+    "reported_full_fight": true,
+    "reported_native_attacks": [
+      {
+        "actor": "Frigido",
+        "hp_goat_after": 21,
+        "net_damage": 17,
+        "score": 26
+      },
+      {
+        "actor": "Cabra",
+        "hp_goat_after": 21,
+        "net_damage": 0,
+        "score": 23
+      },
+      {
+        "actor": "Frigido",
+        "hp_goat_after": 2,
+        "net_damage": 19,
+        "score": 30
+      },
+      {
+        "actor": "Cabra",
+        "hp_goat_after": 2,
+        "net_damage": 0,
+        "score": 21
+      },
+      {
+        "actor": "Frigido",
+        "hp_goat_after": 0,
+        "net_damage": 17,
+        "score": 28
+      }
+    ],
+    "reported_rounds": 3,
+    "seed": 347,
+    "total_raw_net_Rabada": 53,
+    "winner": "Frigido"
+  },
+  "native_documented_VLAB_R36_R37": {
+    "R36_pairs": 4,
+    "R36_winner_changes": 0,
+    "R37_HP_unchanged": true,
+    "R37_censor_rounds_each": 8,
+    "R37_continuous_evasion_censored_trials": 2,
+    "blocked_would_be_hits": 7,
+    "reactions": 8,
+    "scope_warning": "Cabra Esquiva26 authorized in specific R36 tests; extension to Frigido pairing requires explicit admission",
+    "wasted_reaction_on_existing_miss": 1
+  },
+  "new_math": {
+    "Behemoth_armor_plus3_CA_effect_against_authorized_Bronze_basic_attacks": "zero when no crit/reaction/special bypass: both attack maxima <=30 far below CA68",
+    "Simio_critical_reflected_15pct_ceiling_upperbound_raw": [
+      12,
+      10
+    ],
+    "Titan_prata_or_ouro_negro_RD_if_competent_applied_to_reflect": "zero",
+    "expected_Rabada_actions_to_defeat_Cabra": {
+      "decimal": 2.9722222222,
+      "fraction": "107/36"
+    },
+    "p_kill_by_two_Rabadas": {
+      "decimal": 0.0277777778,
+      "fraction": "1/36"
+    },
+    "p_need_three_Rabadas": {
+      "decimal": 0.9722222222,
+      "fraction": "35/36"
+    }
+  },
+  "notes": [
+    "No new VLAB battle executed",
+    "No universal crit effect handled in the basic-hit calculation",
+    "Only authorized +6 for Frigido Rabada and Cabra Investida",
+    "Besta rank conflicts in tree preserved, R34 individual master rulings authorize their Bronze experimental snapshots",
+    "No projection of goat Evasion R36 to Frigido pairing without VLAB admission",
+    "No PA as HP proxy"
+  ],
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "round": "R08",
+  "simio": {
+    "CA_published": 67,
+    "CA_titan_formula": 67,
+    "Force_Titanica": "+2 FOR inclusion/activation unresolved",
+    "Luta_attacks": null,
+    "OuroNegro_titan_RD": 60,
+    "Prata_titan_RD": 30,
+    "identity": "macaco rei versus Símio Demoníaco",
+    "printed": "Prata 5 (titã), body Prata5 (2d6), tree Ouro Negro5",
+    "published_FOR": 54,
+    "status": "BLOCKED_NORMATIVE for native encounter with Behemoth"
+  },
+  "source_authorized_attack_math": {
+    "Investida Cabra versus Cabra Esquiva26": {
+      "attack_score_range": [
+        20,
+        25
+      ],
+      "damage_on_hit": {
+        "decimal": 11.5,
+        "fraction": "23/2"
+      },
+      "expected_damage_per_attempt": {
+        "decimal": 0.0,
+        "fraction": "0"
+      },
+      "hit_rolls": [],
+      "p_hit": {
+        "decimal": 0.0,
+        "fraction": "0"
+      }
+    },
+    "Investida Cabra versus Cabra no reaction": {
+      "attack_score_range": [
+        20,
+        25
+      ],
+      "damage_on_hit": {
+        "decimal": 11.5,
+        "fraction": "23/2"
+      },
+      "expected_damage_per_attempt": {
+        "decimal": 9.5833333333,
+        "fraction": "115/12"
+      },
+      "hit_rolls": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "p_hit": {
+        "decimal": 0.8333333333,
+        "fraction": "5/6"
+      }
+    },
+    "Investida Cabra versus Frigido": {
+      "attack_score_range": [
+        20,
+        25
+      ],
+      "damage_on_hit": {
+        "decimal": 11.5,
+        "fraction": "23/2"
+      },
+      "expected_damage_per_attempt": {
+        "decimal": 0.0,
+        "fraction": "0"
+      },
+      "hit_rolls": [],
+      "p_hit": {
+        "decimal": 0.0,
+        "fraction": "0"
+      }
+    },
+    "Rabada Frigido versus Cabra": {
+      "attack_score_range": [
+        25,
+        30
+      ],
+      "damage_on_hit": {
+        "decimal": 16.5,
+        "fraction": "33/2"
+      },
+      "expected_damage_per_attempt": {
+        "decimal": 16.5,
+        "fraction": "33/2"
+      },
+      "hit_rolls": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "p_hit": {
+        "decimal": 1.0,
+        "fraction": "1"
+      }
+    },
+    "Rabada Frigido versus Cabra Esquiva26 hypothetical extension": {
+      "attack_score_range": [
+        25,
+        30
+      ],
+      "damage_on_hit": {
+        "decimal": 16.5,
+        "fraction": "33/2"
+      },
+      "expected_damage_per_attempt": {
+        "decimal": 11.0,
+        "fraction": "11"
+      },
+      "hit_rolls": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "p_hit": {
+        "decimal": 0.6666666667,
+        "fraction": "2/3"
+      }
+    }
+  },
+  "sources": {
+    "VLAB_authority": "3f3c2b324ede819496ddd7f93bd7e5d2",
+    "behemoth": "5dac2b324ede83f39cdb01a904ce3cfd",
+    "besta": "3ebc2b324ede81f4992ac88a3588cacd",
+    "cabra": "391c2b324ede8252b0cc810423cdbfa6",
+    "combat": "3ebc2b324ede81f1be4be8804ac113c0",
+    "dmg": "3f2c2b324ede815498cddb7844245f7e",
+    "frigido": "f0dc2b324ede820ab9470168d4a53315",
+    "magic": "3ebc2b324ede81f7b343f7270ff91373",
+    "simio": "301c2b324ede828caccb813d3979267a"
+  },
+  "tests_passed": 33
+}

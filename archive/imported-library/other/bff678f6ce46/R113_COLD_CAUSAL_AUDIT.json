@@ -1,0 +1,162 @@
+{
+  "status": "PASS",
+  "selected_runs": 6,
+  "source": "COLD_SEMANTIC_INDEPENDENT_NO_ENGINE_IMPORT",
+  "total_events": 636,
+  "totals": {
+    "turn_starts": 212,
+    "native_specials": 4,
+    "pa_spent": 220,
+    "turn_ends": 212,
+    "native_attacks": 208,
+    "weak_attacks": 16,
+    "actual_hp_loss": 18660,
+    "overkill": 468,
+    "crits_plus": 6,
+    "final_efforts": 2
+  },
+  "runs": [
+    {
+      "file": "R112_FULL_920801_B_LEFT.sqlite",
+      "run_id": "R112-G_FULL-920801-B_LEFT",
+      "events": 156,
+      "seed": 920801,
+      "scene": "G_FULL",
+      "side": "B_LEFT",
+      "causal_integrity": "PASS",
+      "counts": {
+        "turn_starts": 52,
+        "native_specials": 1,
+        "pa_spent": 55,
+        "turn_ends": 52,
+        "native_attacks": 51,
+        "crits_plus": 0,
+        "weak_attacks": 3,
+        "final_efforts": 0,
+        "actual_hp_loss": 4315,
+        "overkill": 141
+      },
+      "winner": "E",
+      "phase": "FINISHED",
+      "last_head": "f4508d6055d126e80c05c6d1a6efc0dd3c97466a1e80dc72d3f299522a22ad74"
+    },
+    {
+      "file": "R112_FULL_915133_B_LEFT.sqlite",
+      "run_id": "R112-G_FULL-915133-B_LEFT",
+      "events": 150,
+      "seed": 915133,
+      "scene": "G_FULL",
+      "side": "B_LEFT",
+      "causal_integrity": "PASS",
+      "counts": {
+        "turn_starts": 50,
+        "native_specials": 1,
+        "pa_spent": 55,
+        "turn_ends": 50,
+        "native_attacks": 49,
+        "crits_plus": 2,
+        "weak_attacks": 3,
+        "final_efforts": 0,
+        "actual_hp_loss": 4598,
+        "overkill": 93
+      },
+      "winner": "E",
+      "phase": "FINISHED",
+      "last_head": "83ef409dc57b57b39504f664c2fdc3ac118eef47d218bf39cc1627a75bdcd0e7"
+    },
+    {
+      "file": "R112_FULL_915133_E_LEFT.sqlite",
+      "run_id": "R112-G_FULL-915133-E_LEFT",
+      "events": 150,
+      "seed": 915133,
+      "scene": "G_FULL",
+      "side": "E_LEFT",
+      "causal_integrity": "PASS",
+      "counts": {
+        "turn_starts": 50,
+        "native_specials": 1,
+        "pa_spent": 55,
+        "turn_ends": 50,
+        "native_attacks": 49,
+        "crits_plus": 2,
+        "weak_attacks": 3,
+        "final_efforts": 0,
+        "actual_hp_loss": 4598,
+        "overkill": 93
+      },
+      "winner": "E",
+      "phase": "FINISHED",
+      "last_head": "5349e52478c762fc57082a17cbabc6cca6fe92730ce8b564c8713ccb3ff4cb18"
+    },
+    {
+      "file": "R112_FULL_920801_E_LEFT.sqlite",
+      "run_id": "R112-G_FULL-920801-E_LEFT",
+      "events": 156,
+      "seed": 920801,
+      "scene": "G_FULL",
+      "side": "E_LEFT",
+      "causal_integrity": "PASS",
+      "counts": {
+        "turn_starts": 52,
+        "native_specials": 1,
+        "pa_spent": 55,
+        "turn_ends": 52,
+        "native_attacks": 51,
+        "crits_plus": 0,
+        "weak_attacks": 3,
+        "final_efforts": 0,
+        "actual_hp_loss": 4315,
+        "overkill": 141
+      },
+      "winner": "E",
+      "phase": "FINISHED",
+      "last_head": "d90e8e8ce93207fe1aba956d7c4a5d26eeff18941c64cc4f9670b8882305500e"
+    },
+    {
+      "file": "R111_EFFORT_919982_B_LEFT.sqlite",
+      "run_id": "R111-F_EFFORT-919982-B_LEFT",
+      "events": 12,
+      "seed": 919982,
+      "scene": "F_EFFORT",
+      "side": "B_LEFT",
+      "causal_integrity": "PASS",
+      "counts": {
+        "turn_starts": 4,
+        "native_attacks": 4,
+        "crits_plus": 1,
+        "weak_attacks": 2,
+        "final_efforts": 1,
+        "actual_hp_loss": 417,
+        "overkill": 0,
+        "turn_ends": 4
+      },
+      "winner": null,
+      "phase": "ACTIVE",
+      "last_head": "13d8f168b2814e518deeab08196df2c626f10de2a4ae6849682c9de39538db54"
+    },
+    {
+      "file": "R111_EFFORT_919982_E_LEFT.sqlite",
+      "run_id": "R111-F_EFFORT-919982-E_LEFT",
+      "events": 12,
+      "seed": 919982,
+      "scene": "F_EFFORT",
+      "side": "E_LEFT",
+      "causal_integrity": "PASS",
+      "counts": {
+        "turn_starts": 4,
+        "native_attacks": 4,
+        "crits_plus": 1,
+        "weak_attacks": 2,
+        "final_efforts": 1,
+        "actual_hp_loss": 417,
+        "overkill": 0,
+        "turn_ends": 4
+      },
+      "winner": null,
+      "phase": "ACTIVE",
+      "last_head": "a5aabf1d7b430b19b02b19f61226d2757b69c8751ce00a9110b1292e900f8971"
+    }
+  ],
+  "quarantine_excluded": "R109 unknown R110 unknown R111 G_FULL policy drift",
+  "terminal_contracts_certified": 0
+}

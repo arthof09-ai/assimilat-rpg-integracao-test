@@ -1,0 +1,40 @@
+{
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "partner": "OP-VLAB-FUSION-SANDBOX-01",
+  "state": "LOCAL_READ_ONLY_PREPARED_NOT_SENT_NOT_ACKNOWLEDGED_NOT_EXECUTED",
+  "baseline": "DMG-RANK-01 v1.1 untouched",
+  "prior_handoff": "R10_VLAB_HANDOFF_READONLY.json",
+  "source_VLAB": "R47-R49 6 scenes/15 events/6 CP independently reverified; no new DMG native encounters",
+  "oracles": [
+    {
+      "id": "C09",
+      "case": "source-equipped ON5 Feryn Varok Arveth 4d6; p positive=1/108 Mestre, p negative=1/108 LAB only; CA and RD published",
+      "result": "C09_ON5_LAB_SENSITIVITY.json",
+      "gate": "combat scene full action/geometry/turn/reaction admission"
+    },
+    {
+      "id": "C10",
+      "case": "two Feryn AoO vs Varok R49",
+      "result": "Max critical damage per single attack after RD35=140; two combined maximum=280 less than target HP734. Within frozen 2 basic attack window, priority order cannot cause KO or change total damage distribution",
+      "gate": "not generalizable to on-hit effects, changed attackers or attack actions"
+    },
+    {
+      "id": "C11",
+      "case": "Goat positive crit 6,6,6 below Feryn CA123 with predeclared Counter",
+      "result": "R47B native raw23 RD22 net1 Feryn HP479->478, reply BLOCKED_NORMATIVE; if authorized reply, basic Feryn equipped min net50 versus Goat HP38 absent negative critical",
+      "gate": "Mestre decision critical hit triggers Counter despite numeric score? nested Counter in own turn?"
+    }
+  ],
+  "forbidden_actions": [
+    "no rewrite closed R47-49 banks/seeds",
+    "no assumption that counterpart accepted handoff",
+    "no rule for Contra invented",
+    "no write Party/O Primeiro",
+    "no productive NAC PASS claim"
+  ],
+  "gates": {
+    "NAC-PASS": "HOLD",
+    "VLAB terminal": "0/17",
+    "canonical cells": "0/1875"
+  }
+}

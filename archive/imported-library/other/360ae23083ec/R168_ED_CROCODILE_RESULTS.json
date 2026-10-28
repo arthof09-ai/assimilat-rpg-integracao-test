@@ -1,0 +1,66 @@
+[
+  {
+    "run": "R168_ED_AUREN_VS_CROC_BASIC_DEV_S1168001",
+    "seed": 1168001,
+    "family": "DEV",
+    "phase": "FINISHED",
+    "winner": "E",
+    "turns": 66,
+    "R18_commits": 198,
+    "attack_receipts": 66,
+    "physical_hit": 33,
+    "Auren_attacks": 33,
+    "Croc_attacks": 33,
+    "Croc_hits": 0,
+    "negative_lab_criticals": 0,
+    "positive_criticals": 1,
+    "post_RD": 5732,
+    "hp_effective": 5580,
+    "overkill": 152,
+    "final_hp": {
+      "B": 0,
+      "E": 523
+    },
+    "checkpoint_equal": true,
+    "pending": 0,
+    "head": "6d54104108806c774717f0577a3888ec46f6bd57158265025a2d820978088463",
+    "source_limitation": [
+      "Besta Initiative exogenous",
+      "Physical damage tag piercing/impact shared physical RD",
+      "not independent blind holdout",
+      "no special attacks"
+    ]
+  },
+  {
+    "run": "R168_ED_AUREN_VS_CROC_BASIC_RESERVED_NONBLIND_S1169001",
+    "seed": 1169001,
+    "family": "RESERVED_NONBLIND",
+    "phase": "FINISHED",
+    "winner": "E",
+    "turns": 66,
+    "R18_commits": 198,
+    "attack_receipts": 66,
+    "physical_hit": 33,
+    "Auren_attacks": 33,
+    "Croc_attacks": 33,
+    "Croc_hits": 0,
+    "negative_lab_criticals": 0,
+    "positive_criticals": 0,
+    "post_RD": 5642,
+    "hp_effective": 5580,
+    "overkill": 62,
+    "final_hp": {
+      "B": 0,
+      "E": 523
+    },
+    "checkpoint_equal": true,
+    "pending": 0,
+    "head": "753f5fc218cd963a475b5f7c93d9a93266e604b443efba0bb246918d2e8ca82a",
+    "source_limitation": [
+      "Besta Initiative exogenous",
+      "Physical damage tag piercing/impact shared physical RD",
+      "not independent blind holdout",
+      "no special attacks"
+    ]
+  }
+]

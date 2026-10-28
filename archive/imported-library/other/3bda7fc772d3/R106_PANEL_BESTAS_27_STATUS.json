@@ -1,0 +1,162 @@
+{
+  "lineage_identity": "Grifo de Silica L2->L3 same species; not extra independent species",
+  "tier_26": "SUPERIOR_TO_LENDARIO_5_ADM",
+  "tier_27": "SUPERIOR_TO_ADM_DIVINA",
+  "regular_rank_star_combinations": 25,
+  "ordered_power_tiers": 27,
+  "panel_distinct_species_candidate": 7,
+  "positions_with_species_candidates": 4,
+  "slots_homologated": 0,
+  "slots": {
+    "1": {
+      "tier": "Bronze 1★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "2": {
+      "tier": "Bronze 2★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "3": {
+      "tier": "Bronze 3★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "4": {
+      "tier": "Bronze 4★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "5": {
+      "tier": "Bronze 5★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": [
+        "Frigido Ossario"
+      ]
+    },
+    "6": {
+      "tier": "Prata 1★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "7": {
+      "tier": "Prata 2★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "8": {
+      "tier": "Prata 3★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "9": {
+      "tier": "Prata 4★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "10": {
+      "tier": "Prata 5★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "11": {
+      "tier": "Ouro 1★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "12": {
+      "tier": "Ouro 2★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "13": {
+      "tier": "Ouro 3★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "14": {
+      "tier": "Ouro 4★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "15": {
+      "tier": "Ouro 5★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "16": {
+      "tier": "Ouro Negro 1★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "17": {
+      "tier": "Ouro Negro 2★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "18": {
+      "tier": "Ouro Negro 3★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "19": {
+      "tier": "Ouro Negro 4★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "20": {
+      "tier": "Ouro Negro 5★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "21": {
+      "tier": "Lendario 1★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "22": {
+      "tier": "Lendario 2★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "23": {
+      "tier": "Lendario 3★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": [
+        "Grifo Matriarca",
+        "Crocodilo de Lodo Astral",
+        "Serpente Prismatica Regente",
+        "Roc da Tempestade de Vidro"
+      ]
+    },
+    "24": {
+      "tier": "Lendario 4★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": [
+        "Leviata de Ferro Mnemonico"
+      ]
+    },
+    "25": {
+      "tier": "Lendario 5★",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "26": {
+      "tier": "Besta ADM",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": []
+    },
+    "27": {
+      "tier": "Besta Divina",
+      "status": "PENDING_NOT_HOMOLOGATED",
+      "candidate_species": [
+        "Vaelthyr"
+      ]
+    }
+  },
+  "references": [
+    "https://app.notion.com/p/3f3c2b324ede813987deda0b382e83c7",
+    "https://app.notion.com/p/3f3c2b324ede8156a091f09a0368c007"
+  ]
+}

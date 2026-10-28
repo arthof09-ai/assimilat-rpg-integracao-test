@@ -1,0 +1,66 @@
+{
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "role": "CM-000001",
+  "side": "MESTRE-SIDE",
+  "checkpoint": "POST-R10-C07-C11",
+  "date": "2026-10-16",
+  "cycles": [
+    "C07_SOURCE_AUTHORITY",
+    "C08_R47_R49_PHYSICAL_AUDIT",
+    "C09_SAME_RANK_THREE_ACTORS_R42",
+    "C10_AOO_DMG_COMMUTATIVITY_AND_PA",
+    "C11_COUNTER_SEMANTIC_FALSIFIERS"
+  ],
+  "official_baseline": "DMG-RANK-01 v1.1 unchanged",
+  "canonical_writes": 0,
+  "native_VLAB_executions_DMG": 0,
+  "vLAB_current_state": {
+    "latest_physically_seen": "R47_R49 REGISTRO DEPOIS",
+    "historical_18_full_fights_unchanged": true,
+    "new_VLAB_critical_counter_reply": "BLOCKED_NORMATIVE",
+    "R49_independent_readback": "6 scenes/15 events/6 checkpoints PASS"
+  },
+  "preservation": {
+    "old_R10_C01_files_verified_sha256": 18,
+    "prior_C02_C06_files_in_manifest": 18,
+    "prior_C02_C06_files_physically_available_hash_verified": 5,
+    "prior_C02_C06_files_not_locally_materialized": [
+      "C02_C05_CHECKPOINT.json",
+      "C02_C05_INDEPENDENT_AUDIT.py",
+      "C02_PSV.md",
+      "C02_SOURCE_ADMISSION.json",
+      "C03_EQUIPPED_ON5_EXACT.json",
+      "C03_PSV.md",
+      "C04_PA_ACTION_BUDGET.json",
+      "C04_PSV.md",
+      "C05_PSV.md",
+      "C06_CROSSRANK.py",
+      "C06_INDEPENDENT_AUDIT.py",
+      "C06_PSV.md",
+      "CONSOLIDATE_C02_C06.py"
+    ],
+    "vLAB_R47_R49_original_archive_SHA256": "fada8b0a413edfcdccc54af60c258c0bd25274848a9c10ff4df37d11cf0ed7d2",
+    "vLAB_archive_members_crc": "39/39 SHA256 PASS CRC PASS"
+  },
+  "new_files_sha256": {
+    "C07_C11_EXACT_REPLAY.py": "dd7a72bc120c9b88e7e10110e3b0e17007d1d5a2b59203f5aed5060ce50062e6",
+    "C07_C11_INDEPENDENT_CHECK.py": "04c7f7d920838ddbb9a08dc32e27b9543bc66f80a369c6702462d09fd989c0ec",
+    "C07_C11_INDEPENDENT_QA.json": "affe3fe2d22213136684f1c7a58bdee38458595267749dc2912c1a6111af94a4",
+    "C07_C11_VLAB_HANDOFF_DELTA.json": "721802721b418a775b725b6cf2a74dcf3850975629eafafbd41fd14c89f7a642",
+    "C07_SOURCE_AUTHORITY.json": "7d8345f30a970641dee4846469a5603e9e6a5abc4b94432cb5749b725b6103d7",
+    "C08_R47_R49_AUDIT.json": "798bc7cfc76b623140d03f51950837c05d9a228e270bab426de0683bc61bac0a",
+    "C09_ON5_LAB_SENSITIVITY.json": "7190f42ec269844a57281fb77dbf4154cb23913891720bad032ceb33d3dcde89",
+    "C10_AOO_PRIORITY_PA.json": "221e5a81b0af5ea03a8983d9ad7c47cd438d42e77a720333b47e1ee1db6388cd",
+    "C11_COUNTER_NORMATIVE_BRANCH.json": "2f95043fc216c93a4e5eefc470e1d9b3122ff40f51f74dd39d685658e90a4427",
+    "PSV_DMG_C07_C11.md": "25293ca8a90530aef3ddf615f0ec640a278cd435752964682e1775b729815371"
+  },
+  "qa": 62,
+  "first_pending": "Mestre/NAC authority for critical auto-hit Counter predeclared; nested Counter in own turn; separate Veado/Regalis identity, Luta, nature pending",
+  "gates": {
+    "F0": "4/8 HOLD",
+    "L003": "0/71 authenticated",
+    "VLAB terminal": "0/17",
+    "VLAB canonical cells": "0/1875",
+    "NAC-PASS": "HOLD"
+  }
+}

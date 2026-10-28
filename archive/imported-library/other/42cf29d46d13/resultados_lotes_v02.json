@@ -1,0 +1,74 @@
+{
+  "all_pass": true,
+  "cases": {
+    "A_success_multi": {
+      "attempts": 5,
+      "id": "SBX-R48-BATCH-UI-34d402c9493051c2",
+      "ok": true,
+      "pieces_by_attempt": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "receipt_sha256": "a5b270b03f3943482d2c5a326111cb17d1ab4f67b43090ac925102207a6a178b",
+      "single_durable_R48_commit": true,
+      "stock_after": {
+        "SBX-MICA-GOOD-A": 6,
+        "SBX-MICA-GOOD-B": 6,
+        "SBX-SLATE-CRACKED": 1,
+        "SBX-SLATE-GOOD-01": 5,
+        "SBX-SLATE-TOO-SMALL": 1
+      },
+      "stock_before": {
+        "SBX-MICA-GOOD-A": 8,
+        "SBX-MICA-GOOD-B": 8,
+        "SBX-SLATE-CRACKED": 1,
+        "SBX-SLATE-GOOD-01": 8,
+        "SBX-SLATE-TOO-SMALL": 1
+      }
+    },
+    "B_insufficient": {
+      "attempted_confirm_http": 400,
+      "commits": 0,
+      "ok": true,
+      "preflight_denied": true,
+      "reason": "REJECTED_PRECHECK",
+      "stock_delta": 0
+    },
+    "C_QA_quarantine": {
+      "ok": true,
+      "products": 0,
+      "status": "QUARANTINE_EVIDENCE",
+      "stock_delta": 0,
+      "test_certificates_only": true
+    },
+    "D_repeat": {
+      "disk_sequence": 1,
+      "no_duplicate_products": true,
+      "ok": true,
+      "same_head": true,
+      "same_inventory": true
+    },
+    "E_persistence": {
+      "history_exists_after_restart": true,
+      "ok": true,
+      "reopened_session": "sim-351872e15b94",
+      "sequence": 1
+    },
+    "F_reversal": {
+      "fork_ledger_sequence": 0,
+      "new_session": "sim-6e9177637c40",
+      "ok": true,
+      "old_ledger_sequence": 1,
+      "old_session_preserved": true,
+      "restored_stock_equals_before": true
+    }
+  },
+  "human_UAT": false,
+  "official_products": 0,
+  "official_stock_effect": 0,
+  "schema": "CRAFT-UI-v02-A-F-HTTP-DEMO",
+  "synthetic_only": true
+}

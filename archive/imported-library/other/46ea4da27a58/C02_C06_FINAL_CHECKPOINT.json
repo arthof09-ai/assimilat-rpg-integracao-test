@@ -1,0 +1,70 @@
+{
+  "NAC-CONT-03": "all actions read-only/local scientific math; no Notion productive writer claimed",
+  "baseline": "DMG-RANK-01 v1.1 unchanged",
+  "canonical_writes": 0,
+  "checkpoint": "POST-R10-C02-C06",
+  "cycles": 5,
+  "date": "2026-10-16",
+  "first_pending": "document source ability action type, Luta and costs for Veado/Regalis; source-complete adjacent-rank comparisons; VLAB R47–R49 after verification whenever recorded",
+  "gates": {
+    "F0": "4/8 no change",
+    "L003": "0/71 individual authenticated unchanged",
+    "NAC-PASS": "HOLD",
+    "VLAB canon cells": "0/1875",
+    "VLAB terminal": "0/17"
+  },
+  "independent_qa": {
+    "C02-C05": {
+      "MonteCarlo_trials": 5000,
+      "number_of_target_directions": 3,
+      "tests": 20
+    },
+    "C06": {
+      "checks": 6
+    }
+  },
+  "mestre_side": true,
+  "new_VLAB_native_fights_by_DMG": 0,
+  "new_files_and_sha256": {
+    "C02_C05_CHECKPOINT.json": "1529a6e8ce8f3180058fc9c272a89fdb1398203d8a1d39f6b8490158b046f5f2",
+    "C02_C05_INDEPENDENT_AUDIT.py": "a6c222f165014f7a7382777452f1502ee306e6aced6fc0b6155bab24bcc11493",
+    "C02_C05_INDEPENDENT_QA.json": "a379101063fc74c2a26747e1f97b338a661a882a7aeb0752c2d631270482c2d5",
+    "C02_C05_REPLAY.py": "3e52cf1d5748b1cb78e2b428bf74d5cd5419e430ce8a9e23a17f58b409f0e6bf",
+    "C02_PSV.md": "27ad2b92a138e89fa16522c7e134553e9125a3fa3ae90e8ceb5568146af7522f",
+    "C02_SOURCE_ADMISSION.json": "2bba8704ac522bf58d58a50e16dc3ae7ca19592f1409dd3e298220154dcd90cf",
+    "C03_EQUIPPED_ON5_EXACT.json": "596cffe9947205cdf6faf10897ca9005438f5b096c769212c8969726f4364429",
+    "C03_PSV.md": "9d118f83e65c776ea184811a11df7ea6ab62aee82a2ad76ac5fb080c43425b9f",
+    "C04_PA_ACTION_BUDGET.json": "4b1abcfd98ae1f5bebb7bdc33ab208b4ecef47b003921b64a081724e8aad08aa",
+    "C04_PSV.md": "873f67e11197cc2e59ebcadbd8160a9a5189a868f5c9401ef9ccb2c1b34afb88",
+    "C05_AOO_COUNTER_ORACLE.json": "15c231b92c9b394628be05a13b358c13039e217ad9f004eab6a1ebee9c8bd115",
+    "C05_PSV.md": "ad14732e1d7b97994e17518f80b57306446d633cc22ce94088d989d051f55f0c",
+    "C06_CROSSRANK.py": "702f98d1c449db1ce7ee2c05986bb526f6f18ad67373e5268c828f98222700eb",
+    "C06_CROSSRANK_FRONTIER.json": "0e81eda6dfe5aae0227f40b19c5eb9eea07d6037cc51a3d4b5d9ae2dbffaec09",
+    "C06_INDEPENDENT_AUDIT.py": "07edd32e6c244776f123f4c28cc0991dda0bcf7e0582d755a5594b7639d52460",
+    "C06_PSV.md": "92f28e0695933c839a9703302b4e81aea5f034fef7e48690238eb54028565f10",
+    "CONSOLIDATE_C02_C06.py": "2261d2f8122095d68f25ab985091ea8214f2bf38d8efe20869a636490fb44d69",
+    "PSV_FINAL_C02_C06.md": "75a813b1f6773b690a7dfcc9e284b3fed45911b3e345905c8d70921b440d9bf9"
+  },
+  "old_files_and_sha256": {
+    "/mnt/data/dmg_recovery/post_r10_c01/C01_AUDIT_INDEPENDENT.json": "f3d61bb6f1658742791cd2bb1662c444fb0531c95248d003e2a2b1f0405242ce",
+    "/mnt/data/dmg_recovery/post_r10_c01/C01_CHECKPOINT_SHA256.json": "28507908af1608aa195b282b4f44f1415c67d446a651f77071491c49afa847a7",
+    "/mnt/data/dmg_recovery/post_r10_c01/C01_INDEPENDENT_AUDIT.py": "29da93f9b3f07e207e72e683466d07bf0ecf40f1e0095bd252e3d9c9a2e77260",
+    "/mnt/data/dmg_recovery/post_r10_c01/C01_NEW_SOURCE_LEDGER.json": "6205e0608f9af16b7d729e371ccdc8e1cddbdabadb1d761088c73faf56c3aab8",
+    "/mnt/data/dmg_recovery/post_r10_c01/C01_PREREG_SAMPLE_FROZEN.json": "3c76ad28703b54858e93f7f227324fb44cb57512927915f4155378e3424ae6a0",
+    "/mnt/data/dmg_recovery/post_r10_c01/C01_RESEARCH_MODEL.py": "79729e6dc90ac117c8ff9d4b974ef777ddc179c15b1be33a4d1a07ca7758e8b5",
+    "/mnt/data/dmg_recovery/post_r10_c01/C01_RESULTS_MODEL.json": "83917c896fa612c871c0948d62d8442b22fe986ece4d232c11f3b19722160172",
+    "/mnt/data/dmg_recovery/post_r10_c01/C01_VLAB_DELTA_READONLY.json": "9e2e195cade9b1ed9c26bd91983d63f3e8cc98817ab1a2b17949418d7d5fe2e6",
+    "/mnt/data/dmg_recovery/post_r10_c01/PSV_DMG_POST_R10_C01.md": "53e7dbc4593e8eba749b1011d6374c8a6015a9b82e4872e8fc024ace8071d282",
+    "/mnt/data/dmg_recovery/r10/PSV_DMG_R10_20261015.md": "d48be82967b14d992f0f01895cf7007118f6ca5c41d72f955eb82220ac033976",
+    "/mnt/data/dmg_recovery/r10/R10_AUDIT_SECONDARY.py": "015a4d9f79d907755f628c9b40266fd3a50526328bb3a935ca85c156e0a6655a",
+    "/mnt/data/dmg_recovery/r10/R10_CHECKPOINT_SHA256.json": "17bba8955063b3a192d41e4d1067ebd6b060857e16bab94f5082c7abdc87bc2c",
+    "/mnt/data/dmg_recovery/r10/R10_MODEL.py": "c2a7765c9664e90eb66d7a89f3bede69cb7638f516118347ca28a1b4554689ea",
+    "/mnt/data/dmg_recovery/r10/R10_NATIVE_CORE_CRITICAL_PROBE.py": "bb066e9b7f84be2a00b4b8af1d64919c87a31b478147a0c03e3dd92d0c6b86fc",
+    "/mnt/data/dmg_recovery/r10/R10_NATIVE_CRITICAL_GAP.json": "7d19f49b9376ede7b126ff982c90e0d62c172eb8d57bf4a5f5577e2137954162",
+    "/mnt/data/dmg_recovery/r10/R10_RESULTS.json": "8f8f9d66bb0cb26064e32e75e2bb4e16a2a5e09b6cc71ad894ab018a0a2d76bb",
+    "/mnt/data/dmg_recovery/r10/R10_SECONDARY_AUDIT.json": "bfdf5b9ac59e1c63c0045a720b115b657de35d2a18cd73c4372b80b89dd16b5a",
+    "/mnt/data/dmg_recovery/r10/R10_VLAB_HANDOFF_READONLY.json": "fe3406d8ccdc243f3730339991cfb32de12acaab043d407f54463e9baeac699d"
+  },
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "read_only_VLAB_latest": "R47–R49 ANTES from Notion, not DEPOIS"
+}

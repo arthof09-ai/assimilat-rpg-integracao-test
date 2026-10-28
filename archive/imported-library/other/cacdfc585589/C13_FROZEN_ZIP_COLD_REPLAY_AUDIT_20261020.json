@@ -1,0 +1,32 @@
+{
+  "as_of": "2026-10-20",
+  "case": "DMG_C13_CLEAN_FROZEN_ARCHIVE_REPLAY",
+  "status": "PASS",
+  "zip_sha256": "78a8107755bd9fd0a1ffdb24890a603c3e7380a3eb4f077badd8fe0522a10f14",
+  "zip_crc": "PASS",
+  "manifest_entries": 16,
+  "manifest_integrity": "PASS",
+  "source_zip_external_hashes": "C11 C12 R200 physically verified by build_c13.py",
+  "test_suite": "{'status': 'PASS_INDEPENDENT_C13', 'checks': 42, 'issues': [], 'r200_original_db_30_were_inspected_by_build': 'verify C13_R200_DB_LEVEL_FIGHT_RECEIPTS_32.csv and original R200 ZIP via builder', 'scope': 'new C13 math and denominator checks, not C11/C12 regression rerun', 'source_fields_are_manual_not_live_notion_in_standalone_mode': True}",
+  "rebuilt_and_byte_identical": 16,
+  "checked_names": [
+    "README_C13_PORTABLE.md",
+    "PSV_DMG_C13_COBERTURA_E_VLAB_R200_20261020_MESTRE_ONLY.md",
+    "scripts/build_c13.py",
+    "scripts/c13_independent_audit.py",
+    "scripts/package_c13.py",
+    "output/C13_A6_STRUCTURAL_ROOT_TRAVERSAL_16.csv",
+    "output/C13_BUILD_STDOUT.json",
+    "output/C13_DIAGNOSTICO_CIENTIFICO_MESTRE_ONLY.md",
+    "output/C13_INDEPENDENT_QA.json",
+    "output/C13_LINEAGE_AND_NO_DUPLICATES.csv",
+    "output/C13_MATCHED_FAMILY_DECOMPOSITION.csv",
+    "output/C13_R200_DB_LEVEL_FIGHT_RECEIPTS_32.csv",
+    "output/C13_R200_HIT_THRESHOLD_AND_RD_TEST.csv",
+    "output/C13_R200_SCOPED_GROUP_METRICS.csv",
+    "output/C13_SCOPED_SCIENCE_SUMMARY.json",
+    "output/C13_SOURCE_FAMILY_EFFECT_OCCURRENCES.csv"
+  ],
+  "no_notions_writes": true,
+  "no_sqlite_original_writes": true
+}

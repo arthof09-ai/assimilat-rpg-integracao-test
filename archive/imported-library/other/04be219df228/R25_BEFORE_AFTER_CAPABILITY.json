@@ -1,0 +1,35 @@
+{
+  "R25_patch_source": "R17 same engine modified in derived version",
+  "baseline_revision": "R17 unchanged source as preserved before R25",
+  "evaluations": [
+    {
+      "R25": {
+        "exit": 0,
+        "stderr": "",
+        "stdout": "ACCEPTED 2"
+      },
+      "baseline": {
+        "exit": 4,
+        "stderr": "",
+        "stdout": "DENIED R17Hold unsupported historical Bronze accounting"
+      },
+      "input_sha256": "34470b7823daab46be80f6c09daae624cdabd20d5337e1ebf9243608df2a4890",
+      "scenario": "BRONZE_1_TO_2"
+    },
+    {
+      "R25": {
+        "exit": 0,
+        "stderr": "",
+        "stdout": "ACCEPTED 8"
+      },
+      "baseline": {
+        "exit": 4,
+        "stderr": "",
+        "stdout": "DENIED R17Hold spirit cap needs separate contract"
+      },
+      "input_sha256": "ade555e1a7d04336aefea5708966b28425ad157ae135aba80bea991cf67b7727",
+      "scenario": "PRATA_6_TO_8_SPIRIT_CAP7"
+    }
+  ],
+  "passed": true
+}

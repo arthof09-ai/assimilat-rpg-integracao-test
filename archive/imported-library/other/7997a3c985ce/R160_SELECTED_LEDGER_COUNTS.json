@@ -1,0 +1,131 @@
+{
+  "selected_ledgers": 9,
+  "selected_commits": 466,
+  "actual_offense_receipts": 154,
+  "per_run": {
+    "R157_TACTIC_BASIC_DEV_S997617": {
+      "commits": 49,
+      "native_offenses": 16,
+      "event_kinds": {
+        "INIT": 1,
+        "START": 16,
+        "STRIKE": 8,
+        "END": 16,
+        "SPELL": 8
+      },
+      "pending": 0,
+      "genesis_sha256": "e002c9d32bebd48fc9e91d84288fccbca7ffc85b6f9f05a40ff6f394c3368d28",
+      "sqlite_sha256": "08eeaa995d2a0e5c5b0bc0953b6c4ccdd1f98ac9f80e30aad770d65f92835dbd"
+    },
+    "R157_TACTIC_WIND_DEV_S997617": {
+      "commits": 49,
+      "native_offenses": 16,
+      "event_kinds": {
+        "INIT": 1,
+        "START": 16,
+        "SPELL": 15,
+        "END": 16,
+        "STRIKE": 1
+      },
+      "pending": 0,
+      "genesis_sha256": "a3769a7d6342352579da6ae5dea433b14b1a67c8b2c6f3c5b798c947387f3440",
+      "sqlite_sha256": "7cd5b66f3a0d08016bb1a50ad2858b0cda0d735da654dcc62bc161173e1abc97"
+    },
+    "R158_NEGATIVE_CRITICAL_TACTIC_DEV_S997946": {
+      "commits": 49,
+      "native_offenses": 16,
+      "event_kinds": {
+        "INIT": 1,
+        "START": 16,
+        "STRIKE": 8,
+        "END": 16,
+        "SPELL": 8
+      },
+      "pending": 0,
+      "genesis_sha256": "b948d45aaf100e0ea240f63676e5fda3f02b61c743a01365726ff8301479ae7c",
+      "sqlite_sha256": "221b21f2b00dfe17a7ba455144d56527df6ac0b956537d05e5a5f9ad35d958c4"
+    },
+    "R153_CASULO_CA_SOURCE_DEV_S999013": {
+      "commits": 9,
+      "native_offenses": 1,
+      "event_kinds": {
+        "START": 3,
+        "COCOON": 1,
+        "END": 3,
+        "STRIKE": 1,
+        "PASS": 1
+      },
+      "pending": 0,
+      "genesis_sha256": "f0fc5aa57a4fb4fb6d807536e5e8dcf21db06943b96c365b8d580b34c4a7e13e",
+      "sqlite_sha256": "65c67fd3df70f00b3112074bfb5ecb8017227870ab2df71668f16df250710bac"
+    },
+    "R154_TWO_AOO_FULL_SOURCE_DEV_S999141": {
+      "commits": 4,
+      "native_offenses": 2,
+      "event_kinds": {
+        "START": 1,
+        "AOO_CHAIN": 1,
+        "PASS": 1,
+        "END": 1
+      },
+      "pending": 0,
+      "genesis_sha256": "e0565ef9577a83030711c7a00a69924866a9e08cf543e5ae0df0a4b90b74fa1f",
+      "sqlite_sha256": "b83740f7c6aea04dee87f36e78b600bd69a3b4a079d4b04ed1aa885d9f8f490f"
+    },
+    "R154_TWO_AOO_KO_SOURCE_DEV_S999142": {
+      "commits": 2,
+      "native_offenses": 1,
+      "event_kinds": {
+        "START": 1,
+        "AOO_CHAIN": 1
+      },
+      "pending": 0,
+      "genesis_sha256": "b950ff1228c7bbb6576553556bb023fe9dbad9c14dfe9e1ec21bb7e4fa746832",
+      "sqlite_sha256": "415f2209d4fc462dfb5ba76a279b90cf454f3025629ef5bd64daaf91c83f4adc"
+    },
+    "R155_AOO_NEGATIVE_R42_R43_DEV_S999353": {
+      "commits": 4,
+      "native_offenses": 2,
+      "event_kinds": {
+        "START": 1,
+        "AOO_CHAIN": 1,
+        "PASS": 1,
+        "END": 1
+      },
+      "pending": 0,
+      "genesis_sha256": "72c7217810b718c54edaaebafc654aab6e7d943aa57dc7b445560a8506e6f5fb",
+      "sqlite_sha256": "7b308e40d5e43a9d114b10728ba6502b59a86d2b3fe577ed70fcc8b56fbdb911"
+    },
+    "R159_ED_GRIFO_AUREN_BE_SPECIAL_DEV_S998803": {
+      "commits": 150,
+      "native_offenses": 50,
+      "event_kinds": {
+        "TURN_START": 50,
+        "NATIVE_SPECIAL": 1,
+        "TURN_END": 50,
+        "NATIVE_ATTACK": 49
+      },
+      "pending": 0,
+      "genesis_sha256": "0582368cf63967bb4e4bfd68897b7b5948a14a4dc2d1a7bd795ea2b8121a7fb9",
+      "sqlite_sha256": "e6ad3834e67ccf5fdb1c5bfd105faba7818ab524c0bbd43c8075fa4b0441f41a"
+    },
+    "R159_ED_GRIFO_AUREN_BE_BASIC_DEV_S998803": {
+      "commits": 150,
+      "native_offenses": 50,
+      "event_kinds": {
+        "TURN_START": 50,
+        "NATIVE_ATTACK": 50,
+        "TURN_END": 50
+      },
+      "pending": 0,
+      "genesis_sha256": "baf0f7e632c97d17b760853b5fc982dfabb083e69a96b91097235f3429b34123",
+      "sqlite_sha256": "0838f28203cccb6afb854e9033547919a3b30ea4d4c3e778b69cd604db33be34"
+    }
+  },
+  "exclude_from_science": [
+    "R156_AFTER_INTENT_PENDING",
+    "R159_SPECIAL_S998801_ODD_HALF",
+    "R159_BASIC_S998801_UNPAIRED"
+  ],
+  "official_benchmark_cells": 0
+}

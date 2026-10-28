@@ -1,0 +1,33 @@
+{
+  "casulo": {
+    "run": "R153_CASULO_CA_SOURCE_DEV_S999013",
+    "verified": "SOURCE_EVENT_AND_RNG_PASS",
+    "commits": 9,
+    "attack_score": 98,
+    "protected_CA": 98,
+    "unprotected_CA": 76,
+    "damage_prevented_by_defense_comparison": true,
+    "source_expiration": "HOLD",
+    "movement_absolute_speed": "HOLD"
+  },
+  "concurrent_aoo": [
+    {
+      "run": "R154_TWO_AOO_FULL_SOURCE_DEV_S999141",
+      "verified": "SOURCE_R43_CAUSAL_RNG_PASS",
+      "commits": 4,
+      "ordered_AOO": 2,
+      "target_HP": 253,
+      "moved": true,
+      "second_reaction_consumed": true
+    },
+    {
+      "run": "R154_TWO_AOO_KO_SOURCE_DEV_S999142",
+      "verified": "SOURCE_R43_CAUSAL_RNG_PASS",
+      "commits": 2,
+      "ordered_AOO": 1,
+      "target_HP": 0,
+      "moved": false,
+      "second_reaction_consumed": false
+    }
+  ]
+}

@@ -1,0 +1,2189 @@
+{
+  "baseline": "DMG-RANK-01 v1.1 unchanged",
+  "canonical_writes": 0,
+  "check_pass_count": 14,
+  "critical_auto_hit_authority": "Mestre express 2026-10-15, normative Notion write pending",
+  "crossrank_generic_BASE_ONLY": {
+    "Normal Bronze 3d6": {
+      "Divina if explicit flag": {
+        "E_net_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "RD": 120,
+        "crit_base_damage_range": [
+          21,
+          36
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        }
+      },
+      "Normal Bronze": {
+        "E_net_if_critical_base_only": {
+          "decimal": 23.5,
+          "fraction": "47/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.2175925925925926,
+          "fraction": "47/216"
+        },
+        "RD": 5,
+        "crit_base_damage_range": [
+          21,
+          36
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 3.662037037037037,
+          "fraction": "791/216"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.03390775034293553,
+          "fraction": "791/23328"
+        },
+        "RD": 25,
+        "crit_base_damage_range": [
+          21,
+          36
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.8379629629629629,
+          "fraction": "181/216"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.0077589163237311385,
+          "fraction": "181/23328"
+        }
+      },
+      "Normal Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 0.004629629629629629,
+          "fraction": "1/216"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 4.286694101508916e-05,
+          "fraction": "1/23328"
+        },
+        "RD": 35,
+        "crit_base_damage_range": [
+          21,
+          36
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.004629629629629629,
+          "fraction": "1/216"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 4.286694101508916e-05,
+          "fraction": "1/23328"
+        }
+      },
+      "Normal Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 13.5,
+          "fraction": "27/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.125,
+          "fraction": "1/8"
+        },
+        "RD": 15,
+        "crit_base_damage_range": [
+          21,
+          36
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Lendario": {
+        "E_net_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "RD": 75,
+        "crit_base_damage_range": [
+          21,
+          36
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        }
+      },
+      "Titan Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "RD": 45,
+        "crit_base_damage_range": [
+          21,
+          36
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        }
+      },
+      "Titan Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "RD": 60,
+        "crit_base_damage_range": [
+          21,
+          36
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        }
+      },
+      "Titan Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 0.5833333333333334,
+          "fraction": "7/12"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.005401234567901234,
+          "fraction": "7/1296"
+        },
+        "RD": 30,
+        "crit_base_damage_range": [
+          21,
+          36
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.25925925925925924,
+          "fraction": "7/27"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.0024005486968449933,
+          "fraction": "7/2916"
+        }
+      }
+    },
+    "Normal Ouro 9d6": {
+      "Divina if explicit flag": {
+        "E_net_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "RD": 120,
+        "crit_base_damage_range": [
+          63,
+          108
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        }
+      },
+      "Normal Bronze": {
+        "E_net_if_critical_base_only": {
+          "decimal": 80.5,
+          "fraction": "161/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.7453703703703703,
+          "fraction": "161/216"
+        },
+        "RD": 5,
+        "crit_base_damage_range": [
+          63,
+          108
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 60.5,
+          "fraction": "121/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.5601851851851852,
+          "fraction": "121/216"
+        },
+        "RD": 25,
+        "crit_base_damage_range": [
+          63,
+          108
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 50.5,
+          "fraction": "101/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.4675925925925926,
+          "fraction": "101/216"
+        },
+        "RD": 35,
+        "crit_base_damage_range": [
+          63,
+          108
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 70.5,
+          "fraction": "141/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.6527777777777778,
+          "fraction": "47/72"
+        },
+        "RD": 15,
+        "crit_base_damage_range": [
+          63,
+          108
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Lendario": {
+        "E_net_if_critical_base_only": {
+          "decimal": 10.532317803593202,
+          "fraction": "35380499/3359232"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.0975214611443815,
+          "fraction": "35380499/362797056"
+        },
+        "RD": 75,
+        "crit_base_damage_range": [
+          63,
+          108
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.9752998105916273,
+          "fraction": "9828775/10077696"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009030553801774326,
+          "fraction": "9828775/1088391168"
+        }
+      },
+      "Titan Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 40.5,
+          "fraction": "81/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.375,
+          "fraction": "3/8"
+        },
+        "RD": 45,
+        "crit_base_damage_range": [
+          63,
+          108
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 25.5,
+          "fraction": "51/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.2361111111111111,
+          "fraction": "17/72"
+        },
+        "RD": 60,
+        "crit_base_damage_range": [
+          63,
+          108
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 55.5,
+          "fraction": "111/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.5138888888888888,
+          "fraction": "37/72"
+        },
+        "RD": 30,
+        "crit_base_damage_range": [
+          63,
+          108
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      }
+    },
+    "Normal Ouro Negro 12d6": {
+      "Divina if explicit flag": {
+        "E_net_if_critical_base_only": {
+          "decimal": 0.47617620138571354,
+          "fraction": "4798759/10077696"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.00440903890171957,
+          "fraction": "4798759/1088391168"
+        },
+        "RD": 120,
+        "crit_base_damage_range": [
+          84,
+          144
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.1376234835452101,
+          "fraction": "18723523/136048896"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.001274291514307501,
+          "fraction": "18723523/14693280768"
+        }
+      },
+      "Normal Bronze": {
+        "E_net_if_critical_base_only": {
+          "decimal": 109.0,
+          "fraction": "109"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.0092592592592593,
+          "fraction": "109/108"
+        },
+        "RD": 5,
+        "crit_base_damage_range": [
+          84,
+          144
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 89.0,
+          "fraction": "89"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.8240740740740741,
+          "fraction": "89/108"
+        },
+        "RD": 25,
+        "crit_base_damage_range": [
+          84,
+          144
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 79.0,
+          "fraction": "79"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.7314814814814815,
+          "fraction": "79/108"
+        },
+        "RD": 35,
+        "crit_base_damage_range": [
+          84,
+          144
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 99.0,
+          "fraction": "99"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.9166666666666666,
+          "fraction": "11/12"
+        },
+        "RD": 15,
+        "crit_base_damage_range": [
+          84,
+          144
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Lendario": {
+        "E_net_if_critical_base_only": {
+          "decimal": 39.0,
+          "fraction": "39"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.3611111111111111,
+          "fraction": "13/36"
+        },
+        "RD": 75,
+        "crit_base_damage_range": [
+          84,
+          144
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 69.0,
+          "fraction": "69"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.6388888888888888,
+          "fraction": "23/36"
+        },
+        "RD": 45,
+        "crit_base_damage_range": [
+          84,
+          144
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 54.0,
+          "fraction": "54"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.5,
+          "fraction": "1/2"
+        },
+        "RD": 60,
+        "crit_base_damage_range": [
+          84,
+          144
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 84.0,
+          "fraction": "84"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.7777777777777778,
+          "fraction": "7/9"
+        },
+        "RD": 30,
+        "crit_base_damage_range": [
+          84,
+          144
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      }
+    },
+    "Normal Prata 6d6": {
+      "Divina if explicit flag": {
+        "E_net_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "RD": 120,
+        "crit_base_damage_range": [
+          42,
+          72
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        }
+      },
+      "Normal Bronze": {
+        "E_net_if_critical_base_only": {
+          "decimal": 52.0,
+          "fraction": "52"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.48148148148148145,
+          "fraction": "13/27"
+        },
+        "RD": 5,
+        "crit_base_damage_range": [
+          42,
+          72
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 32.0,
+          "fraction": "32"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.2962962962962963,
+          "fraction": "8/27"
+        },
+        "RD": 25,
+        "crit_base_damage_range": [
+          42,
+          72
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 22.0,
+          "fraction": "22"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.2037037037037037,
+          "fraction": "11/54"
+        },
+        "RD": 35,
+        "crit_base_damage_range": [
+          42,
+          72
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 42.0,
+          "fraction": "42"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.3888888888888889,
+          "fraction": "7/18"
+        },
+        "RD": 15,
+        "crit_base_damage_range": [
+          42,
+          72
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Lendario": {
+        "E_net_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "RD": 75,
+        "crit_base_damage_range": [
+          42,
+          72
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        }
+      },
+      "Titan Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 12.000771604938272,
+          "fraction": "15553/1296"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.11111825560128029,
+          "fraction": "15553/139968"
+        },
+        "RD": 45,
+        "crit_base_damage_range": [
+          42,
+          72
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.9981995884773662,
+          "fraction": "3881/3888"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009242588782197836,
+          "fraction": "3881/419904"
+        }
+      },
+      "Titan Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 0.5802469135802469,
+          "fraction": "47/81"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.0053726566072245085,
+          "fraction": "47/8748"
+        },
+        "RD": 60,
+        "crit_base_damage_range": [
+          42,
+          72
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.20584705075445817,
+          "fraction": "2401/11664"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.0019059912106894274,
+          "fraction": "2401/1259712"
+        }
+      },
+      "Titan Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 27.0,
+          "fraction": "27"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.25,
+          "fraction": "1/4"
+        },
+        "RD": 30,
+        "crit_base_damage_range": [
+          42,
+          72
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      }
+    },
+    "Titan Bronze 5d10": {
+      "Divina if explicit flag": {
+        "E_net_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "RD": 120,
+        "crit_base_damage_range": [
+          55,
+          100
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.0,
+          "fraction": "0"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.0,
+          "fraction": "0"
+        }
+      },
+      "Normal Bronze": {
+        "E_net_if_critical_base_only": {
+          "decimal": 72.5,
+          "fraction": "145/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.6712962962962963,
+          "fraction": "145/216"
+        },
+        "RD": 5,
+        "crit_base_damage_range": [
+          55,
+          100
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 52.5,
+          "fraction": "105/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.4861111111111111,
+          "fraction": "35/72"
+        },
+        "RD": 25,
+        "crit_base_damage_range": [
+          55,
+          100
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 42.5,
+          "fraction": "85/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.39351851851851855,
+          "fraction": "85/216"
+        },
+        "RD": 35,
+        "crit_base_damage_range": [
+          55,
+          100
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 62.5,
+          "fraction": "125/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.5787037037037037,
+          "fraction": "125/216"
+        },
+        "RD": 15,
+        "crit_base_damage_range": [
+          55,
+          100
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Lendario": {
+        "E_net_if_critical_base_only": {
+          "decimal": 4.02075,
+          "fraction": "16083/4000"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.03722916666666667,
+          "fraction": "1787/48000"
+        },
+        "RD": 75,
+        "crit_base_damage_range": [
+          55,
+          100
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.61875,
+          "fraction": "99/160"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.005729166666666666,
+          "fraction": "11/1920"
+        }
+      },
+      "Titan Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 32.5,
+          "fraction": "65/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.30092592592592593,
+          "fraction": "65/216"
+        },
+        "RD": 45,
+        "crit_base_damage_range": [
+          55,
+          100
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 17.5021,
+          "fraction": "175021/10000"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.16205648148148147,
+          "fraction": "175021/1080000"
+        },
+        "RD": 60,
+        "crit_base_damage_range": [
+          55,
+          100
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.99748,
+          "fraction": "24937/25000"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009235925925925925,
+          "fraction": "24937/2700000"
+        }
+      },
+      "Titan Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 47.5,
+          "fraction": "95/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.4398148148148148,
+          "fraction": "95/216"
+        },
+        "RD": 30,
+        "crit_base_damage_range": [
+          55,
+          100
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      }
+    },
+    "Titan Lendario 20d10": {
+      "Divina if explicit flag": {
+        "E_net_if_critical_base_only": {
+          "decimal": 190.0,
+          "fraction": "190"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.7592592592592593,
+          "fraction": "95/54"
+        },
+        "RD": 120,
+        "crit_base_damage_range": [
+          220,
+          400
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Bronze": {
+        "E_net_if_critical_base_only": {
+          "decimal": 305.0,
+          "fraction": "305"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 2.824074074074074,
+          "fraction": "305/108"
+        },
+        "RD": 5,
+        "crit_base_damage_range": [
+          220,
+          400
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 285.0,
+          "fraction": "285"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 2.638888888888889,
+          "fraction": "95/36"
+        },
+        "RD": 25,
+        "crit_base_damage_range": [
+          220,
+          400
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 275.0,
+          "fraction": "275"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 2.5462962962962963,
+          "fraction": "275/108"
+        },
+        "RD": 35,
+        "crit_base_damage_range": [
+          220,
+          400
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 295.0,
+          "fraction": "295"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 2.7314814814814814,
+          "fraction": "295/108"
+        },
+        "RD": 15,
+        "crit_base_damage_range": [
+          220,
+          400
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Lendario": {
+        "E_net_if_critical_base_only": {
+          "decimal": 235.0,
+          "fraction": "235"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 2.175925925925926,
+          "fraction": "235/108"
+        },
+        "RD": 75,
+        "crit_base_damage_range": [
+          220,
+          400
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 265.0,
+          "fraction": "265"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 2.4537037037037037,
+          "fraction": "265/108"
+        },
+        "RD": 45,
+        "crit_base_damage_range": [
+          220,
+          400
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 250.0,
+          "fraction": "250"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 2.314814814814815,
+          "fraction": "125/54"
+        },
+        "RD": 60,
+        "crit_base_damage_range": [
+          220,
+          400
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 280.0,
+          "fraction": "280"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 2.5925925925925926,
+          "fraction": "70/27"
+        },
+        "RD": 30,
+        "crit_base_damage_range": [
+          220,
+          400
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      }
+    },
+    "Titan Ouro 11d10": {
+      "Divina if explicit flag": {
+        "E_net_if_critical_base_only": {
+          "decimal": 50.5,
+          "fraction": "101/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.4675925925925926,
+          "fraction": "101/216"
+        },
+        "RD": 120,
+        "crit_base_damage_range": [
+          121,
+          220
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Bronze": {
+        "E_net_if_critical_base_only": {
+          "decimal": 165.5,
+          "fraction": "331/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.5324074074074074,
+          "fraction": "331/216"
+        },
+        "RD": 5,
+        "crit_base_damage_range": [
+          121,
+          220
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 145.5,
+          "fraction": "291/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.3472222222222223,
+          "fraction": "97/72"
+        },
+        "RD": 25,
+        "crit_base_damage_range": [
+          121,
+          220
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 135.5,
+          "fraction": "271/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.2546296296296295,
+          "fraction": "271/216"
+        },
+        "RD": 35,
+        "crit_base_damage_range": [
+          121,
+          220
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 155.5,
+          "fraction": "311/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.4398148148148149,
+          "fraction": "311/216"
+        },
+        "RD": 15,
+        "crit_base_damage_range": [
+          121,
+          220
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Lendario": {
+        "E_net_if_critical_base_only": {
+          "decimal": 95.5,
+          "fraction": "191/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.8842592592592593,
+          "fraction": "191/216"
+        },
+        "RD": 75,
+        "crit_base_damage_range": [
+          121,
+          220
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 125.5,
+          "fraction": "251/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.162037037037037,
+          "fraction": "251/216"
+        },
+        "RD": 45,
+        "crit_base_damage_range": [
+          121,
+          220
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 110.5,
+          "fraction": "221/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.0231481481481481,
+          "fraction": "221/216"
+        },
+        "RD": 60,
+        "crit_base_damage_range": [
+          121,
+          220
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 140.5,
+          "fraction": "281/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.3009259259259258,
+          "fraction": "281/216"
+        },
+        "RD": 30,
+        "crit_base_damage_range": [
+          121,
+          220
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      }
+    },
+    "Titan Ouro Negro 13d10": {
+      "Divina if explicit flag": {
+        "E_net_if_critical_base_only": {
+          "decimal": 81.5,
+          "fraction": "163/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.7546296296296297,
+          "fraction": "163/216"
+        },
+        "RD": 120,
+        "crit_base_damage_range": [
+          143,
+          260
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Bronze": {
+        "E_net_if_critical_base_only": {
+          "decimal": 196.5,
+          "fraction": "393/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.8194444444444444,
+          "fraction": "131/72"
+        },
+        "RD": 5,
+        "crit_base_damage_range": [
+          143,
+          260
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 176.5,
+          "fraction": "353/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.6342592592592593,
+          "fraction": "353/216"
+        },
+        "RD": 25,
+        "crit_base_damage_range": [
+          143,
+          260
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 166.5,
+          "fraction": "333/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.5416666666666667,
+          "fraction": "37/24"
+        },
+        "RD": 35,
+        "crit_base_damage_range": [
+          143,
+          260
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 186.5,
+          "fraction": "373/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.7268518518518519,
+          "fraction": "373/216"
+        },
+        "RD": 15,
+        "crit_base_damage_range": [
+          143,
+          260
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Lendario": {
+        "E_net_if_critical_base_only": {
+          "decimal": 126.5,
+          "fraction": "253/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.1712962962962963,
+          "fraction": "253/216"
+        },
+        "RD": 75,
+        "crit_base_damage_range": [
+          143,
+          260
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 156.5,
+          "fraction": "313/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.4490740740740742,
+          "fraction": "313/216"
+        },
+        "RD": 45,
+        "crit_base_damage_range": [
+          143,
+          260
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 141.5,
+          "fraction": "283/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.3101851851851851,
+          "fraction": "283/216"
+        },
+        "RD": 60,
+        "crit_base_damage_range": [
+          143,
+          260
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 171.5,
+          "fraction": "343/2"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.587962962962963,
+          "fraction": "343/216"
+        },
+        "RD": 30,
+        "crit_base_damage_range": [
+          143,
+          260
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      }
+    },
+    "Titan Prata 8d10": {
+      "Divina if explicit flag": {
+        "E_net_if_critical_base_only": {
+          "decimal": 5.63684,
+          "fraction": "140921/25000"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.05219296296296296,
+          "fraction": "140921/2700000"
+        },
+        "RD": 120,
+        "crit_base_damage_range": [
+          88,
+          160
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 0.66394075,
+          "fraction": "2655763/4000000"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.006147599537037037,
+          "fraction": "2655763/432000000"
+        }
+      },
+      "Normal Bronze": {
+        "E_net_if_critical_base_only": {
+          "decimal": 119.0,
+          "fraction": "119"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.1018518518518519,
+          "fraction": "119/108"
+        },
+        "RD": 5,
+        "crit_base_damage_range": [
+          88,
+          160
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 99.0,
+          "fraction": "99"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.9166666666666666,
+          "fraction": "11/12"
+        },
+        "RD": 25,
+        "crit_base_damage_range": [
+          88,
+          160
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 89.0,
+          "fraction": "89"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.8240740740740741,
+          "fraction": "89/108"
+        },
+        "RD": 35,
+        "crit_base_damage_range": [
+          88,
+          160
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Normal Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 109.0,
+          "fraction": "109"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 1.0092592592592593,
+          "fraction": "109/108"
+        },
+        "RD": 15,
+        "crit_base_damage_range": [
+          88,
+          160
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Lendario": {
+        "E_net_if_critical_base_only": {
+          "decimal": 49.0,
+          "fraction": "49"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.4537037037037037,
+          "fraction": "49/108"
+        },
+        "RD": 75,
+        "crit_base_damage_range": [
+          88,
+          160
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Ouro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 79.0,
+          "fraction": "79"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.7314814814814815,
+          "fraction": "79/108"
+        },
+        "RD": 45,
+        "crit_base_damage_range": [
+          88,
+          160
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Ouro Negro": {
+        "E_net_if_critical_base_only": {
+          "decimal": 64.0,
+          "fraction": "64"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.5925925925925926,
+          "fraction": "16/27"
+        },
+        "RD": 60,
+        "crit_base_damage_range": [
+          88,
+          160
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      },
+      "Titan Prata": {
+        "E_net_if_critical_base_only": {
+          "decimal": 94.0,
+          "fraction": "94"
+        },
+        "E_net_per_attempt_if_only_critical_hits_and_independent_check": {
+          "decimal": 0.8703703703703703,
+          "fraction": "47/54"
+        },
+        "RD": 30,
+        "crit_base_damage_range": [
+          88,
+          160
+        ],
+        "p_positive_if_critical_base_only": {
+          "decimal": 1.0,
+          "fraction": "1"
+        },
+        "p_positive_per_attack_if_only_critical_hits_and_independent_critical_check": {
+          "decimal": 0.009259259259259259,
+          "fraction": "1/108"
+        }
+      }
+    }
+  },
+  "date": "2026-10-15",
+  "literal_new_attack_formulas": [
+    {
+      "action": "Galha mortal",
+      "action_cost_PA": null,
+      "critical_damage_if_eligible": {
+        "eligibility": "UNVERIFIED; do not apply crit to elemental ability without source-specific authority",
+        "max": 23,
+        "min": 18
+      },
+      "dice_intrinsic_mean": {
+        "decimal": 3.5,
+        "fraction": "7/2"
+      },
+      "external_attribute_share_gross": {
+        "decimal": 0.7586206896551724,
+        "fraction": "22/29"
+      },
+      "formula": "1d6+FOR11",
+      "gross_mean_if_damage_resolves": {
+        "decimal": 14.5,
+        "fraction": "29/2"
+      },
+      "identity": "veado das montanhas",
+      "max_gross": 17,
+      "min_gross": 12,
+      "precision": "UNKNOWN_LUTA/CD/SAVE",
+      "rank_body": "Bronze 2",
+      "rank_title": "Bronze 4",
+      "source_id": "8acc2b324ede827b9bc801746ae97409",
+      "type_documented": "antler attack; subtype not declared"
+    },
+    {
+      "action": "Raio eletrizante",
+      "action_cost_PA": null,
+      "critical_damage_if_eligible": {
+        "eligibility": "UNVERIFIED; do not apply crit to elemental ability without source-specific authority",
+        "max": 88,
+        "min": 82
+      },
+      "dice_intrinsic_mean": {
+        "decimal": 5.0,
+        "fraction": "5"
+      },
+      "external_attribute_share_gross": {
+        "decimal": 0.935064935064935,
+        "fraction": "72/77"
+      },
+      "formula": "2d4+INT72",
+      "gross_mean_if_damage_resolves": {
+        "decimal": 77.0,
+        "fraction": "77"
+      },
+      "identity": "Regalis voltmane (tree); body name blank",
+      "max_gross": 80,
+      "min_gross": 74,
+      "precision": "UNKNOWN_LUTA/CD/SAVE",
+      "rank_body": "Ouro 2",
+      "rank_title": "Ouro 2",
+      "source_id": "5fac2b324ede8381a25581194ebf9bd7",
+      "type_documented": "raio; elemental RD unknown"
+    },
+    {
+      "action": "Raio purificador",
+      "action_cost_PA": null,
+      "critical_damage_if_eligible": {
+        "eligibility": "UNVERIFIED; do not apply crit to elemental ability without source-specific authority",
+        "max": 88,
+        "min": 82
+      },
+      "dice_intrinsic_mean": {
+        "decimal": 5.0,
+        "fraction": "5"
+      },
+      "external_attribute_share_gross": {
+        "decimal": 0.935064935064935,
+        "fraction": "72/77"
+      },
+      "formula": "2d4+INT72",
+      "gross_mean_if_damage_resolves": {
+        "decimal": 77.0,
+        "fraction": "77"
+      },
+      "identity": "Regalis voltmane (tree); body name blank",
+      "max_gross": 80,
+      "min_gross": 74,
+      "precision": "UNKNOWN_LUTA/CD/SAVE",
+      "rank_body": "Ouro 2",
+      "rank_title": "Ouro 2",
+      "source_id": "5fac2b324ede8381a25581194ebf9bd7",
+      "type_documented": "raio; elemental RD unknown"
+    },
+    {
+      "action": "Toque macabro",
+      "action_cost_PA": null,
+      "critical_damage_if_eligible": {
+        "eligibility": "UNVERIFIED; do not apply crit to elemental ability without source-specific authority",
+        "max": 80,
+        "min": 77
+      },
+      "dice_intrinsic_mean": {
+        "decimal": 2.5,
+        "fraction": "5/2"
+      },
+      "external_attribute_share_gross": {
+        "decimal": 0.9664429530201343,
+        "fraction": "144/149"
+      },
+      "formula": "1d4+INT72",
+      "gross_mean_if_damage_resolves": {
+        "decimal": 74.5,
+        "fraction": "149/2"
+      },
+      "identity": "Regalis voltmane (tree); body name blank",
+      "max_gross": 76,
+      "min_gross": 73,
+      "precision": "UNKNOWN_LUTA/CD/SAVE",
+      "rank_body": "Ouro 2",
+      "rank_title": "Ouro 2",
+      "source_id": "5fac2b324ede8381a25581194ebf9bd7",
+      "type_documented": "macabro; unspecified precise type"
+    }
+  ],
+  "local_checks": [
+    {
+      "check": "four new literal damage actions",
+      "pass": true
+    },
+    {
+      "check": "Bronze base 3d6 vs RD35 only three sixes",
+      "pass": true
+    },
+    {
+      "check": "Bronze 3d6 crit max36 cannot penetrate Titan Gold RD45",
+      "pass": true
+    },
+    {
+      "check": "double rare positive crit + max damage",
+      "pass": true
+    },
+    {
+      "check": "Galha crit max23 cannot beat RD25",
+      "pass": true
+    },
+    {
+      "check": "Frigido critical after RD25 has conditional expected 2.5",
+      "pass": true
+    },
+    {
+      "check": "Frigido critical ppositive 5/6",
+      "pass": true
+    },
+    {
+      "check": "Frigido crit no positive dmg vs RD30",
+      "pass": true
+    },
+    {
+      "check": "first hypothetical Galha common hit on CA78 needs individual Luta >=62",
+      "pass": true
+    },
+    {
+      "check": "R10 bilateral Eattack exact reconciliation",
+      "pass": true
+    },
+    {
+      "check": "expected nonterminal hit count positive",
+      "pass": true
+    },
+    {
+      "check": "negative crit expected number matches probability if 1/108",
+      "pass": true
+    },
+    {
+      "check": "7/12 rank CATEGORY differences title body",
+      "pass": true
+    },
+    {
+      "check": "2/12 title/body exact full rank+stars",
+      "pass": true
+    }
+  ],
+  "new_native_VLAB_exec": 0,
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "real_source_PA_economy": {
+    "action_cost": "not specified for jump activation; cannot infer standard/free from (Atv.)",
+    "activation": "Voo da Águia, +4.5m jump if source mechanic legal; not general flight/walk ability",
+    "classification": "sem classificação",
+    "comparison_limit": "cannot compare PA to HP; cannot apply to a random beast not documented wearing it",
+    "conditional_consumption_for_k_activations": {
+      "0": 20,
+      "1": 24,
+      "10": 60,
+      "20": 100,
+      "3": 32,
+      "5": 40
+    },
+    "daily_PA_commit": 20,
+    "duration": "20PA per day; first payment/timing not specified here",
+    "item": "Traje águia celeste",
+    "max_activations_per_turn": 1,
+    "on_activation_PA": 4,
+    "source_id": "3edc2b324ede816cbad5ca3880ce144d"
+  },
+  "research_limits": [
+    "not a random sample",
+    "new sources have unknown Luta; no complete new real-fight",
+    "R41 native already handles positive critical; no duplicate test",
+    "R42 is REGISTRO ANTES only, laboratory negative crit decision already described but full R42 new native execution unverified",
+    "F0 gate 4/8 remains; no production writes",
+    "L003 0/71 authenticated unchanged"
+  ],
+  "round": "POST-R10-C01",
+  "source": "Notion MASTER READONLY, exact source pages manually screened, verified 2026-10-15",
+  "source_selection": {
+    "L003_membership_per_new_unit": "UNVERIFIED (zero new L003 unit certification)",
+    "bias_disclaimer": "Ranking from search title convenience, nonrandom, includes severe rank conflicts. No Luta, ability casting, PA attack, weakness or rank adjudication inferred.",
+    "fetched_physical_pages": 18,
+    "frozen_prereg_sha256": "3c76ad28703b54858e93f7f227324fb44cb57512927915f4155378e3424ae6a0",
+    "global_population_total": "UNDETERMINED",
+    "historical_R03_R04_numeric_actions_29_prior": "not promoted to population estimate; compare cohorts exploratory only",
+    "master_beast_pages": 12,
+    "master_equipment_with_cost_no_damage": 1,
+    "master_pages_excluding_party": 17,
+    "master_ps_or_unapproved_encounter_excluded": 3,
+    "master_unclassified_story_item_no_numeric_damage": 1,
+    "new_numeric_damage_expression_kinds": 3,
+    "numeric_damage_actions": 4,
+    "party_mirror_excluded": 1,
+    "rank_major_category_mismatch_title_body": 7,
+    "rank_same_major_category_title_body": 5,
+    "rank_star_full_concordance_title_body": 2,
+    "title_body_not_fully_concordant_count": 10,
+    "unique_new_pages_with_numeric_damage": 2
+  },
+  "source_specific_contrasts": {
+    "Frigido_Rabada_vs_Behemoth_CA68_RD25": {
+      "E_net_damage_per_attack": {
+        "decimal": 0.023148148148148147,
+        "fraction": "5/216"
+      },
+      "constraints": "zero extra buffs, Rabada 1d6+FOR18, critical independent vs ordinary 1d6 check, general RD25 competent, no extra reactions",
+      "critical_auto_p": {
+        "decimal": 0.009259259259259259,
+        "fraction": "1/108"
+      },
+      "critical_damage_positive_conditional_probability": {
+        "decimal": 0.8333333333333334,
+        "fraction": "5/6"
+      },
+      "noncritical_p_common_hit": 0,
+      "p_damage_positive_per_attack": {
+        "decimal": 0.007716049382716049,
+        "fraction": "5/648"
+      },
+      "rd30_critical_damage": "always zero"
+    },
+    "Galha_Bronze_title4_body2_vs_RD25": {
+      "max_gross_critical": 23,
+      "max_gross_normal": 17,
+      "p_positive_damage_even_if_hit_or_auto_crit": 0,
+      "prerequisites": "competent RD25 mitigates antler physical, no other buffs"
+    },
+    "Ouro2_Raio_eltrizante_rider": {
+      "none_of_two_spells_assigned_critical": true,
+      "p_stun_unconditional": "NOT AUTHORIZED; hit, Fortitude DC and resolution missing",
+      "physical_gross_formula_same_as_Raio_purificador": "2d4+INT72",
+      "rider_check_probability_if_1d4_separate_uniform": {
+        "decimal": 0.25,
+        "fraction": "1/4"
+      },
+      "source_id": "5fac2b324ede8381a25581194ebf9bd7"
+    }
+  },
+  "spatial_action_economy": {
+    "baseline_R10_model_rounds_mean": {
+      "decimal": 205.75378677688602,
+      "fraction": "3780942979428/18376055375"
+    },
+    "distance_after_push_if_start_at_adjacent_1_5m": 3.0,
+    "expected_negative_crit_events_total_if_lab_policy_R42_applies": {
+      "decimal": 3.805617534724406,
+      "fraction": "9077197/2385210"
+    },
+    "expected_nonlethal_critical_pushes_needing_a_reposition_if_next_attack_requires_adjacency": {
+      "decimal": 2.805617534724406,
+      "fraction": "6691987/2385210"
+    },
+    "expected_positive_crit_events_total": {
+      "decimal": 3.805617534724406,
+      "fraction": "9077197/2385210"
+    },
+    "expected_total_attacks": {
+      "decimal": 411.00669375023585,
+      "fraction": "163389546/397535"
+    },
+    "forced_push_distance_each_if_source_conditions_hold_m": 1.5,
+    "impact_on_rounds_if_Move_and_Attack_same_turn_admissible": "zero mathematical added rounds in this restricted one attack per round model, but extra Movement actions",
+    "impact_on_rounds_if_Movement_cannot_restore": "NOT DETERMINABLE; reachability and terrain not specified; no free zero-time reposition",
+    "movement_action_required": "conditional on capacity/geometry; VLAB R35 permits Movement recover before attack in a legal source-derived scene"
+  }
+}

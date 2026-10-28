@@ -1,0 +1,29 @@
+{
+  "result": "PASS_NEW_FAULT_COPY",
+  "forward_receipt_unit_tests": 6,
+  "negative_invalid_receipts": 2,
+  "injects": [
+    {
+      "run": "FRESH_AFTER_INTENT",
+      "exit_code": 78,
+      "failpoint": "AFTER_INTENT",
+      "events": 0,
+      "pending": 1,
+      "readback_integrity": "ok",
+      "status": "UNKNOWN_EFFECT_HOLD"
+    },
+    {
+      "run": "FRESH_AFTER_COMMIT",
+      "exit_code": 77,
+      "failpoint": "AFTER_COMMIT",
+      "events": 1,
+      "pending": 0,
+      "readback_integrity": "ok",
+      "status": "COMMIT_ONCE_PASS"
+    }
+  ],
+  "export_crash_no_published_csv": true,
+  "original_R160_db_mutation": false,
+  "recovery": "R18_AFTER_COMMIT_COLD_READBACK_ONLY",
+  "non_mechanical_fixture_scope": "TX_AND_EXPORT_ONLY"
+}

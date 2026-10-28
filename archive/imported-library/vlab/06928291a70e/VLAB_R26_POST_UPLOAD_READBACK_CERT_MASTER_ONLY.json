@@ -1,0 +1,18 @@
+{
+  "R25_unchanged": true,
+  "artifact": "VLAB_STAGE12_A1A2A3_MASTER_RULINGS_R26_SANDBOX.zip",
+  "byte_identical": true,
+  "file_size": 17541213,
+  "historical_r25_member_count_verified": 2556,
+  "library_file_id": "libfile_df4c8a9248448191b88e696ee83a72c0",
+  "manifest_sha256_members_verified": 2596,
+  "new_r26_test_checks_clean": 38,
+  "official_rank_cells_credited": 0,
+  "schema": "VLAB_R26_POST_LIBRARY_READBACK_CERT",
+  "sha256_library_readback": "0375f64f884ac9d85b1bfa5f9f01099c53873f4c6e1a76d126de31b423927e75",
+  "sha256_original": "0375f64f884ac9d85b1bfa5f9f01099c53873f4c6e1a76d126de31b423927e75",
+  "status": "PASS",
+  "writes_to_notion_party_o_primeiro": 0,
+  "zip_crc": "PASS",
+  "zip_entries": 2597
+}

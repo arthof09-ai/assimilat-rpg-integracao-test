@@ -1,0 +1,359 @@
+{
+  "schema": "OP-DMG-CORPUS-EMP-01/SCIENTIFIC-ORACLE-R05-v0.6",
+  "mission": "single natural beast attack against ED, MESTRE-SIDE ONLY",
+  "no_repeat": [
+    "IBX-28",
+    "IBX-32",
+    "IBX-34/R03",
+    "IBX-34/R04",
+    "IBX-34/R04B",
+    "historical198"
+  ],
+  "source_manifest": {
+    "liu": {
+      "page_id": "0b4c2b324ede837cb6be818dc8e36010",
+      "url": "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010",
+      "observed_last_edit": "2026-10-01T09:40:50.721Z",
+      "evidence_kind": "Notion source, no runtime authorization"
+    },
+    "monkey": {
+      "page_id": "301c2b324ede828caccb813d3979267a",
+      "url": "https://app.notion.com/p/301c2b324ede828caccb813d3979267a",
+      "observed_last_edit": "2026-10-01T18:00:42.589Z",
+      "evidence_kind": "Notion source, no runtime authorization"
+    },
+    "combat": {
+      "page_id": "3ebc2b324ede81f1be4be8804ac113c0",
+      "url": "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0",
+      "observed_last_edit": "2026-10-07T23:51:04.971Z",
+      "evidence_kind": "Notion source, no runtime authorization"
+    },
+    "character_creation": {
+      "page_id": "3ebc2b324ede81449222f3c06b840613",
+      "url": "https://app.notion.com/p/3ebc2b324ede81449222f3c06b840613",
+      "observed_last_edit": "2026-10-07T23:51:09.023Z",
+      "evidence_kind": "Notion source, no runtime authorization"
+    },
+    "beast_creation": {
+      "page_id": "3ebc2b324ede81f4992ac88a3588cacd",
+      "url": "https://app.notion.com/p/3ebc2b324ede81f4992ac88a3588cacd",
+      "observed_last_edit": "2026-10-07T20:58:56.199Z",
+      "evidence_kind": "Notion source, no runtime authorization"
+    },
+    "historical_character_creation": {
+      "page_id": "52ec2b324ede829fbfd881f261df8d0e",
+      "url": "https://app.notion.com/p/52ec2b324ede829fbfd881f261df8d0e",
+      "observed_last_edit": "2026-09-30T16:32:31.637Z",
+      "evidence_kind": "Notion source, no runtime authorization"
+    },
+    "taxonomy": {
+      "page_id": "3f3c2b324ede81609a28e18c11d3cae4",
+      "url": "https://app.notion.com/p/3f3c2b324ede81609a28e18c11d3cae4",
+      "observed_last_edit": "2026-10-08T01:47:11.287Z",
+      "evidence_kind": "Notion source, no runtime authorization"
+    },
+    "rdf_crosscheck_beast": {
+      "page_id": "a47c2b324ede821f834481bef49fb8e3",
+      "url": "https://app.notion.com/p/a47c2b324ede821f834481bef49fb8e3",
+      "observed_last_edit": "2026-10-01T18:00:42.492Z",
+      "evidence_kind": "Notion source, no runtime authorization"
+    },
+    "lab_rd_direction": {
+      "page_id": "3f3c2b324ede81a398edd6df6bf0d8d4",
+      "url": "https://app.notion.com/p/3f3c2b324ede81a398edd6df6bf0d8d4",
+      "observed_last_edit": "2026-10-08T14:04:38.309Z",
+      "evidence_kind": "Notion source, no runtime authorization"
+    },
+    "lab_v09": {
+      "page_id": "3f3c2b324ede81e795d9c59794bcbdeb",
+      "url": "https://app.notion.com/p/3f3c2b324ede81e795d9c59794bcbdeb",
+      "observed_last_edit": "2026-10-08T14:27:25.920Z",
+      "evidence_kind": "Notion source, no runtime authorization"
+    },
+    "lab_action_catalog": {
+      "page_id": "3f3c2b324ede8182a7c6da2804944d2f",
+      "url": "https://app.notion.com/p/3f3c2b324ede8182a7c6da2804944d2f",
+      "observed_last_edit": "2026-10-08T12:56:24.901Z",
+      "evidence_kind": "Notion source, no runtime authorization"
+    },
+    "template": {
+      "page_id": "528c2b324ede82d09cc6011a8ef5a26f",
+      "url": "https://app.notion.com/p/528c2b324ede82d09cc6011a8ef5a26f",
+      "observed_last_edit": "2026-09-30T04:34:37.809Z",
+      "evidence_kind": "Notion source, no runtime authorization"
+    },
+    "peer_jaku": {
+      "page_id": "2f6c2b324ede835796a9012df0a1a816",
+      "url": "https://app.notion.com/p/2f6c2b324ede835796a9012df0a1a816",
+      "observed_last_edit": "2026-09-30T04:36:54.035Z",
+      "evidence_kind": "Notion source, no runtime authorization"
+    },
+    "peer_yin": {
+      "page_id": "979c2b324ede821cb1680117cf30207a",
+      "url": "https://app.notion.com/p/979c2b324ede821cb1680117cf30207a",
+      "observed_last_edit": "2026-09-30T04:36:12.595Z",
+      "evidence_kind": "Notion source, no runtime authorization"
+    }
+  },
+  "dodge": {
+    "combat_literal": "Esquiva = CA + Reflexo",
+    "liu_profile_literal": "CA 46 (Reflexo 49)",
+    "best_supported_interpretation": "Reflexo 49 is precomputed reaction defense total; do not add 46 again",
+    "basis": "Liu normal/transformed delta 3; Jaku delta 6; Yin delta 8; base ficha stores CA and Reflexo side by side; Criação de Ficha adds proficiency to CA",
+    "comparators": {
+      "liu_normal": {
+        "ca": 46,
+        "precomputed_reflex": 49
+      },
+      "liu_transformed": {
+        "ca": 60,
+        "precomputed_reflex": 63
+      },
+      "jaku_normal": {
+        "ca": 29,
+        "precomputed_reflex": 35
+      },
+      "jaku_transformed": {
+        "ca": 39,
+        "precomputed_reflex": 45
+      },
+      "yin_normal": {
+        "ca": 29,
+        "precomputed_reflex": 37
+      },
+      "yin_transformed": {
+        "ca": 42,
+        "precomputed_reflex": 50
+      }
+    },
+    "increment_CA_to_reported_total": 3,
+    "skill_reflexo_exact_component": null,
+    "separate_defenses": {
+      "NO_REACTION": 46,
+      "REACTION_ESQUIVAR_ELIGIBLE": 49
+    },
+    "status": "HIGH_CONFIDENCE_SOURCE_INTERPRETATION; not master ratified; need legal reaction window; 95 is DOUBLE-COUNT"
+  },
+  "strength": {
+    "literal_sheet": 54,
+    "passive_literal": "+2 força",
+    "scenarios": {
+      "A_ALREADY_INCLUDED": 54,
+      "B_ADDITIONAL_IF_NOT_INCLUDED": 56
+    },
+    "inclusion_status": "UNKNOWN, no construction ledger in source; cannot canonize +2",
+    "lab_impact": "For purposes of hit/NO_NEGATIVE modifiers, both scenarios succeed vs CA46 and dodge49; damage differs by 2 per attack; do not mix branches"
+  },
+  "rdf": {
+    "liu_armor_literal": "Armadura Pesada Anã (ON), RDF 10",
+    "physical_category_evidence": "DMG-TAX-DATA-01: CONTUNDENTE/IMPACTO is physical; Rinolupo Prata4 describes RDF10 against physical attacks",
+    "lab_master_direction": "If a single known-type component matches applicable RD, net=max(0,gross-RD); MASTER-DIRECTION-PENDING-NAC-NORM",
+    "current_adjudication": "LIKELY physical impact in coverage; NOT sufficient evidence for simultaneous RD general+RDF priority or actual armor effective state",
+    "stacking_with_general_RD": null,
+    "armor_worn_at_encounter": null,
+    "applies_impact_certified": false,
+    "alternatives": {
+      "IF_APPLIES10": 10,
+      "IF_NOT_APPLICABLE": 0
+    }
+  },
+  "proficiencies": {
+    "character_creation_initial_selected_skill_bonus": 2,
+    "liu_skill_luta": null,
+    "liu_skill_initiative": null,
+    "liu_skill_reflexo_exact": null,
+    "liu_instinto_selvagem_initiative_explicit": 4,
+    "monkey_if_titan_Prata_general_bonus": 11,
+    "monkey_luta_actual_application": null,
+    "monkey_if_not_titan_Prata_general_bonus": 8,
+    "note": "A ficha Liu lists all proficiencies but BOLD selection is not preserved as a determinate Luta bonus. Monster rank proficiency is a table, not a confirmed individual choice/application."
+  },
+  "sources_of_uncertainty": {
+    "identity_alias": "one physical P5 page under Símio Demoníaco with body macaco rei, no alias canonization",
+    "range": null,
+    "line_of_sight": null,
+    "starting_position": null,
+    "reaction_available": null,
+    "position_legal": null,
+    "standard_action_available": null,
+    "active_negative_status": null,
+    "actor_pa_free": null,
+    "source_frozen_evidence_lab_accepted": false,
+    "scheduler_complete": false,
+    "action_effect_adapter_lab_confirmed": false
+  },
+  "scenario": {
+    "attack_action": "Patada: 2d6 + força impacto",
+    "attack_action_type": "STANDARD for normal attack only if attack mapped competently to standard normal attack",
+    "environment_test_params_proposed_not_fact": {
+      "adjacent": true,
+      "same_visible_level": true,
+      "no_cover": true,
+      "reaction_choice": "NO_REACTION or ESQUIVAR explicitly",
+      "status_penalties": 0,
+      "known_buff_state": "NO OPTIONAL BUFF"
+    },
+    "dice_hit": [
+      3,
+      4
+    ],
+    "dice_crit_sequential": [
+      2,
+      3,
+      4
+    ],
+    "dice_damage": [
+      5,
+      3
+    ],
+    "legal_attack_confirmed": false
+  },
+  "replay": {
+    "source_CA": 46,
+    "source_dodge_total_likely": 49,
+    "A_FOR54": {
+      "hit_roll_no_luta": 61,
+      "damage_gross": 62,
+      "if_RDF10_applicable": {
+        "damage_net": 52,
+        "liu_life_from235": 183
+      },
+      "if_not": {
+        "damage_net": 62,
+        "liu_life_from235": 173
+      }
+    },
+    "B_FOR56": {
+      "hit_roll_no_luta": 63,
+      "damage_gross": 64,
+      "if_RDF10_applicable": {
+        "damage_net": 54,
+        "liu_life_from235": 181
+      },
+      "if_not": {
+        "damage_net": 64,
+        "liu_life_from235": 171
+      }
+    },
+    "rolls_are_distinct": true,
+    "probability_hit_if_source_legal_and_luta>=0_and_no_penalties": {
+      "vs_CA46": {
+        "A": [
+          36,
+          36
+        ],
+        "B": [
+          36,
+          36
+        ]
+      },
+      "vs_dodge49_when_reaction_legal": {
+        "A": [
+          36,
+          36
+        ],
+        "B": [
+          36,
+          36
+        ]
+      }
+    },
+    "min_total_negative_modifier_to_still_guarantee_all_hit": {
+      "A_vs_CA46": -9,
+      "A_vs_dodge49": -6,
+      "B_vs_CA46": -11,
+      "B_vs_dodge49": -8
+    },
+    "double_count_95_branch": "REJECT AS INCONSISTENT WITH MULTIPLE SHEET CONVENTIONS",
+    "source_tied_roll_policy": null,
+    "attack_runtime_execution": false
+  },
+  "sensitivity": {
+    "resources_A": {
+      "macaco": {
+        "life": 750,
+        "alma": 700
+      },
+      "behemoth": {
+        "life": 500,
+        "alma": 560
+      }
+    },
+    "resources_B": {
+      "macaco": {
+        "life": 810,
+        "alma": 760
+      },
+      "behemoth": {
+        "life": 530,
+        "alma": 590
+      }
+    },
+    "note": "A literal historical vs B hypothetical under current Criação de Besta; no mix, no canonization; unaffected by single attack on Liu until encounter states chosen"
+  },
+  "lab_adapter": {
+    "contract_basis": "Existing DEV-SIM-DMG-AIN01-03 v0.7 plus DEV-SIM-DMG-AI09-05 v0.9 documentation, not inspected source runtime ZIP",
+    "AbilitySource": {
+      "action_id": "RESEARCH-DMG-R05-MACACO-PATADA",
+      "type": "attack",
+      "economy": "STANDARD_CANDIDATE",
+      "source_page_id": "301c2b324ede828caccb813d3979267a",
+      "rule_id": "Sistema-Combate-Regra3",
+      "pa_cost": null,
+      "range": null,
+      "los": null,
+      "effect_adapter_status": "UNVERIFIED"
+    },
+    "ActorActionState": {
+      "actor_id": "SOURCE-301c2b32-P5",
+      "rank": "Prata5",
+      "pa_free": null,
+      "standard_available": null,
+      "reaction_available": null,
+      "position": null,
+      "selected_skills": null
+    },
+    "FrozenRuleEvidence": {
+      "state": "SOURCE_REFERENCES_AND_R03_CONTENT_HASH_ONLY",
+      "hash_accepted_by_lab": false,
+      "source_readback_evidence": "MESTRE_NOTION_READONLY"
+    },
+    "SourcedOption": {
+      "status": null,
+      "not_authorized_to_announce_legal": true
+    },
+    "EXPECTED_PREFLIGHT": {
+      "status": "STRICT_REJECT_PENDING_SOURCE_AND_SCENE",
+      "reasons": [
+        "UNKNOWN_ACTOR_PA_FREE",
+        "UNKNOWN_RANGE_LOS",
+        "UNKNOWN_ACTION_STATE",
+        "UNKNOWN_ACTUAL_INITIATIVE",
+        "UNACCEPTED_FROZEN_RULE_EVIDENCE",
+        "NO_LAB_EFFECT_ADAPTER_ACCEPTANCE"
+      ]
+    },
+    "NEEDS_ENGINEER_REPLY": [
+      "exact version/code commit",
+      "ACK instance ID",
+      "native import field types",
+      "accepted/rejected preflight for research oracles",
+      "source freeze verification",
+      "scheduler/reaction implementation",
+      "runner event log/digest/seed if executed",
+      "actual expected comparison"
+    ]
+  },
+  "audit": {
+    "previous_R04_math_tests": 29,
+    "new_R05_math_tests": 32,
+    "lab_execution_evidence": null,
+    "full_fight_certified": false,
+    "b01_to_b18_all_full_fight_certified": 0,
+    "NAC_PASS": "PENDING",
+    "writer_claimed": false,
+    "new_R05_failures": 0,
+    "source_fingerprint_scope": "prior verified R03 hash and last edited readback; live re-fetch acceptance required by lab",
+    "content_fingerprint_json_sha256_computed_later": null
+  }
+}

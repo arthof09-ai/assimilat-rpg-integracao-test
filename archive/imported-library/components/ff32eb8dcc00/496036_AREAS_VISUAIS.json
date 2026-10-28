@@ -1,0 +1,33 @@
+{
+  "contract_kind": "DRAFT_NOT_CANONICAL",
+  "origin_video_id": "496036",
+  "canonical_mechanics": "VLAB_ONLY_IF_AUTHORIZED",
+  "phase": "TEST_EXPERIMENTAL",
+  "required_authority": "Desenvolvedor writer e VLAB competente para efeitos reais",
+  "design": {
+    "aim": "prévia de geometria, não alcance",
+    "modes": [
+      "POINT",
+      "LINE",
+      "CONE",
+      "CIRCLE"
+    ],
+    "requires": [
+      "actor_display",
+      "target_display",
+      "shape_demo"
+    ],
+    "prohibits": [
+      "damage",
+      "cost_pa",
+      "server_dispatch",
+      "canonical_range"
+    ],
+    "accept": [
+      "highlighted_tiles_are_visible",
+      "no_server_call",
+      "actor_and_target_unchanged",
+      "mechanic_hold_explicit"
+    ]
+  }
+}

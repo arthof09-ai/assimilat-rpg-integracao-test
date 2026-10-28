@@ -1,0 +1,25 @@
+﻿CASE,DESAFIO,CRITERIO,CLASSIFICACAO,EVIDENCIA_LIMITE
+N01,Mestre 5xB prevalece como exigência de design,40 Bestas dão 200 slots; nenhuma aprovação automática,LOGICAL-PASS,D=5*40=200; NAC-NORM promoção ainda HOLD
+N02,50 LEGACY preservados,IDs históricos intactos e não renomeados,LOCAL-PASS,LEGACY-B 50 linhas fora de V2
+N03,150 DESIGN novos,Somente posição e não UAT material,LOCAL-PASS,150 slots sem SOURCE/OFFER
+N04,Nenhum clone de espécie,40 IDs E3 e 30 espécies V2 únicas,LOCAL-PASS,ID E3 sempre reusado
+N05,Cinco posições por Besta,5 posições por cada 40 espécies,LOCAL-PASS,V1 200 slots
+N06,Colisões nominais exatas,ZERO entre 200 nomes após deltas,LOCAL-PASS,QA V1/V2 casefold
+N07,Duplicidade semântica em 420 fontes,Exige comparação comercial nominal,HOLD,A matriz canônica 420 fonte-id material não está formada
+N08,Resíduo ambiental travestido de drop,12 revisões propostas segregam tecido animal vs ambiente,PARTIAL,Mais revisão ecológica independente exigida
+N09,B04 herança de elementos,E3 Água/Spectral; legado Terra/Spectral só evidência histórica,HOLD,Não harmonizado canonicamente
+N10,B09 distribuição multirregional,BOS03 principal; transições históricas sem crédito gratuito,PARTIAL,Habitats verificados pendentes
+N11,B10 distribuição multirregional,FEN03 principal; Bosque histórico sem crédito gratuito,PARTIAL,Habitat e D10D pendentes
+N12,Drop CORE D09B,Falésias não elegível sem espécie verificada ali,HOLD,Habitat Falésias apenas LEGACY
+N13,Drop CORE D09D,Pântano não elegível sem espécie verificada ali,HOLD,Habitat Pântano apenas LEGACY
+N14,Drop CORE D10D,Bosque não elegível sem espécie verificada ali,HOLD,Habitat Bosque apenas LEGACY
+N15,Validar 5 materiais verdadeiros,Cada slot tem origem animal e método com evidência ecológica,PARTIAL,Hipóteses 150; 50 LEGACY ainda preliminar
+N16,Besta liberada antes de drop,0/40 fichas materiais implica 0/200 drops materiais,LOGICAL-PASS,GATE BLOCKED-BEAST
+N17,SOURCE-ID para drop não verificado,Não atribuir identificador material sem canonização,LOCAL-PASS,150 V2 SOURCE=NA; 50 V1 SOURCE=NA
+N18,OFFER-ID para drop não verificado,Não atribuir oferta ou preço antes de comércio/rota,LOCAL-PASS,150 V2 OFFER=NA; 50 V1 OFFER=NA
+N19,4 lojas com 252 cada,1008 OFFER slots sem novo target,LOGICAL-PASS,4x252=1008
+N20,Categoria Drops/Materiais,92 ocorrências; não confundir com 200 fontes,LOGICAL-PASS,KH22+MY28+KV28+AU14=92
+N21,420 SOURCE únicas,80 RV e 200 drops sob cenário não implicam 280 SOURCE acreditadas,HOLD,Snapshot de SOURCE material inexistente
+N22,48 receitas E3,V2 augmenta oito RC sem acrescentar 49ª e sem alterar BOM,LOCAL-PASS,8 IDs entre 48; plano RC hipotético
+N23,Crédito material/UAT,150 propostas + 50 históricos geram ZERO crédito,LOCAL-PASS,0/1649 verificados
+N24,Gate de comando canônico,Resolver SUPERSEDED-VZ × Mestre antes de declarar ABS-C/D/E,HOLD,"PATCH03 candidata, sem NAC-NORM independente"

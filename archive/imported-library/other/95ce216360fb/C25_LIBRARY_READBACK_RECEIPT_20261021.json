@@ -1,0 +1,38 @@
+{
+  "scope": "MESTRE_ONLY",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "cycle": "C25",
+  "time_note": "2026-10-21; wall-clock duration not certified",
+  "library_path": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "readback": [
+    {
+      "filename": "DMG_C25_CAMPANHA_CIENCIA_MULTIDIMENSIONAL_20261021_MESTRE_ONLY.zip",
+      "source_bytes": 244298,
+      "sha256_source": "c43933c706e7c605cf299a34b164e6a8cf101cad459c2e530912e68ecaa06ff5",
+      "sha256_from_library_readback": "c43933c706e7c605cf299a34b164e6a8cf101cad459c2e530912e68ecaa06ff5",
+      "byte_equal": true
+    },
+    {
+      "filename": "PSV_DMG_C25_MESTRE_ONLY.md",
+      "source_bytes": 19162,
+      "sha256_source": "fc303ee85f3b8690b84fe968b588b9ce432b408b8fbdd7e291fceca091c9d86b",
+      "sha256_from_library_readback": "fc303ee85f3b8690b84fe968b588b9ce432b408b8fbdd7e291fceca091c9d86b",
+      "byte_equal": true
+    },
+    {
+      "filename": "C25_PARECER_DECISORIO_MESTRE_ONLY.md",
+      "source_bytes": 3022,
+      "sha256_source": "04f08984e795b13b6f6990ae48cc3ae85cbf849bcaf3b6e4c206cf2dc14e1573",
+      "sha256_from_library_readback": "04f08984e795b13b6f6990ae48cc3ae85cbf849bcaf3b6e4c206cf2dc14e1573",
+      "byte_equal": true
+    }
+  ],
+  "zip_crc": "PASS",
+  "manifest_payload_files": 40,
+  "manifest_hashes": "PASS",
+  "standalone_replay": "27/27 derived files byte identical in fresh local temp directory",
+  "mathematical_checks": "86/86 PASS, same scientific team, NOT independent documentary coder",
+  "global_NAC_PASS": "HOLD",
+  "F0": "4/8 HOLD",
+  "RE_FIP": "not certified for 25 G1 effect occurrences"
+}

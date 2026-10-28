@@ -1,0 +1,19 @@
+layer,rank_bucket,damage_type,role,n_effects,n_independent_families,minimum,median,maximum,mean,insufficient_for_population_inference,effect_ids,interpretation
+MASTER_BEAST,Bronze,DARK_UNCONFIRMED_ATTACK_TAG,damage,1,1,7.0,7.0,7.0,7.0,True,RATO_RAIO,individual values only
+MASTER_BEAST,Bronze,FIRE_UNCONFIRMED_SKILL_TAG,damage,1,1,7.5,7.5,7.5,7.5,True,RAPOSA_BOLA_FOGO,individual values only
+MASTER_BEAST,Bronze,IMPACT,damage,1,1,3.5,3.5,3.5,3.5,True,CABRA_INVESTIDA,individual values only
+MASTER_BEAST,Bronze,PIERCING,damage,1,1,2.5,2.5,2.5,2.5,True,FELPUDO_ESPINHOS,individual values only
+MASTER_BEAST,Bronze,SLASHING,damage,1,1,2.5,2.5,2.5,2.5,True,GAL_PATADA,individual values only
+MASTER_BEAST,Ouro,ICE_UNCONFIRMED_ATTACK_TAG,damage,1,1,7.0,7.0,7.0,7.0,True,BEHEMOTH_ESTILHACO,individual values only
+MASTER_BEAST,Ouro,IMPACT_UNCONFIRMED,damage,1,1,14.0,14.0,14.0,14.0,True,DRAGON_B_SMASH,individual values only
+MASTER_BEAST,Ouro,PIERCING_UNCONFIRMED,damage,1,1,10.5,10.5,10.5,10.5,True,BEHEMOTH_MORDIDA,individual values only
+MASTER_BEAST,Prata,ELEMENT_UNSPECIFIED,damage,1,1,5.5,5.5,5.5,5.5,True,MAC_ELEMENTAL,individual values only
+MASTER_BEAST,Prata,IMPACT,damage,1,1,7.0,7.0,7.0,7.0,True,MAC_PATADA,individual values only
+MASTER_BEAST,Prata,PIERCING,damage,1,1,3.5,3.5,3.5,3.5,True,MAC_MORDIDA,individual values only
+MASTER_CHARACTER,Prata,MIXED_UNKNOWN,damage,1,1,30.0,30.0,30.0,30.0,True,ZIHA_ATAQUE_ATALHO,individual values only
+MASTER_CHARACTER,Prata,PHYSICAL_MIXED_UNCLEAR,damage,1,1,27.0,27.0,27.0,27.0,True,ZIHA_LAMINAS,individual values only
+MASTER_CHARACTER,Prata,PHYSICAL_UNCLASSIFIED,damage,1,1,32.5,32.5,32.5,32.5,True,LIU_AXE,individual values only
+MASTER_CHARACTER,Prata,PIERCING_WEAPON,damage,1,1,11.0,11.0,11.0,11.0,True,JAKU_LANCA,individual values only
+MASTER_EVENT_CANDIDATE,Ouro,IMPACT_UNCONFIRMED,damage,1,1,14.0,14.0,14.0,14.0,True,DRAGON_A_SMASH,individual values only
+MASTER_ITEM,Lendário,UNKNOWN_COMPOSITE,damage,1,1,768.0,768.0,768.0,768.0,True,ESPADA_LEND,individual values only
+MASTER_ITEM,Ouro Negro,MIXED_UNSPLIT,damage,1,1,65.0,65.0,65.0,65.0,True,ESPADA_CHAMAS,individual values only

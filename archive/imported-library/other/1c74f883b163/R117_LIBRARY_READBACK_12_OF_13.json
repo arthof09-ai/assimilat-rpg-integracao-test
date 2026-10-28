@@ -1,0 +1,85 @@
+{
+  "status": "PARTIAL_LIBRARY_READBACK",
+  "uploaded_success_reported": 13,
+  "readback_byte_identical": 12,
+  "unresolved_file": "R116_PROVENANCE_PREFLIGHT_AND_PATCH.json",
+  "problem": "files.materialize returns file not visible for direct standalone, even after overwrite; contents independently SHA verified inside integral ZIP",
+  "zip_contains_unresolved_file_verified": true,
+  "zip_sha256": "e57461df692818db820cf96a825a36d1ee4b5c11b19afaae1c835716c06ed2a8",
+  "all_other_files": [
+    {
+      "filename": "R113_COLD_CAUSAL_AUDIT.json",
+      "sha256": "bff678f6ce4695d4c30711bfde744b9b98aaae8750744b4917773ca96c91c8ae",
+      "bytes": 4391,
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "filename": "R115_FAULT_RECOVERY.json",
+      "sha256": "335b913424dcfd10512e3c594ba0ca7cd7d2b87448726c4aa6fa7b384cffd433",
+      "bytes": 855,
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "filename": "R116_DMG_HANDOFF_R97_R112.md",
+      "sha256": "57f9faf6d09cd3fe3d129e385e5e73a04ed619cbbb0d8220e8a88709e37e74f4",
+      "bytes": 2863,
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "filename": "R116_DMG_NATIVE_RECEIPTS_212.csv",
+      "sha256": "2fa1ebaf5a0d02fafbbf40885e992c7ac89c1236800ad45a14ecf23cd1c23023",
+      "bytes": 109155,
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "filename": "R116_NATIVE_V081_PATCH.diff",
+      "sha256": "7f66706a02b06ad09b9c3a37912a4b459ea16259db16f454098bbd27940334ff",
+      "bytes": 14815,
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "filename": "R117_17_CONTRACTS_BEFORE_AFTER.json",
+      "sha256": "80faee3b62866aab9cbb87be8698ecc3e4c1162708a94870a699929d59493309",
+      "bytes": 42436,
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "filename": "R117_17_CONTRACTS_BEFORE_AFTER.md",
+      "sha256": "e5c0838645fab0ddfb320bdd0f17bfc8c3693f09710e1fd22bac4209c0ca98b3",
+      "bytes": 17074,
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "filename": "R117_PSV_REPARO_MOTOR_MESTRE_ONLY.md",
+      "sha256": "f7b5f232b33d55023e89fce6c6274c99952ac0371ac452bf68d2ce3cba0658ce",
+      "bytes": 6703,
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "filename": "R117_QUARANTINE_RECONCILED_NO_REPEAT.json",
+      "sha256": "6089eac3a2af34da068176b150ab3a89ad15394403ac6f9d732ff04f5b867bdd",
+      "bytes": 2435,
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "filename": "R117_SCIENCE_SUMMARY.json",
+      "sha256": "38fa7dc2f39dd7da5c024d6f688cc8b5f338e76b976e76a9a0cd0195336b7a11",
+      "bytes": 691,
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "filename": "R117_ZIP_FREEZE_RECEIPT.json",
+      "sha256": "f7c44b82a8cb29cfe99f752a333c986b10382f98daf6aaaddc6fc22e3b65ee19",
+      "bytes": 491,
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "filename": "VLAB_R108_R117_NATIVE_CRITICO_FRACO_DESCARGA_MESTRE_ONLY.zip",
+      "sha256": "e57461df692818db820cf96a825a36d1ee4b5c11b19afaae1c835716c06ed2a8",
+      "bytes": 11173790,
+      "status": "BYTE_IDENTICAL"
+    }
+  ],
+  "writer": "NONE",
+  "canonical_writes": 0
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "DMG-F1-EDxBE-A-B-SENSITIVITY-v05",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "reference": "R03 unchanged",
+  "old_bestiary_canonical_status": "historical-only, no 30/60 base in old text",
+  "current_bestiary_rule": "30 normal/60 Titã initial Life/Alma; rebuild on rank change; no general retroactive instruction for existing unchanged-rank snapshots",
+  "source_page_ids": {
+    "macaco": "301c2b324ede828caccb813d3979267a",
+    "behemoth": "1fdc2b324ede82bd9d4f811abb689440",
+    "old_bestiary": "e22c2b324ede836cb582819ac2ad27c5",
+    "current_bestiary": "3ebc2b324ede81f4992ac88a3588cacd"
+  },
+  "A_SOURCE_LITERAL": {
+    "macaco": {
+      "life": 750,
+      "alma": 700,
+      "CA": 67,
+      "FOR": 54
+    },
+    "behemoth": {
+      "life": 500,
+      "alma": 560,
+      "CA": 61,
+      "FOR": 15
+    },
+    "status": "Historical, documentary snapshot only, not current battle status"
+  },
+  "B_HYPOTHETICAL_CURRENT_RULE": {
+    "macaco": {
+      "life": 810,
+      "alma": 760,
+      "calculation": "60+10*(40+35)=810; 60+10*(40+30)=760"
+    },
+    "behemoth": {
+      "life": 530,
+      "alma": 590,
+      "calculation": "30+10*(20+30)=530;30+10*(20+36)=590"
+    },
+    "status": "Sensitivity, not approved replacement"
+  },
+  "invariants": [
+    "never use life from A and Alma from B",
+    "no Notion edit of either creature",
+    "beast identity by physical source page id",
+    "no certified FULL-FIGHT under unresolved initial resources"
+  ],
+  "proposed_competent_decision": "For a historical scientific replay, preserve A as the document snapshot and B as sensitivity; for a current canon encounter or any migration to B, require Mestre or canonically explicit superior instruction",
+  "PA_liu": {
+    "Alma_line": 73,
+    "Perdido_line": -46,
+    "free_pa_if_46_is_additional": 27,
+    "free_pa_if_46_included_in_73": 73,
+    "true_free_pa": null
+  },
+  "FOR_macaco": {
+    "source": 54,
+    "trait": "Força Titânica +2 FOR",
+    "if_included": 54,
+    "if_additional": 56,
+    "not_decided": true
+  }
+}

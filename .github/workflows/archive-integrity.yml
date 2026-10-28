@@ -1,0 +1,23 @@
+name: Recovery archive integrity
+on:
+  push:
+    branches: [main]
+    paths: ['archive/**', 'scripts/verify_recovery_archive.py', '.github/workflows/archive-integrity.yml']
+  pull_request:
+    paths: ['archive/**', 'scripts/verify_recovery_archive.py', '.github/workflows/archive-integrity.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: archive-integrity-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify original SHA-256, nested CRC and split reconstruction
+        run: python scripts/verify_recovery_archive.py

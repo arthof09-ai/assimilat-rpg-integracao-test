@@ -1,0 +1,28 @@
+ASSUNTO: Recusa de segurança em ação Notion no ChatGPT — revisão legítima
+
+Em 08/10/2026, uma execução autorizada de leitura/escrita no Notion,
+dentro de um Projeto do ChatGPT, tentou a operação:
+
+  mcp__Notion__notion_update_page
+  command=insert_content
+  position=end
+
+O destino era a página existente de Diário Operacional.
+Identificador do checkpoint: SCI-WS0003-I0011-ALLOC-20261008.
+
+A resposta literal foi:
+"Esta ferramenta foi bloqueada pelas configurações de segurança da OpenAI. Verifique novamente o que está enviando."
+
+Leituras posteriores do mesmo Diário não localizaram o identificador,
+portanto não há confirmação de gravação. Não foi realizada nova tentativa de escrita.
+
+No painel de permissões do aplicativo, a permissão específica do Notion
+está configurada como "Allow all actions" e a permissão global padrão
+como "Allow low-risk actions". As leituras de Notion funcionaram.
+
+Solicito apenas orientação sobre a causa e o procedimento oficialmente permitido
+para revisão/restauração desta ação, se aplicável, e sobre como verificar que
+a escrita foi retomada. Não pretendo contornar políticas nem desativar
+indiscriminadamente proteções.
+
+Não envio credenciais, tokens, conteúdos do RPG ou o texto interno de Diário.

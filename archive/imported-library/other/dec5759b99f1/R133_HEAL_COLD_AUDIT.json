@@ -1,0 +1,17 @@
+{
+  "run_id": "R132_HEAL_SOURCE_3ACTOR_CORRECTED_S963212",
+  "metrics": {
+    "events": 10,
+    "damage_events": 2,
+    "heal_events": 1,
+    "PA_heal": 75,
+    "heal_effective": 79,
+    "source_heal_rolls": 34,
+    "item_bonus": 20
+  },
+  "head": "ac8a66000ad96f730d5e89b25b0a7c966d51d0410a16ad57b00924ce8753f969",
+  "seed": 963212,
+  "auditor_imports_native_or_R18": false,
+  "recovery_state": "PASS_ATOMIC_REOPEN",
+  "terminal_certificate": false
+}

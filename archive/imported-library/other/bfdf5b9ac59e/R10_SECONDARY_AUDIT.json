@@ -1,0 +1,99 @@
+{
+  "R40_sampling_context": {
+    "R40_positive_crit_out_of_1200": 4,
+    "disclaimer": "post hoc one-sided look; preregistered multinomial criterion alpha 1% not rejected, does not imply biased RNG",
+    "expected": 11.11111111111111,
+    "one_sided_exploratory_P_X_le_4": 0.013700525282566454,
+    "probability_0_critical_among_42_independent_attacks": 0.6765827677711482
+  },
+  "audited_original_R40_R39B_packages": {
+    "R39B": {
+      "crc": "PASS",
+      "entries": 17,
+      "manifest_type": "R39B_SOURCE_CORRECTION_DELTA_V1",
+      "sha256": "3333d215042d0de9ec92a1d10d125f2417864cd5dc474e5f62b9090bf3552166",
+      "size_bytes": 25473
+    },
+    "R40": {
+      "crc": "PASS",
+      "entries": 26,
+      "manifest_25_shas": "PASS",
+      "sha256": "2be2d7b8cb39fd4aa340afc07a200c8c1c5234475256635e2dad85a2aeeb1e71",
+      "size_bytes": 108952
+    }
+  },
+  "baseline_R09_sha256_before_after_preserved": {
+    "DMG_R02_RECONSTRUCAO_CIENTIFICA_MESTRE_SIDE.zip": "6b7702304dad1c4be8f11eb5e0af06482f723827dbc4045026bdd21e3cf7f547",
+    "r03/DMG_R03_INDEPENDENT_COHORT_CROSSRANK_MASTER_ONLY.zip": "cb41b5d46fece58602ea5d912f21579f064b688ecc4490acf4b27447e4154bfe",
+    "r04/DMG_R04_MECHANICAL_ROBUSTNESS_MASTER_ONLY.zip": "76913a4128515ada36b60956cff1c333e17413153c8ac1788e7012523180aa8e",
+    "r04/R07_RESULTS_EXACT.json": "ffd629c2e1ba5307fb4dd59b72e39ef0fdf7a354503767edc8199ce36336ff40",
+    "r04/R08_RESULTS_MECHANICAL.json": "2ace58e82b07235de93cc902d4aa5ad877922cc658a0cc2586955cb12018de2c",
+    "r04/R09_REPLAY_EXACT.py": "c95ee7f62f7647982f08609312142dcfc261a189e72b3802e5c6283f08b0017d",
+    "r04/R09_RESULTS_EXACT.json": "99d577f2b1f2027913c564e7b72b5c7789f32aa2cb79655031857423be6bdf64",
+    "r04/R09_VLAB_HANDOFF_READONLY.json": "e189b08096fecce49bf686b27ffa7947a25d9944820c93222c28c7326e2ee761"
+  },
+  "canonical_writes": 0,
+  "critical_auto_hit_source_conflict": {
+    "R40_actual_42_attack_incidents": "0 positive crit, so native scene result not falsified by that missing branch",
+    "R40_independent_auditor_expression": "hit_bool=score>20",
+    "gate": "VLAB must verify critical flag reaches reaction and hit resolver, official source admitted, replay independently checked",
+    "historic_engine_expression": "hit=roll_score>d.ca",
+    "historic_reaction_expression": "negated=bool(defense_event.get('damage_negated'))",
+    "synthetic_live_original_core_probe_result": "AUTO-CRIT MISS WRONG RESULT 0 DAMAGE; expected 17 net for known 6,6,5 crit vs numeric CA/Esquiva26"
+  },
+  "historical_native_core_byte_sha256": "066ffe9636d07e09b192695cff94df21a1116d4e391452805bf13f37af440d29",
+  "independent_oracle": {
+    "E_rounds": 205.75378677688593,
+    "MC_mean_standard_error_at_20000": 0.8197594272135709,
+    "actual_MC_mean_20000": 206.21385,
+    "analytic_round_sd": 115.9314899848632,
+    "difference_vs_original_markov": 2.2737367544323206e-12,
+    "first_actor_win_p": 0.5008798035361809
+  },
+  "method": "independent scipy.stats binomial marginal kill-time; Fraction probability-state sequences; stdlib ZIP SHA+CRC+manifest and historical native unit fixture readback",
+  "native_original_module_fixture_runs": 2,
+  "new_VLAB_attacks": 0,
+  "read_only_VLAB_R40_independent_verifier_results": {
+    "91001": {
+      "attacks": 18,
+      "events": 19,
+      "movement_actions": 11,
+      "pushes": 9,
+      "reactions": 5,
+      "rounds": 7,
+      "second_reactions_rejected": 5,
+      "status": "PASS",
+      "winner": "LAB_R40_GOAT_C"
+    },
+    "91002": {
+      "attacks": 24,
+      "events": 25,
+      "movement_actions": 13,
+      "pushes": 11,
+      "reactions": 10,
+      "rounds": 10,
+      "second_reactions_rejected": 4,
+      "status": "PASS",
+      "winner": "LAB_R40_GOAT_B"
+    }
+  },
+  "two_incoming_in_one_reaction_window": {
+    "expected_attempts_HP38_one_unprotected_threat": 4.5747267937795915,
+    "expected_damage_per_two_attempt_window": {
+      "decimal": 9.818672839506172,
+      "fraction": "12725/1296"
+    },
+    "expected_reaction_windows_to_KO_38HP_single_protected_threat": 305.9999999999935,
+    "expected_reaction_windows_to_KO_38HP_two_threats": 4.51659498563927,
+    "first_protected_attack_expected_net": {
+      "decimal": 0.16203703703703703,
+      "fraction": "35/216"
+    },
+    "p_alive_after_8_windows_two_threats": 0.003509950994332533,
+    "scope": "one defended incoming + one unprotected incoming before own-turn refresh; no actual 3-actor full fight; no geometry/initiative/crit-failure effects; original R39B sequence proves qualitative scenario",
+    "second_unprotected_attack_expected_net": {
+      "decimal": 9.656635802469136,
+      "fraction": "12515/1296"
+    }
+  }
+}

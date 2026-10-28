@@ -1,0 +1,407 @@
+{
+  "candidate_actor_snapshots": {
+    "LIU": {
+      "PA_available_live": null,
+      "actor_id_proposed": "NOTION_0b4c2b324ede837cb6be818dc8e36010",
+      "current_form": null,
+      "current_scene_id": null,
+      "eligible_strict": false,
+      "equipment_active": null,
+      "normal_display": {
+        "CA": 46,
+        "CON": 16,
+        "DES": 16,
+        "FF_display": 620,
+        "FOR": 29,
+        "alma_equation": 73,
+        "attack": "2d6+37",
+        "damage": "5d12+3d8+1d6+45",
+        "dodge_total": 49,
+        "life_display": 235,
+        "lost_minus46": -46,
+        "speed_display": "3+8"
+      },
+      "signed_by": null,
+      "skill_selection": null,
+      "source": "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010",
+      "transform_display": {
+        "CA": 60,
+        "CON": 25,
+        "DES": 27,
+        "FF_display": 920,
+        "FOR": 40,
+        "alma_display_delta": 50,
+        "attack": "2d6+48",
+        "damage": "5d12+3d8+1d6+60",
+        "dodge_total": 63,
+        "life_display_delta": 110,
+        "speed_display": "5+8"
+      }
+    },
+    "MACACO": {
+      "Alma_total": null,
+      "FOR": null,
+      "Life_total": null,
+      "RD": null,
+      "actor_id_proposed": "NOTION_301c2b324ede828caccb813d3979267a",
+      "current_scene_id": null,
+      "eligible_strict": false,
+      "parent_source": "https://app.notion.com/p/f42c2b324ede82f1a62c81d6274d7d37",
+      "proficiencies": null,
+      "signed_by": null,
+      "source": "https://app.notion.com/p/301c2b324ede828caccb813d3979267a"
+    }
+  },
+  "code_boundaries": [
+    {
+      "behavior": "strict=True raises STRICT_REQUIRES_EXTERNAL_NAC_PASS; else frame.origin must equal LAB-TEST-SYNTHETIC-NONCANON; actor must bind LAB-ID",
+      "impact": "No canonical Liu/Macaco strict dispatch; do NOT emulate using strict=False",
+      "method": "fusion_stage12/unified_gateway.py::UnifiedSyntheticGateway.action / attack_with_defense"
+    },
+    {
+      "behavior": "test_only=True only; LAB-EVT event ids; exact one planned action source; source_status LAB-ASSUMPTION with LAB-/MOCK- audit; explicit required_pa integer and valid economy; links to v0.7 UNIT_FIXTURE receipt",
+      "impact": "Lab source-aligned receipt not a signed current Notion page or real legal actor",
+      "method": "fusion_stage12/a2_source_aligned_bridge.py::A2SourceAlignedBridge.preflight"
+    },
+    {
+      "behavior": "only original v0.7 RoundState UNIT_FIXTURE and reserve_turn(strict=False) permitted",
+      "impact": "Unit resource acceptance does not prove game action or canonical cost",
+      "method": "fusion_stage12/a2_integrated_adapter.py::A2IntegratedAdapter.preflight_unit_resource"
+    },
+    {
+      "behavior": "manual external order, source_snapshot LAB-TEST-SYNTHETIC-NONCANON, seed_metadata is NOT official RNG",
+      "impact": "Cannot infer roll/tie/simultaneity/dynamic legal target from scheduler",
+      "method": "fusion_stage12/a1_external_scheduler.py::A1ExternalScheduler"
+    },
+    {
+      "behavior": "A1 initiative/RNG/parallel reactions SPEC_PENDING; A2 damage official untested; A3 independent acceptance pending and 0/17 pass",
+      "impact": "Experiment documentation only",
+      "method": "reconstruction/A2_02_ACCEPTANCE_QA_AND_HOLDS_20261008.json"
+    }
+  ],
+  "deny_cases": [
+    [
+      "R10-DENY-01",
+      "SCENE_ID_UNKNOWN"
+    ],
+    [
+      "R10-DENY-02",
+      "NOTION_SOURCE_CHANGED_AFTER_FREEZE"
+    ],
+    [
+      "R10-DENY-03",
+      "LAB_WRITER_OR_INSTANCE_UNKNOWN"
+    ],
+    [
+      "R10-DENY-04",
+      "PA_FREE_MISSING_OR_TIMING_UNKNOWN"
+    ],
+    [
+      "R10-DENY-05",
+      "ACTION_PA_COST_UNKNOWN_NOT_ZERO"
+    ],
+    [
+      "R10-DENY-06",
+      "ACTION_SLOT_OR_BOOTS_BONUS_ACTION_UNMAPPED"
+    ],
+    [
+      "R10-DENY-07",
+      "REACTION_BUDGET_NOT_SIGNED"
+    ],
+    [
+      "R10-DENY-08",
+      "TARGET_MAP_OR_REACH_UNSPECIFIED"
+    ],
+    [
+      "R10-DENY-09",
+      "ATTRIBUTE_OR_PROF_DOUBLE_COUNT"
+    ],
+    [
+      "R10-DENY-10",
+      "RDF_ORDER_NOT_APPROVED"
+    ],
+    [
+      "R10-DENY-11",
+      "CRITICAL_ORDER_MISREAD"
+    ],
+    [
+      "R10-DENY-12",
+      "OTHER_CHARACTER_SOURCE_AUTHORIZATION_REUSED"
+    ],
+    [
+      "R10-DENY-13",
+      "SOURCE_STATUS_LAB_ASSUMPTION_PROMOTED_TO_CURRENT"
+    ],
+    [
+      "R10-DENY-14",
+      "STRICT_FALSE_AS_OFFICIAL"
+    ],
+    [
+      "R10-DENY-15",
+      "SCHEDULER_SEED_METADATA_CLAIMED_AS_RANDOMNESS"
+    ],
+    [
+      "R10-DENY-16",
+      "NO_INDEPENDENT_REPLAY_OR_NAC_PASS"
+    ]
+  ],
+  "engineering_reference": {
+    "all_manifested_member_sha_match": true,
+    "bytes": 2848152,
+    "code_sha256": {
+      "fusion_stage12/a1_atomic_execution.py": "03f2fdb9d6abd58f93e13d6a60122367242a2fa2ff9556b86f630bc076655a4f",
+      "fusion_stage12/a1_event_reducer.py": "5bc9a3a15e71b5794aabf0ab823d575272b70ca7296c655f5a8799f97b0b49a5",
+      "fusion_stage12/a1_external_scheduler.py": "cb8f06dc3995e22c88f06bdd259f5510cbdb4abf291b72606f0633c1132a5f5e",
+      "fusion_stage12/a2_integrated_adapter.py": "ec07ce1cf094d1b00db2f9f7b76c3ceb19551a411a3d8b400f78ca8eaab7f3a7",
+      "fusion_stage12/a2_source_aligned_bridge.py": "514f17fd34fc14130b4141a9dd293aa64297dc8adf4faf0809983e9b7ca050ac",
+      "fusion_stage12/unified_gateway.py": "f5348d227f286ed40c46e558eda7af60459bc2d19b60fb940ee2599af48ebf24"
+    },
+    "documented_layer_tests": 247,
+    "documented_new_lab_tests": 17,
+    "library_file_id": "libfile_2e923e9623988191937b20bd42a9e31b",
+    "package": "VLAB_STAGE12_A1_MICROBLOCO_04_A2_MICROBLOCO_02_SANDBOX.zip",
+    "sha256": "a057e70ff4c650630b708e4d799220f50e6c6d5d83b62319923d7506d64d9fa7",
+    "strict_hold": true,
+    "zero_terminal_17_contracts": true,
+    "zip_member_count": 763
+  },
+  "engineering_return_contract": {
+    "assertions_for_terminal_pass": [
+      "source hashes reconfirmed and scene signed",
+      "fully resolved damage/PA/geometry/skills",
+      "genuine strict attack event and deterministic replay",
+      "no duplicate credits",
+      "independent NAC-PASS"
+    ],
+    "current_strict_support": false,
+    "decision": "ACCEPT|PENDING|REJECT for interface only",
+    "fields_consumed": [],
+    "individually_signed_by_REAL_OPERATOR": null,
+    "requested_first_return": "Source binding + actor snapshots and missing fields only; no need to run fight yet"
+  },
+  "inputs_required": {
+    "actor_ids": [
+      "physical_Notion_page_id_exact",
+      "parent_species_page_id_if_applicable",
+      "entity_role",
+      "rank/star",
+      "titan_status_by_authority",
+      "form_declared"
+    ],
+    "authority": [
+      "scene_id",
+      "effective_local_timestamp",
+      "source_manifest_hashes",
+      "master_or_owner_signature",
+      "lab_writer_role_verified",
+      "engine_commit_sha",
+      "engine_asserted_ruleset_sha",
+      "STRICT_capability_grant_specific_to_LIU_AND_MACACO"
+    ],
+    "current_actor_state": [
+      "Life_total/current",
+      "Alma_total/current",
+      "PA_total/committed/free/spent",
+      "equipment_on_and_daily_charges",
+      "FF_milestone_locked_ledger",
+      "current_attributes_with_source",
+      "selected_skills_and_bonus",
+      "active_buffs_and_expiry",
+      "turn_standard/move/reaction_budget",
+      "position/size/reach/line_of_sight"
+    ],
+    "decision_authority": [
+      "Macaco_FOR54_or56",
+      "historical_natural_HP_Alma_branch",
+      "RDF10_scope_order_stacking",
+      "legacy_crit_vs_current",
+      "Liu_PA46_spent_timing_and_gear",
+      "initiative_ties",
+      "geometry_reach"
+    ],
+    "declared_attack": [
+      "action_id",
+      "source_page_id",
+      "explicit_pa_cost_or_authorized_cost_zero",
+      "action_economy",
+      "damage_components_and_tags",
+      "test_to_hit_dice",
+      "test_damage_dice_separate",
+      "crit_3d6_sequential",
+      "Luta_modifier_and_penalties",
+      "target_defense_choice",
+      "reaction_response_window_id"
+    ],
+    "replay": [
+      "root_seed_real_rng_not_metadata",
+      "rng_algorithm_and_version",
+      "separate_named_rng_streams",
+      "dice_draw_log",
+      "input_event_id",
+      "before_state_digest",
+      "after_state_digest",
+      "effect_component_damage_gross_mitigated_net",
+      "spend_one_action_reaction_pa_once",
+      "source_receipt_per_event",
+      "replay_hash_chain",
+      "independent_reviewer_NAC_PASS"
+    ]
+  },
+  "legacy_stage12_sha256": "17342b3377ac6f04c961388d87188fa48029c2e713e9eb9a9aae101ebf170772",
+  "no_writes": "This file is scientific proposal only. No code changed; no canonical run performed.",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "proposed_math_fixtures": [
+    {
+      "FOR_branch": 54,
+      "case": "R10-PATADA-A54",
+      "gross": 62,
+      "is_actor_event": false,
+      "net_if_no_RDF": 62,
+      "net_if_only_RDF10": 52,
+      "roll_damage": [
+        5,
+        3
+      ],
+      "roll_to_hit": [
+        3,
+        4
+      ]
+    },
+    {
+      "FOR_branch": 56,
+      "case": "R10-PATADA-B56",
+      "gross": 64,
+      "is_actor_event": false,
+      "net_if_no_RDF": 64,
+      "net_if_only_RDF10": 54,
+      "roll_damage": [
+        5,
+        3
+      ],
+      "roll_to_hit": [
+        3,
+        4
+      ]
+    }
+  ],
+  "recipient": "Coordenação regularizes legitimate registered Lab writer/instance; user already sent report; IBX-34 ACK not observed",
+  "schema": "DMG-F1-R10-LAB-A1A2-02-SOURCE-BOUND-HANDOFF-v01",
+  "seed_policy": {
+    "RNG_algorithm": null,
+    "actual_engine_root_seed": null,
+    "dice_rolls_manual_fixture_only": true,
+    "scientific_fixture_label": "R10-ORACLE-STATIC-S1",
+    "seed_metadata_must_not_count_as_rng": true
+  },
+  "sources": {
+    "certified_actor_records": false,
+    "current_scene_frozen": false,
+    "documents": [
+      {
+        "is_live_actor_state_freeze": false,
+        "key": "beast_rules",
+        "last_edited_at": "2026-10-07T20:58:56.199Z",
+        "page_id": "3ebc2b324ede81f4992ac88a3588cacd",
+        "scope": "ONLY_INNER_NOTION_TEXT_CONTENT",
+        "sha256_utf8_content": "8be7b7f6ce778cb05249855648956fb29018634d1c444a16dc548e89fef42536",
+        "title": "Criação de Besta",
+        "url": "https://app.notion.com/p/3ebc2b324ede81f4992ac88a3588cacd",
+        "verified_this_session": "R10_FETCH_AND_INDEPENDENT_HASH_MATCH"
+      },
+      {
+        "is_live_actor_state_freeze": false,
+        "key": "behemoth",
+        "last_edited_at": "2026-10-01T18:00:46.463Z",
+        "page_id": "1fdc2b324ede82bd9d4f811abb689440",
+        "scope": "ONLY_INNER_NOTION_TEXT_CONTENT",
+        "sha256_utf8_content": "0ac74c0277ce19173f498f0c58a16d19afcc8d6d8a7b0e1b3c77982214eb9606",
+        "title": "Prata 5",
+        "url": "https://app.notion.com/p/1fdc2b324ede82bd9d4f811abb689440",
+        "verified_this_session": "R10_FETCH_AND_INDEPENDENT_HASH_MATCH"
+      },
+      {
+        "is_live_actor_state_freeze": false,
+        "key": "combat",
+        "last_edited_at": "2026-10-07T23:51:04.971Z",
+        "page_id": "3ebc2b324ede81f1be4be8804ac113c0",
+        "scope": "ONLY_INNER_NOTION_TEXT_CONTENT",
+        "sha256_utf8_content": "56a0e4242919ce3364ce42d313e8d648c5289863160ea6dcf69b21f954b80b18",
+        "title": "Sistema de Combate",
+        "url": "https://app.notion.com/p/3ebc2b324ede81f1be4be8804ac113c0",
+        "verified_this_session": "R10_FETCH_AND_INDEPENDENT_HASH_MATCH"
+      },
+      {
+        "is_live_actor_state_freeze": false,
+        "key": "liu",
+        "last_edited_at": "2026-10-01T09:40:50.721Z",
+        "page_id": "0b4c2b324ede837cb6be818dc8e36010",
+        "scope": "ONLY_INNER_NOTION_TEXT_CONTENT",
+        "sha256_utf8_content": "0e7114574824c12138fa90392a3286a176e953d8b1b6e15a39e7a26d69645fd3",
+        "title": "Liu Xiaua (2º Filha do Chefe)",
+        "url": "https://app.notion.com/p/0b4c2b324ede837cb6be818dc8e36010",
+        "verified_this_session": "R10_FETCH_AND_INDEPENDENT_HASH_MATCH"
+      },
+      {
+        "is_live_actor_state_freeze": false,
+        "key": "macaco",
+        "last_edited_at": "2026-10-01T18:00:42.589Z",
+        "page_id": "301c2b324ede828caccb813d3979267a",
+        "scope": "ONLY_INNER_NOTION_TEXT_CONTENT",
+        "sha256_utf8_content": "d2136dfaecdd78915657c399141178d7282e7cbc19d1b8129646aa75ccf11c4e",
+        "title": "Prata 5 (titã)",
+        "url": "https://app.notion.com/p/301c2b324ede828caccb813d3979267a",
+        "verified_this_session": "R10_FETCH_AND_INDEPENDENT_HASH_MATCH"
+      },
+      {
+        "is_live_actor_state_freeze": false,
+        "key": "magic",
+        "last_edited_at": "2026-10-07T23:51:07.044Z",
+        "page_id": "3ebc2b324ede81f7b343f7270ff91373",
+        "scope": "ONLY_INNER_NOTION_TEXT_CONTENT",
+        "sha256_utf8_content": "85964f6047eda0455be913aab682ed9cb7b793ca7eb727bf5cb63861811d3839",
+        "title": "Sistema de Magia",
+        "url": "https://app.notion.com/p/3ebc2b324ede81f7b343f7270ff91373",
+        "verified_this_session": "R10_FETCH_AND_INDEPENDENT_HASH_MATCH"
+      },
+      {
+        "is_live_actor_state_freeze": false,
+        "key": "rank",
+        "last_edited_at": "2026-10-08T00:01:28.857Z",
+        "page_id": "3f2c2b324ede815498cddb7844245f7e",
+        "scope": "ONLY_INNER_NOTION_TEXT_CONTENT",
+        "sha256_utf8_content": "290f00cb726e3270c304788ea4f257c56ed92ea2dbf8160ee5ecc8b6092092d3",
+        "title": "DMG-RANK-01 v1.1",
+        "url": "https://app.notion.com/p/3f2c2b324ede815498cddb7844245f7e",
+        "verified_this_session": "R10_FETCH_AND_INDEPENDENT_HASH_MATCH"
+      },
+      {
+        "is_live_actor_state_freeze": false,
+        "key": "simio_parent",
+        "last_edited_at": "2026-10-01T18:00:41.676Z",
+        "page_id": "f42c2b324ede82f1a62c81d6274d7d37",
+        "scope": "ONLY_INNER_NOTION_TEXT_CONTENT",
+        "sha256_utf8_content": "7984efb769402cb26a1078e62e6b5913e61577bc503c30d74aa9aa0193654a7b",
+        "title": "Símio Demoníaco❄",
+        "url": "https://app.notion.com/p/f42c2b324ede82f1a62c81d6274d7d37",
+        "verified_this_session": "R10_FETCH_AND_INDEPENDENT_HASH_MATCH"
+      },
+      {
+        "is_live_actor_state_freeze": false,
+        "key": "transform",
+        "last_edited_at": "2026-10-08T14:26:21.578Z",
+        "page_id": "3f2c2b324ede81c0ae0ee4e66212edc9",
+        "scope": "ONLY_INNER_NOTION_TEXT_CONTENT",
+        "sha256_utf8_content": "27d43c6c8dfae2adf4783cba45774b51431ba422a2789c9d685baf1776f1e36c",
+        "title": "Sistema de Transformação Espiritual",
+        "url": "https://app.notion.com/p/3f2c2b324ede81c0ae0ee4e66212edc9",
+        "verified_this_session": "R10_FETCH_AND_INDEPENDENT_HASH_MATCH"
+      }
+    ],
+    "no_party_mirrors": true,
+    "notion_text_frozen_readonly": true,
+    "physical_binary_attachments_hashed": false,
+    "schema": "DMG-F1-R10-SOURCE-FREEZE-TEXT-SCOPE-v01",
+    "verification": "9/9 Notion `<content>` SHA256 matches re-fetch R10 and historical ledger",
+    "verification_level": "DOC-TEXT-INTEGRITY_ONLY"
+  }
+}

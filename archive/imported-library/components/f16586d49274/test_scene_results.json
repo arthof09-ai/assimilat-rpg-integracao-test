@@ -1,0 +1,157 @@
+[
+  {
+    "viewport": "360x740",
+    "test": "rain_activated",
+    "passed": true
+  },
+  {
+    "viewport": "360x740",
+    "test": "night_activated",
+    "passed": true
+  },
+  {
+    "viewport": "360x740",
+    "test": "day_activated",
+    "passed": true
+  },
+  {
+    "viewport": "360x740",
+    "test": "49_tiles",
+    "passed": true
+  },
+  {
+    "viewport": "360x740",
+    "test": "panel_exists",
+    "passed": true
+  },
+  {
+    "viewport": "360x740",
+    "test": "contract_version",
+    "passed": true
+  },
+  {
+    "viewport": "360x740",
+    "test": "no_mechanics",
+    "passed": true
+  },
+  {
+    "viewport": "360x740",
+    "test": "no_server_send",
+    "passed": true
+  },
+  {
+    "viewport": "360x740",
+    "test": "zero_requests",
+    "passed": true
+  },
+  {
+    "viewport": "360x740",
+    "test": "zero_js_errors",
+    "passed": true
+  },
+  {
+    "viewport": "390x844",
+    "test": "rain_activated",
+    "passed": true
+  },
+  {
+    "viewport": "390x844",
+    "test": "night_activated",
+    "passed": true
+  },
+  {
+    "viewport": "390x844",
+    "test": "day_activated",
+    "passed": true
+  },
+  {
+    "viewport": "390x844",
+    "test": "49_tiles",
+    "passed": true
+  },
+  {
+    "viewport": "390x844",
+    "test": "panel_exists",
+    "passed": true
+  },
+  {
+    "viewport": "390x844",
+    "test": "contract_version",
+    "passed": true
+  },
+  {
+    "viewport": "390x844",
+    "test": "no_mechanics",
+    "passed": true
+  },
+  {
+    "viewport": "390x844",
+    "test": "no_server_send",
+    "passed": true
+  },
+  {
+    "viewport": "390x844",
+    "test": "zero_requests",
+    "passed": true
+  },
+  {
+    "viewport": "390x844",
+    "test": "zero_js_errors",
+    "passed": true
+  },
+  {
+    "viewport": "390x844",
+    "test": "export_refreshes_on_mode_change",
+    "passed": true
+  },
+  {
+    "viewport": "412x915",
+    "test": "rain_activated",
+    "passed": true
+  },
+  {
+    "viewport": "412x915",
+    "test": "night_activated",
+    "passed": true
+  },
+  {
+    "viewport": "412x915",
+    "test": "day_activated",
+    "passed": true
+  },
+  {
+    "viewport": "412x915",
+    "test": "49_tiles",
+    "passed": true
+  },
+  {
+    "viewport": "412x915",
+    "test": "panel_exists",
+    "passed": true
+  },
+  {
+    "viewport": "412x915",
+    "test": "contract_version",
+    "passed": true
+  },
+  {
+    "viewport": "412x915",
+    "test": "no_mechanics",
+    "passed": true
+  },
+  {
+    "viewport": "412x915",
+    "test": "no_server_send",
+    "passed": true
+  },
+  {
+    "viewport": "412x915",
+    "test": "zero_requests",
+    "passed": true
+  },
+  {
+    "viewport": "412x915",
+    "test": "zero_js_errors",
+    "passed": true
+  }
+]

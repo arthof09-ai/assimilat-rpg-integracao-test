@@ -1,0 +1,152 @@
+{
+  "handoff_id": "DMG-R09-DEFENSIVE-STALEMATE-EXPERIMENT-01",
+  "producer": "CM-000001 / OP-DMG-CORPUS-EMP-01",
+  "recipient": "CM-000006 / OP-VLAB-FUSION-SANDBOX-01 existing only",
+  "environment": "MESTRE-SIDE experimental NO-CANON",
+  "status": "PREPARED_NOT_DELIVERED_NOT_EXECUTED",
+  "permission": "read-only source; native runs require gateway admission and authorization",
+  "authorities": [
+    {
+      "id": "R34-MESTRE-CABRA-INVESTIDA",
+      "scope": "Cabra source 391c... Investida +6 Luta hit only; 1 Action Standard, zero additional PA, push FF310 1.5m on hit with net positive, no free movement; R34+B"
+    },
+    {
+      "id": "R32-MESTRE-FRIGIDO-RABADA",
+      "scope": "Frigido source f0dc... Rabada +6 Luta hit only, 1 Action Standard, PA0, basic melee"
+    },
+    {
+      "id": "R36-MESTRE-CABRA-REFLEXO",
+      "scope": "Cabra Reflexo+6 and Esquiva26; R39B previously reused for 3-actor scene, does not grant Reflexo+6 to other species"
+    },
+    {
+      "id": "R37-MESTRE-DEFENSE-TIES",
+      "scope": "Defender and Esquivar tie favors defense"
+    },
+    {
+      "id": "R26-RENEWAL",
+      "scope": "one reaction slot, restored at start of actor own turn"
+    },
+    {
+      "id": "R39B-SOURCE-DOMAIN-ERRATA",
+      "scope": "R39 invalid raw damage20 rejected; R39B correct raw damage <=19, one Evade spent then one legal damage14 before refresh, source and replay provenance preserved"
+    }
+  ],
+  "source_ids": {
+    "Cabra": "391c2b324ede8252b0cc810423cdbfa6",
+    "Frigido": "f0dc2b324ede820ab9470168d4a53315",
+    "Sistema_de_Combate": "3ebc2b324ede81f1be4be8804ac113c0",
+    "Criacao_de_Bestas": "3ebc2b324ede81f4992ac88a3588cacd",
+    "VLAB_experiment_operation": "3f3c2b324ede819496ddd7f93bd7e5d2"
+  },
+  "engine_contract": {
+    "historical": "native attack v0.8.1, R18 journaling, R26 turn refresh and initiative, R36 Esquivar; R39B validated second-attack behavior",
+    "R40": "Work in progress, no claim of integration or readiness",
+    "action_level": "CONDITIONALLY_NATIVE_READY only after source scope readback and gateway preflight",
+    "complete_fight": "PARTIALLY_ADMISSIBLE; initiative score and tie/scene choices require legitimate sourced values or separate explicit authority; no implicit +0 transplant from R34",
+    "native_execution_by_DMG": false
+  },
+  "scenes": [
+    {
+      "scene": "GOAT_MIRROR_R09",
+      "sources": [
+        "Cabra",
+        "Cabra"
+      ],
+      "actions": [
+        "Investida 1d6+FOR13+Luta6 (hit); damage 1d6+FOR13 impact (RD5); push 1.5m only on positive net",
+        "Esquiva=CA20+Reflexo6=26; declared BEFORE attack and without knowing RNG outcome"
+      ],
+      "policies": [
+        "DECLINE",
+        "EVADE_FIRST first incoming ever",
+        "EVADE_WHEN_AVAILABLE each incoming when slot ready"
+      ],
+      "frozen_comparison": "Same starting HP38 CA20 RD5, positional geometry, actor-indexed RNG and initiative source snapshot; cap observation at specified N rounds; preserve censored as winner=null",
+      "model_prediction": {
+        "p_hit_without_evasion": "5/6",
+        "p_hit_common_attack_when_evasion": "0",
+        "expected_damage_per_unreacted_attempt": "115/12",
+        "if_second_attack_before_refill": "second may do 115/12 expected net by independent basic attack; R39B observed 14",
+        "expected_attempts_one_sided_decline": "4979/1080",
+        "expected_attempts_one_sided_first_evaded": "6059/1080"
+      },
+      "falsifiers": [
+        "legal declared Esquiva26 with available reaction permits noncritical Investida score<=25 to damage",
+        "second Esquiva executed despite already consumed slot without refresh",
+        "reaction declaration conditioned on future hit outcome",
+        "bad damage die or forgotten push/geometry gate"
+      ]
+    },
+    {
+      "scene": "FRIGIDO_VS_GOAT_R09",
+      "sources": [
+        "Frigido",
+        "Cabra"
+      ],
+      "actions": [
+        "Frigido Rabada1d6+FOR18+Luta6; net(1d6+FOR18-RD5), 1 Standard Action PA0",
+        "Cabra Investida contract R34; opponent CA31",
+        "Cabra Esquiva26 R36 value only and pre-declared when available"
+      ],
+      "baseline": "Earlier R34 fixed no-Reaction historical baseline retained no replay",
+      "treatment": "New scene, Cabra Esquiva whenever legal; actual critical RNG as engine resolves; stratify successful noncritical attacks for math verification",
+      "math_pred_noncritical": {
+        "frigido_p_hit_decline": "1",
+        "frigido_p_hit_evade": "2/3",
+        "E_Rabada_attempts_to_defeat_HP38_decline": "107/36",
+        "E_Rabada_attempts_to_defeat_HP38_evade": "107/24",
+        "increase_relative": "50%",
+        "p_not_defeated_after_8_frigido_attempts_evade": "1133/59049"
+      },
+      "falsifiers": [
+        "noncritical Frigido attack<=26 damages announced legal Evasion26",
+        "noncritical Frigido attack>26 is evaded without alternative legal effect",
+        "scope extension includes bonus for another skill or creature",
+        "attacks artificially replayed from old DB as new evidence"
+      ]
+    }
+  ],
+  "critical_boundary": {
+    "source": "3ebc2b324ede81f1be4be8804ac113c0",
+    "base_positive_verification": "2/216 per verification, sequential dice",
+    "damage_formula_on_crit": "normal dice+fix+maximum dice component",
+    "unresolved": "Whether positive crit supersedes initial hit or Evasion is NOT explicitly established by the consulted normative section; do not force bypass or auto-hit",
+    "execution_recommendation": "Record hit test, critical verification timing/result, reaction declaration, damage decision as separate events and fail closed if rules cannot determine interaction"
+  },
+  "alternative_routes": {
+    "AoO": "normal attack with Vantagem if leaving adjacency voluntarily; does NOT inherit Investida-only +6 without authority, reaction consumes slot; forced movement R34 not automatically AoO",
+    "Counterattack": "legitimate reaction triggered when incoming attack does not beat printed CA, but replaces Esquiva reaction; nested priority R39B blocked pending competent norm",
+    "second_attack": "R39B proves reaction exhaustion with 2 source-derived attackers; different from one-on-one one-per-renewal model",
+    "other_actions": "no other Cabra damage ability besides Investida documented; generic actions, critical bypass, geometrical change must be sourced individually",
+    "surprise": "automatic hit on total surprise is Master's situational discretion, not default for duel"
+  },
+  "metrics": [
+    "attack opportunities",
+    "effective hits per opportunity",
+    "damage conditional on hit",
+    "HP change conditional on policy",
+    "reactions announced/spent/renewed",
+    "movement actions to reenter range",
+    "critical occurrences and statuses",
+    "rounds until legitimate terminal",
+    "observations censored with exact horizon"
+  ],
+  "readback_gates": [
+    "Reopen exact R32 R34 R36 R37 R39B authority envelopes and source UUIDs",
+    "Preserve R34-R39B SQLite hashes and identities; no retroactive rerun",
+    "Check new initiative/bonuses/scene constraints without defaulting to +0",
+    "Check action sequence, reaction availability, movement, actor-keyed RNG",
+    "Check source die bounds 1..6 for hit and damage; quarantine out-of-range payloads",
+    "Only then native gateway admit; trial must use new seed and new journal/receipt/replay",
+    "No DMG handoff receipt or VLAB execution assumed"
+  ],
+  "restrictions": [
+    "no official combats",
+    "no Party/O Primeiro writes",
+    "no Notion writes by DMG",
+    "no change to DMG-RANK-01 v1.1",
+    "NAC-PASS terminal HOLD",
+    "no false winner for censored states"
+  ],
+  "new_results_file_sha256": "99d577f2b1f2027913c564e7b72b5c7789f32aa2cb79655031857423be6bdf64"
+}

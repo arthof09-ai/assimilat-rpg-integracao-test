@@ -1,0 +1,39 @@
+{
+  "cycle": "C28",
+  "date": "2026-10-21",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "folder": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "success": "3/3 PRIMARY FILES VERIFIED",
+  "artifact_readbacks": [
+    {
+      "name": "DMG_C28_REACOES_RI_FIP_CONTRATOS_20261021_MESTRE_ONLY.zip",
+      "bytes": 427030,
+      "sha256": "cbcc4a5b8f6337f4f393c8cba7a32f18bb182966b3654950d2bd9d10affd75fd",
+      "library_readback_equal": true
+    },
+    {
+      "name": "PSV_DMG_C28_MESTRE_ONLY.md",
+      "bytes": 22271,
+      "sha256": "900967f28650dbc7d72c5b24894ce2bad2d7225f13a603a99f996fb73455f324",
+      "library_readback_equal": true
+    },
+    {
+      "name": "C28_PARECER_DECISORIO_MESTRE_ONLY.md",
+      "bytes": 4286,
+      "sha256": "d52e3cf9cf94340ac8f4856de51b9fe51134783e07e9a9b9c9babcfe26cd6a0e",
+      "library_readback_equal": true
+    }
+  ],
+  "zip_crc": "PASS",
+  "zip_manifest": "34/34 PASS",
+  "cold_replay": "21/21 PUBLICATION DERIVATIVES PASS",
+  "vlab_R205_external_evidence": "three source-bound derived files; VLAB ZIP original SHA256 62a9851b3a5ae7919b9225d9379a3d32c8736448e76bfcea4729dcbfe933cead; independent replay requires external",
+  "primary_math_checks": 83,
+  "second_math_checks": 83,
+  "delivery_scope_cases": 16,
+  "F0": "4/8 HOLD",
+  "A5": "0/7 original attachment bytes",
+  "canon_writes": 0,
+  "Party_O_Primeiro_writes": 0,
+  "NAC_PASS": "HOLD"
+}

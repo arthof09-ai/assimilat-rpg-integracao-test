@@ -1,0 +1,49 @@
+[
+  {
+    "run": "R166_V2_CASULO_AOO_NEGATIVE_DEV_S1195557",
+    "seed": 1195557,
+    "commits": 5,
+    "native_events": 7,
+    "A_HP_initial": 523,
+    "A_HP_final": 523,
+    "cocoon_CA_active": 247,
+    "cocoon_speed_m": 12,
+    "R42_critical_first": "NEGATIVE",
+    "R43_actual_order": [
+      "F",
+      "V"
+    ],
+    "Varok_reaction_remaining": 0,
+    "A_position": "OUT_OF_ADJACENCY",
+    "AOO_net_post_RD": 0,
+    "AOO_actual_HP_lost": 0,
+    "AOOs": 2,
+    "Cocoon_PA": 60,
+    "temporal_exact_expiry": "HOLD",
+    "head": "34be7d7da2bfe57682d6084f01000f2978bdca743cac6aac2019101f2999a138",
+    "status": "SOURCE_SCOPED_TECHNICAL_PASS_PREFIX_NOT_FULL_BATTLE"
+  },
+  {
+    "run": "R166_V2_CASULO_AOO_KO_DEV_S1205088",
+    "seed": 1205088,
+    "commits": 5,
+    "native_events": 5,
+    "A_HP_initial": 60,
+    "A_HP_final": 0,
+    "cocoon_CA_active": 247,
+    "cocoon_speed_m": 12,
+    "R42_critical_first": "POSITIVE",
+    "R43_actual_order": [
+      "F"
+    ],
+    "Varok_reaction_remaining": 1,
+    "A_position": "CENTER",
+    "AOO_net_post_RD": 114,
+    "AOO_actual_HP_lost": 60,
+    "AOOs": 1,
+    "Cocoon_PA": 60,
+    "temporal_exact_expiry": "HOLD",
+    "head": "e28b3cf55ca3cb2e8803ff086f1ba66a826a495ee6d1385bf1d62f9443c3bdc1",
+    "status": "SOURCE_SCOPED_TECHNICAL_PASS_PREFIX_NOT_FULL_BATTLE"
+  }
+]

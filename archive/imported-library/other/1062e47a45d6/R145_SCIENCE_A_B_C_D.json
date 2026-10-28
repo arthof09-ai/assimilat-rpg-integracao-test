@@ -1,0 +1,28 @@
+{
+  "A": {
+    "goal": "25 individual Spiritualist archetypes",
+    "new_official_cells": 0,
+    "observation": "Auren has source L3; Feryn and Eristan ON5 proposed without Demon Spirit and CANNOT count."
+  },
+  "B": {
+    "goal": "27 power positions same Beast lineage",
+    "new_official_cells": 0,
+    "observation": "Grifo L2 virtual derived as single species continuity; no source complete fight here."
+  },
+  "C": {
+    "goal": "25 team power levels",
+    "new_official_cells": 0,
+    "observation": "Auren vs Feryn/Eristan is 1x2 conditional, intentionally forego actions and censored; no balanced ED team."
+  },
+  "D": {
+    "goal": "27 distinct Beast species",
+    "new_official_cells": 0,
+    "observation": "ADM26 and Besta Divina27 above Lendario5; distinct source species insufficient."
+  },
+  "additional_science": {
+    "R138": "4 rounds, 40 commits, 3 attacks, 411 HP healed, 672 HP lost, CENSORED; outcome/power not estimable",
+    "R141": "14 HP cap laboratory fixture, not realized combat",
+    "independent_seeds": "one executed new multiround development seed; no blind holdout",
+    "official_cells": "0/1875"
+  }
+}

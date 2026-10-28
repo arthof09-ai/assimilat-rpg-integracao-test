@@ -1,0 +1,20 @@
+{
+  "original": {
+    "viewport_y": 864.8,
+    "viewport_h": 447.3,
+    "above_fold": false,
+    "board_cells": 49,
+    "errors": []
+  },
+  "compact": {
+    "viewport_y": 157.8,
+    "viewport_h": 540.2,
+    "above_fold": true,
+    "board_cells": 49,
+    "errors": [],
+    "tools_closed_on_open": true,
+    "tools_visible_after_click": true,
+    "tools_closed_again": true,
+    "original_app_name": "Tabletop Assimilação — Laboratório TEST"
+  }
+}

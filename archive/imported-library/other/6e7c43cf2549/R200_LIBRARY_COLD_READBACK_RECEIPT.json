@@ -1,0 +1,21 @@
+{
+  "result": "PASS_R200_COLD_PORTABLE_RECOVERY",
+  "hashes": 85,
+  "baseline_r199_sha256": "533782992f7c16dfd79c06a7113b38d49d4e487cede9f42c1a19d073de0fd015",
+  "r200_battles": 30,
+  "r200_ko": 16,
+  "r200_censored": 14,
+  "r200_precommit_ties": 2,
+  "commits": 1497,
+  "events": 4415,
+  "attacks": 1467,
+  "adversarial_rejected": 4,
+  "spatial_and_equipment_regressions": 20,
+  "ui_modes": 6,
+  "legacy_fights_replayed": 0,
+  "new_fights_replayed": 0,
+  "magic_ring_rank_certified": false,
+  "terminal_contracts": 0,
+  "official_benchmark_cells": 0,
+  "production": "HOLD"
+}

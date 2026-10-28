@@ -1,0 +1,333 @@
+{
+  "A": "PASS_NO_BROWSER_REAL_R48",
+  "B": {
+    "status": "PASS_PREVIEW_AWAITED_ACK",
+    "stock_unchanged": true
+  },
+  "C": {
+    "attempts": 5,
+    "individual_results": [
+      {
+        "consumed": [
+          {
+            "lot_id": "SBX-SLATE-GOOD-01",
+            "quantity": 1,
+            "source_page_id": "3f3c2b32-4ede-81ac-af28-c66a6b46e0b2",
+            "unit": "lamina"
+          }
+        ],
+        "products": [
+          {
+            "mechanical_bonus": 0,
+            "name": "Tábua Lamelar de Inscrição (somente simulação)",
+            "official_product_id": null,
+            "product_id": "SBX-CRAFT-R44-I0016-PRODUCT-SBX-R48-ORDER-UI-748160422",
+            "qa_fixture": {
+              "cracks": false,
+              "delamination": false,
+              "flatness_deviation_mm": 0.5,
+              "grid_spacing_mm": 10,
+              "groove_depth_mm": 0.3,
+              "length_mm": 120,
+              "magic_detected": false,
+              "markings_repeat_count": 3,
+              "sharp_edges": false,
+              "thickness_mm": 8,
+              "width_mm": 80
+            },
+            "recipe_key": "SBX-TLI-R44-v1",
+            "source_lots": [
+              "SBX-SLATE-GOOD-01"
+            ],
+            "status": "SYNTHETIC_OUTPUT_ONLY",
+            "unit": "tabua_sintetica",
+            "units": 1
+          }
+        ],
+        "qa": {
+          "cracks": false,
+          "delamination": false,
+          "flatness_deviation_mm": 0.5,
+          "grid_spacing_mm": 10,
+          "groove_depth_mm": 0.3,
+          "length_mm": 120,
+          "magic_detected": false,
+          "markings_repeat_count": 3,
+          "sharp_edges": false,
+          "thickness_mm": 8,
+          "width_mm": 80
+        },
+        "report_id": "SBX-R47-LAUDO-748160422",
+        "status": "EXPERIMENTAL_QA_PASS"
+      },
+      {
+        "consumed": [
+          {
+            "lot_id": "SBX-SLATE-GOOD-01",
+            "quantity": 1,
+            "source_page_id": "3f3c2b32-4ede-81ac-af28-c66a6b46e0b2",
+            "unit": "lamina"
+          }
+        ],
+        "products": [
+          {
+            "mechanical_bonus": 0,
+            "name": "Tábua Lamelar de Inscrição (somente simulação)",
+            "official_product_id": null,
+            "product_id": "SBX-CRAFT-R44-I0016-PRODUCT-SBX-R48-ORDER-UI-748160423",
+            "qa_fixture": {
+              "cracks": false,
+              "delamination": false,
+              "flatness_deviation_mm": 0.5,
+              "grid_spacing_mm": 10,
+              "groove_depth_mm": 0.3,
+              "length_mm": 120,
+              "magic_detected": false,
+              "markings_repeat_count": 3,
+              "sharp_edges": false,
+              "thickness_mm": 8,
+              "width_mm": 80
+            },
+            "recipe_key": "SBX-TLI-R44-v1",
+            "source_lots": [
+              "SBX-SLATE-GOOD-01"
+            ],
+            "status": "SYNTHETIC_OUTPUT_ONLY",
+            "unit": "tabua_sintetica",
+            "units": 1
+          }
+        ],
+        "qa": {
+          "cracks": false,
+          "delamination": false,
+          "flatness_deviation_mm": 0.5,
+          "grid_spacing_mm": 10,
+          "groove_depth_mm": 0.3,
+          "length_mm": 120,
+          "magic_detected": false,
+          "markings_repeat_count": 3,
+          "sharp_edges": false,
+          "thickness_mm": 8,
+          "width_mm": 80
+        },
+        "report_id": "SBX-R47-LAUDO-748160423",
+        "status": "EXPERIMENTAL_QA_PASS"
+      },
+      {
+        "consumed": [
+          {
+            "lot_id": "SBX-SLATE-GOOD-01",
+            "quantity": 1,
+            "source_page_id": "3f3c2b32-4ede-81ac-af28-c66a6b46e0b2",
+            "unit": "lamina"
+          }
+        ],
+        "products": [
+          {
+            "mechanical_bonus": 0,
+            "name": "Tábua Lamelar de Inscrição (somente simulação)",
+            "official_product_id": null,
+            "product_id": "SBX-CRAFT-R44-I0016-PRODUCT-SBX-R48-ORDER-UI-748160424",
+            "qa_fixture": {
+              "cracks": false,
+              "delamination": false,
+              "flatness_deviation_mm": 0.5,
+              "grid_spacing_mm": 10,
+              "groove_depth_mm": 0.3,
+              "length_mm": 120,
+              "magic_detected": false,
+              "markings_repeat_count": 3,
+              "sharp_edges": false,
+              "thickness_mm": 8,
+              "width_mm": 80
+            },
+            "recipe_key": "SBX-TLI-R44-v1",
+            "source_lots": [
+              "SBX-SLATE-GOOD-01"
+            ],
+            "status": "SYNTHETIC_OUTPUT_ONLY",
+            "unit": "tabua_sintetica",
+            "units": 1
+          }
+        ],
+        "qa": {
+          "cracks": false,
+          "delamination": false,
+          "flatness_deviation_mm": 0.5,
+          "grid_spacing_mm": 10,
+          "groove_depth_mm": 0.3,
+          "length_mm": 120,
+          "magic_detected": false,
+          "markings_repeat_count": 3,
+          "sharp_edges": false,
+          "thickness_mm": 8,
+          "width_mm": 80
+        },
+        "report_id": "SBX-R47-LAUDO-748160424",
+        "status": "EXPERIMENTAL_QA_PASS"
+      },
+      {
+        "consumed": [
+          {
+            "lot_id": "SBX-MICA-GOOD-A",
+            "quantity": 1,
+            "source_page_id": "3f3c2b32-4ede-81e1-b179-e194e2838c84",
+            "unit": "folha"
+          },
+          {
+            "lot_id": "SBX-MICA-GOOD-B",
+            "quantity": 1,
+            "source_page_id": "3f3c2b32-4ede-81e1-b179-e194e2838c84",
+            "unit": "folha"
+          }
+        ],
+        "products": [
+          {
+            "mechanical_bonus": 0,
+            "name": "Par de Espaçadores de Mica (somente simulação)",
+            "official_product_id": null,
+            "product_id": "SBX-CRAFT-R44-I0016-PRODUCT-SBX-R48-ORDER-UI-748160425",
+            "qa_fixture": {
+              "cracks": false,
+              "length_mm": 50,
+              "loose_lamellae": false,
+              "magic_detected": false,
+              "mount_fit": true,
+              "piece_count": 2,
+              "thickness_difference_mm": 0.05,
+              "width_mm": 20
+            },
+            "recipe_key": "SBX-MICA-R44-v1",
+            "source_lots": [
+              "SBX-MICA-GOOD-A",
+              "SBX-MICA-GOOD-B"
+            ],
+            "status": "SYNTHETIC_OUTPUT_ONLY",
+            "unit": "espacador_sintetico",
+            "units": 2
+          }
+        ],
+        "qa": {
+          "cracks": false,
+          "length_mm": 50,
+          "loose_lamellae": false,
+          "magic_detected": false,
+          "mount_fit": true,
+          "piece_count": 2,
+          "thickness_difference_mm": 0.05,
+          "width_mm": 20
+        },
+        "report_id": "SBX-R47-LAUDO-748160425",
+        "status": "EXPERIMENTAL_QA_PASS"
+      },
+      {
+        "consumed": [
+          {
+            "lot_id": "SBX-MICA-GOOD-A",
+            "quantity": 1,
+            "source_page_id": "3f3c2b32-4ede-81e1-b179-e194e2838c84",
+            "unit": "folha"
+          },
+          {
+            "lot_id": "SBX-MICA-GOOD-B",
+            "quantity": 1,
+            "source_page_id": "3f3c2b32-4ede-81e1-b179-e194e2838c84",
+            "unit": "folha"
+          }
+        ],
+        "products": [
+          {
+            "mechanical_bonus": 0,
+            "name": "Par de Espaçadores de Mica (somente simulação)",
+            "official_product_id": null,
+            "product_id": "SBX-CRAFT-R44-I0016-PRODUCT-SBX-R48-ORDER-UI-748160426",
+            "qa_fixture": {
+              "cracks": false,
+              "length_mm": 50,
+              "loose_lamellae": false,
+              "magic_detected": false,
+              "mount_fit": true,
+              "piece_count": 2,
+              "thickness_difference_mm": 0.05,
+              "width_mm": 20
+            },
+            "recipe_key": "SBX-MICA-R44-v1",
+            "source_lots": [
+              "SBX-MICA-GOOD-A",
+              "SBX-MICA-GOOD-B"
+            ],
+            "status": "SYNTHETIC_OUTPUT_ONLY",
+            "unit": "espacador_sintetico",
+            "units": 2
+          }
+        ],
+        "qa": {
+          "cracks": false,
+          "length_mm": 50,
+          "loose_lamellae": false,
+          "magic_detected": false,
+          "mount_fit": true,
+          "piece_count": 2,
+          "thickness_difference_mm": 0.05,
+          "width_mm": 20
+        },
+        "report_id": "SBX-R47-LAUDO-748160426",
+        "status": "EXPERIMENTAL_QA_PASS"
+      }
+    ],
+    "produced_units": 7,
+    "r48_head": "caa294120119581812368d2d95a77017627423435cb1c71e42dba8812d042f77",
+    "receipt_sha256": "5329aa5352f073f2681aab8480637370f87408946f12e61e8092b200edcc6ef2",
+    "status": "PASS_BATCH_3_TLI_2_MICA",
+    "stock_after": {
+      "SBX-MICA-GOOD-A": 6,
+      "SBX-MICA-GOOD-B": 6,
+      "SBX-SLATE-CRACKED": 1,
+      "SBX-SLATE-GOOD-01": 5,
+      "SBX-SLATE-TOO-SMALL": 1
+    },
+    "stock_before": {
+      "SBX-MICA-GOOD-A": 8,
+      "SBX-MICA-GOOD-B": 8,
+      "SBX-SLATE-CRACKED": 1,
+      "SBX-SLATE-GOOD-01": 8,
+      "SBX-SLATE-TOO-SMALL": 1
+    }
+  },
+  "C19_021": "UNKNOWN-SIDE-EFFECT",
+  "D": {
+    "different_per_attempt": [
+      "EXPERIMENTAL_QA_PASS",
+      "QUARANTINE_EVIDENCE",
+      "EXPERIMENTAL_QA_PASS"
+    ],
+    "failed_attempt_debit": 0,
+    "status": "PASS_INDIVIDUAL_QA"
+  },
+  "E": {
+    "disk_sequence": 1,
+    "status": "PASS_REPLAY_IDEMPOTENT"
+  },
+  "F": {
+    "cancelled": "CANCELLED_BY_USER",
+    "insufficient_blocked": true,
+    "status": "PASS_CANCEL_NO_CONSUMPTION"
+  },
+  "G": {
+    "backup_sha256": "618939a7a1e6ae1e3413428cd5f677b9462191a6e9fd9305a80faf1ee84576c4",
+    "old_session_preserved": true,
+    "recovered_back_to_original": true,
+    "reopened_batches": 1,
+    "status": "PASS_PERSIST_AND_RESTORE"
+  },
+  "H": {
+    "f5_gaps_closed": 0,
+    "official_RC5_count": 0,
+    "official_stock_effect": 0,
+    "status": "PASS_NO_NOTION_WRITER_IN_CHAT_ADAPTER"
+  },
+  "execution": "REAL_R48_WITH_SYNTHETIC_FIXTURE_CHOICES_NOT_HUMAN_UAT",
+  "human_UAT": false,
+  "official_F5": "RED",
+  "schema": "CRAFT-CHAT-v03-A-H-AUTOMATED-DEMONSTRATION"
+}

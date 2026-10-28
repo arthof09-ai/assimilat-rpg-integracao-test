@@ -1,0 +1,24 @@
+[
+  {
+    "run_id": "R134_AFTER_INTENT_973213",
+    "status": "UNKNOWN_EFFECT_HOLD_DO_NOT_REPLAY",
+    "ledger_events": 2,
+    "pending": 1,
+    "HP_F1": 479,
+    "PA_F1": 424,
+    "reaction_slot": 1,
+    "sha256": "609d20717364f866679bdf58f99a4f2255e913882d91135e87c0c33344ae24bc",
+    "auditor_imports_native": false
+  },
+  {
+    "run_id": "R134_AFTER_COMMIT_973214",
+    "status": "EXACT_ONE_COMMIT",
+    "ledger_events": 3,
+    "pending": 0,
+    "HP_F1": 245,
+    "PA_F1": 389,
+    "reaction_slot": 0,
+    "sha256": "aec61d175dfe86d29b6beb5a8adcb62194cacf93cce0969f85f2fdf380c4adf6",
+    "auditor_imports_native": false
+  }
+]

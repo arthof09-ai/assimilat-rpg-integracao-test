@@ -1,0 +1,29 @@
+{
+  "stage": "R144",
+  "independent_import_native": false,
+  "fault_cases": [
+    {
+      "run_id": "R143_TEMP_PASSO_AFTER_INTENT_S994211",
+      "mode": "AFTER_INTENT",
+      "pending": 1,
+      "commits": 0,
+      "raw_chain": "PASS",
+      "semantic_replay": "PASS",
+      "state_is_unchanged": true,
+      "official": false,
+      "sha256": "c5c591102c222904bfa8db8fee7c09db3c9ac26f421cc204be5f87590514ed6f"
+    },
+    {
+      "run_id": "R143_TEMP_PASSO_AFTER_COMMIT_S994212",
+      "mode": "AFTER_COMMIT",
+      "pending": 0,
+      "commits": 3,
+      "raw_chain": "PASS",
+      "semantic_replay": "PASS",
+      "state_is_unchanged": false,
+      "official": false,
+      "sha256": "8b522e4c4d7f1a45623c713176e6ec0e1e8e0be82a0a4f9557d1bc866fcf6e90"
+    }
+  ],
+  "pass": 2
+}

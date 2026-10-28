@@ -1,0 +1,42 @@
+{
+  "result": "PASS_R186_LIBRARY_BINARY_READBACK_AND_COLD_RECOVERY",
+  "file": "VLAB_R177_R186_SOURCE_ADMISSIBILITY_SCIENCE_MESTRE_ONLY.zip",
+  "bytes": 4882166,
+  "sha256": "83465276a9b2822cf2791d206dd570b6fe6a9fa5711c85d1cd164ebd4d9ab3b7",
+  "byte_identity": true,
+  "cold_result": {
+    "result": "PASS_R186_COLD_PORTABLE_RECOVERY",
+    "files_sha256_ok": 335,
+    "r176_baseline_sha": "e8da2752ebcd5c7d99c4d5cee010be396462e765f44b29c94e4084194d89f19e",
+    "r176_zip_entries": 298,
+    "source_beast_initiative_named": 0,
+    "source_beast_denominator": 6,
+    "combat_databases": 10,
+    "combat_sql_commits": 212,
+    "native_events": 616,
+    "offensive_receipts": 202,
+    "preflight_range_admitted": 2,
+    "preflight_range_rejected": 4,
+    "preflight_R18_commits": 1,
+    "semantic_forged_clones_rejected": 10,
+    "fault_banks": [
+      {
+        "failure": "AFTER_INTENT",
+        "pending": 1,
+        "commits": 0
+      },
+      {
+        "failure": "AFTER_COMMIT",
+        "pending": 0,
+        "commits": 1
+      }
+    ],
+    "holdout_seeds": 3,
+    "official_benchmarks": 0,
+    "original_contracts_terminal": 0,
+    "original_contracts_denominator": 17,
+    "no_rerun_of_attacks": true,
+    "no_production_writer": true
+  },
+  "no_combat_rerun": true
+}

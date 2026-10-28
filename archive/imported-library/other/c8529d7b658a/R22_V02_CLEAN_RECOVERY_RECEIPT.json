@@ -1,0 +1,30 @@
+{
+  "NAC_PASS_TERMINAL": "HOLD",
+  "R13_oracle_bytes": "PASS",
+  "R21_independent_clean": {
+    "B_total": "1/18",
+    "R13_oracle_sha": "PASS",
+    "R14_sha": "PASS",
+    "R19_sha": "PASS",
+    "R20_sha": "PASS",
+    "all_crc": "PASS",
+    "manifest_entries": 21,
+    "originals_i0003": "0/9",
+    "regenerated_diffs": 0,
+    "sha256_files_verified": 21,
+    "strict": "0/2",
+    "unit_tests": "36/36 PASS",
+    "zip_entries": 22,
+    "zip_sha256": "06d7a30aa2ae9d9c482ae69c9e8c912741334a8a99e784d66546dd5167ccf3ba"
+  },
+  "R22_focused_tests": "34/34 PASS",
+  "R22_regenerated_diffs": 0,
+  "certified": "1/18",
+  "manifest_SHA": "PASS",
+  "manifest_files": 20,
+  "original_I0003": "0/9",
+  "real_STRICT": "0/2",
+  "zip_CRC": "PASS",
+  "zip_SHA256": "b95b51239ee3e74bf96599a7aa119c73ebb7667a2d434f5f61100a02d6a4d972",
+  "zip_entries": 21
+}

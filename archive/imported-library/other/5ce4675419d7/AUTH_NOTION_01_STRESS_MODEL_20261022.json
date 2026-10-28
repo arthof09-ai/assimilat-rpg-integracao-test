@@ -1,0 +1,119 @@
+{
+  "scope": "MODELO DE DECISAO SIMULADO. NAO PROVA RUNTIME REAL NEM NAC-PASS S4.",
+  "total": 16,
+  "passed": 16,
+  "cases": [
+    {
+      "id": "T01_MULTICONTAS",
+      "expected": "CORRIGIR_LINK_ID",
+      "observed": "CORRIGIR_LINK_ID",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    },
+    {
+      "id": "T02_OMISSAO_LINK",
+      "expected": "CORRIGIR_LINK_ID",
+      "observed": "CORRIGIR_LINK_ID",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    },
+    {
+      "id": "T03_LINK_INCORRETO",
+      "expected": "REDESCOBRIR_VINCULO",
+      "observed": "REDESCOBRIR_VINCULO",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    },
+    {
+      "id": "T04_AUTH_LEITURA_OK",
+      "expected": "OPERACIONAL",
+      "observed": "OPERACIONAL",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    },
+    {
+      "id": "T05_NOT_FOUND_AUTENTICADO",
+      "expected": "DIAGNOSTICAR_DESTINO",
+      "observed": "DIAGNOSTICAR_DESTINO",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    },
+    {
+      "id": "T06_MESTRE_PARA_PARTY",
+      "expected": "DIAGNOSTICAR_DESTINO",
+      "observed": "DIAGNOSTICAR_DESTINO",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    },
+    {
+      "id": "T07_PARTY_PARA_MESTRE",
+      "expected": "DIAGNOSTICAR_DESTINO",
+      "observed": "DIAGNOSTICAR_DESTINO",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    },
+    {
+      "id": "T08_FERRAMENTA_INDISPONIVEL",
+      "expected": "BLOQUEADA_OU_INDETERMINADA",
+      "observed": "BLOQUEADA_OU_INDETERMINADA",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    },
+    {
+      "id": "T09_REVOGACAO",
+      "expected": "PARAR_SEM_CONTORNO",
+      "observed": "PARAR_SEM_CONTORNO",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    },
+    {
+      "id": "T10_ESCRITA_SEM_WRITER",
+      "expected": "NEGAR_ESCRITA",
+      "observed": "NEGAR_ESCRITA",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    },
+    {
+      "id": "T11_TIMEOUT_DE_ESCRITA",
+      "expected": "READBACK_ANTES_DE_RETRY",
+      "observed": "READBACK_ANTES_DE_RETRY",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    },
+    {
+      "id": "T12_MUDANCA_CONTA",
+      "expected": "INVALIDAR_PREFLIGHT",
+      "observed": "INVALIDAR_PREFLIGHT",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    },
+    {
+      "id": "T13_SUCESSOR_SEM_CONTEXTO",
+      "expected": "REFACER_PREFLIGHT",
+      "observed": "REFACER_PREFLIGHT",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    },
+    {
+      "id": "T14_TEST_INDEPENDENTE",
+      "expected": "CONTINUAR_TEST_SE_AUTORIZADO",
+      "observed": "CONTINUAR_TEST_SE_AUTORIZADO",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    },
+    {
+      "id": "T15_RETRY_IDENTICO",
+      "expected": "PROIBIR_REPETICAO_IDENTICA",
+      "observed": "PROIBIR_REPETICAO_IDENTICA",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    },
+    {
+      "id": "T16_ALVO_NAO_LIDO",
+      "expected": "INDETERMINADA",
+      "observed": "INDETERMINADA",
+      "pass": true,
+      "method": "MODELO_SIMULADO"
+    }
+  ]
+}

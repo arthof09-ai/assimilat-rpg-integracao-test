@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "crashes": 2,
+  "pending_held": 1,
+  "committed_readback": 1,
+  "results": [
+    {
+      "mode": "AFTER_INTENT",
+      "returncode": 78,
+      "seed": 931001,
+      "sqlite": "R115_FAULT_AFTER_INTENT_931001.sqlite",
+      "events": 1,
+      "pending": 1,
+      "E_hp": 523,
+      "status": "UNKNOWN_EFFECT_HOLD_NO_RETRY_OR_CLAIM",
+      "head": "4e2243a087ccdf08bf00c17df454df6dc7330bddb4280e1e01f4894cdcdc5c69"
+    },
+    {
+      "mode": "AFTER_COMMIT",
+      "returncode": 77,
+      "seed": 931002,
+      "sqlite": "R115_FAULT_AFTER_COMMIT_931002.sqlite",
+      "events": 2,
+      "pending": 0,
+      "E_hp": 258,
+      "status": "COMMIT_READBACK_PASS_CRASH_AFTER_COMMIT_NO_RETRY",
+      "head": "464e05b62804872f9913d59b49233cde49f7b3e1fb577dcb96c19b38e2ef36a9"
+    }
+  ],
+  "production_effects": 0,
+  "terminal_contracts": 0
+}

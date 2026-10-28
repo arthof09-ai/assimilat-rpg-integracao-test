@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "checks": 38,
+  "three_actor": {
+    "order": [
+      "B",
+      "C",
+      "A"
+    ],
+    "event_chain": "bddbe57e5df478ce58a566c04041065dc0ec428873aa2fa02659ee299b7cceb3",
+    "control_events": 6,
+    "first_native_defender": {
+      "seq": 1,
+      "engine": "COMBAT-EFFECT-ADAPTER-PARTIAL-v0.8",
+      "provenance": "LAB-TEST-SYNTHETIC-NONCANON",
+      "action": "DEFENDER",
+      "by": "A",
+      "attack_score": 13,
+      "defense_exact": "19",
+      "damage_negated": true,
+      "consumes_reaction": true,
+      "source": "BEFORE-ATTACK",
+      "qualification": "DEFENDER: on success no damage; ESQUIVAR: evade hit on success"
+    },
+    "slots": {
+      "after_B": 0,
+      "after_C": 0,
+      "own_turn_A": 1
+    },
+    "verified": true
+  },
+  "esquivar": {
+    "native_esquivar": {
+      "seq": 1,
+      "engine": "COMBAT-EFFECT-ADAPTER-PARTIAL-v0.8",
+      "provenance": "LAB-TEST-SYNTHETIC-NONCANON",
+      "action": "ESQUIVAR",
+      "by": "A",
+      "attack_score": 19,
+      "defense_exact": "22",
+      "damage_negated": true,
+      "consumes_reaction": true,
+      "source": "BEFORE-ATTACK",
+      "qualification": "DEFENDER: on success no damage; ESQUIVAR: evade hit on success"
+    },
+    "second_reaction": "REJECTED"
+  },
+  "checkpoint": {
+    "seed71_initial_checkpoint_revision": 2,
+    "checkpoint_sha256": "fb69ddb190692cbccec3ae6cb9144391b7917ecc6f246d7ddf2711763f6ab465",
+    "restoration": "PASS"
+  },
+  "comparison": {
+    "old_censored": {
+      "41": "INITIATIVE_TIE_BEFORE_DURABLE_INTENT",
+      "71": "CRITICAL_SEQUENCE_POSITIVE_BEFORE_INTENT",
+      "83": "CRITICAL_SEQUENCE_NEGATIVE_BEFORE_INTENT"
+    },
+    "new": [
+      {
+        "seed": 11,
+        "status": "COMPLETE_CONDITIONAL_RULE_DERIVED",
+        "native_attacks": 17,
+        "a1_events": 51,
+        "round": 9,
+        "critical_positives": 0
+      },
+      {
+        "seed": 23,
+        "status": "COMPLETE_CONDITIONAL_RULE_DERIVED",
+        "native_attacks": 21,
+        "a1_events": 63,
+        "round": 11,
+        "critical_positives": 0
+      },
+      {
+        "seed": 37,
+        "status": "COMPLETE_CONDITIONAL_RULE_DERIVED",
+        "native_attacks": 19,
+        "a1_events": 57,
+        "round": 10,
+        "critical_positives": 0
+      },
+      {
+        "seed": 41,
+        "status": "COMPLETE_CONDITIONAL_RULE_DERIVED",
+        "native_attacks": 14,
+        "a1_events": 41,
+        "round": 7,
+        "critical_positives": 0
+      },
+      {
+        "seed": 53,
+        "status": "COMPLETE_CONDITIONAL_RULE_DERIVED",
+        "native_attacks": 14,
+        "a1_events": 41,
+        "round": 7,
+        "critical_positives": 0
+      },
+      {
+        "seed": 67,
+        "status": "COMPLETE_CONDITIONAL_RULE_DERIVED",
+        "native_attacks": 14,
+        "a1_events": 41,
+        "round": 7,
+        "critical_positives": 0
+      },
+      {
+        "seed": 71,
+        "status": "COMPLETE_CONDITIONAL_RULE_DERIVED",
+        "native_attacks": 13,
+        "a1_events": 39,
+        "round": 7,
+        "critical_positives": 1
+      },
+      {
+        "seed": 83,
+        "status": "CENSORED_NEGATIVE_CRITICAL_EFFECT_UNKNOWN",
+        "native_attacks": 3,
+        "a1_events": 10,
+        "round": 2,
+        "critical_positives": 0
+      }
+    ]
+  }
+}

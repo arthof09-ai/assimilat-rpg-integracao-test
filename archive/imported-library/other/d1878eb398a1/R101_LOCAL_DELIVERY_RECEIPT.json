@@ -1,0 +1,19 @@
+{
+  "path": "/mnt/data/VLAB_R92_R101_POTENCIA_EQUIVALENTE_2X1_MESTRE_ONLY.zip",
+  "size_bytes": 9710134,
+  "sha256": "582bc31c08787a8528b7c35fa3c68c202aeaa4f2198a2995bed00a72a6f3b66b",
+  "zip_entries": 400,
+  "manifested_file_hashes": 399,
+  "sha256_manifest_sha256": "dc98e6f335c7c7b0de2c37855a2938e593926fddd8d6bd6ba2126046e09a8ea6",
+  "crc": "PASS",
+  "independent_cold_audits_in_clean_extract": {
+    "R95": "16/16",
+    "R93": "8/8"
+  },
+  "selected_runs": 24,
+  "event_count": 2268,
+  "attacks": 1344,
+  "hits": 710,
+  "censored": 8,
+  "status": "LOCAL_VERIFIED_WAIT_LIBRARY_READBACK"
+}

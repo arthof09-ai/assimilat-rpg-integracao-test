@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "as_of": "2026-10-17",
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "archive_bytes": 81939,
+  "archive_sha256": "3b823c17d3d622acb595c7b20f4fce4529926ddb4c3d10e3935f9650e4afaa3e",
+  "library_uploaded_exact": true,
+  "standalone_PSV_SHA256": "e026685a49ba73f18a7cdd8069b9f5f3a423c45b83adb49c0212d7e35d70c589",
+  "readback_zip_sha_equal_local": true,
+  "readback_PSV_sha_equal_local": true,
+  "manifest_entries": 21,
+  "archive_entries": 22,
+  "crc": "PASS",
+  "cold_zip_extraction_outside_development_tree": true,
+  "cold_functional_test_count": 27,
+  "cold_independent_math_checks": 26,
+  "external_VLAB_native_audit_in_pack": true,
+  "R170_independent_checks": 2820,
+  "R170_member_hashes": 149,
+  "technical_NAC_PASS": "PASS",
+  "normative_F0": "4/8_HOLD",
+  "authority": "LIBRARY_ARTIFACTS_ONLY_NO_CANONICAL_WRITER"
+}

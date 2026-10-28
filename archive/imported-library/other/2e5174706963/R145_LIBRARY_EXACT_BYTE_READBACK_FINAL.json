@@ -1,0 +1,117 @@
+{
+  "R145_library_files_compared": 18,
+  "success_matches": 18,
+  "expected": 18,
+  "readback": "18/18 PASS EXACT BYTE COMPARISON",
+  "receipt_not_yet_uploaded": true,
+  "items": [
+    {
+      "name": "R139_INDEPENDENT_COLD_AUDIT.json",
+      "bytes": 1019,
+      "sha256": "74ea876e4bfdd58292634277728e6399f4f75b57b73d7b70a9457a591232fc3d",
+      "match": true
+    },
+    {
+      "name": "R140_COLD_PREFIX_CHECKPOINT.json",
+      "bytes": 804,
+      "sha256": "374a52cfb60d4f5e83d65129bc9a9b98201e1778ed9865e34cd6ff7da81732db",
+      "match": true
+    },
+    {
+      "name": "R141_HEAL_CAP_NEGATIVES.json",
+      "bytes": 1886,
+      "sha256": "73d0178731f0f82a364c47346a810d2231365e5c35362ebfb26a1376450973f1",
+      "match": true
+    },
+    {
+      "name": "R142_COLD_CAP_AND_REDTEAM.json",
+      "bytes": 1165,
+      "sha256": "70f53db9eff313d91710e3d2f17b79262fe9b66ded48d95bd004e9d2b1f77c7d",
+      "match": true
+    },
+    {
+      "name": "R143_FAULT_RESULTS.json",
+      "bytes": 973,
+      "sha256": "e665ad76c30f1a1d4aef68357a53d67d4a5472a94778659442a76fbc3b451020",
+      "match": true
+    },
+    {
+      "name": "R144_INDEPENDENT_FAULT_AUDIT.json",
+      "bytes": 779,
+      "sha256": "c3a5886a3d34a7fb6ce431124fda5306c075be038c865c1deb7ded3e53d5d755",
+      "match": true
+    },
+    {
+      "name": "R145_17_CONTRACTS_BEFORE_AFTER.json",
+      "bytes": 25986,
+      "sha256": "51612c1ba1105cd9459c12f70b9ee25d946cd38aa81fe1d947c20820b481867b",
+      "match": true
+    },
+    {
+      "name": "R145_17_CONTRACTS_BEFORE_AFTER.md",
+      "bytes": 13216,
+      "sha256": "825a03f1f7e2b15fe4e708da273ed74cea667febc5107ccc7a7aec03747fa666",
+      "match": true
+    },
+    {
+      "name": "R145_COLD_VERIFIED_READBACK_RECEIPT.json",
+      "bytes": 1211,
+      "sha256": "da13c047260fba9fe61069150dade8cc22c34ce1da222186a37c6e8e42635ded",
+      "match": true
+    },
+    {
+      "name": "R145_DMG_ATTACK_RECEIPTS_3.csv",
+      "bytes": 1564,
+      "sha256": "a0939d007b6337a17c842c549f0c587115812d51ff96838b72904ac6fd6cea91",
+      "match": true
+    },
+    {
+      "name": "R145_DMG_HANDOFF_READONLY.md",
+      "bytes": 1224,
+      "sha256": "a235ddededf80de0412bcee75c3849727e9f375e2cbee3b7271ab3973fe52206",
+      "match": true
+    },
+    {
+      "name": "R145_EVIDENCE_SUMMARY.json",
+      "bytes": 4296,
+      "sha256": "edcf49bd1933b74e689e78151d2a02a1fa8cd2e62a0f6014d017910172ed8893",
+      "match": true
+    },
+    {
+      "name": "R145_NATIVE_ADDITIVE_PATCH.diff",
+      "bytes": 2929,
+      "sha256": "5efef45669125e8118dabc483b6bcf989afbf071c9960430a2e530d61e1a1bab",
+      "match": true
+    },
+    {
+      "name": "R145_NORMATIVE_GATES.json",
+      "bytes": 1309,
+      "sha256": "634b1275ac89e53f2909cfa1e6532ba257cf6962dde1c954e5f30901e705bebb",
+      "match": true
+    },
+    {
+      "name": "R145_PSV_MESTRE_ONLY.md",
+      "bytes": 10554,
+      "sha256": "9d7f06e69365be965c8b3db280d0fbee15bc7eee49826fa7b1b8a81c2651fcaa",
+      "match": true
+    },
+    {
+      "name": "R145_SCIENCE_A_B_C_D.json",
+      "bytes": 1138,
+      "sha256": "1062e47a45d65005539fc2cdbc8243052f6cb1486da24fc18a169b30638616d7",
+      "match": true
+    },
+    {
+      "name": "R145_ZIP_FREEZE_RECEIPT.json",
+      "bytes": 501,
+      "sha256": "b66d037f36d49fb99d6ea79530ffeb69fff1d3bb8490c1db29b675973979401a",
+      "match": true
+    },
+    {
+      "name": "VLAB_R138_R145_MULTIRROUND_TEMPORAL_RECOVERY_VERIFIED_MESTRE_ONLY.zip",
+      "bytes": 13778050,
+      "sha256": "3407c17ab74fb9c2931814a880196237eda70c790cae987f7fe35aee24ffa383",
+      "match": true
+    }
+  ]
+}

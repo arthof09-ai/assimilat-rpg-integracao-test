@@ -1,0 +1,281 @@
+{
+  "schema": "OP-DMG-F1-REPLAY-ISOLATED-R04-v0.5",
+  "notion_source_page_ids": {
+    "liu": "0b4c2b324ede837cb6be818dc8e36010",
+    "macaco": "301c2b324ede828caccb813d3979267a",
+    "combat": "3ebc2b324ede81f1be4be8804ac113c0",
+    "beast_rules": "3ebc2b324ede81f4992ac88a3588cacd",
+    "lab_rd_direction": "3f3c2b324ede81a398edd6df6bf0d8d4"
+  },
+  "title": "Macaco Rei Patada -> Liu Xiaua, momento de ataque isolado, não combate completo",
+  "source_literals": {
+    "macaco_for": 54,
+    "macaco_attack": "Patada: 2d6 + força impacto",
+    "liu_ca": 46,
+    "liu_reflexo_reported": 49,
+    "liu_armor_rdf": 10
+  },
+  "preconditions_NOT_fully_verified": [
+    "turn/action legal",
+    "range or adjacent positioning",
+    "no condition penalties",
+    "no reaction or selected dodge when eligible",
+    "critical separate roll ordinary",
+    "FOR 54 already includes passive +2 or not",
+    "Luta proficiency modifier nonnegative, not frozen",
+    "RDF applies to impacto physical? still conditional"
+  ],
+  "attack_roll_d6": [
+    3,
+    4
+  ],
+  "critical_sequential_3d6": [
+    2,
+    3,
+    4
+  ],
+  "damage_roll_d6": [
+    5,
+    3
+  ],
+  "to_hit_minimum_without_unverified_proficiency": 61,
+  "defense_cases": {
+    "passive_CA46": "61 > 46 = success conditional",
+    "dodge_reflexo49": "61 > 49 = success conditional"
+  },
+  "attack_results_not_rpg_full_fight": {
+    "critical_check": "ORDINARY",
+    "damage_gross": 62,
+    "liu_critical_health_thresholds": {
+      "furia_at_or_below": 117.5,
+      "fraco_strict_below": 23.5,
+      "not_triggered_in_both_simple_RD_branches": true
+    },
+    "RDF_applies10": {
+      "net": 52,
+      "liu_hp_after_if_full235": 183
+    },
+    "RDF_not_applicable": {
+      "net": 62,
+      "liu_hp_after_if_full235": 173
+    },
+    "do_not_choose_mitigation_branch_without_authority": true
+  },
+  "complete_pmf_for54": {
+    "min": 56,
+    "max": 66,
+    "mean_fraction": "61.0",
+    "mean": 61.0,
+    "pmf_numerator_denominator": {
+      "56": [
+        1,
+        36
+      ],
+      "57": [
+        2,
+        36
+      ],
+      "58": [
+        3,
+        36
+      ],
+      "59": [
+        4,
+        36
+      ],
+      "60": [
+        5,
+        36
+      ],
+      "61": [
+        6,
+        36
+      ],
+      "62": [
+        5,
+        36
+      ],
+      "63": [
+        4,
+        36
+      ],
+      "64": [
+        3,
+        36
+      ],
+      "65": [
+        2,
+        36
+      ],
+      "66": [
+        1,
+        36
+      ]
+    }
+  },
+  "complete_pmf_for54_if_RDF10_applies": {
+    "min": 46,
+    "max": 56,
+    "mean_fraction": "51.0",
+    "mean": 51.0,
+    "pmf_numerator_denominator": {
+      "46": [
+        1,
+        36
+      ],
+      "47": [
+        2,
+        36
+      ],
+      "48": [
+        3,
+        36
+      ],
+      "49": [
+        4,
+        36
+      ],
+      "50": [
+        5,
+        36
+      ],
+      "51": [
+        6,
+        36
+      ],
+      "52": [
+        5,
+        36
+      ],
+      "53": [
+        4,
+        36
+      ],
+      "54": [
+        3,
+        36
+      ],
+      "55": [
+        2,
+        36
+      ],
+      "56": [
+        1,
+        36
+      ]
+    }
+  },
+  "sensitivity_FOR56_if_passive_not_included": {
+    "min": 58,
+    "max": 68,
+    "mean_fraction": "63.0",
+    "mean": 63.0,
+    "pmf_numerator_denominator": {
+      "58": [
+        1,
+        36
+      ],
+      "59": [
+        2,
+        36
+      ],
+      "60": [
+        3,
+        36
+      ],
+      "61": [
+        4,
+        36
+      ],
+      "62": [
+        5,
+        36
+      ],
+      "63": [
+        6,
+        36
+      ],
+      "64": [
+        5,
+        36
+      ],
+      "65": [
+        4,
+        36
+      ],
+      "66": [
+        3,
+        36
+      ],
+      "67": [
+        2,
+        36
+      ],
+      "68": [
+        1,
+        36
+      ]
+    }
+  },
+  "initial_resource_sensitivity": {
+    "A_documented": {
+      "macaco": {
+        "life": 750,
+        "alma": 700
+      },
+      "behemoth": {
+        "life": 500,
+        "alma": 560
+      },
+      "basis": "SOURCE_LITERAL_DOCUMENTARY; not necessarily current encounter"
+    },
+    "B_hypothetical": {
+      "macaco": {
+        "life": 810,
+        "alma": 760
+      },
+      "behemoth": {
+        "life": 530,
+        "alma": 590
+      },
+      "basis": "HYPOTHETICAL_RECALC; NOT CANON; never mixed with A"
+    }
+  },
+  "defender_bounded_proof": {
+    "formula": "6+CON16+ARMOR15+fortitude_bonus=37+fortitude_bonus",
+    "if_fortitude_bonus_le18": "all_36_attack_2d6+54 exceed Defender; conditional only"
+  },
+  "initiative_bounded_proof": {
+    "liu_roll": "2d6+DES16+InstintoSelvagem4+initiative_prof_unknown",
+    "macaco_roll": "2d6+DES40+initiative_prof_unknown",
+    "sufficient_not_necessary_condition": "p_liu-p_macaco<=9, no unknown situational modifiers => macaco always wins all 1296 independent initiative pairs",
+    "tie_policy_global": "UNKNOWN",
+    "sample_liu": [
+      4,
+      4
+    ],
+    "sample_macaco": [
+      2,
+      3
+    ],
+    "sample_base_L": 28,
+    "sample_base_M": 45,
+    "result": "conditional only; not B07 final certification"
+  },
+  "liu_attack_hypothesis": {
+    "raw_to_hit_candidate": "2d6+37",
+    "min": 39,
+    "max": 49,
+    "below_macaco_passive67_for_all_36": true,
+    "status": "ONLY_IF_RAW_NOTATION_REPRESENTS_TO_HIT; no certified misses or tactical result"
+  },
+  "validator": "independent exhaustive enumeration of 2d6 and 3d6, not lab runtime",
+  "full_fight_eligible": false,
+  "export_contract": "READ_ONLY_EXPERIMENTAL_ORACLE / DOES_NOT_IMPOSE_LAB_FIELD_SCHEMA",
+  "validation": {
+    "tests_run": 18,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  }
+}

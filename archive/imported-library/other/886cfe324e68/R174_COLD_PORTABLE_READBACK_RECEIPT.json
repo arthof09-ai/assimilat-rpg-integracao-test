@@ -1,0 +1,25 @@
+{
+  "result": "PASS_R174_COLD_PORTABLE_RECOVERY",
+  "manifest_files": 362,
+  "baseline_R173_exact": true,
+  "legitimate_duels": 3,
+  "commits": 68,
+  "native_events": 218,
+  "attacks": 65,
+  "directed": [
+    {
+      "policy": "DEFEND_VAROK",
+      "hp_varok": 734,
+      "reaction_remaining": 0
+    },
+    {
+      "policy": "HOLD_VAROK",
+      "hp_varok": 694,
+      "reaction_remaining": 1
+    }
+  ],
+  "semantic_adversarial_rejected": 5,
+  "contracts_terminal": 0,
+  "benchmarks_official": 0,
+  "no_reexecuted_effects": true
+}

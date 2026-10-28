@@ -1,0 +1,138 @@
+{
+  "id": "POST-R10-C06",
+  "kind": "5TH_FRONTIER_CROSS_RANK_BASED_ON_REAL_SOURCE_ACTIONS",
+  "source_goat": "391c2b324ede8252b0cc810423cdbfa6",
+  "authority": "VLAB R34 +6 exclusively Investida, R41 positive auto-hit, R42 negative-failure LAB only",
+  "goat_vs_ON5": {
+    "Feryn": {
+      "source": "3f6c2b324ede81ce9c61db8127bf0e31",
+      "target_defenses": {
+        "CA": 123,
+        "Esquiva": 125,
+        "RD": 22,
+        "HP": 479,
+        "source": "3f6c2b324ede81ce9c61db8127bf0e31"
+      },
+      "p_common_hit": {
+        "num": 0,
+        "den": 6
+      },
+      "crit_positive_net_by_d6": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        3
+      ],
+      "p_positive_net_per_attempt": "1/216",
+      "E_net_per_attempt": "1/108",
+      "hit_auto_on_valid_crit": true,
+      "single_action_can_ever_reduce_HP": true,
+      "E_unilateral_attacks_to_incapacitate": "finite_but_not_modelled_as_complete_combat"
+    },
+    "Varok": {
+      "source": "3f6c2b324ede81f49ea9efbe1a811091",
+      "target_defenses": {
+        "CA": 83,
+        "Esquiva": 83,
+        "RD": 35,
+        "HP": 734,
+        "source": "3f6c2b324ede81f49ea9efbe1a811091"
+      },
+      "p_common_hit": {
+        "num": 0,
+        "den": 6
+      },
+      "crit_positive_net_by_d6": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "p_positive_net_per_attempt": "0",
+      "E_net_per_attempt": "0",
+      "hit_auto_on_valid_crit": true,
+      "single_action_can_ever_reduce_HP": false,
+      "E_unilateral_attacks_to_incapacitate": "INFINITE_IN_SINGLE_ACTION_MODEL"
+    },
+    "Arveth": {
+      "source": "3f6c2b324ede8105891fc647242e61ca",
+      "target_defenses": {
+        "CA": 93,
+        "Esquiva": 95,
+        "RD": 30,
+        "HP": 806,
+        "source": "3f6c2b324ede8105891fc647242e61ca"
+      },
+      "p_common_hit": {
+        "num": 0,
+        "den": 6
+      },
+      "crit_positive_net_by_d6": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "p_positive_net_per_attempt": "0",
+      "E_net_per_attempt": "0",
+      "hit_auto_on_valid_crit": true,
+      "single_action_can_ever_reduce_HP": false,
+      "E_unilateral_attacks_to_incapacitate": "INFINITE_IN_SINGLE_ACTION_MODEL"
+    }
+  },
+  "ON5_vs_goat": {
+    "Feryn": {
+      "attack_dice": "4d6",
+      "attack_fixed": 92,
+      "min_common_attack": 96,
+      "target_Esquiva": 26,
+      "min_damage_net_vs_RD5": 50,
+      "target_HP": 38,
+      "guaranteed_one_hit_KO_IF_attack_is_legal_and_not_negative_critical": true,
+      "p_ko_per_one_independent_lab_attempt_with_negative_failure": "107/108",
+      "expected_attack_opportunities_to_KO_if_identically_repeatable_in_range": "108/107",
+      "gate": "LAB-ONLY negative critical policy R42; no source-complete B1/ON5 initiative, movement or full combat"
+    },
+    "Varok": {
+      "attack_dice": "4d6",
+      "attack_fixed": 100,
+      "min_common_attack": 104,
+      "target_Esquiva": 26,
+      "min_damage_net_vs_RD5": 53,
+      "target_HP": 38,
+      "guaranteed_one_hit_KO_IF_attack_is_legal_and_not_negative_critical": true,
+      "p_ko_per_one_independent_lab_attempt_with_negative_failure": "107/108",
+      "expected_attack_opportunities_to_KO_if_identically_repeatable_in_range": "108/107",
+      "gate": "LAB-ONLY negative critical policy R42; no source-complete B1/ON5 initiative, movement or full combat"
+    },
+    "Arveth": {
+      "attack_dice": "4d6",
+      "attack_fixed": 72,
+      "min_common_attack": 76,
+      "target_Esquiva": 26,
+      "min_damage_net_vs_RD5": 38,
+      "target_HP": 38,
+      "guaranteed_one_hit_KO_IF_attack_is_legal_and_not_negative_critical": true,
+      "p_ko_per_one_independent_lab_attempt_with_negative_failure": "107/108",
+      "expected_attack_opportunities_to_KO_if_identically_repeatable_in_range": "108/107",
+      "gate": "LAB-ONLY negative critical policy R42; no source-complete B1/ON5 initiative, movement or full combat"
+    }
+  },
+  "classification": "MATH_ONLY_ATTACK_OPPORTUNITY; attacker identity + equipment real-source from Master proposed encounter, not campaign result",
+  "limitations": [
+    "Goat can possess other authorized alternatives: NOT tested",
+    "ON5 equipment assumes equipped stated source state",
+    "No range, initiative or Reaction economy for B1 vs ON5 full fight",
+    "Investida push movement and offhand/rider effects not modelled",
+    "Counter/Reactions may change turn outcome",
+    "Negative critical policy is LAB-only not official global system",
+    "Unilateral no-progress applies exclusively to goat Investida vs specified RD, NOT species invulnerability"
+  ],
+  "new_discovery": "Bronze1 Investida cannot damage Varok/Arveth even with valid positive critical, and only 1/216 attempts produce any damage vs Feryn; all three ON5 can immediately KO Bronze1 when their equipped normal attack reaches the target without negative critical"
+}

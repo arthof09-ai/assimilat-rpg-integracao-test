@@ -1,0 +1,28 @@
+{
+  "classification": "EXPERIMENTO_TEST_VISUAL_SEM_MECANICA",
+  "geometry_shapes": [
+    "POINT",
+    "LINE",
+    "CONE",
+    "CIRCLE"
+  ],
+  "no_game_rules": true,
+  "source_html_sha256": "55481a9475615682ad288fe8cdb3baa64e43b58af9d979fab88ceac5b5055a71",
+  "output_html_sha256": "e47acf22456c14789a12cb21d8f805ff30cd04acb3dd2460200995e311ecb14d",
+  "server_not_contacted": true,
+  "mechanics_hold": [
+    "dano",
+    "pa",
+    "alcance",
+    "linha_de_visao",
+    "alvo_legal",
+    "iniciativa"
+  ],
+  "acceptance": [
+    "49 tiles preserved",
+    "actions preview controls survive",
+    "no mutations of HP/soul/PA",
+    "no network",
+    "3 Android-like viewports smoke"
+  ]
+}

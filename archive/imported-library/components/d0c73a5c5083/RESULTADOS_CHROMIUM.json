@@ -1,0 +1,77 @@
+{
+  "results": [
+    {
+      "viewport": "360x740",
+      "tests": {
+        "49_cells": true,
+        "main_application_loaded": true,
+        "entry_button_visible": true,
+        "dialog_open": true,
+        "three_states": true,
+        "accepted_rendered": true,
+        "rejected_rendered": true,
+        "unknown_rendered": true,
+        "no_transmission": true,
+        "no_mechanics": true,
+        "bad_schema_rejected": true,
+        "no_network": true,
+        "no_js_errors": true,
+        "dialog_closes": true
+      },
+      "pass": 14,
+      "total": 14,
+      "errors": [],
+      "requests": []
+    },
+    {
+      "viewport": "390x844",
+      "tests": {
+        "49_cells": true,
+        "main_application_loaded": true,
+        "entry_button_visible": true,
+        "dialog_open": true,
+        "three_states": true,
+        "accepted_rendered": true,
+        "rejected_rendered": true,
+        "unknown_rendered": true,
+        "no_transmission": true,
+        "no_mechanics": true,
+        "bad_schema_rejected": true,
+        "no_network": true,
+        "no_js_errors": true,
+        "dialog_closes": true
+      },
+      "pass": 14,
+      "total": 14,
+      "errors": [],
+      "requests": []
+    },
+    {
+      "viewport": "412x915",
+      "tests": {
+        "49_cells": true,
+        "main_application_loaded": true,
+        "entry_button_visible": true,
+        "dialog_open": true,
+        "three_states": true,
+        "accepted_rendered": true,
+        "rejected_rendered": true,
+        "unknown_rendered": true,
+        "no_transmission": true,
+        "no_mechanics": true,
+        "bad_schema_rejected": true,
+        "no_network": true,
+        "no_js_errors": true,
+        "dialog_closes": true
+      },
+      "pass": 14,
+      "total": 14,
+      "errors": [],
+      "requests": []
+    }
+  ],
+  "pass": 42,
+  "total": 42,
+  "tested_environment": "Chromium Linux Playwright page.set_content, not Android phone",
+  "note": "No server, no official mechanics, no Party data"
+}

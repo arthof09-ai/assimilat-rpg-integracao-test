@@ -1,0 +1,26 @@
+{
+  "status": "PASS_SOURCE_SPATIAL_BINDING_AND_COLD_PREFIX",
+  "run_id": "R146_MULTI_SOURCE_FERYN_ERISTAN_DEV_S995401",
+  "seed": 995401,
+  "source_prereg_before_m": 3,
+  "source_prereg_after_m": 2,
+  "ledger_pulse_pre_m": 3,
+  "causal_action_order": [
+    "weapon_attack",
+    "PULSO_ESTABILIZACAO",
+    "move"
+  ],
+  "B0_B3_topology_not_meters": true,
+  "prefix_reconstruction": "COLD_RECONSTRUCTED_NOT_CONTEMPORANEOUS",
+  "prefix_rev": 20,
+  "full_rev": 40,
+  "prefix_sha256": "af9871daf2ca1e28bf33c3f70fdbaf8b622fa40ab81660e01f73c070a5dc6581",
+  "source_db_sha256": "363d853db27bf64670f3a3c939d0f39d70a8872c0bc3eb4c92620cd5cbaa470b",
+  "prefix_R18_core_load": "PASS",
+  "original_action_commands_reexecuted": false,
+  "full_head_unchanged": "0c32ace5adbab4481cddda9e603a63340eb5fe0ea01443599eab0e2e94e5577e",
+  "technical_horizon": "CENSORED_HORIZON",
+  "winner": null,
+  "official_power_cell_credits": 0,
+  "terminal_certifications": 0
+}

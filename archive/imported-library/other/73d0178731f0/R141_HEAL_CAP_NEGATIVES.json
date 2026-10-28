@@ -1,0 +1,74 @@
+{
+  "cases": [
+    {
+      "PA_spent": 75,
+      "effective": 14,
+      "events_after": 1,
+      "gross": 96,
+      "mode": "CAP",
+      "overheal": 82,
+      "run_id": "R141_HEAL_CAP_S993101",
+      "source_restriction": "no resurrection; cap maximum HP",
+      "status": "NATIVE_PASS"
+    },
+    {
+      "error": "HEAL_TARGET",
+      "mode": "FULL_HP",
+      "run_id": "R141_NEG_GATE_FULL_HP_S993110",
+      "state_unchanged": true,
+      "status": "REJECT_PRE_INTENT",
+      "zero_events": true,
+      "zero_pending": true
+    },
+    {
+      "error": "HEAL_RESOURCE",
+      "mode": "LOW_PA",
+      "run_id": "R141_NEG_GATE_LOW_PA_S993111",
+      "state_unchanged": true,
+      "status": "REJECT_PRE_INTENT",
+      "zero_events": true,
+      "zero_pending": true
+    },
+    {
+      "error": "HEAL_RESOURCE",
+      "mode": "NO_STANDARD",
+      "run_id": "R141_NEG_GATE_NO_STANDARD_S993112",
+      "state_unchanged": true,
+      "status": "REJECT_PRE_INTENT",
+      "zero_events": true,
+      "zero_pending": true
+    },
+    {
+      "error": "HEAL_RANGE",
+      "mode": "RANGE",
+      "run_id": "R141_NEG_GATE_RANGE_S993113",
+      "state_unchanged": true,
+      "status": "REJECT_PRE_INTENT",
+      "zero_events": true,
+      "zero_pending": true
+    },
+    {
+      "error": "HEAL_TARGET",
+      "mode": "KO",
+      "run_id": "R141_NEG_GATE_KO_S993114",
+      "state_unchanged": true,
+      "status": "REJECT_PRE_INTENT",
+      "zero_events": true,
+      "zero_pending": true
+    },
+    {
+      "error": "HEAL_TAPE",
+      "mode": "WRONG_DICE",
+      "run_id": "R141_NEG_GATE_WRONG_DICE_S993115",
+      "state_unchanged": true,
+      "status": "REJECT_PRE_INTENT",
+      "zero_events": true,
+      "zero_pending": true
+    }
+  ],
+  "native_cap_pass": 1,
+  "negative_pass": 6,
+  "operation": "OP-VLAB-FUSION-SANDBOX-01",
+  "source_fixture": "MESTRE_ONLY_PRECREATE",
+  "stage": "R141"
+}

@@ -1,0 +1,38 @@
+{
+  "canonical_current": "3edc2b324ede811787a0de913622b14d",
+  "finding": "Missing poison duration is present in archival source (prior to repagination), not a proven migration omission. The archive does not itself approve an invented duration.",
+  "historic_source_state": "deleted=true, archive readable; historical NOT current rule authority",
+  "historical_deleted": "4a9c2b324ede83f78dc581e101e93948",
+  "mechanical_fields": [
+    {
+      "archived": "5d4+5d8+10 de dano",
+      "canonical": "5d4+5d8+10 de dano",
+      "equal": true,
+      "name": "damage_immediate"
+    },
+    {
+      "archived": "salvaguarda de constituição, CD 25",
+      "canonical": "salvaguarda de constituição, CD 25",
+      "equal": true,
+      "name": "save"
+    },
+    {
+      "archived": "3d12 de dano de veneno por turno",
+      "canonical": "3d12 de dano de veneno por turno",
+      "equal": true,
+      "name": "damage_per_turn"
+    },
+    {
+      "archived": "35 de PA",
+      "canonical": "35 de PA",
+      "equal": true,
+      "name": "pa"
+    },
+    {
+      "archived": null,
+      "canonical": null,
+      "equal": true,
+      "name": "duration_numeric"
+    }
+  ]
+}

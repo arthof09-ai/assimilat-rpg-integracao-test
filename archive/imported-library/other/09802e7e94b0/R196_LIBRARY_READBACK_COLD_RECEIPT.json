@@ -1,0 +1,32 @@
+{
+  "status": "PASS_R196_LIBRARY_READBACK_AND_COLD_RECOVERY",
+  "artifact_name": "VLAB_R187_R196_ED_MATERIALIZED_BEAST_SOURCE_SENSITIVITY_MESTRE_ONLY.zip",
+  "original_sha256": "7dc3a95aafa7dfc4db6ae0d99f7c0474e630ea86f0f70dff4112abf771403786",
+  "library_sha256": "7dc3a95aafa7dfc4db6ae0d99f7c0474e630ea86f0f70dff4112abf771403786",
+  "readback_byte_identical": true,
+  "file_bytes": 5438843,
+  "zip_entries": 221,
+  "zip_crc": "PASS",
+  "cold_recovery": {
+    "status": "PASS_R196_COLD_PORTABLE_RECOVERY",
+    "original_R186_sha_verified": true,
+    "manifest_verified_files": 220,
+    "legitimate_databases": 40,
+    "legitimate_commits": 276,
+    "native_events": 708,
+    "offensive_receipts": 236,
+    "distinct_matchups": 1,
+    "matched_seed_blocks": 5,
+    "branch_analyses": 40,
+    "semantic_adversarial_rejections": 10,
+    "adversarial_structural_hash_rechecks": 10,
+    "official_contracts": 0,
+    "official_benchmarks": 0,
+    "fully_source_admissible": 0,
+    "source_unknowns_preserved": true,
+    "combat_commands_executed": 0,
+    "external_human_auditor": false
+  },
+  "library_folder": "/Comestre/OP-VLAB-FUSION-SANDBOX-01",
+  "production": "HOLD"
+}

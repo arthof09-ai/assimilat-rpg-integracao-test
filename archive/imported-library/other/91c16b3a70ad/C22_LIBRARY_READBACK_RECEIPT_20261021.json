@@ -1,0 +1,33 @@
+{
+  "operation": "OP-DMG-CORPUS-EMP-01",
+  "checkpoint": "C22",
+  "datetime_utc": "2026-10-21",
+  "scope": "Biblioteca Mestre (not Notion OP writer)",
+  "readback": [
+    {
+      "name": "DMG_C22_CORPUS_G1_104_FONTES_MESTRE_ONLY.zip",
+      "size": 58091,
+      "sha256": "9fe597d1f1af196a3e5de892ee717b9d7fff7e5d136802ae11328ba15cf08fda",
+      "library_readback_sha256": "9fe597d1f1af196a3e5de892ee717b9d7fff7e5d136802ae11328ba15cf08fda",
+      "binary_equality": true
+    },
+    {
+      "name": "PSV_DMG_C22_MESTRE_ONLY.md",
+      "size": 19279,
+      "sha256": "5d7dfb4c329bc5b007c89e8f7cb1816b53cba6e78dc39756be744874504fb459",
+      "library_readback_sha256": "5d7dfb4c329bc5b007c89e8f7cb1816b53cba6e78dc39756be744874504fb459",
+      "binary_equality": true
+    },
+    {
+      "name": "C22_PARECER_DECISORIO_MESTRE_ONLY.md",
+      "size": 1829,
+      "sha256": "8143f9cc01d702b595bf3d4aa92543b5adecd6157d4c07fefbe5af937e3aa55b",
+      "library_readback_sha256": "8143f9cc01d702b595bf3d4aa92543b5adecd6157d4c07fefbe5af937e3aa55b",
+      "binary_equality": true
+    }
+  ],
+  "readback_pass": 3,
+  "total": 3,
+  "NAC_PASS_GLOBAL": "HOLD",
+  "F0": "4/8 HOLD"
+}

@@ -1,0 +1,38 @@
+{
+  "type": "DMG-REGISTRY-RECEIPT",
+  "date": "2026-10-21",
+  "destination": "/Comestre/OP-DMG-CORPUS-EMP-01/",
+  "files": [
+    {
+      "filename": "DMG_REGISTRO_CONSOLIDADO_C22_C29_20261021_MESTRE_ONLY.zip",
+      "original_bytes": 12772,
+      "readback_bytes": 12772,
+      "sha256_original": "62be92763ea530e079365a185f06224bd589c2601988c823bea5c6a45a17bc97",
+      "sha256_readback": "62be92763ea530e079365a185f06224bd589c2601988c823bea5c6a45a17bc97",
+      "byte_identical": true
+    },
+    {
+      "filename": "REGISTRO_OPERACIONAL_DMG_C22_A_C29_20261021_MESTRE_ONLY.md",
+      "original_bytes": 15807,
+      "readback_bytes": 15807,
+      "sha256_original": "254ac0d0a9e47e5c24a32de4aa951fcdb6c4e943c6a21776ef03e0ff8f29f3d3",
+      "sha256_readback": "254ac0d0a9e47e5c24a32de4aa951fcdb6c4e943c6a21776ef03e0ff8f29f3d3",
+      "byte_identical": true
+    },
+    {
+      "filename": "DMG_PENDENCIAS_E_GATES_C29_20261021_MESTRE_ONLY.csv",
+      "original_bytes": 4313,
+      "readback_bytes": 4313,
+      "sha256_original": "33b90f9197aa006fea51b82a53f2711708ac49aaa45bb0c40810f87b3995cb72",
+      "sha256_readback": "33b90f9197aa006fea51b82a53f2711708ac49aaa45bb0c40810f87b3995cb72",
+      "byte_identical": true
+    }
+  ],
+  "ZIP_CRC": "PASS",
+  "ZIP_Manifest": "4/4 PASS",
+  "Library_readback": "3/3 byte_identical PASS",
+  "NOTION_WRITER": "NOT-VERIFIED/NO-WRITE",
+  "F0": "4/8 HOLD",
+  "NAC_PASS_GLOBAL": "HOLD",
+  "classification": "MESTRE-ONLY"
+}

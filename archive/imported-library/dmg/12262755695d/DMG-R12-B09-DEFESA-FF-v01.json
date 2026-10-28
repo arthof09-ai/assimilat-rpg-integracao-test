@@ -1,0 +1,71 @@
+{
+  "schema": "DMG-R12-B09-DEFENSE-MILESTONE-LEDGER-v01",
+  "verdict": "PARTIAL",
+  "source_versions": {
+    "Liu": "2026-10-01T09:40:50.721Z",
+    "Combat": "2026-10-07T23:51:04.971Z",
+    "CharacterCreation": "2026-10-09T04:07:06.313Z"
+  },
+  "normal": {
+    "CA_printed": 46,
+    "CA_formula_components": [
+      6,
+      16,
+      15,
+      9
+    ],
+    "dodge_total_printed": 49,
+    "REFLEX_extra_inferred_not_confirmed": 3,
+    "FOR_printed": 29,
+    "CON_printed": 16,
+    "DES_printed": 16,
+    "FF_formula_current": 610,
+    "FF_printed": 620,
+    "FF_milestones_formula": 6
+  },
+  "transformed": {
+    "CA_printed": 60,
+    "CA_formula_components": [
+      6,
+      27,
+      15,
+      12
+    ],
+    "dodge_total_printed": 63,
+    "REFLEX_extra_inferred_not_confirmed": 3,
+    "FOR_printed": 40,
+    "CON_printed": 25,
+    "DES_printed": 27,
+    "FF_formula_current": 920,
+    "FF_printed": 920,
+    "FF_milestones_formula": 9
+  },
+  "conditional_defender": {
+    "normal_without_selected_fortitude": 37,
+    "transform_without_selected_fortitude": 46,
+    "if_external_CON4_not_included_normal": 41,
+    "if_external_CON4_not_included_transform": 50
+  },
+  "rank_permanent_ff": {
+    "rule": "Each first-reached 100FF milestone result+choice locked permanently, active only when current FF meets threshold",
+    "missing": "first-reach event IDs, source of each rank milestone, result rolls, lock ledger & modifiers applied in CA",
+    "no_regeneration": "Do not newly roll 6 or 9 milestones just because FF computed"
+  },
+  "prohibited": [
+    "CA46 + dodge-total49 =95 false",
+    "armor+15 twice",
+    "FF CA milestones added to already finalized CA",
+    "axe CON+4 added despite being incorporated",
+    "infer Reflexo skill selection from observed +3",
+    "assume 2d6+37 is certified to-hit and damage simultaneously",
+    "one reaction permits multiple defense outcomes"
+  ],
+  "requires": [
+    "selected and increased proficiencies Lutar/Fortitude/Reflexo with proof",
+    "exact source and time of +8 FOR and +4 CON gear inclusion",
+    "current actor form, armor state, force-physical lock source",
+    "reaction legal trigger, once-per-round budget and replay receipt"
+  ],
+  "new_findings": "Character creation rule snapshot newer than R11, revalidation of FF milestones needed; observed normal discrepancy (620 vs 610) must not be auto-patched",
+  "scientific_result": "PRINTED ARITHMETIC PARTIAL; OFFICIAL DEFENSE CHOICE AND REPLAY PENDING"
+}

@@ -1,0 +1,59 @@
+{
+  "verdict": "PASS_R176_COLD_PORTABLE_RECOVERY",
+  "file_hashes": 297,
+  "baseline_R175_untouched": true,
+  "runtime_pins": 4,
+  "legit_db": 1,
+  "commits": 52,
+  "native_events": 153,
+  "attacks": 51,
+  "hp_removed": 4315,
+  "overkill": 143,
+  "initiative": {
+    "AUREN": {
+      "dice": [
+        5,
+        1,
+        6,
+        3,
+        6,
+        6
+      ],
+      "score": 193,
+      "source_bonus": 2
+    },
+    "GRIFFIN": {
+      "dice": [
+        2,
+        4,
+        4,
+        1,
+        2,
+        6
+      ],
+      "min": 135,
+      "max": 157,
+      "ordinary_proficiency_cap": 22,
+      "unresolved_specific_prof": true
+    },
+    "order": [
+      "AUREN",
+      "GRIFFIN"
+    ],
+    "verdict": "UNAMBIGUOUS_UNDER_BOUNDED_HYPOTHESES",
+    "hypothesis": "INIT_BONUS_IN_[0,22]_NO_EXTRA_EXTERNAL_MODIFIERS",
+    "NOT": "CERTIFIED_GRIFFIN_INIT_BONUS"
+  },
+  "rejected_tampered_sql_clones": [
+    "R176_TAMPER_GEOMETRY.sqlite",
+    "R176_TAMPER_IDENTITY.sqlite",
+    "R176_TAMPER_INITIATIVE.sqlite",
+    "R176_TAMPER_RD.sqlite",
+    "R176_TAMPER_TITLE.sqlite"
+  ],
+  "source_full_admissibility": "HOLD",
+  "terminal_contracts": "0/17",
+  "official_benchmarks": "0/1875",
+  "does_not_rerun_battles": true,
+  "writer_not_claimed": true
+}

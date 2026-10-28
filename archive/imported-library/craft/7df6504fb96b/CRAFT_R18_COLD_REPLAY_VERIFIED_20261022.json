@@ -1,0 +1,91 @@
+{
+  "archive_sha256": "f0349842a2f2e64287cf2068bc54f436f431bdaefcfa9077b8beac5b8583cd31",
+  "files": 65,
+  "zip_crc": "PASS",
+  "file_sha_manifest": "PASS",
+  "unit_and_ui_replay_count": 19,
+  "results": [
+    {
+      "name": "test_13_blocks.js",
+      "summary": "PASS 23/23 testes ficha I–XIII e grafo anti-falsa-produção"
+    },
+    {
+      "name": "test_cli_r10.js",
+      "summary": "PASS 55/55 R10 CLI fail-closed/sem preview residual"
+    },
+    {
+      "name": "test_disclosure_r12.js",
+      "summary": "R12 disclosure PASS 44/44 assertions (12 mutations + fail-closed mixed-batch export)"
+    },
+    {
+      "name": "test_economics.js",
+      "summary": "PASS 16/16 testes econômicos quatro valores separados"
+    },
+    {
+      "name": "test_import_r9.js",
+      "summary": "PASS 22/22 R9 input fail-closed + UI invalid-import recovery TEST"
+    },
+    {
+      "name": "test_methodology_r17.js",
+      "summary": "R17 METHODOLOGY TEST PASS 77/77 assertions"
+    },
+    {
+      "name": "test_mobile.js",
+      "summary": "PASS 15/15 smoke tests HTML/JS local (not browser E2E)"
+    },
+    {
+      "name": "test_receipt_r13.js",
+      "summary": "R13 receipt/integrity PASS 58/58 assertions (9 isolated scenarios)"
+    },
+    {
+      "name": "test_schema_r11.js",
+      "summary": "PASS 141/141 verificações R11 schema fail-closed (35 mutações + baseline)"
+    },
+    {
+      "name": "test_source_identity_r8.js",
+      "summary": "PASS 21/21 R8 source-identity local adversarial tests"
+    },
+    {
+      "name": "test_substitutions.js",
+      "summary": "PASS 11/11 testes de reutilização e substituição"
+    },
+    {
+      "name": "test_validator.js",
+      "summary": "PASS 34/34 testes R53 validação de projetos e fontes"
+    },
+    {
+      "name": "test_browser_r11.py",
+      "summary": "PASS 20/20 R11 Chromium inline e UI fail-closed; aparelho Android real não testado"
+    },
+    {
+      "name": "test_browser_r12.py",
+      "summary": "R12 Chromium inline UI PASS 16/16; Android real NAO testado"
+    },
+    {
+      "name": "test_browser_r14.py",
+      "summary": "R14 Chromium mobile TEST PASS 40/40; sem prova Android físico"
+    },
+    {
+      "name": "test_browser_r16.py",
+      "summary": "R16 large-batch Chromium mobile PASS 33/33; 45 TEST proposals, paginated 8/8/8/8/8/5; Android real not tested"
+    },
+    {
+      "name": "test_browser_r17.py",
+      "summary": "R17 browser methodology mobile PASS 30 / 30 (Chromium inline only)"
+    },
+    {
+      "name": "test_browser_r18.py",
+      "summary": "R18 critical repair requests browser PASS 171 / 171 (Chromium inline only)"
+    },
+    {
+      "name": "test_mobile_browser_r9.py",
+      "summary": "PASS 15/15 R9 Chromium mobile inline 390x844 TEST; local browser ≠ aparelho Android real"
+    }
+  ],
+  "receipt": {
+    "verified": true,
+    "status": "HOLD_TEST_DESIGN",
+    "total": 2,
+    "generation_sha256": "5edcb76bdd02df971694bee4ec04e68362020c1ea6682b8435dd68b4bf4ae2c6"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "zip_sha256": "5368fb31d176e8f52bb0bac01efa5a2f657a9cebb83af7c1cf4e22a5dcbf53b1",
+  "zip_size_bytes": 11965498,
+  "zip_members": 243,
+  "hashes_readback": 242,
+  "crc": "PASS",
+  "historical_original_R117_sha256": "e57461df692818db820cf96a825a36d1ee4b5c11b19afaae1c835716c06ed2a8",
+  "independent_cold_scenes": 6,
+  "independent_cold_events": 463,
+  "cold_normal_strikes": 152,
+  "cold_counter_strikes": 13,
+  "cold_dead_actors_final_sum": 38,
+  "fault_reopen": [
+    {
+      "db": "R123_FRESH_AFTER_INTENT_939906.sqlite",
+      "revision": 2,
+      "pending": 1,
+      "events": 2
+    },
+    {
+      "db": "R123_FRESH_AFTER_COMMIT_939907.sqlite",
+      "revision": 3,
+      "pending": 0,
+      "events": 3
+    }
+  ],
+  "individual_contracts": 17,
+  "terminal_contracts": 0,
+  "by_scene": {
+    "R119_THREE_ACTOR_CRIT_R50_918515.sqlite": [
+      28,
+      2
+    ],
+    "R119_THREE_ACTOR_DEV_918201.sqlite": [
+      22,
+      2
+    ],
+    "R119_THREE_ACTOR_RESERVED_928801.sqlite": [
+      25,
+      2
+    ],
+    "R124_TECH_SCALE_10X10_S938311.sqlite": [
+      118,
+      10
+    ],
+    "R124_TECH_SCALE_20X20_S938411.sqlite": [
+      232,
+      20
+    ],
+    "R124_TECH_SCALE_5X5_S938211.sqlite": [
+      38,
+      2
+    ]
+  },
+  "auditor_no_engine_import": true,
+  "no_runner_invoked": true,
+  "notes": "Read-only independent cold semantic audit on a clean ZIP extraction, including censored prefix of 5x5; no historical writes."
+}
