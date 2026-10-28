@@ -1,0 +1,97 @@
+{
+  "schema": "assimilat.vlab_source_archive_parts/1.0",
+  "version": "R325",
+  "status": "ARCHIVAL_SOURCE_NOT_EXECUTABLE_IN_GITHUB",
+  "source_name": "VLAB_CODIGO_MAE_R325_COMPLETO.zip",
+  "source_drive_url": "https://drive.google.com/file/d/1ZDtKo3BtyxLwHpSEOU9lhzSUtw6EVKDV/view",
+  "drive_new_copy_url_metadata_only": "https://drive.google.com/file/d/1OrFSxBu-JR2AkRjcq0dxFKMssKkgOU7x/view",
+  "new_copy_bytes_equivalence": "UNVERIFIED",
+  "source_size_bytes": 15836459,
+  "source_sha256": "a322ff311199643e1230b7e1cd3ea31445e1c3155615235df047a928ca58f502",
+  "zip_members": 99,
+  "zip_crc": "PASS_LOCAL_2026-10-28",
+  "nested_zip_crc": "18_OF_18_PASS_LOCAL_2026-10-28",
+  "capture_date": "2026-10-28",
+  "classification": "HISTORICAL_TEST_NOT_CANONICAL_PROMOTION",
+  "method": "Original Drive byte stream split into eleven ordered raw Git blobs; reassemble and test SHA256 and CRC",
+  "security_scan": "PATTERN_SCREEN_288_TEXT_FILES_INCLUDING_NESTED_ZIPS_NO_MATCHES_NOT_FULL_SECURITY_AUDIT",
+  "parts": [
+    {
+      "file": "part01.bin",
+      "bytes": 1572864,
+      "offset_bytes": 0,
+      "git_blob_sha1": "b56fa7d2bc103c752c5f02c37a38fe83516a9d1a",
+      "sha256": "adcd0d509076ea204f53db9a33c46131c09bfc7a4f5ced6f6a8071c42c2708da"
+    },
+    {
+      "file": "part02.bin",
+      "bytes": 1572864,
+      "offset_bytes": 1572864,
+      "git_blob_sha1": "74e873ab46f38cd231da16e621fbb74509f83f7c",
+      "sha256": "da55e7cef027d2b94838d47120b58c7992a21640fb4aab6978d3b4ad4a5364ab"
+    },
+    {
+      "file": "part03.bin",
+      "bytes": 1572864,
+      "offset_bytes": 3145728,
+      "git_blob_sha1": "00b9ee9187a3777eef1dd7581415dae60b60efe7",
+      "sha256": "48c34b613e5ad841a6e811681a57c3e8d3c1d378a633638207fc96e8f3940a0e"
+    },
+    {
+      "file": "part04.bin",
+      "bytes": 1572864,
+      "offset_bytes": 4718592,
+      "git_blob_sha1": "67318c3a436ada65a4595fe8fd349611522df1c3",
+      "sha256": "e9ec763fed41ffe0f7b6143e060b3e181709566ea5839a294753778d94ad8b62"
+    },
+    {
+      "file": "part05.bin",
+      "bytes": 1572864,
+      "offset_bytes": 6291456,
+      "git_blob_sha1": "d4138279aec75df6a85b5755f6ead33a647be6b7",
+      "sha256": "257817d4eb3ed47344777daf7dae300f3c401efce5c2e9946973ce8911bc31f4"
+    },
+    {
+      "file": "part06.bin",
+      "bytes": 1572864,
+      "offset_bytes": 7864320,
+      "git_blob_sha1": "8554bbb71df505009425f35e2665cb091b4c6bca",
+      "sha256": "9871d29a87c8ed6317c9b3e441c3cd80e0d9dfe6985e034f92d8022d5739ec2e"
+    },
+    {
+      "file": "part07.bin",
+      "bytes": 1572864,
+      "offset_bytes": 9437184,
+      "git_blob_sha1": "32b5dc324e2144c64c5223618926af4f812fa6df",
+      "sha256": "61a59f5558c62b857d012b593bf3bf854d31658d92892c884d09c5bcdc10903b"
+    },
+    {
+      "file": "part08.bin",
+      "bytes": 1572864,
+      "offset_bytes": 11010048,
+      "git_blob_sha1": "1f5966924b5ee3f2054f410baf442fe9acabe4d1",
+      "sha256": "59632a0652a6381e2d3e869a938d4cc526b223a5f8b8ae56fafbb609fd6c404e"
+    },
+    {
+      "file": "part09.bin",
+      "bytes": 1572864,
+      "offset_bytes": 12582912,
+      "git_blob_sha1": "652d44eac0b7627467aa3b1bc2aa7ccd53b186b8",
+      "sha256": "708c0a6f2ffcc1fab45b948a989a1de7abe1fcca492f7add419944b84d20ee33"
+    },
+    {
+      "file": "part10.bin",
+      "bytes": 1572864,
+      "offset_bytes": 14155776,
+      "git_blob_sha1": "eee4a683514e45f3dcae9709eca2bfe360f68cf0",
+      "sha256": "a9d9a1291a38c5922049a2e901d8d6316b382d7c139377ed019191a8624732da"
+    },
+    {
+      "file": "part11.bin",
+      "bytes": 107819,
+      "offset_bytes": 15728640,
+      "git_blob_sha1": "c9941996f5330ec6a985d7ab22581fa586d9acfc",
+      "sha256": "c4b05c183317937de94b43269d89ba66688519d1ed4acdcbef32724b5af11a7a"
+    }
+  ]
+}
