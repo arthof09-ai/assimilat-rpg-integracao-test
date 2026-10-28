@@ -1,0 +1,40 @@
+{
+  "schema": "assimilat.recovery-originals/1.0",
+  "date": "2026-10-28",
+  "classification": "TECHNICAL_HISTORICAL_TEST; no canon or deployment",
+  "artifacts": [
+    {
+      "library_id": "file_0000000065dc820ea42e835978294975",
+      "name": "TABLETOP_SITE_SINTETICO_TEST42_CANDIDATE.zip",
+      "area": "tabletop",
+      "bytes": 53555,
+      "sha256": "a26c1b84cd3d6b53625f48ae81ca7bf593f2d27bdc81ff8bf1154b11ac8c9f89",
+      "source": "Library /Comestre",
+      "destination": "archive/imported-library/tabletop/TABLETOP_SITE_SINTETICO_TEST42_CANDIDATE.zip",
+      "verification": "SIZE_SHA256_RECURSIVE_CRC_PASS; static Gitleaks v8.24.2; reviewed false positives documented; no source code executed",
+      "readback": "LOCAL_COPY_EXACT; GITHUB_PENDING"
+    },
+    {
+      "library_id": "file_000000005040820eb34bf8fe3251e1b3",
+      "name": "LEVELUP_ORC_R049_GATES_E_PATCHES_PRONTOS_MESTRE_ONLY_TEST_20261024.zip",
+      "area": "levelup",
+      "bytes": 42008,
+      "sha256": "e24d26ddbab9c6cb3454b564bdc9c912eb0b7bef7d4d0cfe37e79a2b2e30f285",
+      "source": "Library /Comestre",
+      "destination": "archive/imported-library/levelup/LEVELUP_ORC_R049_GATES_E_PATCHES_PRONTOS_MESTRE_ONLY_TEST_20261024.zip",
+      "verification": "SIZE_SHA256_RECURSIVE_CRC_PASS; static Gitleaks v8.24.2; reviewed false positives documented; no source code executed",
+      "readback": "LOCAL_COPY_EXACT; GITHUB_PENDING"
+    },
+    {
+      "library_id": "file_00000000c340820eb8c9f171c4161ae6",
+      "name": "CRAFT_R50BCD_SEGUNDA_LEITURA_29_E_TRES_NOS_MESTRE_TEST_20261023.zip",
+      "area": "craft",
+      "bytes": 512313,
+      "sha256": "87c3e1642bb17814766606a447bad2f2447e5d14b8aa720bf5d0593921e89d40",
+      "source": "Library /Comestre",
+      "destination": "archive/imported-library/craft/CRAFT_R50BCD_SEGUNDA_LEITURA_29_E_TRES_NOS_MESTRE_TEST_20261023.zip",
+      "verification": "SIZE_SHA256_RECURSIVE_CRC_PASS; static Gitleaks v8.24.2; reviewed false positives documented; no source code executed",
+      "readback": "LOCAL_COPY_EXACT; GITHUB_PENDING"
+    }
+  ]
+}
