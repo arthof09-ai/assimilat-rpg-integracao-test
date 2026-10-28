@@ -1,0 +1,187 @@
+{
+  "schema": "assimilat.levelup.orc_p23_recovery_manifest/1.0",
+  "generated_at": "2026-10-28",
+  "classification": "MESTRE-SIDE / TEST / REFERENCE / NOT NEW ENGINE",
+  "sources": {
+    "operation": "https://app.notion.com/p/3f2c2b324ede81f48f80f6d27449d107",
+    "operation_checkpoint": "IBX17-R216-P23-045",
+    "inbox_executor": "https://app.notion.com/p/3ffc2b324ede81aab557fd267efc02ce",
+    "lab": "https://app.notion.com/p/3fbc2b324ede804a95fafcb7b293c92c",
+    "orc_index": "https://app.notion.com/p/400c2b324ede8137a06bff45c3b5b1bb",
+    "historical_p12_index": "https://app.notion.com/p/400c2b324ede81299714df814e9bc33e",
+    "github_workflow": "https://github.com/arthof09-ai/assimilat-rpg-integracao-test/blob/main/.github/workflows/native-engines.yml",
+    "p12_archive": "IBX114_SUCESSOR_R216P12_MESTRE_CORRIGIDO_20261021_MESTRE_ONLY.zip",
+    "p12_sha256": "619fe210a2e8469df59f7db001220c97309cae79054b7574284a5047c633e4de",
+    "p44_library_archive": "LEVELUP_ORC_ALMA_R044_OTIMIZACAO_MESTRE_TEST_20261024.zip",
+    "p44_library_id": "libfile_862b6ad9007881918e98458df9557ec2",
+    "p44_sha256": "15d11a4bcd5beb5167340616c2ca8af0290940c75de1df418c0f297303a89c10"
+  },
+  "counts": {
+    "normal_forms": 25,
+    "transformed_forms": 20,
+    "equipment_slots_per_sheet": 16,
+    "equipment_slot_total": 400,
+    "p23_p44_loadout_proposals": 75,
+    "notion_sheet_mutations_due_to_p44": 0
+  },
+  "constraints": [
+    "P12 is archived executable test baseline, NOT final P23 native engine",
+    "P14 index pages evolved in-place up to P23-037 (physical descriptions/RI-RE notes)",
+    "P23-044 = alternative equipment loadouts tested in local snapshots, not applied",
+    "P23-045 = succession/readback checkpoint, not ZIP of newly homologated engine",
+    "Never infer successful Notion sheet publication from local 75/75",
+    "VLAB/T9, RI-RE, 25 sheet edits, Party PROD writer remain HOLD unless new evidence"
+  ],
+  "orc_pages": [
+    {
+      "level": "N01",
+      "label": "Bronze 1★ | N01 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede815cb828dbd345c48724",
+      "page_id": "400c2b324ede815cb828dbd345c48724"
+    },
+    {
+      "level": "N02",
+      "label": "Bronze 2★ | N02 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede817fba8fde73a1c45020",
+      "page_id": "400c2b324ede817fba8fde73a1c45020"
+    },
+    {
+      "level": "N03",
+      "label": "Bronze 3★ | N03 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81d3adc9ef2fdc11604d",
+      "page_id": "400c2b324ede81d3adc9ef2fdc11604d"
+    },
+    {
+      "level": "N04",
+      "label": "Bronze 4★ | N04 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81ac9519fd627291eafc",
+      "page_id": "400c2b324ede81ac9519fd627291eafc"
+    },
+    {
+      "level": "N05",
+      "label": "Bronze 5★ | N05 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81e883d8e0275f06a674",
+      "page_id": "400c2b324ede81e883d8e0275f06a674"
+    },
+    {
+      "level": "N06",
+      "label": "Prata 1★ | N06 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede814a8e56fa1275e2bfe3",
+      "page_id": "400c2b324ede814a8e56fa1275e2bfe3"
+    },
+    {
+      "level": "N07",
+      "label": "Prata 2★ | N07 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede814889fce8568f04949b",
+      "page_id": "400c2b324ede814889fce8568f04949b"
+    },
+    {
+      "level": "N08",
+      "label": "Prata 3★ | N08 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81fcbac7f21254483905",
+      "page_id": "400c2b324ede81fcbac7f21254483905"
+    },
+    {
+      "level": "N09",
+      "label": "Prata 4★ | N09 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede8170b774ea9580ab8e06",
+      "page_id": "400c2b324ede8170b774ea9580ab8e06"
+    },
+    {
+      "level": "N10",
+      "label": "Prata 5★ | N10 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81e591ace187c1763b9c",
+      "page_id": "400c2b324ede81e591ace187c1763b9c"
+    },
+    {
+      "level": "N11",
+      "label": "Ouro 1★ | N11 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81459656d6abd27699a3",
+      "page_id": "400c2b324ede81459656d6abd27699a3"
+    },
+    {
+      "level": "N12",
+      "label": "Ouro 2★ | N12 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81249cbbea651d99dc00",
+      "page_id": "400c2b324ede81249cbbea651d99dc00"
+    },
+    {
+      "level": "N13",
+      "label": "Ouro 3★ | N13 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81ffa1f7d112ce18e793",
+      "page_id": "400c2b324ede81ffa1f7d112ce18e793"
+    },
+    {
+      "level": "N14",
+      "label": "Ouro 4★ | N14 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81beb220cc5953504264",
+      "page_id": "400c2b324ede81beb220cc5953504264"
+    },
+    {
+      "level": "N15",
+      "label": "Ouro 5★ | N15 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81a885b7f80129bfa054",
+      "page_id": "400c2b324ede81a885b7f80129bfa054"
+    },
+    {
+      "level": "N16",
+      "label": "Ouro Negro 1★ | N16 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede817d9900f2c240448cb6",
+      "page_id": "400c2b324ede817d9900f2c240448cb6"
+    },
+    {
+      "level": "N17",
+      "label": "Ouro Negro 2★ | N17 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede8118a1d0d3a56ee787d9",
+      "page_id": "400c2b324ede8118a1d0d3a56ee787d9"
+    },
+    {
+      "level": "N18",
+      "label": "Ouro Negro 3★ | N18 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81a78ff5cc32a157d1b7",
+      "page_id": "400c2b324ede81a78ff5cc32a157d1b7"
+    },
+    {
+      "level": "N19",
+      "label": "Ouro Negro 4★ | N19 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81c0a6ded4d52b87ec63",
+      "page_id": "400c2b324ede81c0a6ded4d52b87ec63"
+    },
+    {
+      "level": "N20",
+      "label": "Ouro Negro 5★ | N20 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81ef9d94d807933e607b",
+      "page_id": "400c2b324ede81ef9d94d807933e607b"
+    },
+    {
+      "level": "N21",
+      "label": "Lendário 1★ | N21 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede815d8028ca7767b78e1f",
+      "page_id": "400c2b324ede815d8028ca7767b78e1f"
+    },
+    {
+      "level": "N22",
+      "label": "Lendário 2★ | N22 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81fabc81cf69f0641303",
+      "page_id": "400c2b324ede81fabc81cf69f0641303"
+    },
+    {
+      "level": "N23",
+      "label": "Lendário 3★ | N23 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81e894a1f4ac84354ee2",
+      "page_id": "400c2b324ede81e894a1f4ac84354ee2"
+    },
+    {
+      "level": "N24",
+      "label": "Lendário 4★ | N24 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede81789207ccb2bac264b2",
+      "page_id": "400c2b324ede81789207ccb2bac264b2"
+    },
+    {
+      "level": "N25",
+      "label": "Lendário 5★ | N25 · Ficha Base R216-P14",
+      "url": "https://app.notion.com/p/400c2b324ede815abca2ce4fb08a8cdc",
+      "page_id": "400c2b324ede815abca2ce4fb08a8cdc"
+    }
+  ]
+}
