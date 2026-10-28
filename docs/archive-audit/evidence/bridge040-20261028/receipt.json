@@ -1,0 +1,128 @@
+{
+  "timestamp_utc": "2026-10-28T21:34:28.036823+00:00",
+  "mode": "FAKE_RULES_FOR_TRANSPORT_TEST",
+  "python": "3.12.14",
+  "node": "v24.19.0",
+  "GH": "GH-NOT-RUN",
+  "source": "VLAB_SOURCE_NOT_AVAILABLE",
+  "mechanics": "PYTHON_TS_EQUIVALENCE_NOT_TESTED",
+  "android": "ANDROID_REAL_NOT_TESTED",
+  "production": "VLAB_PRODUCTION_HOLD",
+  "seed": "fixed synthetic labels; no random rules",
+  "checks": [
+    {
+      "name": "contract",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/workspace/scratch/bridge040-test/experiments/tabletop_vlab_bridge",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "status": "PASS",
+      "python_tests": 76,
+      "nested_node_suites": [
+        15,
+        12,
+        23
+      ],
+      "nested_node_tests": 50,
+      "counting_note": "Python count includes orchestration tests running the Node suites; do not sum as independent cases."
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "/workspace/scratch/bridge040-test/experiments/tabletop_vlab_bridge/node_modules/.bin/tsc",
+        "-p",
+        "/workspace/scratch/bridge040-test/experiments/tabletop_vlab_bridge/tsconfig.json"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "three_client_demo",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "receipt_tactical_handoff",
+      "scope": "LOCAL_HTTP_SYNTHETIC",
+      "status": "PASS",
+      "exit_code": 0
+    }
+  ],
+  "protocol_extension": {
+    "native_schema": 2,
+    "operations": [
+      "submit",
+      "receipt_query"
+    ],
+    "room_adapter": "EXPERIMENTAL_TEST_ONLY",
+    "mechanical_state": "MECHANICS_UNAVAILABLE"
+  },
+  "bridge_version": "0.4.0",
+  "event_boundary": {
+    "adapter_operation": "EVENT_QUERY",
+    "native_operation": "v1.history",
+    "scope": "PROPOSED_BRIDGE_LOCAL_HTTP_NOT_TEST37",
+    "physical_TEST37_integration": "NOT_RUN_LEGACY_BOUNDARY_RETAINED"
+  },
+  "arena_TEST38": {
+    "native_schema": 3,
+    "scope": "CHROMIUM_LINUX_LOCAL_HTTP_SYNTHETIC_VISUAL",
+    "frontend_source": "TEST38_PROVENANCE.json",
+    "receipt_store": "EXISTING_SQLITE",
+    "mechanics": "MECHANICS_UNAVAILABLE",
+    "browser_evidence": "arena/"
+  },
+  "files_sha256": {
+    ".gitignore": "d48b7a66694c12d8c9352aaa804f3f7898b73bd883b086ee0e61748457ec7829",
+    "ARENA_TEST38.md": "be243dd30c5cab982454867462650a603947482f314ad9a44cd68a9de44311db",
+    "ASSESSMENT.md": "08b4442dc5e5475023bb6ac181a2246ee1bc9b042ad94abe046a5d713b33c9a3",
+    "COMPATIBILITY.md": "2ee508373133b4af906ae78427758a25f02e39a2863ca13e06164999b988974d",
+    "EVENTS_TEST37.md": "85802f1d03ab47af4c3d3645782aa35b149cb56844bf49f3d873ef3ca2ba007c",
+    "FOLLOWUP_RECEIPT.md": "afc3a4ff20873e09bd12bb947ade4bff0d5c9491e61e9032fa162aca566b6224",
+    "INTEGRATION.md": "e3adee9c2e7900d77e962bf09763e895d69a6aa8e234a6abf5750069b70b3bb5",
+    "README.md": "05796b47c1dfcd3686c0cf12559593cd5ec0f61452154c5c295a242b957bc1fe",
+    "TEST38_PROVENANCE.json": "7313f704feb89ec2a6af7ba5f2a81ec13cff46057873ee613473942f3d095949",
+    "arena_compatibility.json": "2afa63846d370e6be628e283df72b22f1d5a357167802c93a3c613ecc2fee373",
+    "arena_room.py": "fcf93ecc6ecf35865d9584c68418bbb86e504d2079b01c1dbeace90d116e0368",
+    "arena_transport.js": "79a429fe12521142788be2c401c2c258da83f1a8c9282ce67e92c35682b3a3ba",
+    "authority.py": "08f574e571f7ce734fbb6e9533189e57fea2a72d057cc20c186fa473e89f5dc2",
+    "client.ts": "25726f5009f56b5afd17d25f4be18d452533083fa495d57ba07d93aeb5722cbf",
+    "demo.mjs": "564e1e487c97167ef4da6555bb24f279eb832bbe6c5e924eb4ba3573f81c13be",
+    "integration_example.mjs": "fa2e0689cc9a82bb761e45d0c10ed5bb5746c5f7cf900e76c249685d4aad7f94",
+    "package-lock.json": "6b9ea9c25eeb8b1ccf07deba0fb102e255e8c375a2c2ee62c33f12131ce1e762",
+    "package.json": "a3461da58926a12cda4c3fd1c7fca36b748bbb87f8ddebbb467b5be3c585f396",
+    "receipt_contract.py": "f2ae774e0bd3ac47e5f27bf4b83a21308a450f0c1720a9b7a54083689bd98699",
+    "room_adapter.ts": "922ac08153f14b3199297ceb840a85a96707d3ae5ad004a4564388e94ef583d6",
+    "run_checks.py": "72c22363c6bca3594945d725501f24d40a9bbeba9a5a5639caac3163ea3e2dc7",
+    "test37_differential.json": "b012e872e317eb93a7001d7e6e8a0122d736f32896ff3419b173ead615361eb2",
+    "test37_semantic_vectors.json": "ee00eeceff6cc4186966381f696df92ffd92dce12bbf4ab5b355c33549549542",
+    "test_arena_integration.py": "f284124d00bd598e8f93a73ff23a919286f18ab5d5ded3f49b14162f4762a48c",
+    "test_authority.py": "735537c42746c5f698b5ce4f25dc950e7a633c397d690d97268c096386f9b4d7",
+    "test_client.mjs": "7dcbd5239ee1c21b103fb62abdf83228839d3e7aa534aaa015a4bcc4dab286aa",
+    "test_event_boundary.mjs": "7bd2056485ddb1b30b73d42bf6942dce02dde7aebba2f6652d74a4365fc584fb",
+    "test_event_boundary.py": "755f335f6d3ad44f11a2d797b6e1d0bd267858237c857f7e211a16f0d2e7300d",
+    "test_projection_security.py": "d9b1ade2c0c426b624f3031b918fb146b63615eb619076178e3b28ebf3dc460e",
+    "test_receipts.py": "f93ccd204e0673289359d7722a3ebacb0396f4301cbd808abb787fec2b0d9599",
+    "test_room_adapter.mjs": "eaa01e6d2818f306fd9a9db9f13de690c490e7c614261de06a3f97a2ac90fccc",
+    "translation.json": "fe8fbb30b366b266ca615cccaa1b2f9f01553dc1e35cb60bca5172e4f094fd7f",
+    "tsconfig.json": "6aee4c84e4a7febcdbde2d0bc4f8be53296b4f46da8b9cd875d89e74c7fe9c19",
+    "type_contract.ts": "6d87d5525c6ab66cad7e9fbd504787d05945222ff328383031c5219e7108a419",
+    "vendor/test38/app.js": "9fe767cc93ded7101f52cdca1244ae0dffd9d69e0c846d18bbce2bb627cf7b64",
+    "vendor/test38/index.html": "42e30d86bb441219ae3bcb5c92ea070e838de12757ec0ff69e445493cb1681b9",
+    "vendor/test38/room-client.js": "bce07e7e0278deac1ad00a84ddf31a19ec8d0d41cbb4113addc0da1308492d1e",
+    "vendor/test38/room-v2-adapter.js": "7fb90ffee1a089fbe9ba9501c8f2b42bbb889602a6b1b2a658df4787dee7264b",
+    "vendor/test38/styles.css": "044783e74c1bb8cadd3ca62151d5f8f0332af87a47cbe1d927a50d7673677905",
+    "verify_test32.py": "816709a4f8461d0573948cadd344fe39af31a39073c867cace6940e88990b187"
+  },
+  "status": "LOCAL-TEST-PASS",
+  "contract": "CONTRACT_TEST_PASS",
+  "transport": "MOCK_TRANSPORT_PASS"
+}

@@ -1,0 +1,303 @@
+{
+  "scope": "CHROMIUM_LINUX_LOCAL_HTTP_REAL_TEST38_SYNTHETIC_VISUAL",
+  "source_scene": {
+    "id": "c1",
+    "name": "Cena de explora\u00e7\u00e3o TEST",
+    "n": 7,
+    "walls": [],
+    "danger": [],
+    "terrain": {},
+    "markers": [],
+    "units": [
+      {
+        "id": "u1",
+        "name": "Exploradora TEST",
+        "mark": "E",
+        "team": "ally",
+        "x": 1,
+        "y": 1,
+        "range": 1,
+        "hp": 100,
+        "soul": 50,
+        "pa": 60
+      },
+      {
+        "id": "u2",
+        "name": "Conjurador TEST",
+        "mark": "C",
+        "team": "ally",
+        "x": 1,
+        "y": 3,
+        "range": 1,
+        "hp": 100,
+        "soul": 50,
+        "pa": 60
+      },
+      {
+        "id": "u3",
+        "name": "Criatura TEST",
+        "mark": "X",
+        "team": "enemy",
+        "x": 5,
+        "y": 2,
+        "range": 1,
+        "hp": 100,
+        "soul": 50,
+        "pa": 60
+      }
+    ],
+    "selected": "u1",
+    "mode": "play",
+    "round": 1,
+    "stepsUsed": 0,
+    "acted": false,
+    "logs": [
+      "Cena sint\u00e9tica criada; nenhuma fonte oficial."
+    ],
+    "notes": "",
+    "frames": [],
+    "frameTopology": null,
+    "explored": [],
+    "fovEnabled": false,
+    "fovRadius": 8
+  },
+  "recovered_id": "test0c799f9e7ace9d83_2",
+  "persisted_receipt": {
+    "client_action_id": "test0c799f9e7ace9d83_2",
+    "code": "APPLIED",
+    "mechanical_result_ref": null,
+    "mechanics": "NOT_REQUESTED",
+    "public_event_id": "event-2",
+    "receipt_id": "receipt-23aef6bb74ac4c5fb300cbe075e945cc",
+    "receipt_version": 1,
+    "revision": 2,
+    "status": "ACCEPTED"
+  },
+  "wire": [
+    {
+      "profile": "gm",
+      "request": {
+        "schema_version": 3,
+        "op": "arena_bootstrap",
+        "room_id": "arena-test",
+        "snapshot": {
+          "sceneId": "c1",
+          "n": 7,
+          "walls": [],
+          "units": [
+            {
+              "id": "u1",
+              "name": "Exploradora TEST",
+              "mark": "E",
+              "team": "ally",
+              "ownerId": "p1",
+              "x": 1,
+              "y": 1
+            },
+            {
+              "id": "u2",
+              "name": "Conjurador TEST",
+              "mark": "C",
+              "team": "ally",
+              "ownerId": "p2",
+              "x": 1,
+              "y": 3
+            },
+            {
+              "id": "u3",
+              "name": "Criatura TEST",
+              "mark": "X",
+              "team": "enemy",
+              "ownerId": null,
+              "x": 5,
+              "y": 2
+            }
+          ],
+          "markers": []
+        },
+        "bindings": {
+          "u1": {
+            "actor_id": "actor-1",
+            "viewers": [
+              "gm",
+              "p1"
+            ]
+          },
+          "u2": {
+            "actor_id": "actor-2",
+            "viewers": [
+              "gm",
+              "p2"
+            ]
+          },
+          "u3": {
+            "actor_id": "actor-m",
+            "viewers": [
+              "gm"
+            ]
+          }
+        },
+        "provenance": {
+          "source": "TEST38_EXPLICIT_VISUAL_IMPORT",
+          "frontend_sha256": "085fe620b26a590157702cc96b6f9e8d5cf0098cd552bb4d1023dbe0d31e9b4c"
+        }
+      },
+      "status": 200,
+      "body": "{\"ok\":true,\"op\":\"arena_bootstrap\",\"revision\":0,\"scene_sha256\":\"022b57b06b417e69f6bfa04c5ad13dd28a5ecdb5decb3f1440cfa8289ca4d92c\",\"schema_version\":3}"
+    },
+    {
+      "profile": "p1",
+      "request": {
+        "schema_version": 3,
+        "op": "arena",
+        "frame": {
+          "v": 2,
+          "type": "JOIN",
+          "roomId": "arena-test",
+          "ticket": "test-local-p1"
+        }
+      },
+      "status": 200,
+      "body": "{\"frames\":[{\"members\":[{\"id\":\"gm\",\"label\":\"gm TEST\",\"role\":\"MASTER\"},{\"id\":\"p1\",\"label\":\"p1 TEST\",\"role\":\"PLAYER\"},{\"id\":\"p2\",\"label\":\"p2 TEST\",\"role\":\"PLAYER\"}],\"participantId\":\"p1\",\"revision\":0,\"role\":\"PLAYER\",\"roomId\":\"arena-test\",\"sessionEpoch\":3064692063898588,\"snapshot\":{\"markers\":[],\"n\":7,\"sceneId\":\"c1\",\"units\":[{\"id\":\"u1\",\"mark\":\"E\",\"name\":\"Exploradora TEST\",\"ownerId\":\"p1\",\"team\":\"ally\",\"x\":1,\"y\":1}],\"walls\":[]},\"type\":\"WELCOME\",\"v\":2}],\"ok\":true,\"op\":\"arena\",\"receipt\":null,\"schema_version\":3}"
+    },
+    {
+      "profile": "p1",
+      "request": {
+        "schema_version": 3,
+        "op": "arena",
+        "frame": {
+          "v": 2,
+          "type": "INTENT",
+          "roomId": "arena-test",
+          "commandId": "test12826799436ee7cc_1",
+          "baseRevision": 0,
+          "kind": "MOVE_VISUAL_TEST",
+          "unitId": "u1",
+          "payload": {
+            "x": 2,
+            "y": 2
+          }
+        }
+      },
+      "status": 200,
+      "body": "{\"frames\":[{\"actorId\":\"u1\",\"commandId\":\"test12826799436ee7cc_1\",\"kind\":\"MOVE_VISUAL_TEST\",\"revision\":1,\"roomId\":\"arena-test\",\"snapshot\":{\"markers\":[],\"n\":7,\"sceneId\":\"c1\",\"units\":[{\"id\":\"u1\",\"mark\":\"E\",\"name\":\"Exploradora TEST\",\"ownerId\":\"p1\",\"team\":\"ally\",\"x\":2,\"y\":2}],\"walls\":[]},\"type\":\"EVENT\",\"v\":2},{\"commandId\":\"test12826799436ee7cc_1\",\"eventId\":\"event-1\",\"revision\":1,\"roomId\":\"arena-test\",\"status\":\"ACCEPTED\",\"type\":\"ACK\",\"v\":2}],\"ok\":true,\"op\":\"arena\",\"receipt\":{\"client_action_id\":\"test12826799436ee7cc_1\",\"code\":\"APPLIED\",\"mechanical_result_ref\":null,\"mechanics\":\"NOT_REQUESTED\",\"public_event_id\":\"event-1\",\"receipt_id\":\"receipt-ffedb761174348658a697a6e7a5336b3\",\"receipt_version\":1,\"revision\":1,\"status\":\"ACCEPTED\"},\"schema_version\":3}"
+    },
+    {
+      "profile": "p1",
+      "request": {
+        "schema_version": 3,
+        "op": "arena",
+        "frame": {
+          "v": 2,
+          "type": "JOIN",
+          "roomId": "arena-test",
+          "ticket": "test-local-p1"
+        }
+      },
+      "status": 200,
+      "body": "{\"frames\":[{\"members\":[{\"id\":\"gm\",\"label\":\"gm TEST\",\"role\":\"MASTER\"},{\"id\":\"p1\",\"label\":\"p1 TEST\",\"role\":\"PLAYER\"},{\"id\":\"p2\",\"label\":\"p2 TEST\",\"role\":\"PLAYER\"}],\"participantId\":\"p1\",\"revision\":1,\"role\":\"PLAYER\",\"roomId\":\"arena-test\",\"sessionEpoch\":3064692063898588,\"snapshot\":{\"markers\":[],\"n\":7,\"sceneId\":\"c1\",\"units\":[{\"id\":\"u1\",\"mark\":\"E\",\"name\":\"Exploradora TEST\",\"ownerId\":\"p1\",\"team\":\"ally\",\"x\":2,\"y\":2}],\"walls\":[]},\"type\":\"WELCOME\",\"v\":2}],\"ok\":true,\"op\":\"arena\",\"receipt\":null,\"schema_version\":3}"
+    },
+    {
+      "profile": "p1",
+      "request": {
+        "schema_version": 3,
+        "op": "arena",
+        "frame": {
+          "v": 2,
+          "type": "JOIN",
+          "roomId": "arena-test",
+          "ticket": "test-local-p1"
+        }
+      },
+      "status": 200,
+      "body": "{\"frames\":[{\"members\":[{\"id\":\"gm\",\"label\":\"gm TEST\",\"role\":\"MASTER\"},{\"id\":\"p1\",\"label\":\"p1 TEST\",\"role\":\"PLAYER\"},{\"id\":\"p2\",\"label\":\"p2 TEST\",\"role\":\"PLAYER\"}],\"participantId\":\"p1\",\"revision\":2,\"role\":\"PLAYER\",\"roomId\":\"arena-test\",\"sessionEpoch\":3064692063898588,\"snapshot\":{\"markers\":[],\"n\":7,\"sceneId\":\"c1\",\"units\":[{\"id\":\"u1\",\"mark\":\"E\",\"name\":\"Exploradora TEST\",\"ownerId\":\"p1\",\"team\":\"ally\",\"x\":3,\"y\":2}],\"walls\":[]},\"type\":\"WELCOME\",\"v\":2}],\"ok\":true,\"op\":\"arena\",\"receipt\":null,\"schema_version\":3}"
+    },
+    {
+      "profile": "p1",
+      "request": {
+        "schema_version": 3,
+        "op": "arena",
+        "frame": {
+          "v": 2,
+          "type": "RECEIPT_QUERY",
+          "roomId": "arena-test",
+          "commandId": "test0c799f9e7ace9d83_2"
+        }
+      },
+      "status": 200,
+      "body": "{\"frames\":[{\"commandId\":\"test0c799f9e7ace9d83_2\",\"eventId\":\"event-2\",\"revision\":2,\"roomId\":\"arena-test\",\"status\":\"ACCEPTED\",\"type\":\"ACK\",\"v\":2}],\"ok\":true,\"op\":\"arena\",\"receipt\":{\"client_action_id\":\"test0c799f9e7ace9d83_2\",\"code\":\"APPLIED\",\"mechanical_result_ref\":null,\"mechanics\":\"NOT_REQUESTED\",\"public_event_id\":\"event-2\",\"receipt_id\":\"receipt-23aef6bb74ac4c5fb300cbe075e945cc\",\"receipt_version\":1,\"revision\":2,\"status\":\"ACCEPTED\"},\"schema_version\":3}"
+    },
+    {
+      "profile": "p1",
+      "request": {
+        "schema_version": 3,
+        "op": "arena",
+        "frame": {
+          "v": 2,
+          "type": "RESYNC",
+          "roomId": "arena-test",
+          "afterRevision": 2
+        }
+      },
+      "status": 200,
+      "body": "{\"frames\":[{\"revision\":2,\"roomId\":\"arena-test\",\"snapshot\":{\"markers\":[],\"n\":7,\"sceneId\":\"c1\",\"units\":[{\"id\":\"u1\",\"mark\":\"E\",\"name\":\"Exploradora TEST\",\"ownerId\":\"p1\",\"team\":\"ally\",\"x\":3,\"y\":2}],\"walls\":[]},\"type\":\"SNAPSHOT\",\"v\":2}],\"ok\":true,\"op\":\"arena\",\"receipt\":null,\"schema_version\":3}"
+    },
+    {
+      "profile": "p1",
+      "request": {
+        "schema_version": 3,
+        "op": "arena",
+        "frame": {
+          "v": 2,
+          "type": "INTENT",
+          "roomId": "arena-test",
+          "commandId": "test12826799436ee7cc_1",
+          "baseRevision": 0,
+          "kind": "MOVE_VISUAL_TEST",
+          "unitId": "u1",
+          "payload": {
+            "x": 2,
+            "y": 2
+          }
+        }
+      },
+      "status": 200,
+      "body": "{\"frames\":[{\"commandId\":\"test12826799436ee7cc_1\",\"eventId\":\"event-1\",\"revision\":1,\"roomId\":\"arena-test\",\"status\":\"ACCEPTED\",\"type\":\"ACK\",\"v\":2},{\"revision\":2,\"roomId\":\"arena-test\",\"snapshot\":{\"markers\":[],\"n\":7,\"sceneId\":\"c1\",\"units\":[{\"id\":\"u1\",\"mark\":\"E\",\"name\":\"Exploradora TEST\",\"ownerId\":\"p1\",\"team\":\"ally\",\"x\":3,\"y\":2}],\"walls\":[]},\"type\":\"SNAPSHOT\",\"v\":2}],\"ok\":true,\"op\":\"arena\",\"receipt\":{\"client_action_id\":\"test12826799436ee7cc_1\",\"code\":\"APPLIED\",\"mechanical_result_ref\":null,\"mechanics\":\"NOT_REQUESTED\",\"public_event_id\":\"event-1\",\"receipt_id\":\"receipt-ffedb761174348658a697a6e7a5336b3\",\"receipt_version\":1,\"revision\":1,\"status\":\"ACCEPTED\"},\"schema_version\":3}"
+    }
+  ],
+  "player2_wire": [
+    {
+      "profile": "p2",
+      "request": {
+        "schema_version": 3,
+        "op": "arena",
+        "frame": {
+          "v": 2,
+          "type": "JOIN",
+          "roomId": "arena-test",
+          "ticket": "test-local-p2"
+        }
+      },
+      "status": 200,
+      "body": "{\"frames\":[{\"members\":[{\"id\":\"gm\",\"label\":\"gm TEST\",\"role\":\"MASTER\"},{\"id\":\"p1\",\"label\":\"p1 TEST\",\"role\":\"PLAYER\"},{\"id\":\"p2\",\"label\":\"p2 TEST\",\"role\":\"PLAYER\"}],\"participantId\":\"p2\",\"revision\":2,\"role\":\"PLAYER\",\"roomId\":\"arena-test\",\"sessionEpoch\":3064692063898588,\"snapshot\":{\"markers\":[],\"n\":7,\"sceneId\":\"c1\",\"units\":[{\"id\":\"u2\",\"mark\":\"C\",\"name\":\"Conjurador TEST\",\"ownerId\":\"p2\",\"team\":\"ally\",\"x\":1,\"y\":3}],\"walls\":[]},\"type\":\"WELCOME\",\"v\":2}],\"ok\":true,\"op\":\"arena\",\"receipt\":null,\"schema_version\":3}"
+    },
+    {
+      "profile": "p2",
+      "request": {
+        "schema_version": 3,
+        "op": "arena",
+        "frame": {
+          "v": 2,
+          "type": "RESYNC",
+          "roomId": "arena-test",
+          "afterRevision": 2
+        }
+      },
+      "status": 200,
+      "body": "{\"frames\":[{\"revision\":2,\"roomId\":\"arena-test\",\"snapshot\":{\"markers\":[],\"n\":7,\"sceneId\":\"c1\",\"units\":[{\"id\":\"u2\",\"mark\":\"C\",\"name\":\"Conjurador TEST\",\"ownerId\":\"p2\",\"team\":\"ally\",\"x\":1,\"y\":3}],\"walls\":[]},\"type\":\"SNAPSHOT\",\"v\":2}],\"ok\":true,\"op\":\"arena\",\"receipt\":null,\"schema_version\":3}"
+    }
+  ],
+  "page_errors": [],
+  "official_mechanics": false,
+  "events_applied": 2
+}

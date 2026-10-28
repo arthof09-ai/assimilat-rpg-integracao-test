@@ -21,8 +21,10 @@ def main():
     if not out.parent.is_dir():
         raise SystemExit("STOP: output parent missing")
     digest = hashlib.sha256()
+    created = False
     try:
         with out.open("xb") as target:
+            created = True
             for part in parts:
                 name = part["file"]
                 if not re.fullmatch(r"part[0-9]{2}\.bin", name):
@@ -48,7 +50,8 @@ def main():
             if z.testzip() is not None:
                 raise ValueError("ZIP CRC invalid")
     except Exception:
-        out.unlink(missing_ok=True)
+        if created:
+            out.unlink(missing_ok=True)
         raise
     print(json.dumps({"status": "PASS", "file": str(out), "bytes": manifest["source_size_bytes"], "sha256": digest.hexdigest()}))
     return 0
