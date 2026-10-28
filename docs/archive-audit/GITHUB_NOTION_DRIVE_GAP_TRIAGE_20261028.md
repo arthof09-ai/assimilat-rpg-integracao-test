@@ -109,3 +109,28 @@
 **Priorização de recuperação sem duplicatas:** o `VLAB_CODIGO_MAE_R326_COMPLETO.zip` (15.951.561 B) aparece duas vezes na Biblioteca, porém já possui backup binário em partes Git sob `archive/vlab-source/R326/`: não importar uma terceira cópia sem confronto de SHA. `LEVELUP_ORC_R049_GATES_E_PATCHES_PRONTOS_MESTRE_ONLY_TEST_20261024.zip` (42.008 B) e pacotes CRAFT R49/DMG C29 continuam prioritários **BYTES_PENDING**: presença nominal no Library, não payload recuperado. O GitHub tem HTML R049 e CRAFT R49, mas isso **não substitui ZIP íntegro**.
 
 **Próximo gate:** recuperar bytes originais dos ZIPs em superfície acessível, verificar SHA256/CRC, inspecionar segredos/licenças e comparar conteúdo com o GitHub; então publicar somente faltantes aprovados com manifesto e readback, sem promover a execução a produção. Branch do PR #21 preservada para revisão; nenhuma perda por exclusão na comparação com `main`.
+
+## Recuperação binária REAL da ponte VLAB ↔ Tabletop — adendo posterior (28/10/2026)
+
+**Este adendo SUPERA explicitamente os checkpoints anteriores nesta mesma página que diziam que só checksums foram publicados; os quatro ZIPs já não estão pendentes.** Verificar versão atual antes de repetir recuperações.
+
+**VERIFICADO — fonte original em bytes**: pasta RPG ASSIMILAÇÃO do Drive antigo (https://drive.google.com/drive/folders/1RPl9yOjGrhO73vfRU0jmmGHZkvkKHG1B). Os quatro arquivos ZIP originais foram obtidos por download autenticado do Drive, hash SHA256 recalculado diretamente em bytes e comparado ao seu sidecar *.zip.sha256 lido em ambas as contas, CRC total pelo `zipfile.testzip()`, sem falha. Cada arquivo foi armazenado como *Git blob real*, com SHA1 Git computado dos bytes de origem e idêntico à resposta `create_blob`. A árvore recursiva da branch Git confirma os **quatro nomes, hashes e tamanhos**. Não são descrições nem placeholders.
+
+| ZIP original | Bytes | Membros | SHA256 verificado | Blob Git | Leitura Git |
+|---|---:|---:|---|---|---|
+| `ponte-vlab-tabletop-test.zip` | 367597 | 44 | `80aa408adabcd3c8e9fb2267d7efeb5ee4b9a3ef5e22c618a9d814bb98b751a3` | `ccc5c2b87eb523b8d6f0e9d5090f7c52be167516` | base64 completo + árvore |
+| `ponte-vlab-tabletop-0.2.0.zip` | 189939 | 49 | `31b8a9ea23d6751baeb73be328b705674c929553ccb81e61a0df495df5937fd3` | `2dbade507ebb9ac9c64d9cfebf83e05356abf83c` | base64 completo + árvore |
+| `ponte-vlab-tabletop-0.3.0-test-events.zip` | 218841 | 61 | `78760b79e842f83625daf8c17c2f1bf56c1320a9b35408f949f6fbf82648afda` | `f1fdcc812ca403847d3b821bdd285a6fbb603f6a` | base64 completo + árvore |
+| `ponte-vlab-tabletop-0.4.0-test38.zip` | 1163331 | 65 | `5d3155e25ab9b1a6fa07e85ef43e92cf42de16c12e0cae25e70d868556f31a4a` | `8c6ba721e6df149f8b64bf9c1449ec5fea9f6f8d` | conteúdo base64 limitado pelo conector; árvore hash+tamanho integral verificados |
+
+**PRESERVAÇÃO REAL:** quatro ZIPs em `archive/vlab/bridge-zip/`, **1.939.708 bytes** originais; manifesto da recuperação em `archive/vlab/bridge-zip/MANIFEST_20261028.json`. Os quatro sidecars reais `.zip.sha256` e manifesto inicial corrigido continuam sob `archive/vlab/bridge-checksums/`; este último foi atualizado após migração, com `zip_bytes_migrated=true` e paths verificáveis. Branch `audit/recovery-20261028-library35-drive-checksums`, PR draft [#21](https://github.com/arthof09-ai/assimilat-rpg-integracao-test/pull/21); **nenhuma alteração direta em main, Party, Notion ou motor canônico**.
+
+### Evidência funcional LOCAL executada, sem CI nem homologação canônica
+
+- `test.zip`: 34 testes Python PASS, 15 testes Node aninhados na orquestração Python, typecheck TypeScript PASS, demonstração três clientes PASS. Modo `FAKE_RULES_FOR_TRANSPORT_TEST`.
+- `0.2.0.zip`: 61 testes Python PASS, 38 Node aninhados, typecheck PASS, demonstração três clientes PASS, handoff HTTP sintético PASS.
+- `0.3.0-test-events.zip`: 68 testes Python PASS, 50 Node aninhados, typecheck PASS, demonstração três clientes PASS, handoff HTTP sintético PASS.
+- `0.4.0-test38.zip`: 76 testes Python executados, **75 PASS e 1 ERROR**, integração física de navegador Chromium bloqueada por `Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR` em localhost no ambiente atual; TypeScript typecheck PASS. Classificação **HOLD_BROWSER_VISUAL_TEST**, sem recibo terminal completo nesta rodada. A causa da falha foi bloqueio de navegação local, não prova de erro lógico do motor. Os outros 75 testes PASS não implicam homologação do teste visual.
+- Contagens Node **não** somadas aos testes Python como casos independentes. Python 3.13.5, Node v22.16.0, TypeScript CLI 5.8.3; divergências de versão de compilador histórico devem ser tratadas como contexto, não reescrita do pacote original.
+
+**Limites críticos:** nenhuma equivalência Python ↔ TypeScript com VLAB oficial, Android físico, CI GitHub, produção, canonicalização ou aceite NAC-PASS terminal. Os pacotes são históricos TEST. Pacotes ZIP da Biblioteca sem materialização ainda **BYTES_PENDING**, sem substitutos artificiais. PR #21 segue em draft. **LAST-VERIFIED:** quatro ZIPs bytes+sha+CRC+Git blob/tree; os três testes sintéticos completos; 0.4 typecheck e 75/76 unittest com bloqueio de Chromium. **FIRST-PENDING:** rever PR e, no ambiente adequado, completar teste browser 0.4; continuar inventariando Drive pastas e recuperar o próximo ZIP técnico não duplicado com bytes acessíveis. **NO-REPEAT:** não recuperar de novo estes quatro ZIPs, nem VLAB R326 já preservado.
