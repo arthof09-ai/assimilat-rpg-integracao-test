@@ -1,0 +1,25 @@
+name: CRAFT + PA — Native consultation
+on:
+  pull_request:
+    paths:
+      - 'archive/craft-pa-native/**'
+      - '.github/workflows/craft-pa-native.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: craft-pa-native-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  native-consultation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify original sources and native CRAFT to PA call
+        run: python -B archive/craft-pa-native/verify_artifact.py

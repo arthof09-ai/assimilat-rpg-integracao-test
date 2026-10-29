@@ -1,0 +1,25 @@
+{
+  "release": "CRAFT-FINAL-20261029",
+  "state": "NATIVE_CONSULTATION_DELIVERED",
+  "artifact": "CRAFT_PA_NATIVE_20261029.zip",
+  "bytes": 1290856,
+  "sha256": "215c895a9e4bd3da99172cca429ca6b986ee2b6b895c13c53559657576832cc1",
+  "cold_replay": {
+    "status": "LOCAL-TEST-PASS",
+    "tests": 149,
+    "suites": {
+      "provider_original": 48,
+      "qmc_original": 47,
+      "native_acceptance": 8,
+      "readonly_consumer_original": 46
+    },
+    "hashed_files": 248,
+    "remote_writes": 0,
+    "scope": "Consulta assistida CRAFT/PA; não produz estoque ou aprova rank automaticamente"
+  },
+  "source_originals_preserved": true,
+  "native_sources_recent": 3,
+  "new_recipe_or_stock_created": false,
+  "library_formulas": 91,
+  "canonical_promotion": false
+}
